@@ -6,15 +6,15 @@ uses
   Types,
   Classes,
   ShpFiles,
-  t_Shp2PasProcessor;
+  t_Shp2PasProcessor,
+  u_KmlWriter;
 
 type
-  TRoundedArray = array of TPoint;
-
   TShp2PasProcessor = class(TObject)
   private
     FShapeFile: string;
     FOutPutPath: string;
+    FKmlOutputRoot: string;
     FLatLonAccuracy: TLatLonAccuracy;
     FDoCompactArray: Boolean;
     FOnProcessMessages: TOnProgressMessages;
@@ -42,6 +42,7 @@ type
       const AShapePart: TShapePart;
       const AShapeVertices: TShapeVertices;
       const AArrayName: AnsiString;
+      const AKmlWriter: TKmlWriter;
       out ACount: Integer
     ): AnsiString;
   public
@@ -64,8 +65,9 @@ uses
   SysUtils;
 
 const
-  cCR  = #13#10;
+  cCRLF  = #13#10;
   cTab = #$20#$20;
+  cKmlRoot = 'TzKml';
   cTzPolygon = 'TzPolygon';
   cTzWorldConst = 'c_TzWorld';
   cTzWorldTypes = 't_TzWorld';
@@ -82,11 +84,13 @@ constructor TShp2PasProcessor.Create(
 begin
   inherited Create;
   FShapeFile := AShapeFile;
-  FOutPutPath := AOutPutPath;
+  FOutPutPath := IncludeTrailingPathDelimiter(AOutPutPath);
   FLatLonAccuracy := ALatLonAccuracy;
   FDoCompactArray := ADoCompactArray;
   FOnProcessMessages := AOnProcessMessages;
   FMemStream := TMemoryStream.Create;
+  FKmlOutputRoot := FOutPutPath + cKmlRoot + PathDelim;
+  ForceDirectories(FKmlOutputRoot);
 end;
 
 destructor TShp2PasProcessor.Destroy;
@@ -231,6 +235,7 @@ function TShp2PasProcessor.ShapePartToString(
   const AShapePart: TShapePart;
   const AShapeVertices: TShapeVertices;
   const AArrayName: AnsiString;
+  const AKmlWriter: TKmlWriter;
   out ACount: Integer
 ): AnsiString;
 var
@@ -261,10 +266,10 @@ begin
     end;
   end;
 
-  VBody := cTab + AArrayName + ': array [0..' + IntToStr(VCount - 1) + '] of TTimeZonePoint = (' + cCR;
+  VBody := cTab + AArrayName + ': array [0..' + IntToStr(VCount - 1) + '] of TTimeZonePoint = (' + cCRLF;
   for I := 0 to VCount - 1 do begin
     if J >= 4 then begin
-      VBody := VBody + VStr + ',' + cCR;
+      VBody := VBody + VStr + ',' + cCRLF;
       VStr := '';
       J := 0;
     end;
@@ -277,7 +282,10 @@ begin
     Inc(J);
   end;
   ACount := VCount;
-  Result := VBody + VStr + cCR + cTab + ');' + cCR + cCR;
+  Result := VBody + VStr + cCRLF + cTab + ');' + cCRLF + cCRLF;
+
+  AKmlWriter.AddPolygon(AArrayName, FRoundedArray, VCount);
+
 end;
 
 function TShp2PasProcessor.TimeZoneToString(
@@ -295,28 +303,35 @@ var
   VShapePart: TShapePart;
   VShapeVertices: TShapeVertices;
   VMin, VMax: TPoint;
+  VKmlWriter: TKmlWriter;
 begin
-  Result := 'unit c_' + AArrayBaseName + ';' + cCR +
-            cCR +
-            'interface' + cCR +
-            cCR +
-            'uses' + cCR +
-            cTab + cTzWorldTypes + ';' + cCR +
-            cCR +
-            'const' + cCR;
+  Result := 'unit c_' + AArrayBaseName + ';' + cCRLF +
+            cCRLF +
+            'interface' + cCRLF +
+            cCRLF +
+            'uses' + cCRLF +
+            cTab + cTzWorldTypes + ';' + cCRLF +
+            cCRLF +
+            'const' + cCRLF;
 
-  // Write Polygons to single arrays
-  SetLength(VCountList, AShapeObject.Parts.Count);
-  VShapeVertices := AShapeObject.Vertices;
-  for I := 0 to AShapeObject.Parts.Count - 1 do begin
-    VShapePart := AShapeObject.Parts.Parts[I];
-    Result := Result + ShapePartToString(
-      VShapePart,
-      VShapeVertices,
-      'c' + AArrayBaseName + '_' + IntToStr(I),
-      VCount
-    );
-    VCountList[I] := IntToStr(VCount);
+  VKmlWriter := TKmlWriter.Create(FKmlOutputRoot + AArrayBaseName + '.kml', FLatLonAccuracy);
+  try
+    // Write Polygons to single arrays
+    SetLength(VCountList, AShapeObject.Parts.Count);
+    VShapeVertices := AShapeObject.Vertices;
+    for I := 0 to AShapeObject.Parts.Count - 1 do begin
+      VShapePart := AShapeObject.Parts.Parts[I];
+      Result := Result + ShapePartToString(
+        VShapePart,
+        VShapeVertices,
+        'c' + AArrayBaseName + '_' + IntToStr(I),
+        VKmlWriter,
+        VCount
+      );
+      VCountList[I] := IntToStr(VCount);
+    end;
+  finally
+    VKmlWriter.Free;
   end;
 
   // Combine Polygons to one struct
@@ -325,14 +340,14 @@ begin
     if VStr = '' then begin
       VComma := '';
     end else begin
-      VComma := ', ' + cCR + cTab + cTab;
+      VComma := ', ' + cCRLF + cTab + cTab;
     end;
     VStr := VStr + VComma + '(PointsCount: ' + VCountList[I] + '; FirstPoint: @c' + AArrayBaseName + '_' + IntToStr(I) + '[0])';
   end;
   Result := Result +
-    cTab + 'c' + AArrayBaseName + 'Polygon: array[0..' + IntToStr(AShapeObject.Parts.Count - 1) + '] of TTimeZonePolygon = (' + cCR +
-    cTab + cTab + VStr + cCR +
-    cTab + ');' + cCR + cCR;
+    cTab + 'c' + AArrayBaseName + 'Polygon: array[0..' + IntToStr(AShapeObject.Parts.Count - 1) + '] of TTimeZonePolygon = (' + cCRLF +
+    cTab + cTab + VStr + cCRLF +
+    cTab + ');' + cCRLF + cCRLF;
 
   // Write Object Boundary
   case FLatLonAccuracy of
@@ -348,20 +363,20 @@ begin
   VMax.X := Round(RoundTo(AShapeObject.ObjectBounds.Max.X, (-VAccuracy)) * Power(10, VAccuracy));
   VMax.Y := Round(RoundTo(AShapeObject.ObjectBounds.Max.Y, (-VAccuracy)) * Power(10, VAccuracy));
 
-  Result := Result + cTab + 'c' + AArrayBaseName + 'Bound' + ': TTimeZoneBound = (' + cCR +
-    cTab + cTab + 'Min: (X: ' + IntToStr(VMin.X) + '; Y: ' + IntToStr(VMin.Y) + ');' + cCR +
-    cTab + cTab + 'Max: (X: ' + IntToStr(VMax.X) + '; Y: ' + IntToStr(VMax.Y) + ')' + cCR +
-    cTab + ');' + cCR;
+  Result := Result + cTab + 'c' + AArrayBaseName + 'Bound' + ': TTimeZoneBound = (' + cCRLF +
+    cTab + cTab + 'Min: (X: ' + IntToStr(VMin.X) + '; Y: ' + IntToStr(VMin.Y) + ');' + cCRLF +
+    cTab + cTab + 'Max: (X: ' + IntToStr(VMax.X) + '; Y: ' + IntToStr(VMax.Y) + ')' + cCRLF +
+    cTab + ');' + cCRLF;
 
   // Make TimeZone struct for current TZID
-  Result := Result + cCR + cTab + 'c' + AArrayBaseName + ': TTimeZoneInfo = (' + cCR +
-    cTab + cTab + 'TZID: ''' + ATZID + ''';' + cCR +
-    cTab + cTab + 'Bound: @c' + AArrayBaseName + 'Bound;' + cCR +
-    cTab + cTab + 'PolygonsCount: ' + IntToStr(AShapeObject.Parts.Count) + ';' + cCR +
-    cTab + cTab + 'FirstPolygon: @c' + AArrayBaseName + 'Polygon[0]' + cCR +
-    cTab + ');' + cCR;
+  Result := Result + cCRLF + cTab + 'c' + AArrayBaseName + ': TTimeZoneInfo = (' + cCRLF +
+    cTab + cTab + 'TZID: ''' + ATZID + ''';' + cCRLF +
+    cTab + cTab + 'Bound: @c' + AArrayBaseName + 'Bound;' + cCRLF +
+    cTab + cTab + 'PolygonsCount: ' + IntToStr(AShapeObject.Parts.Count) + ';' + cCRLF +
+    cTab + cTab + 'FirstPolygon: @c' + AArrayBaseName + 'Polygon[0]' + cCRLF +
+    cTab + ');' + cCRLF;
 
-  Result := Result + cCR + 'implementation' + cCR + cCR + 'end.';
+  Result := Result + cCRLF + 'implementation' + cCRLF + cCRLF + 'end.';
 end;
 
 procedure TShp2PasProcessor.WriteTzWorldConst(const ATZIDList: TStringList);
@@ -372,12 +387,12 @@ var
   VAccuracy: AnsiString;
 begin
   VStr :=
-    'unit ' + cTzWorldConst + ';' + cCR +
-    cCR +
-    'interface' + cCR +
-    cCR +
-    'uses' + cCR +
-    cTab + cTzWorldTypes + ',' + cCR;
+    'unit ' + cTzWorldConst + ';' + cCRLF +
+    cCRLF +
+    'interface' + cCRLF +
+    cCRLF +
+    'uses' + cCRLF +
+    cTab + cTzWorldTypes + ',' + cCRLF;
 
   // Write uses unit list
   for I := 0 to ATZIDList.Count - 1 do begin
@@ -386,21 +401,21 @@ begin
     end else begin
       VComma := ',';
     end;
-    VStr := VStr + cTab + 'c_' + ATZIDList.Strings[I] + VComma + cCR;
+    VStr := VStr + cTab + 'c_' + ATZIDList.Strings[I] + VComma + cCRLF;
   end;
 
   // Write core array
-  VStr := VStr + cCR + 'const' + cCR +
-      cTab + 'cTzWorld: array [0..' + IntToStr(ATZIDList.Count - 1) + '] of PTimeZoneInfo = (' + cCR;
+  VStr := VStr + cCRLF + 'const' + cCRLF +
+      cTab + 'cTzWorld: array [0..' + IntToStr(ATZIDList.Count - 1) + '] of PTimeZoneInfo = (' + cCRLF;
   for I := 0 to ATZIDList.Count - 1 do begin
     if I = ATZIDList.Count - 1 then begin
       VComma := '';
     end else begin
-      VComma := ', ' + cCR;
+      VComma := ', ' + cCRLF;
     end;
     VStr := VStr + cTab + cTab + '@c' + ATZIDList.Strings[I] + VComma;
   end;
-  VStr := VStr + cCR + cTab + ');' + cCR;
+  VStr := VStr + cCRLF + cTab + ');' + cCRLF;
 
   case FLatLonAccuracy of
     acTwoDigitAfterDot:   VAccuracy := '100';
@@ -409,9 +424,9 @@ begin
   else
     VAccuracy := '10';
   end;
-  VStr := VStr + cCR + cTab + 'cDegreeAccuracyDiv = ' + VAccuracy + ';' + cCR;
+  VStr := VStr + cCRLF + cTab + 'cDegreeAccuracyDiv = ' + VAccuracy + ';' + cCRLF;
 
-  VStr := VStr + cCR + 'implementation' + cCR + cCR + 'end.';
+  VStr := VStr + cCRLF + 'implementation' + cCRLF + cCRLF + 'end.';
 
   BufferToFile(VStr, FOutPutPath + cTzWorldConst + '.pas');
 end;
@@ -430,39 +445,39 @@ begin
   end;
 
   VStr :=
-    'unit ' + cTzWorldTypes + ';' + cCR +
-    cCR +
-    'interface' + cCR +
-    cCR +
-    'type' + cCR +
-    cTab + 'TTimeZonePoint = record' + cCR +
-    cTab + cTab + 'X: ' + VPointType + '; // Lon' + cCR +
-    cTab + cTab + 'Y: ' + VPointType + '; // Lat' + cCR +
-    cTab + 'end;' + cCR +
-    cTab + 'PTimeZonePoint = ^TTimeZonePoint;' + cCR +
-    cCR +
-    cTab + 'TTimeZonePolygon = record' + cCR +
-    cTab + cTab + 'PointsCount: Integer;' + cCR +
-    cTab + cTab + 'FirstPoint: PTimeZonePoint;' + cCR +
-    cTab + 'end;' + cCR +
-    cTab + 'PTimeZonePolygon = ^TTimeZonePolygon;' + cCR +
-    cCR +
-    cTab + 'TTimeZoneBound = record' + cCR +
-    cTab + cTab + 'Min: TTimeZonePoint;' + cCR +
-    cTab + cTab + 'Max: TTimeZonePoint;' + cCR +
-    cTab + 'end;' + cCR +
-    cTab + 'PTimeZoneBound = ^TTimeZoneBound;' + cCR +
-    cCR +
-    cTab + 'TTimeZoneInfo = record' + cCR +
-    cTab + cTab + 'TZID: AnsiString;' + cCR +
-    cTab + cTab + 'Bound: PTimeZoneBound;' + cCR +
-    cTab + cTab + 'PolygonsCount: Integer;' + cCR +
-    cTab + cTab + 'FirstPolygon: PTimeZonePolygon;' + cCR +
-    cTab + 'end;' + cCR +
-    cTab + 'PTimeZoneInfo = ^TTimeZoneInfo;' + cCR +
-    cCR +
-    'implementation' + cCR +
-    cCR +
+    'unit ' + cTzWorldTypes + ';' + cCRLF +
+    cCRLF +
+    'interface' + cCRLF +
+    cCRLF +
+    'type' + cCRLF +
+    cTab + 'TTimeZonePoint = record' + cCRLF +
+    cTab + cTab + 'X: ' + VPointType + '; // Lon' + cCRLF +
+    cTab + cTab + 'Y: ' + VPointType + '; // Lat' + cCRLF +
+    cTab + 'end;' + cCRLF +
+    cTab + 'PTimeZonePoint = ^TTimeZonePoint;' + cCRLF +
+    cCRLF +
+    cTab + 'TTimeZonePolygon = record' + cCRLF +
+    cTab + cTab + 'PointsCount: Integer;' + cCRLF +
+    cTab + cTab + 'FirstPoint: PTimeZonePoint;' + cCRLF +
+    cTab + 'end;' + cCRLF +
+    cTab + 'PTimeZonePolygon = ^TTimeZonePolygon;' + cCRLF +
+    cCRLF +
+    cTab + 'TTimeZoneBound = record' + cCRLF +
+    cTab + cTab + 'Min: TTimeZonePoint;' + cCRLF +
+    cTab + cTab + 'Max: TTimeZonePoint;' + cCRLF +
+    cTab + 'end;' + cCRLF +
+    cTab + 'PTimeZoneBound = ^TTimeZoneBound;' + cCRLF +
+    cCRLF +
+    cTab + 'TTimeZoneInfo = record' + cCRLF +
+    cTab + cTab + 'TZID: AnsiString;' + cCRLF +
+    cTab + cTab + 'Bound: PTimeZoneBound;' + cCRLF +
+    cTab + cTab + 'PolygonsCount: Integer;' + cCRLF +
+    cTab + cTab + 'FirstPolygon: PTimeZonePolygon;' + cCRLF +
+    cTab + 'end;' + cCRLF +
+    cTab + 'PTimeZoneInfo = ^TTimeZoneInfo;' + cCRLF +
+    cCRLF +
+    'implementation' + cCRLF +
+    cCRLF +
     'end.';
 
   BufferToFile(VStr, FOutPutPath + cTzWorldTypes + '.pas');

@@ -6,7 +6,8 @@ uses
   u_Shp2PasProcessor in 'u_Shp2PasProcessor.pas',
   t_Shp2PasProcessor in 't_Shp2PasProcessor.pas',
   ShpFiles in 'shapelib\ShpFiles.pas',
-  ShpWrapper in 'shapelib\ShpWrapper.pas';
+  ShpWrapper in 'shapelib\ShpWrapper.pas',
+  u_KmlWriter in 'u_KmlWriter.pas';
 
 {$R *.res}
 

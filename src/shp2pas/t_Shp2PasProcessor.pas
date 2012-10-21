@@ -2,7 +2,12 @@ unit t_Shp2PasProcessor;
 
 interface
 
+uses
+  Types;
+
 type
+  TRoundedArray = array of TPoint;
+
   TLatLonAccuracy = (
     acOneDigitAfterDot,
     acTwoDigitAfterDot,

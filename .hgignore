@@ -1,0 +1,13 @@
+# use glob syntax.
+syntax: glob
+.bin/*
+*.bak
+*.dcu
+*.~*
+*.dsk
+*.bpg
+*.drc
+*.orig
+*.dproj.local
+*.identcache
+*.cbk

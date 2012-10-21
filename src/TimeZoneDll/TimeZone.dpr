@@ -4,7 +4,7 @@ library TimeZone;
 
 uses
   SysUtils,
-  u_TzWorld;
+  u_TimeZone in 'u_TimeZone.pas';
 
 function _LonLatToTimeZoneID(
   const Lon: Double;

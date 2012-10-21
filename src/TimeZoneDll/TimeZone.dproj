@@ -2,10 +2,10 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectGuid>{2dd5653c-2f6f-480e-8545-fd3ae122ed65}</ProjectGuid>
-    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release.x4</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
-    <DCC_DependencyCheckOutputName>..\bin\TimeZone.dll</DCC_DependencyCheckOutputName>
+    <DCC_DependencyCheckOutputName>..\..\bin\TimeZone.dll</DCC_DependencyCheckOutputName>
     <MainSource>TimeZone.dpr</MainSource>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -15,14 +15,14 @@
     <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
     <DCC_Define>RELEASE</DCC_Define>
     <DCC_AssertionsAtRuntime>False</DCC_AssertionsAtRuntime>
-    <DCC_ExeOutput>..\bin</DCC_ExeOutput>
-    <DCC_DcuOutput>..\dcu</DCC_DcuOutput>
-    <DCC_ObjOutput>..\dcu</DCC_ObjOutput>
-    <DCC_HppOutput>..\dcu</DCC_HppOutput>
-    <DCC_UnitSearchPath>.\TZDB;.\TZID\TzPolygon;.\TZID</DCC_UnitSearchPath>
-    <DCC_ResourcePath>.\TZDB;.\TZID\TzPolygon;.\TZID</DCC_ResourcePath>
-    <DCC_ObjPath>.\TZDB;.\TZID\TzPolygon;.\TZID</DCC_ObjPath>
-    <DCC_IncludePath>.\TZDB;.\TZID\TzPolygon;.\TZID</DCC_IncludePath>
+    <DCC_ExeOutput>..\..\bin</DCC_ExeOutput>
+    <DCC_DcuOutput>..\..\dcu</DCC_DcuOutput>
+    <DCC_ObjOutput>..\..\dcu</DCC_ObjOutput>
+    <DCC_HppOutput>..\..\dcu</DCC_HppOutput>
+    <DCC_UnitSearchPath>.\TZID\TzPolygon;.\TZID</DCC_UnitSearchPath>
+    <DCC_ResourcePath>.\TZID\TzPolygon;.\TZID</DCC_ResourcePath>
+    <DCC_ObjPath>.\TZID\TzPolygon;.\TZID</DCC_ObjPath>
+    <DCC_IncludePath>.\TZID\TzPolygon;.\TZID</DCC_IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <Version>7.0</Version>
@@ -37,12 +37,75 @@
     <DCC_ObjPath>.\TZDB;.\TZID\TzPolygon;.\TZID</DCC_ObjPath>
     <DCC_IncludePath>.\TZDB;.\TZID\TzPolygon;.\TZID</DCC_IncludePath>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release.x1|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_AssertionsAtRuntime>False</DCC_AssertionsAtRuntime>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_ExeOutput>..\..\bin</DCC_ExeOutput>
+    <DCC_DcuOutput>..\..\dcu</DCC_DcuOutput>
+    <DCC_ObjOutput>..\..\dcu</DCC_ObjOutput>
+    <DCC_HppOutput>..\..\dcu</DCC_HppOutput>
+    <DCC_UnitSearchPath>.\TZIDx1\TzPolygon;.\TZIDx1</DCC_UnitSearchPath>
+    <DCC_ResourcePath>.\TZIDx1\TzPolygon;.\TZIDx1</DCC_ResourcePath>
+    <DCC_ObjPath>.\TZIDx1\TzPolygon;.\TZIDx1</DCC_ObjPath>
+    <DCC_IncludePath>.\TZIDx1\TzPolygon;.\TZIDx1</DCC_IncludePath>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release.x2|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_AssertionsAtRuntime>False</DCC_AssertionsAtRuntime>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_ExeOutput>..\..\bin</DCC_ExeOutput>
+    <DCC_DcuOutput>..\..\dcu</DCC_DcuOutput>
+    <DCC_ObjOutput>..\..\dcu</DCC_ObjOutput>
+    <DCC_HppOutput>..\..\dcu</DCC_HppOutput>
+    <DCC_UnitSearchPath>.\TZIDx2\TzPolygon;.\TZIDx2</DCC_UnitSearchPath>
+    <DCC_ResourcePath>.\TZIDx2\TzPolygon;.\TZIDx2</DCC_ResourcePath>
+    <DCC_ObjPath>.\TZIDx2\TzPolygon;.\TZIDx2</DCC_ObjPath>
+    <DCC_IncludePath>.\TZIDx2\TzPolygon;.\TZIDx2</DCC_IncludePath>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release.x3|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_AssertionsAtRuntime>False</DCC_AssertionsAtRuntime>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_ExeOutput>..\..\bin</DCC_ExeOutput>
+    <DCC_DcuOutput>..\..\dcu</DCC_DcuOutput>
+    <DCC_ObjOutput>..\..\dcu</DCC_ObjOutput>
+    <DCC_HppOutput>..\..\dcu</DCC_HppOutput>
+    <DCC_UnitSearchPath>.\TZIDx3\TzPolygon;.\TZIDx3</DCC_UnitSearchPath>
+    <DCC_ResourcePath>.\TZIDx3\TzPolygon;.\TZIDx3</DCC_ResourcePath>
+    <DCC_ObjPath>.\TZIDx3\TzPolygon;.\TZIDx3</DCC_ObjPath>
+    <DCC_IncludePath>.\TZIDx3\TzPolygon;.\TZIDx3</DCC_IncludePath>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release.x4|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_AssertionsAtRuntime>False</DCC_AssertionsAtRuntime>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_ExeOutput>..\..\bin</DCC_ExeOutput>
+    <DCC_DcuOutput>..\..\dcu</DCC_DcuOutput>
+    <DCC_ObjOutput>..\..\dcu</DCC_ObjOutput>
+    <DCC_HppOutput>..\..\dcu</DCC_HppOutput>
+    <DCC_UnitSearchPath>.\TZIDx4\TzPolygon;.\TZIDx4</DCC_UnitSearchPath>
+    <DCC_ResourcePath>.\TZIDx4\TzPolygon;.\TZIDx4</DCC_ResourcePath>
+    <DCC_ObjPath>.\TZIDx4\TzPolygon;.\TZIDx4</DCC_ObjPath>
+    <DCC_IncludePath>.\TZIDx4\TzPolygon;.\TZIDx4</DCC_IncludePath>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
   <ProjectExtensions>
     <Borland.Personality>Delphi.Personality</Borland.Personality>
     <Borland.ProjectType />
     <BorlandProject>
-<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">True</VersionInfo><VersionInfo Name="Locale">2057</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">zed</VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys>  <VersionInfoKeys Name="Last Compile">20.10.2012 19:51:17</VersionInfoKeys>
-    </VersionInfoKeys><Excluded_Packages>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">True</VersionInfo><VersionInfo Name="Locale">2057</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">zed</VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys><VersionInfoKeys Name="Last Compile">21.10.2012 13:18:44</VersionInfoKeys></VersionInfoKeys><Excluded_Packages>
       
       
       
@@ -123,22 +186,146 @@
       
       
       
-      <Excluded_Packages Name="$(BDS)\bin\dcldb100.bpl">CodeGear Database Components</Excluded_Packages>
-      <Excluded_Packages Name="$(BDS)\bin\dclnet100.bpl">CodeGear Internet Components</Excluded_Packages>
-      <Excluded_Packages Name="$(BDS)\bin\dbx100.bpl">CodeGear SQL Explorer UI Package</Excluded_Packages>
-      <Excluded_Packages Name="$(BDS)\bin\dclmid100.bpl">CodeGear MyBase DataAccess Components</Excluded_Packages>
-      <Excluded_Packages Name="$(BDS)\bin\dcldbx4100.bpl">CodeGear dbExpress Components</Excluded_Packages>
-      <Excluded_Packages Name="$(BDS)\bin\dclwbm100.bpl">CodeGear InternetExpress Components</Excluded_Packages>
-      <Excluded_Packages Name="$(BDS)\bin\dclbde100.bpl">CodeGear BDE DB Components</Excluded_Packages>
-      <Excluded_Packages Name="$(BDS)\bin\dclmlwiz100.bpl">CodeGear Markup Language Wizards</Excluded_Packages>
-      <Excluded_Packages Name="$(BDS)\bin\dclmcn100.bpl">CodeGear DataSnap Connection Components</Excluded_Packages>
-      <Excluded_Packages Name="$(BDS)\bin\dcltee7100.bpl">TeeChart Components</Excluded_Packages>
-      <Excluded_Packages Name="$(BDS)\bin\dclado100.bpl">CodeGear ADO DB Components</Excluded_Packages>
-      <Excluded_Packages Name="$(BDS)\bin\dcldbxcds4100.bpl">CodeGear SimpleDataset Component (DBX)</Excluded_Packages>
-      <Excluded_Packages Name="$(BDS)\bin\dclie100.bpl">Internet Explorer Components</Excluded_Packages>
-      <Excluded_Packages Name="$(BDS)\bin\dclwebsnap100.bpl">CodeGear WebSnap Components</Excluded_Packages>
-      <Excluded_Packages Name="$(BDS)\bin\dclsoap100.bpl">CodeGear SOAP Components</Excluded_Packages>
-      <Excluded_Packages Name="$(BDS)\Bin\dclib100.bpl">Borland InterBase Express Components</Excluded_Packages>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <Excluded_Packages Name="$(BDS)\bin\dcloffice2k100.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+      <Excluded_Packages Name="$(BDS)\bin\dclofficexp100.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
     </Excluded_Packages><Source><Source Name="MainSource">TimeZone.dpr</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
   </ProjectExtensions>
   <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
@@ -146,6 +333,7 @@
     <DelphiCompile Include="TimeZone.dpr">
       <MainSource>MainSource</MainSource>
     </DelphiCompile>
+    <DCCReference Include="u_TimeZone.pas" />
   </ItemGroup>
 </Project>
 <!-- EurekaLog First Line

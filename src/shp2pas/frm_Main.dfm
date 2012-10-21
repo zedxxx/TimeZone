@@ -129,8 +129,6 @@ object frmMain: TfrmMain
     Width = 210
     Height = 17
     Caption = 'Do Compact Polygons'
-    Checked = True
-    State = cbChecked
     TabOrder = 8
   end
   object dlgOpenFile: TOpenDialog

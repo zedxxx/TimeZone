@@ -15,14 +15,21 @@ uses
   t_TzWorld,
   c_TzWorld;
 
-function LonLatToPoint(const Lon, Lat: Double): TTimeZonePoint; inline;
+type
+  TLonLatPoint = record
+    X: Double;
+    Y: Double;
+  end;
+  PLonLatPoint = ^TLonLatPoint;
+
+function LonLatToPoint(const Lon, Lat: Double): TLonLatPoint; inline;
 begin
-  Result.X := Round(Lon * cDegreeAccuracyDiv);
-  Result.Y := Round(Lat * cDegreeAccuracyDiv);
+  Result.X := Lon;
+  Result.Y := Lat;
 end;
 
 function PointInRect(
-  const APoint: PTimeZonePoint;
+  const APoint: PLonLatPoint;
   const ARect: PTimeZoneBound
 ): Boolean; inline;
 begin
@@ -35,9 +42,9 @@ begin
 end;
 
 function PointInPolygon(
-  const APoint: PTimeZonePoint;
+  const APoint: PLonLatPoint;
   const APolygon: PTimeZonePolygon
-): Boolean;
+): Boolean; 
 var
   I: Integer;
   VPrevPoint: PTimeZonePoint;
@@ -53,7 +60,7 @@ begin
   for I := 1 to APolygon.PointsCount - 1 do begin
     if (((VCurrPoint.Y <= APoint.Y) and (APoint.Y < VPrevPoint.Y)) or
         ((VPrevPoint.Y <= APoint.Y) and (APoint.Y < VCurrPoint.Y))) and
-        (APoint.x > (VPrevPoint.x - VCurrPoint.x) * (APoint.y - VCurrPoint.y) / (VPrevPoint.y - VCurrPoint.y) + VCurrPoint.x) then
+        (APoint.X > (VPrevPoint.X - VCurrPoint.X) * (APoint.Y - VCurrPoint.Y) / (VPrevPoint.Y - VCurrPoint.Y) + VCurrPoint.X) then
     begin
       Result := not Result;
     end;
@@ -63,7 +70,7 @@ begin
 end;
 
 function PointInTimeZone(
-  const APoint: PTimeZonePoint;
+  const APoint: PLonLatPoint;
   const ATimeZone: PTimeZoneInfo;
   var ALastPolygonIndex: Integer
 ): Boolean;
@@ -104,7 +111,7 @@ function LonLatToTimeZoneID(
 ): AnsiString;
 var
   I, J: Integer;
-  VTestPoint: TTimeZonePoint;
+  VTestPoint: TLonLatPoint;
 begin
   Result := '';
   VTestPoint := LonLatToPoint(Lon, Lat);

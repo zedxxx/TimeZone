@@ -24,8 +24,8 @@ type
 
 function LonLatToPoint(const Lon, Lat: Double): TLonLatPoint; inline;
 begin
-  Result.X := Lon;
-  Result.Y := Lat;
+  Result.X := Lon * cDegreeAccuracyDiv;
+  Result.Y := Lat * cDegreeAccuracyDiv;
 end;
 
 function PointInRect(

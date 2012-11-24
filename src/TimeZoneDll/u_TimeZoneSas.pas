@@ -13,8 +13,8 @@ procedure LonLatToTimeZoneTime(
   out ATimeZoneUtcOffset: Extended
 );
 
-procedure InitTimeZoneSyncronizer;
-procedure FinTimeZoneSyncronizer;
+procedure InitTimeZoneSynchronizer;
+procedure FinTimeZoneSynchronizer;
 
 implementation
 
@@ -34,14 +34,14 @@ var
   GTimeZoneDiffByLonLat: ITimeZoneDiffByLonLat = nil;
   GTimeZoneSync: TCriticalSection = nil;
 
-procedure InitTimeZoneSyncronizer;
+procedure InitTimeZoneSynchronizer;
 begin
   if not Assigned(GTimeZoneSync) then begin
     GTimeZoneSync := TCriticalSection.Create;
   end;
 end;
 
-procedure FinTimeZoneSyncronizer;
+procedure FinTimeZoneSynchronizer;
 begin
   FreeAndNil(GTimeZoneSync);
 end;

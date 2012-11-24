@@ -11,7 +11,7 @@ uses
 procedure TimeZoneDLLProc(Reason: Integer);
 begin
   if Reason = DLL_PROCESS_DETACH then begin
-    FinTimeZoneSyncronizer;
+    FinTimeZoneSynchronizer;
   end;
 end;
 
@@ -83,5 +83,5 @@ exports
 begin
   IsMultiThread := True;
   DllProc := @TimeZoneDLLProc;
-  InitTimeZoneSyncronizer;
+  InitTimeZoneSynchronizer;
 end.

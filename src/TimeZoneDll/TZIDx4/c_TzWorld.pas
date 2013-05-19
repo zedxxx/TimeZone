@@ -243,6 +243,7 @@ uses
   c_AsiaKarachi,
   c_AsiaKashgar,
   c_AsiaKathmandu,
+  c_AsiaKhandyga,
   c_AsiaKolkata,
   c_AsiaKrasnoyarsk,
   c_AsiaKuala_Lumpur,
@@ -278,6 +279,7 @@ uses
   c_AsiaTokyo,
   c_AsiaUlaanbaatar,
   c_AsiaUrumqi,
+  c_AsiaUstNera,
   c_AsiaVientiane,
   c_AsiaVladivostok,
   c_AsiaYakutsk,
@@ -408,11 +410,11 @@ uses
   c_PacificTarawa,
   c_PacificTongatapu,
   c_PacificWake,
-  c_PacificWallis;{,
-  c_uninhabited;   }
+  c_PacificWallis{,
+  c_uninhabited};
 
 const
-  cTzWorld: array [0..404] of PTimeZoneInfo = (
+  cTzWorld: array [0..406] of PTimeZoneInfo = (
     @cAfricaAbidjan, 
     @cAfricaAccra, 
     @cAfricaAddis_Ababa, 
@@ -652,6 +654,7 @@ const
     @cAsiaKarachi, 
     @cAsiaKashgar, 
     @cAsiaKathmandu, 
+    @cAsiaKhandyga, 
     @cAsiaKolkata, 
     @cAsiaKrasnoyarsk, 
     @cAsiaKuala_Lumpur, 
@@ -687,6 +690,7 @@ const
     @cAsiaTokyo, 
     @cAsiaUlaanbaatar, 
     @cAsiaUrumqi, 
+    @cAsiaUstNera, 
     @cAsiaVientiane, 
     @cAsiaVladivostok, 
     @cAsiaYakutsk, 
@@ -817,8 +821,8 @@ const
     @cPacificTarawa, 
     @cPacificTongatapu, 
     @cPacificWake, 
-    @cPacificWallis{,
-    @cuninhabited   }
+    @cPacificWallis{, 
+    @cuninhabited}
   );
 
   cDegreeAccuracyDiv = 10000;

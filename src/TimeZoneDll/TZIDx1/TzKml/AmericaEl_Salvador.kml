@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AmericaEl_Salvador.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAmericaEl_Salvador_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -87.900000,13.400000,0 -87.800000,13.400000,0 -87.900000,13.400000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaEl_Salvador_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -87.800000,13.300000,0 -87.700000,13.300000,0 -87.800000,13.300000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaEl_Salvador_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -87.700000,13.200000,0 -87.700000,13.200000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaEl_Salvador_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -87.800000,13.200000,0 -87.800000,13.200000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaEl_Salvador_4</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -87.700000,13.300000,0 -87.700000,13.300000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaEl_Salvador_5</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -89.600000,13.500000,0 -89.700000,13.500000,0 -89.800000,13.500000,0 -89.800000,13.600000,0 -89.900000,13.600000,0 -89.900000,13.700000,0 -90.000000,13.700000,0 -90.100000,13.700000,0 -90.100000,13.800000,0 -90.100000,13.900000,0 -90.000000,13.900000,0 -90.000000,14.000000,0 -89.900000,14.000000,0 -89.900000,14.100000,0 -89.800000,14.100000,0 -89.800000,14.000000,0 -89.700000,14.000000,0 -89.700000,14.100000,0 -89.700000,14.200000,0 -89.600000,14.200000,0 -89.500000,14.200000,0 -89.500000,14.300000,0 -89.600000,14.300000,0 -89.600000,14.400000,0 -89.500000,14.400000,0 -89.400000,14.400000,0 -89.300000,14.400000,0 -89.200000,14.400000,0 -89.200000,14.300000,0 -89.100000,14.300000,0 -89.000000,14.300000,0 -89.000000,14.200000,0 -88.900000,14.200000,0 -88.900000,14.100000,0 -88.800000,14.100000,0 -88.700000,14.100000,0 -88.700000,14.000000,0 -88.600000,14.000000,0 -88.500000,14.000000,0 -88.500000,13.900000,0 -88.400000,13.900000,0 -88.300000,13.900000,0 -88.200000,13.900000,0 -88.100000,13.900000,0 -88.100000,14.000000,0 -88.100000,13.900000,0 -88.000000,13.900000,0 -87.900000,13.900000,0 -87.800000,13.900000,0 -87.700000,13.900000,0 -87.700000,13.800000,0 -87.700000,13.700000,0 -87.800000,13.700000,0 -87.800000,13.600000,0 -87.800000,13.500000,0 -87.700000,13.500000,0 -87.700000,13.400000,0 -87.800000,13.400000,0 -87.800000,13.500000,0 -87.800000,13.400000,0 -87.900000,13.400000,0 -87.900000,13.300000,0 -87.800000,13.300000,0 -87.800000,13.200000,0 -87.900000,13.200000,0 -87.900000,13.100000,0 -87.900000,13.200000,0 -87.900000,13.100000,0 -87.900000,13.200000,0 -88.000000,13.200000,0 -88.000000,13.100000,0 -88.000000,13.200000,0 -88.100000,13.200000,0 -88.200000,13.200000,0 -88.300000,13.200000,0 -88.400000,13.200000,0 -88.500000,13.200000,0 -88.600000,13.200000,0 -88.700000,13.200000,0 -88.800000,13.200000,0 -88.800000,13.300000,0 -88.900000,13.300000,0 -89.000000,13.300000,0 -89.100000,13.400000,0 -89.200000,13.400000,0 -89.200000,13.500000,0 -89.300000,13.500000,0 -89.400000,13.500000,0 -89.500000,13.500000,0 -89.600000,13.500000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

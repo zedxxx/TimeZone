@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AmericaIndianaWinamac.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAmericaIndianaWinamac_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -86.467100,41.171100,0 -86.467700,41.084000,0 -86.466500,40.997300,0 -86.467200,40.909300,0 -86.579700,40.912000,0 -86.582700,40.912000,0 -86.586300,40.912000,0 -86.695800,40.912800,0 -86.698800,40.912800,0 -86.813800,40.913000,0 -86.929300,40.913600,0 -86.930400,40.998400,0 -86.931000,41.086000,0 -86.930900,41.172200,0 -86.814900,41.172600,0 -86.699000,41.172800,0 -86.600100,41.172000,0 -86.582400,41.172000,0 -86.547600,41.172000,0 -86.490900,41.171600,0 -86.476200,41.171100,0 -86.467100,41.171100,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

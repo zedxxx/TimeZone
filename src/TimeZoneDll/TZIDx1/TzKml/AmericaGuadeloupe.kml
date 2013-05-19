@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AmericaGuadeloupe.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAmericaGuadeloupe_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.600000,15.800000,0 -61.600000,15.800000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaGuadeloupe_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.600000,15.800000,0 -61.600000,15.900000,0 -61.600000,15.800000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaGuadeloupe_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.300000,16.000000,0 -61.200000,16.000000,0 -61.200000,15.900000,0 -61.300000,15.900000,0 -61.300000,16.000000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaGuadeloupe_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.600000,15.900000,0 -61.600000,15.900000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaGuadeloupe_4</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.100000,16.200000,0 -61.100000,16.200000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaGuadeloupe_5</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.000000,16.300000,0 -61.100000,16.300000,0 -61.000000,16.300000,0 -61.000000,16.400000,0 -61.000000,16.300000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaGuadeloupe_6</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -63.000000,18.100000,0 -63.000000,18.100000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaGuadeloupe_7</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.700000,16.300000,0 -61.600000,16.300000,0 -61.500000,16.300000,0 -61.500000,16.200000,0 -61.600000,16.200000,0 -61.600000,16.100000,0 -61.600000,16.000000,0 -61.700000,16.000000,0 -61.700000,15.900000,0 -61.700000,16.000000,0 -61.800000,16.000000,0 -61.800000,16.100000,0 -61.800000,16.200000,0 -61.800000,16.300000,0 -61.800000,16.400000,0 -61.700000,16.400000,0 -61.700000,16.300000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaGuadeloupe_8</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.600000,16.300000,0 -61.600000,16.400000,0 -61.600000,16.300000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaGuadeloupe_9</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.500000,16.400000,0 -61.500000,16.500000,0 -61.400000,16.500000,0 -61.400000,16.400000,0 -61.400000,16.300000,0 -61.300000,16.300000,0 -61.200000,16.300000,0 -61.200000,16.200000,0 -61.200000,16.300000,0 -61.300000,16.300000,0 -61.300000,16.200000,0 -61.400000,16.200000,0 -61.500000,16.200000,0 -61.500000,16.300000,0 -61.500000,16.400000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

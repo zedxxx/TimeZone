@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AsiaQatar.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAsiaQatar_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      51.300000,24.600000,0 51.300000,24.600000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaQatar_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      51.600000,25.300000,0 51.600000,25.300000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaQatar_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      51.600000,25.400000,0 51.600000,25.400000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaQatar_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      50.900000,25.500000,0 50.900000,25.500000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaQatar_4</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      52.400000,25.700000,0 52.400000,25.700000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaQatar_5</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      51.200000,26.200000,0 51.300000,26.200000,0 51.200000,26.200000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaQatar_6</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      51.600000,25.200000,0 51.600000,25.100000,0 51.600000,25.000000,0 51.600000,24.900000,0 51.600000,25.000000,0 51.600000,24.900000,0 51.500000,24.900000,0 51.500000,24.800000,0 51.500000,24.700000,0 51.400000,24.700000,0 51.400000,24.600000,0 51.300000,24.600000,0 51.400000,24.600000,0 51.300000,24.600000,0 51.400000,24.600000,0 51.300000,24.600000,0 51.300000,24.700000,0 51.300000,24.600000,0 51.300000,24.700000,0 51.300000,24.600000,0 51.200000,24.600000,0 51.300000,24.600000,0 51.100000,24.500000,0 51.000000,24.500000,0 50.900000,24.500000,0 50.800000,24.700000,0 50.900000,24.800000,0 50.900000,24.900000,0 50.800000,24.900000,0 50.800000,25.000000,0 50.800000,25.100000,0 50.800000,25.200000,0 50.800000,25.300000,0 50.800000,25.400000,0 50.800000,25.500000,0 50.900000,25.500000,0 50.800000,25.500000,0 50.900000,25.500000,0 50.800000,25.500000,0 50.800000,25.600000,0 50.900000,25.600000,0 50.800000,25.600000,0 50.900000,25.600000,0 50.800000,25.600000,0 50.900000,25.600000,0 50.800000,25.600000,0 50.900000,25.600000,0 50.900000,25.500000,0 50.900000,25.600000,0 51.000000,25.600000,0 50.900000,25.600000,0 50.900000,25.700000,0 50.900000,25.800000,0 51.000000,25.800000,0 51.000000,25.900000,0 51.000000,26.000000,0 51.100000,26.000000,0 51.000000,26.000000,0 51.100000,26.000000,0 51.100000,26.100000,0 51.200000,26.100000,0 51.200000,26.200000,0 51.300000,26.200000,0 51.300000,26.100000,0 51.400000,26.100000,0 51.400000,26.000000,0 51.400000,25.900000,0 51.500000,25.900000,0 51.500000,26.000000,0 51.500000,25.900000,0 51.600000,25.900000,0 51.600000,25.800000,0 51.600000,25.700000,0 51.600000,25.800000,0 51.500000,25.800000,0 51.500000,25.700000,0 51.600000,25.700000,0 51.500000,25.700000,0 51.500000,25.600000,0 51.500000,25.700000,0 51.600000,25.700000,0 51.600000,25.600000,0 51.500000,25.600000,0 51.500000,25.500000,0 51.500000,25.400000,0 51.500000,25.300000,0 51.600000,25.300000,0 51.600000,25.200000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaQatar_7</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      51.300000,26.200000,0 51.300000,26.100000,0 51.300000,26.200000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaQatar_8</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      51.600000,25.800000,0 51.600000,25.700000,0 51.600000,25.800000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaQatar_9</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      51.600000,25.800000,0 51.600000,25.800000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

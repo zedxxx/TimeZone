@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AmericaAnguilla.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAmericaAnguilla_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -62.960000,18.280000,0 -62.960000,18.290000,0 -62.960000,18.300000,0 -62.950000,18.300000,0 -62.940000,18.300000,0 -62.930000,18.300000,0 -62.940000,18.290000,0 -62.950000,18.290000,0 -62.960000,18.280000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaAnguilla_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -63.430000,18.610000,0 -63.420000,18.610000,0 -63.430000,18.600000,0 -63.430000,18.610000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaAnguilla_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -63.170000,18.170000,0 -63.170000,18.180000,0 -63.160000,18.180000,0 -63.150000,18.190000,0 -63.140000,18.200000,0 -63.130000,18.200000,0 -63.120000,18.200000,0 -63.110000,18.200000,0 -63.100000,18.200000,0 -63.100000,18.210000,0 -63.070000,18.220000,0 -63.070000,18.230000,0 -63.070000,18.240000,0 -63.070000,18.250000,0 -63.030000,18.260000,0 -63.020000,18.260000,0 -63.010000,18.270000,0 -63.000000,18.260000,0 -62.990000,18.270000,0 -62.980000,18.280000,0 -62.970000,18.280000,0 -62.970000,18.270000,0 -62.980000,18.260000,0 -62.990000,18.260000,0 -62.980000,18.260000,0 -62.980000,18.250000,0 -62.990000,18.240000,0 -62.990000,18.230000,0 -63.000000,18.230000,0 -63.010000,18.230000,0 -63.020000,18.220000,0 -63.020000,18.210000,0 -63.060000,18.200000,0 -63.070000,18.190000,0 -63.090000,18.180000,0 -63.110000,18.180000,0 -63.120000,18.180000,0 -63.130000,18.180000,0 -63.140000,18.180000,0 -63.140000,18.170000,0 -63.150000,18.170000,0 -63.160000,18.170000,0 -63.170000,18.170000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaAnguilla_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -63.250000,18.280000,0 -63.260000,18.280000,0 -63.260000,18.290000,0 -63.240000,18.290000,0 -63.250000,18.280000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

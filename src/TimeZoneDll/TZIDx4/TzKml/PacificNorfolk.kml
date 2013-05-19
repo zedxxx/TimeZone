@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>PacificNorfolk.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cPacificNorfolk_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      167.950000,-29.109600,0 167.951700,-29.107400,0 167.952200,-29.106800,0 167.952300,-29.106700,0 167.958700,-29.104400,0 167.966000,-29.106500,0 167.966600,-29.107200,0 167.968800,-29.109900,0 167.968700,-29.109900,0 167.966200,-29.110900,0 167.961900,-29.110000,0 167.959900,-29.113000,0 167.958200,-29.115600,0 167.956100,-29.118900,0 167.953900,-29.119200,0 167.953100,-29.119400,0 167.952200,-29.114400,0 167.952000,-29.113400,0 167.949900,-29.112400,0 167.948300,-29.111700,0 167.950000,-29.109600,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificNorfolk_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      167.962400,-29.062500,0 167.966800,-29.062200,0 167.966300,-29.063300,0 167.965900,-29.064500,0 167.963600,-29.065400,0 167.962200,-29.063900,0 167.961900,-29.063600,0 167.962400,-29.062500,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificNorfolk_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      168.000000,-29.025400,0 167.992400,-29.035600,0 167.986800,-29.036600,0 167.985900,-29.040300,0 167.988100,-29.044900,0 167.988500,-29.045700,0 167.985100,-29.049000,0 167.974800,-29.049200,0 167.968800,-29.052700,0 167.950700,-29.044800,0 167.948900,-29.045200,0 167.946900,-29.045600,0 167.945100,-29.046100,0 167.942200,-29.049700,0 167.937000,-29.049200,0 167.936100,-29.045500,0 167.930500,-29.043300,0 167.919800,-29.043300,0 167.923700,-29.039800,0 167.921500,-29.032000,0 167.921400,-29.021000,0 167.927400,-29.003000,0 167.927500,-29.000000,0 167.925200,-29.000100,0 167.916400,-28.998900,0 167.919100,-28.995400,0 167.924400,-28.993400,0 167.932500,-28.992400,0 167.932700,-28.992400,0 167.951100,-28.994300,0 167.963900,-28.999800,0 167.965600,-29.000500,0 167.971400,-29.008400,0 167.989700,-29.009500,0 167.993700,-29.012800,0 167.996000,-29.017400,0 168.000100,-29.025300,0 168.000000,-29.025400,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

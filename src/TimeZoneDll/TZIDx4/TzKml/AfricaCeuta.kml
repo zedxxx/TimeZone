@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AfricaCeuta.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAfricaCeuta_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -2.421500,35.185300,0 -2.429600,35.186900,0 -2.434100,35.191500,0 -2.431900,35.193500,0 -2.424900,35.191500,0 -2.421300,35.188500,0 -2.421500,35.185300,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAfricaCeuta_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -2.956900,35.337100,0 -2.946000,35.328700,0 -2.942300,35.317000,0 -2.938300,35.311700,0 -2.931300,35.306500,0 -2.932100,35.303700,0 -2.938000,35.301900,0 -2.939900,35.296800,0 -2.937600,35.292000,0 -2.929700,35.285800,0 -2.926700,35.283400,0 -2.930200,35.283200,0 -2.945400,35.282300,0 -2.952000,35.281900,0 -2.957400,35.281600,0 -2.960800,35.281400,0 -2.971200,35.290400,0 -2.975000,35.302100,0 -2.975200,35.302700,0 -2.973300,35.316500,0 -2.970400,35.321600,0 -2.967300,35.327300,0 -2.956900,35.337100,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAfricaCeuta_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -5.384500,35.919900,0 -5.377100,35.924100,0 -5.361200,35.924100,0 -5.356200,35.924100,0 -5.348800,35.921300,0 -5.342900,35.914800,0 -5.341900,35.909400,0 -5.337400,35.903500,0 -5.337300,35.903400,0 -5.322300,35.898400,0 -5.315800,35.898100,0 -5.305300,35.901100,0 -5.298100,35.905200,0 -5.292000,35.908700,0 -5.282200,35.911100,0 -5.280600,35.910300,0 -5.276800,35.908400,0 -5.275500,35.903700,0 -5.277800,35.901400,0 -5.280600,35.898500,0 -5.287900,35.896400,0 -5.290800,35.895600,0 -5.297600,35.893700,0 -5.323100,35.889400,0 -5.330500,35.884800,0 -5.332700,35.883400,0 -5.337000,35.877400,0 -5.344100,35.881400,0 -5.345200,35.882100,0 -5.360600,35.890900,0 -5.384500,35.919900,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

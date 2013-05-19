@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AmericaThunder_Bay.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAmericaThunder_Bay_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -89.120000,48.360000,0 -89.130000,48.360000,0 -89.130000,48.370000,0 -89.120000,48.370000,0 -89.120000,48.360000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaThunder_Bay_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -89.230000,48.380000,0 -89.240000,48.380000,0 -89.230000,48.390000,0 -89.220000,48.390000,0 -89.220000,48.380000,0 -89.230000,48.380000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaThunder_Bay_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -89.220000,48.360000,0 -89.230000,48.360000,0 -89.250000,48.370000,0 -89.220000,48.370000,0 -89.220000,48.360000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaThunder_Bay_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -89.210000,48.310000,0 -89.200000,48.310000,0 -89.210000,48.310000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaThunder_Bay_4</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -89.210000,48.330000,0 -89.210000,48.320000,0 -89.210000,48.330000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaThunder_Bay_5</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -89.160000,48.470000,0 -89.170000,48.450000,0 -89.180000,48.450000,0 -89.190000,48.450000,0 -89.190000,48.440000,0 -89.200000,48.440000,0 -89.220000,48.430000,0 -89.230000,48.420000,0 -89.230000,48.410000,0 -89.230000,48.400000,0 -89.220000,48.390000,0 -89.230000,48.390000,0 -89.240000,48.380000,0 -89.260000,48.360000,0 -89.250000,48.360000,0 -89.240000,48.360000,0 -89.230000,48.350000,0 -89.220000,48.350000,0 -89.220000,48.340000,0 -89.230000,48.350000,0 -89.260000,48.360000,0 -89.280000,48.360000,0 -89.290000,48.350000,0 -89.310000,48.340000,0 -89.310000,48.320000,0 -89.330000,48.320000,0 -89.330000,48.310000,0 -89.340000,48.310000,0 -89.340000,48.300000,0 -89.340000,48.290000,0 -89.390000,48.290000,0 -89.390000,48.400000,0 -89.430000,48.400000,0 -89.430000,48.510000,0 -89.380000,48.520000,0 -89.330000,48.520000,0 -89.240000,48.520000,0 -89.180000,48.510000,0 -89.180000,48.480000,0 -89.170000,48.480000,0 -89.170000,48.490000,0 -89.160000,48.490000,0 -89.160000,48.500000,0 -89.150000,48.500000,0 -89.150000,48.480000,0 -89.170000,48.470000,0 -89.160000,48.470000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

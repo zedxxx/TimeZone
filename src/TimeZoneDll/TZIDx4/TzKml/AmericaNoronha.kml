@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AmericaNoronha.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAmericaNoronha_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -32.401900,-3.837900,0 -32.401700,-3.841000,0 -32.399000,-3.845300,0 -32.399400,-3.849000,0 -32.393000,-3.851100,0 -32.401500,-3.855700,0 -32.402400,-3.858000,0 -32.410000,-3.858000,0 -32.414500,-3.860300,0 -32.415900,-3.865600,0 -32.420000,-3.865200,0 -32.421900,-3.867900,0 -32.424900,-3.866100,0 -32.427800,-3.866800,0 -32.429000,-3.869500,0 -32.427200,-3.875500,0 -32.428300,-3.876700,0 -32.430400,-3.876900,0 -32.433600,-3.872800,0 -32.437900,-3.872100,0 -32.452400,-3.874800,0 -32.461500,-3.880700,0 -32.462000,-3.881100,0 -32.470900,-3.877900,0 -32.481300,-3.879200,0 -32.482600,-3.878300,0 -32.481700,-3.875100,0 -32.468000,-3.871600,0 -32.459500,-3.865000,0 -32.451900,-3.861300,0 -32.450800,-3.854400,0 -32.445300,-3.853000,0 -32.430400,-3.843100,0 -32.413600,-3.839100,0 -32.401900,-3.832200,0 -32.401000,-3.835200,0 -32.401900,-3.837900,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaNoronha_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -32.383200,-3.804800,0 -32.382000,-3.807800,0 -32.384500,-3.815600,0 -32.388200,-3.816800,0 -32.393900,-3.815900,0 -32.398300,-3.810300,0 -32.391400,-3.806400,0 -32.389800,-3.808700,0 -32.386100,-3.809200,0 -32.383200,-3.804800,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

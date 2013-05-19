@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>IndianChagos.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cIndianChagos_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      72.423000,-7.418000,0 72.423000,-7.396000,0 72.422000,-7.385000,0 72.426000,-7.366000,0 72.423000,-7.339000,0 72.415000,-7.318000,0 72.401000,-7.312000,0 72.383000,-7.305000,0 72.375000,-7.299000,0 72.373000,-7.296000,0 72.367000,-7.286000,0 72.364000,-7.283000,0 72.355000,-7.277000,0 72.352000,-7.272000,0 72.374000,-7.260000,0 72.375000,-7.262000,0 72.373000,-7.273000,0 72.381000,-7.287000,0 72.416000,-7.313000,0 72.422000,-7.316000,0 72.426000,-7.321000,0 72.430000,-7.344000,0 72.431000,-7.362000,0 72.430000,-7.375000,0 72.427000,-7.399000,0 72.427000,-7.416000,0 72.427000,-7.418000,0 72.427000,-7.430000,0 72.429000,-7.432000,0 72.436000,-7.428000,0 72.442000,-7.417000,0 72.452000,-7.400000,0 72.460000,-7.394000,0 72.483000,-7.380000,0 72.482000,-7.377000,0 72.478000,-7.377000,0 72.472000,-7.364000,0 72.467000,-7.349000,0 72.465000,-7.344000,0 72.465000,-7.339000,0 72.469000,-7.332000,0 72.474000,-7.323000,0 72.488000,-7.299000,0 72.488000,-7.290000,0 72.481000,-7.285000,0 72.473000,-7.281000,0 72.465000,-7.277000,0 72.456000,-7.270000,0 72.451000,-7.259000,0 72.445000,-7.246000,0 72.433000,-7.237000,0 72.440000,-7.235000,0 72.446000,-7.238000,0 72.449000,-7.241000,0 72.456000,-7.259000,0 72.462000,-7.268000,0 72.474000,-7.276000,0 72.479000,-7.280000,0 72.491000,-7.287000,0 72.493000,-7.293000,0 72.493000,-7.304000,0 72.488000,-7.312000,0 72.472000,-7.336000,0 72.470000,-7.347000,0 72.472000,-7.353000,0 72.488000,-7.379000,0 72.485000,-7.383000,0 72.471000,-7.393000,0 72.460000,-7.403000,0 72.454000,-7.411000,0 72.448000,-7.419000,0 72.436000,-7.436000,0 72.428000,-7.438000,0 72.422000,-7.433000,0 72.423000,-7.420000,0 72.423000,-7.418000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianChagos_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      71.415000,-6.675000,0 71.409000,-6.678000,0 71.406000,-6.678000,0 71.401000,-6.674000,0 71.407000,-6.674000,0 71.414000,-6.669000,0 71.416000,-6.670000,0 71.418000,-6.673000,0 71.415000,-6.675000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianChagos_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      71.342000,-6.658000,0 71.341000,-6.657000,0 71.347000,-6.656000,0 71.355000,-6.656000,0 71.364000,-6.655000,0 71.366000,-6.656000,0 71.361000,-6.661000,0 71.354000,-6.661000,0 71.345000,-6.660000,0 71.342000,-6.660000,0 71.342000,-6.658000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianChagos_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      71.333000,-6.642000,0 71.338000,-6.637000,0 71.342000,-6.639000,0 71.341000,-6.642000,0 71.338000,-6.645000,0 71.343000,-6.648000,0 71.343000,-6.650000,0 71.339000,-6.653000,0 71.335000,-6.648000,0 71.333000,-6.642000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianChagos_4</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      71.270000,-6.383000,0 71.272000,-6.389000,0 71.268000,-6.391000,0 71.260000,-6.384000,0 71.267000,-6.371000,0 71.269000,-6.372000,0 71.267000,-6.378000,0 71.270000,-6.383000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianChagos_5</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      71.351000,-6.182000,0 71.357000,-6.175000,0 71.363000,-6.175000,0 71.364000,-6.179000,0 71.353000,-6.192000,0 71.352000,-6.201000,0 71.344000,-6.206000,0 71.340000,-6.202000,0 71.349000,-6.190000,0 71.351000,-6.182000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianChagos_6</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      72.327000,-5.693000,0 72.323000,-5.694000,0 72.319000,-5.696000,0 72.319000,-5.692000,0 72.325000,-5.686000,0 72.327000,-5.687000,0 72.333000,-5.686000,0 72.337000,-5.689000,0 72.330000,-5.691000,0 72.327000,-5.693000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianChagos_7</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      71.770000,-5.436000,0 71.780000,-5.440000,0 71.785000,-5.441000,0 71.786000,-5.443000,0 71.784000,-5.447000,0 71.774000,-5.443000,0 71.763000,-5.440000,0 71.761000,-5.432000,0 71.765000,-5.434000,0 71.770000,-5.436000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianChagos_8</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      71.756000,-5.387000,0 71.757000,-5.391000,0 71.753000,-5.396000,0 71.749000,-5.389000,0 71.753000,-5.380000,0 71.756000,-5.380000,0 71.756000,-5.387000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianChagos_9</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      72.228000,-5.327000,0 72.234000,-5.320000,0 72.235000,-5.321000,0 72.230000,-5.330000,0 72.224000,-5.337000,0 72.223000,-5.336000,0 72.228000,-5.327000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianChagos_10</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      71.744000,-5.280000,0 71.742000,-5.287000,0 71.741000,-5.298000,0 71.736000,-5.294000,0 71.740000,-5.274000,0 71.749000,-5.268000,0 71.749000,-5.271000,0 71.744000,-5.280000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianChagos_11</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      71.924000,-5.240000,0 71.926000,-5.240000,0 71.930000,-5.242000,0 71.919000,-5.246000,0 71.918000,-5.245000,0 71.924000,-5.240000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianChagos_12</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      71.766000,-5.239000,0 71.772000,-5.236000,0 71.773000,-5.237000,0 71.767000,-5.246000,0 71.759000,-5.244000,0 71.766000,-5.239000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianChagos_13</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      71.965000,-5.227000,0 71.967000,-5.229000,0 71.968000,-5.238000,0 71.965000,-5.235000,0 71.960000,-5.234000,0 71.956000,-5.232000,0 71.961000,-5.227000,0 71.965000,-5.227000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianChagos_14</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      71.752000,-5.329000,0 71.754000,-5.334000,0 71.752000,-5.336000,0 71.747000,-5.328000,0 71.749000,-5.325000,0 71.752000,-5.329000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianChagos_15</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      72.207000,-5.356000,0 72.205000,-5.352000,0 72.208000,-5.350000,0 72.212000,-5.356000,0 72.213000,-5.357000,0 72.218000,-5.362000,0 72.217000,-5.366000,0 72.212000,-5.364000,0 72.207000,-5.356000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianChagos_16</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      71.759000,-5.347000,0 71.755000,-5.354000,0 71.752000,-5.348000,0 71.759000,-5.341000,0 71.761000,-5.342000,0 71.759000,-5.347000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

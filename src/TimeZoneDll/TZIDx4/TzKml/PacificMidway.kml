@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>PacificMidway.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cPacificMidway_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -177.392000,28.199700,0 -177.386800,28.207900,0 -177.384500,28.215700,0 -177.379300,28.219200,0 -177.366000,28.219600,0 -177.359300,28.219800,0 -177.358500,28.218400,0 -177.362400,28.215700,0 -177.365000,28.208600,0 -177.374900,28.206500,0 -177.386000,28.202200,0 -177.392000,28.199700,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificMidway_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -177.330000,28.214900,0 -177.326600,28.219700,0 -177.321100,28.217000,0 -177.319300,28.210300,0 -177.322700,28.208900,0 -177.333600,28.208300,0 -177.340100,28.208700,0 -177.340100,28.211500,0 -177.337500,28.213800,0 -177.330000,28.214900,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificMidway_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -178.298000,28.395000,0 -178.297800,28.394600,0 -178.297800,28.392300,0 -178.301000,28.390500,0 -178.305200,28.389600,0 -178.307500,28.388800,0 -178.308400,28.388400,0 -178.312500,28.390000,0 -178.314700,28.391600,0 -178.312800,28.395700,0 -178.309400,28.398100,0 -178.304800,28.398400,0 -178.299200,28.397000,0 -178.298000,28.395000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificMidway_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -178.298000,28.442000,0 -178.297800,28.441600,0 -178.297800,28.439200,0 -178.301000,28.437500,0 -178.305200,28.436500,0 -178.307500,28.435800,0 -178.308400,28.435400,0 -178.312500,28.437000,0 -178.314700,28.438500,0 -178.312800,28.442600,0 -178.309400,28.445000,0 -178.304800,28.445400,0 -178.299200,28.444000,0 -178.298000,28.442000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

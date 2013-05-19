@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AsiaSingapore.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAsiaSingapore_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      103.740000,1.160000,0 103.730000,1.170000,0 103.740000,1.170000,0 103.740000,1.160000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaSingapore_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      103.720000,1.180000,0 103.720000,1.190000,0 103.730000,1.190000,0 103.740000,1.190000,0 103.730000,1.180000,0 103.720000,1.180000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaSingapore_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      103.760000,1.200000,0 103.760000,1.210000,0 103.770000,1.210000,0 103.770000,1.200000,0 103.760000,1.200000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaSingapore_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      103.780000,1.220000,0 103.770000,1.230000,0 103.770000,1.220000,0 103.760000,1.230000,0 103.770000,1.240000,0 103.780000,1.230000,0 103.780000,1.220000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaSingapore_4</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      103.830000,1.240000,0 103.820000,1.250000,0 103.810000,1.250000,0 103.810000,1.260000,0 103.820000,1.260000,0 103.830000,1.250000,0 103.840000,1.250000,0 103.840000,1.240000,0 103.830000,1.240000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaSingapore_5</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      103.970000,1.420000,0 103.970000,1.410000,0 103.980000,1.420000,0 103.990000,1.420000,0 104.000000,1.410000,0 103.990000,1.410000,0 103.990000,1.400000,0 103.970000,1.400000,0 103.960000,1.400000,0 103.950000,1.410000,0 103.930000,1.420000,0 103.940000,1.430000,0 103.960000,1.420000,0 103.970000,1.420000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaSingapore_6</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      103.710000,1.280000,0 103.710000,1.290000,0 103.720000,1.290000,0 103.720000,1.280000,0 103.710000,1.280000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaSingapore_7</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      104.040000,1.400000,0 104.040000,1.410000,0 104.040000,1.420000,0 104.040000,1.430000,0 104.050000,1.430000,0 104.060000,1.430000,0 104.070000,1.430000,0 104.080000,1.420000,0 104.090000,1.410000,0 104.090000,1.400000,0 104.080000,1.400000,0 104.070000,1.400000,0 104.060000,1.400000,0 104.040000,1.400000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaSingapore_8</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      104.020000,1.410000,0 104.020000,1.420000,0 104.030000,1.420000,0 104.030000,1.410000,0 104.020000,1.410000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaSingapore_9</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      103.700000,1.260000,0 103.710000,1.260000,0 103.710000,1.250000,0 103.700000,1.260000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaSingapore_10</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      103.730000,1.260000,0 103.720000,1.260000,0 103.720000,1.270000,0 103.730000,1.270000,0 103.730000,1.260000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaSingapore_11</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      103.700000,1.280000,0 103.710000,1.270000,0 103.700000,1.270000,0 103.690000,1.270000,0 103.700000,1.280000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaSingapore_12</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      103.640000,1.330000,0 103.640000,1.340000,0 103.650000,1.340000,0 103.650000,1.350000,0 103.650000,1.360000,0 103.660000,1.370000,0 103.670000,1.380000,0 103.660000,1.390000,0 103.670000,1.400000,0 103.670000,1.410000,0 103.680000,1.420000,0 103.680000,1.430000,0 103.690000,1.430000,0 103.700000,1.430000,0 103.710000,1.440000,0 103.720000,1.450000,0 103.730000,1.450000,0 103.740000,1.440000,0 103.740000,1.430000,0 103.730000,1.420000,0 103.720000,1.410000,0 103.730000,1.410000,0 103.730000,1.400000,0 103.720000,1.390000,0 103.730000,1.400000,0 103.740000,1.400000,0 103.740000,1.410000,0 103.750000,1.420000,0 103.750000,1.430000,0 103.750000,1.440000,0 103.760000,1.440000,0 103.770000,1.440000,0 103.770000,1.450000,0 103.780000,1.450000,0 103.790000,1.450000,0 103.800000,1.470000,0 103.810000,1.470000,0 103.820000,1.470000,0 103.830000,1.470000,0 103.850000,1.460000,0 103.860000,1.450000,0 103.850000,1.450000,0 103.860000,1.450000,0 103.860000,1.440000,0 103.870000,1.430000,0 103.860000,1.410000,0 103.850000,1.410000,0 103.840000,1.410000,0 103.840000,1.400000,0 103.850000,1.400000,0 103.860000,1.400000,0 103.860000,1.410000,0 103.870000,1.420000,0 103.880000,1.420000,0 103.900000,1.410000,0 103.910000,1.410000,0 103.910000,1.420000,0 103.920000,1.410000,0 103.920000,1.400000,0 103.930000,1.400000,0 103.920000,1.390000,0 103.930000,1.390000,0 103.960000,1.380000,0 103.970000,1.380000,0 103.980000,1.380000,0 103.980000,1.390000,0 103.990000,1.390000,0 104.000000,1.390000,0 104.010000,1.390000,0 104.010000,1.380000,0 104.010000,1.370000,0 104.000000,1.370000,0 104.000000,1.360000,0 103.990000,1.350000,0 103.980000,1.340000,0 103.970000,1.330000,0 103.960000,1.320000,0 103.960000,1.310000,0 103.950000,1.310000,0 103.910000,1.300000,0 103.890000,1.290000,0 103.870000,1.290000,0 103.870000,1.300000,0 103.870000,1.290000,0 103.860000,1.290000,0 103.860000,1.280000,0 103.860000,1.270000,0 103.850000,1.260000,0 103.840000,1.260000,0 103.830000,1.260000,0 103.820000,1.260000,0 103.810000,1.260000,0 103.800000,1.270000,0 103.790000,1.280000,0 103.780000,1.290000,0 103.770000,1.290000,0 103.770000,1.300000,0 103.760000,1.310000,0 103.750000,1.310000,0 103.760000,1.300000,0 103.750000,1.300000,0 103.730000,1.300000,0 103.720000,1.300000,0 103.710000,1.300000,0 103.690000,1.300000,0 103.680000,1.310000,0 103.680000,1.300000,0 103.670000,1.300000,0 103.670000,1.290000,0 103.660000,1.290000,0 103.660000,1.300000,0 103.640000,1.330000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

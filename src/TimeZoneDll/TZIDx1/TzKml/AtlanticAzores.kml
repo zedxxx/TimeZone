@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AtlanticAzores.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAtlanticAzores_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -25.100000,36.900000,0 -25.100000,37.000000,0 -25.100000,36.900000,0 -25.200000,36.900000,0 -25.200000,37.000000,0 -25.100000,37.000000,0 -25.000000,37.000000,0 -25.000000,36.900000,0 -25.100000,36.900000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAtlanticAzores_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -25.400000,37.700000,0 -25.400000,37.700000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAtlanticAzores_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -25.300000,37.900000,0 -25.200000,37.900000,0 -25.200000,37.800000,0 -25.100000,37.800000,0 -25.200000,37.700000,0 -25.300000,37.700000,0 -25.400000,37.700000,0 -25.500000,37.700000,0 -25.600000,37.700000,0 -25.700000,37.700000,0 -25.700000,37.800000,0 -25.800000,37.800000,0 -25.900000,37.800000,0 -25.900000,37.900000,0 -25.800000,37.900000,0 -25.700000,37.900000,0 -25.700000,37.800000,0 -25.600000,37.800000,0 -25.500000,37.800000,0 -25.400000,37.800000,0 -25.300000,37.800000,0 -25.300000,37.900000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAtlanticAzores_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -25.800000,37.900000,0 -25.800000,37.900000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAtlanticAzores_4</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -28.400000,38.600000,0 -28.400000,38.500000,0 -28.300000,38.500000,0 -28.200000,38.500000,0 -28.100000,38.500000,0 -28.100000,38.400000,0 -28.000000,38.400000,0 -28.100000,38.400000,0 -28.200000,38.400000,0 -28.300000,38.400000,0 -28.400000,38.400000,0 -28.500000,38.400000,0 -28.500000,38.500000,0 -28.500000,38.600000,0 -28.400000,38.600000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAtlanticAzores_5</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -27.900000,39.000000,0 -27.900000,39.000000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAtlanticAzores_6</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -28.000000,39.000000,0 -27.900000,39.000000,0 -28.000000,39.000000,0 -28.100000,39.000000,0 -28.100000,39.100000,0 -28.000000,39.100000,0 -28.000000,39.000000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAtlanticAzores_7</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -28.000000,39.100000,0 -28.000000,39.100000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAtlanticAzores_8</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -31.200000,39.500000,0 -31.100000,39.500000,0 -31.100000,39.400000,0 -31.200000,39.400000,0 -31.300000,39.400000,0 -31.300000,39.500000,0 -31.200000,39.500000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAtlanticAzores_9</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -31.100000,39.700000,0 -31.100000,39.700000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAtlanticAzores_10</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -28.800000,38.600000,0 -28.700000,38.600000,0 -28.600000,38.600000,0 -28.600000,38.500000,0 -28.700000,38.500000,0 -28.800000,38.500000,0 -28.800000,38.600000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAtlanticAzores_11</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -28.100000,38.700000,0 -28.000000,38.700000,0 -28.000000,38.600000,0 -27.900000,38.600000,0 -27.800000,38.600000,0 -27.800000,38.500000,0 -27.900000,38.500000,0 -27.900000,38.600000,0 -28.000000,38.600000,0 -28.100000,38.600000,0 -28.200000,38.700000,0 -28.300000,38.700000,0 -28.300000,38.800000,0 -28.300000,38.700000,0 -28.200000,38.700000,0 -28.100000,38.700000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAtlanticAzores_12</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -27.100000,38.800000,0 -27.100000,38.700000,0 -27.000000,38.700000,0 -27.100000,38.700000,0 -27.000000,38.700000,0 -27.100000,38.700000,0 -27.100000,38.600000,0 -27.200000,38.700000,0 -27.200000,38.600000,0 -27.200000,38.700000,0 -27.300000,38.700000,0 -27.400000,38.700000,0 -27.400000,38.800000,0 -27.300000,38.800000,0 -27.200000,38.800000,0 -27.100000,38.800000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

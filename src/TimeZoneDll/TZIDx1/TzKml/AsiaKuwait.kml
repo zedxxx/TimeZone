@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AsiaKuwait.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAsiaKuwait_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      47.900000,29.400000,0 47.900000,29.300000,0 47.900000,29.400000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaKuwait_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      48.400000,29.400000,0 48.300000,29.400000,0 48.300000,29.500000,0 48.400000,29.500000,0 48.400000,29.400000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaKuwait_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      48.100000,29.200000,0 48.100000,29.100000,0 48.200000,29.100000,0 48.200000,29.000000,0 48.200000,28.900000,0 48.300000,28.900000,0 48.300000,28.800000,0 48.300000,28.700000,0 48.400000,28.700000,0 48.400000,28.600000,0 48.400000,28.500000,0 48.300000,28.500000,0 48.200000,28.500000,0 48.000000,28.500000,0 47.900000,28.500000,0 47.800000,28.500000,0 47.700000,28.500000,0 47.700000,28.600000,0 47.600000,28.600000,0 47.600000,28.700000,0 47.600000,28.800000,0 47.600000,28.900000,0 47.500000,28.900000,0 47.500000,29.000000,0 47.400000,29.000000,0 47.300000,29.000000,0 47.100000,29.000000,0 47.000000,29.100000,0 46.900000,29.100000,0 46.800000,29.100000,0 46.700000,29.100000,0 46.600000,29.100000,0 46.600000,29.200000,0 46.700000,29.200000,0 46.700000,29.300000,0 46.800000,29.300000,0 46.800000,29.400000,0 46.900000,29.400000,0 46.900000,29.500000,0 46.900000,29.600000,0 47.000000,29.600000,0 47.000000,29.700000,0 47.000000,29.800000,0 47.100000,29.800000,0 47.100000,29.900000,0 47.100000,30.000000,0 47.200000,30.000000,0 47.300000,30.100000,0 47.400000,30.100000,0 47.500000,30.100000,0 47.600000,30.100000,0 47.700000,30.100000,0 47.800000,30.100000,0 47.800000,30.000000,0 47.900000,30.000000,0 48.000000,30.000000,0 48.000000,29.900000,0 48.000000,29.800000,0 48.100000,29.800000,0 48.100000,29.700000,0 48.100000,29.600000,0 48.200000,29.600000,0 48.200000,29.500000,0 48.100000,29.500000,0 48.100000,29.600000,0 48.000000,29.600000,0 47.900000,29.600000,0 47.900000,29.500000,0 47.800000,29.500000,0 47.800000,29.400000,0 47.700000,29.400000,0 47.800000,29.400000,0 47.900000,29.400000,0 47.800000,29.400000,0 47.800000,29.300000,0 47.900000,29.300000,0 47.900000,29.400000,0 48.000000,29.400000,0 48.000000,29.300000,0 48.100000,29.300000,0 48.100000,29.200000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaKuwait_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      48.100000,29.800000,0 48.100000,29.900000,0 48.200000,29.900000,0 48.200000,29.800000,0 48.200000,29.900000,0 48.100000,29.900000,0 48.200000,29.900000,0 48.100000,29.900000,0 48.200000,29.900000,0 48.100000,29.900000,0 48.100000,30.000000,0 48.200000,30.000000,0 48.200000,29.900000,0 48.300000,29.900000,0 48.300000,29.800000,0 48.400000,29.800000,0 48.400000,29.700000,0 48.300000,29.700000,0 48.300000,29.600000,0 48.200000,29.600000,0 48.200000,29.700000,0 48.100000,29.700000,0 48.100000,29.800000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaKuwait_4</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      48.100000,29.800000,0 48.000000,29.800000,0 48.100000,29.800000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaKuwait_5</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      48.100000,29.900000,0 48.100000,29.900000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaKuwait_6</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      48.100000,29.800000,0 48.000000,29.800000,0 48.000000,29.900000,0 48.100000,29.900000,0 48.100000,29.800000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaKuwait_7</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      48.000000,29.900000,0 48.000000,29.900000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaKuwait_8</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      48.100000,29.900000,0 48.000000,29.900000,0 48.100000,29.900000,0 48.100000,30.000000,0 48.100000,29.900000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaKuwait_9</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      48.200000,30.000000,0 48.100000,30.000000,0 48.000000,30.000000,0 48.000000,29.900000,0 48.000000,30.000000,0 48.100000,30.000000,0 48.200000,30.000000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

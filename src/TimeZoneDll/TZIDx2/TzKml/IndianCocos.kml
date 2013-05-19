@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>IndianCocos.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cIndianCocos_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      96.820000,-12.110000,0 96.830000,-12.120000,0 96.830000,-12.130000,0 96.840000,-12.130000,0 96.840000,-12.140000,0 96.840000,-12.150000,0 96.830000,-12.150000,0 96.830000,-12.140000,0 96.830000,-12.150000,0 96.830000,-12.160000,0 96.840000,-12.160000,0 96.840000,-12.170000,0 96.850000,-12.180000,0 96.850000,-12.170000,0 96.860000,-12.170000,0 96.870000,-12.170000,0 96.860000,-12.180000,0 96.850000,-12.180000,0 96.840000,-12.180000,0 96.840000,-12.170000,0 96.830000,-12.170000,0 96.830000,-12.160000,0 96.820000,-12.160000,0 96.820000,-12.150000,0 96.830000,-12.140000,0 96.830000,-12.130000,0 96.820000,-12.130000,0 96.820000,-12.120000,0 96.820000,-12.110000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianCocos_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      96.890000,-12.080000,0 96.900000,-12.090000,0 96.910000,-12.090000,0 96.900000,-12.090000,0 96.900000,-12.100000,0 96.900000,-12.090000,0 96.890000,-12.080000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianCocos_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      96.900000,-12.170000,0 96.900000,-12.180000,0 96.910000,-12.180000,0 96.910000,-12.170000,0 96.920000,-12.170000,0 96.930000,-12.170000,0 96.930000,-12.160000,0 96.930000,-12.150000,0 96.930000,-12.140000,0 96.930000,-12.150000,0 96.940000,-12.150000,0 96.940000,-12.160000,0 96.930000,-12.160000,0 96.930000,-12.170000,0 96.920000,-12.180000,0 96.910000,-12.180000,0 96.900000,-12.190000,0 96.900000,-12.180000,0 96.890000,-12.180000,0 96.890000,-12.170000,0 96.900000,-12.170000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianCocos_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      96.880000,-12.060000,0 96.890000,-12.060000,0 96.890000,-12.070000,0 96.890000,-12.060000,0 96.880000,-12.060000,0 96.880000,-12.070000,0 96.880000,-12.060000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianCocos_4</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      96.850000,-12.060000,0 96.840000,-12.060000,0 96.840000,-12.050000,0 96.850000,-12.050000,0 96.850000,-12.060000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cIndianCocos_5</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      96.830000,-11.800000,0 96.840000,-11.800000,0 96.840000,-11.810000,0 96.830000,-11.810000,0 96.840000,-11.810000,0 96.830000,-11.810000,0 96.830000,-11.820000,0 96.830000,-11.810000,0 96.830000,-11.800000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

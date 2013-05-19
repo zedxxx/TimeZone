@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AsiaMacau.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAsiaMacau_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      113.551300,22.110700,0 113.549500,22.116100,0 113.551900,22.120800,0 113.556100,22.125400,0 113.572200,22.137500,0 113.576400,22.137800,0 113.583100,22.133000,0 113.589600,22.132600,0 113.591000,22.130500,0 113.590500,22.127800,0 113.573900,22.121700,0 113.572000,22.113300,0 113.551300,22.110700,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaMacau_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      113.559400,22.150100,0 113.553500,22.153800,0 113.546500,22.155300,0 113.545200,22.157200,0 113.548300,22.162900,0 113.551400,22.163400,0 113.554300,22.161200,0 113.555200,22.161300,0 113.560500,22.161900,0 113.575600,22.156800,0 113.577500,22.154500,0 113.559400,22.150100,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaMacau_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      113.528900,22.213600,0 113.531400,22.219700,0 113.537600,22.222300,0 113.546900,22.221700,0 113.551900,22.221300,0 113.554400,22.221100,0 113.550100,22.213000,0 113.552400,22.208200,0 113.551200,22.205400,0 113.554600,22.200500,0 113.558300,22.200000,0 113.563900,22.196700,0 113.565800,22.193700,0 113.565700,22.189000,0 113.549500,22.183300,0 113.546900,22.185900,0 113.546000,22.186100,0 113.545400,22.186200,0 113.543800,22.186600,0 113.537700,22.188000,0 113.530300,22.180400,0 113.529300,22.184300,0 113.534300,22.192100,0 113.535200,22.200300,0 113.539000,22.206200,0 113.531800,22.208000,0 113.531600,22.208400,0 113.528900,22.213600,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

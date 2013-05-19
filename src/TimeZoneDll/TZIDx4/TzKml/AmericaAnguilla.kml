@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AmericaAnguilla.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAmericaAnguilla_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -62.962700,18.282500,0 -62.963400,18.284300,0 -62.960700,18.288200,0 -62.958500,18.296600,0 -62.955100,18.297900,0 -62.951400,18.302000,0 -62.947500,18.303200,0 -62.942800,18.301800,0 -62.937200,18.302800,0 -62.932000,18.298100,0 -62.935700,18.294000,0 -62.945700,18.292200,0 -62.951500,18.289600,0 -62.958600,18.282600,0 -62.962700,18.282500,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaAnguilla_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -63.432800,18.607700,0 -63.432500,18.608800,0 -63.425700,18.612200,0 -63.424500,18.612800,0 -63.422800,18.611600,0 -63.422900,18.608900,0 -63.432500,18.598500,0 -63.434900,18.600100,0 -63.432800,18.607700,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaAnguilla_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -63.172000,18.166800,0 -63.172900,18.170000,0 -63.166200,18.177500,0 -63.164300,18.178500,0 -63.145600,18.188300,0 -63.138900,18.196600,0 -63.135500,18.198900,0 -63.125300,18.201600,0 -63.119100,18.200300,0 -63.108600,18.204700,0 -63.098300,18.204500,0 -63.096600,18.206300,0 -63.097000,18.208600,0 -63.099900,18.209800,0 -63.098900,18.211400,0 -63.073600,18.223400,0 -63.072000,18.227300,0 -63.073900,18.238100,0 -63.073000,18.240700,0 -63.072100,18.242900,0 -63.069700,18.245200,0 -63.031500,18.265000,0 -63.024200,18.264800,0 -63.007500,18.269300,0 -63.005500,18.265500,0 -63.002600,18.264800,0 -62.991500,18.267700,0 -62.986400,18.270600,0 -62.983600,18.275400,0 -62.974500,18.283400,0 -62.971700,18.278100,0 -62.971400,18.273900,0 -62.974500,18.270500,0 -62.981700,18.262700,0 -62.988800,18.258000,0 -62.989400,18.256000,0 -62.984100,18.255400,0 -62.982800,18.248700,0 -62.988300,18.242200,0 -62.990400,18.234900,0 -62.993000,18.234700,0 -62.996900,18.230900,0 -63.009700,18.230300,0 -63.013300,18.228700,0 -63.017900,18.218000,0 -63.022300,18.214700,0 -63.057400,18.199400,0 -63.073400,18.192400,0 -63.086400,18.180500,0 -63.105000,18.175400,0 -63.111100,18.182200,0 -63.115400,18.183300,0 -63.128500,18.177100,0 -63.137000,18.175500,0 -63.141700,18.169100,0 -63.145800,18.168500,0 -63.149100,18.170200,0 -63.152500,18.169100,0 -63.156800,18.171100,0 -63.172000,18.166800,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaAnguilla_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -63.251200,18.277800,0 -63.255500,18.277900,0 -63.257400,18.280900,0 -63.260700,18.281200,0 -63.263500,18.285200,0 -63.263200,18.287500,0 -63.259300,18.291800,0 -63.240600,18.289500,0 -63.242300,18.286800,0 -63.250600,18.282600,0 -63.251200,18.277800,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

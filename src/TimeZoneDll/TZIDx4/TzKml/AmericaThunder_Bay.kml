@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AmericaThunder_Bay.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAmericaThunder_Bay_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -89.124500,48.360000,0 -89.131000,48.360600,0 -89.134900,48.363000,0 -89.126500,48.367600,0 -89.120600,48.367900,0 -89.118700,48.365300,0 -89.124500,48.360000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaThunder_Bay_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -89.231200,48.376100,0 -89.243200,48.377300,0 -89.243800,48.378700,0 -89.238700,48.383200,0 -89.226900,48.386800,0 -89.219700,48.385900,0 -89.215300,48.379400,0 -89.217800,48.376700,0 -89.231200,48.376100,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaThunder_Bay_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -89.224800,48.356300,0 -89.235000,48.364100,0 -89.248700,48.369300,0 -89.245800,48.372400,0 -89.222500,48.372500,0 -89.218500,48.369900,0 -89.216900,48.362300,0 -89.219600,48.356700,0 -89.224800,48.356300,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaThunder_Bay_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -89.205200,48.310000,0 -89.203200,48.306700,0 -89.204700,48.305300,0 -89.212800,48.311200,0 -89.210700,48.312700,0 -89.205200,48.310000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaThunder_Bay_4</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -89.210900,48.331000,0 -89.207100,48.328900,0 -89.210700,48.319400,0 -89.208900,48.316200,0 -89.209000,48.315100,0 -89.214100,48.319900,0 -89.211000,48.326200,0 -89.210900,48.331000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaThunder_Bay_5</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -89.163600,48.465600,0 -89.173300,48.454400,0 -89.181800,48.450600,0 -89.187400,48.448100,0 -89.192700,48.444400,0 -89.202900,48.441700,0 -89.218000,48.434300,0 -89.231500,48.419800,0 -89.226300,48.409100,0 -89.225100,48.399500,0 -89.221300,48.394600,0 -89.221800,48.392100,0 -89.233200,48.389200,0 -89.244200,48.383500,0 -89.258000,48.363500,0 -89.249000,48.364700,0 -89.243200,48.363900,0 -89.229300,48.349400,0 -89.219300,48.350900,0 -89.217400,48.341800,0 -89.218900,48.338600,0 -89.217600,48.336700,0 -89.220300,48.338700,0 -89.225000,48.347600,0 -89.263300,48.357000,0 -89.279200,48.356500,0 -89.289400,48.354100,0 -89.306100,48.343800,0 -89.306000,48.317700,0 -89.333500,48.317100,0 -89.333200,48.308100,0 -89.336800,48.308000,0 -89.336700,48.297500,0 -89.338300,48.297400,0 -89.338300,48.289400,0 -89.388600,48.289500,0 -89.388700,48.399100,0 -89.427000,48.399100,0 -89.427800,48.514900,0 -89.383900,48.515400,0 -89.328600,48.515500,0 -89.241800,48.515700,0 -89.182600,48.514500,0 -89.182200,48.483200,0 -89.173600,48.483300,0 -89.173400,48.487600,0 -89.163000,48.487700,0 -89.163200,48.498700,0 -89.152500,48.498800,0 -89.151400,48.475800,0 -89.166800,48.466200,0 -89.163600,48.465600,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

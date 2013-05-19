@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>PacificGambier.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cPacificGambier_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -134.920000,-23.190000,0 -134.920000,-23.180000,0 -134.910000,-23.180000,0 -134.910000,-23.190000,0 -134.920000,-23.190000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificGambier_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -135.040000,-23.130000,0 -135.030000,-23.130000,0 -135.030000,-23.120000,0 -135.020000,-23.130000,0 -135.020000,-23.140000,0 -135.030000,-23.140000,0 -135.030000,-23.150000,0 -135.040000,-23.150000,0 -135.050000,-23.150000,0 -135.060000,-23.160000,0 -135.060000,-23.150000,0 -135.050000,-23.140000,0 -135.040000,-23.140000,0 -135.040000,-23.130000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificGambier_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -134.890000,-23.120000,0 -134.890000,-23.130000,0 -134.900000,-23.130000,0 -134.900000,-23.140000,0 -134.910000,-23.140000,0 -134.910000,-23.130000,0 -134.900000,-23.130000,0 -134.900000,-23.120000,0 -134.890000,-23.120000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificGambier_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -136.190000,-22.030000,0 -136.200000,-22.030000,0 -136.200000,-22.020000,0 -136.190000,-22.030000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificGambier_4</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -136.170000,-22.010000,0 -136.170000,-22.020000,0 -136.170000,-22.030000,0 -136.180000,-22.030000,0 -136.190000,-22.040000,0 -136.190000,-22.030000,0 -136.180000,-22.030000,0 -136.180000,-22.020000,0 -136.170000,-22.010000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificGambier_5</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -136.160000,-22.000000,0 -136.170000,-22.000000,0 -136.180000,-22.000000,0 -136.190000,-22.000000,0 -136.190000,-22.010000,0 -136.200000,-22.000000,0 -136.190000,-22.000000,0 -136.180000,-21.990000,0 -136.170000,-21.990000,0 -136.170000,-22.000000,0 -136.160000,-22.000000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificGambier_6</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -135.620000,-21.540000,0 -135.620000,-21.550000,0 -135.630000,-21.550000,0 -135.630000,-21.540000,0 -135.630000,-21.530000,0 -135.630000,-21.520000,0 -135.620000,-21.530000,0 -135.620000,-21.540000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificGambier_7</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -135.490000,-21.490000,0 -135.480000,-21.500000,0 -135.470000,-21.510000,0 -135.460000,-21.510000,0 -135.460000,-21.520000,0 -135.460000,-21.530000,0 -135.460000,-21.520000,0 -135.470000,-21.520000,0 -135.470000,-21.510000,0 -135.480000,-21.510000,0 -135.480000,-21.500000,0 -135.490000,-21.500000,0 -135.500000,-21.490000,0 -135.510000,-21.490000,0 -135.510000,-21.480000,0 -135.500000,-21.480000,0 -135.500000,-21.490000,0 -135.490000,-21.490000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificGambier_8</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -135.000000,-23.110000,0 -134.990000,-23.110000,0 -134.980000,-23.110000,0 -134.980000,-23.100000,0 -134.980000,-23.090000,0 -134.970000,-23.100000,0 -134.970000,-23.090000,0 -134.960000,-23.090000,0 -134.950000,-23.090000,0 -134.950000,-23.080000,0 -134.940000,-23.070000,0 -134.930000,-23.070000,0 -134.930000,-23.080000,0 -134.930000,-23.090000,0 -134.940000,-23.090000,0 -134.950000,-23.090000,0 -134.950000,-23.100000,0 -134.960000,-23.100000,0 -134.960000,-23.110000,0 -134.970000,-23.110000,0 -134.960000,-23.120000,0 -134.970000,-23.130000,0 -134.980000,-23.130000,0 -134.990000,-23.130000,0 -135.000000,-23.120000,0 -135.010000,-23.120000,0 -135.010000,-23.110000,0 -135.000000,-23.110000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificGambier_9</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -134.890000,-23.070000,0 -134.890000,-23.080000,0 -134.880000,-23.090000,0 -134.890000,-23.090000,0 -134.890000,-23.080000,0 -134.900000,-23.070000,0 -134.890000,-23.070000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificGambier_10</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -136.410000,-21.460000,0 -136.410000,-21.450000,0 -136.400000,-21.450000,0 -136.390000,-21.450000,0 -136.380000,-21.450000,0 -136.370000,-21.470000,0 -136.380000,-21.470000,0 -136.380000,-21.460000,0 -136.390000,-21.460000,0 -136.400000,-21.460000,0 -136.410000,-21.460000,0 -136.420000,-21.470000,0 -136.420000,-21.460000,0 -136.410000,-21.460000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificGambier_11</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -136.550000,-21.340000,0 -136.560000,-21.340000,0 -136.550000,-21.330000,0 -136.540000,-21.330000,0 -136.530000,-21.330000,0 -136.520000,-21.330000,0 -136.520000,-21.340000,0 -136.520000,-21.350000,0 -136.530000,-21.350000,0 -136.540000,-21.360000,0 -136.550000,-21.360000,0 -136.540000,-21.350000,0 -136.530000,-21.350000,0 -136.530000,-21.340000,0 -136.530000,-21.330000,0 -136.540000,-21.330000,0 -136.550000,-21.340000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificGambier_12</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -136.660000,-21.320000,0 -136.660000,-21.330000,0 -136.660000,-21.340000,0 -136.670000,-21.340000,0 -136.670000,-21.330000,0 -136.670000,-21.320000,0 -136.660000,-21.320000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificGambier_13</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -136.650000,-21.320000,0 -136.640000,-21.320000,0 -136.640000,-21.330000,0 -136.640000,-21.340000,0 -136.640000,-21.330000,0 -136.650000,-21.320000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificGambier_14</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -136.750000,-21.310000,0 -136.740000,-21.310000,0 -136.740000,-21.320000,0 -136.750000,-21.320000,0 -136.750000,-21.310000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificGambier_15</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -136.730000,-21.310000,0 -136.730000,-21.320000,0 -136.740000,-21.320000,0 -136.740000,-21.310000,0 -136.740000,-21.300000,0 -136.750000,-21.300000,0 -136.750000,-21.310000,0 -136.760000,-21.310000,0 -136.760000,-21.300000,0 -136.750000,-21.300000,0 -136.750000,-21.290000,0 -136.740000,-21.290000,0 -136.740000,-21.300000,0 -136.730000,-21.300000,0 -136.730000,-21.310000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificGambier_16</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -135.570000,-21.480000,0 -135.570000,-21.490000,0 -135.580000,-21.490000,0 -135.590000,-21.490000,0 -135.590000,-21.480000,0 -135.580000,-21.480000,0 -135.570000,-21.480000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificGambier_17</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -135.520000,-21.470000,0 -135.510000,-21.480000,0 -135.520000,-21.480000,0 -135.530000,-21.480000,0 -135.530000,-21.470000,0 -135.520000,-21.470000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificGambier_18</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -135.630000,-21.480000,0 -135.640000,-21.480000,0 -135.650000,-21.480000,0 -135.640000,-21.480000,0 -135.630000,-21.480000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AmericaSt_Vincent.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAmericaSt_Vincent_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.380000,12.530000,0 -61.390000,12.540000,0 -61.380000,12.540000,0 -61.380000,12.530000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaSt_Vincent_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.440000,12.580000,0 -61.450000,12.580000,0 -61.460000,12.590000,0 -61.460000,12.600000,0 -61.450000,12.600000,0 -61.450000,12.610000,0 -61.460000,12.610000,0 -61.450000,12.610000,0 -61.430000,12.610000,0 -61.420000,12.600000,0 -61.410000,12.600000,0 -61.420000,12.590000,0 -61.430000,12.590000,0 -61.440000,12.590000,0 -61.440000,12.580000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaSt_Vincent_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.400000,12.630000,0 -61.400000,12.640000,0 -61.390000,12.650000,0 -61.380000,12.650000,0 -61.380000,12.640000,0 -61.380000,12.630000,0 -61.390000,12.630000,0 -61.400000,12.630000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaSt_Vincent_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.390000,12.580000,0 -61.400000,12.580000,0 -61.400000,12.590000,0 -61.390000,12.590000,0 -61.390000,12.580000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaSt_Vincent_4</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.340000,12.690000,0 -61.350000,12.700000,0 -61.350000,12.710000,0 -61.340000,12.700000,0 -61.340000,12.710000,0 -61.330000,12.710000,0 -61.330000,12.720000,0 -61.340000,12.730000,0 -61.330000,12.730000,0 -61.330000,12.740000,0 -61.320000,12.730000,0 -61.320000,12.740000,0 -61.310000,12.740000,0 -61.310000,12.720000,0 -61.320000,12.720000,0 -61.320000,12.710000,0 -61.320000,12.690000,0 -61.330000,12.700000,0 -61.340000,12.690000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaSt_Vincent_5</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.180000,12.860000,0 -61.190000,12.860000,0 -61.190000,12.870000,0 -61.190000,12.880000,0 -61.190000,12.890000,0 -61.180000,12.890000,0 -61.170000,12.890000,0 -61.170000,12.880000,0 -61.180000,12.860000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaSt_Vincent_6</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.250000,12.980000,0 -61.260000,12.980000,0 -61.270000,12.990000,0 -61.280000,12.990000,0 -61.290000,12.990000,0 -61.280000,12.990000,0 -61.270000,12.990000,0 -61.250000,13.000000,0 -61.240000,13.000000,0 -61.240000,13.010000,0 -61.250000,13.010000,0 -61.240000,13.030000,0 -61.230000,13.030000,0 -61.220000,13.040000,0 -61.210000,13.040000,0 -61.200000,13.050000,0 -61.200000,13.040000,0 -61.210000,13.030000,0 -61.220000,13.020000,0 -61.210000,13.010000,0 -61.230000,12.990000,0 -61.240000,12.990000,0 -61.250000,12.980000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaSt_Vincent_7</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.140000,12.940000,0 -61.150000,12.940000,0 -61.150000,12.950000,0 -61.150000,12.960000,0 -61.140000,12.960000,0 -61.140000,12.950000,0 -61.140000,12.940000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaSt_Vincent_8</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.260000,12.950000,0 -61.270000,12.950000,0 -61.260000,12.960000,0 -61.250000,12.960000,0 -61.240000,12.960000,0 -61.250000,12.950000,0 -61.260000,12.950000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaSt_Vincent_9</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.130000,12.960000,0 -61.140000,12.960000,0 -61.130000,12.960000,0 -61.120000,12.970000,0 -61.120000,12.960000,0 -61.130000,12.960000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaSt_Vincent_10</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -61.200000,13.370000,0 -61.190000,13.370000,0 -61.180000,13.380000,0 -61.170000,13.380000,0 -61.160000,13.370000,0 -61.140000,13.370000,0 -61.140000,13.360000,0 -61.130000,13.340000,0 -61.120000,13.330000,0 -61.120000,13.310000,0 -61.120000,13.300000,0 -61.110000,13.280000,0 -61.120000,13.260000,0 -61.120000,13.250000,0 -61.120000,13.240000,0 -61.120000,13.230000,0 -61.130000,13.210000,0 -61.140000,13.190000,0 -61.140000,13.180000,0 -61.140000,13.150000,0 -61.150000,13.140000,0 -61.160000,13.140000,0 -61.170000,13.120000,0 -61.180000,13.120000,0 -61.190000,13.120000,0 -61.200000,13.120000,0 -61.200000,13.130000,0 -61.210000,13.130000,0 -61.230000,13.130000,0 -61.230000,13.140000,0 -61.230000,13.150000,0 -61.240000,13.150000,0 -61.250000,13.150000,0 -61.250000,13.160000,0 -61.260000,13.170000,0 -61.270000,13.190000,0 -61.280000,13.200000,0 -61.280000,13.220000,0 -61.280000,13.230000,0 -61.270000,13.250000,0 -61.260000,13.260000,0 -61.260000,13.270000,0 -61.260000,13.280000,0 -61.250000,13.280000,0 -61.240000,13.290000,0 -61.240000,13.300000,0 -61.230000,13.310000,0 -61.210000,13.360000,0 -61.200000,13.360000,0 -61.200000,13.370000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

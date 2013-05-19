@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>PacificWake.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cPacificWake_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      166.597600,19.292400,0 166.594000,19.298800,0 166.594300,19.304600,0 166.593700,19.307200,0 166.593600,19.307600,0 166.593300,19.309200,0 166.595000,19.313100,0 166.600600,19.316100,0 166.606700,19.320200,0 166.606400,19.317600,0 166.606700,19.315300,0 166.603500,19.313700,0 166.597700,19.310500,0 166.597400,19.308600,0 166.597100,19.306400,0 166.596900,19.304600,0 166.598600,19.302200,0 166.606800,19.296500,0 166.611400,19.291900,0 166.608000,19.289100,0 166.602500,19.292800,0 166.597600,19.292400,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificWake_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      166.641000,19.302200,0 166.639300,19.303300,0 166.634200,19.303100,0 166.633000,19.305900,0 166.638400,19.309600,0 166.644900,19.307500,0 166.647300,19.296000,0 166.654500,19.286500,0 166.651100,19.279400,0 166.652000,19.272800,0 166.650800,19.269500,0 166.645500,19.270000,0 166.641800,19.272900,0 166.640200,19.273200,0 166.634600,19.275100,0 166.626100,19.277600,0 166.616700,19.282700,0 166.611900,19.286800,0 166.615800,19.288900,0 166.618900,19.287800,0 166.622800,19.286800,0 166.626900,19.285200,0 166.636100,19.282000,0 166.638400,19.281600,0 166.637300,19.284700,0 166.637600,19.289100,0 166.639800,19.291800,0 166.638300,19.298100,0 166.640300,19.298500,0 166.641000,19.302200,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificWake_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      166.624100,19.304000,0 166.623600,19.303800,0 166.623400,19.304000,0 166.619200,19.308000,0 166.615900,19.312100,0 166.614200,19.315000,0 166.613200,19.316700,0 166.616900,19.316000,0 166.617800,19.315800,0 166.625300,19.308600,0 166.627400,19.305200,0 166.624100,19.304000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

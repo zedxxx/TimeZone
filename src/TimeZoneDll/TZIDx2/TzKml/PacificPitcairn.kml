@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>PacificPitcairn.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cPacificPitcairn_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -130.110000,-25.080000,0 -130.110000,-25.070000,0 -130.120000,-25.070000,0 -130.120000,-25.060000,0 -130.110000,-25.060000,0 -130.100000,-25.060000,0 -130.090000,-25.060000,0 -130.090000,-25.070000,0 -130.090000,-25.080000,0 -130.100000,-25.080000,0 -130.110000,-25.080000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificPitcairn_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -124.780000,-24.660000,0 -124.770000,-24.660000,0 -124.770000,-24.670000,0 -124.780000,-24.670000,0 -124.780000,-24.660000,0 -124.790000,-24.660000,0 -124.790000,-24.670000,0 -124.800000,-24.670000,0 -124.800000,-24.660000,0 -124.790000,-24.660000,0 -124.780000,-24.660000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificPitcairn_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -128.300000,-24.320000,0 -128.300000,-24.330000,0 -128.300000,-24.340000,0 -128.300000,-24.350000,0 -128.290000,-24.360000,0 -128.290000,-24.370000,0 -128.290000,-24.380000,0 -128.290000,-24.390000,0 -128.290000,-24.400000,0 -128.290000,-24.410000,0 -128.300000,-24.410000,0 -128.300000,-24.400000,0 -128.310000,-24.400000,0 -128.320000,-24.400000,0 -128.330000,-24.400000,0 -128.330000,-24.390000,0 -128.340000,-24.390000,0 -128.340000,-24.370000,0 -128.350000,-24.360000,0 -128.350000,-24.350000,0 -128.340000,-24.340000,0 -128.340000,-24.330000,0 -128.330000,-24.330000,0 -128.320000,-24.330000,0 -128.310000,-24.320000,0 -128.300000,-24.320000,0 -128.290000,-24.320000,0 -128.300000,-24.320000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificPitcairn_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -130.740000,-23.920000,0 -130.730000,-23.920000,0 -130.730000,-23.930000,0 -130.740000,-23.930000,0 -130.750000,-23.930000,0 -130.750000,-23.920000,0 -130.740000,-23.920000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

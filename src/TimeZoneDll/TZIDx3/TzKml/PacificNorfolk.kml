@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>PacificNorfolk.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cPacificNorfolk_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      167.950000,-29.110000,0 167.952000,-29.107000,0 167.959000,-29.104000,0 167.966000,-29.107000,0 167.967000,-29.107000,0 167.969000,-29.110000,0 167.966000,-29.111000,0 167.962000,-29.110000,0 167.960000,-29.113000,0 167.958000,-29.116000,0 167.956000,-29.119000,0 167.954000,-29.119000,0 167.953000,-29.119000,0 167.952000,-29.114000,0 167.952000,-29.113000,0 167.950000,-29.112000,0 167.948000,-29.112000,0 167.950000,-29.110000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificNorfolk_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      167.962000,-29.062000,0 167.967000,-29.062000,0 167.966000,-29.063000,0 167.966000,-29.064000,0 167.964000,-29.065000,0 167.962000,-29.064000,0 167.962000,-29.062000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificNorfolk_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      168.000000,-29.025000,0 167.992000,-29.036000,0 167.987000,-29.037000,0 167.986000,-29.040000,0 167.988000,-29.045000,0 167.988000,-29.046000,0 167.985000,-29.049000,0 167.975000,-29.049000,0 167.969000,-29.053000,0 167.951000,-29.045000,0 167.949000,-29.045000,0 167.947000,-29.046000,0 167.945000,-29.046000,0 167.942000,-29.050000,0 167.937000,-29.049000,0 167.936000,-29.046000,0 167.931000,-29.043000,0 167.920000,-29.043000,0 167.924000,-29.040000,0 167.921000,-29.032000,0 167.921000,-29.021000,0 167.927000,-29.003000,0 167.928000,-29.000000,0 167.925000,-29.000000,0 167.916000,-28.999000,0 167.919000,-28.995000,0 167.924000,-28.993000,0 167.933000,-28.992000,0 167.951000,-28.994000,0 167.964000,-29.000000,0 167.966000,-29.000000,0 167.971000,-29.008000,0 167.990000,-29.009000,0 167.994000,-29.013000,0 167.996000,-29.017000,0 168.000000,-29.025000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

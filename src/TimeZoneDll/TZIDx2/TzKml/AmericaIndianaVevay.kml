@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AmericaIndianaVevay.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAmericaIndianaVevay_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -84.880000,38.790000,0 -84.900000,38.790000,0 -84.910000,38.790000,0 -84.920000,38.780000,0 -84.930000,38.780000,0 -84.940000,38.780000,0 -84.950000,38.780000,0 -84.970000,38.780000,0 -84.980000,38.780000,0 -84.990000,38.780000,0 -85.010000,38.770000,0 -85.020000,38.760000,0 -85.050000,38.750000,0 -85.060000,38.750000,0 -85.060000,38.740000,0 -85.070000,38.740000,0 -85.100000,38.730000,0 -85.120000,38.720000,0 -85.130000,38.710000,0 -85.130000,38.700000,0 -85.150000,38.700000,0 -85.150000,38.690000,0 -85.160000,38.690000,0 -85.170000,38.690000,0 -85.180000,38.690000,0 -85.200000,38.690000,0 -85.200000,38.700000,0 -85.200000,38.920000,0 -85.200000,38.930000,0 -85.140000,38.930000,0 -85.140000,38.900000,0 -84.890000,38.900000,0 -84.860000,38.900000,0 -84.820000,38.900000,0 -84.800000,38.890000,0 -84.790000,38.890000,0 -84.790000,38.880000,0 -84.790000,38.870000,0 -84.790000,38.860000,0 -84.810000,38.850000,0 -84.820000,38.850000,0 -84.830000,38.840000,0 -84.830000,38.830000,0 -84.830000,38.820000,0 -84.810000,38.800000,0 -84.810000,38.790000,0 -84.820000,38.790000,0 -84.820000,38.780000,0 -84.830000,38.780000,0 -84.840000,38.790000,0 -84.850000,38.790000,0 -84.860000,38.790000,0 -84.870000,38.790000,0 -84.880000,38.790000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

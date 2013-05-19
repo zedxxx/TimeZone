@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AustraliaLindeman.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAustraliaLindeman_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      149.035000,-20.430000,0 149.037000,-20.430000,0 149.041000,-20.438000,0 149.046000,-20.434000,0 149.051000,-20.435000,0 149.053000,-20.439000,0 149.054000,-20.445000,0 149.064000,-20.451000,0 149.064000,-20.454000,0 149.056000,-20.455000,0 149.053000,-20.452000,0 149.047000,-20.457000,0 149.040000,-20.460000,0 149.033000,-20.460000,0 149.028000,-20.452000,0 149.028000,-20.446000,0 149.023000,-20.443000,0 149.025000,-20.440000,0 149.029000,-20.439000,0 149.033000,-20.431000,0 149.035000,-20.430000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAustraliaLindeman_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      148.950000,-20.377000,0 148.945000,-20.370000,0 148.951000,-20.361000,0 148.948000,-20.357000,0 148.946000,-20.361000,0 148.943000,-20.362000,0 148.943000,-20.356000,0 148.944000,-20.353000,0 148.947000,-20.348000,0 148.945000,-20.345000,0 148.945000,-20.341000,0 148.945000,-20.334000,0 148.946000,-20.333000,0 148.952000,-20.338000,0 148.954000,-20.345000,0 148.959000,-20.348000,0 148.965000,-20.349000,0 148.973000,-20.345000,0 148.978000,-20.348000,0 148.980000,-20.351000,0 148.975000,-20.355000,0 148.974000,-20.361000,0 148.971000,-20.366000,0 148.964000,-20.366000,0 148.964000,-20.356000,0 148.961000,-20.356000,0 148.958000,-20.361000,0 148.954000,-20.363000,0 148.950000,-20.377000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAustraliaLindeman_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      148.889000,-20.069000,0 148.876000,-20.060000,0 148.874000,-20.054000,0 148.878000,-20.047000,0 148.876000,-20.041000,0 148.879000,-20.039000,0 148.882000,-20.040000,0 148.884000,-20.044000,0 148.892000,-20.050000,0 148.894000,-20.055000,0 148.891000,-20.068000,0 148.889000,-20.069000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

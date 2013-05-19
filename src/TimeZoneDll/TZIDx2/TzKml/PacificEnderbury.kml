@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>PacificEnderbury.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cPacificEnderbury_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -174.540000,-4.670000,0 -174.530000,-4.670000,0 -174.530000,-4.680000,0 -174.540000,-4.680000,0 -174.550000,-4.670000,0 -174.540000,-4.670000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificEnderbury_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -174.530000,-4.660000,0 -174.540000,-4.660000,0 -174.550000,-4.650000,0 -174.540000,-4.650000,0 -174.530000,-4.660000,0 -174.510000,-4.670000,0 -174.500000,-4.680000,0 -174.490000,-4.680000,0 -174.490000,-4.690000,0 -174.490000,-4.700000,0 -174.500000,-4.700000,0 -174.520000,-4.680000,0 -174.500000,-4.690000,0 -174.500000,-4.680000,0 -174.510000,-4.670000,0 -174.530000,-4.670000,0 -174.530000,-4.660000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificEnderbury_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -172.220000,-4.500000,0 -172.220000,-4.510000,0 -172.220000,-4.530000,0 -172.210000,-4.530000,0 -172.200000,-4.540000,0 -172.190000,-4.540000,0 -172.190000,-4.530000,0 -172.180000,-4.520000,0 -172.180000,-4.530000,0 -172.190000,-4.540000,0 -172.200000,-4.540000,0 -172.210000,-4.540000,0 -172.220000,-4.530000,0 -172.230000,-4.520000,0 -172.230000,-4.510000,0 -172.220000,-4.500000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificEnderbury_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -171.260000,-4.460000,0 -171.260000,-4.450000,0 -171.260000,-4.440000,0 -171.250000,-4.440000,0 -171.240000,-4.440000,0 -171.230000,-4.450000,0 -171.230000,-4.460000,0 -171.230000,-4.470000,0 -171.240000,-4.470000,0 -171.260000,-4.470000,0 -171.260000,-4.460000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificEnderbury_4</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -171.260000,-4.460000,0 -171.250000,-4.460000,0 -171.240000,-4.460000,0 -171.240000,-4.450000,0 -171.240000,-4.440000,0 -171.250000,-4.440000,0 -171.250000,-4.450000,0 -171.260000,-4.450000,0 -171.260000,-4.460000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificEnderbury_5</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -172.170000,-4.520000,0 -172.160000,-4.510000,0 -172.160000,-4.520000,0 -172.170000,-4.520000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificEnderbury_6</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -172.140000,-4.500000,0 -172.140000,-4.490000,0 -172.150000,-4.490000,0 -172.160000,-4.490000,0 -172.170000,-4.490000,0 -172.170000,-4.480000,0 -172.160000,-4.480000,0 -172.150000,-4.490000,0 -172.140000,-4.490000,0 -172.140000,-4.500000,0 -172.140000,-4.510000,0 -172.150000,-4.510000,0 -172.140000,-4.510000,0 -172.140000,-4.500000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificEnderbury_7</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -170.710000,-3.720000,0 -170.710000,-3.730000,0 -170.720000,-3.730000,0 -170.720000,-3.720000,0 -170.710000,-3.720000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificEnderbury_8</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -174.130000,-3.590000,0 -174.120000,-3.590000,0 -174.120000,-3.600000,0 -174.130000,-3.600000,0 -174.130000,-3.590000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificEnderbury_9</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -171.090000,-3.100000,0 -171.080000,-3.110000,0 -171.080000,-3.120000,0 -171.080000,-3.130000,0 -171.080000,-3.140000,0 -171.080000,-3.150000,0 -171.090000,-3.150000,0 -171.090000,-3.140000,0 -171.090000,-3.120000,0 -171.090000,-3.110000,0 -171.090000,-3.100000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificEnderbury_10</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -171.520000,-3.580000,0 -171.510000,-3.580000,0 -171.510000,-3.590000,0 -171.520000,-3.590000,0 -171.520000,-3.580000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificEnderbury_11</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -171.630000,-2.830000,0 -171.640000,-2.810000,0 -171.650000,-2.810000,0 -171.660000,-2.800000,0 -171.680000,-2.790000,0 -171.680000,-2.780000,0 -171.690000,-2.780000,0 -171.710000,-2.770000,0 -171.720000,-2.780000,0 -171.720000,-2.800000,0 -171.720000,-2.780000,0 -171.720000,-2.770000,0 -171.710000,-2.760000,0 -171.700000,-2.770000,0 -171.690000,-2.770000,0 -171.680000,-2.770000,0 -171.680000,-2.780000,0 -171.670000,-2.790000,0 -171.630000,-2.810000,0 -171.630000,-2.820000,0 -171.620000,-2.860000,0 -171.620000,-2.870000,0 -171.630000,-2.870000,0 -171.640000,-2.860000,0 -171.650000,-2.850000,0 -171.670000,-2.840000,0 -171.680000,-2.840000,0 -171.700000,-2.840000,0 -171.710000,-2.840000,0 -171.710000,-2.830000,0 -171.720000,-2.820000,0 -171.710000,-2.820000,0 -171.710000,-2.830000,0 -171.700000,-2.830000,0 -171.680000,-2.830000,0 -171.670000,-2.830000,0 -171.650000,-2.840000,0 -171.640000,-2.850000,0 -171.630000,-2.860000,0 -171.620000,-2.860000,0 -171.630000,-2.850000,0 -171.630000,-2.830000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

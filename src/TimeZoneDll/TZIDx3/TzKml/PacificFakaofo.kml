@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>PacificFakaofo.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cPacificFakaofo_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -171.219000,-9.381000,0 -171.224000,-9.379000,0 -171.231000,-9.356000,0 -171.230000,-9.348000,0 -171.225000,-9.346000,0 -171.219000,-9.347000,0 -171.216000,-9.351000,0 -171.211000,-9.363000,0 -171.215000,-9.377000,0 -171.219000,-9.381000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificFakaofo_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -171.848000,-9.219000,0 -171.854000,-9.218000,0 -171.859000,-9.210000,0 -171.858000,-9.210000,0 -171.859000,-9.210000,0 -171.861000,-9.207000,0 -171.863000,-9.190000,0 -171.865000,-9.181000,0 -171.862000,-9.178000,0 -171.861000,-9.174000,0 -171.858000,-9.171000,0 -171.854000,-9.168000,0 -171.850000,-9.170000,0 -171.848000,-9.174000,0 -171.845000,-9.185000,0 -171.845000,-9.191000,0 -171.844000,-9.194000,0 -171.843000,-9.208000,0 -171.844000,-9.214000,0 -171.848000,-9.219000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificFakaofo_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -172.489000,-8.587000,0 -172.493000,-8.583000,0 -172.493000,-8.581000,0 -172.499000,-8.566000,0 -172.500000,-8.561000,0 -172.497000,-8.554000,0 -172.492000,-8.554000,0 -172.489000,-8.556000,0 -172.484000,-8.567000,0 -172.482000,-8.581000,0 -172.484000,-8.587000,0 -172.489000,-8.587000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

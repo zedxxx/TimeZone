@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AmericaCosta_Rica.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAmericaCosta_Rica_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -87.000000,5.600000,0 -87.000000,5.500000,0 -87.100000,5.500000,0 -87.100000,5.600000,0 -87.000000,5.600000,0 -87.000000,5.500000,0 -87.000000,5.600000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaCosta_Rica_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -84.900000,9.800000,0 -84.900000,9.800000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaCosta_Rica_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -85.100000,9.500000,0 -85.100000,9.500000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaCosta_Rica_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -84.700000,9.600000,0 -84.700000,9.600000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaCosta_Rica_4</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -83.900000,8.700000,0 -83.900000,8.700000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaCosta_Rica_5</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -83.600000,8.900000,0 -83.600000,8.900000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaCosta_Rica_6</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -83.600000,9.000000,0 -83.600000,9.000000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaCosta_Rica_7</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -85.000000,9.700000,0 -85.100000,9.700000,0 -85.100000,9.600000,0 -85.200000,9.600000,0 -85.200000,9.700000,0 -85.300000,9.700000,0 -85.300000,9.800000,0 -85.400000,9.800000,0 -85.400000,9.900000,0 -85.500000,9.900000,0 -85.500000,9.800000,0 -85.500000,9.900000,0 -85.600000,9.900000,0 -85.700000,9.900000,0 -85.700000,10.000000,0 -85.800000,10.000000,0 -85.800000,10.100000,0 -85.800000,10.200000,0 -85.900000,10.200000,0 -85.900000,10.300000,0 -85.800000,10.300000,0 -85.900000,10.300000,0 -85.800000,10.300000,0 -85.900000,10.300000,0 -85.900000,10.400000,0 -85.800000,10.400000,0 -85.800000,10.500000,0 -85.700000,10.500000,0 -85.700000,10.600000,0 -85.600000,10.600000,0 -85.700000,10.600000,0 -85.700000,10.700000,0 -85.700000,10.800000,0 -85.800000,10.800000,0 -85.800000,10.900000,0 -85.900000,10.900000,0 -86.000000,10.900000,0 -85.900000,10.900000,0 -85.800000,10.900000,0 -85.700000,10.900000,0 -85.700000,11.000000,0 -85.800000,11.000000,0 -85.700000,11.000000,0 -85.700000,11.100000,0 -85.600000,11.200000,0 -85.500000,11.200000,0 -85.400000,11.100000,0 -85.300000,11.100000,0 -85.200000,11.100000,0 -85.200000,11.000000,0 -85.100000,11.000000,0 -85.000000,11.000000,0 -84.900000,11.000000,0 -84.900000,10.900000,0 -84.800000,11.000000,0 -84.700000,11.100000,0 -84.600000,11.000000,0 -84.500000,11.000000,0 -84.400000,11.000000,0 -84.300000,11.000000,0 -84.400000,11.000000,0 -84.400000,10.900000,0 -84.300000,10.900000,0 -84.200000,10.900000,0 -84.200000,10.800000,0 -84.100000,10.800000,0 -84.000000,10.800000,0 -84.000000,10.700000,0 -83.900000,10.700000,0 -83.800000,10.700000,0 -83.800000,10.800000,0 -83.700000,10.800000,0 -83.700000,10.900000,0 -83.600000,10.900000,0 -83.600000,10.800000,0 -83.600000,10.700000,0 -83.500000,10.600000,0 -83.500000,10.500000,0 -83.500000,10.600000,0 -83.500000,10.500000,0 -83.400000,10.400000,0 -83.400000,10.300000,0 -83.300000,10.300000,0 -83.300000,10.200000,0 -83.200000,10.200000,0 -83.200000,10.100000,0 -83.200000,10.200000,0 -83.200000,10.100000,0 -83.100000,10.000000,0 -83.000000,10.000000,0 -83.000000,9.900000,0 -82.900000,9.800000,0 -82.900000,9.700000,0 -82.800000,9.700000,0 -82.700000,9.600000,0 -82.600000,9.600000,0 -82.600000,9.500000,0 -82.600000,9.600000,0 -82.600000,9.500000,0 -82.700000,9.500000,0 -82.700000,9.600000,0 -82.700000,9.500000,0 -82.700000,9.600000,0 -82.800000,9.600000,0 -82.900000,9.600000,0 -82.900000,9.500000,0 -82.800000,9.500000,0 -82.900000,9.500000,0 -82.900000,9.400000,0 -82.900000,9.300000,0 -82.900000,9.200000,0 -82.900000,9.100000,0 -82.800000,9.000000,0 -82.700000,9.000000,0 -82.700000,8.900000,0 -82.800000,8.900000,0 -82.900000,8.900000,0 -82.900000,8.800000,0 -82.900000,8.700000,0 -82.800000,8.700000,0 -82.800000,8.600000,0 -82.800000,8.500000,0 -82.900000,8.400000,0 -83.000000,8.400000,0 -83.000000,8.300000,0 -83.100000,8.300000,0 -83.000000,8.300000,0 -82.900000,8.300000,0 -82.900000,8.200000,0 -82.900000,8.100000,0 -82.900000,8.000000,0 -82.900000,8.100000,0 -82.900000,8.200000,0 -83.000000,8.200000,0 -83.000000,8.300000,0 -83.100000,8.300000,0 -83.100000,8.400000,0 -83.200000,8.400000,0 -83.100000,8.400000,0 -83.100000,8.500000,0 -83.200000,8.500000,0 -83.100000,8.500000,0 -83.100000,8.600000,0 -83.100000,8.500000,0 -83.100000,8.600000,0 -83.200000,8.600000,0 -83.100000,8.600000,0 -83.200000,8.600000,0 -83.300000,8.600000,0 -83.300000,8.700000,0 -83.300000,8.600000,0 -83.300000,8.700000,0 -83.300000,8.600000,0 -83.300000,8.700000,0 -83.400000,8.700000,0 -83.500000,8.700000,0 -83.400000,8.700000,0 -83.400000,8.600000,0 -83.300000,8.600000,0 -83.300000,8.500000,0 -83.300000,8.400000,0 -83.400000,8.400000,0 -83.500000,8.400000,0 -83.600000,8.400000,0 -83.600000,8.500000,0 -83.700000,8.500000,0 -83.700000,8.600000,0 -83.700000,8.700000,0 -83.600000,8.700000,0 -83.600000,8.800000,0 -83.700000,8.800000,0 -83.600000,8.800000,0 -83.600000,8.900000,0 -83.600000,8.800000,0 -83.500000,8.800000,0 -83.600000,8.800000,0 -83.500000,8.800000,0 -83.500000,8.900000,0 -83.500000,8.800000,0 -83.500000,8.900000,0 -83.600000,8.900000,0 -83.600000,8.800000,0 -83.600000,8.900000,0 -83.500000,8.900000,0 -83.600000,8.900000,0 -83.600000,9.000000,0 -83.600000,9.100000,0 -83.700000,9.100000,0 -83.800000,9.100000,0 -83.800000,9.200000,0 -83.900000,9.200000,0 -83.800000,9.200000,0 -83.900000,9.200000,0 -83.900000,9.300000,0 -84.000000,9.300000,0 -84.000000,9.400000,0 -84.000000,9.300000,0 -84.100000,9.400000,0 -84.200000,9.400000,0 -84.200000,9.500000,0 -84.300000,9.500000,0 -84.200000,9.500000,0 -84.200000,9.400000,0 -84.200000,9.500000,0 -84.300000,9.500000,0 -84.400000,9.500000,0 -84.500000,9.500000,0 -84.600000,9.500000,0 -84.600000,9.600000,0 -84.700000,9.600000,0 -84.700000,9.700000,0 -84.600000,9.700000,0 -84.600000,9.800000,0 -84.700000,9.800000,0 -84.700000,9.900000,0 -84.700000,10.000000,0 -84.800000,10.000000,0 -84.900000,10.000000,0 -84.800000,10.000000,0 -84.900000,10.000000,0 -84.900000,10.100000,0 -85.000000,10.100000,0 -85.100000,10.100000,0 -85.100000,10.200000,0 -85.200000,10.200000,0 -85.300000,10.300000,0 -85.400000,10.300000,0 -85.300000,10.300000,0 -85.200000,10.200000,0 -85.300000,10.200000,0 -85.200000,10.100000,0 -85.300000,10.100000,0 -85.200000,10.100000,0 -85.200000,10.000000,0 -85.100000,10.000000,0 -85.000000,10.000000,0 -85.000000,9.900000,0 -84.900000,9.900000,0 -84.900000,9.800000,0 -85.000000,9.800000,0 -85.000000,9.700000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaCosta_Rica_8</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -84.800000,9.800000,0 -84.800000,9.800000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaCosta_Rica_9</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -84.900000,9.800000,0 -84.900000,9.800000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaCosta_Rica_10</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -84.900000,9.900000,0 -84.900000,9.900000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaCosta_Rica_11</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -85.000000,10.000000,0 -85.000000,10.000000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaCosta_Rica_12</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -85.100000,10.100000,0 -85.200000,10.100000,0 -85.100000,10.100000,0 -85.200000,10.100000,0 -85.100000,10.100000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaCosta_Rica_13</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -85.900000,10.800000,0 -85.900000,10.900000,0 -85.900000,10.800000,0 -85.900000,10.900000,0 -85.900000,10.800000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaCosta_Rica_14</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -85.100000,10.000000,0 -85.000000,10.000000,0 -85.100000,10.000000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaCosta_Rica_15</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -85.000000,10.000000,0 -85.000000,10.000000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

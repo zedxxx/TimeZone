@@ -11,24 +11,99 @@ const
   );
 
   cAsiaYekaterinburg_1: array [0..1] of TTimeZonePoint = (
+    (X: 723; Y: 663), (X: 723; Y: 663)
+  );
+
+  cAsiaYekaterinburg_2: array [0..4] of TTimeZonePoint = (
+    (X: 723; Y: 663), (X: 724; Y: 663), (X: 724; Y: 664), (X: 724; Y: 663),
+    (X: 723; Y: 663)
+  );
+
+  cAsiaYekaterinburg_3: array [0..2] of TTimeZonePoint = (
+    (X: 722; Y: 663), (X: 723; Y: 663), (X: 722; Y: 663)
+  );
+
+  cAsiaYekaterinburg_4: array [0..2] of TTimeZonePoint = (
+    (X: 722; Y: 663), (X: 722; Y: 664), (X: 722; Y: 663)
+  );
+
+  cAsiaYekaterinburg_5: array [0..2] of TTimeZonePoint = (
+    (X: 704; Y: 663), (X: 704; Y: 664), (X: 704; Y: 663)
+  );
+
+  cAsiaYekaterinburg_6: array [0..1] of TTimeZonePoint = (
     (X: 710; Y: 664), (X: 710; Y: 664)
   );
 
-  cAsiaYekaterinburg_2: array [0..2] of TTimeZonePoint = (
+  cAsiaYekaterinburg_7: array [0..2] of TTimeZonePoint = (
+    (X: 708; Y: 664), (X: 707; Y: 664), (X: 708; Y: 664)
+  );
+
+  cAsiaYekaterinburg_8: array [0..1] of TTimeZonePoint = (
+    (X: 710; Y: 664), (X: 710; Y: 664)
+  );
+
+  cAsiaYekaterinburg_9: array [0..2] of TTimeZonePoint = (
+    (X: 701; Y: 664), (X: 700; Y: 664), (X: 701; Y: 664)
+  );
+
+  cAsiaYekaterinburg_10: array [0..1] of TTimeZonePoint = (
+    (X: 709; Y: 664), (X: 709; Y: 664)
+  );
+
+  cAsiaYekaterinburg_11: array [0..1] of TTimeZonePoint = (
+    (X: 711; Y: 665), (X: 711; Y: 665)
+  );
+
+  cAsiaYekaterinburg_12: array [0..1] of TTimeZonePoint = (
+    (X: 712; Y: 665), (X: 712; Y: 665)
+  );
+
+  cAsiaYekaterinburg_13: array [0..3] of TTimeZonePoint = (
+    (X: 711; Y: 666), (X: 711; Y: 665), (X: 710; Y: 665), (X: 711; Y: 666)
+  );
+
+  cAsiaYekaterinburg_14: array [0..2] of TTimeZonePoint = (
+    (X: 714; Y: 666), (X: 713; Y: 666), (X: 714; Y: 666)
+  );
+
+  cAsiaYekaterinburg_15: array [0..2] of TTimeZonePoint = (
     (X: 711; Y: 666), (X: 710; Y: 666), (X: 711; Y: 666)
   );
 
-  cAsiaYekaterinburg_3: array [0..10] of TTimeZonePoint = (
+  cAsiaYekaterinburg_16: array [0..2] of TTimeZonePoint = (
+    (X: 712; Y: 666), (X: 711; Y: 666), (X: 712; Y: 666)
+  );
+
+  cAsiaYekaterinburg_17: array [0..10] of TTimeZonePoint = (
     (X: 698; Y: 665), (X: 697; Y: 665), (X: 697; Y: 666), (X: 696; Y: 666),
     (X: 697; Y: 666), (X: 698; Y: 666), (X: 698; Y: 665), (X: 699; Y: 665),
     (X: 700; Y: 665), (X: 699; Y: 665), (X: 698; Y: 665)
   );
 
-  cAsiaYekaterinburg_4: array [0..2] of TTimeZonePoint = (
+  cAsiaYekaterinburg_18: array [0..2] of TTimeZonePoint = (
+    (X: 694; Y: 666), (X: 693; Y: 666), (X: 694; Y: 666)
+  );
+
+  cAsiaYekaterinburg_19: array [0..2] of TTimeZonePoint = (
+    (X: 706; Y: 667), (X: 707; Y: 667), (X: 706; Y: 667)
+  );
+
+  cAsiaYekaterinburg_20: array [0..8] of TTimeZonePoint = (
+    (X: 694; Y: 666), (X: 694; Y: 667), (X: 693; Y: 667), (X: 693; Y: 666),
+    (X: 694; Y: 666), (X: 693; Y: 666), (X: 693; Y: 667), (X: 694; Y: 667),
+    (X: 694; Y: 666)
+  );
+
+  cAsiaYekaterinburg_21: array [0..2] of TTimeZonePoint = (
+    (X: 694; Y: 667), (X: 695; Y: 667), (X: 694; Y: 667)
+  );
+
+  cAsiaYekaterinburg_22: array [0..2] of TTimeZonePoint = (
     (X: 701; Y: 666), (X: 700; Y: 666), (X: 701; Y: 666)
   );
 
-  cAsiaYekaterinburg_5: array [0..19] of TTimeZonePoint = (
+  cAsiaYekaterinburg_23: array [0..19] of TTimeZonePoint = (
     (X: 704; Y: 666), (X: 704; Y: 667), (X: 705; Y: 667), (X: 706; Y: 667),
     (X: 707; Y: 667), (X: 708; Y: 667), (X: 708; Y: 666), (X: 709; Y: 666),
     (X: 710; Y: 666), (X: 710; Y: 665), (X: 709; Y: 665), (X: 710; Y: 665),
@@ -36,7 +111,11 @@ const
     (X: 705; Y: 665), (X: 704; Y: 666), (X: 703; Y: 666), (X: 704; Y: 666)
   );
 
-  cAsiaYekaterinburg_6: array [0..24] of TTimeZonePoint = (
+  cAsiaYekaterinburg_24: array [0..1] of TTimeZonePoint = (
+    (X: 703; Y: 666), (X: 703; Y: 666)
+  );
+
+  cAsiaYekaterinburg_25: array [0..24] of TTimeZonePoint = (
     (X: 701; Y: 665), (X: 700; Y: 665), (X: 699; Y: 665), (X: 698; Y: 666),
     (X: 697; Y: 666), (X: 696; Y: 666), (X: 696; Y: 667), (X: 696; Y: 666),
     (X: 696; Y: 667), (X: 695; Y: 667), (X: 696; Y: 667), (X: 695; Y: 667),
@@ -46,11 +125,51 @@ const
     (X: 701; Y: 665)
   );
 
-  cAsiaYekaterinburg_7: array [0..2] of TTimeZonePoint = (
+  cAsiaYekaterinburg_26: array [0..19] of TTimeZonePoint = (
+    (X: 700; Y: 667), (X: 701; Y: 667), (X: 702; Y: 667), (X: 702; Y: 666),
+    (X: 701; Y: 667), (X: 701; Y: 666), (X: 700; Y: 666), (X: 699; Y: 666),
+    (X: 698; Y: 666), (X: 698; Y: 667), (X: 697; Y: 667), (X: 696; Y: 667),
+    (X: 696; Y: 668), (X: 696; Y: 667), (X: 697; Y: 667), (X: 697; Y: 668),
+    (X: 698; Y: 668), (X: 698; Y: 667), (X: 699; Y: 667), (X: 700; Y: 667)
+  );
+
+  cAsiaYekaterinburg_27: array [0..11] of TTimeZonePoint = (
+    (X: 705; Y: 667), (X: 706; Y: 667), (X: 705; Y: 667), (X: 704; Y: 667),
+    (X: 703; Y: 667), (X: 702; Y: 667), (X: 703; Y: 667), (X: 703; Y: 668),
+    (X: 704; Y: 667), (X: 705; Y: 667), (X: 706; Y: 667), (X: 705; Y: 667)
+  );
+
+  cAsiaYekaterinburg_28: array [0..2] of TTimeZonePoint = (
     (X: 692; Y: 668), (X: 691; Y: 668), (X: 692; Y: 668)
   );
 
-  cAsiaYekaterinburg_8: array [0..57] of TTimeZonePoint = (
+  cAsiaYekaterinburg_29: array [0..2] of TTimeZonePoint = (
+    (X: 716; Y: 669), (X: 717; Y: 669), (X: 716; Y: 669)
+  );
+
+  cAsiaYekaterinburg_30: array [0..2] of TTimeZonePoint = (
+    (X: 777; Y: 674), (X: 777; Y: 675), (X: 777; Y: 674)
+  );
+
+  cAsiaYekaterinburg_31: array [0..3] of TTimeZonePoint = (
+    (X: 791; Y: 675), (X: 790; Y: 675), (X: 790; Y: 676), (X: 791; Y: 675)
+  );
+
+  cAsiaYekaterinburg_32: array [0..3] of TTimeZonePoint = (
+    (X: 778; Y: 674), (X: 778; Y: 675), (X: 779; Y: 674), (X: 778; Y: 674)
+  );
+
+  cAsiaYekaterinburg_33: array [0..10] of TTimeZonePoint = (
+    (X: 700; Y: 667), (X: 699; Y: 667), (X: 700; Y: 667), (X: 699; Y: 667),
+    (X: 698; Y: 667), (X: 698; Y: 668), (X: 699; Y: 668), (X: 699; Y: 667),
+    (X: 700; Y: 667), (X: 701; Y: 667), (X: 700; Y: 667)
+  );
+
+  cAsiaYekaterinburg_34: array [0..2] of TTimeZonePoint = (
+    (X: 706; Y: 667), (X: 705; Y: 667), (X: 706; Y: 667)
+  );
+
+  cAsiaYekaterinburg_35: array [0..57] of TTimeZonePoint = (
     (X: 716; Y: 667), (X: 716; Y: 666), (X: 715; Y: 666), (X: 714; Y: 666),
     (X: 713; Y: 666), (X: 714; Y: 666), (X: 713; Y: 666), (X: 712; Y: 666),
     (X: 711; Y: 666), (X: 712; Y: 666), (X: 711; Y: 666), (X: 710; Y: 666),
@@ -68,49 +187,59 @@ const
     (X: 715; Y: 668), (X: 716; Y: 667)
   );
 
-  cAsiaYekaterinburg_9: array [0..2] of TTimeZonePoint = (
+  cAsiaYekaterinburg_36: array [0..1] of TTimeZonePoint = (
+    (X: 716; Y: 667), (X: 716; Y: 667)
+  );
+
+  cAsiaYekaterinburg_37: array [0..3] of TTimeZonePoint = (
+    (X: 695; Y: 667), (X: 694; Y: 667), (X: 694; Y: 668), (X: 695; Y: 667)
+  );
+
+  cAsiaYekaterinburg_38: array [0..2] of TTimeZonePoint = (
+    (X: 697; Y: 668), (X: 696; Y: 668), (X: 697; Y: 668)
+  );
+
+  cAsiaYekaterinburg_39: array [0..2] of TTimeZonePoint = (
+    (X: 697; Y: 668), (X: 696; Y: 668), (X: 697; Y: 668)
+  );
+
+  cAsiaYekaterinburg_40: array [0..1] of TTimeZonePoint = (
+    (X: 715; Y: 668), (X: 715; Y: 668)
+  );
+
+  cAsiaYekaterinburg_41: array [0..10] of TTimeZonePoint = (
+    (X: 693; Y: 667), (X: 692; Y: 667), (X: 692; Y: 668), (X: 693; Y: 668),
+    (X: 694; Y: 668), (X: 695; Y: 668), (X: 694; Y: 668), (X: 694; Y: 667),
+    (X: 693; Y: 667), (X: 694; Y: 667), (X: 693; Y: 667)
+  );
+
+  cAsiaYekaterinburg_42: array [0..4] of TTimeZonePoint = (
+    (X: 696; Y: 668), (X: 697; Y: 668), (X: 696; Y: 668), (X: 695; Y: 668),
+    (X: 696; Y: 668)
+  );
+
+  cAsiaYekaterinburg_43: array [0..2] of TTimeZonePoint = (
+    (X: 698; Y: 668), (X: 697; Y: 668), (X: 698; Y: 668)
+  );
+
+  cAsiaYekaterinburg_44: array [0..11] of TTimeZonePoint = (
+    (X: 694; Y: 668), (X: 693; Y: 668), (X: 692; Y: 668), (X: 691; Y: 668),
+    (X: 691; Y: 669), (X: 692; Y: 668), (X: 693; Y: 668), (X: 694; Y: 668),
+    (X: 695; Y: 668), (X: 696; Y: 668), (X: 695; Y: 668), (X: 694; Y: 668)
+  );
+
+  cAsiaYekaterinburg_45: array [0..2] of TTimeZonePoint = (
     (X: 714; Y: 669), (X: 715; Y: 669), (X: 714; Y: 669)
   );
 
-  cAsiaYekaterinburg_10: array [0..19] of TTimeZonePoint = (
-    (X: 700; Y: 667), (X: 701; Y: 667), (X: 702; Y: 667), (X: 702; Y: 666),
-    (X: 701; Y: 667), (X: 701; Y: 666), (X: 700; Y: 666), (X: 699; Y: 666),
-    (X: 698; Y: 666), (X: 698; Y: 667), (X: 697; Y: 667), (X: 696; Y: 667),
-    (X: 696; Y: 668), (X: 696; Y: 667), (X: 697; Y: 667), (X: 697; Y: 668),
-    (X: 698; Y: 668), (X: 698; Y: 667), (X: 699; Y: 667), (X: 700; Y: 667)
+  cAsiaYekaterinburg_46: array [0..14] of TTimeZonePoint = (
+    (X: 767; Y: 734), (X: 766; Y: 734), (X: 765; Y: 735), (X: 764; Y: 735),
+    (X: 763; Y: 735), (X: 762; Y: 735), (X: 761; Y: 735), (X: 760; Y: 735),
+    (X: 761; Y: 735), (X: 762; Y: 735), (X: 763; Y: 735), (X: 764; Y: 735),
+    (X: 765; Y: 735), (X: 766; Y: 734), (X: 767; Y: 734)
   );
 
-  cAsiaYekaterinburg_11: array [0..11] of TTimeZonePoint = (
-    (X: 705; Y: 667), (X: 706; Y: 667), (X: 705; Y: 667), (X: 704; Y: 667),
-    (X: 703; Y: 667), (X: 702; Y: 667), (X: 703; Y: 667), (X: 703; Y: 668),
-    (X: 704; Y: 667), (X: 705; Y: 667), (X: 706; Y: 667), (X: 705; Y: 667)
-  );
-
-  cAsiaYekaterinburg_12: array [0..3] of TTimeZonePoint = (
-    (X: 778; Y: 674), (X: 778; Y: 675), (X: 779; Y: 674), (X: 778; Y: 674)
-  );
-
-  cAsiaYekaterinburg_13: array [0..2] of TTimeZonePoint = (
-    (X: 777; Y: 674), (X: 777; Y: 675), (X: 777; Y: 674)
-  );
-
-  cAsiaYekaterinburg_14: array [0..4] of TTimeZonePoint = (
-    (X: 778; Y: 675), (X: 779; Y: 675), (X: 780; Y: 675), (X: 779; Y: 675),
-    (X: 778; Y: 675)
-  );
-
-  cAsiaYekaterinburg_15: array [0..3] of TTimeZonePoint = (
-    (X: 791; Y: 675), (X: 790; Y: 675), (X: 790; Y: 676), (X: 791; Y: 675)
-  );
-
-  cAsiaYekaterinburg_16: array [0..13] of TTimeZonePoint = (
-    (X: 764; Y: 731), (X: 763; Y: 731), (X: 762; Y: 731), (X: 762; Y: 732),
-    (X: 761; Y: 732), (X: 762; Y: 732), (X: 764; Y: 732), (X: 765; Y: 732),
-    (X: 766; Y: 732), (X: 767; Y: 732), (X: 767; Y: 731), (X: 766; Y: 731),
-    (X: 765; Y: 731), (X: 764; Y: 731)
-  );
-
-  cAsiaYekaterinburg_17: array [0..18] of TTimeZonePoint = (
+  cAsiaYekaterinburg_47: array [0..18] of TTimeZonePoint = (
     (X: 756; Y: 734), (X: 756; Y: 735), (X: 755; Y: 735), (X: 755; Y: 734),
     (X: 754; Y: 734), (X: 754; Y: 735), (X: 755; Y: 735), (X: 756; Y: 735),
     (X: 757; Y: 735), (X: 758; Y: 735), (X: 759; Y: 735), (X: 760; Y: 735),
@@ -118,7 +247,38 @@ const
     (X: 758; Y: 734), (X: 757; Y: 734), (X: 756; Y: 734)
   );
 
-  cAsiaYekaterinburg_18: array [0..46] of TTimeZonePoint = (
+  cAsiaYekaterinburg_48: array [0..2] of TTimeZonePoint = (
+    (X: 718; Y: 730), (X: 718; Y: 731), (X: 718; Y: 730)
+  );
+
+  cAsiaYekaterinburg_49: array [0..1] of TTimeZonePoint = (
+    (X: 717; Y: 731), (X: 717; Y: 731)
+  );
+
+  cAsiaYekaterinburg_50: array [0..2] of TTimeZonePoint = (
+    (X: 715; Y: 731), (X: 715; Y: 732), (X: 715; Y: 731)
+  );
+
+  cAsiaYekaterinburg_51: array [0..13] of TTimeZonePoint = (
+    (X: 764; Y: 731), (X: 763; Y: 731), (X: 762; Y: 731), (X: 762; Y: 732),
+    (X: 761; Y: 732), (X: 762; Y: 732), (X: 764; Y: 732), (X: 765; Y: 732),
+    (X: 766; Y: 732), (X: 767; Y: 732), (X: 767; Y: 731), (X: 766; Y: 731),
+    (X: 765; Y: 731), (X: 764; Y: 731)
+  );
+
+  cAsiaYekaterinburg_52: array [0..1] of TTimeZonePoint = (
+    (X: 716; Y: 731), (X: 716; Y: 731)
+  );
+
+  cAsiaYekaterinburg_53: array [0..2] of TTimeZonePoint = (
+    (X: 717; Y: 731), (X: 718; Y: 731), (X: 717; Y: 731)
+  );
+
+  cAsiaYekaterinburg_54: array [0..3] of TTimeZonePoint = (
+    (X: 760; Y: 731), (X: 759; Y: 732), (X: 760; Y: 732), (X: 760; Y: 731)
+  );
+
+  cAsiaYekaterinburg_55: array [0..46] of TTimeZonePoint = (
     (X: 700; Y: 730), (X: 699; Y: 730), (X: 699; Y: 731), (X: 700; Y: 731),
     (X: 700; Y: 732), (X: 700; Y: 733), (X: 700; Y: 734), (X: 701; Y: 734),
     (X: 702; Y: 734), (X: 703; Y: 735), (X: 704; Y: 735), (X: 705; Y: 735),
@@ -133,11 +293,7 @@ const
     (X: 700; Y: 730), (X: 701; Y: 730), (X: 700; Y: 730)
   );
 
-  cAsiaYekaterinburg_19: array [0..3] of TTimeZonePoint = (
-    (X: 760; Y: 731), (X: 759; Y: 732), (X: 760; Y: 732), (X: 760; Y: 731)
-  );
-
-  cAsiaYekaterinburg_20: array [0..2751] of TTimeZonePoint = (
+  cAsiaYekaterinburg_56: array [0..2751] of TTimeZonePoint = (
     (X: 600; Y: 520), (X: 600; Y: 519), (X: 601; Y: 519), (X: 602; Y: 519),
     (X: 603; Y: 519), (X: 603; Y: 518), (X: 604; Y: 518), (X: 605; Y: 518),
     (X: 605; Y: 517), (X: 604; Y: 517), (X: 604; Y: 516), (X: 605; Y: 516),
@@ -828,72 +984,144 @@ const
     (X: 603; Y: 520), (X: 602; Y: 520), (X: 601; Y: 520), (X: 600; Y: 520)
   );
 
-  cAsiaYekaterinburg_21: array [0..5] of TTimeZonePoint = (
-    (X: 777; Y: 675), (X: 778; Y: 675), (X: 778; Y: 676), (X: 779; Y: 675),
-    (X: 778; Y: 675), (X: 777; Y: 675)
+  cAsiaYekaterinburg_57: array [0..4] of TTimeZonePoint = (
+    (X: 778; Y: 675), (X: 779; Y: 675), (X: 780; Y: 675), (X: 779; Y: 675),
+    (X: 778; Y: 675)
   );
 
-  cAsiaYekaterinburg_22: array [0..4] of TTimeZonePoint = (
+  cAsiaYekaterinburg_58: array [0..4] of TTimeZonePoint = (
     (X: 787; Y: 675), (X: 786; Y: 675), (X: 786; Y: 676), (X: 787; Y: 676),
     (X: 787; Y: 675)
   );
 
-  cAsiaYekaterinburg_23: array [0..2] of TTimeZonePoint = (
-    (X: 786; Y: 675), (X: 786; Y: 676), (X: 786; Y: 675)
+  cAsiaYekaterinburg_59: array [0..5] of TTimeZonePoint = (
+    (X: 777; Y: 675), (X: 778; Y: 675), (X: 778; Y: 676), (X: 779; Y: 675),
+    (X: 778; Y: 675), (X: 777; Y: 675)
   );
 
-  cAsiaYekaterinburg_24: array [0..2] of TTimeZonePoint = (
+  cAsiaYekaterinburg_60: array [0..2] of TTimeZonePoint = (
     (X: 787; Y: 675), (X: 787; Y: 676), (X: 787; Y: 675)
   );
 
-  cAsiaYekaterinburg_25: array [0..1] of TTimeZonePoint = (
-    (X: 788; Y: 676), (X: 788; Y: 676)
+  cAsiaYekaterinburg_61: array [0..2] of TTimeZonePoint = (
+    (X: 790; Y: 676), (X: 789; Y: 676), (X: 790; Y: 676)
   );
 
-  cAsiaYekaterinburg_26: array [0..6] of TTimeZonePoint = (
+  cAsiaYekaterinburg_62: array [0..6] of TTimeZonePoint = (
     (X: 674; Y: 688), (X: 673; Y: 688), (X: 672; Y: 688), (X: 671; Y: 688),
     (X: 672; Y: 688), (X: 673; Y: 688), (X: 674; Y: 688)
   );
 
-  cAsiaYekaterinburg_27: array [0..2] of TTimeZonePoint = (
+  cAsiaYekaterinburg_63: array [0..1] of TTimeZonePoint = (
+    (X: 788; Y: 676), (X: 788; Y: 676)
+  );
+
+  cAsiaYekaterinburg_64: array [0..2] of TTimeZonePoint = (
+    (X: 786; Y: 675), (X: 786; Y: 676), (X: 786; Y: 675)
+  );
+
+  cAsiaYekaterinburg_65: array [0..1] of TTimeZonePoint = (
+    (X: 657; Y: 691), (X: 657; Y: 691)
+  );
+
+  cAsiaYekaterinburg_66: array [0..1] of TTimeZonePoint = (
+    (X: 676; Y: 695), (X: 676; Y: 695)
+  );
+
+  cAsiaYekaterinburg_67: array [0..2] of TTimeZonePoint = (
+    (X: 672; Y: 694), (X: 673; Y: 694), (X: 672; Y: 694)
+  );
+
+  cAsiaYekaterinburg_68: array [0..1] of TTimeZonePoint = (
+    (X: 670; Y: 695), (X: 670; Y: 695)
+  );
+
+  cAsiaYekaterinburg_69: array [0..2] of TTimeZonePoint = (
+    (X: 666; Y: 706), (X: 665; Y: 706), (X: 666; Y: 706)
+  );
+
+  cAsiaYekaterinburg_70: array [0..2] of TTimeZonePoint = (
     (X: 674; Y: 707), (X: 673; Y: 707), (X: 674; Y: 707)
   );
 
-  cAsiaYekaterinburg_28: array [0..2] of TTimeZonePoint = (
-    (X: 674; Y: 707), (X: 673; Y: 707), (X: 674; Y: 707)
-  );
-
-  cAsiaYekaterinburg_29: array [0..4] of TTimeZonePoint = (
-    (X: 667; Y: 710), (X: 667; Y: 711), (X: 668; Y: 711), (X: 668; Y: 710),
-    (X: 667; Y: 710)
-  );
-
-  cAsiaYekaterinburg_30: array [0..7] of TTimeZonePoint = (
+  cAsiaYekaterinburg_71: array [0..7] of TTimeZonePoint = (
     (X: 670; Y: 694), (X: 671; Y: 694), (X: 672; Y: 694), (X: 673; Y: 694),
     (X: 672; Y: 694), (X: 672; Y: 693), (X: 671; Y: 694), (X: 670; Y: 694)
   );
 
-  cAsiaYekaterinburg_31: array [0..13] of TTimeZonePoint = (
+  cAsiaYekaterinburg_72: array [0..13] of TTimeZonePoint = (
     (X: 673; Y: 694), (X: 673; Y: 695), (X: 673; Y: 694), (X: 672; Y: 694),
     (X: 671; Y: 694), (X: 671; Y: 695), (X: 670; Y: 695), (X: 671; Y: 695),
     (X: 672; Y: 696), (X: 673; Y: 696), (X: 674; Y: 696), (X: 674; Y: 695),
     (X: 673; Y: 695), (X: 673; Y: 694)
   );
 
-  cAsiaYekaterinburg_32: array [0..2] of TTimeZonePoint = (
-    (X: 772; Y: 722), (X: 773; Y: 722), (X: 772; Y: 722)
+  cAsiaYekaterinburg_73: array [0..2] of TTimeZonePoint = (
+    (X: 674; Y: 707), (X: 673; Y: 707), (X: 674; Y: 707)
   );
 
-  cAsiaYekaterinburg_33: array [0..1] of TTimeZonePoint = (
+  cAsiaYekaterinburg_74: array [0..4] of TTimeZonePoint = (
+    (X: 667; Y: 710), (X: 667; Y: 711), (X: 668; Y: 711), (X: 668; Y: 710),
+    (X: 667; Y: 710)
+  );
+
+  cAsiaYekaterinburg_75: array [0..4] of TTimeZonePoint = (
+    (X: 665; Y: 708), (X: 665; Y: 709), (X: 666; Y: 709), (X: 666; Y: 708),
+    (X: 665; Y: 708)
+  );
+
+  cAsiaYekaterinburg_76: array [0..5] of TTimeZonePoint = (
+    (X: 666; Y: 709), (X: 666; Y: 710), (X: 667; Y: 710), (X: 666; Y: 709),
+    (X: 667; Y: 709), (X: 666; Y: 709)
+  );
+
+  cAsiaYekaterinburg_77: array [0..1] of TTimeZonePoint = (
     (X: 786; Y: 723), (X: 786; Y: 723)
   );
 
-  cAsiaYekaterinburg_34: array [0..6] of TTimeZonePoint = (
+  cAsiaYekaterinburg_78: array [0..2] of TTimeZonePoint = (
+    (X: 772; Y: 722), (X: 773; Y: 722), (X: 772; Y: 722)
+  );
+
+  cAsiaYekaterinburg_79: array [0..1] of TTimeZonePoint = (
+    (X: 770; Y: 722), (X: 770; Y: 722)
+  );
+
+  cAsiaYekaterinburg_80: array [0..2] of TTimeZonePoint = (
+    (X: 756; Y: 725), (X: 757; Y: 725), (X: 756; Y: 725)
+  );
+
+  cAsiaYekaterinburg_81: array [0..2] of TTimeZonePoint = (
+    (X: 727; Y: 727), (X: 728; Y: 727), (X: 727; Y: 727)
+  );
+
+  cAsiaYekaterinburg_82: array [0..1] of TTimeZonePoint = (
+    (X: 728; Y: 726), (X: 728; Y: 726)
+  );
+
+  cAsiaYekaterinburg_83: array [0..1] of TTimeZonePoint = (
+    (X: 728; Y: 726), (X: 728; Y: 726)
+  );
+
+  cAsiaYekaterinburg_84: array [0..4] of TTimeZonePoint = (
+    (X: 729; Y: 726), (X: 728; Y: 726), (X: 728; Y: 727), (X: 729; Y: 727),
+    (X: 729; Y: 726)
+  );
+
+  cAsiaYekaterinburg_85: array [0..1] of TTimeZonePoint = (
+    (X: 770; Y: 723), (X: 770; Y: 723)
+  );
+
+  cAsiaYekaterinburg_86: array [0..1] of TTimeZonePoint = (
+    (X: 780; Y: 723), (X: 780; Y: 723)
+  );
+
+  cAsiaYekaterinburg_87: array [0..6] of TTimeZonePoint = (
     (X: 784; Y: 724), (X: 784; Y: 723), (X: 783; Y: 723), (X: 783; Y: 724),
     (X: 784; Y: 724), (X: 785; Y: 724), (X: 784; Y: 724)
   );
 
-  cAsiaYekaterinburg_35: array [0..37] of TTimeZonePoint = (
+  cAsiaYekaterinburg_88: array [0..37] of TTimeZonePoint = (
     (X: 772; Y: 724), (X: 773; Y: 725), (X: 774; Y: 725), (X: 775; Y: 726),
     (X: 776; Y: 726), (X: 777; Y: 726), (X: 778; Y: 726), (X: 779; Y: 726),
     (X: 781; Y: 726), (X: 782; Y: 726), (X: 783; Y: 725), (X: 783; Y: 724),
@@ -906,7 +1134,52 @@ const
     (X: 771; Y: 724), (X: 772; Y: 724)
   );
 
-  cAsiaYekaterinburg_36: array [0..27] of TTimeZonePoint = (
+  cAsiaYekaterinburg_89: array [0..4] of TTimeZonePoint = (
+    (X: 769; Y: 722), (X: 770; Y: 722), (X: 769; Y: 722), (X: 770; Y: 722),
+    (X: 769; Y: 722)
+  );
+
+  cAsiaYekaterinburg_90: array [0..1] of TTimeZonePoint = (
+    (X: 756; Y: 722), (X: 756; Y: 722)
+  );
+
+  cAsiaYekaterinburg_91: array [0..1] of TTimeZonePoint = (
+    (X: 757; Y: 722), (X: 757; Y: 722)
+  );
+
+  cAsiaYekaterinburg_92: array [0..2] of TTimeZonePoint = (
+    (X: 756; Y: 722), (X: 757; Y: 722), (X: 756; Y: 722)
+  );
+
+  cAsiaYekaterinburg_93: array [0..1] of TTimeZonePoint = (
+    (X: 698; Y: 729), (X: 698; Y: 729)
+  );
+
+  cAsiaYekaterinburg_94: array [0..1] of TTimeZonePoint = (
+    (X: 747; Y: 729), (X: 747; Y: 729)
+  );
+
+  cAsiaYekaterinburg_95: array [0..2] of TTimeZonePoint = (
+    (X: 747; Y: 729), (X: 748; Y: 729), (X: 747; Y: 729)
+  );
+
+  cAsiaYekaterinburg_96: array [0..1] of TTimeZonePoint = (
+    (X: 747; Y: 729), (X: 747; Y: 729)
+  );
+
+  cAsiaYekaterinburg_97: array [0..2] of TTimeZonePoint = (
+    (X: 746; Y: 729), (X: 747; Y: 730), (X: 746; Y: 729)
+  );
+
+  cAsiaYekaterinburg_98: array [0..2] of TTimeZonePoint = (
+    (X: 747; Y: 728), (X: 747; Y: 729), (X: 747; Y: 728)
+  );
+
+  cAsiaYekaterinburg_99: array [0..1] of TTimeZonePoint = (
+    (X: 748; Y: 729), (X: 748; Y: 729)
+  );
+
+  cAsiaYekaterinburg_100: array [0..27] of TTimeZonePoint = (
     (X: 747; Y: 730), (X: 746; Y: 730), (X: 747; Y: 730), (X: 746; Y: 730),
     (X: 746; Y: 729), (X: 747; Y: 729), (X: 746; Y: 729), (X: 746; Y: 728),
     (X: 745; Y: 728), (X: 745; Y: 729), (X: 746; Y: 729), (X: 745; Y: 729),
@@ -916,44 +1189,108 @@ const
     (X: 749; Y: 730), (X: 748; Y: 731), (X: 747; Y: 731), (X: 747; Y: 730)
   );
 
-  cAsiaYekaterinburgPolygon: array[0..36] of TTimeZonePolygon = (
+  cAsiaYekaterinburgPolygon: array[0..100] of TTimeZonePolygon = (
     (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_0[0]), 
     (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_1[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_2[0]), 
-    (PointsCount: 11; FirstPoint: @cAsiaYekaterinburg_3[0]), 
+    (PointsCount: 5; FirstPoint: @cAsiaYekaterinburg_2[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_3[0]), 
     (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_4[0]), 
-    (PointsCount: 20; FirstPoint: @cAsiaYekaterinburg_5[0]), 
-    (PointsCount: 25; FirstPoint: @cAsiaYekaterinburg_6[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_5[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_6[0]), 
     (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_7[0]), 
-    (PointsCount: 58; FirstPoint: @cAsiaYekaterinburg_8[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_8[0]), 
     (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_9[0]), 
-    (PointsCount: 20; FirstPoint: @cAsiaYekaterinburg_10[0]), 
-    (PointsCount: 12; FirstPoint: @cAsiaYekaterinburg_11[0]), 
-    (PointsCount: 4; FirstPoint: @cAsiaYekaterinburg_12[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_13[0]), 
-    (PointsCount: 5; FirstPoint: @cAsiaYekaterinburg_14[0]), 
-    (PointsCount: 4; FirstPoint: @cAsiaYekaterinburg_15[0]), 
-    (PointsCount: 14; FirstPoint: @cAsiaYekaterinburg_16[0]), 
-    (PointsCount: 19; FirstPoint: @cAsiaYekaterinburg_17[0]), 
-    (PointsCount: 47; FirstPoint: @cAsiaYekaterinburg_18[0]), 
-    (PointsCount: 4; FirstPoint: @cAsiaYekaterinburg_19[0]), 
-    (PointsCount: 2752; FirstPoint: @cAsiaYekaterinburg_20[0]), 
-    (PointsCount: 6; FirstPoint: @cAsiaYekaterinburg_21[0]), 
-    (PointsCount: 5; FirstPoint: @cAsiaYekaterinburg_22[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_23[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_24[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_25[0]), 
-    (PointsCount: 7; FirstPoint: @cAsiaYekaterinburg_26[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_27[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_10[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_11[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_12[0]), 
+    (PointsCount: 4; FirstPoint: @cAsiaYekaterinburg_13[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_14[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_15[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_16[0]), 
+    (PointsCount: 11; FirstPoint: @cAsiaYekaterinburg_17[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_18[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_19[0]), 
+    (PointsCount: 9; FirstPoint: @cAsiaYekaterinburg_20[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_21[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_22[0]), 
+    (PointsCount: 20; FirstPoint: @cAsiaYekaterinburg_23[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_24[0]), 
+    (PointsCount: 25; FirstPoint: @cAsiaYekaterinburg_25[0]), 
+    (PointsCount: 20; FirstPoint: @cAsiaYekaterinburg_26[0]), 
+    (PointsCount: 12; FirstPoint: @cAsiaYekaterinburg_27[0]), 
     (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_28[0]), 
-    (PointsCount: 5; FirstPoint: @cAsiaYekaterinburg_29[0]), 
-    (PointsCount: 8; FirstPoint: @cAsiaYekaterinburg_30[0]), 
-    (PointsCount: 14; FirstPoint: @cAsiaYekaterinburg_31[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_32[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_33[0]), 
-    (PointsCount: 7; FirstPoint: @cAsiaYekaterinburg_34[0]), 
-    (PointsCount: 38; FirstPoint: @cAsiaYekaterinburg_35[0]), 
-    (PointsCount: 28; FirstPoint: @cAsiaYekaterinburg_36[0])
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_29[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_30[0]), 
+    (PointsCount: 4; FirstPoint: @cAsiaYekaterinburg_31[0]), 
+    (PointsCount: 4; FirstPoint: @cAsiaYekaterinburg_32[0]), 
+    (PointsCount: 11; FirstPoint: @cAsiaYekaterinburg_33[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_34[0]), 
+    (PointsCount: 58; FirstPoint: @cAsiaYekaterinburg_35[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_36[0]), 
+    (PointsCount: 4; FirstPoint: @cAsiaYekaterinburg_37[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_38[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_39[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_40[0]), 
+    (PointsCount: 11; FirstPoint: @cAsiaYekaterinburg_41[0]), 
+    (PointsCount: 5; FirstPoint: @cAsiaYekaterinburg_42[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_43[0]), 
+    (PointsCount: 12; FirstPoint: @cAsiaYekaterinburg_44[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_45[0]), 
+    (PointsCount: 15; FirstPoint: @cAsiaYekaterinburg_46[0]), 
+    (PointsCount: 19; FirstPoint: @cAsiaYekaterinburg_47[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_48[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_49[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_50[0]), 
+    (PointsCount: 14; FirstPoint: @cAsiaYekaterinburg_51[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_52[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_53[0]), 
+    (PointsCount: 4; FirstPoint: @cAsiaYekaterinburg_54[0]), 
+    (PointsCount: 47; FirstPoint: @cAsiaYekaterinburg_55[0]), 
+    (PointsCount: 2752; FirstPoint: @cAsiaYekaterinburg_56[0]), 
+    (PointsCount: 5; FirstPoint: @cAsiaYekaterinburg_57[0]), 
+    (PointsCount: 5; FirstPoint: @cAsiaYekaterinburg_58[0]), 
+    (PointsCount: 6; FirstPoint: @cAsiaYekaterinburg_59[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_60[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_61[0]), 
+    (PointsCount: 7; FirstPoint: @cAsiaYekaterinburg_62[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_63[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_64[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_65[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_66[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_67[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_68[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_69[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_70[0]), 
+    (PointsCount: 8; FirstPoint: @cAsiaYekaterinburg_71[0]), 
+    (PointsCount: 14; FirstPoint: @cAsiaYekaterinburg_72[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_73[0]), 
+    (PointsCount: 5; FirstPoint: @cAsiaYekaterinburg_74[0]), 
+    (PointsCount: 5; FirstPoint: @cAsiaYekaterinburg_75[0]), 
+    (PointsCount: 6; FirstPoint: @cAsiaYekaterinburg_76[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_77[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_78[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_79[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_80[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_81[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_82[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_83[0]), 
+    (PointsCount: 5; FirstPoint: @cAsiaYekaterinburg_84[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_85[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_86[0]), 
+    (PointsCount: 7; FirstPoint: @cAsiaYekaterinburg_87[0]), 
+    (PointsCount: 38; FirstPoint: @cAsiaYekaterinburg_88[0]), 
+    (PointsCount: 5; FirstPoint: @cAsiaYekaterinburg_89[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_90[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_91[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_92[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_93[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_94[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_95[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_96[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_97[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaYekaterinburg_98[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaYekaterinburg_99[0]), 
+    (PointsCount: 28; FirstPoint: @cAsiaYekaterinburg_100[0])
   );
 
   cAsiaYekaterinburgBound: TTimeZoneBound = (
@@ -964,7 +1301,7 @@ const
   cAsiaYekaterinburg: TTimeZoneInfo = (
     TZID: 'Asia/Yekaterinburg';
     Bound: @cAsiaYekaterinburgBound;
-    PolygonsCount: 37;
+    PolygonsCount: 101;
     FirstPolygon: @cAsiaYekaterinburgPolygon[0]
   );
 

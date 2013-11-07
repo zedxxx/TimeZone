@@ -6,152 +6,130 @@ uses
   t_TzWorld;
 
 const
-  cAsiaMagadan_0: array [0..2] of TTimeZonePoint = (
-    (X: 1611; Y: 692), (X: 1611; Y: 693), (X: 1611; Y: 692)
-  );
-
-  cAsiaMagadan_1: array [0..1] of TTimeZonePoint = (
-    (X: 1406; Y: 624), (X: 1406; Y: 624)
-  );
-
-  cAsiaMagadan_2: array [0..1] of TTimeZonePoint = (
+  cAsiaMagadan_0: array [0..1] of TTimeZonePoint = (
     (X: 1599; Y: 609), (X: 1599; Y: 609)
   );
 
+  cAsiaMagadan_1: array [0..2] of TTimeZonePoint = (
+    (X: 1611; Y: 692), (X: 1611; Y: 693), (X: 1611; Y: 692)
+  );
+
+  cAsiaMagadan_2: array [0..2] of TTimeZonePoint = (
+    (X: 1611; Y: 693), (X: 1610; Y: 693), (X: 1611; Y: 693)
+  );
+
   cAsiaMagadan_3: array [0..1] of TTimeZonePoint = (
-    (X: 1439; Y: 618), (X: 1439; Y: 618)
+    (X: 1611; Y: 693), (X: 1611; Y: 693)
   );
 
-  cAsiaMagadan_4: array [0..6] of TTimeZonePoint = (
-    (X: 1446; Y: 619), (X: 1445; Y: 619), (X: 1446; Y: 619), (X: 1445; Y: 619),
-    (X: 1445; Y: 618), (X: 1444; Y: 618), (X: 1446; Y: 619)
-  );
-
-  cAsiaMagadan_5: array [0..1] of TTimeZonePoint = (
-    (X: 1430; Y: 619), (X: 1430; Y: 619)
-  );
-
-  cAsiaMagadan_6: array [0..2] of TTimeZonePoint = (
-    (X: 1436; Y: 619), (X: 1436; Y: 620), (X: 1436; Y: 619)
-  );
-
-  cAsiaMagadan_7: array [0..8] of TTimeZonePoint = (
+  cAsiaMagadan_4: array [0..8] of TTimeZonePoint = (
     (X: 1506; Y: 591), (X: 1507; Y: 591), (X: 1508; Y: 591), (X: 1507; Y: 591),
     (X: 1507; Y: 590), (X: 1506; Y: 590), (X: 1505; Y: 590), (X: 1505; Y: 591),
     (X: 1506; Y: 591)
   );
 
-  cAsiaMagadan_8: array [0..6] of TTimeZonePoint = (
+  cAsiaMagadan_5: array [0..6] of TTimeZonePoint = (
     (X: 1490; Y: 591), (X: 1490; Y: 592), (X: 1491; Y: 592), (X: 1492; Y: 592),
     (X: 1491; Y: 592), (X: 1490; Y: 592), (X: 1490; Y: 591)
   );
 
-  cAsiaMagadan_9: array [0..1] of TTimeZonePoint = (
+  cAsiaMagadan_6: array [0..1] of TTimeZonePoint = (
     (X: 1555; Y: 592), (X: 1555; Y: 592)
   );
 
-  cAsiaMagadan_10: array [0..1] of TTimeZonePoint = (
+  cAsiaMagadan_7: array [0..1] of TTimeZonePoint = (
     (X: 1553; Y: 592), (X: 1553; Y: 592)
   );
 
-  cAsiaMagadan_11: array [0..1] of TTimeZonePoint = (
+  cAsiaMagadan_8: array [0..1] of TTimeZonePoint = (
     (X: 1491; Y: 593), (X: 1491; Y: 593)
   );
 
-  cAsiaMagadan_12: array [0..2] of TTimeZonePoint = (
+  cAsiaMagadan_9: array [0..2] of TTimeZonePoint = (
     (X: 1556; Y: 593), (X: 1555; Y: 593), (X: 1556; Y: 593)
   );
 
-  cAsiaMagadan_13: array [0..2] of TTimeZonePoint = (
+  cAsiaMagadan_10: array [0..2] of TTimeZonePoint = (
     (X: 1544; Y: 595), (X: 1544; Y: 596), (X: 1544; Y: 595)
   );
 
-  cAsiaMagadan_14: array [0..1] of TTimeZonePoint = (
+  cAsiaMagadan_11: array [0..1] of TTimeZonePoint = (
     (X: 1504; Y: 596), (X: 1504; Y: 596)
   );
 
-  cAsiaMagadan_15: array [0..2] of TTimeZonePoint = (
-    (X: 1611; Y: 693), (X: 1610; Y: 693), (X: 1611; Y: 693)
-  );
-
-  cAsiaMagadan_16: array [0..1] of TTimeZonePoint = (
-    (X: 1611; Y: 693), (X: 1611; Y: 693)
-  );
-
-  cAsiaMagadan_17: array [0..2] of TTimeZonePoint = (
-    (X: 1611; Y: 696), (X: 1611; Y: 695), (X: 1611; Y: 696)
-  );
-
-  cAsiaMagadan_18: array [0..2] of TTimeZonePoint = (
-    (X: 1620; Y: 695), (X: 1619; Y: 695), (X: 1620; Y: 695)
-  );
-
-  cAsiaMagadan_19: array [0..2] of TTimeZonePoint = (
-    (X: 1620; Y: 695), (X: 1620; Y: 696), (X: 1620; Y: 695)
-  );
-
-  cAsiaMagadan_20: array [0..2] of TTimeZonePoint = (
+  cAsiaMagadan_12: array [0..2] of TTimeZonePoint = (
     (X: 1614; Y: 694), (X: 1615; Y: 694), (X: 1614; Y: 694)
   );
 
-  cAsiaMagadan_21: array [0..4] of TTimeZonePoint = (
+  cAsiaMagadan_13: array [0..4] of TTimeZonePoint = (
     (X: 1616; Y: 694), (X: 1616; Y: 695), (X: 1616; Y: 694), (X: 1615; Y: 694),
     (X: 1616; Y: 694)
   );
 
-  cAsiaMagadan_22: array [0..2] of TTimeZonePoint = (
-    (X: 1621; Y: 696), (X: 1620; Y: 696), (X: 1621; Y: 696)
+  cAsiaMagadan_14: array [0..2] of TTimeZonePoint = (
+    (X: 1611; Y: 696), (X: 1611; Y: 695), (X: 1611; Y: 696)
   );
 
-  cAsiaMagadan_23: array [0..2] of TTimeZonePoint = (
+  cAsiaMagadan_15: array [0..2] of TTimeZonePoint = (
+    (X: 1620; Y: 695), (X: 1619; Y: 695), (X: 1620; Y: 695)
+  );
+
+  cAsiaMagadan_16: array [0..2] of TTimeZonePoint = (
+    (X: 1620; Y: 695), (X: 1620; Y: 696), (X: 1620; Y: 695)
+  );
+
+  cAsiaMagadan_17: array [0..2] of TTimeZonePoint = (
     (X: 1610; Y: 697), (X: 1611; Y: 697), (X: 1610; Y: 697)
   );
 
-  cAsiaMagadan_24: array [0..4] of TTimeZonePoint = (
+  cAsiaMagadan_18: array [0..4] of TTimeZonePoint = (
     (X: 1605; Y: 697), (X: 1606; Y: 697), (X: 1607; Y: 697), (X: 1606; Y: 697),
     (X: 1605; Y: 697)
   );
 
-  cAsiaMagadan_25: array [0..2] of TTimeZonePoint = (
+  cAsiaMagadan_19: array [0..2] of TTimeZonePoint = (
     (X: 1601; Y: 697), (X: 1602; Y: 697), (X: 1601; Y: 697)
   );
 
-  cAsiaMagadan_26: array [0..4] of TTimeZonePoint = (
+  cAsiaMagadan_20: array [0..4] of TTimeZonePoint = (
     (X: 1624; Y: 706), (X: 1623; Y: 706), (X: 1624; Y: 706), (X: 1625; Y: 706),
     (X: 1624; Y: 706)
   );
 
-  cAsiaMagadan_27: array [0..1] of TTimeZonePoint = (
-    (X: 1610; Y: 696), (X: 1610; Y: 696)
+  cAsiaMagadan_21: array [0..2] of TTimeZonePoint = (
+    (X: 1617; Y: 706), (X: 1617; Y: 707), (X: 1617; Y: 706)
   );
 
-  cAsiaMagadan_28: array [0..1] of TTimeZonePoint = (
+  cAsiaMagadan_22: array [0..5] of TTimeZonePoint = (
+    (X: 1617; Y: 707), (X: 1616; Y: 708), (X: 1615; Y: 708), (X: 1616; Y: 708),
+    (X: 1617; Y: 708), (X: 1617; Y: 707)
+  );
+
+  cAsiaMagadan_23: array [0..1] of TTimeZonePoint = (
     (X: 1611; Y: 696), (X: 1611; Y: 696)
   );
 
-  cAsiaMagadan_29: array [0..1] of TTimeZonePoint = (
+  cAsiaMagadan_24: array [0..1] of TTimeZonePoint = (
     (X: 1619; Y: 696), (X: 1619; Y: 696)
   );
 
-  cAsiaMagadan_30: array [0..2] of TTimeZonePoint = (
+  cAsiaMagadan_25: array [0..1] of TTimeZonePoint = (
+    (X: 1610; Y: 696), (X: 1610; Y: 696)
+  );
+
+  cAsiaMagadan_26: array [0..2] of TTimeZonePoint = (
     (X: 1610; Y: 696), (X: 1610; Y: 695), (X: 1610; Y: 696)
   );
 
-  cAsiaMagadan_31: array [0..2] of TTimeZonePoint = (
-    (X: 1620; Y: 696), (X: 1620; Y: 695), (X: 1620; Y: 696)
+  cAsiaMagadan_27: array [0..2] of TTimeZonePoint = (
+    (X: 1621; Y: 696), (X: 1620; Y: 696), (X: 1621; Y: 696)
   );
 
-  cAsiaMagadan_32: array [0..4] of TTimeZonePoint = (
-    (X: 1614; Y: 696), (X: 1615; Y: 696), (X: 1614; Y: 696), (X: 1615; Y: 696),
-    (X: 1614; Y: 696)
+  cAsiaMagadan_28: array [0..1] of TTimeZonePoint = (
+    (X: 1613; Y: 696), (X: 1613; Y: 696)
   );
 
-  cAsiaMagadan_33: array [0..6] of TTimeZonePoint = (
-    (X: 1617; Y: 695), (X: 1617; Y: 696), (X: 1618; Y: 696), (X: 1619; Y: 696),
-    (X: 1619; Y: 695), (X: 1618; Y: 695), (X: 1617; Y: 695)
-  );
-
-  cAsiaMagadan_34: array [0..21] of TTimeZonePoint = (
+  cAsiaMagadan_29: array [0..21] of TTimeZonePoint = (
     (X: 1616; Y: 695), (X: 1617; Y: 695), (X: 1616; Y: 695), (X: 1616; Y: 694),
     (X: 1615; Y: 694), (X: 1614; Y: 694), (X: 1613; Y: 694), (X: 1614; Y: 694),
     (X: 1615; Y: 695), (X: 1614; Y: 695), (X: 1615; Y: 695), (X: 1614; Y: 695),
@@ -160,50 +138,150 @@ const
     (X: 1617; Y: 696), (X: 1616; Y: 695)
   );
 
-  cAsiaMagadan_35: array [0..1] of TTimeZonePoint = (
-    (X: 1613; Y: 696), (X: 1613; Y: 696)
+  cAsiaMagadan_30: array [0..2] of TTimeZonePoint = (
+    (X: 1620; Y: 696), (X: 1620; Y: 695), (X: 1620; Y: 696)
   );
 
-  cAsiaMagadan_36: array [0..1] of TTimeZonePoint = (
+  cAsiaMagadan_31: array [0..4] of TTimeZonePoint = (
+    (X: 1614; Y: 696), (X: 1615; Y: 696), (X: 1614; Y: 696), (X: 1615; Y: 696),
+    (X: 1614; Y: 696)
+  );
+
+  cAsiaMagadan_32: array [0..6] of TTimeZonePoint = (
+    (X: 1617; Y: 695), (X: 1617; Y: 696), (X: 1618; Y: 696), (X: 1619; Y: 696),
+    (X: 1619; Y: 695), (X: 1618; Y: 695), (X: 1617; Y: 695)
+  );
+
+  cAsiaMagadan_33: array [0..1] of TTimeZonePoint = (
     (X: 1616; Y: 696), (X: 1616; Y: 696)
   );
 
-  cAsiaMagadan_37: array [0..2] of TTimeZonePoint = (
-    (X: 1611; Y: 696), (X: 1610; Y: 696), (X: 1611; Y: 696)
-  );
-
-  cAsiaMagadan_38: array [0..1] of TTimeZonePoint = (
+  cAsiaMagadan_34: array [0..1] of TTimeZonePoint = (
     (X: 1615; Y: 696), (X: 1615; Y: 696)
   );
 
-  cAsiaMagadan_39: array [0..2] of TTimeZonePoint = (
-    (X: 1615; Y: 696), (X: 1616; Y: 696), (X: 1615; Y: 696)
+  cAsiaMagadan_35: array [0..2] of TTimeZonePoint = (
+    (X: 1611; Y: 696), (X: 1610; Y: 696), (X: 1611; Y: 696)
   );
 
-  cAsiaMagadan_40: array [0..2] of TTimeZonePoint = (
-    (X: 1617; Y: 696), (X: 1618; Y: 696), (X: 1617; Y: 696)
-  );
-
-  cAsiaMagadan_41: array [0..2] of TTimeZonePoint = (
+  cAsiaMagadan_36: array [0..2] of TTimeZonePoint = (
     (X: 1613; Y: 696), (X: 1614; Y: 696), (X: 1613; Y: 696)
   );
 
-  cAsiaMagadan_42: array [0..2] of TTimeZonePoint = (
+  cAsiaMagadan_37: array [0..2] of TTimeZonePoint = (
+    (X: 1615; Y: 696), (X: 1616; Y: 696), (X: 1615; Y: 696)
+  );
+
+  cAsiaMagadan_38: array [0..2] of TTimeZonePoint = (
     (X: 1618; Y: 696), (X: 1619; Y: 696), (X: 1618; Y: 696)
   );
 
-  cAsiaMagadan_43: array [0..1253] of TTimeZonePoint = (
-    (X: 1447; Y: 621), (X: 1448; Y: 621), (X: 1449; Y: 621), (X: 1449; Y: 622),
-    (X: 1450; Y: 621), (X: 1450; Y: 622), (X: 1451; Y: 622), (X: 1451; Y: 623),
-    (X: 1452; Y: 623), (X: 1451; Y: 623), (X: 1452; Y: 623), (X: 1452; Y: 624),
-    (X: 1451; Y: 624), (X: 1452; Y: 624), (X: 1451; Y: 624), (X: 1452; Y: 625),
-    (X: 1451; Y: 625), (X: 1452; Y: 625), (X: 1453; Y: 625), (X: 1454; Y: 625),
-    (X: 1454; Y: 626), (X: 1453; Y: 627), (X: 1453; Y: 630), (X: 1452; Y: 631),
-    (X: 1453; Y: 632), (X: 1452; Y: 632), (X: 1453; Y: 632), (X: 1453; Y: 633),
-    (X: 1454; Y: 633), (X: 1454; Y: 634), (X: 1454; Y: 635), (X: 1455; Y: 635),
-    (X: 1455; Y: 636), (X: 1456; Y: 636), (X: 1456; Y: 637), (X: 1456; Y: 638),
-    (X: 1455; Y: 638), (X: 1456; Y: 638), (X: 1457; Y: 639), (X: 1458; Y: 639),
-    (X: 1459; Y: 639), (X: 1460; Y: 639), (X: 1462; Y: 640), (X: 1463; Y: 641),
+  cAsiaMagadan_39: array [0..2] of TTimeZonePoint = (
+    (X: 1617; Y: 696), (X: 1618; Y: 696), (X: 1617; Y: 696)
+  );
+
+  cAsiaMagadan_40: array [0..1263] of TTimeZonePoint = (
+    (X: 1544; Y: 600), (X: 1545; Y: 600), (X: 1545; Y: 599), (X: 1544; Y: 599),
+    (X: 1544; Y: 598), (X: 1544; Y: 599), (X: 1545; Y: 599), (X: 1544; Y: 599),
+    (X: 1543; Y: 599), (X: 1542; Y: 599), (X: 1542; Y: 598), (X: 1542; Y: 597),
+    (X: 1543; Y: 597), (X: 1543; Y: 596), (X: 1544; Y: 596), (X: 1543; Y: 596),
+    (X: 1543; Y: 597), (X: 1542; Y: 597), (X: 1542; Y: 596), (X: 1542; Y: 595),
+    (X: 1541; Y: 595), (X: 1541; Y: 594), (X: 1541; Y: 595), (X: 1542; Y: 594),
+    (X: 1543; Y: 594), (X: 1543; Y: 595), (X: 1544; Y: 595), (X: 1543; Y: 595),
+    (X: 1544; Y: 595), (X: 1543; Y: 595), (X: 1544; Y: 595), (X: 1544; Y: 594),
+    (X: 1545; Y: 594), (X: 1545; Y: 595), (X: 1544; Y: 595), (X: 1545; Y: 595),
+    (X: 1544; Y: 595), (X: 1544; Y: 596), (X: 1545; Y: 595), (X: 1546; Y: 595),
+    (X: 1547; Y: 595), (X: 1548; Y: 595), (X: 1549; Y: 595), (X: 1550; Y: 595),
+    (X: 1550; Y: 594), (X: 1551; Y: 594), (X: 1552; Y: 594), (X: 1552; Y: 593),
+    (X: 1552; Y: 592), (X: 1551; Y: 592), (X: 1552; Y: 592), (X: 1551; Y: 592),
+    (X: 1550; Y: 592), (X: 1549; Y: 592), (X: 1548; Y: 592), (X: 1548; Y: 591),
+    (X: 1547; Y: 591), (X: 1547; Y: 592), (X: 1546; Y: 592), (X: 1545; Y: 592),
+    (X: 1544; Y: 592), (X: 1543; Y: 592), (X: 1543; Y: 591), (X: 1544; Y: 591),
+    (X: 1543; Y: 591), (X: 1544; Y: 591), (X: 1543; Y: 591), (X: 1542; Y: 591),
+    (X: 1541; Y: 591), (X: 1540; Y: 590), (X: 1540; Y: 591), (X: 1539; Y: 591),
+    (X: 1538; Y: 591), (X: 1538; Y: 592), (X: 1537; Y: 592), (X: 1538; Y: 592),
+    (X: 1537; Y: 592), (X: 1536; Y: 592), (X: 1535; Y: 592), (X: 1534; Y: 592),
+    (X: 1533; Y: 591), (X: 1533; Y: 592), (X: 1533; Y: 591), (X: 1534; Y: 591),
+    (X: 1533; Y: 591), (X: 1534; Y: 591), (X: 1533; Y: 591), (X: 1532; Y: 591),
+    (X: 1531; Y: 591), (X: 1530; Y: 591), (X: 1530; Y: 590), (X: 1529; Y: 590),
+    (X: 1529; Y: 589), (X: 1528; Y: 589), (X: 1527; Y: 589), (X: 1526; Y: 589),
+    (X: 1526; Y: 590), (X: 1525; Y: 590), (X: 1524; Y: 590), (X: 1524; Y: 591),
+    (X: 1524; Y: 590), (X: 1523; Y: 590), (X: 1522; Y: 590), (X: 1521; Y: 590),
+    (X: 1522; Y: 589), (X: 1521; Y: 589), (X: 1520; Y: 589), (X: 1519; Y: 589),
+    (X: 1518; Y: 589), (X: 1517; Y: 588), (X: 1516; Y: 588), (X: 1516; Y: 589),
+    (X: 1515; Y: 589), (X: 1514; Y: 589), (X: 1514; Y: 588), (X: 1513; Y: 588),
+    (X: 1514; Y: 589), (X: 1513; Y: 589), (X: 1512; Y: 590), (X: 1512; Y: 591),
+    (X: 1511; Y: 591), (X: 1512; Y: 591), (X: 1513; Y: 591), (X: 1514; Y: 591),
+    (X: 1514; Y: 592), (X: 1515; Y: 592), (X: 1516; Y: 591), (X: 1516; Y: 592),
+    (X: 1517; Y: 592), (X: 1517; Y: 591), (X: 1518; Y: 591), (X: 1519; Y: 591),
+    (X: 1520; Y: 591), (X: 1520; Y: 592), (X: 1520; Y: 591), (X: 1521; Y: 591),
+    (X: 1521; Y: 592), (X: 1522; Y: 592), (X: 1523; Y: 592), (X: 1522; Y: 593),
+    (X: 1521; Y: 593), (X: 1520; Y: 593), (X: 1519; Y: 593), (X: 1518; Y: 593),
+    (X: 1517; Y: 593), (X: 1518; Y: 593), (X: 1518; Y: 594), (X: 1517; Y: 594),
+    (X: 1516; Y: 595), (X: 1515; Y: 595), (X: 1514; Y: 596), (X: 1515; Y: 596),
+    (X: 1514; Y: 596), (X: 1513; Y: 596), (X: 1512; Y: 596), (X: 1511; Y: 596),
+    (X: 1510; Y: 596), (X: 1509; Y: 596), (X: 1509; Y: 595), (X: 1510; Y: 595),
+    (X: 1509; Y: 595), (X: 1509; Y: 594), (X: 1508; Y: 594), (X: 1507; Y: 594),
+    (X: 1507; Y: 595), (X: 1508; Y: 595), (X: 1507; Y: 595), (X: 1506; Y: 595),
+    (X: 1505; Y: 595), (X: 1506; Y: 595), (X: 1507; Y: 595), (X: 1508; Y: 595),
+    (X: 1508; Y: 596), (X: 1507; Y: 596), (X: 1506; Y: 595), (X: 1506; Y: 596),
+    (X: 1505; Y: 596), (X: 1504; Y: 596), (X: 1503; Y: 596), (X: 1502; Y: 596),
+    (X: 1502; Y: 597), (X: 1501; Y: 597), (X: 1500; Y: 597), (X: 1501; Y: 597),
+    (X: 1500; Y: 597), (X: 1499; Y: 597), (X: 1498; Y: 597), (X: 1497; Y: 598),
+    (X: 1496; Y: 598), (X: 1495; Y: 598), (X: 1495; Y: 597), (X: 1494; Y: 597),
+    (X: 1494; Y: 598), (X: 1494; Y: 597), (X: 1493; Y: 597), (X: 1492; Y: 597),
+    (X: 1491; Y: 596), (X: 1491; Y: 595), (X: 1492; Y: 595), (X: 1491; Y: 595),
+    (X: 1490; Y: 595), (X: 1489; Y: 595), (X: 1490; Y: 595), (X: 1489; Y: 595),
+    (X: 1488; Y: 595), (X: 1487; Y: 594), (X: 1488; Y: 594), (X: 1488; Y: 593),
+    (X: 1488; Y: 594), (X: 1489; Y: 594), (X: 1490; Y: 594), (X: 1490; Y: 593),
+    (X: 1489; Y: 593), (X: 1490; Y: 593), (X: 1490; Y: 592), (X: 1489; Y: 592),
+    (X: 1489; Y: 593), (X: 1488; Y: 593), (X: 1488; Y: 592), (X: 1487; Y: 592),
+    (X: 1487; Y: 593), (X: 1486; Y: 593), (X: 1486; Y: 592), (X: 1485; Y: 592),
+    (X: 1484; Y: 592), (X: 1484; Y: 593), (X: 1485; Y: 593), (X: 1484; Y: 593),
+    (X: 1484; Y: 594), (X: 1483; Y: 594), (X: 1482; Y: 594), (X: 1481; Y: 594),
+    (X: 1480; Y: 594), (X: 1479; Y: 594), (X: 1478; Y: 594), (X: 1478; Y: 593),
+    (X: 1479; Y: 593), (X: 1478; Y: 593), (X: 1477; Y: 593), (X: 1476; Y: 593),
+    (X: 1475; Y: 593), (X: 1476; Y: 593), (X: 1476; Y: 592), (X: 1475; Y: 592),
+    (X: 1475; Y: 593), (X: 1474; Y: 593), (X: 1473; Y: 593), (X: 1472; Y: 593),
+    (X: 1471; Y: 593), (X: 1471; Y: 594), (X: 1470; Y: 594), (X: 1469; Y: 594),
+    (X: 1470; Y: 594), (X: 1471; Y: 594), (X: 1471; Y: 595), (X: 1471; Y: 596),
+    (X: 1472; Y: 596), (X: 1472; Y: 597), (X: 1471; Y: 597), (X: 1471; Y: 598),
+    (X: 1471; Y: 599), (X: 1470; Y: 599), (X: 1469; Y: 599), (X: 1468; Y: 599),
+    (X: 1467; Y: 599), (X: 1467; Y: 600), (X: 1466; Y: 600), (X: 1467; Y: 600),
+    (X: 1467; Y: 601), (X: 1466; Y: 601), (X: 1465; Y: 601), (X: 1464; Y: 601),
+    (X: 1465; Y: 601), (X: 1465; Y: 602), (X: 1464; Y: 602), (X: 1464; Y: 603),
+    (X: 1463; Y: 603), (X: 1462; Y: 603), (X: 1462; Y: 602), (X: 1461; Y: 602),
+    (X: 1460; Y: 602), (X: 1459; Y: 602), (X: 1458; Y: 602), (X: 1457; Y: 602),
+    (X: 1457; Y: 603), (X: 1456; Y: 603), (X: 1456; Y: 604), (X: 1455; Y: 604),
+    (X: 1455; Y: 605), (X: 1456; Y: 605), (X: 1456; Y: 606), (X: 1457; Y: 606),
+    (X: 1458; Y: 606), (X: 1459; Y: 606), (X: 1459; Y: 607), (X: 1460; Y: 607),
+    (X: 1461; Y: 607), (X: 1462; Y: 607), (X: 1463; Y: 607), (X: 1464; Y: 607),
+    (X: 1465; Y: 607), (X: 1464; Y: 608), (X: 1465; Y: 608), (X: 1465; Y: 609),
+    (X: 1465; Y: 610), (X: 1466; Y: 610), (X: 1466; Y: 609), (X: 1467; Y: 609),
+    (X: 1467; Y: 610), (X: 1467; Y: 611), (X: 1467; Y: 612), (X: 1468; Y: 612),
+    (X: 1467; Y: 612), (X: 1467; Y: 613), (X: 1467; Y: 614), (X: 1468; Y: 614),
+    (X: 1467; Y: 614), (X: 1466; Y: 614), (X: 1466; Y: 615), (X: 1466; Y: 616),
+    (X: 1466; Y: 617), (X: 1465; Y: 617), (X: 1464; Y: 617), (X: 1464; Y: 618),
+    (X: 1463; Y: 618), (X: 1463; Y: 619), (X: 1462; Y: 619), (X: 1461; Y: 619),
+    (X: 1462; Y: 619), (X: 1461; Y: 619), (X: 1461; Y: 620), (X: 1461; Y: 619),
+    (X: 1460; Y: 619), (X: 1460; Y: 620), (X: 1459; Y: 620), (X: 1458; Y: 620),
+    (X: 1458; Y: 621), (X: 1457; Y: 621), (X: 1457; Y: 620), (X: 1456; Y: 620),
+    (X: 1455; Y: 620), (X: 1454; Y: 620), (X: 1453; Y: 620), (X: 1452; Y: 620),
+    (X: 1451; Y: 620), (X: 1450; Y: 620), (X: 1450; Y: 621), (X: 1449; Y: 621),
+    (X: 1448; Y: 621), (X: 1447; Y: 620), (X: 1447; Y: 621), (X: 1448; Y: 621),
+    (X: 1449; Y: 621), (X: 1449; Y: 622), (X: 1450; Y: 621), (X: 1450; Y: 622),
+    (X: 1451; Y: 622), (X: 1451; Y: 623), (X: 1452; Y: 623), (X: 1451; Y: 623),
+    (X: 1452; Y: 623), (X: 1452; Y: 624), (X: 1451; Y: 624), (X: 1452; Y: 624),
+    (X: 1452; Y: 625), (X: 1451; Y: 625), (X: 1452; Y: 625), (X: 1453; Y: 625),
+    (X: 1454; Y: 625), (X: 1455; Y: 625), (X: 1455; Y: 626), (X: 1454; Y: 626),
+    (X: 1454; Y: 627), (X: 1453; Y: 627), (X: 1453; Y: 628), (X: 1454; Y: 628),
+    (X: 1454; Y: 629), (X: 1453; Y: 629), (X: 1454; Y: 629), (X: 1453; Y: 629),
+    (X: 1453; Y: 630), (X: 1453; Y: 631), (X: 1453; Y: 632), (X: 1452; Y: 632),
+    (X: 1453; Y: 632), (X: 1453; Y: 633), (X: 1454; Y: 633), (X: 1454; Y: 634),
+    (X: 1454; Y: 635), (X: 1455; Y: 635), (X: 1455; Y: 636), (X: 1456; Y: 636),
+    (X: 1456; Y: 637), (X: 1456; Y: 638), (X: 1455; Y: 638), (X: 1456; Y: 638),
+    (X: 1457; Y: 639), (X: 1458; Y: 639), (X: 1459; Y: 639), (X: 1460; Y: 639),
+    (X: 1461; Y: 639), (X: 1461; Y: 640), (X: 1462; Y: 640), (X: 1463; Y: 641),
     (X: 1462; Y: 642), (X: 1461; Y: 643), (X: 1459; Y: 644), (X: 1457; Y: 645),
     (X: 1454; Y: 644), (X: 1451; Y: 645), (X: 1449; Y: 645), (X: 1448; Y: 646),
     (X: 1446; Y: 647), (X: 1446; Y: 648), (X: 1444; Y: 649), (X: 1443; Y: 649),
@@ -418,312 +496,210 @@ const
     (X: 1552; Y: 604), (X: 1551; Y: 604), (X: 1550; Y: 604), (X: 1549; Y: 603),
     (X: 1548; Y: 603), (X: 1548; Y: 602), (X: 1547; Y: 602), (X: 1547; Y: 601),
     (X: 1546; Y: 601), (X: 1545; Y: 600), (X: 1545; Y: 599), (X: 1545; Y: 600),
-    (X: 1546; Y: 601), (X: 1545; Y: 601), (X: 1544; Y: 601), (X: 1544; Y: 600),
-    (X: 1545; Y: 600), (X: 1545; Y: 599), (X: 1544; Y: 599), (X: 1544; Y: 598),
-    (X: 1544; Y: 599), (X: 1545; Y: 599), (X: 1544; Y: 599), (X: 1543; Y: 599),
-    (X: 1542; Y: 599), (X: 1542; Y: 598), (X: 1542; Y: 597), (X: 1543; Y: 597),
-    (X: 1543; Y: 596), (X: 1544; Y: 596), (X: 1543; Y: 596), (X: 1543; Y: 597),
-    (X: 1542; Y: 597), (X: 1542; Y: 596), (X: 1542; Y: 595), (X: 1541; Y: 595),
-    (X: 1541; Y: 594), (X: 1541; Y: 595), (X: 1542; Y: 594), (X: 1543; Y: 594),
-    (X: 1543; Y: 595), (X: 1544; Y: 595), (X: 1543; Y: 595), (X: 1544; Y: 595),
-    (X: 1543; Y: 595), (X: 1544; Y: 595), (X: 1544; Y: 594), (X: 1545; Y: 594),
-    (X: 1545; Y: 595), (X: 1544; Y: 595), (X: 1545; Y: 595), (X: 1544; Y: 595),
-    (X: 1544; Y: 596), (X: 1545; Y: 595), (X: 1546; Y: 595), (X: 1547; Y: 595),
-    (X: 1548; Y: 595), (X: 1549; Y: 595), (X: 1550; Y: 595), (X: 1550; Y: 594),
-    (X: 1551; Y: 594), (X: 1552; Y: 594), (X: 1552; Y: 593), (X: 1552; Y: 592),
-    (X: 1551; Y: 592), (X: 1552; Y: 592), (X: 1551; Y: 592), (X: 1550; Y: 592),
-    (X: 1549; Y: 592), (X: 1548; Y: 592), (X: 1548; Y: 591), (X: 1547; Y: 591),
-    (X: 1547; Y: 592), (X: 1546; Y: 592), (X: 1545; Y: 592), (X: 1544; Y: 592),
-    (X: 1543; Y: 592), (X: 1543; Y: 591), (X: 1544; Y: 591), (X: 1543; Y: 591),
-    (X: 1544; Y: 591), (X: 1543; Y: 591), (X: 1542; Y: 591), (X: 1541; Y: 591),
-    (X: 1540; Y: 590), (X: 1540; Y: 591), (X: 1539; Y: 591), (X: 1538; Y: 591),
-    (X: 1538; Y: 592), (X: 1537; Y: 592), (X: 1538; Y: 592), (X: 1537; Y: 592),
-    (X: 1536; Y: 592), (X: 1535; Y: 592), (X: 1534; Y: 592), (X: 1533; Y: 591),
-    (X: 1533; Y: 592), (X: 1533; Y: 591), (X: 1534; Y: 591), (X: 1533; Y: 591),
-    (X: 1534; Y: 591), (X: 1533; Y: 591), (X: 1532; Y: 591), (X: 1531; Y: 591),
-    (X: 1530; Y: 591), (X: 1530; Y: 590), (X: 1529; Y: 590), (X: 1529; Y: 589),
-    (X: 1528; Y: 589), (X: 1527; Y: 589), (X: 1526; Y: 589), (X: 1526; Y: 590),
-    (X: 1525; Y: 590), (X: 1524; Y: 590), (X: 1524; Y: 591), (X: 1524; Y: 590),
-    (X: 1523; Y: 590), (X: 1522; Y: 590), (X: 1521; Y: 590), (X: 1522; Y: 589),
-    (X: 1521; Y: 589), (X: 1520; Y: 589), (X: 1519; Y: 589), (X: 1518; Y: 589),
-    (X: 1517; Y: 588), (X: 1516; Y: 588), (X: 1516; Y: 589), (X: 1515; Y: 589),
-    (X: 1514; Y: 589), (X: 1514; Y: 588), (X: 1513; Y: 588), (X: 1514; Y: 589),
-    (X: 1513; Y: 589), (X: 1512; Y: 590), (X: 1512; Y: 591), (X: 1511; Y: 591),
-    (X: 1512; Y: 591), (X: 1513; Y: 591), (X: 1514; Y: 591), (X: 1514; Y: 592),
-    (X: 1515; Y: 592), (X: 1516; Y: 591), (X: 1516; Y: 592), (X: 1517; Y: 592),
-    (X: 1517; Y: 591), (X: 1518; Y: 591), (X: 1519; Y: 591), (X: 1520; Y: 591),
-    (X: 1520; Y: 592), (X: 1520; Y: 591), (X: 1521; Y: 591), (X: 1521; Y: 592),
-    (X: 1522; Y: 592), (X: 1523; Y: 592), (X: 1522; Y: 593), (X: 1521; Y: 593),
-    (X: 1520; Y: 593), (X: 1519; Y: 593), (X: 1518; Y: 593), (X: 1517; Y: 593),
-    (X: 1518; Y: 593), (X: 1518; Y: 594), (X: 1517; Y: 594), (X: 1516; Y: 595),
-    (X: 1515; Y: 595), (X: 1514; Y: 596), (X: 1515; Y: 596), (X: 1514; Y: 596),
-    (X: 1513; Y: 596), (X: 1512; Y: 596), (X: 1511; Y: 596), (X: 1510; Y: 596),
-    (X: 1509; Y: 596), (X: 1509; Y: 595), (X: 1510; Y: 595), (X: 1509; Y: 595),
-    (X: 1509; Y: 594), (X: 1508; Y: 594), (X: 1507; Y: 594), (X: 1507; Y: 595),
-    (X: 1508; Y: 595), (X: 1507; Y: 595), (X: 1506; Y: 595), (X: 1505; Y: 595),
-    (X: 1506; Y: 595), (X: 1507; Y: 595), (X: 1508; Y: 595), (X: 1508; Y: 596),
-    (X: 1507; Y: 596), (X: 1506; Y: 595), (X: 1506; Y: 596), (X: 1505; Y: 596),
-    (X: 1504; Y: 596), (X: 1503; Y: 596), (X: 1502; Y: 596), (X: 1502; Y: 597),
-    (X: 1501; Y: 597), (X: 1500; Y: 597), (X: 1501; Y: 597), (X: 1500; Y: 597),
-    (X: 1499; Y: 597), (X: 1498; Y: 597), (X: 1497; Y: 598), (X: 1496; Y: 598),
-    (X: 1495; Y: 598), (X: 1495; Y: 597), (X: 1494; Y: 597), (X: 1494; Y: 598),
-    (X: 1494; Y: 597), (X: 1493; Y: 597), (X: 1492; Y: 597), (X: 1491; Y: 596),
-    (X: 1491; Y: 595), (X: 1492; Y: 595), (X: 1491; Y: 595), (X: 1490; Y: 595),
-    (X: 1489; Y: 595), (X: 1490; Y: 595), (X: 1489; Y: 595), (X: 1488; Y: 595),
-    (X: 1487; Y: 594), (X: 1488; Y: 594), (X: 1488; Y: 593), (X: 1488; Y: 594),
-    (X: 1489; Y: 594), (X: 1490; Y: 594), (X: 1490; Y: 593), (X: 1489; Y: 593),
-    (X: 1490; Y: 593), (X: 1490; Y: 592), (X: 1489; Y: 592), (X: 1489; Y: 593),
-    (X: 1488; Y: 593), (X: 1488; Y: 592), (X: 1487; Y: 592), (X: 1487; Y: 593),
-    (X: 1486; Y: 593), (X: 1486; Y: 592), (X: 1485; Y: 592), (X: 1484; Y: 592),
-    (X: 1484; Y: 593), (X: 1485; Y: 593), (X: 1484; Y: 593), (X: 1484; Y: 594),
-    (X: 1483; Y: 594), (X: 1482; Y: 594), (X: 1481; Y: 594), (X: 1480; Y: 594),
-    (X: 1479; Y: 594), (X: 1478; Y: 594), (X: 1478; Y: 593), (X: 1479; Y: 593),
-    (X: 1478; Y: 593), (X: 1477; Y: 593), (X: 1476; Y: 593), (X: 1475; Y: 593),
-    (X: 1476; Y: 593), (X: 1476; Y: 592), (X: 1475; Y: 592), (X: 1475; Y: 593),
-    (X: 1474; Y: 593), (X: 1473; Y: 593), (X: 1472; Y: 593), (X: 1471; Y: 593),
-    (X: 1471; Y: 594), (X: 1470; Y: 594), (X: 1469; Y: 594), (X: 1470; Y: 594),
-    (X: 1471; Y: 594), (X: 1471; Y: 595), (X: 1471; Y: 596), (X: 1472; Y: 596),
-    (X: 1472; Y: 597), (X: 1471; Y: 597), (X: 1471; Y: 598), (X: 1471; Y: 599),
-    (X: 1470; Y: 599), (X: 1469; Y: 599), (X: 1468; Y: 599), (X: 1467; Y: 599),
-    (X: 1467; Y: 600), (X: 1466; Y: 600), (X: 1467; Y: 600), (X: 1467; Y: 601),
-    (X: 1466; Y: 601), (X: 1465; Y: 601), (X: 1464; Y: 601), (X: 1465; Y: 601),
-    (X: 1465; Y: 602), (X: 1464; Y: 602), (X: 1464; Y: 603), (X: 1463; Y: 603),
-    (X: 1462; Y: 603), (X: 1462; Y: 602), (X: 1461; Y: 602), (X: 1460; Y: 602),
-    (X: 1459; Y: 602), (X: 1458; Y: 602), (X: 1457; Y: 602), (X: 1457; Y: 603),
-    (X: 1456; Y: 603), (X: 1456; Y: 604), (X: 1455; Y: 604), (X: 1455; Y: 605),
-    (X: 1456; Y: 605), (X: 1456; Y: 606), (X: 1457; Y: 606), (X: 1458; Y: 606),
-    (X: 1459; Y: 606), (X: 1459; Y: 607), (X: 1460; Y: 607), (X: 1461; Y: 607),
-    (X: 1462; Y: 607), (X: 1463; Y: 607), (X: 1464; Y: 607), (X: 1465; Y: 607),
-    (X: 1464; Y: 608), (X: 1465; Y: 608), (X: 1465; Y: 609), (X: 1465; Y: 610),
-    (X: 1466; Y: 610), (X: 1466; Y: 609), (X: 1467; Y: 609), (X: 1467; Y: 610),
-    (X: 1467; Y: 611), (X: 1467; Y: 612), (X: 1468; Y: 612), (X: 1467; Y: 612),
-    (X: 1467; Y: 613), (X: 1467; Y: 614), (X: 1468; Y: 614), (X: 1467; Y: 614),
-    (X: 1466; Y: 614), (X: 1466; Y: 615), (X: 1466; Y: 616), (X: 1466; Y: 617),
-    (X: 1465; Y: 617), (X: 1464; Y: 617), (X: 1464; Y: 618), (X: 1463; Y: 618),
-    (X: 1463; Y: 619), (X: 1462; Y: 619), (X: 1461; Y: 619), (X: 1462; Y: 619),
-    (X: 1461; Y: 619), (X: 1461; Y: 620), (X: 1461; Y: 619), (X: 1460; Y: 619),
-    (X: 1460; Y: 620), (X: 1459; Y: 620), (X: 1458; Y: 620), (X: 1458; Y: 621),
-    (X: 1457; Y: 621), (X: 1457; Y: 620), (X: 1456; Y: 620), (X: 1455; Y: 620),
-    (X: 1454; Y: 620), (X: 1453; Y: 620), (X: 1452; Y: 620), (X: 1451; Y: 620),
-    (X: 1450; Y: 620), (X: 1450; Y: 621), (X: 1449; Y: 621), (X: 1448; Y: 621),
-    (X: 1447; Y: 620), (X: 1447; Y: 621)
+    (X: 1546; Y: 601), (X: 1545; Y: 601), (X: 1544; Y: 601), (X: 1544; Y: 600)
   );
 
-  cAsiaMagadan_44: array [0..2] of TTimeZonePoint = (
-    (X: 1617; Y: 706), (X: 1617; Y: 707), (X: 1617; Y: 706)
-  );
-
-  cAsiaMagadan_45: array [0..10] of TTimeZonePoint = (
+  cAsiaMagadan_41: array [0..10] of TTimeZonePoint = (
     (X: 1607; Y: 708), (X: 1606; Y: 708), (X: 1605; Y: 708), (X: 1606; Y: 708),
     (X: 1606; Y: 709), (X: 1605; Y: 709), (X: 1606; Y: 709), (X: 1607; Y: 709),
     (X: 1607; Y: 708), (X: 1608; Y: 708), (X: 1607; Y: 708)
   );
 
-  cAsiaMagadan_46: array [0..2] of TTimeZonePoint = (
+  cAsiaMagadan_42: array [0..2] of TTimeZonePoint = (
     (X: 1616; Y: 709), (X: 1615; Y: 709), (X: 1616; Y: 709)
   );
 
-  cAsiaMagadan_47: array [0..5] of TTimeZonePoint = (
-    (X: 1617; Y: 707), (X: 1616; Y: 708), (X: 1615; Y: 708), (X: 1616; Y: 708),
-    (X: 1617; Y: 708), (X: 1617; Y: 707)
-  );
-
-  cAsiaMagadan_48: array [0..4] of TTimeZonePoint = (
+  cAsiaMagadan_43: array [0..4] of TTimeZonePoint = (
     (X: 1523; Y: 709), (X: 1522; Y: 709), (X: 1521; Y: 709), (X: 1522; Y: 709),
     (X: 1523; Y: 709)
   );
 
-  cAsiaMagadan_49: array [0..1] of TTimeZonePoint = (
+  cAsiaMagadan_44: array [0..1] of TTimeZonePoint = (
     (X: 1521; Y: 710), (X: 1521; Y: 710)
   );
 
-  cAsiaMagadan_50: array [0..2] of TTimeZonePoint = (
+  cAsiaMagadan_45: array [0..2] of TTimeZonePoint = (
     (X: 1520; Y: 710), (X: 1521; Y: 710), (X: 1520; Y: 710)
   );
 
-  cAsiaMagadan_51: array [0..4] of TTimeZonePoint = (
+  cAsiaMagadan_46: array [0..4] of TTimeZonePoint = (
     (X: 1518; Y: 712), (X: 1517; Y: 712), (X: 1517; Y: 713), (X: 1518; Y: 713),
     (X: 1518; Y: 712)
   );
 
-  cAsiaMagadan_52: array [0..8] of TTimeZonePoint = (
+  cAsiaMagadan_47: array [0..8] of TTimeZonePoint = (
     (X: 1515; Y: 713), (X: 1514; Y: 714), (X: 1514; Y: 713), (X: 1514; Y: 714),
     (X: 1513; Y: 714), (X: 1512; Y: 714), (X: 1513; Y: 714), (X: 1515; Y: 714),
     (X: 1515; Y: 713)
   );
 
-  cAsiaMagadan_53: array [0..1] of TTimeZonePoint = (
-    (X: 1512; Y: 714), (X: 1512; Y: 714)
-  );
-
-  cAsiaMagadan_54: array [0..2] of TTimeZonePoint = (
-    (X: 1507; Y: 714), (X: 1508; Y: 714), (X: 1507; Y: 714)
-  );
-
-  cAsiaMagadan_55: array [0..1] of TTimeZonePoint = (
-    (X: 1509; Y: 714), (X: 1509; Y: 714)
-  );
-
-  cAsiaMagadan_56: array [0..6] of TTimeZonePoint = (
-    (X: 1508; Y: 714), (X: 1508; Y: 715), (X: 1509; Y: 715), (X: 1509; Y: 714),
-    (X: 1509; Y: 715), (X: 1508; Y: 715), (X: 1508; Y: 714)
-  );
-
-  cAsiaMagadan_57: array [0..2] of TTimeZonePoint = (
-    (X: 1503; Y: 715), (X: 1502; Y: 715), (X: 1503; Y: 715)
-  );
-
-  cAsiaMagadan_58: array [0..6] of TTimeZonePoint = (
-    (X: 1505; Y: 715), (X: 1504; Y: 715), (X: 1505; Y: 715), (X: 1505; Y: 716),
-    (X: 1506; Y: 716), (X: 1506; Y: 715), (X: 1505; Y: 715)
-  );
-
-  cAsiaMagadan_59: array [0..3] of TTimeZonePoint = (
-    (X: 1512; Y: 715), (X: 1511; Y: 716), (X: 1512; Y: 716), (X: 1512; Y: 715)
-  );
-
-  cAsiaMagadan_60: array [0..2] of TTimeZonePoint = (
-    (X: 1503; Y: 716), (X: 1502; Y: 716), (X: 1503; Y: 716)
-  );
-
-  cAsiaMagadan_61: array [0..3] of TTimeZonePoint = (
-    (X: 1504; Y: 715), (X: 1503; Y: 716), (X: 1504; Y: 716), (X: 1504; Y: 715)
-  );
-
-  cAsiaMagadan_62: array [0..2] of TTimeZonePoint = (
-    (X: 1507; Y: 715), (X: 1508; Y: 715), (X: 1507; Y: 715)
-  );
-
-  cAsiaMagadan_63: array [0..2] of TTimeZonePoint = (
-    (X: 1510; Y: 715), (X: 1509; Y: 715), (X: 1510; Y: 715)
-  );
-
-  cAsiaMagadan_64: array [0..1] of TTimeZonePoint = (
-    (X: 1513; Y: 715), (X: 1513; Y: 715)
-  );
-
-  cAsiaMagadan_65: array [0..1] of TTimeZonePoint = (
-    (X: 1508; Y: 715), (X: 1508; Y: 715)
-  );
-
-  cAsiaMagadan_66: array [0..2] of TTimeZonePoint = (
-    (X: 1503; Y: 716), (X: 1504; Y: 716), (X: 1503; Y: 716)
-  );
-
-  cAsiaMagadan_67: array [0..2] of TTimeZonePoint = (
-    (X: 1501; Y: 716), (X: 1502; Y: 716), (X: 1501; Y: 716)
-  );
-
-  cAsiaMagadan_68: array [0..2] of TTimeZonePoint = (
-    (X: 1494; Y: 718), (X: 1495; Y: 718), (X: 1494; Y: 718)
-  );
-
-  cAsiaMagadan_69: array [0..1] of TTimeZonePoint = (
-    (X: 1503; Y: 716), (X: 1503; Y: 716)
-  );
-
-  cAsiaMagadan_70: array [0..2] of TTimeZonePoint = (
-    (X: 1503; Y: 716), (X: 1502; Y: 716), (X: 1503; Y: 716)
-  );
-
-  cAsiaMagadan_71: array [0..4] of TTimeZonePoint = (
+  cAsiaMagadan_48: array [0..4] of TTimeZonePoint = (
     (X: 1508; Y: 714), (X: 1507; Y: 714), (X: 1508; Y: 714), (X: 1509; Y: 714),
     (X: 1508; Y: 714)
   );
 
-  cAsiaMagadan_72: array [0..2] of TTimeZonePoint = (
+  cAsiaMagadan_49: array [0..2] of TTimeZonePoint = (
     (X: 1511; Y: 714), (X: 1510; Y: 714), (X: 1511; Y: 714)
   );
 
-  cAsiaMagadan_73: array [0..1] of TTimeZonePoint = (
+  cAsiaMagadan_50: array [0..1] of TTimeZonePoint = (
     (X: 1509; Y: 714), (X: 1509; Y: 714)
   );
 
-  cAsiaMagadan_74: array [0..2] of TTimeZonePoint = (
+  cAsiaMagadan_51: array [0..1] of TTimeZonePoint = (
+    (X: 1513; Y: 715), (X: 1513; Y: 715)
+  );
+
+  cAsiaMagadan_52: array [0..2] of TTimeZonePoint = (
+    (X: 1510; Y: 715), (X: 1509; Y: 715), (X: 1510; Y: 715)
+  );
+
+  cAsiaMagadan_53: array [0..2] of TTimeZonePoint = (
+    (X: 1503; Y: 715), (X: 1502; Y: 715), (X: 1503; Y: 715)
+  );
+
+  cAsiaMagadan_54: array [0..3] of TTimeZonePoint = (
+    (X: 1512; Y: 715), (X: 1511; Y: 716), (X: 1512; Y: 716), (X: 1512; Y: 715)
+  );
+
+  cAsiaMagadan_55: array [0..6] of TTimeZonePoint = (
+    (X: 1505; Y: 715), (X: 1504; Y: 715), (X: 1505; Y: 715), (X: 1505; Y: 716),
+    (X: 1506; Y: 716), (X: 1506; Y: 715), (X: 1505; Y: 715)
+  );
+
+  cAsiaMagadan_56: array [0..2] of TTimeZonePoint = (
+    (X: 1503; Y: 716), (X: 1504; Y: 716), (X: 1503; Y: 716)
+  );
+
+  cAsiaMagadan_57: array [0..2] of TTimeZonePoint = (
+    (X: 1503; Y: 716), (X: 1502; Y: 716), (X: 1503; Y: 716)
+  );
+
+  cAsiaMagadan_58: array [0..3] of TTimeZonePoint = (
+    (X: 1504; Y: 715), (X: 1503; Y: 716), (X: 1504; Y: 716), (X: 1504; Y: 715)
+  );
+
+  cAsiaMagadan_59: array [0..2] of TTimeZonePoint = (
+    (X: 1507; Y: 715), (X: 1508; Y: 715), (X: 1507; Y: 715)
+  );
+
+  cAsiaMagadan_60: array [0..1] of TTimeZonePoint = (
+    (X: 1508; Y: 715), (X: 1508; Y: 715)
+  );
+
+  cAsiaMagadan_61: array [0..2] of TTimeZonePoint = (
+    (X: 1501; Y: 716), (X: 1502; Y: 716), (X: 1501; Y: 716)
+  );
+
+  cAsiaMagadan_62: array [0..2] of TTimeZonePoint = (
+    (X: 1494; Y: 718), (X: 1495; Y: 718), (X: 1494; Y: 718)
+  );
+
+  cAsiaMagadan_63: array [0..1] of TTimeZonePoint = (
+    (X: 1503; Y: 716), (X: 1503; Y: 716)
+  );
+
+  cAsiaMagadan_64: array [0..2] of TTimeZonePoint = (
+    (X: 1503; Y: 716), (X: 1502; Y: 716), (X: 1503; Y: 716)
+  );
+
+  cAsiaMagadan_65: array [0..2] of TTimeZonePoint = (
     (X: 1513; Y: 714), (X: 1512; Y: 714), (X: 1513; Y: 714)
   );
 
-  cAsiaMagadan_75: array [0..2] of TTimeZonePoint = (
+  cAsiaMagadan_66: array [0..2] of TTimeZonePoint = (
     (X: 1508; Y: 714), (X: 1509; Y: 714), (X: 1508; Y: 714)
   );
 
-  cAsiaMagadanPolygon: array[0..75] of TTimeZonePolygon = (
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_0[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMagadan_1[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMagadan_2[0]), 
+  cAsiaMagadan_67: array [0..2] of TTimeZonePoint = (
+    (X: 1507; Y: 714), (X: 1508; Y: 714), (X: 1507; Y: 714)
+  );
+
+  cAsiaMagadan_68: array [0..1] of TTimeZonePoint = (
+    (X: 1512; Y: 714), (X: 1512; Y: 714)
+  );
+
+  cAsiaMagadan_69: array [0..1] of TTimeZonePoint = (
+    (X: 1509; Y: 714), (X: 1509; Y: 714)
+  );
+
+  cAsiaMagadan_70: array [0..6] of TTimeZonePoint = (
+    (X: 1508; Y: 714), (X: 1508; Y: 715), (X: 1509; Y: 715), (X: 1509; Y: 714),
+    (X: 1509; Y: 715), (X: 1508; Y: 715), (X: 1508; Y: 714)
+  );
+
+  cAsiaMagadanPolygon: array[0..70] of TTimeZonePolygon = (
+    (PointsCount: 2; FirstPoint: @cAsiaMagadan_0[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_1[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_2[0]), 
     (PointsCount: 2; FirstPoint: @cAsiaMagadan_3[0]), 
-    (PointsCount: 7; FirstPoint: @cAsiaMagadan_4[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMagadan_5[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_6[0]), 
-    (PointsCount: 9; FirstPoint: @cAsiaMagadan_7[0]), 
-    (PointsCount: 7; FirstPoint: @cAsiaMagadan_8[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMagadan_9[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMagadan_10[0]), 
+    (PointsCount: 9; FirstPoint: @cAsiaMagadan_4[0]), 
+    (PointsCount: 7; FirstPoint: @cAsiaMagadan_5[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaMagadan_6[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaMagadan_7[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaMagadan_8[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_9[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_10[0]), 
     (PointsCount: 2; FirstPoint: @cAsiaMagadan_11[0]), 
     (PointsCount: 3; FirstPoint: @cAsiaMagadan_12[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_13[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMagadan_14[0]), 
+    (PointsCount: 5; FirstPoint: @cAsiaMagadan_13[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_14[0]), 
     (PointsCount: 3; FirstPoint: @cAsiaMagadan_15[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMagadan_16[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_16[0]), 
     (PointsCount: 3; FirstPoint: @cAsiaMagadan_17[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_18[0]), 
+    (PointsCount: 5; FirstPoint: @cAsiaMagadan_18[0]), 
     (PointsCount: 3; FirstPoint: @cAsiaMagadan_19[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_20[0]), 
-    (PointsCount: 5; FirstPoint: @cAsiaMagadan_21[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_22[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_23[0]), 
-    (PointsCount: 5; FirstPoint: @cAsiaMagadan_24[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_25[0]), 
-    (PointsCount: 5; FirstPoint: @cAsiaMagadan_26[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMagadan_27[0]), 
+    (PointsCount: 5; FirstPoint: @cAsiaMagadan_20[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_21[0]), 
+    (PointsCount: 6; FirstPoint: @cAsiaMagadan_22[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaMagadan_23[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaMagadan_24[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaMagadan_25[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_26[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_27[0]), 
     (PointsCount: 2; FirstPoint: @cAsiaMagadan_28[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMagadan_29[0]), 
+    (PointsCount: 22; FirstPoint: @cAsiaMagadan_29[0]), 
     (PointsCount: 3; FirstPoint: @cAsiaMagadan_30[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_31[0]), 
-    (PointsCount: 5; FirstPoint: @cAsiaMagadan_32[0]), 
-    (PointsCount: 7; FirstPoint: @cAsiaMagadan_33[0]), 
-    (PointsCount: 22; FirstPoint: @cAsiaMagadan_34[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMagadan_35[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMagadan_36[0]), 
+    (PointsCount: 5; FirstPoint: @cAsiaMagadan_31[0]), 
+    (PointsCount: 7; FirstPoint: @cAsiaMagadan_32[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaMagadan_33[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaMagadan_34[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_35[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_36[0]), 
     (PointsCount: 3; FirstPoint: @cAsiaMagadan_37[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMagadan_38[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_38[0]), 
     (PointsCount: 3; FirstPoint: @cAsiaMagadan_39[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_40[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_41[0]), 
+    (PointsCount: 1264; FirstPoint: @cAsiaMagadan_40[0]), 
+    (PointsCount: 11; FirstPoint: @cAsiaMagadan_41[0]), 
     (PointsCount: 3; FirstPoint: @cAsiaMagadan_42[0]), 
-    (PointsCount: 1254; FirstPoint: @cAsiaMagadan_43[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_44[0]), 
-    (PointsCount: 11; FirstPoint: @cAsiaMagadan_45[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_46[0]), 
-    (PointsCount: 6; FirstPoint: @cAsiaMagadan_47[0]), 
+    (PointsCount: 5; FirstPoint: @cAsiaMagadan_43[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaMagadan_44[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_45[0]), 
+    (PointsCount: 5; FirstPoint: @cAsiaMagadan_46[0]), 
+    (PointsCount: 9; FirstPoint: @cAsiaMagadan_47[0]), 
     (PointsCount: 5; FirstPoint: @cAsiaMagadan_48[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMagadan_49[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_50[0]), 
-    (PointsCount: 5; FirstPoint: @cAsiaMagadan_51[0]), 
-    (PointsCount: 9; FirstPoint: @cAsiaMagadan_52[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMagadan_53[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_54[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMagadan_55[0]), 
-    (PointsCount: 7; FirstPoint: @cAsiaMagadan_56[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_49[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaMagadan_50[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaMagadan_51[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_52[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_53[0]), 
+    (PointsCount: 4; FirstPoint: @cAsiaMagadan_54[0]), 
+    (PointsCount: 7; FirstPoint: @cAsiaMagadan_55[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_56[0]), 
     (PointsCount: 3; FirstPoint: @cAsiaMagadan_57[0]), 
-    (PointsCount: 7; FirstPoint: @cAsiaMagadan_58[0]), 
-    (PointsCount: 4; FirstPoint: @cAsiaMagadan_59[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_60[0]), 
-    (PointsCount: 4; FirstPoint: @cAsiaMagadan_61[0]), 
+    (PointsCount: 4; FirstPoint: @cAsiaMagadan_58[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_59[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaMagadan_60[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_61[0]), 
     (PointsCount: 3; FirstPoint: @cAsiaMagadan_62[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_63[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMagadan_64[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMagadan_65[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaMagadan_63[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_64[0]), 
+    (PointsCount: 3; FirstPoint: @cAsiaMagadan_65[0]), 
     (PointsCount: 3; FirstPoint: @cAsiaMagadan_66[0]), 
     (PointsCount: 3; FirstPoint: @cAsiaMagadan_67[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_68[0]), 
+    (PointsCount: 2; FirstPoint: @cAsiaMagadan_68[0]), 
     (PointsCount: 2; FirstPoint: @cAsiaMagadan_69[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_70[0]), 
-    (PointsCount: 5; FirstPoint: @cAsiaMagadan_71[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_72[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMagadan_73[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_74[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMagadan_75[0])
+    (PointsCount: 7; FirstPoint: @cAsiaMagadan_70[0])
   );
 
   cAsiaMagadanBound: TTimeZoneBound = (
@@ -734,7 +710,7 @@ const
   cAsiaMagadan: TTimeZoneInfo = (
     TZID: 'Asia/Magadan';
     Bound: @cAsiaMagadanBound;
-    PolygonsCount: 76;
+    PolygonsCount: 71;
     FirstPolygon: @cAsiaMagadanPolygon[0]
   );
 

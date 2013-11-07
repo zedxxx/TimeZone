@@ -23,11 +23,11 @@
 <body>
 <h2 align='center'>tz_world, an efele.net/tz map</h2>
 <h3 align='center'>A shapefile of the TZ timezones of the world</h3>
-<p align='center'>Last data update: April 17, 2013</p>
-<p align='center'>Last page update: April 17, 2013</p>
+<p align='center'>Last data update: October 8, 2013</p>
+<p align='center'>Last page update: July 5, 2013</p>
 <p>&nbsp;</p>
 <p>The <a href="tz_world.zip">tz_world</a> shapefile captures the boundaries of the TZ timezones across the world, as of TZ 2013b. The geometries are all POLYGONs, and a TZ timezone will sometimes have multiple polygons. There are about 28,000 rows.</p>
-<p>The <a href="tz_world_mp.zip">tz_world_mp</a> shapefile  captures the same boundaries. The geometries are either POLYGONs or MULTIPOLYGONs, and there is a single geometry for each TZ timezone.  There are  394 rows.</p>
+<p>The <a href="tz_world_mp.zip">tz_world_mp</a> shapefile  captures the same boundaries. The geometries are either POLYGONs or MULTIPOLYGONs, and there is a single geometry for each TZ timezone.</p>
 <p>There is a companion map for the TZ timezones used in <a href="../antarctica">Antarctica</a> stations.</p>
 <p>The geometries are primarily derived from the <a href="/maps/fips-10/map">fip10s</a> data (itself derived from the VMAP0 data), augmented with data presented in the pages for the maps of the <a href="../us">United States</a>, <a href='../canada'>Canada</a>, <a href="../russia">Russia</a> and <a href='../china'>China</a>.</p>
 <h3>Snapshot of the zones</h3>
@@ -107,9 +107,22 @@ This work is published from <span about="http://efele.net/maps/tz" property="vca
 <p><span class="style4"><a href="/contact.html">Contact</a> - <a href="../../thanks.html">Thanks</a></span></p>
 <p>History:</p>
 <ul>
+  <li>October 8, 2013:
+    <ul>
+      <li>fixed some self-intersections in Asia/Magadan. Thanks to Edward Judge for reporting the problem.</li>
+    </ul>
+  </li>
+  <li>July 5, 2013:
+    <ul>
+      <li>some of the Aleutian islands were incorrectly in America/Adak rather than America/Nome. Thanks to Eric Michielli for reporting the problem.</li>
+    </ul>
+    <ul>
+      <li>some islands in the Yamalo-Nenetskiy autonomous okrug of Russia were incorrectly in Europe/Moscou rather than Europe/Yekaterinburg, because of a problem the fips10 map (in turn traced to a problem with VMAP0). Thanks to Derick Rethans for reporting this error.</li>
+    </ul>
+  </li>
   <li>April 17, 2013:
   <ul>
-    <li>added Asia/Ust-Nera and asia/Khandyga</li>
+    <li>added Asia/Ust-Nera and Asia/Khandyga</li>
   </ul>
   </li>
   <li>October 16, 2012:

@@ -94,7 +94,7 @@ begin
   if ALastTimeZoneID <> '' then begin
     VTZDB := TBundledTimeZone.GetTimeZone(ALastTimeZoneID);
     ATimeZoneTime := VTZDB.ToLocalTime(AUtcTime);
-    ATimeZoneUtcOffset := VTZDB.UtcOffset / (60 * 60);
+    ATimeZoneUtcOffset := VTZDB.GetUtcOffset(ATimeZoneTime) / (60 * 60);
   end else begin
     VTimeZoneDiffByLonLat := _GetTimeZoneDiffByLonLat;
     VTimeZoneDiff := VTimeZoneDiffByLonLat.GetTimeDiff(DoublePoint(Lon, Lat));

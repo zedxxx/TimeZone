@@ -1,5 +1,7 @@
 library TimeZone;
 
+{$SETPEOPTFLAGS $140}  // Enable ASLR and NX
+
 {$R *.res}
 
 uses

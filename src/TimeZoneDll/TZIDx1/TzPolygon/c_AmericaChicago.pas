@@ -32,12 +32,12 @@ const
     (X: -874; Y: 449), (X: -874; Y: 450), (X: -873; Y: 450)
   );
 
-  cAmericaChicago_5: array [0..1] of TTimeZonePoint = (
-    (X: -876; Y: 451), (X: -876; Y: 451)
+  cAmericaChicago_5: array [0..2] of TTimeZonePoint = (
+    (X: -873; Y: 452), (X: -874; Y: 452), (X: -873; Y: 452)
   );
 
-  cAmericaChicago_6: array [0..2] of TTimeZonePoint = (
-    (X: -873; Y: 452), (X: -874; Y: 452), (X: -873; Y: 452)
+  cAmericaChicago_6: array [0..1] of TTimeZonePoint = (
+    (X: -869; Y: 453), (X: -869; Y: 453)
   );
 
   cAmericaChicago_7: array [0..2] of TTimeZonePoint = (
@@ -48,12 +48,14 @@ const
     (X: -868; Y: 454), (X: -868; Y: 454)
   );
 
-  cAmericaChicago_9: array [0..3] of TTimeZonePoint = (
-    (X: -908; Y: 468), (X: -907; Y: 469), (X: -907; Y: 468), (X: -908; Y: 468)
+  cAmericaChicago_9: array [0..10] of TTimeZonePoint = (
+    (X: -908; Y: 467), (X: -908; Y: 468), (X: -907; Y: 468), (X: -906; Y: 468),
+    (X: -906; Y: 469), (X: -906; Y: 468), (X: -907; Y: 468), (X: -906; Y: 468),
+    (X: -907; Y: 468), (X: -908; Y: 468), (X: -908; Y: 467)
   );
 
-  cAmericaChicago_10: array [0..1] of TTimeZonePoint = (
-    (X: -869; Y: 453), (X: -869; Y: 453)
+  cAmericaChicago_10: array [0..3] of TTimeZonePoint = (
+    (X: -908; Y: 468), (X: -907; Y: 469), (X: -907; Y: 468), (X: -908; Y: 468)
   );
 
   cAmericaChicago_11: array [0..7] of TTimeZonePoint = (
@@ -61,26 +63,24 @@ const
     (X: -870; Y: 453), (X: -869; Y: 454), (X: -870; Y: 454), (X: -869; Y: 454)
   );
 
-  cAmericaChicago_12: array [0..10] of TTimeZonePoint = (
-    (X: -908; Y: 467), (X: -908; Y: 468), (X: -907; Y: 468), (X: -906; Y: 468),
-    (X: -906; Y: 469), (X: -906; Y: 468), (X: -907; Y: 468), (X: -906; Y: 468),
-    (X: -907; Y: 468), (X: -908; Y: 468), (X: -908; Y: 467)
-  );
-
-  cAmericaChicago_13: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_12: array [0..2] of TTimeZonePoint = (
     (X: -905; Y: 469), (X: -904; Y: 469), (X: -905; Y: 469)
   );
 
-  cAmericaChicago_14: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_13: array [0..1] of TTimeZonePoint = (
     (X: -907; Y: 469), (X: -907; Y: 469)
   );
 
-  cAmericaChicago_15: array [0..1] of TTimeZonePoint = (
-    (X: -908; Y: 470), (X: -908; Y: 470)
+  cAmericaChicago_14: array [0..3] of TTimeZonePoint = (
+    (X: -905; Y: 469), (X: -906; Y: 469), (X: -905; Y: 470), (X: -905; Y: 469)
   );
 
-  cAmericaChicago_16: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_15: array [0..2] of TTimeZonePoint = (
     (X: -909; Y: 470), (X: -910; Y: 470), (X: -909; Y: 470)
+  );
+
+  cAmericaChicago_16: array [0..1] of TTimeZonePoint = (
+    (X: -908; Y: 470), (X: -908; Y: 470)
   );
 
   cAmericaChicago_17: array [0..2] of TTimeZonePoint = (
@@ -88,210 +88,206 @@ const
   );
 
   cAmericaChicago_18: array [0..3] of TTimeZonePoint = (
-    (X: -905; Y: 469), (X: -906; Y: 469), (X: -905; Y: 470), (X: -905; Y: 469)
-  );
-
-  cAmericaChicago_19: array [0..3] of TTimeZonePoint = (
     (X: -907; Y: 469), (X: -908; Y: 469), (X: -907; Y: 470), (X: -907; Y: 469)
   );
 
-  cAmericaChicago_20: array [0..3] of TTimeZonePoint = (
+  cAmericaChicago_19: array [0..3] of TTimeZonePoint = (
     (X: -907; Y: 469), (X: -907; Y: 470), (X: -906; Y: 470), (X: -907; Y: 469)
   );
 
+  cAmericaChicago_20: array [0..3] of TTimeZonePoint = (
+    (X: -905; Y: 470), (X: -904; Y: 471), (X: -904; Y: 470), (X: -905; Y: 470)
+  );
+
   cAmericaChicago_21: array [0..1] of TTimeZonePoint = (
+    (X: -907; Y: 471), (X: -907; Y: 471)
+  );
+
+  cAmericaChicago_22: array [0..1] of TTimeZonePoint = (
+    (X: -906; Y: 471), (X: -906; Y: 471)
+  );
+
+  cAmericaChicago_23: array [0..1] of TTimeZonePoint = (
     (X: -906; Y: 470), (X: -906; Y: 470)
   );
 
-  cAmericaChicago_22: array [0..2] of TTimeZonePoint = (
-    (X: -907; Y: 470), (X: -906; Y: 470), (X: -907; Y: 470)
-  );
-
-  cAmericaChicago_23: array [0..2] of TTimeZonePoint = (
-    (X: -907; Y: 470), (X: -908; Y: 470), (X: -907; Y: 470)
-  );
-
   cAmericaChicago_24: array [0..2] of TTimeZonePoint = (
-    (X: -906; Y: 470), (X: -905; Y: 470), (X: -906; Y: 470)
+    (X: -907; Y: 470), (X: -906; Y: 470), (X: -907; Y: 470)
   );
 
   cAmericaChicago_25: array [0..1] of TTimeZonePoint = (
     (X: -907; Y: 470), (X: -907; Y: 470)
   );
 
-  cAmericaChicago_26: array [0..1] of TTimeZonePoint = (
-    (X: -906; Y: 470), (X: -906; Y: 470)
+  cAmericaChicago_26: array [0..2] of TTimeZonePoint = (
+    (X: -907; Y: 470), (X: -908; Y: 470), (X: -907; Y: 470)
   );
 
-  cAmericaChicago_27: array [0..1] of TTimeZonePoint = (
-    (X: -896; Y: 480), (X: -896; Y: 480)
+  cAmericaChicago_27: array [0..2] of TTimeZonePoint = (
+    (X: -906; Y: 470), (X: -905; Y: 470), (X: -906; Y: 470)
   );
 
   cAmericaChicago_28: array [0..1] of TTimeZonePoint = (
-    (X: -906; Y: 471), (X: -906; Y: 471)
+    (X: -906; Y: 470), (X: -906; Y: 470)
   );
 
-  cAmericaChicago_29: array [0..3] of TTimeZonePoint = (
-    (X: -905; Y: 470), (X: -904; Y: 471), (X: -904; Y: 470), (X: -905; Y: 470)
+  cAmericaChicago_29: array [0..1] of TTimeZonePoint = (
+    (X: -896; Y: 480), (X: -896; Y: 480)
   );
 
   cAmericaChicago_30: array [0..1] of TTimeZonePoint = (
-    (X: -907; Y: 471), (X: -907; Y: 471)
-  );
-
-  cAmericaChicago_31: array [0..1] of TTimeZonePoint = (
     (X: -855; Y: 300), (X: -855; Y: 300)
   );
 
-  cAmericaChicago_32: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_31: array [0..2] of TTimeZonePoint = (
     (X: -856; Y: 301), (X: -857; Y: 301), (X: -856; Y: 301)
   );
 
-  cAmericaChicago_33: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_32: array [0..1] of TTimeZonePoint = (
     (X: -895; Y: 301), (X: -895; Y: 301)
   );
 
-  cAmericaChicago_34: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_33: array [0..1] of TTimeZonePoint = (
     (X: -892; Y: 301), (X: -892; Y: 301)
   );
 
-  cAmericaChicago_35: array [0..4] of TTimeZonePoint = (
+  cAmericaChicago_34: array [0..4] of TTimeZonePoint = (
     (X: -888; Y: 300), (X: -889; Y: 300), (X: -889; Y: 301), (X: -889; Y: 300),
     (X: -888; Y: 300)
   );
 
-  cAmericaChicago_36: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_35: array [0..1] of TTimeZonePoint = (
     (X: -894; Y: 300), (X: -894; Y: 300)
   );
 
-  cAmericaChicago_37: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_36: array [0..1] of TTimeZonePoint = (
     (X: -892; Y: 300), (X: -892; Y: 300)
   );
 
-  cAmericaChicago_38: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_37: array [0..1] of TTimeZonePoint = (
     (X: -893; Y: 300), (X: -893; Y: 300)
   );
 
-  cAmericaChicago_39: array [0..4] of TTimeZonePoint = (
+  cAmericaChicago_38: array [0..4] of TTimeZonePoint = (
     (X: -892; Y: 300), (X: -892; Y: 301), (X: -892; Y: 300), (X: -892; Y: 301),
     (X: -892; Y: 300)
   );
 
-  cAmericaChicago_40: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_39: array [0..2] of TTimeZonePoint = (
     (X: -893; Y: 300), (X: -893; Y: 301), (X: -893; Y: 300)
   );
 
-  cAmericaChicago_41: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_40: array [0..2] of TTimeZonePoint = (
     (X: -894; Y: 300), (X: -894; Y: 301), (X: -894; Y: 300)
   );
 
-  cAmericaChicago_42: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_41: array [0..2] of TTimeZonePoint = (
     (X: -892; Y: 301), (X: -892; Y: 300), (X: -892; Y: 301)
   );
 
-  cAmericaChicago_43: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_42: array [0..2] of TTimeZonePoint = (
     (X: -895; Y: 300), (X: -895; Y: 301), (X: -895; Y: 300)
   );
 
-  cAmericaChicago_44: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_43: array [0..1] of TTimeZonePoint = (
     (X: -892; Y: 302), (X: -892; Y: 302)
   );
 
-  cAmericaChicago_45: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_44: array [0..2] of TTimeZonePoint = (
     (X: -884; Y: 302), (X: -885; Y: 302), (X: -884; Y: 302)
   );
 
-  cAmericaChicago_46: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_45: array [0..2] of TTimeZonePoint = (
     (X: -890; Y: 302), (X: -889; Y: 302), (X: -890; Y: 302)
   );
 
-  cAmericaChicago_47: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_46: array [0..2] of TTimeZonePoint = (
     (X: -891; Y: 302), (X: -892; Y: 302), (X: -891; Y: 302)
   );
 
-  cAmericaChicago_48: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_47: array [0..1] of TTimeZonePoint = (
     (X: -896; Y: 302), (X: -896; Y: 302)
   );
 
-  cAmericaChicago_49: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_48: array [0..1] of TTimeZonePoint = (
     (X: -892; Y: 301), (X: -892; Y: 301)
   );
 
-  cAmericaChicago_50: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_49: array [0..2] of TTimeZonePoint = (
     (X: -894; Y: 301), (X: -894; Y: 302), (X: -894; Y: 301)
   );
 
-  cAmericaChicago_51: array [0..4] of TTimeZonePoint = (
+  cAmericaChicago_50: array [0..4] of TTimeZonePoint = (
     (X: -897; Y: 302), (X: -897; Y: 301), (X: -897; Y: 302), (X: -897; Y: 301),
     (X: -897; Y: 302)
   );
 
-  cAmericaChicago_52: array [0..3] of TTimeZonePoint = (
+  cAmericaChicago_51: array [0..3] of TTimeZonePoint = (
     (X: -896; Y: 301), (X: -897; Y: 302), (X: -896; Y: 302), (X: -896; Y: 301)
   );
 
-  cAmericaChicago_53: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_52: array [0..2] of TTimeZonePoint = (
     (X: -892; Y: 301), (X: -892; Y: 302), (X: -892; Y: 301)
   );
 
-  cAmericaChicago_54: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_53: array [0..2] of TTimeZonePoint = (
     (X: -895; Y: 301), (X: -895; Y: 302), (X: -895; Y: 301)
   );
 
-  cAmericaChicago_55: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_54: array [0..2] of TTimeZonePoint = (
     (X: -897; Y: 302), (X: -897; Y: 301), (X: -897; Y: 302)
   );
 
-  cAmericaChicago_56: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_55: array [0..1] of TTimeZonePoint = (
     (X: -896; Y: 302), (X: -896; Y: 302)
   );
 
-  cAmericaChicago_57: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_56: array [0..2] of TTimeZonePoint = (
     (X: -896; Y: 302), (X: -895; Y: 302), (X: -896; Y: 302)
   );
 
-  cAmericaChicago_58: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_57: array [0..1] of TTimeZonePoint = (
     (X: -881; Y: 302), (X: -881; Y: 302)
   );
 
-  cAmericaChicago_59: array [0..7] of TTimeZonePoint = (
+  cAmericaChicago_58: array [0..7] of TTimeZonePoint = (
     (X: -883; Y: 302), (X: -882; Y: 302), (X: -881; Y: 303), (X: -881; Y: 302),
     (X: -881; Y: 303), (X: -881; Y: 302), (X: -882; Y: 302), (X: -883; Y: 302)
   );
 
-  cAmericaChicago_60: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_59: array [0..1] of TTimeZonePoint = (
     (X: -881; Y: 303), (X: -881; Y: 303)
   );
 
-  cAmericaChicago_61: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_60: array [0..1] of TTimeZonePoint = (
     (X: -875; Y: 303), (X: -875; Y: 303)
   );
 
-  cAmericaChicago_62: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_61: array [0..1] of TTimeZonePoint = (
     (X: -886; Y: 303), (X: -886; Y: 303)
   );
 
-  cAmericaChicago_63: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_62: array [0..2] of TTimeZonePoint = (
     (X: -889; Y: 304), (X: -888; Y: 304), (X: -889; Y: 304)
   );
 
-  cAmericaChicago_64: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_63: array [0..1] of TTimeZonePoint = (
     (X: -865; Y: 304), (X: -865; Y: 304)
   );
 
-  cAmericaChicago_65: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_64: array [0..2] of TTimeZonePoint = (
     (X: -880; Y: 305), (X: -881; Y: 305), (X: -880; Y: 305)
   );
 
-  cAmericaChicago_66: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_65: array [0..2] of TTimeZonePoint = (
     (X: -880; Y: 306), (X: -880; Y: 307), (X: -880; Y: 306)
   );
 
-  cAmericaChicago_67: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_66: array [0..2] of TTimeZonePoint = (
     (X: -883; Y: 303), (X: -883; Y: 304), (X: -883; Y: 303)
   );
 
-  cAmericaChicago_68: array [0..19] of TTimeZonePoint = (
+  cAmericaChicago_67: array [0..19] of TTimeZonePoint = (
     (X: -866; Y: 304), (X: -867; Y: 304), (X: -868; Y: 304), (X: -869; Y: 304),
     (X: -870; Y: 304), (X: -870; Y: 303), (X: -871; Y: 303), (X: -872; Y: 303),
     (X: -873; Y: 303), (X: -872; Y: 303), (X: -871; Y: 303), (X: -870; Y: 304),
@@ -299,79 +295,83 @@ const
     (X: -867; Y: 304), (X: -866; Y: 304), (X: -865; Y: 304), (X: -866; Y: 304)
   );
 
-  cAmericaChicago_69: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_68: array [0..1] of TTimeZonePoint = (
     (X: -884; Y: 304), (X: -884; Y: 304)
   );
 
-  cAmericaChicago_70: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_69: array [0..2] of TTimeZonePoint = (
     (X: -886; Y: 304), (X: -886; Y: 303), (X: -886; Y: 304)
   );
 
-  cAmericaChicago_71: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_70: array [0..2] of TTimeZonePoint = (
     (X: -883; Y: 303), (X: -882; Y: 303), (X: -883; Y: 303)
   );
 
-  cAmericaChicago_72: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_71: array [0..1] of TTimeZonePoint = (
     (X: -889; Y: 302), (X: -889; Y: 302)
   );
 
-  cAmericaChicago_73: array [0..8] of TTimeZonePoint = (
+  cAmericaChicago_72: array [0..8] of TTimeZonePoint = (
     (X: -887; Y: 302), (X: -886; Y: 302), (X: -885; Y: 302), (X: -886; Y: 302),
     (X: -887; Y: 302), (X: -888; Y: 302), (X: -887; Y: 302), (X: -887; Y: 303),
     (X: -887; Y: 302)
   );
 
-  cAmericaChicago_74: array [0..4] of TTimeZonePoint = (
+  cAmericaChicago_73: array [0..4] of TTimeZonePoint = (
     (X: -897; Y: 300), (X: -898; Y: 300), (X: -898; Y: 301), (X: -897; Y: 301),
     (X: -897; Y: 300)
   );
 
-  cAmericaChicago_75: array [0..12] of TTimeZonePoint = (
+  cAmericaChicago_74: array [0..12] of TTimeZonePoint = (
     (X: -892; Y: 301), (X: -893; Y: 301), (X: -893; Y: 300), (X: -893; Y: 301),
     (X: -893; Y: 300), (X: -893; Y: 301), (X: -894; Y: 301), (X: -893; Y: 301),
     (X: -892; Y: 301), (X: -893; Y: 301), (X: -892; Y: 301), (X: -893; Y: 301),
     (X: -892; Y: 301)
   );
 
-  cAmericaChicago_76: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_75: array [0..1] of TTimeZonePoint = (
     (X: -892; Y: 301), (X: -892; Y: 301)
   );
 
-  cAmericaChicago_77: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_76: array [0..2] of TTimeZonePoint = (
     (X: -897; Y: 301), (X: -896; Y: 301), (X: -897; Y: 301)
   );
 
-  cAmericaChicago_78: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_77: array [0..1] of TTimeZonePoint = (
     (X: -880; Y: 307), (X: -880; Y: 307)
   );
 
-  cAmericaChicago_79: array [0..4] of TTimeZonePoint = (
+  cAmericaChicago_78: array [0..4] of TTimeZonePoint = (
     (X: -879; Y: 307), (X: -880; Y: 307), (X: -879; Y: 307), (X: -879; Y: 306),
     (X: -879; Y: 307)
   );
 
-  cAmericaChicago_80: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_79: array [0..1] of TTimeZonePoint = (
     (X: -896; Y: 296), (X: -896; Y: 296)
   );
 
-  cAmericaChicago_81: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_80: array [0..2] of TTimeZonePoint = (
     (X: -897; Y: 296), (X: -896; Y: 296), (X: -897; Y: 296)
   );
 
-  cAmericaChicago_82: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_81: array [0..1] of TTimeZonePoint = (
     (X: -897; Y: 296), (X: -897; Y: 296)
   );
 
-  cAmericaChicago_83: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_82: array [0..2] of TTimeZonePoint = (
     (X: -950; Y: 296), (X: -950; Y: 297), (X: -950; Y: 296)
   );
 
-  cAmericaChicago_84: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_83: array [0..1] of TTimeZonePoint = (
     (X: -896; Y: 296), (X: -896; Y: 296)
   );
 
-  cAmericaChicago_85: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_84: array [0..1] of TTimeZonePoint = (
     (X: -897; Y: 296), (X: -897; Y: 296)
+  );
+
+  cAmericaChicago_85: array [0..1] of TTimeZonePoint = (
+    (X: -896; Y: 296), (X: -896; Y: 296)
   );
 
   cAmericaChicago_86: array [0..1] of TTimeZonePoint = (
@@ -383,145 +383,145 @@ const
   );
 
   cAmericaChicago_88: array [0..1] of TTimeZonePoint = (
-    (X: -896; Y: 296), (X: -896; Y: 296)
-  );
-
-  cAmericaChicago_89: array [0..1] of TTimeZonePoint = (
     (X: -914; Y: 296), (X: -914; Y: 296)
   );
 
-  cAmericaChicago_90: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_89: array [0..1] of TTimeZonePoint = (
     (X: -897; Y: 296), (X: -897; Y: 296)
   );
 
-  cAmericaChicago_91: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_90: array [0..1] of TTimeZonePoint = (
     (X: -889; Y: 297), (X: -889; Y: 297)
+  );
+
+  cAmericaChicago_91: array [0..1] of TTimeZonePoint = (
+    (X: -894; Y: 297), (X: -894; Y: 297)
   );
 
   cAmericaChicago_92: array [0..1] of TTimeZonePoint = (
-    (X: -894; Y: 297), (X: -894; Y: 297)
-  );
-
-  cAmericaChicago_93: array [0..1] of TTimeZonePoint = (
     (X: -896; Y: 297), (X: -896; Y: 297)
   );
 
-  cAmericaChicago_94: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_93: array [0..2] of TTimeZonePoint = (
     (X: -894; Y: 297), (X: -894; Y: 296), (X: -894; Y: 297)
   );
 
-  cAmericaChicago_95: array [0..3] of TTimeZonePoint = (
+  cAmericaChicago_94: array [0..3] of TTimeZonePoint = (
     (X: -896; Y: 297), (X: -895; Y: 297), (X: -895; Y: 296), (X: -896; Y: 297)
   );
 
-  cAmericaChicago_96: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_95: array [0..2] of TTimeZonePoint = (
     (X: -921; Y: 297), (X: -922; Y: 297), (X: -921; Y: 297)
   );
 
-  cAmericaChicago_97: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_96: array [0..2] of TTimeZonePoint = (
     (X: -895; Y: 297), (X: -894; Y: 297), (X: -895; Y: 297)
   );
 
-  cAmericaChicago_98: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_97: array [0..1] of TTimeZonePoint = (
     (X: -889; Y: 297), (X: -889; Y: 297)
   );
 
-  cAmericaChicago_99: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_98: array [0..2] of TTimeZonePoint = (
     (X: -894; Y: 297), (X: -893; Y: 297), (X: -894; Y: 297)
   );
 
-  cAmericaChicago_100: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_99: array [0..1] of TTimeZonePoint = (
     (X: -895; Y: 297), (X: -895; Y: 297)
   );
 
-  cAmericaChicago_101: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_100: array [0..1] of TTimeZonePoint = (
     (X: -894; Y: 297), (X: -894; Y: 297)
   );
 
-  cAmericaChicago_102: array [0..7] of TTimeZonePoint = (
+  cAmericaChicago_101: array [0..7] of TTimeZonePoint = (
     (X: -939; Y: 299), (X: -939; Y: 300), (X: -939; Y: 299), (X: -939; Y: 298),
     (X: -940; Y: 298), (X: -939; Y: 298), (X: -940; Y: 298), (X: -939; Y: 299)
   );
 
-  cAmericaChicago_103: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_102: array [0..2] of TTimeZonePoint = (
     (X: -893; Y: 298), (X: -893; Y: 299), (X: -893; Y: 298)
   );
 
-  cAmericaChicago_104: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_103: array [0..2] of TTimeZonePoint = (
     (X: -889; Y: 298), (X: -889; Y: 299), (X: -889; Y: 298)
   );
 
-  cAmericaChicago_105: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_104: array [0..2] of TTimeZonePoint = (
     (X: -893; Y: 299), (X: -893; Y: 298), (X: -893; Y: 299)
   );
 
-  cAmericaChicago_106: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_105: array [0..1] of TTimeZonePoint = (
     (X: -893; Y: 298), (X: -893; Y: 298)
   );
 
-  cAmericaChicago_107: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_106: array [0..1] of TTimeZonePoint = (
     (X: -934; Y: 298), (X: -934; Y: 298)
   );
 
-  cAmericaChicago_108: array [0..6] of TTimeZonePoint = (
+  cAmericaChicago_107: array [0..6] of TTimeZonePoint = (
     (X: -888; Y: 300), (X: -888; Y: 299), (X: -888; Y: 298), (X: -889; Y: 298),
     (X: -888; Y: 298), (X: -888; Y: 299), (X: -888; Y: 300)
   );
 
-  cAmericaChicago_109: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_108: array [0..1] of TTimeZonePoint = (
     (X: -893; Y: 299), (X: -893; Y: 299)
   );
 
-  cAmericaChicago_110: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_109: array [0..1] of TTimeZonePoint = (
     (X: -889; Y: 299), (X: -889; Y: 299)
   );
 
-  cAmericaChicago_111: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_110: array [0..1] of TTimeZonePoint = (
     (X: -895; Y: 298), (X: -895; Y: 298)
   );
 
-  cAmericaChicago_112: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_111: array [0..1] of TTimeZonePoint = (
     (X: -933; Y: 298), (X: -933; Y: 298)
   );
 
-  cAmericaChicago_113: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_112: array [0..1] of TTimeZonePoint = (
     (X: -890; Y: 298), (X: -890; Y: 298)
   );
 
-  cAmericaChicago_114: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_113: array [0..2] of TTimeZonePoint = (
     (X: -894; Y: 298), (X: -893; Y: 298), (X: -894; Y: 298)
   );
 
-  cAmericaChicago_115: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_114: array [0..2] of TTimeZonePoint = (
     (X: -893; Y: 298), (X: -894; Y: 298), (X: -893; Y: 298)
   );
 
-  cAmericaChicago_116: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_115: array [0..2] of TTimeZonePoint = (
     (X: -894; Y: 298), (X: -895; Y: 298), (X: -894; Y: 298)
   );
 
-  cAmericaChicago_117: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_116: array [0..2] of TTimeZonePoint = (
     (X: -893; Y: 298), (X: -892; Y: 298), (X: -893; Y: 298)
   );
 
-  cAmericaChicago_118: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_117: array [0..2] of TTimeZonePoint = (
     (X: -933; Y: 298), (X: -934; Y: 298), (X: -933; Y: 298)
   );
 
-  cAmericaChicago_119: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_118: array [0..1] of TTimeZonePoint = (
     (X: -893; Y: 298), (X: -893; Y: 298)
   );
 
-  cAmericaChicago_120: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_119: array [0..1] of TTimeZonePoint = (
     (X: -895; Y: 297), (X: -895; Y: 297)
   );
 
-  cAmericaChicago_121: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_120: array [0..1] of TTimeZonePoint = (
     (X: -896; Y: 297), (X: -896; Y: 297)
   );
 
-  cAmericaChicago_122: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_121: array [0..2] of TTimeZonePoint = (
     (X: -895; Y: 297), (X: -894; Y: 297), (X: -895; Y: 297)
+  );
+
+  cAmericaChicago_122: array [0..1] of TTimeZonePoint = (
+    (X: -896; Y: 297), (X: -896; Y: 297)
   );
 
   cAmericaChicago_123: array [0..1] of TTimeZonePoint = (
@@ -533,180 +533,180 @@ const
   );
 
   cAmericaChicago_125: array [0..1] of TTimeZonePoint = (
-    (X: -896; Y: 297), (X: -896; Y: 297)
-  );
-
-  cAmericaChicago_126: array [0..1] of TTimeZonePoint = (
     (X: -893; Y: 297), (X: -893; Y: 297)
   );
 
-  cAmericaChicago_127: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_126: array [0..1] of TTimeZonePoint = (
     (X: -895; Y: 297), (X: -895; Y: 297)
   );
 
-  cAmericaChicago_128: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_127: array [0..2] of TTimeZonePoint = (
     (X: -895; Y: 297), (X: -896; Y: 297), (X: -895; Y: 297)
   );
 
-  cAmericaChicago_129: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_128: array [0..1] of TTimeZonePoint = (
     (X: -893; Y: 299), (X: -893; Y: 299)
   );
 
-  cAmericaChicago_130: array [0..4] of TTimeZonePoint = (
+  cAmericaChicago_129: array [0..4] of TTimeZonePoint = (
     (X: -893; Y: 299), (X: -892; Y: 299), (X: -893; Y: 299), (X: -892; Y: 299),
     (X: -893; Y: 299)
   );
 
-  cAmericaChicago_131: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_130: array [0..1] of TTimeZonePoint = (
     (X: -894; Y: 299), (X: -894; Y: 299)
+  );
+
+  cAmericaChicago_131: array [0..1] of TTimeZonePoint = (
+    (X: -893; Y: 299), (X: -893; Y: 299)
   );
 
   cAmericaChicago_132: array [0..1] of TTimeZonePoint = (
-    (X: -893; Y: 299), (X: -893; Y: 299)
-  );
-
-  cAmericaChicago_133: array [0..1] of TTimeZonePoint = (
     (X: -889; Y: 299), (X: -889; Y: 299)
   );
 
-  cAmericaChicago_134: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_133: array [0..1] of TTimeZonePoint = (
     (X: -894; Y: 299), (X: -894; Y: 299)
   );
 
-  cAmericaChicago_135: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_134: array [0..1] of TTimeZonePoint = (
     (X: -893; Y: 299), (X: -893; Y: 299)
   );
 
-  cAmericaChicago_136: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_135: array [0..2] of TTimeZonePoint = (
     (X: -893; Y: 299), (X: -894; Y: 299), (X: -893; Y: 299)
   );
 
-  cAmericaChicago_137: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_136: array [0..1] of TTimeZonePoint = (
     (X: -892; Y: 299), (X: -892; Y: 299)
   );
 
-  cAmericaChicago_138: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_137: array [0..1] of TTimeZonePoint = (
     (X: -894; Y: 299), (X: -894; Y: 299)
   );
 
-  cAmericaChicago_139: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_138: array [0..1] of TTimeZonePoint = (
     (X: -893; Y: 299), (X: -893; Y: 299)
   );
 
-  cAmericaChicago_140: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_139: array [0..1] of TTimeZonePoint = (
     (X: -892; Y: 300), (X: -892; Y: 300)
   );
 
-  cAmericaChicago_141: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_140: array [0..2] of TTimeZonePoint = (
     (X: -893; Y: 299), (X: -893; Y: 300), (X: -893; Y: 299)
   );
 
-  cAmericaChicago_142: array [0..3] of TTimeZonePoint = (
+  cAmericaChicago_141: array [0..3] of TTimeZonePoint = (
     (X: -892; Y: 300), (X: -893; Y: 299), (X: -893; Y: 300), (X: -892; Y: 300)
+  );
+
+  cAmericaChicago_142: array [0..1] of TTimeZonePoint = (
+    (X: -894; Y: 299), (X: -894; Y: 299)
   );
 
   cAmericaChicago_143: array [0..1] of TTimeZonePoint = (
     (X: -894; Y: 299), (X: -894; Y: 299)
   );
 
-  cAmericaChicago_144: array [0..1] of TTimeZonePoint = (
-    (X: -894; Y: 299), (X: -894; Y: 299)
-  );
-
-  cAmericaChicago_145: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_144: array [0..2] of TTimeZonePoint = (
     (X: -894; Y: 299), (X: -893; Y: 299), (X: -894; Y: 299)
   );
 
-  cAmericaChicago_146: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_145: array [0..2] of TTimeZonePoint = (
     (X: -894; Y: 299), (X: -894; Y: 300), (X: -894; Y: 299)
   );
 
-  cAmericaChicago_147: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_146: array [0..2] of TTimeZonePoint = (
     (X: -893; Y: 299), (X: -892; Y: 299), (X: -893; Y: 299)
   );
 
-  cAmericaChicago_148: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_147: array [0..2] of TTimeZonePoint = (
     (X: -893; Y: 300), (X: -893; Y: 299), (X: -893; Y: 300)
   );
 
-  cAmericaChicago_149: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_148: array [0..1] of TTimeZonePoint = (
     (X: -938; Y: 300), (X: -938; Y: 300)
   );
 
-  cAmericaChicago_150: array [0..3] of TTimeZonePoint = (
+  cAmericaChicago_149: array [0..3] of TTimeZonePoint = (
     (X: -894; Y: 300), (X: -893; Y: 300), (X: -894; Y: 299), (X: -894; Y: 300)
   );
 
-  cAmericaChicago_151: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_150: array [0..1] of TTimeZonePoint = (
     (X: -893; Y: 300), (X: -893; Y: 300)
   );
 
-  cAmericaChicago_152: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_151: array [0..2] of TTimeZonePoint = (
     (X: -893; Y: 300), (X: -892; Y: 300), (X: -893; Y: 300)
   );
 
-  cAmericaChicago_153: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_152: array [0..1] of TTimeZonePoint = (
     (X: -893; Y: 300), (X: -893; Y: 300)
   );
 
-  cAmericaChicago_154: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_153: array [0..1] of TTimeZonePoint = (
     (X: -892; Y: 300), (X: -892; Y: 300)
   );
 
-  cAmericaChicago_155: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_154: array [0..1] of TTimeZonePoint = (
     (X: -893; Y: 300), (X: -893; Y: 300)
+  );
+
+  cAmericaChicago_155: array [0..1] of TTimeZonePoint = (
+    (X: -894; Y: 300), (X: -894; Y: 300)
   );
 
   cAmericaChicago_156: array [0..1] of TTimeZonePoint = (
     (X: -894; Y: 300), (X: -894; Y: 300)
   );
 
-  cAmericaChicago_157: array [0..1] of TTimeZonePoint = (
-    (X: -894; Y: 300), (X: -894; Y: 300)
-  );
-
-  cAmericaChicago_158: array [0..3] of TTimeZonePoint = (
+  cAmericaChicago_157: array [0..3] of TTimeZonePoint = (
     (X: -976; Y: 269), (X: -975; Y: 269), (X: -975; Y: 268), (X: -976; Y: 269)
   );
 
-  cAmericaChicago_159: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_158: array [0..1] of TTimeZonePoint = (
     (X: -975; Y: 269), (X: -975; Y: 269)
   );
 
-  cAmericaChicago_160: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_159: array [0..1] of TTimeZonePoint = (
     (X: -975; Y: 270), (X: -975; Y: 270)
   );
 
-  cAmericaChicago_161: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_160: array [0..1] of TTimeZonePoint = (
     (X: -975; Y: 269), (X: -975; Y: 269)
   );
 
-  cAmericaChicago_162: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_161: array [0..2] of TTimeZonePoint = (
     (X: -975; Y: 270), (X: -975; Y: 271), (X: -975; Y: 270)
   );
 
-  cAmericaChicago_163: array [0..3] of TTimeZonePoint = (
+  cAmericaChicago_162: array [0..3] of TTimeZonePoint = (
     (X: -975; Y: 270), (X: -975; Y: 271), (X: -974; Y: 271), (X: -975; Y: 270)
   );
 
-  cAmericaChicago_164: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_163: array [0..1] of TTimeZonePoint = (
     (X: -975; Y: 271), (X: -975; Y: 271)
   );
 
-  cAmericaChicago_165: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_164: array [0..2] of TTimeZonePoint = (
     (X: -972; Y: 278), (X: -971; Y: 278), (X: -972; Y: 278)
   );
 
-  cAmericaChicago_166: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_165: array [0..1] of TTimeZonePoint = (
     (X: -974; Y: 268), (X: -974; Y: 268)
   );
 
-  cAmericaChicago_167: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_166: array [0..1] of TTimeZonePoint = (
     (X: -975; Y: 268), (X: -975; Y: 268)
   );
 
-  cAmericaChicago_168: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_167: array [0..1] of TTimeZonePoint = (
     (X: -974; Y: 268), (X: -974; Y: 268)
+  );
+
+  cAmericaChicago_168: array [0..1] of TTimeZonePoint = (
+    (X: -975; Y: 269), (X: -975; Y: 269)
   );
 
   cAmericaChicago_169: array [0..1] of TTimeZonePoint = (
@@ -717,162 +717,158 @@ const
     (X: -975; Y: 269), (X: -975; Y: 269)
   );
 
-  cAmericaChicago_171: array [0..1] of TTimeZonePoint = (
-    (X: -975; Y: 269), (X: -975; Y: 269)
-  );
-
-  cAmericaChicago_172: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_171: array [0..2] of TTimeZonePoint = (
     (X: -975; Y: 268), (X: -975; Y: 269), (X: -975; Y: 268)
   );
 
-  cAmericaChicago_173: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_172: array [0..1] of TTimeZonePoint = (
     (X: -973; Y: 263), (X: -973; Y: 263)
   );
 
-  cAmericaChicago_174: array [0..4] of TTimeZonePoint = (
+  cAmericaChicago_173: array [0..4] of TTimeZonePoint = (
     (X: -973; Y: 263), (X: -974; Y: 263), (X: -973; Y: 263), (X: -973; Y: 264),
     (X: -973; Y: 263)
   );
 
-  cAmericaChicago_175: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_174: array [0..1] of TTimeZonePoint = (
     (X: -974; Y: 264), (X: -974; Y: 264)
   );
 
-  cAmericaChicago_176: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_175: array [0..2] of TTimeZonePoint = (
     (X: -975; Y: 264), (X: -974; Y: 264), (X: -975; Y: 264)
   );
 
-  cAmericaChicago_177: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_176: array [0..1] of TTimeZonePoint = (
     (X: -972; Y: 264), (X: -972; Y: 264)
+  );
+
+  cAmericaChicago_177: array [0..1] of TTimeZonePoint = (
+    (X: -974; Y: 264), (X: -974; Y: 264)
   );
 
   cAmericaChicago_178: array [0..1] of TTimeZonePoint = (
     (X: -974; Y: 264), (X: -974; Y: 264)
   );
 
-  cAmericaChicago_179: array [0..1] of TTimeZonePoint = (
-    (X: -974; Y: 264), (X: -974; Y: 264)
+  cAmericaChicago_179: array [0..2] of TTimeZonePoint = (
+    (X: -974; Y: 264), (X: -974; Y: 265), (X: -974; Y: 264)
   );
 
-  cAmericaChicago_180: array [0..2] of TTimeZonePoint = (
-    (X: -974; Y: 264), (X: -974; Y: 265), (X: -974; Y: 264)
+  cAmericaChicago_180: array [0..1] of TTimeZonePoint = (
+    (X: -974; Y: 265), (X: -974; Y: 265)
   );
 
   cAmericaChicago_181: array [0..1] of TTimeZonePoint = (
     (X: -974; Y: 265), (X: -974; Y: 265)
   );
 
-  cAmericaChicago_182: array [0..1] of TTimeZonePoint = (
-    (X: -974; Y: 265), (X: -974; Y: 265)
-  );
-
-  cAmericaChicago_183: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_182: array [0..2] of TTimeZonePoint = (
     (X: -973; Y: 265), (X: -973; Y: 266), (X: -973; Y: 265)
   );
 
-  cAmericaChicago_184: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_183: array [0..2] of TTimeZonePoint = (
     (X: -973; Y: 266), (X: -973; Y: 267), (X: -973; Y: 266)
   );
 
-  cAmericaChicago_185: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_184: array [0..1] of TTimeZonePoint = (
     (X: -973; Y: 267), (X: -973; Y: 267)
   );
 
-  cAmericaChicago_186: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_185: array [0..2] of TTimeZonePoint = (
     (X: -973; Y: 267), (X: -974; Y: 267), (X: -973; Y: 267)
+  );
+
+  cAmericaChicago_186: array [0..1] of TTimeZonePoint = (
+    (X: -974; Y: 264), (X: -974; Y: 264)
   );
 
   cAmericaChicago_187: array [0..1] of TTimeZonePoint = (
     (X: -974; Y: 264), (X: -974; Y: 264)
   );
 
-  cAmericaChicago_188: array [0..1] of TTimeZonePoint = (
-    (X: -974; Y: 264), (X: -974; Y: 264)
-  );
-
-  cAmericaChicago_189: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_188: array [0..2] of TTimeZonePoint = (
     (X: -971; Y: 278), (X: -971; Y: 279), (X: -971; Y: 278)
   );
 
-  cAmericaChicago_190: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_189: array [0..1] of TTimeZonePoint = (
     (X: -971; Y: 279), (X: -971; Y: 279)
   );
 
-  cAmericaChicago_191: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_190: array [0..1] of TTimeZonePoint = (
     (X: -971; Y: 280), (X: -971; Y: 280)
+  );
+
+  cAmericaChicago_191: array [0..1] of TTimeZonePoint = (
+    (X: -970; Y: 279), (X: -970; Y: 279)
   );
 
   cAmericaChicago_192: array [0..1] of TTimeZonePoint = (
     (X: -970; Y: 279), (X: -970; Y: 279)
   );
 
-  cAmericaChicago_193: array [0..1] of TTimeZonePoint = (
-    (X: -970; Y: 279), (X: -970; Y: 279)
-  );
-
-  cAmericaChicago_194: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_193: array [0..2] of TTimeZonePoint = (
     (X: -971; Y: 279), (X: -971; Y: 280), (X: -971; Y: 279)
   );
 
-  cAmericaChicago_195: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_194: array [0..1] of TTimeZonePoint = (
     (X: -971; Y: 279), (X: -971; Y: 279)
   );
 
-  cAmericaChicago_196: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_195: array [0..1] of TTimeZonePoint = (
     (X: -970; Y: 279), (X: -970; Y: 279)
   );
 
-  cAmericaChicago_197: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_196: array [0..1] of TTimeZonePoint = (
     (X: -971; Y: 279), (X: -971; Y: 279)
   );
 
-  cAmericaChicago_198: array [0..12] of TTimeZonePoint = (
+  cAmericaChicago_197: array [0..12] of TTimeZonePoint = (
     (X: -968; Y: 281), (X: -969; Y: 280), (X: -970; Y: 280), (X: -970; Y: 279),
     (X: -970; Y: 278), (X: -971; Y: 278), (X: -971; Y: 279), (X: -971; Y: 278),
     (X: -970; Y: 279), (X: -970; Y: 280), (X: -969; Y: 280), (X: -969; Y: 281),
     (X: -968; Y: 281)
   );
 
-  cAmericaChicago_199: array [0..13] of TTimeZonePoint = (
+  cAmericaChicago_198: array [0..13] of TTimeZonePoint = (
     (X: -968; Y: 281), (X: -968; Y: 282), (X: -967; Y: 282), (X: -966; Y: 283),
     (X: -965; Y: 283), (X: -964; Y: 283), (X: -964; Y: 284), (X: -964; Y: 283),
     (X: -965; Y: 283), (X: -966; Y: 283), (X: -966; Y: 282), (X: -967; Y: 282),
     (X: -967; Y: 281), (X: -968; Y: 281)
   );
 
+  cAmericaChicago_199: array [0..1] of TTimeZonePoint = (
+    (X: -966; Y: 283), (X: -966; Y: 283)
+  );
+
   cAmericaChicago_200: array [0..1] of TTimeZonePoint = (
     (X: -966; Y: 283), (X: -966; Y: 283)
   );
 
-  cAmericaChicago_201: array [0..1] of TTimeZonePoint = (
-    (X: -966; Y: 283), (X: -966; Y: 283)
-  );
-
-  cAmericaChicago_202: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_201: array [0..2] of TTimeZonePoint = (
     (X: -966; Y: 283), (X: -966; Y: 284), (X: -966; Y: 283)
   );
 
-  cAmericaChicago_203: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_202: array [0..1] of TTimeZonePoint = (
     (X: -966; Y: 283), (X: -966; Y: 283)
   );
 
-  cAmericaChicago_204: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_203: array [0..1] of TTimeZonePoint = (
     (X: -966; Y: 284), (X: -966; Y: 284)
   );
 
-  cAmericaChicago_205: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_204: array [0..1] of TTimeZonePoint = (
     (X: -964; Y: 284), (X: -964; Y: 284)
   );
 
-  cAmericaChicago_206: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_205: array [0..2] of TTimeZonePoint = (
     (X: -965; Y: 284), (X: -964; Y: 284), (X: -965; Y: 284)
   );
 
-  cAmericaChicago_207: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_206: array [0..1] of TTimeZonePoint = (
     (X: -965; Y: 284), (X: -965; Y: 284)
   );
 
-  cAmericaChicago_208: array [0..45] of TTimeZonePoint = (
+  cAmericaChicago_207: array [0..45] of TTimeZonePoint = (
     (X: -972; Y: 261), (X: -972; Y: 262), (X: -972; Y: 263), (X: -972; Y: 264),
     (X: -972; Y: 265), (X: -973; Y: 265), (X: -973; Y: 266), (X: -973; Y: 267),
     (X: -974; Y: 268), (X: -974; Y: 269), (X: -974; Y: 270), (X: -974; Y: 271),
@@ -887,8 +883,12 @@ const
     (X: -972; Y: 262), (X: -972; Y: 261)
   );
 
-  cAmericaChicago_209: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_208: array [0..1] of TTimeZonePoint = (
     (X: -972; Y: 278), (X: -972; Y: 278)
+  );
+
+  cAmericaChicago_209: array [0..1] of TTimeZonePoint = (
+    (X: -971; Y: 278), (X: -971; Y: 278)
   );
 
   cAmericaChicago_210: array [0..1] of TTimeZonePoint = (
@@ -896,47 +896,47 @@ const
   );
 
   cAmericaChicago_211: array [0..1] of TTimeZonePoint = (
-    (X: -971; Y: 278), (X: -971; Y: 278)
-  );
-
-  cAmericaChicago_212: array [0..1] of TTimeZonePoint = (
     (X: -972; Y: 278), (X: -972; Y: 278)
   );
 
-  cAmericaChicago_213: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_212: array [0..2] of TTimeZonePoint = (
     (X: -971; Y: 278), (X: -971; Y: 279), (X: -971; Y: 278)
   );
 
-  cAmericaChicago_214: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_213: array [0..1] of TTimeZonePoint = (
     (X: -903; Y: 291), (X: -903; Y: 291)
   );
 
-  cAmericaChicago_215: array [0..3] of TTimeZonePoint = (
+  cAmericaChicago_214: array [0..3] of TTimeZonePoint = (
     (X: -904; Y: 290), (X: -905; Y: 291), (X: -904; Y: 291), (X: -904; Y: 290)
   );
 
-  cAmericaChicago_216: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_215: array [0..2] of TTimeZonePoint = (
     (X: -951; Y: 291), (X: -952; Y: 291), (X: -951; Y: 291)
+  );
+
+  cAmericaChicago_216: array [0..1] of TTimeZonePoint = (
+    (X: -951; Y: 291), (X: -951; Y: 291)
   );
 
   cAmericaChicago_217: array [0..1] of TTimeZonePoint = (
-    (X: -951; Y: 291), (X: -951; Y: 291)
-  );
-
-  cAmericaChicago_218: array [0..1] of TTimeZonePoint = (
     (X: -952; Y: 291), (X: -952; Y: 291)
   );
 
-  cAmericaChicago_219: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_218: array [0..1] of TTimeZonePoint = (
     (X: -906; Y: 291), (X: -906; Y: 291)
   );
 
-  cAmericaChicago_220: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_219: array [0..1] of TTimeZonePoint = (
     (X: -951; Y: 291), (X: -951; Y: 291)
   );
 
-  cAmericaChicago_221: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_220: array [0..2] of TTimeZonePoint = (
     (X: -951; Y: 291), (X: -952; Y: 291), (X: -951; Y: 291)
+  );
+
+  cAmericaChicago_221: array [0..1] of TTimeZonePoint = (
+    (X: -903; Y: 292), (X: -903; Y: 292)
   );
 
   cAmericaChicago_222: array [0..1] of TTimeZonePoint = (
@@ -944,19 +944,19 @@ const
   );
 
   cAmericaChicago_223: array [0..1] of TTimeZonePoint = (
-    (X: -903; Y: 292), (X: -903; Y: 292)
+    (X: -906; Y: 292), (X: -906; Y: 292)
   );
 
   cAmericaChicago_224: array [0..1] of TTimeZonePoint = (
     (X: -906; Y: 292), (X: -906; Y: 292)
   );
 
-  cAmericaChicago_225: array [0..1] of TTimeZonePoint = (
-    (X: -906; Y: 292), (X: -906; Y: 292)
+  cAmericaChicago_225: array [0..2] of TTimeZonePoint = (
+    (X: -908; Y: 292), (X: -908; Y: 291), (X: -908; Y: 292)
   );
 
   cAmericaChicago_226: array [0..2] of TTimeZonePoint = (
-    (X: -908; Y: 292), (X: -908; Y: 291), (X: -908; Y: 292)
+    (X: -907; Y: 291), (X: -907; Y: 292), (X: -907; Y: 291)
   );
 
   cAmericaChicago_227: array [0..2] of TTimeZonePoint = (
@@ -964,27 +964,27 @@ const
   );
 
   cAmericaChicago_228: array [0..2] of TTimeZonePoint = (
-    (X: -907; Y: 291), (X: -907; Y: 292), (X: -907; Y: 291)
-  );
-
-  cAmericaChicago_229: array [0..2] of TTimeZonePoint = (
     (X: -906; Y: 292), (X: -907; Y: 292), (X: -906; Y: 292)
   );
 
-  cAmericaChicago_230: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_229: array [0..1] of TTimeZonePoint = (
     (X: -904; Y: 292), (X: -904; Y: 292)
+  );
+
+  cAmericaChicago_230: array [0..2] of TTimeZonePoint = (
+    (X: -904; Y: 291), (X: -903; Y: 291), (X: -904; Y: 291)
   );
 
   cAmericaChicago_231: array [0..2] of TTimeZonePoint = (
     (X: -904; Y: 291), (X: -903; Y: 291), (X: -904; Y: 291)
   );
 
-  cAmericaChicago_232: array [0..2] of TTimeZonePoint = (
-    (X: -904; Y: 291), (X: -903; Y: 291), (X: -904; Y: 291)
+  cAmericaChicago_232: array [0..1] of TTimeZonePoint = (
+    (X: -906; Y: 291), (X: -906; Y: 291)
   );
 
   cAmericaChicago_233: array [0..1] of TTimeZonePoint = (
-    (X: -906; Y: 291), (X: -906; Y: 291)
+    (X: -908; Y: 291), (X: -908; Y: 291)
   );
 
   cAmericaChicago_234: array [0..1] of TTimeZonePoint = (
@@ -996,11 +996,11 @@ const
   );
 
   cAmericaChicago_236: array [0..1] of TTimeZonePoint = (
-    (X: -908; Y: 291), (X: -908; Y: 291)
+    (X: -907; Y: 291), (X: -907; Y: 291)
   );
 
   cAmericaChicago_237: array [0..1] of TTimeZonePoint = (
-    (X: -907; Y: 291), (X: -907; Y: 291)
+    (X: -908; Y: 291), (X: -908; Y: 291)
   );
 
   cAmericaChicago_238: array [0..1] of TTimeZonePoint = (
@@ -1008,119 +1008,119 @@ const
   );
 
   cAmericaChicago_239: array [0..1] of TTimeZonePoint = (
-    (X: -908; Y: 291), (X: -908; Y: 291)
-  );
-
-  cAmericaChicago_240: array [0..1] of TTimeZonePoint = (
     (X: -905; Y: 291), (X: -905; Y: 291)
   );
 
-  cAmericaChicago_241: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_240: array [0..2] of TTimeZonePoint = (
     (X: -909; Y: 291), (X: -908; Y: 291), (X: -909; Y: 291)
   );
 
-  cAmericaChicago_242: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_241: array [0..1] of TTimeZonePoint = (
     (X: -904; Y: 291), (X: -904; Y: 291)
   );
 
-  cAmericaChicago_243: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_242: array [0..1] of TTimeZonePoint = (
     (X: -908; Y: 291), (X: -908; Y: 291)
   );
 
-  cAmericaChicago_244: array [0..7] of TTimeZonePoint = (
+  cAmericaChicago_243: array [0..7] of TTimeZonePoint = (
     (X: -908; Y: 292), (X: -909; Y: 291), (X: -908; Y: 291), (X: -909; Y: 291),
     (X: -909; Y: 292), (X: -908; Y: 292), (X: -909; Y: 292), (X: -908; Y: 292)
   );
 
-  cAmericaChicago_245: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_244: array [0..1] of TTimeZonePoint = (
     (X: -905; Y: 291), (X: -905; Y: 291)
   );
 
-  cAmericaChicago_246: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_245: array [0..2] of TTimeZonePoint = (
     (X: -907; Y: 291), (X: -908; Y: 291), (X: -907; Y: 291)
   );
 
-  cAmericaChicago_247: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_246: array [0..1] of TTimeZonePoint = (
     (X: -908; Y: 291), (X: -908; Y: 291)
+  );
+
+  cAmericaChicago_247: array [0..1] of TTimeZonePoint = (
+    (X: -907; Y: 291), (X: -907; Y: 291)
   );
 
   cAmericaChicago_248: array [0..1] of TTimeZonePoint = (
     (X: -907; Y: 291), (X: -907; Y: 291)
   );
 
-  cAmericaChicago_249: array [0..1] of TTimeZonePoint = (
-    (X: -907; Y: 291), (X: -907; Y: 291)
-  );
-
-  cAmericaChicago_250: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_249: array [0..2] of TTimeZonePoint = (
     (X: -908; Y: 291), (X: -908; Y: 292), (X: -908; Y: 291)
   );
 
-  cAmericaChicago_251: array [0..3] of TTimeZonePoint = (
+  cAmericaChicago_250: array [0..3] of TTimeZonePoint = (
     (X: -951; Y: 291), (X: -952; Y: 290), (X: -952; Y: 291), (X: -951; Y: 291)
   );
 
-  cAmericaChicago_252: array [0..3] of TTimeZonePoint = (
+  cAmericaChicago_251: array [0..3] of TTimeZonePoint = (
     (X: -907; Y: 290), (X: -908; Y: 290), (X: -908; Y: 291), (X: -907; Y: 290)
   );
 
-  cAmericaChicago_253: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_252: array [0..1] of TTimeZonePoint = (
     (X: -908; Y: 290), (X: -908; Y: 290)
+  );
+
+  cAmericaChicago_253: array [0..2] of TTimeZonePoint = (
+    (X: -908; Y: 290), (X: -908; Y: 291), (X: -908; Y: 290)
   );
 
   cAmericaChicago_254: array [0..2] of TTimeZonePoint = (
     (X: -908; Y: 290), (X: -908; Y: 291), (X: -908; Y: 290)
   );
 
-  cAmericaChicago_255: array [0..2] of TTimeZonePoint = (
-    (X: -908; Y: 290), (X: -908; Y: 291), (X: -908; Y: 290)
-  );
-
-  cAmericaChicago_256: array [0..6] of TTimeZonePoint = (
+  cAmericaChicago_255: array [0..6] of TTimeZonePoint = (
     (X: -907; Y: 291), (X: -906; Y: 291), (X: -907; Y: 291), (X: -907; Y: 290),
     (X: -908; Y: 290), (X: -907; Y: 290), (X: -907; Y: 291)
   );
 
-  cAmericaChicago_257: array [0..5] of TTimeZonePoint = (
+  cAmericaChicago_256: array [0..5] of TTimeZonePoint = (
     (X: -909; Y: 290), (X: -910; Y: 291), (X: -909; Y: 291), (X: -909; Y: 290),
     (X: -909; Y: 291), (X: -909; Y: 290)
   );
 
-  cAmericaChicago_258: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_257: array [0..2] of TTimeZonePoint = (
     (X: -908; Y: 290), (X: -908; Y: 291), (X: -908; Y: 290)
   );
 
-  cAmericaChicago_259: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_258: array [0..1] of TTimeZonePoint = (
     (X: -908; Y: 291), (X: -908; Y: 291)
   );
 
-  cAmericaChicago_260: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_259: array [0..1] of TTimeZonePoint = (
     (X: -907; Y: 291), (X: -907; Y: 291)
   );
 
-  cAmericaChicago_261: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_260: array [0..2] of TTimeZonePoint = (
     (X: -908; Y: 291), (X: -909; Y: 291), (X: -908; Y: 291)
   );
 
-  cAmericaChicago_262: array [0..4] of TTimeZonePoint = (
+  cAmericaChicago_261: array [0..4] of TTimeZonePoint = (
     (X: -900; Y: 292), (X: -900; Y: 293), (X: -900; Y: 292), (X: -900; Y: 293),
     (X: -900; Y: 292)
   );
 
-  cAmericaChicago_263: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_262: array [0..1] of TTimeZonePoint = (
     (X: -900; Y: 292), (X: -900; Y: 292)
   );
 
-  cAmericaChicago_264: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_263: array [0..2] of TTimeZonePoint = (
     (X: -900; Y: 292), (X: -900; Y: 293), (X: -900; Y: 292)
   );
 
-  cAmericaChicago_265: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_264: array [0..1] of TTimeZonePoint = (
     (X: -898; Y: 293), (X: -898; Y: 293)
   );
 
-  cAmericaChicago_266: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_265: array [0..2] of TTimeZonePoint = (
     (X: -893; Y: 293), (X: -894; Y: 293), (X: -893; Y: 293)
+  );
+
+  cAmericaChicago_266: array [0..2] of TTimeZonePoint = (
+    (X: -898; Y: 293), (X: -898; Y: 294), (X: -898; Y: 293)
   );
 
   cAmericaChicago_267: array [0..2] of TTimeZonePoint = (
@@ -1128,15 +1128,15 @@ const
   );
 
   cAmericaChicago_268: array [0..2] of TTimeZonePoint = (
-    (X: -898; Y: 293), (X: -898; Y: 294), (X: -898; Y: 293)
-  );
-
-  cAmericaChicago_269: array [0..2] of TTimeZonePoint = (
     (X: -899; Y: 294), (X: -898; Y: 294), (X: -899; Y: 294)
   );
 
-  cAmericaChicago_270: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_269: array [0..1] of TTimeZonePoint = (
     (X: -898; Y: 294), (X: -898; Y: 294)
+  );
+
+  cAmericaChicago_270: array [0..1] of TTimeZonePoint = (
+    (X: -899; Y: 293), (X: -899; Y: 293)
   );
 
   cAmericaChicago_271: array [0..1] of TTimeZonePoint = (
@@ -1144,153 +1144,153 @@ const
   );
 
   cAmericaChicago_272: array [0..1] of TTimeZonePoint = (
-    (X: -899; Y: 293), (X: -899; Y: 293)
-  );
-
-  cAmericaChicago_273: array [0..1] of TTimeZonePoint = (
     (X: -895; Y: 294), (X: -895; Y: 294)
   );
 
-  cAmericaChicago_274: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_273: array [0..1] of TTimeZonePoint = (
     (X: -900; Y: 294), (X: -900; Y: 294)
   );
 
-  cAmericaChicago_275: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_274: array [0..1] of TTimeZonePoint = (
     (X: -899; Y: 294), (X: -899; Y: 294)
   );
 
-  cAmericaChicago_276: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_275: array [0..2] of TTimeZonePoint = (
     (X: -900; Y: 294), (X: -901; Y: 294), (X: -900; Y: 294)
   );
 
-  cAmericaChicago_277: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_276: array [0..1] of TTimeZonePoint = (
     (X: -913; Y: 294), (X: -913; Y: 294)
   );
 
-  cAmericaChicago_278: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_277: array [0..1] of TTimeZonePoint = (
     (X: -900; Y: 294), (X: -900; Y: 294)
+  );
+
+  cAmericaChicago_278: array [0..1] of TTimeZonePoint = (
+    (X: -899; Y: 294), (X: -899; Y: 294)
   );
 
   cAmericaChicago_279: array [0..1] of TTimeZonePoint = (
-    (X: -899; Y: 294), (X: -899; Y: 294)
-  );
-
-  cAmericaChicago_280: array [0..1] of TTimeZonePoint = (
     (X: -900; Y: 294), (X: -900; Y: 294)
   );
 
-  cAmericaChicago_281: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_280: array [0..1] of TTimeZonePoint = (
     (X: -899; Y: 294), (X: -899; Y: 294)
   );
 
-  cAmericaChicago_282: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_281: array [0..2] of TTimeZonePoint = (
     (X: -899; Y: 295), (X: -899; Y: 294), (X: -899; Y: 295)
   );
 
-  cAmericaChicago_283: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_282: array [0..1] of TTimeZonePoint = (
     (X: -895; Y: 295), (X: -895; Y: 295)
   );
 
-  cAmericaChicago_284: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_283: array [0..1] of TTimeZonePoint = (
     (X: -892; Y: 295), (X: -892; Y: 295)
   );
 
-  cAmericaChicago_285: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_284: array [0..1] of TTimeZonePoint = (
     (X: -896; Y: 295), (X: -896; Y: 295)
   );
 
-  cAmericaChicago_286: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_285: array [0..1] of TTimeZonePoint = (
     (X: -892; Y: 295), (X: -892; Y: 295)
   );
 
-  cAmericaChicago_287: array [0..4] of TTimeZonePoint = (
+  cAmericaChicago_286: array [0..4] of TTimeZonePoint = (
     (X: -891; Y: 295), (X: -891; Y: 296), (X: -890; Y: 296), (X: -891; Y: 296),
     (X: -891; Y: 295)
   );
 
-  cAmericaChicago_288: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_287: array [0..1] of TTimeZonePoint = (
     (X: -914; Y: 295), (X: -914; Y: 295)
   );
 
-  cAmericaChicago_289: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_288: array [0..1] of TTimeZonePoint = (
     (X: -895; Y: 295), (X: -895; Y: 295)
   );
 
-  cAmericaChicago_290: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_289: array [0..2] of TTimeZonePoint = (
     (X: -897; Y: 295), (X: -897; Y: 296), (X: -897; Y: 295)
   );
 
-  cAmericaChicago_291: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_290: array [0..1] of TTimeZonePoint = (
     (X: -895; Y: 295), (X: -895; Y: 295)
   );
 
-  cAmericaChicago_292: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_291: array [0..1] of TTimeZonePoint = (
     (X: -897; Y: 295), (X: -897; Y: 295)
   );
 
-  cAmericaChicago_293: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_292: array [0..2] of TTimeZonePoint = (
     (X: -895; Y: 295), (X: -896; Y: 295), (X: -895; Y: 295)
   );
 
-  cAmericaChicago_294: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_293: array [0..1] of TTimeZonePoint = (
     (X: -896; Y: 295), (X: -896; Y: 295)
   );
 
-  cAmericaChicago_295: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_294: array [0..2] of TTimeZonePoint = (
     (X: -896; Y: 295), (X: -896; Y: 296), (X: -896; Y: 295)
   );
 
-  cAmericaChicago_296: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_295: array [0..2] of TTimeZonePoint = (
     (X: -913; Y: 294), (X: -913; Y: 295), (X: -913; Y: 294)
   );
 
-  cAmericaChicago_297: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_296: array [0..2] of TTimeZonePoint = (
     (X: -899; Y: 295), (X: -899; Y: 294), (X: -899; Y: 295)
   );
 
-  cAmericaChicago_298: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_297: array [0..2] of TTimeZonePoint = (
     (X: -900; Y: 294), (X: -900; Y: 295), (X: -900; Y: 294)
   );
 
-  cAmericaChicago_299: array [0..4] of TTimeZonePoint = (
+  cAmericaChicago_298: array [0..4] of TTimeZonePoint = (
     (X: -900; Y: 294), (X: -900; Y: 295), (X: -901; Y: 295), (X: -900; Y: 295),
     (X: -900; Y: 294)
   );
 
-  cAmericaChicago_300: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_299: array [0..1] of TTimeZonePoint = (
     (X: -899; Y: 295), (X: -899; Y: 295)
   );
 
-  cAmericaChicago_301: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_300: array [0..1] of TTimeZonePoint = (
     (X: -900; Y: 295), (X: -900; Y: 295)
   );
 
-  cAmericaChicago_302: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_301: array [0..2] of TTimeZonePoint = (
     (X: -901; Y: 295), (X: -900; Y: 295), (X: -901; Y: 295)
   );
 
-  cAmericaChicago_303: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_302: array [0..1] of TTimeZonePoint = (
     (X: -893; Y: 294), (X: -893; Y: 294)
   );
 
-  cAmericaChicago_304: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_303: array [0..2] of TTimeZonePoint = (
     (X: -899; Y: 293), (X: -899; Y: 294), (X: -899; Y: 293)
   );
 
-  cAmericaChicago_305: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_304: array [0..1] of TTimeZonePoint = (
     (X: -898; Y: 294), (X: -898; Y: 294)
   );
 
-  cAmericaChicago_306: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_305: array [0..2] of TTimeZonePoint = (
     (X: -898; Y: 294), (X: -899; Y: 294), (X: -898; Y: 294)
   );
 
-  cAmericaChicago_307: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_306: array [0..1] of TTimeZonePoint = (
     (X: -898; Y: 294), (X: -898; Y: 294)
   );
 
-  cAmericaChicago_308: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_307: array [0..1] of TTimeZonePoint = (
     (X: -899; Y: 293), (X: -899; Y: 293)
+  );
+
+  cAmericaChicago_308: array [0..1] of TTimeZonePoint = (
+    (X: -901; Y: 293), (X: -901; Y: 293)
   );
 
   cAmericaChicago_309: array [0..1] of TTimeZonePoint = (
@@ -1298,45 +1298,45 @@ const
   );
 
   cAmericaChicago_310: array [0..1] of TTimeZonePoint = (
-    (X: -901; Y: 293), (X: -901; Y: 293)
+    (X: -900; Y: 293), (X: -900; Y: 293)
   );
 
   cAmericaChicago_311: array [0..1] of TTimeZonePoint = (
     (X: -900; Y: 293), (X: -900; Y: 293)
   );
 
-  cAmericaChicago_312: array [0..1] of TTimeZonePoint = (
-    (X: -900; Y: 293), (X: -900; Y: 293)
-  );
-
-  cAmericaChicago_313: array [0..4] of TTimeZonePoint = (
+  cAmericaChicago_312: array [0..4] of TTimeZonePoint = (
     (X: -900; Y: 294), (X: -900; Y: 293), (X: -900; Y: 294), (X: -900; Y: 293),
     (X: -900; Y: 294)
   );
 
-  cAmericaChicago_314: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_313: array [0..1] of TTimeZonePoint = (
     (X: -900; Y: 293), (X: -900; Y: 293)
   );
 
-  cAmericaChicago_315: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_314: array [0..1] of TTimeZonePoint = (
     (X: -901; Y: 293), (X: -901; Y: 293)
   );
 
-  cAmericaChicago_316: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_315: array [0..1] of TTimeZonePoint = (
     (X: -900; Y: 293), (X: -900; Y: 293)
   );
 
-  cAmericaChicago_317: array [0..4] of TTimeZonePoint = (
+  cAmericaChicago_316: array [0..4] of TTimeZonePoint = (
     (X: -901; Y: 294), (X: -900; Y: 294), (X: -900; Y: 293), (X: -901; Y: 293),
     (X: -901; Y: 294)
   );
 
-  cAmericaChicago_318: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_317: array [0..1] of TTimeZonePoint = (
     (X: -900; Y: 294), (X: -900; Y: 294)
   );
 
-  cAmericaChicago_319: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_318: array [0..2] of TTimeZonePoint = (
     (X: -910; Y: 292), (X: -911; Y: 292), (X: -910; Y: 292)
+  );
+
+  cAmericaChicago_319: array [0..1] of TTimeZonePoint = (
+    (X: -903; Y: 292), (X: -903; Y: 292)
   );
 
   cAmericaChicago_320: array [0..1] of TTimeZonePoint = (
@@ -1344,62 +1344,62 @@ const
   );
 
   cAmericaChicago_321: array [0..1] of TTimeZonePoint = (
-    (X: -903; Y: 292), (X: -903; Y: 292)
+    (X: -908; Y: 292), (X: -908; Y: 292)
   );
 
   cAmericaChicago_322: array [0..1] of TTimeZonePoint = (
-    (X: -908; Y: 292), (X: -908; Y: 292)
-  );
-
-  cAmericaChicago_323: array [0..1] of TTimeZonePoint = (
     (X: -909; Y: 292), (X: -909; Y: 292)
   );
 
-  cAmericaChicago_324: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_323: array [0..2] of TTimeZonePoint = (
     (X: -906; Y: 292), (X: -907; Y: 292), (X: -906; Y: 292)
   );
 
-  cAmericaChicago_325: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_324: array [0..2] of TTimeZonePoint = (
     (X: -909; Y: 292), (X: -910; Y: 292), (X: -909; Y: 292)
   );
 
-  cAmericaChicago_326: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_325: array [0..2] of TTimeZonePoint = (
     (X: -903; Y: 292), (X: -904; Y: 292), (X: -903; Y: 292)
   );
 
-  cAmericaChicago_327: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_326: array [0..1] of TTimeZonePoint = (
     (X: -910; Y: 292), (X: -910; Y: 292)
   );
 
-  cAmericaChicago_328: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_327: array [0..1] of TTimeZonePoint = (
     (X: -904; Y: 292), (X: -904; Y: 292)
   );
 
-  cAmericaChicago_329: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_328: array [0..1] of TTimeZonePoint = (
     (X: -908; Y: 292), (X: -908; Y: 292)
   );
 
-  cAmericaChicago_330: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_329: array [0..2] of TTimeZonePoint = (
     (X: -910; Y: 292), (X: -909; Y: 292), (X: -910; Y: 292)
   );
 
-  cAmericaChicago_331: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_330: array [0..2] of TTimeZonePoint = (
     (X: -906; Y: 292), (X: -905; Y: 292), (X: -906; Y: 292)
   );
 
-  cAmericaChicago_332: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_331: array [0..2] of TTimeZonePoint = (
     (X: -904; Y: 292), (X: -904; Y: 293), (X: -904; Y: 292)
   );
 
-  cAmericaChicago_333: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_332: array [0..2] of TTimeZonePoint = (
     (X: -905; Y: 292), (X: -906; Y: 292), (X: -905; Y: 292)
   );
 
-  cAmericaChicago_334: array [0..13] of TTimeZonePoint = (
+  cAmericaChicago_333: array [0..13] of TTimeZonePoint = (
     (X: -950; Y: 292), (X: -949; Y: 292), (X: -949; Y: 293), (X: -948; Y: 293),
     (X: -949; Y: 293), (X: -948; Y: 293), (X: -947; Y: 293), (X: -948; Y: 293),
     (X: -949; Y: 292), (X: -950; Y: 292), (X: -950; Y: 291), (X: -951; Y: 291),
     (X: -950; Y: 291), (X: -950; Y: 292)
+  );
+
+  cAmericaChicago_334: array [0..1] of TTimeZonePoint = (
+    (X: -949; Y: 293), (X: -949; Y: 293)
   );
 
   cAmericaChicago_335: array [0..1] of TTimeZonePoint = (
@@ -1410,50 +1410,50 @@ const
     (X: -949; Y: 293), (X: -949; Y: 293)
   );
 
-  cAmericaChicago_337: array [0..1] of TTimeZonePoint = (
-    (X: -949; Y: 293), (X: -949; Y: 293)
-  );
-
-  cAmericaChicago_338: array [0..3] of TTimeZonePoint = (
+  cAmericaChicago_337: array [0..3] of TTimeZonePoint = (
     (X: -904; Y: 292), (X: -905; Y: 293), (X: -904; Y: 293), (X: -904; Y: 292)
   );
 
-  cAmericaChicago_339: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_338: array [0..2] of TTimeZonePoint = (
     (X: -904; Y: 292), (X: -904; Y: 293), (X: -904; Y: 292)
+  );
+
+  cAmericaChicago_339: array [0..1] of TTimeZonePoint = (
+    (X: -906; Y: 293), (X: -906; Y: 293)
   );
 
   cAmericaChicago_340: array [0..1] of TTimeZonePoint = (
     (X: -906; Y: 293), (X: -906; Y: 293)
   );
 
-  cAmericaChicago_341: array [0..1] of TTimeZonePoint = (
-    (X: -906; Y: 293), (X: -906; Y: 293)
-  );
-
-  cAmericaChicago_342: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_341: array [0..2] of TTimeZonePoint = (
     (X: -905; Y: 293), (X: -906; Y: 293), (X: -905; Y: 293)
   );
 
-  cAmericaChicago_343: array [0..9] of TTimeZonePoint = (
+  cAmericaChicago_342: array [0..9] of TTimeZonePoint = (
     (X: -913; Y: 293), (X: -913; Y: 294), (X: -912; Y: 294), (X: -912; Y: 293),
     (X: -911; Y: 292), (X: -912; Y: 292), (X: -913; Y: 292), (X: -913; Y: 293),
     (X: -914; Y: 293), (X: -913; Y: 293)
   );
 
-  cAmericaChicago_344: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_343: array [0..1] of TTimeZonePoint = (
     (X: -906; Y: 293), (X: -906; Y: 293)
   );
 
-  cAmericaChicago_345: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_344: array [0..1] of TTimeZonePoint = (
     (X: -948; Y: 293), (X: -948; Y: 293)
   );
 
-  cAmericaChicago_346: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_345: array [0..1] of TTimeZonePoint = (
     (X: -912; Y: 293), (X: -912; Y: 293)
   );
 
-  cAmericaChicago_347: array [0..1] of TTimeZonePoint = (
+  cAmericaChicago_346: array [0..1] of TTimeZonePoint = (
     (X: -910; Y: 293), (X: -910; Y: 293)
+  );
+
+  cAmericaChicago_347: array [0..1] of TTimeZonePoint = (
+    (X: -905; Y: 293), (X: -905; Y: 293)
   );
 
   cAmericaChicago_348: array [0..1] of TTimeZonePoint = (
@@ -1461,24 +1461,20 @@ const
   );
 
   cAmericaChicago_349: array [0..1] of TTimeZonePoint = (
-    (X: -905; Y: 293), (X: -905; Y: 293)
-  );
-
-  cAmericaChicago_350: array [0..1] of TTimeZonePoint = (
     (X: -897; Y: 296), (X: -897; Y: 296)
   );
 
-  cAmericaChicago_351: array [0..2] of TTimeZonePoint = (
+  cAmericaChicago_350: array [0..2] of TTimeZonePoint = (
     (X: -896; Y: 295), (X: -896; Y: 296), (X: -896; Y: 295)
   );
 
-  cAmericaChicago_352: array [0..8] of TTimeZonePoint = (
+  cAmericaChicago_351: array [0..8] of TTimeZonePoint = (
     (X: -919; Y: 296), (X: -918; Y: 296), (X: -917; Y: 296), (X: -917; Y: 295),
     (X: -918; Y: 295), (X: -919; Y: 295), (X: -920; Y: 295), (X: -920; Y: 296),
     (X: -919; Y: 296)
   );
 
-  cAmericaChicago_353: array [0..1857] of TTimeZonePoint = (
+  cAmericaChicago_352: array [0..1857] of TTimeZonePoint = (
     (X: -878; Y: 385), (X: -877; Y: 385), (X: -877; Y: 384), (X: -877; Y: 385),
     (X: -876; Y: 385), (X: -876; Y: 384), (X: -876; Y: 385), (X: -875; Y: 385),
     (X: -874; Y: 385), (X: -874; Y: 384), (X: -873; Y: 384), (X: -873; Y: 382),
@@ -1946,91 +1942,91 @@ const
     (X: -877; Y: 385), (X: -878; Y: 385)
   );
 
-  cAmericaChicagoPolygon: array[0..353] of TTimeZonePolygon = (
+  cAmericaChicagoPolygon: array[0..352] of TTimeZonePolygon = (
     (PointsCount: 2; FirstPoint: @cAmericaChicago_0[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_1[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_2[0]), 
     (PointsCount: 5; FirstPoint: @cAmericaChicago_3[0]), 
     (PointsCount: 23; FirstPoint: @cAmericaChicago_4[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_5[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_6[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_5[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_6[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_7[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_8[0]), 
-    (PointsCount: 4; FirstPoint: @cAmericaChicago_9[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_10[0]), 
+    (PointsCount: 11; FirstPoint: @cAmericaChicago_9[0]), 
+    (PointsCount: 4; FirstPoint: @cAmericaChicago_10[0]), 
     (PointsCount: 8; FirstPoint: @cAmericaChicago_11[0]), 
-    (PointsCount: 11; FirstPoint: @cAmericaChicago_12[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_13[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_14[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_15[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_16[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_12[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_13[0]), 
+    (PointsCount: 4; FirstPoint: @cAmericaChicago_14[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_15[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_16[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_17[0]), 
     (PointsCount: 4; FirstPoint: @cAmericaChicago_18[0]), 
     (PointsCount: 4; FirstPoint: @cAmericaChicago_19[0]), 
     (PointsCount: 4; FirstPoint: @cAmericaChicago_20[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_21[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_22[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_23[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_22[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_23[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_24[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_25[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_26[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_27[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_26[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_27[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_28[0]), 
-    (PointsCount: 4; FirstPoint: @cAmericaChicago_29[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_29[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_30[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_31[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_32[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_31[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_32[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_33[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_34[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaChicago_35[0]), 
+    (PointsCount: 5; FirstPoint: @cAmericaChicago_34[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_35[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_36[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_37[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_38[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaChicago_39[0]), 
+    (PointsCount: 5; FirstPoint: @cAmericaChicago_38[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_39[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_40[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_41[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_42[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_43[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_44[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_43[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_44[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_45[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_46[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_47[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_47[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_48[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_49[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_50[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaChicago_51[0]), 
-    (PointsCount: 4; FirstPoint: @cAmericaChicago_52[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_49[0]), 
+    (PointsCount: 5; FirstPoint: @cAmericaChicago_50[0]), 
+    (PointsCount: 4; FirstPoint: @cAmericaChicago_51[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_52[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_53[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_54[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_55[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_56[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_57[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_58[0]), 
-    (PointsCount: 8; FirstPoint: @cAmericaChicago_59[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_55[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_56[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_57[0]), 
+    (PointsCount: 8; FirstPoint: @cAmericaChicago_58[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_59[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_60[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_61[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_62[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_63[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_64[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_62[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_63[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_64[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_65[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_66[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_67[0]), 
-    (PointsCount: 20; FirstPoint: @cAmericaChicago_68[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_69[0]), 
+    (PointsCount: 20; FirstPoint: @cAmericaChicago_67[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_68[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_69[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_70[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_71[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_72[0]), 
-    (PointsCount: 9; FirstPoint: @cAmericaChicago_73[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaChicago_74[0]), 
-    (PointsCount: 13; FirstPoint: @cAmericaChicago_75[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_76[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_77[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_78[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaChicago_79[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_80[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_81[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_82[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_83[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_71[0]), 
+    (PointsCount: 9; FirstPoint: @cAmericaChicago_72[0]), 
+    (PointsCount: 5; FirstPoint: @cAmericaChicago_73[0]), 
+    (PointsCount: 13; FirstPoint: @cAmericaChicago_74[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_75[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_76[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_77[0]), 
+    (PointsCount: 5; FirstPoint: @cAmericaChicago_78[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_79[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_80[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_81[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_82[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_83[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_84[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_85[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_86[0]), 
@@ -2040,146 +2036,146 @@ const
     (PointsCount: 2; FirstPoint: @cAmericaChicago_90[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_91[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_92[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_93[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_94[0]), 
-    (PointsCount: 4; FirstPoint: @cAmericaChicago_95[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_93[0]), 
+    (PointsCount: 4; FirstPoint: @cAmericaChicago_94[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_95[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_96[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_97[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_98[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_99[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_97[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_98[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_99[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_100[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_101[0]), 
-    (PointsCount: 8; FirstPoint: @cAmericaChicago_102[0]), 
+    (PointsCount: 8; FirstPoint: @cAmericaChicago_101[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_102[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_103[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_104[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_105[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_105[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_106[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_107[0]), 
-    (PointsCount: 7; FirstPoint: @cAmericaChicago_108[0]), 
+    (PointsCount: 7; FirstPoint: @cAmericaChicago_107[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_108[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_109[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_110[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_111[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_112[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_113[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_113[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_114[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_115[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_116[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_117[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_118[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_118[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_119[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_120[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_121[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_122[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_121[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_122[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_123[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_124[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_125[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_126[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_127[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_128[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_129[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaChicago_130[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_127[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_128[0]), 
+    (PointsCount: 5; FirstPoint: @cAmericaChicago_129[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_130[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_131[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_132[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_133[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_134[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_135[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_136[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_135[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_136[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_137[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_138[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_139[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_140[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_141[0]), 
-    (PointsCount: 4; FirstPoint: @cAmericaChicago_142[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_140[0]), 
+    (PointsCount: 4; FirstPoint: @cAmericaChicago_141[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_142[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_143[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_144[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_144[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_145[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_146[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_147[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_148[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_149[0]), 
-    (PointsCount: 4; FirstPoint: @cAmericaChicago_150[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_151[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_152[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_148[0]), 
+    (PointsCount: 4; FirstPoint: @cAmericaChicago_149[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_150[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_151[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_152[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_153[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_154[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_155[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_156[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_157[0]), 
-    (PointsCount: 4; FirstPoint: @cAmericaChicago_158[0]), 
+    (PointsCount: 4; FirstPoint: @cAmericaChicago_157[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_158[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_159[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_160[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_161[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_162[0]), 
-    (PointsCount: 4; FirstPoint: @cAmericaChicago_163[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_164[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_165[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_161[0]), 
+    (PointsCount: 4; FirstPoint: @cAmericaChicago_162[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_163[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_164[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_165[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_166[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_167[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_168[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_169[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_170[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_171[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_172[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_173[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaChicago_174[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_175[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_176[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_171[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_172[0]), 
+    (PointsCount: 5; FirstPoint: @cAmericaChicago_173[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_174[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_175[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_176[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_177[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_178[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_179[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_180[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_179[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_180[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_181[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_182[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_182[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_183[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_184[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_185[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_186[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_184[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_185[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_186[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_187[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_188[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_189[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_188[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_189[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_190[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_191[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_192[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_193[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_194[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_193[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_194[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_195[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_196[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_197[0]), 
-    (PointsCount: 13; FirstPoint: @cAmericaChicago_198[0]), 
-    (PointsCount: 14; FirstPoint: @cAmericaChicago_199[0]), 
+    (PointsCount: 13; FirstPoint: @cAmericaChicago_197[0]), 
+    (PointsCount: 14; FirstPoint: @cAmericaChicago_198[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_199[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_200[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_201[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_202[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_201[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_202[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_203[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_204[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_205[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_206[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_207[0]), 
-    (PointsCount: 46; FirstPoint: @cAmericaChicago_208[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_205[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_206[0]), 
+    (PointsCount: 46; FirstPoint: @cAmericaChicago_207[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_208[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_209[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_210[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_211[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_212[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_213[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_214[0]), 
-    (PointsCount: 4; FirstPoint: @cAmericaChicago_215[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_216[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_212[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_213[0]), 
+    (PointsCount: 4; FirstPoint: @cAmericaChicago_214[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_215[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_216[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_217[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_218[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_219[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_220[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_221[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_220[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_221[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_222[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_223[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_224[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_225[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_225[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_226[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_227[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_228[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_229[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_230[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_229[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_230[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_231[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_232[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_232[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_233[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_234[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_235[0]), 
@@ -2187,120 +2183,119 @@ const
     (PointsCount: 2; FirstPoint: @cAmericaChicago_237[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_238[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_239[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_240[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_241[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_240[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_241[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_242[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_243[0]), 
-    (PointsCount: 8; FirstPoint: @cAmericaChicago_244[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_245[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_246[0]), 
+    (PointsCount: 8; FirstPoint: @cAmericaChicago_243[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_244[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_245[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_246[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_247[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_248[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_249[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_250[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_249[0]), 
+    (PointsCount: 4; FirstPoint: @cAmericaChicago_250[0]), 
     (PointsCount: 4; FirstPoint: @cAmericaChicago_251[0]), 
-    (PointsCount: 4; FirstPoint: @cAmericaChicago_252[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_253[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_252[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_253[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_254[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_255[0]), 
-    (PointsCount: 7; FirstPoint: @cAmericaChicago_256[0]), 
-    (PointsCount: 6; FirstPoint: @cAmericaChicago_257[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_258[0]), 
+    (PointsCount: 7; FirstPoint: @cAmericaChicago_255[0]), 
+    (PointsCount: 6; FirstPoint: @cAmericaChicago_256[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_257[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_258[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_259[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_260[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_261[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaChicago_262[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_263[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_264[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_265[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_260[0]), 
+    (PointsCount: 5; FirstPoint: @cAmericaChicago_261[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_262[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_263[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_264[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_265[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_266[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_267[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_268[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_269[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_269[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_270[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_271[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_272[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_273[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_274[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_275[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_276[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_275[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_276[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_277[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_278[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_279[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_280[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_281[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_282[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_281[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_282[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_283[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_284[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_285[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_286[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaChicago_287[0]), 
+    (PointsCount: 5; FirstPoint: @cAmericaChicago_286[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_287[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_288[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_289[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_290[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_289[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_290[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_291[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_292[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_293[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_294[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_292[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_293[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_294[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_295[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_296[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_297[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_298[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaChicago_299[0]), 
+    (PointsCount: 5; FirstPoint: @cAmericaChicago_298[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_299[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_300[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_301[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_302[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_303[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_304[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_305[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_306[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_301[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_302[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_303[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_304[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_305[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_306[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_307[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_308[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_309[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_310[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_311[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_312[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaChicago_313[0]), 
+    (PointsCount: 5; FirstPoint: @cAmericaChicago_312[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_313[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_314[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_315[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_316[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaChicago_317[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_318[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_319[0]), 
+    (PointsCount: 5; FirstPoint: @cAmericaChicago_316[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_317[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_318[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_319[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_320[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_321[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_322[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_323[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_323[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_324[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_325[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_326[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_326[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_327[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_328[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_329[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_329[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_330[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_331[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaChicago_332[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_333[0]), 
-    (PointsCount: 14; FirstPoint: @cAmericaChicago_334[0]), 
+    (PointsCount: 14; FirstPoint: @cAmericaChicago_333[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_334[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_335[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_336[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_337[0]), 
-    (PointsCount: 4; FirstPoint: @cAmericaChicago_338[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_339[0]), 
+    (PointsCount: 4; FirstPoint: @cAmericaChicago_337[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_338[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_339[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_340[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_341[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_342[0]), 
-    (PointsCount: 10; FirstPoint: @cAmericaChicago_343[0]), 
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_341[0]), 
+    (PointsCount: 10; FirstPoint: @cAmericaChicago_342[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaChicago_343[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_344[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_345[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_346[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_347[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_348[0]), 
     (PointsCount: 2; FirstPoint: @cAmericaChicago_349[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaChicago_350[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaChicago_351[0]), 
-    (PointsCount: 9; FirstPoint: @cAmericaChicago_352[0]), 
-    (PointsCount: 1858; FirstPoint: @cAmericaChicago_353[0])
+    (PointsCount: 3; FirstPoint: @cAmericaChicago_350[0]), 
+    (PointsCount: 9; FirstPoint: @cAmericaChicago_351[0]), 
+    (PointsCount: 1858; FirstPoint: @cAmericaChicago_352[0])
   );
 
   cAmericaChicagoBound: TTimeZoneBound = (
@@ -2311,7 +2306,7 @@ const
   cAmericaChicago: TTimeZoneInfo = (
     TZID: 'America/Chicago';
     Bound: @cAmericaChicagoBound;
-    PolygonsCount: 354;
+    PolygonsCount: 353;
     FirstPolygon: @cAmericaChicagoPolygon[0]
   );
 

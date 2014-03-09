@@ -81,7 +81,7 @@ var
 
 var
  { This array contains the definitions of DST rules. Used by rule families. }
- CRules: array[0 .. 974] of TRule = (
+ CRules: array[0 .. 975] of TRule = (
  (FInMonth: 6; FOnDay: @CRelativeDays[0]; FAt: 82800; FAtMode: trStandard; FOffset: 3600; FFmtPart: 'S'),
  (FInMonth: 10; FOnDay: @CRelativeDays[1]; FAt: 82800; FAtMode: trStandard; FOffset: 0; FFmtPart: ''),
  (FInMonth: 3; FOnDay: @CRelativeDays[2]; FAt: 82800; FAtMode: trStandard; FOffset: 3600; FFmtPart: 'S'),
@@ -406,6 +406,7 @@ var
  (FInMonth: 3; FOnDay: @CRelativeDays[25]; FAt: 86400; FAtMode: trLocal; FOffset: 3600; FFmtPart: 'S'),
  (FInMonth: 10; FOnDay: @CRelativeDays[2]; FAt: 0; FAtMode: trStandard; FOffset: 0; FFmtPart: ''),
  (FInMonth: 10; FOnDay: @CRelativeDays[24]; FAt: 0; FAtMode: trStandard; FOffset: 0; FFmtPart: ''),
+ (FInMonth: 12; FOnDay: @CRelativeDays[27]; FAt: 0; FAtMode: trLocal; FOffset: 0; FFmtPart: ''),
  (FInMonth: 4; FOnDay: @CRelativeDays[52]; FAt: 0; FAtMode: trStandard; FOffset: 3600; FFmtPart: 'S'),
  (FInMonth: 3; FOnDay: @CRelativeDays[32]; FAt: 9000; FAtMode: trLocal; FOffset: 3600; FFmtPart: 'S'),
  (FInMonth: 10; FOnDay: @CRelativeDays[32]; FAt: 9000; FAtMode: trLocal; FOffset: 0; FFmtPart: ''),
@@ -1609,7 +1610,7 @@ var
  );
 
  { Date-bound rules for Jordan family }
- CFamily_29_Arr: array[0 .. 27] of TYearBoundRule = (
+ CFamily_29_Arr: array[0 .. 30] of TYearBoundRule = (
  (FStart: 1973; FEnd: 1973; FRule: @CRules[308]),
  (FStart: 1973; FEnd: 1975; FRule: @CRules[23]),
  (FStart: 1974; FEnd: 1977; FRule: @CRules[31]),
@@ -1637,44 +1638,47 @@ var
  (FStart: 2003; FEnd: 2003; FRule: @CRules[322]),
  (FStart: 2004; FEnd: 2004; FRule: @CRules[119]),
  (FStart: 2005; FEnd: 2005; FRule: @CRules[319]),
- (FStart: 2006; FEnd: 2012; FRule: @CRules[323])
+ (FStart: 2006; FEnd: 2011; FRule: @CRules[323]),
+ (FStart: 2013; FEnd: 2013; FRule: @CRules[324]),
+ (FStart: 2014; FEnd: 9999; FRule: @CRules[321]),
+ (FStart: 2014; FEnd: 9999; FRule: @CRules[323])
  );
 
  { Date-bound rules for Kyrgyz family }
  CFamily_30_Arr: array[0 .. 3] of TYearBoundRule = (
- (FStart: 1992; FEnd: 1996; FRule: @CRules[324]),
+ (FStart: 1992; FEnd: 1996; FRule: @CRules[325]),
  (FStart: 1992; FEnd: 1996; FRule: @CRules[134]),
- (FStart: 1997; FEnd: 2005; FRule: @CRules[325]),
- (FStart: 1997; FEnd: 2004; FRule: @CRules[326])
+ (FStart: 1997; FEnd: 2005; FRule: @CRules[326]),
+ (FStart: 1997; FEnd: 2004; FRule: @CRules[327])
  );
 
  { Date-bound rules for ROK family }
  CFamily_31_Arr: array[0 .. 3] of TYearBoundRule = (
- (FStart: 1960; FEnd: 1960; FRule: @CRules[327]),
+ (FStart: 1960; FEnd: 1960; FRule: @CRules[328]),
  (FStart: 1960; FEnd: 1960; FRule: @CRules[265]),
- (FStart: 1987; FEnd: 1988; FRule: @CRules[328]),
- (FStart: 1987; FEnd: 1988; FRule: @CRules[329])
+ (FStart: 1987; FEnd: 1988; FRule: @CRules[329]),
+ (FStart: 1987; FEnd: 1988; FRule: @CRules[330])
  );
 
  { Date-bound rules for Lebanon family }
  CFamily_32_Arr: array[0 .. 23] of TYearBoundRule = (
- (FStart: 1920; FEnd: 1920; FRule: @CRules[330]),
  (FStart: 1920; FEnd: 1920; FRule: @CRules[331]),
+ (FStart: 1920; FEnd: 1920; FRule: @CRules[332]),
  (FStart: 1921; FEnd: 1921; FRule: @CRules[78]),
  (FStart: 1921; FEnd: 1921; FRule: @CRules[54]),
  (FStart: 1922; FEnd: 1922; FRule: @CRules[135]),
  (FStart: 1922; FEnd: 1922; FRule: @CRules[132]),
- (FStart: 1923; FEnd: 1923; FRule: @CRules[332]),
+ (FStart: 1923; FEnd: 1923; FRule: @CRules[333]),
  (FStart: 1923; FEnd: 1923; FRule: @CRules[25]),
  (FStart: 1957; FEnd: 1961; FRule: @CRules[31]),
  (FStart: 1957; FEnd: 1961; FRule: @CRules[23]),
- (FStart: 1972; FEnd: 1972; FRule: @CRules[333]),
+ (FStart: 1972; FEnd: 1972; FRule: @CRules[334]),
  (FStart: 1972; FEnd: 1977; FRule: @CRules[23]),
  (FStart: 1973; FEnd: 1977; FRule: @CRules[31]),
  (FStart: 1978; FEnd: 1978; FRule: @CRules[120]),
  (FStart: 1978; FEnd: 1978; FRule: @CRules[309]),
  (FStart: 1984; FEnd: 1987; FRule: @CRules[31]),
- (FStart: 1984; FEnd: 1991; FRule: @CRules[334]),
+ (FStart: 1984; FEnd: 1991; FRule: @CRules[335]),
  (FStart: 1988; FEnd: 1988; FRule: @CRules[73]),
  (FStart: 1989; FEnd: 1989; FRule: @CRules[30]),
  (FStart: 1990; FEnd: 1992; FRule: @CRules[31]),
@@ -1686,8 +1690,8 @@ var
 
  { Date-bound rules for NBorneo family }
  CFamily_33_Arr: array[0 .. 1] of TYearBoundRule = (
- (FStart: 1935; FEnd: 1941; FRule: @CRules[335]),
- (FStart: 1935; FEnd: 1941; FRule: @CRules[336])
+ (FStart: 1935; FEnd: 1941; FRule: @CRules[336]),
+ (FStart: 1935; FEnd: 1941; FRule: @CRules[337])
  );
 
  { Date-bound rules for Mongol family }
@@ -1696,15 +1700,15 @@ var
  (FStart: 1983; FEnd: 1983; FRule: @CRules[23]),
  (FStart: 1985; FEnd: 1998; FRule: @CRules[171]),
  (FStart: 1984; FEnd: 1998; FRule: @CRules[134]),
- (FStart: 2001; FEnd: 2001; FRule: @CRules[337]),
- (FStart: 2001; FEnd: 2006; FRule: @CRules[338]),
- (FStart: 2002; FEnd: 2006; FRule: @CRules[339])
+ (FStart: 2001; FEnd: 2001; FRule: @CRules[338]),
+ (FStart: 2001; FEnd: 2006; FRule: @CRules[339]),
+ (FStart: 2002; FEnd: 2006; FRule: @CRules[340])
  );
 
  { Date-bound rules for Pakistan family }
  CFamily_35_Arr: array[0 .. 5] of TYearBoundRule = (
- (FStart: 2002; FEnd: 2002; FRule: @CRules[340]),
  (FStart: 2002; FEnd: 2002; FRule: @CRules[341]),
+ (FStart: 2002; FEnd: 2002; FRule: @CRules[342]),
  (FStart: 2008; FEnd: 2008; FRule: @CRules[73]),
  (FStart: 2008; FEnd: 2008; FRule: @CRules[28]),
  (FStart: 2009; FEnd: 2009; FRule: @CRules[24]),
@@ -1723,157 +1727,157 @@ var
 
  { Date-bound rules for Palestine family }
  CFamily_37_Arr: array[0 .. 18] of TYearBoundRule = (
- (FStart: 1999; FEnd: 2005; FRule: @CRules[342]),
- (FStart: 1999; FEnd: 2003; FRule: @CRules[343]),
- (FStart: 2004; FEnd: 2004; FRule: @CRules[344]),
+ (FStart: 1999; FEnd: 2005; FRule: @CRules[343]),
+ (FStart: 1999; FEnd: 2003; FRule: @CRules[344]),
+ (FStart: 2004; FEnd: 2004; FRule: @CRules[345]),
  (FStart: 2005; FEnd: 2005; FRule: @CRules[131]),
  (FStart: 2006; FEnd: 2007; FRule: @CRules[26]),
- (FStart: 2006; FEnd: 2006; FRule: @CRules[345]),
- (FStart: 2007; FEnd: 2007; FRule: @CRules[346]),
- (FStart: 2008; FEnd: 2009; FRule: @CRules[347]),
+ (FStart: 2006; FEnd: 2006; FRule: @CRules[346]),
+ (FStart: 2007; FEnd: 2007; FRule: @CRules[347]),
+ (FStart: 2008; FEnd: 2009; FRule: @CRules[348]),
  (FStart: 2008; FEnd: 2008; FRule: @CRules[70]),
- (FStart: 2009; FEnd: 2009; FRule: @CRules[348]),
+ (FStart: 2009; FEnd: 2009; FRule: @CRules[349]),
  (FStart: 2010; FEnd: 2010; FRule: @CRules[135]),
  (FStart: 2010; FEnd: 2010; FRule: @CRules[44]),
- (FStart: 2011; FEnd: 2011; FRule: @CRules[349]),
- (FStart: 2011; FEnd: 2011; FRule: @CRules[71]),
  (FStart: 2011; FEnd: 2011; FRule: @CRules[350]),
+ (FStart: 2011; FEnd: 2011; FRule: @CRules[71]),
+ (FStart: 2011; FEnd: 2011; FRule: @CRules[351]),
  (FStart: 2011; FEnd: 2011; FRule: @CRules[309]),
  (FStart: 2012; FEnd: 9999; FRule: @CRules[321]),
- (FStart: 2012; FEnd: 2012; FRule: @CRules[351]),
- (FStart: 2013; FEnd: 9999; FRule: @CRules[352])
+ (FStart: 2012; FEnd: 2012; FRule: @CRules[352]),
+ (FStart: 2013; FEnd: 9999; FRule: @CRules[353])
  );
 
  { Date-bound rules for Phil family }
  CFamily_38_Arr: array[0 .. 5] of TYearBoundRule = (
- (FStart: 1936; FEnd: 1936; FRule: @CRules[353]),
- (FStart: 1937; FEnd: 1937; FRule: @CRules[354]),
- (FStart: 1954; FEnd: 1954; FRule: @CRules[355]),
+ (FStart: 1936; FEnd: 1936; FRule: @CRules[354]),
+ (FStart: 1937; FEnd: 1937; FRule: @CRules[355]),
  (FStart: 1954; FEnd: 1954; FRule: @CRules[356]),
- (FStart: 1978; FEnd: 1978; FRule: @CRules[357]),
- (FStart: 1978; FEnd: 1978; FRule: @CRules[358])
+ (FStart: 1954; FEnd: 1954; FRule: @CRules[357]),
+ (FStart: 1978; FEnd: 1978; FRule: @CRules[358]),
+ (FStart: 1978; FEnd: 1978; FRule: @CRules[359])
  );
 
  { Date-bound rules for Syria family }
  CFamily_39_Arr: array[0 .. 40] of TYearBoundRule = (
- (FStart: 1920; FEnd: 1923; FRule: @CRules[359]),
  (FStart: 1920; FEnd: 1923; FRule: @CRules[360]),
- (FStart: 1962; FEnd: 1962; FRule: @CRules[361]),
+ (FStart: 1920; FEnd: 1923; FRule: @CRules[361]),
  (FStart: 1962; FEnd: 1962; FRule: @CRules[362]),
- (FStart: 1963; FEnd: 1965; FRule: @CRules[363]),
- (FStart: 1963; FEnd: 1963; FRule: @CRules[364]),
- (FStart: 1964; FEnd: 1964; FRule: @CRules[362]),
- (FStart: 1965; FEnd: 1965; FRule: @CRules[364]),
- (FStart: 1966; FEnd: 1966; FRule: @CRules[365]),
- (FStart: 1966; FEnd: 1976; FRule: @CRules[362]),
- (FStart: 1967; FEnd: 1978; FRule: @CRules[363]),
- (FStart: 1977; FEnd: 1978; FRule: @CRules[366]),
- (FStart: 1983; FEnd: 1984; FRule: @CRules[367]),
- (FStart: 1983; FEnd: 1984; FRule: @CRules[362]),
- (FStart: 1986; FEnd: 1986; FRule: @CRules[368]),
+ (FStart: 1962; FEnd: 1962; FRule: @CRules[363]),
+ (FStart: 1963; FEnd: 1965; FRule: @CRules[364]),
+ (FStart: 1963; FEnd: 1963; FRule: @CRules[365]),
+ (FStart: 1964; FEnd: 1964; FRule: @CRules[363]),
+ (FStart: 1965; FEnd: 1965; FRule: @CRules[365]),
+ (FStart: 1966; FEnd: 1966; FRule: @CRules[366]),
+ (FStart: 1966; FEnd: 1976; FRule: @CRules[363]),
+ (FStart: 1967; FEnd: 1978; FRule: @CRules[364]),
+ (FStart: 1977; FEnd: 1978; FRule: @CRules[367]),
+ (FStart: 1983; FEnd: 1984; FRule: @CRules[368]),
+ (FStart: 1983; FEnd: 1984; FRule: @CRules[363]),
  (FStart: 1986; FEnd: 1986; FRule: @CRules[369]),
- (FStart: 1987; FEnd: 1987; FRule: @CRules[370]),
+ (FStart: 1986; FEnd: 1986; FRule: @CRules[370]),
+ (FStart: 1987; FEnd: 1987; FRule: @CRules[371]),
  (FStart: 1987; FEnd: 1988; FRule: @CRules[21]),
- (FStart: 1988; FEnd: 1988; FRule: @CRules[371]),
+ (FStart: 1988; FEnd: 1988; FRule: @CRules[372]),
  (FStart: 1989; FEnd: 1989; FRule: @CRules[107]),
- (FStart: 1989; FEnd: 1989; FRule: @CRules[362]),
- (FStart: 1990; FEnd: 1990; FRule: @CRules[372]),
- (FStart: 1990; FEnd: 1990; FRule: @CRules[364]),
+ (FStart: 1989; FEnd: 1989; FRule: @CRules[363]),
+ (FStart: 1990; FEnd: 1990; FRule: @CRules[373]),
+ (FStart: 1990; FEnd: 1990; FRule: @CRules[365]),
  (FStart: 1991; FEnd: 1991; FRule: @CRules[26]),
  (FStart: 1991; FEnd: 1992; FRule: @CRules[23]),
- (FStart: 1992; FEnd: 1992; FRule: @CRules[373]),
+ (FStart: 1992; FEnd: 1992; FRule: @CRules[374]),
  (FStart: 1993; FEnd: 1993; FRule: @CRules[135]),
  (FStart: 1993; FEnd: 1993; FRule: @CRules[223]),
  (FStart: 1994; FEnd: 1996; FRule: @CRules[26]),
  (FStart: 1994; FEnd: 2005; FRule: @CRules[23]),
- (FStart: 1997; FEnd: 1998; FRule: @CRules[374]),
+ (FStart: 1997; FEnd: 1998; FRule: @CRules[375]),
  (FStart: 1999; FEnd: 2006; FRule: @CRules[26]),
- (FStart: 2006; FEnd: 2006; FRule: @CRules[345]),
- (FStart: 2007; FEnd: 2007; FRule: @CRules[347]),
- (FStart: 2007; FEnd: 2007; FRule: @CRules[375]),
+ (FStart: 2006; FEnd: 2006; FRule: @CRules[346]),
+ (FStart: 2007; FEnd: 2007; FRule: @CRules[348]),
+ (FStart: 2007; FEnd: 2007; FRule: @CRules[376]),
  (FStart: 2008; FEnd: 2008; FRule: @CRules[310]),
  (FStart: 2008; FEnd: 2008; FRule: @CRules[28]),
- (FStart: 2009; FEnd: 2009; FRule: @CRules[347]),
+ (FStart: 2009; FEnd: 2009; FRule: @CRules[348]),
  (FStart: 2010; FEnd: 2011; FRule: @CRules[310]),
- (FStart: 2012; FEnd: 9999; FRule: @CRules[347]),
+ (FStart: 2012; FEnd: 9999; FRule: @CRules[348]),
  (FStart: 2009; FEnd: 9999; FRule: @CRules[323])
  );
 
  { Date-bound rules for Aus family }
  CFamily_40_Arr: array[0 .. 6] of TYearBoundRule = (
- (FStart: 1917; FEnd: 1917; FRule: @CRules[376]),
  (FStart: 1917; FEnd: 1917; FRule: @CRules[377]),
- (FStart: 1942; FEnd: 1942; FRule: @CRules[378]),
+ (FStart: 1917; FEnd: 1917; FRule: @CRules[378]),
  (FStart: 1942; FEnd: 1942; FRule: @CRules[379]),
  (FStart: 1942; FEnd: 1942; FRule: @CRules[380]),
+ (FStart: 1942; FEnd: 1942; FRule: @CRules[381]),
  (FStart: 1943; FEnd: 1944; FRule: @CRules[61]),
- (FStart: 1943; FEnd: 1943; FRule: @CRules[381])
+ (FStart: 1943; FEnd: 1943; FRule: @CRules[382])
  );
 
  { Date-bound rules for AW family }
  CFamily_41_Arr: array[0 .. 8] of TYearBoundRule = (
- (FStart: 1974; FEnd: 1974; FRule: @CRules[382]),
- (FStart: 1975; FEnd: 1975; FRule: @CRules[383]),
- (FStart: 1983; FEnd: 1983; FRule: @CRules[382]),
- (FStart: 1984; FEnd: 1984; FRule: @CRules[383]),
- (FStart: 1991; FEnd: 1991; FRule: @CRules[384]),
- (FStart: 1992; FEnd: 1992; FRule: @CRules[383]),
- (FStart: 2006; FEnd: 2006; FRule: @CRules[385]),
+ (FStart: 1974; FEnd: 1974; FRule: @CRules[383]),
+ (FStart: 1975; FEnd: 1975; FRule: @CRules[384]),
+ (FStart: 1983; FEnd: 1983; FRule: @CRules[383]),
+ (FStart: 1984; FEnd: 1984; FRule: @CRules[384]),
+ (FStart: 1991; FEnd: 1991; FRule: @CRules[385]),
+ (FStart: 1992; FEnd: 1992; FRule: @CRules[384]),
+ (FStart: 2006; FEnd: 2006; FRule: @CRules[386]),
  (FStart: 2007; FEnd: 2009; FRule: @CRules[61]),
- (FStart: 2007; FEnd: 2008; FRule: @CRules[382])
+ (FStart: 2007; FEnd: 2008; FRule: @CRules[383])
  );
 
  { Date-bound rules for AQ family }
  CFamily_42_Arr: array[0 .. 3] of TYearBoundRule = (
- (FStart: 1971; FEnd: 1971; FRule: @CRules[382]),
- (FStart: 1972; FEnd: 1972; FRule: @CRules[386]),
- (FStart: 1989; FEnd: 1991; FRule: @CRules[382]),
- (FStart: 1990; FEnd: 1992; FRule: @CRules[383])
+ (FStart: 1971; FEnd: 1971; FRule: @CRules[383]),
+ (FStart: 1972; FEnd: 1972; FRule: @CRules[387]),
+ (FStart: 1989; FEnd: 1991; FRule: @CRules[383]),
+ (FStart: 1990; FEnd: 1992; FRule: @CRules[384])
  );
 
  { Date-bound rules for Holiday family }
  CFamily_43_Arr: array[0 .. 1] of TYearBoundRule = (
- (FStart: 1992; FEnd: 1993; FRule: @CRules[382]),
- (FStart: 1993; FEnd: 1994; FRule: @CRules[383])
+ (FStart: 1992; FEnd: 1993; FRule: @CRules[383]),
+ (FStart: 1993; FEnd: 1994; FRule: @CRules[384])
  );
 
  { Date-bound rules for AS family }
  CFamily_44_Arr: array[0 .. 14] of TYearBoundRule = (
- (FStart: 1971; FEnd: 1985; FRule: @CRules[382]),
- (FStart: 1986; FEnd: 1986; FRule: @CRules[387]),
- (FStart: 1987; FEnd: 2007; FRule: @CRules[382]),
- (FStart: 1972; FEnd: 1972; FRule: @CRules[388]),
- (FStart: 1973; FEnd: 1985; FRule: @CRules[383]),
+ (FStart: 1971; FEnd: 1985; FRule: @CRules[383]),
+ (FStart: 1986; FEnd: 1986; FRule: @CRules[388]),
+ (FStart: 1987; FEnd: 2007; FRule: @CRules[383]),
+ (FStart: 1972; FEnd: 1972; FRule: @CRules[389]),
+ (FStart: 1973; FEnd: 1985; FRule: @CRules[384]),
  (FStart: 1986; FEnd: 1990; FRule: @CRules[118]),
- (FStart: 1991; FEnd: 1991; FRule: @CRules[389]),
- (FStart: 1992; FEnd: 1992; FRule: @CRules[390]),
- (FStart: 1993; FEnd: 1993; FRule: @CRules[391]),
- (FStart: 1994; FEnd: 1994; FRule: @CRules[392]),
+ (FStart: 1991; FEnd: 1991; FRule: @CRules[390]),
+ (FStart: 1992; FEnd: 1992; FRule: @CRules[391]),
+ (FStart: 1993; FEnd: 1993; FRule: @CRules[392]),
+ (FStart: 1994; FEnd: 1994; FRule: @CRules[393]),
  (FStart: 1995; FEnd: 2005; FRule: @CRules[61]),
- (FStart: 2006; FEnd: 2006; FRule: @CRules[393]),
+ (FStart: 2006; FEnd: 2006; FRule: @CRules[394]),
  (FStart: 2007; FEnd: 2007; FRule: @CRules[61]),
  (FStart: 2008; FEnd: 9999; FRule: @CRules[112]),
- (FStart: 2008; FEnd: 9999; FRule: @CRules[394])
+ (FStart: 2008; FEnd: 9999; FRule: @CRules[395])
  );
 
  { Date-bound rules for AT family }
  CFamily_45_Arr: array[0 .. 18] of TYearBoundRule = (
- (FStart: 1967; FEnd: 1967; FRule: @CRules[394]),
+ (FStart: 1967; FEnd: 1967; FRule: @CRules[395]),
  (FStart: 1968; FEnd: 1968; FRule: @CRules[61]),
- (FStart: 1968; FEnd: 1985; FRule: @CRules[382]),
- (FStart: 1969; FEnd: 1971; FRule: @CRules[395]),
- (FStart: 1972; FEnd: 1972; FRule: @CRules[386]),
- (FStart: 1973; FEnd: 1981; FRule: @CRules[383]),
+ (FStart: 1968; FEnd: 1985; FRule: @CRules[383]),
+ (FStart: 1969; FEnd: 1971; FRule: @CRules[396]),
+ (FStart: 1972; FEnd: 1972; FRule: @CRules[387]),
+ (FStart: 1973; FEnd: 1981; FRule: @CRules[384]),
  (FStart: 1982; FEnd: 1983; FRule: @CRules[61]),
- (FStart: 1984; FEnd: 1986; FRule: @CRules[383]),
- (FStart: 1986; FEnd: 1986; FRule: @CRules[396]),
+ (FStart: 1984; FEnd: 1986; FRule: @CRules[384]),
+ (FStart: 1986; FEnd: 1986; FRule: @CRules[397]),
  (FStart: 1987; FEnd: 1990; FRule: @CRules[118]),
- (FStart: 1987; FEnd: 1987; FRule: @CRules[397]),
- (FStart: 1988; FEnd: 1990; FRule: @CRules[382]),
- (FStart: 1991; FEnd: 1999; FRule: @CRules[394]),
+ (FStart: 1987; FEnd: 1987; FRule: @CRules[398]),
+ (FStart: 1988; FEnd: 1990; FRule: @CRules[383]),
+ (FStart: 1991; FEnd: 1999; FRule: @CRules[395]),
  (FStart: 1991; FEnd: 2005; FRule: @CRules[61]),
- (FStart: 2000; FEnd: 2000; FRule: @CRules[398]),
- (FStart: 2001; FEnd: 9999; FRule: @CRules[394]),
+ (FStart: 2000; FEnd: 2000; FRule: @CRules[399]),
+ (FStart: 2001; FEnd: 9999; FRule: @CRules[395]),
  (FStart: 2006; FEnd: 2006; FRule: @CRules[112]),
  (FStart: 2007; FEnd: 2007; FRule: @CRules[61]),
  (FStart: 2008; FEnd: 9999; FRule: @CRules[112])
@@ -1881,100 +1885,100 @@ var
 
  { Date-bound rules for AV family }
  CFamily_46_Arr: array[0 .. 13] of TYearBoundRule = (
- (FStart: 1971; FEnd: 1985; FRule: @CRules[382]),
- (FStart: 1972; FEnd: 1972; FRule: @CRules[386]),
- (FStart: 1973; FEnd: 1985; FRule: @CRules[383]),
+ (FStart: 1971; FEnd: 1985; FRule: @CRules[383]),
+ (FStart: 1972; FEnd: 1972; FRule: @CRules[387]),
+ (FStart: 1973; FEnd: 1985; FRule: @CRules[384]),
  (FStart: 1986; FEnd: 1990; FRule: @CRules[118]),
- (FStart: 1986; FEnd: 1987; FRule: @CRules[396]),
- (FStart: 1988; FEnd: 1999; FRule: @CRules[382]),
- (FStart: 1991; FEnd: 1994; FRule: @CRules[383]),
+ (FStart: 1986; FEnd: 1987; FRule: @CRules[397]),
+ (FStart: 1988; FEnd: 1999; FRule: @CRules[383]),
+ (FStart: 1991; FEnd: 1994; FRule: @CRules[384]),
  (FStart: 1995; FEnd: 2005; FRule: @CRules[61]),
- (FStart: 2000; FEnd: 2000; FRule: @CRules[398]),
- (FStart: 2001; FEnd: 2007; FRule: @CRules[382]),
+ (FStart: 2000; FEnd: 2000; FRule: @CRules[399]),
+ (FStart: 2001; FEnd: 2007; FRule: @CRules[383]),
  (FStart: 2006; FEnd: 2006; FRule: @CRules[112]),
  (FStart: 2007; FEnd: 2007; FRule: @CRules[61]),
  (FStart: 2008; FEnd: 9999; FRule: @CRules[112]),
- (FStart: 2008; FEnd: 9999; FRule: @CRules[394])
+ (FStart: 2008; FEnd: 9999; FRule: @CRules[395])
  );
 
  { Date-bound rules for AN family }
  CFamily_47_Arr: array[0 .. 15] of TYearBoundRule = (
- (FStart: 1971; FEnd: 1985; FRule: @CRules[382]),
- (FStart: 1972; FEnd: 1972; FRule: @CRules[388]),
- (FStart: 1973; FEnd: 1981; FRule: @CRules[383]),
+ (FStart: 1971; FEnd: 1985; FRule: @CRules[383]),
+ (FStart: 1972; FEnd: 1972; FRule: @CRules[389]),
+ (FStart: 1973; FEnd: 1981; FRule: @CRules[384]),
  (FStart: 1982; FEnd: 1982; FRule: @CRules[112]),
- (FStart: 1983; FEnd: 1985; FRule: @CRules[383]),
+ (FStart: 1983; FEnd: 1985; FRule: @CRules[384]),
  (FStart: 1986; FEnd: 1989; FRule: @CRules[118]),
- (FStart: 1986; FEnd: 1986; FRule: @CRules[387]),
- (FStart: 1987; FEnd: 1999; FRule: @CRules[382]),
- (FStart: 1990; FEnd: 1995; FRule: @CRules[383]),
+ (FStart: 1986; FEnd: 1986; FRule: @CRules[388]),
+ (FStart: 1987; FEnd: 1999; FRule: @CRules[383]),
+ (FStart: 1990; FEnd: 1995; FRule: @CRules[384]),
  (FStart: 1996; FEnd: 2005; FRule: @CRules[61]),
- (FStart: 2000; FEnd: 2000; FRule: @CRules[398]),
- (FStart: 2001; FEnd: 2007; FRule: @CRules[382]),
+ (FStart: 2000; FEnd: 2000; FRule: @CRules[399]),
+ (FStart: 2001; FEnd: 2007; FRule: @CRules[383]),
  (FStart: 2006; FEnd: 2006; FRule: @CRules[112]),
  (FStart: 2007; FEnd: 2007; FRule: @CRules[61]),
  (FStart: 2008; FEnd: 9999; FRule: @CRules[112]),
- (FStart: 2008; FEnd: 9999; FRule: @CRules[394])
+ (FStart: 2008; FEnd: 9999; FRule: @CRules[395])
  );
 
  { Date-bound rules for LH family }
  CFamily_48_Arr: array[0 .. 13] of TYearBoundRule = (
- (FStart: 1981; FEnd: 1984; FRule: @CRules[382]),
- (FStart: 1982; FEnd: 1985; FRule: @CRules[383]),
- (FStart: 1985; FEnd: 1985; FRule: @CRules[399]),
+ (FStart: 1981; FEnd: 1984; FRule: @CRules[383]),
+ (FStart: 1982; FEnd: 1985; FRule: @CRules[384]),
+ (FStart: 1985; FEnd: 1985; FRule: @CRules[400]),
  (FStart: 1986; FEnd: 1989; FRule: @CRules[118]),
- (FStart: 1986; FEnd: 1986; FRule: @CRules[400]),
- (FStart: 1987; FEnd: 1999; FRule: @CRules[399]),
- (FStart: 1990; FEnd: 1995; FRule: @CRules[383]),
+ (FStart: 1986; FEnd: 1986; FRule: @CRules[401]),
+ (FStart: 1987; FEnd: 1999; FRule: @CRules[400]),
+ (FStart: 1990; FEnd: 1995; FRule: @CRules[384]),
  (FStart: 1996; FEnd: 2005; FRule: @CRules[61]),
- (FStart: 2000; FEnd: 2000; FRule: @CRules[401]),
- (FStart: 2001; FEnd: 2007; FRule: @CRules[399]),
+ (FStart: 2000; FEnd: 2000; FRule: @CRules[402]),
+ (FStart: 2001; FEnd: 2007; FRule: @CRules[400]),
  (FStart: 2006; FEnd: 2006; FRule: @CRules[112]),
  (FStart: 2007; FEnd: 2007; FRule: @CRules[61]),
  (FStart: 2008; FEnd: 9999; FRule: @CRules[112]),
- (FStart: 2008; FEnd: 9999; FRule: @CRules[402])
+ (FStart: 2008; FEnd: 9999; FRule: @CRules[403])
  );
 
  { Date-bound rules for Cook family }
  CFamily_49_Arr: array[0 .. 2] of TYearBoundRule = (
- (FStart: 1978; FEnd: 1978; FRule: @CRules[403]),
- (FStart: 1979; FEnd: 1991; FRule: @CRules[404]),
- (FStart: 1979; FEnd: 1990; FRule: @CRules[405])
+ (FStart: 1978; FEnd: 1978; FRule: @CRules[404]),
+ (FStart: 1979; FEnd: 1991; FRule: @CRules[405]),
+ (FStart: 1979; FEnd: 1990; FRule: @CRules[406])
  );
 
  { Date-bound rules for Fiji family }
  CFamily_50_Arr: array[0 .. 6] of TYearBoundRule = (
- (FStart: 1998; FEnd: 1999; FRule: @CRules[406]),
- (FStart: 1999; FEnd: 2000; FRule: @CRules[407]),
- (FStart: 2009; FEnd: 2009; FRule: @CRules[408]),
- (FStart: 2010; FEnd: 2010; FRule: @CRules[409]),
- (FStart: 2010; FEnd: 9999; FRule: @CRules[410]),
- (FStart: 2011; FEnd: 2011; FRule: @CRules[411]),
- (FStart: 2012; FEnd: 9999; FRule: @CRules[412])
+ (FStart: 1998; FEnd: 1999; FRule: @CRules[407]),
+ (FStart: 1999; FEnd: 2000; FRule: @CRules[408]),
+ (FStart: 2009; FEnd: 2009; FRule: @CRules[409]),
+ (FStart: 2010; FEnd: 2010; FRule: @CRules[410]),
+ (FStart: 2010; FEnd: 9999; FRule: @CRules[411]),
+ (FStart: 2011; FEnd: 2011; FRule: @CRules[412]),
+ (FStart: 2012; FEnd: 9999; FRule: @CRules[413])
  );
 
  { Date-bound rules for NC family }
  CFamily_51_Arr: array[0 .. 3] of TYearBoundRule = (
- (FStart: 1977; FEnd: 1978; FRule: @CRules[413]),
- (FStart: 1978; FEnd: 1979; FRule: @CRules[414]),
- (FStart: 1996; FEnd: 1996; FRule: @CRules[415]),
- (FStart: 1997; FEnd: 1997; FRule: @CRules[416])
+ (FStart: 1977; FEnd: 1978; FRule: @CRules[414]),
+ (FStart: 1978; FEnd: 1979; FRule: @CRules[415]),
+ (FStart: 1996; FEnd: 1996; FRule: @CRules[416]),
+ (FStart: 1997; FEnd: 1997; FRule: @CRules[417])
  );
 
  { Date-bound rules for NZ family }
  CFamily_52_Arr: array[0 .. 15] of TYearBoundRule = (
- (FStart: 1927; FEnd: 1927; FRule: @CRules[417]),
- (FStart: 1928; FEnd: 1928; FRule: @CRules[418]),
- (FStart: 1928; FEnd: 1933; FRule: @CRules[419]),
- (FStart: 1929; FEnd: 1933; FRule: @CRules[420]),
- (FStart: 1934; FEnd: 1940; FRule: @CRules[421]),
+ (FStart: 1927; FEnd: 1927; FRule: @CRules[418]),
+ (FStart: 1928; FEnd: 1928; FRule: @CRules[419]),
+ (FStart: 1928; FEnd: 1933; FRule: @CRules[420]),
+ (FStart: 1929; FEnd: 1933; FRule: @CRules[421]),
  (FStart: 1934; FEnd: 1940; FRule: @CRules[422]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[423]),
- (FStart: 1974; FEnd: 1974; FRule: @CRules[424]),
- (FStart: 1975; FEnd: 1975; FRule: @CRules[426]),
+ (FStart: 1934; FEnd: 1940; FRule: @CRules[423]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[424]),
+ (FStart: 1974; FEnd: 1974; FRule: @CRules[425]),
+ (FStart: 1975; FEnd: 1975; FRule: @CRules[427]),
  (FStart: 1975; FEnd: 1988; FRule: @CRules[160]),
  (FStart: 1976; FEnd: 1989; FRule: @CRules[164]),
- (FStart: 1989; FEnd: 1989; FRule: @CRules[430]),
+ (FStart: 1989; FEnd: 1989; FRule: @CRules[431]),
  (FStart: 1990; FEnd: 2006; FRule: @CRules[162]),
  (FStart: 1990; FEnd: 2007; FRule: @CRules[165]),
  (FStart: 2007; FEnd: 9999; FRule: @CRules[166]),
@@ -1983,115 +1987,115 @@ var
 
  { Date-bound rules for Chatham family }
  CFamily_53_Arr: array[0 .. 8] of TYearBoundRule = (
- (FStart: 1974; FEnd: 1974; FRule: @CRules[425]),
- (FStart: 1975; FEnd: 1975; FRule: @CRules[427]),
- (FStart: 1975; FEnd: 1988; FRule: @CRules[428]),
- (FStart: 1976; FEnd: 1989; FRule: @CRules[429]),
- (FStart: 1989; FEnd: 1989; FRule: @CRules[431]),
- (FStart: 1990; FEnd: 2006; FRule: @CRules[432]),
- (FStart: 1990; FEnd: 2007; FRule: @CRules[433]),
- (FStart: 2007; FEnd: 9999; FRule: @CRules[434]),
- (FStart: 2008; FEnd: 9999; FRule: @CRules[435])
+ (FStart: 1974; FEnd: 1974; FRule: @CRules[426]),
+ (FStart: 1975; FEnd: 1975; FRule: @CRules[428]),
+ (FStart: 1975; FEnd: 1988; FRule: @CRules[429]),
+ (FStart: 1976; FEnd: 1989; FRule: @CRules[430]),
+ (FStart: 1989; FEnd: 1989; FRule: @CRules[432]),
+ (FStart: 1990; FEnd: 2006; FRule: @CRules[433]),
+ (FStart: 1990; FEnd: 2007; FRule: @CRules[434]),
+ (FStart: 2007; FEnd: 9999; FRule: @CRules[435]),
+ (FStart: 2008; FEnd: 9999; FRule: @CRules[436])
  );
 
  { Date-bound rules for WS family }
  CFamily_54_Arr: array[0 .. 1] of TYearBoundRule = (
- (FStart: 2012; FEnd: 9999; FRule: @CRules[436]),
- (FStart: 2012; FEnd: 9999; FRule: @CRules[437])
+ (FStart: 2012; FEnd: 9999; FRule: @CRules[437]),
+ (FStart: 2012; FEnd: 9999; FRule: @CRules[438])
  );
 
  { Date-bound rules for Tonga family }
  CFamily_55_Arr: array[0 .. 3] of TYearBoundRule = (
- (FStart: 1999; FEnd: 1999; FRule: @CRules[438]),
- (FStart: 2000; FEnd: 2000; FRule: @CRules[439]),
- (FStart: 2000; FEnd: 2001; FRule: @CRules[406]),
- (FStart: 2001; FEnd: 2002; FRule: @CRules[440])
+ (FStart: 1999; FEnd: 1999; FRule: @CRules[439]),
+ (FStart: 2000; FEnd: 2000; FRule: @CRules[440]),
+ (FStart: 2000; FEnd: 2001; FRule: @CRules[407]),
+ (FStart: 2001; FEnd: 2002; FRule: @CRules[441])
  );
 
  { Date-bound rules for Vanuatu family }
  CFamily_56_Arr: array[0 .. 5] of TYearBoundRule = (
- (FStart: 1983; FEnd: 1983; FRule: @CRules[441]),
- (FStart: 1984; FEnd: 1991; FRule: @CRules[442]),
- (FStart: 1984; FEnd: 1984; FRule: @CRules[443]),
- (FStart: 1985; FEnd: 1991; FRule: @CRules[444]),
- (FStart: 1992; FEnd: 1993; FRule: @CRules[445]),
- (FStart: 1992; FEnd: 1992; FRule: @CRules[446])
+ (FStart: 1983; FEnd: 1983; FRule: @CRules[442]),
+ (FStart: 1984; FEnd: 1991; FRule: @CRules[443]),
+ (FStart: 1984; FEnd: 1984; FRule: @CRules[444]),
+ (FStart: 1985; FEnd: 1991; FRule: @CRules[445]),
+ (FStart: 1992; FEnd: 1993; FRule: @CRules[446]),
+ (FStart: 1992; FEnd: 1992; FRule: @CRules[447])
  );
 
  { Date-bound rules for GB-Eire family }
  CFamily_57_Arr: array[0 .. 64] of TYearBoundRule = (
- (FStart: 1916; FEnd: 1916; FRule: @CRules[447]),
  (FStart: 1916; FEnd: 1916; FRule: @CRules[448]),
- (FStart: 1917; FEnd: 1917; FRule: @CRules[449]),
+ (FStart: 1916; FEnd: 1916; FRule: @CRules[449]),
  (FStart: 1917; FEnd: 1917; FRule: @CRules[450]),
- (FStart: 1918; FEnd: 1918; FRule: @CRules[451]),
+ (FStart: 1917; FEnd: 1917; FRule: @CRules[451]),
  (FStart: 1918; FEnd: 1918; FRule: @CRules[452]),
- (FStart: 1919; FEnd: 1919; FRule: @CRules[453]),
+ (FStart: 1918; FEnd: 1918; FRule: @CRules[453]),
  (FStart: 1919; FEnd: 1919; FRule: @CRules[454]),
- (FStart: 1920; FEnd: 1920; FRule: @CRules[455]),
+ (FStart: 1919; FEnd: 1919; FRule: @CRules[455]),
  (FStart: 1920; FEnd: 1920; FRule: @CRules[456]),
- (FStart: 1921; FEnd: 1921; FRule: @CRules[457]),
+ (FStart: 1920; FEnd: 1920; FRule: @CRules[457]),
  (FStart: 1921; FEnd: 1921; FRule: @CRules[458]),
- (FStart: 1922; FEnd: 1922; FRule: @CRules[459]),
+ (FStart: 1921; FEnd: 1921; FRule: @CRules[459]),
  (FStart: 1922; FEnd: 1922; FRule: @CRules[460]),
- (FStart: 1923; FEnd: 1923; FRule: @CRules[461]),
- (FStart: 1923; FEnd: 1924; FRule: @CRules[462]),
- (FStart: 1924; FEnd: 1924; FRule: @CRules[463]),
- (FStart: 1925; FEnd: 1926; FRule: @CRules[461]),
- (FStart: 1925; FEnd: 1938; FRule: @CRules[464]),
- (FStart: 1927; FEnd: 1927; FRule: @CRules[463]),
- (FStart: 1928; FEnd: 1929; FRule: @CRules[461]),
- (FStart: 1930; FEnd: 1930; FRule: @CRules[463]),
- (FStart: 1931; FEnd: 1932; FRule: @CRules[461]),
- (FStart: 1933; FEnd: 1933; FRule: @CRules[463]),
- (FStart: 1934; FEnd: 1934; FRule: @CRules[461]),
- (FStart: 1935; FEnd: 1935; FRule: @CRules[463]),
- (FStart: 1936; FEnd: 1937; FRule: @CRules[461]),
- (FStart: 1938; FEnd: 1938; FRule: @CRules[463]),
- (FStart: 1939; FEnd: 1939; FRule: @CRules[461]),
- (FStart: 1939; FEnd: 1939; FRule: @CRules[465]),
- (FStart: 1940; FEnd: 1940; FRule: @CRules[466]),
- (FStart: 1941; FEnd: 1941; FRule: @CRules[467]),
- (FStart: 1941; FEnd: 1943; FRule: @CRules[468]),
- (FStart: 1942; FEnd: 1944; FRule: @CRules[469]),
- (FStart: 1944; FEnd: 1944; FRule: @CRules[470]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[471]),
+ (FStart: 1922; FEnd: 1922; FRule: @CRules[461]),
+ (FStart: 1923; FEnd: 1923; FRule: @CRules[462]),
+ (FStart: 1923; FEnd: 1924; FRule: @CRules[463]),
+ (FStart: 1924; FEnd: 1924; FRule: @CRules[464]),
+ (FStart: 1925; FEnd: 1926; FRule: @CRules[462]),
+ (FStart: 1925; FEnd: 1938; FRule: @CRules[465]),
+ (FStart: 1927; FEnd: 1927; FRule: @CRules[464]),
+ (FStart: 1928; FEnd: 1929; FRule: @CRules[462]),
+ (FStart: 1930; FEnd: 1930; FRule: @CRules[464]),
+ (FStart: 1931; FEnd: 1932; FRule: @CRules[462]),
+ (FStart: 1933; FEnd: 1933; FRule: @CRules[464]),
+ (FStart: 1934; FEnd: 1934; FRule: @CRules[462]),
+ (FStart: 1935; FEnd: 1935; FRule: @CRules[464]),
+ (FStart: 1936; FEnd: 1937; FRule: @CRules[462]),
+ (FStart: 1938; FEnd: 1938; FRule: @CRules[464]),
+ (FStart: 1939; FEnd: 1939; FRule: @CRules[462]),
+ (FStart: 1939; FEnd: 1939; FRule: @CRules[466]),
+ (FStart: 1940; FEnd: 1940; FRule: @CRules[467]),
+ (FStart: 1941; FEnd: 1941; FRule: @CRules[468]),
+ (FStart: 1941; FEnd: 1943; FRule: @CRules[469]),
+ (FStart: 1942; FEnd: 1944; FRule: @CRules[470]),
+ (FStart: 1944; FEnd: 1944; FRule: @CRules[471]),
  (FStart: 1945; FEnd: 1945; FRule: @CRules[472]),
- (FStart: 1945; FEnd: 1946; FRule: @CRules[464]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[463]),
- (FStart: 1947; FEnd: 1947; FRule: @CRules[473]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[473]),
+ (FStart: 1945; FEnd: 1946; FRule: @CRules[465]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[464]),
  (FStart: 1947; FEnd: 1947; FRule: @CRules[474]),
  (FStart: 1947; FEnd: 1947; FRule: @CRules[475]),
  (FStart: 1947; FEnd: 1947; FRule: @CRules[476]),
- (FStart: 1948; FEnd: 1948; FRule: @CRules[477]),
+ (FStart: 1947; FEnd: 1947; FRule: @CRules[477]),
  (FStart: 1948; FEnd: 1948; FRule: @CRules[478]),
- (FStart: 1949; FEnd: 1949; FRule: @CRules[457]),
- (FStart: 1949; FEnd: 1949; FRule: @CRules[479]),
- (FStart: 1950; FEnd: 1952; FRule: @CRules[480]),
+ (FStart: 1948; FEnd: 1948; FRule: @CRules[479]),
+ (FStart: 1949; FEnd: 1949; FRule: @CRules[458]),
+ (FStart: 1949; FEnd: 1949; FRule: @CRules[480]),
  (FStart: 1950; FEnd: 1952; FRule: @CRules[481]),
- (FStart: 1953; FEnd: 1953; FRule: @CRules[461]),
- (FStart: 1953; FEnd: 1960; FRule: @CRules[464]),
- (FStart: 1954; FEnd: 1954; FRule: @CRules[463]),
- (FStart: 1955; FEnd: 1956; FRule: @CRules[461]),
- (FStart: 1957; FEnd: 1957; FRule: @CRules[463]),
- (FStart: 1958; FEnd: 1959; FRule: @CRules[461]),
- (FStart: 1960; FEnd: 1960; FRule: @CRules[463]),
- (FStart: 1961; FEnd: 1963; FRule: @CRules[482]),
- (FStart: 1961; FEnd: 1968; FRule: @CRules[483]),
- (FStart: 1964; FEnd: 1967; FRule: @CRules[484]),
- (FStart: 1968; FEnd: 1968; FRule: @CRules[485]),
- (FStart: 1972; FEnd: 1980; FRule: @CRules[486]),
- (FStart: 1972; FEnd: 1980; FRule: @CRules[483]),
- (FStart: 1981; FEnd: 1995; FRule: @CRules[487]),
- (FStart: 1981; FEnd: 1989; FRule: @CRules[488]),
- (FStart: 1990; FEnd: 1995; FRule: @CRules[489])
+ (FStart: 1950; FEnd: 1952; FRule: @CRules[482]),
+ (FStart: 1953; FEnd: 1953; FRule: @CRules[462]),
+ (FStart: 1953; FEnd: 1960; FRule: @CRules[465]),
+ (FStart: 1954; FEnd: 1954; FRule: @CRules[464]),
+ (FStart: 1955; FEnd: 1956; FRule: @CRules[462]),
+ (FStart: 1957; FEnd: 1957; FRule: @CRules[464]),
+ (FStart: 1958; FEnd: 1959; FRule: @CRules[462]),
+ (FStart: 1960; FEnd: 1960; FRule: @CRules[464]),
+ (FStart: 1961; FEnd: 1963; FRule: @CRules[483]),
+ (FStart: 1961; FEnd: 1968; FRule: @CRules[484]),
+ (FStart: 1964; FEnd: 1967; FRule: @CRules[485]),
+ (FStart: 1968; FEnd: 1968; FRule: @CRules[486]),
+ (FStart: 1972; FEnd: 1980; FRule: @CRules[487]),
+ (FStart: 1972; FEnd: 1980; FRule: @CRules[484]),
+ (FStart: 1981; FEnd: 1995; FRule: @CRules[488]),
+ (FStart: 1981; FEnd: 1989; FRule: @CRules[489]),
+ (FStart: 1990; FEnd: 1995; FRule: @CRules[490])
  );
 
  { Date-bound rules for EU family }
  CFamily_58_Arr: array[0 .. 5] of TYearBoundRule = (
- (FStart: 1977; FEnd: 1980; FRule: @CRules[490]),
+ (FStart: 1977; FEnd: 1980; FRule: @CRules[491]),
  (FStart: 1977; FEnd: 1977; FRule: @CRules[169]),
- (FStart: 1978; FEnd: 1978; FRule: @CRules[344]),
+ (FStart: 1978; FEnd: 1978; FRule: @CRules[345]),
  (FStart: 1979; FEnd: 1995; FRule: @CRules[169]),
  (FStart: 1981; FEnd: 9999; FRule: @CRules[168]),
  (FStart: 1996; FEnd: 9999; FRule: @CRules[170])
@@ -2099,9 +2103,9 @@ var
 
  { Date-bound rules for W-Eur family }
  CFamily_59_Arr: array[0 .. 5] of TYearBoundRule = (
- (FStart: 1977; FEnd: 1980; FRule: @CRules[490]),
+ (FStart: 1977; FEnd: 1980; FRule: @CRules[491]),
  (FStart: 1977; FEnd: 1977; FRule: @CRules[169]),
- (FStart: 1978; FEnd: 1978; FRule: @CRules[344]),
+ (FStart: 1978; FEnd: 1978; FRule: @CRules[345]),
  (FStart: 1979; FEnd: 1995; FRule: @CRules[169]),
  (FStart: 1981; FEnd: 9999; FRule: @CRules[168]),
  (FStart: 1996; FEnd: 9999; FRule: @CRules[170])
@@ -2109,20 +2113,20 @@ var
 
  { Date-bound rules for C-Eur family }
  CFamily_60_Arr: array[0 .. 16] of TYearBoundRule = (
- (FStart: 1916; FEnd: 1916; FRule: @CRules[491]),
- (FStart: 1916; FEnd: 1916; FRule: @CRules[344]),
- (FStart: 1917; FEnd: 1918; FRule: @CRules[492]),
+ (FStart: 1916; FEnd: 1916; FRule: @CRules[492]),
+ (FStart: 1916; FEnd: 1916; FRule: @CRules[345]),
  (FStart: 1917; FEnd: 1918; FRule: @CRules[493]),
- (FStart: 1940; FEnd: 1940; FRule: @CRules[372]),
- (FStart: 1942; FEnd: 1942; FRule: @CRules[494]),
+ (FStart: 1917; FEnd: 1918; FRule: @CRules[494]),
+ (FStart: 1940; FEnd: 1940; FRule: @CRules[373]),
+ (FStart: 1942; FEnd: 1942; FRule: @CRules[495]),
  (FStart: 1943; FEnd: 1943; FRule: @CRules[128]),
  (FStart: 1943; FEnd: 1943; FRule: @CRules[131]),
  (FStart: 1944; FEnd: 1945; FRule: @CRules[11]),
- (FStart: 1944; FEnd: 1944; FRule: @CRules[495]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[496]),
- (FStart: 1977; FEnd: 1980; FRule: @CRules[497]),
+ (FStart: 1944; FEnd: 1944; FRule: @CRules[496]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[497]),
+ (FStart: 1977; FEnd: 1980; FRule: @CRules[498]),
  (FStart: 1977; FEnd: 1977; FRule: @CRules[173]),
- (FStart: 1978; FEnd: 1978; FRule: @CRules[362]),
+ (FStart: 1978; FEnd: 1978; FRule: @CRules[363]),
  (FStart: 1979; FEnd: 1995; FRule: @CRules[173]),
  (FStart: 1981; FEnd: 9999; FRule: @CRules[86]),
  (FStart: 1996; FEnd: 9999; FRule: @CRules[137])
@@ -2140,16 +2144,16 @@ var
 
  { Date-bound rules for Russia family }
  CFamily_62_Arr: array[0 .. 19] of TYearBoundRule = (
- (FStart: 1917; FEnd: 1917; FRule: @CRules[498]),
  (FStart: 1917; FEnd: 1917; FRule: @CRules[499]),
- (FStart: 1918; FEnd: 1918; FRule: @CRules[500]),
+ (FStart: 1917; FEnd: 1917; FRule: @CRules[500]),
  (FStart: 1918; FEnd: 1918; FRule: @CRules[501]),
- (FStart: 1919; FEnd: 1919; FRule: @CRules[502]),
+ (FStart: 1918; FEnd: 1918; FRule: @CRules[502]),
  (FStart: 1919; FEnd: 1919; FRule: @CRules[503]),
  (FStart: 1919; FEnd: 1919; FRule: @CRules[504]),
+ (FStart: 1919; FEnd: 1919; FRule: @CRules[505]),
  (FStart: 1921; FEnd: 1921; FRule: @CRules[5]),
- (FStart: 1921; FEnd: 1921; FRule: @CRules[505]),
  (FStart: 1921; FEnd: 1921; FRule: @CRules[506]),
+ (FStart: 1921; FEnd: 1921; FRule: @CRules[507]),
  (FStart: 1921; FEnd: 1921; FRule: @CRules[23]),
  (FStart: 1981; FEnd: 1984; FRule: @CRules[26]),
  (FStart: 1981; FEnd: 1983; FRule: @CRules[23]),
@@ -2164,11 +2168,11 @@ var
 
  { Date-bound rules for Albania family }
  CFamily_63_Arr: array[0 .. 24] of TYearBoundRule = (
- (FStart: 1940; FEnd: 1940; FRule: @CRules[507]),
+ (FStart: 1940; FEnd: 1940; FRule: @CRules[508]),
  (FStart: 1942; FEnd: 1942; FRule: @CRules[127]),
  (FStart: 1943; FEnd: 1943; FRule: @CRules[128]),
- (FStart: 1943; FEnd: 1943; FRule: @CRules[508]),
- (FStart: 1974; FEnd: 1974; FRule: @CRules[509]),
+ (FStart: 1943; FEnd: 1943; FRule: @CRules[509]),
+ (FStart: 1974; FEnd: 1974; FRule: @CRules[510]),
  (FStart: 1974; FEnd: 1974; FRule: @CRules[224]),
  (FStart: 1975; FEnd: 1975; FRule: @CRules[31]),
  (FStart: 1975; FEnd: 1975; FRule: @CRules[224]),
@@ -2178,27 +2182,27 @@ var
  (FStart: 1977; FEnd: 1977; FRule: @CRules[224]),
  (FStart: 1978; FEnd: 1978; FRule: @CRules[16]),
  (FStart: 1978; FEnd: 1978; FRule: @CRules[23]),
- (FStart: 1979; FEnd: 1979; FRule: @CRules[510]),
+ (FStart: 1979; FEnd: 1979; FRule: @CRules[511]),
  (FStart: 1979; FEnd: 1979; FRule: @CRules[309]),
- (FStart: 1980; FEnd: 1980; FRule: @CRules[511]),
+ (FStart: 1980; FEnd: 1980; FRule: @CRules[512]),
  (FStart: 1980; FEnd: 1980; FRule: @CRules[55]),
- (FStart: 1981; FEnd: 1981; FRule: @CRules[512]),
+ (FStart: 1981; FEnd: 1981; FRule: @CRules[513]),
  (FStart: 1981; FEnd: 1981; FRule: @CRules[315]),
  (FStart: 1982; FEnd: 1982; FRule: @CRules[76]),
  (FStart: 1982; FEnd: 1982; FRule: @CRules[54]),
- (FStart: 1983; FEnd: 1983; FRule: @CRules[513]),
+ (FStart: 1983; FEnd: 1983; FRule: @CRules[514]),
  (FStart: 1983; FEnd: 1983; FRule: @CRules[23]),
  (FStart: 1984; FEnd: 1984; FRule: @CRules[26])
  );
 
  { Date-bound rules for Austria family }
  CFamily_64_Arr: array[0 .. 7] of TYearBoundRule = (
- (FStart: 1920; FEnd: 1920; FRule: @CRules[514]),
  (FStart: 1920; FEnd: 1920; FRule: @CRules[515]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[516]),
- (FStart: 1946; FEnd: 1948; FRule: @CRules[360]),
- (FStart: 1947; FEnd: 1947; FRule: @CRules[517]),
- (FStart: 1948; FEnd: 1948; FRule: @CRules[518]),
+ (FStart: 1920; FEnd: 1920; FRule: @CRules[516]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[517]),
+ (FStart: 1946; FEnd: 1948; FRule: @CRules[361]),
+ (FStart: 1947; FEnd: 1947; FRule: @CRules[518]),
+ (FStart: 1948; FEnd: 1948; FRule: @CRules[519]),
  (FStart: 1980; FEnd: 1980; FRule: @CRules[52]),
  (FStart: 1980; FEnd: 1980; FRule: @CRules[72])
  );
@@ -2206,84 +2210,84 @@ var
  { Date-bound rules for Belgium family }
  CFamily_65_Arr: array[0 .. 33] of TYearBoundRule = (
  (FStart: 1918; FEnd: 1918; FRule: @CRules[126]),
- (FStart: 1918; FEnd: 1919; FRule: @CRules[519]),
+ (FStart: 1918; FEnd: 1919; FRule: @CRules[520]),
  (FStart: 1919; FEnd: 1919; FRule: @CRules[4]),
  (FStart: 1920; FEnd: 1920; FRule: @CRules[5]),
  (FStart: 1920; FEnd: 1920; FRule: @CRules[6]),
  (FStart: 1921; FEnd: 1921; FRule: @CRules[7]),
- (FStart: 1921; FEnd: 1921; FRule: @CRules[520]),
- (FStart: 1922; FEnd: 1922; FRule: @CRules[521]),
- (FStart: 1922; FEnd: 1927; FRule: @CRules[519]),
- (FStart: 1923; FEnd: 1923; FRule: @CRules[522]),
- (FStart: 1924; FEnd: 1924; FRule: @CRules[523]),
- (FStart: 1925; FEnd: 1925; FRule: @CRules[524]),
- (FStart: 1926; FEnd: 1926; FRule: @CRules[525]),
- (FStart: 1927; FEnd: 1927; FRule: @CRules[526]),
- (FStart: 1928; FEnd: 1928; FRule: @CRules[527]),
- (FStart: 1928; FEnd: 1938; FRule: @CRules[528]),
- (FStart: 1929; FEnd: 1929; FRule: @CRules[529]),
- (FStart: 1930; FEnd: 1930; FRule: @CRules[530]),
- (FStart: 1931; FEnd: 1931; FRule: @CRules[531]),
- (FStart: 1932; FEnd: 1932; FRule: @CRules[532]),
- (FStart: 1933; FEnd: 1933; FRule: @CRules[533]),
- (FStart: 1934; FEnd: 1934; FRule: @CRules[534]),
+ (FStart: 1921; FEnd: 1921; FRule: @CRules[521]),
+ (FStart: 1922; FEnd: 1922; FRule: @CRules[522]),
+ (FStart: 1922; FEnd: 1927; FRule: @CRules[520]),
+ (FStart: 1923; FEnd: 1923; FRule: @CRules[523]),
+ (FStart: 1924; FEnd: 1924; FRule: @CRules[524]),
+ (FStart: 1925; FEnd: 1925; FRule: @CRules[525]),
+ (FStart: 1926; FEnd: 1926; FRule: @CRules[526]),
+ (FStart: 1927; FEnd: 1927; FRule: @CRules[527]),
+ (FStart: 1928; FEnd: 1928; FRule: @CRules[528]),
+ (FStart: 1928; FEnd: 1938; FRule: @CRules[529]),
+ (FStart: 1929; FEnd: 1929; FRule: @CRules[530]),
+ (FStart: 1930; FEnd: 1930; FRule: @CRules[531]),
+ (FStart: 1931; FEnd: 1931; FRule: @CRules[532]),
+ (FStart: 1932; FEnd: 1932; FRule: @CRules[533]),
+ (FStart: 1933; FEnd: 1933; FRule: @CRules[534]),
+ (FStart: 1934; FEnd: 1934; FRule: @CRules[535]),
  (FStart: 1935; FEnd: 1935; FRule: @CRules[107]),
- (FStart: 1936; FEnd: 1936; FRule: @CRules[531]),
- (FStart: 1937; FEnd: 1937; FRule: @CRules[535]),
- (FStart: 1938; FEnd: 1938; FRule: @CRules[536]),
- (FStart: 1939; FEnd: 1939; FRule: @CRules[537]),
+ (FStart: 1936; FEnd: 1936; FRule: @CRules[532]),
+ (FStart: 1937; FEnd: 1937; FRule: @CRules[536]),
+ (FStart: 1938; FEnd: 1938; FRule: @CRules[537]),
  (FStart: 1939; FEnd: 1939; FRule: @CRules[538]),
- (FStart: 1940; FEnd: 1940; FRule: @CRules[539]),
- (FStart: 1944; FEnd: 1944; FRule: @CRules[540]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[541]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[496]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[542]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[543])
+ (FStart: 1939; FEnd: 1939; FRule: @CRules[539]),
+ (FStart: 1940; FEnd: 1940; FRule: @CRules[540]),
+ (FStart: 1944; FEnd: 1944; FRule: @CRules[541]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[542]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[497]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[543]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[544])
  );
 
  { Date-bound rules for Bulg family }
  CFamily_66_Arr: array[0 .. 4] of TYearBoundRule = (
- (FStart: 1979; FEnd: 1979; FRule: @CRules[544]),
- (FStart: 1979; FEnd: 1979; FRule: @CRules[344]),
- (FStart: 1980; FEnd: 1982; FRule: @CRules[545]),
- (FStart: 1980; FEnd: 1980; FRule: @CRules[546]),
- (FStart: 1981; FEnd: 1981; FRule: @CRules[547])
+ (FStart: 1979; FEnd: 1979; FRule: @CRules[545]),
+ (FStart: 1979; FEnd: 1979; FRule: @CRules[345]),
+ (FStart: 1980; FEnd: 1982; FRule: @CRules[546]),
+ (FStart: 1980; FEnd: 1980; FRule: @CRules[547]),
+ (FStart: 1981; FEnd: 1981; FRule: @CRules[548])
  );
 
  { Date-bound rules for Czech family }
  CFamily_67_Arr: array[0 .. 6] of TYearBoundRule = (
- (FStart: 1945; FEnd: 1945; FRule: @CRules[534]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[548]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[549]),
- (FStart: 1946; FEnd: 1949; FRule: @CRules[360]),
- (FStart: 1947; FEnd: 1947; FRule: @CRules[550]),
- (FStart: 1948; FEnd: 1948; FRule: @CRules[518]),
- (FStart: 1949; FEnd: 1949; FRule: @CRules[367])
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[535]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[549]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[550]),
+ (FStart: 1946; FEnd: 1949; FRule: @CRules[361]),
+ (FStart: 1947; FEnd: 1947; FRule: @CRules[551]),
+ (FStart: 1948; FEnd: 1948; FRule: @CRules[519]),
+ (FStart: 1949; FEnd: 1949; FRule: @CRules[368])
  );
 
  { Date-bound rules for Denmark family }
  CFamily_68_Arr: array[0 .. 10] of TYearBoundRule = (
- (FStart: 1916; FEnd: 1916; FRule: @CRules[551]),
  (FStart: 1916; FEnd: 1916; FRule: @CRules[552]),
+ (FStart: 1916; FEnd: 1916; FRule: @CRules[553]),
  (FStart: 1940; FEnd: 1940; FRule: @CRules[220]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[541]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[553]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[363]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[366]),
- (FStart: 1947; FEnd: 1947; FRule: @CRules[554]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[542]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[554]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[364]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[367]),
  (FStart: 1947; FEnd: 1947; FRule: @CRules[555]),
- (FStart: 1948; FEnd: 1948; FRule: @CRules[556]),
- (FStart: 1948; FEnd: 1948; FRule: @CRules[557])
+ (FStart: 1947; FEnd: 1947; FRule: @CRules[556]),
+ (FStart: 1948; FEnd: 1948; FRule: @CRules[557]),
+ (FStart: 1948; FEnd: 1948; FRule: @CRules[558])
  );
 
  { Date-bound rules for Thule family }
  CFamily_69_Arr: array[0 .. 5] of TYearBoundRule = (
- (FStart: 1991; FEnd: 1992; FRule: @CRules[558]),
  (FStart: 1991; FEnd: 1992; FRule: @CRules[559]),
+ (FStart: 1991; FEnd: 1992; FRule: @CRules[560]),
  (FStart: 1993; FEnd: 2006; FRule: @CRules[307]),
  (FStart: 1993; FEnd: 2006; FRule: @CRules[304]),
- (FStart: 2007; FEnd: 9999; FRule: @CRules[560]),
- (FStart: 2007; FEnd: 9999; FRule: @CRules[561])
+ (FStart: 2007; FEnd: 9999; FRule: @CRules[561]),
+ (FStart: 2007; FEnd: 9999; FRule: @CRules[562])
  );
 
  { Date-bound rules for Finland family }
@@ -2291,7 +2295,7 @@ var
  (FStart: 1942; FEnd: 1942; FRule: @CRules[78]),
  (FStart: 1942; FEnd: 1942; FRule: @CRules[54]),
  (FStart: 1981; FEnd: 1982; FRule: @CRules[86]),
- (FStart: 1981; FEnd: 1982; FRule: @CRules[562])
+ (FStart: 1981; FEnd: 1982; FRule: @CRules[563])
  );
 
  { Date-bound rules for France family }
@@ -2304,165 +2308,165 @@ var
  (FStart: 1920; FEnd: 1920; FRule: @CRules[5]),
  (FStart: 1920; FEnd: 1920; FRule: @CRules[6]),
  (FStart: 1921; FEnd: 1921; FRule: @CRules[7]),
- (FStart: 1921; FEnd: 1921; FRule: @CRules[520]),
- (FStart: 1922; FEnd: 1922; FRule: @CRules[521]),
- (FStart: 1922; FEnd: 1938; FRule: @CRules[519]),
- (FStart: 1923; FEnd: 1923; FRule: @CRules[563]),
- (FStart: 1924; FEnd: 1924; FRule: @CRules[523]),
- (FStart: 1925; FEnd: 1925; FRule: @CRules[524]),
- (FStart: 1926; FEnd: 1926; FRule: @CRules[525]),
- (FStart: 1927; FEnd: 1927; FRule: @CRules[526]),
- (FStart: 1928; FEnd: 1928; FRule: @CRules[527]),
- (FStart: 1929; FEnd: 1929; FRule: @CRules[564]),
- (FStart: 1930; FEnd: 1930; FRule: @CRules[565]),
- (FStart: 1931; FEnd: 1931; FRule: @CRules[566]),
- (FStart: 1932; FEnd: 1932; FRule: @CRules[567]),
- (FStart: 1933; FEnd: 1933; FRule: @CRules[521]),
- (FStart: 1934; FEnd: 1934; FRule: @CRules[568]),
- (FStart: 1935; FEnd: 1935; FRule: @CRules[569]),
- (FStart: 1936; FEnd: 1936; FRule: @CRules[566]),
- (FStart: 1937; FEnd: 1937; FRule: @CRules[570]),
- (FStart: 1938; FEnd: 1938; FRule: @CRules[571]),
+ (FStart: 1921; FEnd: 1921; FRule: @CRules[521]),
+ (FStart: 1922; FEnd: 1922; FRule: @CRules[522]),
+ (FStart: 1922; FEnd: 1938; FRule: @CRules[520]),
+ (FStart: 1923; FEnd: 1923; FRule: @CRules[564]),
+ (FStart: 1924; FEnd: 1924; FRule: @CRules[524]),
+ (FStart: 1925; FEnd: 1925; FRule: @CRules[525]),
+ (FStart: 1926; FEnd: 1926; FRule: @CRules[526]),
+ (FStart: 1927; FEnd: 1927; FRule: @CRules[527]),
+ (FStart: 1928; FEnd: 1928; FRule: @CRules[528]),
+ (FStart: 1929; FEnd: 1929; FRule: @CRules[565]),
+ (FStart: 1930; FEnd: 1930; FRule: @CRules[566]),
+ (FStart: 1931; FEnd: 1931; FRule: @CRules[567]),
+ (FStart: 1932; FEnd: 1932; FRule: @CRules[568]),
+ (FStart: 1933; FEnd: 1933; FRule: @CRules[522]),
+ (FStart: 1934; FEnd: 1934; FRule: @CRules[569]),
+ (FStart: 1935; FEnd: 1935; FRule: @CRules[570]),
+ (FStart: 1936; FEnd: 1936; FRule: @CRules[567]),
+ (FStart: 1937; FEnd: 1937; FRule: @CRules[571]),
+ (FStart: 1938; FEnd: 1938; FRule: @CRules[572]),
  (FStart: 1939; FEnd: 1939; FRule: @CRules[122]),
  (FStart: 1939; FEnd: 1939; FRule: @CRules[123]),
- (FStart: 1940; FEnd: 1940; FRule: @CRules[539]),
- (FStart: 1941; FEnd: 1941; FRule: @CRules[572]),
+ (FStart: 1940; FEnd: 1940; FRule: @CRules[540]),
  (FStart: 1941; FEnd: 1941; FRule: @CRules[573]),
- (FStart: 1942; FEnd: 1942; FRule: @CRules[574]),
+ (FStart: 1941; FEnd: 1941; FRule: @CRules[574]),
  (FStart: 1942; FEnd: 1942; FRule: @CRules[575]),
- (FStart: 1943; FEnd: 1943; FRule: @CRules[576]),
+ (FStart: 1942; FEnd: 1942; FRule: @CRules[576]),
  (FStart: 1943; FEnd: 1943; FRule: @CRules[577]),
- (FStart: 1944; FEnd: 1944; FRule: @CRules[578]),
+ (FStart: 1943; FEnd: 1943; FRule: @CRules[578]),
  (FStart: 1944; FEnd: 1944; FRule: @CRules[579]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[580]),
+ (FStart: 1944; FEnd: 1944; FRule: @CRules[580]),
  (FStart: 1945; FEnd: 1945; FRule: @CRules[581]),
- (FStart: 1976; FEnd: 1976; FRule: @CRules[582]),
- (FStart: 1976; FEnd: 1976; FRule: @CRules[583])
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[582]),
+ (FStart: 1976; FEnd: 1976; FRule: @CRules[583]),
+ (FStart: 1976; FEnd: 1976; FRule: @CRules[584])
  );
 
  { Date-bound rules for Germany family }
  CFamily_72_Arr: array[0 .. 7] of TYearBoundRule = (
- (FStart: 1946; FEnd: 1946; FRule: @CRules[516]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[543]),
- (FStart: 1947; FEnd: 1949; FRule: @CRules[360]),
- (FStart: 1947; FEnd: 1947; FRule: @CRules[584]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[517]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[544]),
+ (FStart: 1947; FEnd: 1949; FRule: @CRules[361]),
  (FStart: 1947; FEnd: 1947; FRule: @CRules[585]),
  (FStart: 1947; FEnd: 1947; FRule: @CRules[586]),
- (FStart: 1948; FEnd: 1948; FRule: @CRules[518]),
+ (FStart: 1947; FEnd: 1947; FRule: @CRules[587]),
+ (FStart: 1948; FEnd: 1948; FRule: @CRules[519]),
  (FStart: 1949; FEnd: 1949; FRule: @CRules[106])
  );
 
  { Date-bound rules for SovietZone family }
  CFamily_73_Arr: array[0 .. 2] of TYearBoundRule = (
- (FStart: 1945; FEnd: 1945; FRule: @CRules[587]),
  (FStart: 1945; FEnd: 1945; FRule: @CRules[588]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[548])
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[589]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[549])
  );
 
  { Date-bound rules for Greece family }
  CFamily_74_Arr: array[0 .. 18] of TYearBoundRule = (
- (FStart: 1932; FEnd: 1932; FRule: @CRules[589]),
+ (FStart: 1932; FEnd: 1932; FRule: @CRules[590]),
  (FStart: 1932; FEnd: 1932; FRule: @CRules[70]),
- (FStart: 1941; FEnd: 1941; FRule: @CRules[590]),
+ (FStart: 1941; FEnd: 1941; FRule: @CRules[591]),
  (FStart: 1942; FEnd: 1942; FRule: @CRules[127]),
- (FStart: 1943; FEnd: 1943; FRule: @CRules[591]),
+ (FStart: 1943; FEnd: 1943; FRule: @CRules[592]),
  (FStart: 1943; FEnd: 1943; FRule: @CRules[55]),
  (FStart: 1952; FEnd: 1952; FRule: @CRules[318]),
- (FStart: 1952; FEnd: 1952; FRule: @CRules[592]),
- (FStart: 1975; FEnd: 1975; FRule: @CRules[355]),
- (FStart: 1975; FEnd: 1975; FRule: @CRules[593]),
- (FStart: 1976; FEnd: 1976; FRule: @CRules[594]),
+ (FStart: 1952; FEnd: 1952; FRule: @CRules[593]),
+ (FStart: 1975; FEnd: 1975; FRule: @CRules[356]),
+ (FStart: 1975; FEnd: 1975; FRule: @CRules[594]),
  (FStart: 1976; FEnd: 1976; FRule: @CRules[595]),
- (FStart: 1977; FEnd: 1978; FRule: @CRules[497]),
- (FStart: 1977; FEnd: 1977; FRule: @CRules[596]),
- (FStart: 1978; FEnd: 1978; FRule: @CRules[597]),
- (FStart: 1979; FEnd: 1979; FRule: @CRules[598]),
+ (FStart: 1976; FEnd: 1976; FRule: @CRules[596]),
+ (FStart: 1977; FEnd: 1978; FRule: @CRules[498]),
+ (FStart: 1977; FEnd: 1977; FRule: @CRules[597]),
+ (FStart: 1978; FEnd: 1978; FRule: @CRules[598]),
  (FStart: 1979; FEnd: 1979; FRule: @CRules[599]),
+ (FStart: 1979; FEnd: 1979; FRule: @CRules[600]),
  (FStart: 1980; FEnd: 1980; FRule: @CRules[26]),
  (FStart: 1980; FEnd: 1980; FRule: @CRules[72])
  );
 
  { Date-bound rules for Hungary family }
  CFamily_75_Arr: array[0 .. 19] of TYearBoundRule = (
- (FStart: 1918; FEnd: 1918; FRule: @CRules[600]),
  (FStart: 1918; FEnd: 1918; FRule: @CRules[601]),
- (FStart: 1919; FEnd: 1919; FRule: @CRules[602]),
+ (FStart: 1918; FEnd: 1918; FRule: @CRules[602]),
  (FStart: 1919; FEnd: 1919; FRule: @CRules[603]),
- (FStart: 1920; FEnd: 1920; FRule: @CRules[604]),
+ (FStart: 1919; FEnd: 1919; FRule: @CRules[604]),
+ (FStart: 1920; FEnd: 1920; FRule: @CRules[605]),
  (FStart: 1920; FEnd: 1920; FRule: @CRules[33]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[605]),
  (FStart: 1945; FEnd: 1945; FRule: @CRules[606]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[607]),
  (FStart: 1946; FEnd: 1946; FRule: @CRules[107]),
- (FStart: 1946; FEnd: 1949; FRule: @CRules[360]),
- (FStart: 1947; FEnd: 1949; FRule: @CRules[607]),
- (FStart: 1950; FEnd: 1950; FRule: @CRules[608]),
+ (FStart: 1946; FEnd: 1949; FRule: @CRules[361]),
+ (FStart: 1947; FEnd: 1949; FRule: @CRules[608]),
  (FStart: 1950; FEnd: 1950; FRule: @CRules[609]),
- (FStart: 1954; FEnd: 1955; FRule: @CRules[610]),
+ (FStart: 1950; FEnd: 1950; FRule: @CRules[610]),
+ (FStart: 1954; FEnd: 1955; FRule: @CRules[611]),
  (FStart: 1954; FEnd: 1955; FRule: @CRules[54]),
- (FStart: 1956; FEnd: 1956; FRule: @CRules[611]),
+ (FStart: 1956; FEnd: 1956; FRule: @CRules[612]),
  (FStart: 1956; FEnd: 1956; FRule: @CRules[134]),
- (FStart: 1957; FEnd: 1957; FRule: @CRules[612]),
- (FStart: 1957; FEnd: 1957; FRule: @CRules[562]),
- (FStart: 1980; FEnd: 1980; FRule: @CRules[613])
+ (FStart: 1957; FEnd: 1957; FRule: @CRules[613]),
+ (FStart: 1957; FEnd: 1957; FRule: @CRules[563]),
+ (FStart: 1980; FEnd: 1980; FRule: @CRules[614])
  );
 
  { Date-bound rules for Iceland family }
  CFamily_76_Arr: array[0 .. 16] of TYearBoundRule = (
- (FStart: 1917; FEnd: 1918; FRule: @CRules[614]),
- (FStart: 1917; FEnd: 1917; FRule: @CRules[615]),
- (FStart: 1918; FEnd: 1918; FRule: @CRules[616]),
- (FStart: 1939; FEnd: 1939; FRule: @CRules[617]),
+ (FStart: 1917; FEnd: 1918; FRule: @CRules[615]),
+ (FStart: 1917; FEnd: 1917; FRule: @CRules[616]),
+ (FStart: 1918; FEnd: 1918; FRule: @CRules[617]),
  (FStart: 1939; FEnd: 1939; FRule: @CRules[618]),
- (FStart: 1940; FEnd: 1940; FRule: @CRules[539]),
- (FStart: 1940; FEnd: 1940; FRule: @CRules[619]),
- (FStart: 1941; FEnd: 1941; FRule: @CRules[620]),
+ (FStart: 1939; FEnd: 1939; FRule: @CRules[619]),
+ (FStart: 1940; FEnd: 1940; FRule: @CRules[540]),
+ (FStart: 1940; FEnd: 1940; FRule: @CRules[620]),
  (FStart: 1941; FEnd: 1941; FRule: @CRules[621]),
- (FStart: 1942; FEnd: 1942; FRule: @CRules[622]),
+ (FStart: 1941; FEnd: 1941; FRule: @CRules[622]),
  (FStart: 1942; FEnd: 1942; FRule: @CRules[623]),
- (FStart: 1943; FEnd: 1946; FRule: @CRules[624]),
- (FStart: 1943; FEnd: 1948; FRule: @CRules[625]),
- (FStart: 1947; FEnd: 1967; FRule: @CRules[490]),
- (FStart: 1949; FEnd: 1949; FRule: @CRules[626]),
- (FStart: 1950; FEnd: 1966; FRule: @CRules[625]),
- (FStart: 1967; FEnd: 1967; FRule: @CRules[627])
+ (FStart: 1942; FEnd: 1942; FRule: @CRules[624]),
+ (FStart: 1943; FEnd: 1946; FRule: @CRules[625]),
+ (FStart: 1943; FEnd: 1948; FRule: @CRules[626]),
+ (FStart: 1947; FEnd: 1967; FRule: @CRules[491]),
+ (FStart: 1949; FEnd: 1949; FRule: @CRules[627]),
+ (FStart: 1950; FEnd: 1966; FRule: @CRules[626]),
+ (FStart: 1967; FEnd: 1967; FRule: @CRules[628])
  );
 
  { Date-bound rules for Italy family }
  CFamily_77_Arr: array[0 .. 35] of TYearBoundRule = (
- (FStart: 1916; FEnd: 1916; FRule: @CRules[628]),
+ (FStart: 1916; FEnd: 1916; FRule: @CRules[629]),
  (FStart: 1916; FEnd: 1916; FRule: @CRules[23]),
  (FStart: 1917; FEnd: 1917; FRule: @CRules[26]),
  (FStart: 1917; FEnd: 1917; FRule: @CRules[309]),
- (FStart: 1918; FEnd: 1918; FRule: @CRules[629]),
- (FStart: 1918; FEnd: 1919; FRule: @CRules[630]),
- (FStart: 1919; FEnd: 1919; FRule: @CRules[631]),
- (FStart: 1920; FEnd: 1920; FRule: @CRules[632]),
+ (FStart: 1918; FEnd: 1918; FRule: @CRules[630]),
+ (FStart: 1918; FEnd: 1919; FRule: @CRules[631]),
+ (FStart: 1919; FEnd: 1919; FRule: @CRules[632]),
  (FStart: 1920; FEnd: 1920; FRule: @CRules[633]),
- (FStart: 1940; FEnd: 1940; FRule: @CRules[634]),
- (FStart: 1944; FEnd: 1944; FRule: @CRules[635]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[541]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[636]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[637]),
+ (FStart: 1920; FEnd: 1920; FRule: @CRules[634]),
+ (FStart: 1940; FEnd: 1940; FRule: @CRules[635]),
+ (FStart: 1944; FEnd: 1944; FRule: @CRules[636]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[542]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[637]),
  (FStart: 1946; FEnd: 1946; FRule: @CRules[638]),
- (FStart: 1947; FEnd: 1947; FRule: @CRules[639]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[639]),
  (FStart: 1947; FEnd: 1947; FRule: @CRules[640]),
- (FStart: 1948; FEnd: 1948; FRule: @CRules[641]),
+ (FStart: 1947; FEnd: 1947; FRule: @CRules[641]),
  (FStart: 1948; FEnd: 1948; FRule: @CRules[642]),
- (FStart: 1966; FEnd: 1968; FRule: @CRules[643]),
- (FStart: 1966; FEnd: 1969; FRule: @CRules[644]),
+ (FStart: 1948; FEnd: 1948; FRule: @CRules[643]),
+ (FStart: 1966; FEnd: 1968; FRule: @CRules[644]),
+ (FStart: 1966; FEnd: 1969; FRule: @CRules[645]),
  (FStart: 1969; FEnd: 1969; FRule: @CRules[73]),
- (FStart: 1970; FEnd: 1970; FRule: @CRules[645]),
+ (FStart: 1970; FEnd: 1970; FRule: @CRules[646]),
  (FStart: 1970; FEnd: 1970; FRule: @CRules[134]),
- (FStart: 1971; FEnd: 1972; FRule: @CRules[643]),
+ (FStart: 1971; FEnd: 1972; FRule: @CRules[644]),
  (FStart: 1971; FEnd: 1971; FRule: @CRules[169]),
  (FStart: 1972; FEnd: 1972; FRule: @CRules[23]),
- (FStart: 1973; FEnd: 1973; FRule: @CRules[628]),
+ (FStart: 1973; FEnd: 1973; FRule: @CRules[629]),
  (FStart: 1973; FEnd: 1974; FRule: @CRules[134]),
- (FStart: 1974; FEnd: 1974; FRule: @CRules[646]),
+ (FStart: 1974; FEnd: 1974; FRule: @CRules[647]),
  (FStart: 1975; FEnd: 1975; FRule: @CRules[73]),
  (FStart: 1975; FEnd: 1977; FRule: @CRules[134]),
- (FStart: 1976; FEnd: 1976; FRule: @CRules[647]),
- (FStart: 1977; FEnd: 1979; FRule: @CRules[643]),
+ (FStart: 1976; FEnd: 1976; FRule: @CRules[648]),
+ (FStart: 1977; FEnd: 1979; FRule: @CRules[644]),
  (FStart: 1978; FEnd: 1978; FRule: @CRules[23]),
  (FStart: 1979; FEnd: 1979; FRule: @CRules[309])
  );
@@ -2475,50 +2479,50 @@ var
 
  { Date-bound rules for Lux family }
  CFamily_79_Arr: array[0 .. 22] of TYearBoundRule = (
- (FStart: 1916; FEnd: 1916; FRule: @CRules[551]),
- (FStart: 1916; FEnd: 1916; FRule: @CRules[344]),
- (FStart: 1917; FEnd: 1917; FRule: @CRules[648]),
+ (FStart: 1916; FEnd: 1916; FRule: @CRules[552]),
+ (FStart: 1916; FEnd: 1916; FRule: @CRules[345]),
  (FStart: 1917; FEnd: 1917; FRule: @CRules[649]),
- (FStart: 1918; FEnd: 1918; FRule: @CRules[492]),
+ (FStart: 1917; FEnd: 1917; FRule: @CRules[650]),
  (FStart: 1918; FEnd: 1918; FRule: @CRules[493]),
+ (FStart: 1918; FEnd: 1918; FRule: @CRules[494]),
  (FStart: 1919; FEnd: 1919; FRule: @CRules[4]),
- (FStart: 1919; FEnd: 1919; FRule: @CRules[650]),
+ (FStart: 1919; FEnd: 1919; FRule: @CRules[651]),
  (FStart: 1920; FEnd: 1920; FRule: @CRules[5]),
- (FStart: 1920; FEnd: 1920; FRule: @CRules[651]),
+ (FStart: 1920; FEnd: 1920; FRule: @CRules[652]),
  (FStart: 1921; FEnd: 1921; FRule: @CRules[7]),
- (FStart: 1921; FEnd: 1921; FRule: @CRules[652]),
- (FStart: 1922; FEnd: 1922; FRule: @CRules[521]),
- (FStart: 1922; FEnd: 1922; FRule: @CRules[653]),
- (FStart: 1923; FEnd: 1923; FRule: @CRules[522]),
- (FStart: 1923; FEnd: 1923; FRule: @CRules[528]),
- (FStart: 1924; FEnd: 1924; FRule: @CRules[523]),
- (FStart: 1924; FEnd: 1928; FRule: @CRules[653]),
- (FStart: 1925; FEnd: 1925; FRule: @CRules[654]),
- (FStart: 1926; FEnd: 1926; FRule: @CRules[525]),
- (FStart: 1927; FEnd: 1927; FRule: @CRules[526]),
- (FStart: 1928; FEnd: 1928; FRule: @CRules[527]),
- (FStart: 1929; FEnd: 1929; FRule: @CRules[564])
+ (FStart: 1921; FEnd: 1921; FRule: @CRules[653]),
+ (FStart: 1922; FEnd: 1922; FRule: @CRules[522]),
+ (FStart: 1922; FEnd: 1922; FRule: @CRules[654]),
+ (FStart: 1923; FEnd: 1923; FRule: @CRules[523]),
+ (FStart: 1923; FEnd: 1923; FRule: @CRules[529]),
+ (FStart: 1924; FEnd: 1924; FRule: @CRules[524]),
+ (FStart: 1924; FEnd: 1928; FRule: @CRules[654]),
+ (FStart: 1925; FEnd: 1925; FRule: @CRules[655]),
+ (FStart: 1926; FEnd: 1926; FRule: @CRules[526]),
+ (FStart: 1927; FEnd: 1927; FRule: @CRules[527]),
+ (FStart: 1928; FEnd: 1928; FRule: @CRules[528]),
+ (FStart: 1929; FEnd: 1929; FRule: @CRules[565])
  );
 
  { Date-bound rules for Malta family }
  CFamily_80_Arr: array[0 .. 6] of TYearBoundRule = (
- (FStart: 1973; FEnd: 1973; FRule: @CRules[655]),
  (FStart: 1973; FEnd: 1973; FRule: @CRules[656]),
- (FStart: 1974; FEnd: 1974; FRule: @CRules[657]),
+ (FStart: 1973; FEnd: 1973; FRule: @CRules[657]),
+ (FStart: 1974; FEnd: 1974; FRule: @CRules[658]),
  (FStart: 1974; FEnd: 1974; FRule: @CRules[25]),
- (FStart: 1975; FEnd: 1979; FRule: @CRules[359]),
- (FStart: 1975; FEnd: 1980; FRule: @CRules[658]),
+ (FStart: 1975; FEnd: 1979; FRule: @CRules[360]),
+ (FStart: 1975; FEnd: 1980; FRule: @CRules[659]),
  (FStart: 1980; FEnd: 1980; FRule: @CRules[107])
  );
 
  { Date-bound rules for Romania family }
  CFamily_81_Arr: array[0 .. 8] of TYearBoundRule = (
- (FStart: 1932; FEnd: 1932; FRule: @CRules[698]),
- (FStart: 1932; FEnd: 1939; FRule: @CRules[630]),
- (FStart: 1933; FEnd: 1939; FRule: @CRules[699]),
- (FStart: 1979; FEnd: 1979; FRule: @CRules[700]),
+ (FStart: 1932; FEnd: 1932; FRule: @CRules[699]),
+ (FStart: 1932; FEnd: 1939; FRule: @CRules[631]),
+ (FStart: 1933; FEnd: 1939; FRule: @CRules[700]),
+ (FStart: 1979; FEnd: 1979; FRule: @CRules[701]),
  (FStart: 1979; FEnd: 1979; FRule: @CRules[134]),
- (FStart: 1980; FEnd: 1980; FRule: @CRules[654]),
+ (FStart: 1980; FEnd: 1980; FRule: @CRules[655]),
  (FStart: 1980; FEnd: 1980; FRule: @CRules[169]),
  (FStart: 1991; FEnd: 1993; FRule: @CRules[171]),
  (FStart: 1991; FEnd: 1993; FRule: @CRules[134])
@@ -2526,108 +2530,108 @@ var
 
  { Date-bound rules for Neth family }
  CFamily_82_Arr: array[0 .. 19] of TYearBoundRule = (
- (FStart: 1916; FEnd: 1916; FRule: @CRules[659]),
  (FStart: 1916; FEnd: 1916; FRule: @CRules[660]),
- (FStart: 1917; FEnd: 1917; FRule: @CRules[661]),
+ (FStart: 1916; FEnd: 1916; FRule: @CRules[661]),
  (FStart: 1917; FEnd: 1917; FRule: @CRules[662]),
- (FStart: 1918; FEnd: 1921; FRule: @CRules[663]),
+ (FStart: 1917; FEnd: 1917; FRule: @CRules[663]),
  (FStart: 1918; FEnd: 1921; FRule: @CRules[664]),
- (FStart: 1922; FEnd: 1922; FRule: @CRules[665]),
- (FStart: 1922; FEnd: 1936; FRule: @CRules[666]),
- (FStart: 1923; FEnd: 1923; FRule: @CRules[667]),
- (FStart: 1924; FEnd: 1924; FRule: @CRules[665]),
- (FStart: 1925; FEnd: 1925; FRule: @CRules[667]),
- (FStart: 1926; FEnd: 1931; FRule: @CRules[668]),
- (FStart: 1932; FEnd: 1932; FRule: @CRules[669]),
- (FStart: 1933; FEnd: 1936; FRule: @CRules[668]),
- (FStart: 1937; FEnd: 1937; FRule: @CRules[669]),
+ (FStart: 1918; FEnd: 1921; FRule: @CRules[665]),
+ (FStart: 1922; FEnd: 1922; FRule: @CRules[666]),
+ (FStart: 1922; FEnd: 1936; FRule: @CRules[667]),
+ (FStart: 1923; FEnd: 1923; FRule: @CRules[668]),
+ (FStart: 1924; FEnd: 1924; FRule: @CRules[666]),
+ (FStart: 1925; FEnd: 1925; FRule: @CRules[668]),
+ (FStart: 1926; FEnd: 1931; FRule: @CRules[669]),
+ (FStart: 1932; FEnd: 1932; FRule: @CRules[670]),
+ (FStart: 1933; FEnd: 1936; FRule: @CRules[669]),
+ (FStart: 1937; FEnd: 1937; FRule: @CRules[670]),
  (FStart: 1937; FEnd: 1937; FRule: @CRules[318]),
- (FStart: 1937; FEnd: 1939; FRule: @CRules[528]),
- (FStart: 1938; FEnd: 1939; FRule: @CRules[670]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[541]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[496])
+ (FStart: 1937; FEnd: 1939; FRule: @CRules[529]),
+ (FStart: 1938; FEnd: 1939; FRule: @CRules[671]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[542]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[497])
  );
 
  { Date-bound rules for Norway family }
  CFamily_83_Arr: array[0 .. 6] of TYearBoundRule = (
- (FStart: 1916; FEnd: 1916; FRule: @CRules[671]),
+ (FStart: 1916; FEnd: 1916; FRule: @CRules[672]),
  (FStart: 1916; FEnd: 1916; FRule: @CRules[309]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[541]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[362]),
- (FStart: 1959; FEnd: 1964; FRule: @CRules[672]),
- (FStart: 1959; FEnd: 1965; FRule: @CRules[658]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[542]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[363]),
+ (FStart: 1959; FEnd: 1964; FRule: @CRules[673]),
+ (FStart: 1959; FEnd: 1965; FRule: @CRules[659]),
  (FStart: 1965; FEnd: 1965; FRule: @CRules[130])
  );
 
  { Date-bound rules for Poland family }
  CFamily_84_Arr: array[0 .. 19] of TYearBoundRule = (
- (FStart: 1918; FEnd: 1919; FRule: @CRules[496]),
- (FStart: 1919; FEnd: 1919; FRule: @CRules[673]),
- (FStart: 1944; FEnd: 1944; FRule: @CRules[532]),
+ (FStart: 1918; FEnd: 1919; FRule: @CRules[497]),
+ (FStart: 1919; FEnd: 1919; FRule: @CRules[674]),
+ (FStart: 1944; FEnd: 1944; FRule: @CRules[533]),
  (FStart: 1944; FEnd: 1944; FRule: @CRules[131]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[674]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[675]),
  (FStart: 1945; FEnd: 1945; FRule: @CRules[28]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[675]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[543]),
- (FStart: 1947; FEnd: 1947; FRule: @CRules[554]),
- (FStart: 1947; FEnd: 1949; FRule: @CRules[360]),
- (FStart: 1948; FEnd: 1948; FRule: @CRules[518]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[676]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[544]),
+ (FStart: 1947; FEnd: 1947; FRule: @CRules[555]),
+ (FStart: 1947; FEnd: 1949; FRule: @CRules[361]),
+ (FStart: 1948; FEnd: 1948; FRule: @CRules[519]),
  (FStart: 1949; FEnd: 1949; FRule: @CRules[106]),
- (FStart: 1957; FEnd: 1957; FRule: @CRules[676]),
+ (FStart: 1957; FEnd: 1957; FRule: @CRules[677]),
  (FStart: 1957; FEnd: 1958; FRule: @CRules[169]),
- (FStart: 1958; FEnd: 1958; FRule: @CRules[677]),
- (FStart: 1959; FEnd: 1959; FRule: @CRules[678]),
- (FStart: 1959; FEnd: 1961; FRule: @CRules[679]),
- (FStart: 1960; FEnd: 1960; FRule: @CRules[680]),
- (FStart: 1961; FEnd: 1964; FRule: @CRules[681]),
+ (FStart: 1958; FEnd: 1958; FRule: @CRules[678]),
+ (FStart: 1959; FEnd: 1959; FRule: @CRules[679]),
+ (FStart: 1959; FEnd: 1961; FRule: @CRules[680]),
+ (FStart: 1960; FEnd: 1960; FRule: @CRules[681]),
+ (FStart: 1961; FEnd: 1964; FRule: @CRules[682]),
  (FStart: 1962; FEnd: 1964; FRule: @CRules[169])
  );
 
  { Date-bound rules for Port family }
  CFamily_85_Arr: array[0 .. 49] of TYearBoundRule = (
- (FStart: 1916; FEnd: 1916; FRule: @CRules[682]),
  (FStart: 1916; FEnd: 1916; FRule: @CRules[683]),
- (FStart: 1917; FEnd: 1917; FRule: @CRules[684]),
- (FStart: 1917; FEnd: 1921; FRule: @CRules[685]),
+ (FStart: 1916; FEnd: 1916; FRule: @CRules[684]),
+ (FStart: 1917; FEnd: 1917; FRule: @CRules[685]),
+ (FStart: 1917; FEnd: 1921; FRule: @CRules[686]),
  (FStart: 1918; FEnd: 1918; FRule: @CRules[4]),
- (FStart: 1919; FEnd: 1919; FRule: @CRules[684]),
- (FStart: 1920; FEnd: 1920; FRule: @CRules[686]),
- (FStart: 1921; FEnd: 1921; FRule: @CRules[684]),
- (FStart: 1924; FEnd: 1924; FRule: @CRules[687]),
- (FStart: 1924; FEnd: 1924; FRule: @CRules[685]),
- (FStart: 1926; FEnd: 1926; FRule: @CRules[525]),
- (FStart: 1926; FEnd: 1929; FRule: @CRules[519]),
- (FStart: 1927; FEnd: 1927; FRule: @CRules[526]),
- (FStart: 1928; FEnd: 1928; FRule: @CRules[527]),
- (FStart: 1929; FEnd: 1929; FRule: @CRules[564]),
- (FStart: 1931; FEnd: 1931; FRule: @CRules[566]),
- (FStart: 1931; FEnd: 1932; FRule: @CRules[519]),
- (FStart: 1932; FEnd: 1932; FRule: @CRules[567]),
- (FStart: 1934; FEnd: 1934; FRule: @CRules[568]),
- (FStart: 1934; FEnd: 1938; FRule: @CRules[519]),
- (FStart: 1935; FEnd: 1935; FRule: @CRules[569]),
- (FStart: 1936; FEnd: 1936; FRule: @CRules[566]),
- (FStart: 1937; FEnd: 1937; FRule: @CRules[570]),
- (FStart: 1938; FEnd: 1938; FRule: @CRules[571]),
+ (FStart: 1919; FEnd: 1919; FRule: @CRules[685]),
+ (FStart: 1920; FEnd: 1920; FRule: @CRules[687]),
+ (FStart: 1921; FEnd: 1921; FRule: @CRules[685]),
+ (FStart: 1924; FEnd: 1924; FRule: @CRules[688]),
+ (FStart: 1924; FEnd: 1924; FRule: @CRules[686]),
+ (FStart: 1926; FEnd: 1926; FRule: @CRules[526]),
+ (FStart: 1926; FEnd: 1929; FRule: @CRules[520]),
+ (FStart: 1927; FEnd: 1927; FRule: @CRules[527]),
+ (FStart: 1928; FEnd: 1928; FRule: @CRules[528]),
+ (FStart: 1929; FEnd: 1929; FRule: @CRules[565]),
+ (FStart: 1931; FEnd: 1931; FRule: @CRules[567]),
+ (FStart: 1931; FEnd: 1932; FRule: @CRules[520]),
+ (FStart: 1932; FEnd: 1932; FRule: @CRules[568]),
+ (FStart: 1934; FEnd: 1934; FRule: @CRules[569]),
+ (FStart: 1934; FEnd: 1938; FRule: @CRules[520]),
+ (FStart: 1935; FEnd: 1935; FRule: @CRules[570]),
+ (FStart: 1936; FEnd: 1936; FRule: @CRules[567]),
+ (FStart: 1937; FEnd: 1937; FRule: @CRules[571]),
+ (FStart: 1938; FEnd: 1938; FRule: @CRules[572]),
  (FStart: 1939; FEnd: 1939; FRule: @CRules[122]),
  (FStart: 1939; FEnd: 1939; FRule: @CRules[123]),
- (FStart: 1940; FEnd: 1940; FRule: @CRules[688]),
- (FStart: 1940; FEnd: 1941; FRule: @CRules[689]),
- (FStart: 1941; FEnd: 1941; FRule: @CRules[654]),
- (FStart: 1942; FEnd: 1945; FRule: @CRules[690]),
- (FStart: 1942; FEnd: 1942; FRule: @CRules[691]),
+ (FStart: 1940; FEnd: 1940; FRule: @CRules[689]),
+ (FStart: 1940; FEnd: 1941; FRule: @CRules[690]),
+ (FStart: 1941; FEnd: 1941; FRule: @CRules[655]),
+ (FStart: 1942; FEnd: 1945; FRule: @CRules[691]),
  (FStart: 1942; FEnd: 1942; FRule: @CRules[692]),
- (FStart: 1942; FEnd: 1945; FRule: @CRules[693]),
- (FStart: 1943; FEnd: 1943; FRule: @CRules[694]),
- (FStart: 1943; FEnd: 1945; FRule: @CRules[695]),
- (FStart: 1944; FEnd: 1945; FRule: @CRules[696]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[545]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[519]),
- (FStart: 1947; FEnd: 1949; FRule: @CRules[497]),
- (FStart: 1947; FEnd: 1949; FRule: @CRules[360]),
- (FStart: 1951; FEnd: 1965; FRule: @CRules[497]),
- (FStart: 1951; FEnd: 1965; FRule: @CRules[360]),
- (FStart: 1977; FEnd: 1977; FRule: @CRules[697]),
+ (FStart: 1942; FEnd: 1942; FRule: @CRules[693]),
+ (FStart: 1942; FEnd: 1945; FRule: @CRules[694]),
+ (FStart: 1943; FEnd: 1943; FRule: @CRules[695]),
+ (FStart: 1943; FEnd: 1945; FRule: @CRules[696]),
+ (FStart: 1944; FEnd: 1945; FRule: @CRules[697]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[546]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[520]),
+ (FStart: 1947; FEnd: 1949; FRule: @CRules[498]),
+ (FStart: 1947; FEnd: 1949; FRule: @CRules[361]),
+ (FStart: 1951; FEnd: 1965; FRule: @CRules[498]),
+ (FStart: 1951; FEnd: 1965; FRule: @CRules[361]),
+ (FStart: 1977; FEnd: 1977; FRule: @CRules[698]),
  (FStart: 1977; FEnd: 1977; FRule: @CRules[223]),
  (FStart: 1978; FEnd: 1979; FRule: @CRules[222]),
  (FStart: 1978; FEnd: 1978; FRule: @CRules[23]),
@@ -2639,37 +2643,37 @@ var
 
  { Date-bound rules for Spain family }
  CFamily_86_Arr: array[0 .. 30] of TYearBoundRule = (
- (FStart: 1917; FEnd: 1917; FRule: @CRules[701]),
- (FStart: 1917; FEnd: 1919; FRule: @CRules[702]),
+ (FStart: 1917; FEnd: 1917; FRule: @CRules[702]),
+ (FStart: 1917; FEnd: 1919; FRule: @CRules[703]),
  (FStart: 1918; FEnd: 1918; FRule: @CRules[122]),
- (FStart: 1919; FEnd: 1919; FRule: @CRules[654]),
- (FStart: 1924; FEnd: 1924; FRule: @CRules[687]),
- (FStart: 1924; FEnd: 1924; FRule: @CRules[703]),
- (FStart: 1926; FEnd: 1926; FRule: @CRules[525]),
- (FStart: 1926; FEnd: 1929; FRule: @CRules[519]),
- (FStart: 1927; FEnd: 1927; FRule: @CRules[526]),
- (FStart: 1928; FEnd: 1928; FRule: @CRules[527]),
- (FStart: 1929; FEnd: 1929; FRule: @CRules[564]),
- (FStart: 1937; FEnd: 1937; FRule: @CRules[704]),
- (FStart: 1937; FEnd: 1939; FRule: @CRules[519]),
- (FStart: 1938; FEnd: 1938; FRule: @CRules[705]),
+ (FStart: 1919; FEnd: 1919; FRule: @CRules[655]),
+ (FStart: 1924; FEnd: 1924; FRule: @CRules[688]),
+ (FStart: 1924; FEnd: 1924; FRule: @CRules[704]),
+ (FStart: 1926; FEnd: 1926; FRule: @CRules[526]),
+ (FStart: 1926; FEnd: 1929; FRule: @CRules[520]),
+ (FStart: 1927; FEnd: 1927; FRule: @CRules[527]),
+ (FStart: 1928; FEnd: 1928; FRule: @CRules[528]),
+ (FStart: 1929; FEnd: 1929; FRule: @CRules[565]),
+ (FStart: 1937; FEnd: 1937; FRule: @CRules[705]),
+ (FStart: 1937; FEnd: 1939; FRule: @CRules[520]),
+ (FStart: 1938; FEnd: 1938; FRule: @CRules[706]),
  (FStart: 1939; FEnd: 1939; FRule: @CRules[122]),
- (FStart: 1940; FEnd: 1940; FRule: @CRules[706]),
- (FStart: 1942; FEnd: 1942; FRule: @CRules[707]),
+ (FStart: 1940; FEnd: 1940; FRule: @CRules[707]),
  (FStart: 1942; FEnd: 1942; FRule: @CRules[708]),
- (FStart: 1943; FEnd: 1946; FRule: @CRules[709]),
- (FStart: 1943; FEnd: 1943; FRule: @CRules[710]),
- (FStart: 1944; FEnd: 1944; FRule: @CRules[711]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[712]),
+ (FStart: 1942; FEnd: 1942; FRule: @CRules[709]),
+ (FStart: 1943; FEnd: 1946; FRule: @CRules[710]),
+ (FStart: 1943; FEnd: 1943; FRule: @CRules[711]),
+ (FStart: 1944; FEnd: 1944; FRule: @CRules[712]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[713]),
  (FStart: 1946; FEnd: 1946; FRule: @CRules[309]),
- (FStart: 1949; FEnd: 1949; FRule: @CRules[491]),
+ (FStart: 1949; FEnd: 1949; FRule: @CRules[492]),
  (FStart: 1949; FEnd: 1949; FRule: @CRules[136]),
- (FStart: 1974; FEnd: 1975; FRule: @CRules[713]),
- (FStart: 1974; FEnd: 1975; FRule: @CRules[679]),
- (FStart: 1976; FEnd: 1976; FRule: @CRules[714]),
+ (FStart: 1974; FEnd: 1975; FRule: @CRules[714]),
+ (FStart: 1974; FEnd: 1975; FRule: @CRules[680]),
+ (FStart: 1976; FEnd: 1976; FRule: @CRules[715]),
  (FStart: 1976; FEnd: 1977; FRule: @CRules[169]),
- (FStart: 1977; FEnd: 1978; FRule: @CRules[567]),
- (FStart: 1978; FEnd: 1978; FRule: @CRules[344])
+ (FStart: 1977; FEnd: 1978; FRule: @CRules[568]),
+ (FStart: 1978; FEnd: 1978; FRule: @CRules[345])
  );
 
  { Date-bound rules for SpainAfrica family }
@@ -2687,60 +2691,60 @@ var
 
  { Date-bound rules for Swiss family }
  CFamily_88_Arr: array[0 .. 1] of TYearBoundRule = (
- (FStart: 1941; FEnd: 1942; FRule: @CRules[715]),
- (FStart: 1941; FEnd: 1942; FRule: @CRules[716])
+ (FStart: 1941; FEnd: 1942; FRule: @CRules[716]),
+ (FStart: 1941; FEnd: 1942; FRule: @CRules[717])
  );
 
  { Date-bound rules for Turkey family }
  CFamily_89_Arr: array[0 .. 53] of TYearBoundRule = (
  (FStart: 1916; FEnd: 1916; FRule: @CRules[31]),
  (FStart: 1916; FEnd: 1916; FRule: @CRules[23]),
- (FStart: 1920; FEnd: 1920; FRule: @CRules[330]),
  (FStart: 1920; FEnd: 1920; FRule: @CRules[331]),
+ (FStart: 1920; FEnd: 1920; FRule: @CRules[332]),
  (FStart: 1921; FEnd: 1921; FRule: @CRules[78]),
  (FStart: 1921; FEnd: 1921; FRule: @CRules[54]),
  (FStart: 1922; FEnd: 1922; FRule: @CRules[135]),
  (FStart: 1922; FEnd: 1922; FRule: @CRules[132]),
- (FStart: 1924; FEnd: 1924; FRule: @CRules[717]),
+ (FStart: 1924; FEnd: 1924; FRule: @CRules[718]),
  (FStart: 1924; FEnd: 1925; FRule: @CRules[23]),
  (FStart: 1925; FEnd: 1925; FRule: @CRules[31]),
- (FStart: 1940; FEnd: 1940; FRule: @CRules[718]),
- (FStart: 1940; FEnd: 1940; FRule: @CRules[640]),
  (FStart: 1940; FEnd: 1940; FRule: @CRules[719]),
- (FStart: 1941; FEnd: 1941; FRule: @CRules[358]),
+ (FStart: 1940; FEnd: 1940; FRule: @CRules[641]),
+ (FStart: 1940; FEnd: 1940; FRule: @CRules[720]),
+ (FStart: 1941; FEnd: 1941; FRule: @CRules[359]),
  (FStart: 1942; FEnd: 1942; FRule: @CRules[26]),
  (FStart: 1942; FEnd: 1942; FRule: @CRules[28]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[720]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[721]),
  (FStart: 1945; FEnd: 1945; FRule: @CRules[132]),
  (FStart: 1946; FEnd: 1946; FRule: @CRules[73]),
  (FStart: 1946; FEnd: 1946; FRule: @CRules[23]),
- (FStart: 1947; FEnd: 1948; FRule: @CRules[721]),
- (FStart: 1947; FEnd: 1950; FRule: @CRules[722]),
+ (FStart: 1947; FEnd: 1948; FRule: @CRules[722]),
+ (FStart: 1947; FEnd: 1950; FRule: @CRules[723]),
  (FStart: 1949; FEnd: 1949; FRule: @CRules[316]),
- (FStart: 1950; FEnd: 1950; FRule: @CRules[723]),
- (FStart: 1951; FEnd: 1951; FRule: @CRules[332]),
+ (FStart: 1950; FEnd: 1950; FRule: @CRules[724]),
+ (FStart: 1951; FEnd: 1951; FRule: @CRules[333]),
  (FStart: 1951; FEnd: 1951; FRule: @CRules[132]),
  (FStart: 1962; FEnd: 1962; FRule: @CRules[22]),
  (FStart: 1962; FEnd: 1962; FRule: @CRules[132]),
  (FStart: 1964; FEnd: 1964; FRule: @CRules[220]),
  (FStart: 1964; FEnd: 1964; FRule: @CRules[23]),
- (FStart: 1970; FEnd: 1972; FRule: @CRules[724]),
- (FStart: 1970; FEnd: 1972; FRule: @CRules[722]),
- (FStart: 1973; FEnd: 1973; FRule: @CRules[725]),
+ (FStart: 1970; FEnd: 1972; FRule: @CRules[725]),
+ (FStart: 1970; FEnd: 1972; FRule: @CRules[723]),
  (FStart: 1973; FEnd: 1973; FRule: @CRules[726]),
+ (FStart: 1973; FEnd: 1973; FRule: @CRules[727]),
  (FStart: 1974; FEnd: 1974; FRule: @CRules[107]),
- (FStart: 1974; FEnd: 1974; FRule: @CRules[727]),
- (FStart: 1975; FEnd: 1975; FRule: @CRules[591]),
+ (FStart: 1974; FEnd: 1974; FRule: @CRules[728]),
+ (FStart: 1975; FEnd: 1975; FRule: @CRules[592]),
  (FStart: 1975; FEnd: 1976; FRule: @CRules[172]),
  (FStart: 1976; FEnd: 1976; FRule: @CRules[73]),
  (FStart: 1977; FEnd: 1978; FRule: @CRules[222]),
- (FStart: 1977; FEnd: 1977; FRule: @CRules[334]),
- (FStart: 1979; FEnd: 1980; FRule: @CRules[728]),
- (FStart: 1979; FEnd: 1982; FRule: @CRules[729]),
- (FStart: 1981; FEnd: 1982; FRule: @CRules[730]),
- (FStart: 1983; FEnd: 1983; FRule: @CRules[731]),
+ (FStart: 1977; FEnd: 1977; FRule: @CRules[335]),
+ (FStart: 1979; FEnd: 1980; FRule: @CRules[729]),
+ (FStart: 1979; FEnd: 1982; FRule: @CRules[730]),
+ (FStart: 1981; FEnd: 1982; FRule: @CRules[731]),
+ (FStart: 1983; FEnd: 1983; FRule: @CRules[732]),
  (FStart: 1983; FEnd: 1983; FRule: @CRules[224]),
- (FStart: 1985; FEnd: 1985; FRule: @CRules[732]),
+ (FStart: 1985; FEnd: 1985; FRule: @CRules[733]),
  (FStart: 1985; FEnd: 1985; FRule: @CRules[72]),
  (FStart: 1986; FEnd: 1990; FRule: @CRules[86]),
  (FStart: 1986; FEnd: 1990; FRule: @CRules[173]),
@@ -2751,329 +2755,329 @@ var
 
  { Date-bound rules for US family }
  CFamily_90_Arr: array[0 .. 12] of TYearBoundRule = (
- (FStart: 1918; FEnd: 1919; FRule: @CRules[558]),
+ (FStart: 1918; FEnd: 1919; FRule: @CRules[559]),
  (FStart: 1918; FEnd: 1919; FRule: @CRules[304]),
- (FStart: 1942; FEnd: 1942; FRule: @CRules[733]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[734]),
+ (FStart: 1942; FEnd: 1942; FRule: @CRules[734]),
  (FStart: 1945; FEnd: 1945; FRule: @CRules[735]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[736]),
  (FStart: 1967; FEnd: 2006; FRule: @CRules[304]),
- (FStart: 1967; FEnd: 1973; FRule: @CRules[736]),
- (FStart: 1974; FEnd: 1974; FRule: @CRules[737]),
- (FStart: 1975; FEnd: 1975; FRule: @CRules[738]),
- (FStart: 1976; FEnd: 1986; FRule: @CRules[736]),
+ (FStart: 1967; FEnd: 1973; FRule: @CRules[737]),
+ (FStart: 1974; FEnd: 1974; FRule: @CRules[738]),
+ (FStart: 1975; FEnd: 1975; FRule: @CRules[739]),
+ (FStart: 1976; FEnd: 1986; FRule: @CRules[737]),
  (FStart: 1987; FEnd: 2006; FRule: @CRules[307]),
- (FStart: 2007; FEnd: 9999; FRule: @CRules[560]),
- (FStart: 2007; FEnd: 9999; FRule: @CRules[561])
+ (FStart: 2007; FEnd: 9999; FRule: @CRules[561]),
+ (FStart: 2007; FEnd: 9999; FRule: @CRules[562])
  );
 
  { Date-bound rules for NYC family }
  CFamily_91_Arr: array[0 .. 4] of TYearBoundRule = (
- (FStart: 1920; FEnd: 1920; FRule: @CRules[558]),
+ (FStart: 1920; FEnd: 1920; FRule: @CRules[559]),
  (FStart: 1920; FEnd: 1920; FRule: @CRules[304]),
- (FStart: 1921; FEnd: 1966; FRule: @CRules[736]),
- (FStart: 1921; FEnd: 1954; FRule: @CRules[559]),
+ (FStart: 1921; FEnd: 1966; FRule: @CRules[737]),
+ (FStart: 1921; FEnd: 1954; FRule: @CRules[560]),
  (FStart: 1955; FEnd: 1966; FRule: @CRules[304])
  );
 
  { Date-bound rules for Chicago family }
  CFamily_92_Arr: array[0 .. 5] of TYearBoundRule = (
- (FStart: 1920; FEnd: 1920; FRule: @CRules[739]),
+ (FStart: 1920; FEnd: 1920; FRule: @CRules[740]),
  (FStart: 1920; FEnd: 1921; FRule: @CRules[304]),
- (FStart: 1921; FEnd: 1921; FRule: @CRules[558]),
- (FStart: 1922; FEnd: 1966; FRule: @CRules[736]),
- (FStart: 1922; FEnd: 1954; FRule: @CRules[559]),
+ (FStart: 1921; FEnd: 1921; FRule: @CRules[559]),
+ (FStart: 1922; FEnd: 1966; FRule: @CRules[737]),
+ (FStart: 1922; FEnd: 1954; FRule: @CRules[560]),
  (FStart: 1955; FEnd: 1966; FRule: @CRules[304])
  );
 
  { Date-bound rules for Denver family }
  CFamily_93_Arr: array[0 .. 4] of TYearBoundRule = (
- (FStart: 1920; FEnd: 1921; FRule: @CRules[558]),
+ (FStart: 1920; FEnd: 1921; FRule: @CRules[559]),
  (FStart: 1920; FEnd: 1920; FRule: @CRules[304]),
- (FStart: 1921; FEnd: 1921; FRule: @CRules[740]),
- (FStart: 1965; FEnd: 1966; FRule: @CRules[736]),
+ (FStart: 1921; FEnd: 1921; FRule: @CRules[741]),
+ (FStart: 1965; FEnd: 1966; FRule: @CRules[737]),
  (FStart: 1965; FEnd: 1966; FRule: @CRules[304])
  );
 
  { Date-bound rules for CA family }
  CFamily_94_Arr: array[0 .. 4] of TYearBoundRule = (
- (FStart: 1948; FEnd: 1948; FRule: @CRules[741]),
- (FStart: 1949; FEnd: 1949; FRule: @CRules[742]),
- (FStart: 1950; FEnd: 1966; FRule: @CRules[736]),
- (FStart: 1950; FEnd: 1961; FRule: @CRules[559]),
+ (FStart: 1948; FEnd: 1948; FRule: @CRules[742]),
+ (FStart: 1949; FEnd: 1949; FRule: @CRules[743]),
+ (FStart: 1950; FEnd: 1966; FRule: @CRules[737]),
+ (FStart: 1950; FEnd: 1961; FRule: @CRules[560]),
  (FStart: 1962; FEnd: 1966; FRule: @CRules[304])
  );
 
  { Date-bound rules for Indianapolis family }
  CFamily_95_Arr: array[0 .. 2] of TYearBoundRule = (
- (FStart: 1941; FEnd: 1941; FRule: @CRules[743]),
- (FStart: 1941; FEnd: 1954; FRule: @CRules[559]),
- (FStart: 1946; FEnd: 1954; FRule: @CRules[736])
+ (FStart: 1941; FEnd: 1941; FRule: @CRules[744]),
+ (FStart: 1941; FEnd: 1954; FRule: @CRules[560]),
+ (FStart: 1946; FEnd: 1954; FRule: @CRules[737])
  );
 
  { Date-bound rules for Marengo family }
  CFamily_96_Arr: array[0 .. 3] of TYearBoundRule = (
- (FStart: 1951; FEnd: 1951; FRule: @CRules[736]),
- (FStart: 1951; FEnd: 1951; FRule: @CRules[559]),
- (FStart: 1954; FEnd: 1960; FRule: @CRules[736]),
- (FStart: 1954; FEnd: 1960; FRule: @CRules[559])
+ (FStart: 1951; FEnd: 1951; FRule: @CRules[737]),
+ (FStart: 1951; FEnd: 1951; FRule: @CRules[560]),
+ (FStart: 1954; FEnd: 1960; FRule: @CRules[737]),
+ (FStart: 1954; FEnd: 1960; FRule: @CRules[560])
  );
 
  { Date-bound rules for Vincennes family }
  CFamily_97_Arr: array[0 .. 8] of TYearBoundRule = (
- (FStart: 1946; FEnd: 1946; FRule: @CRules[736]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[559]),
- (FStart: 1953; FEnd: 1954; FRule: @CRules[736]),
- (FStart: 1953; FEnd: 1959; FRule: @CRules[559]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[737]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[560]),
+ (FStart: 1953; FEnd: 1954; FRule: @CRules[737]),
+ (FStart: 1953; FEnd: 1959; FRule: @CRules[560]),
  (FStart: 1955; FEnd: 1955; FRule: @CRules[204]),
- (FStart: 1956; FEnd: 1963; FRule: @CRules[736]),
+ (FStart: 1956; FEnd: 1963; FRule: @CRules[737]),
  (FStart: 1960; FEnd: 1960; FRule: @CRules[304]),
- (FStart: 1961; FEnd: 1961; FRule: @CRules[559]),
+ (FStart: 1961; FEnd: 1961; FRule: @CRules[560]),
  (FStart: 1962; FEnd: 1963; FRule: @CRules[304])
  );
 
  { Date-bound rules for Perry family }
  CFamily_98_Arr: array[0 .. 8] of TYearBoundRule = (
- (FStart: 1946; FEnd: 1946; FRule: @CRules[736]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[559]),
- (FStart: 1953; FEnd: 1954; FRule: @CRules[736]),
- (FStart: 1953; FEnd: 1959; FRule: @CRules[559]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[737]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[560]),
+ (FStart: 1953; FEnd: 1954; FRule: @CRules[737]),
+ (FStart: 1953; FEnd: 1959; FRule: @CRules[560]),
  (FStart: 1955; FEnd: 1955; FRule: @CRules[204]),
- (FStart: 1956; FEnd: 1963; FRule: @CRules[736]),
+ (FStart: 1956; FEnd: 1963; FRule: @CRules[737]),
  (FStart: 1960; FEnd: 1960; FRule: @CRules[304]),
- (FStart: 1961; FEnd: 1961; FRule: @CRules[559]),
+ (FStart: 1961; FEnd: 1961; FRule: @CRules[560]),
  (FStart: 1962; FEnd: 1963; FRule: @CRules[304])
  );
 
  { Date-bound rules for Pike family }
  CFamily_99_Arr: array[0 .. 3] of TYearBoundRule = (
  (FStart: 1955; FEnd: 1955; FRule: @CRules[204]),
- (FStart: 1955; FEnd: 1960; FRule: @CRules[559]),
- (FStart: 1956; FEnd: 1964; FRule: @CRules[736]),
+ (FStart: 1955; FEnd: 1960; FRule: @CRules[560]),
+ (FStart: 1956; FEnd: 1964; FRule: @CRules[737]),
  (FStart: 1961; FEnd: 1964; FRule: @CRules[304])
  );
 
  { Date-bound rules for Starke family }
  CFamily_100_Arr: array[0 .. 4] of TYearBoundRule = (
- (FStart: 1947; FEnd: 1961; FRule: @CRules[736]),
- (FStart: 1947; FEnd: 1954; FRule: @CRules[559]),
+ (FStart: 1947; FEnd: 1961; FRule: @CRules[737]),
+ (FStart: 1947; FEnd: 1954; FRule: @CRules[560]),
  (FStart: 1955; FEnd: 1956; FRule: @CRules[304]),
- (FStart: 1957; FEnd: 1958; FRule: @CRules[559]),
+ (FStart: 1957; FEnd: 1958; FRule: @CRules[560]),
  (FStart: 1959; FEnd: 1961; FRule: @CRules[304])
  );
 
  { Date-bound rules for Pulaski family }
  CFamily_101_Arr: array[0 .. 3] of TYearBoundRule = (
- (FStart: 1946; FEnd: 1960; FRule: @CRules[736]),
- (FStart: 1946; FEnd: 1954; FRule: @CRules[559]),
+ (FStart: 1946; FEnd: 1960; FRule: @CRules[737]),
+ (FStart: 1946; FEnd: 1954; FRule: @CRules[560]),
  (FStart: 1955; FEnd: 1956; FRule: @CRules[304]),
- (FStart: 1957; FEnd: 1960; FRule: @CRules[559])
+ (FStart: 1957; FEnd: 1960; FRule: @CRules[560])
  );
 
  { Date-bound rules for Louisville family }
  CFamily_102_Arr: array[0 .. 6] of TYearBoundRule = (
- (FStart: 1921; FEnd: 1921; FRule: @CRules[744]),
  (FStart: 1921; FEnd: 1921; FRule: @CRules[745]),
- (FStart: 1941; FEnd: 1961; FRule: @CRules[736]),
- (FStart: 1941; FEnd: 1941; FRule: @CRules[559]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[746]),
- (FStart: 1950; FEnd: 1955; FRule: @CRules[559]),
+ (FStart: 1921; FEnd: 1921; FRule: @CRules[746]),
+ (FStart: 1941; FEnd: 1961; FRule: @CRules[737]),
+ (FStart: 1941; FEnd: 1941; FRule: @CRules[560]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[747]),
+ (FStart: 1950; FEnd: 1955; FRule: @CRules[560]),
  (FStart: 1956; FEnd: 1960; FRule: @CRules[304])
  );
 
  { Date-bound rules for Detroit family }
  CFamily_103_Arr: array[0 .. 3] of TYearBoundRule = (
- (FStart: 1948; FEnd: 1948; FRule: @CRules[736]),
- (FStart: 1948; FEnd: 1948; FRule: @CRules[559]),
- (FStart: 1967; FEnd: 1967; FRule: @CRules[747]),
+ (FStart: 1948; FEnd: 1948; FRule: @CRules[737]),
+ (FStart: 1948; FEnd: 1948; FRule: @CRules[560]),
+ (FStart: 1967; FEnd: 1967; FRule: @CRules[748]),
  (FStart: 1967; FEnd: 1967; FRule: @CRules[304])
  );
 
  { Date-bound rules for Menominee family }
  CFamily_104_Arr: array[0 .. 3] of TYearBoundRule = (
- (FStart: 1946; FEnd: 1946; FRule: @CRules[736]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[559]),
- (FStart: 1966; FEnd: 1966; FRule: @CRules[736]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[737]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[560]),
+ (FStart: 1966; FEnd: 1966; FRule: @CRules[737]),
  (FStart: 1966; FEnd: 1966; FRule: @CRules[304])
  );
 
  { Date-bound rules for Canada family }
  CFamily_105_Arr: array[0 .. 9] of TYearBoundRule = (
  (FStart: 1918; FEnd: 1918; FRule: @CRules[284]),
- (FStart: 1918; FEnd: 1918; FRule: @CRules[748]),
- (FStart: 1942; FEnd: 1942; FRule: @CRules[733]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[734]),
+ (FStart: 1918; FEnd: 1918; FRule: @CRules[749]),
+ (FStart: 1942; FEnd: 1942; FRule: @CRules[734]),
  (FStart: 1945; FEnd: 1945; FRule: @CRules[735]),
- (FStart: 1974; FEnd: 1986; FRule: @CRules[736]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[736]),
+ (FStart: 1974; FEnd: 1986; FRule: @CRules[737]),
  (FStart: 1974; FEnd: 2006; FRule: @CRules[304]),
  (FStart: 1987; FEnd: 2006; FRule: @CRules[307]),
- (FStart: 2007; FEnd: 9999; FRule: @CRules[560]),
- (FStart: 2007; FEnd: 9999; FRule: @CRules[561])
+ (FStart: 2007; FEnd: 9999; FRule: @CRules[561]),
+ (FStart: 2007; FEnd: 9999; FRule: @CRules[562])
  );
 
  { Date-bound rules for StJohns family }
  CFamily_106_Arr: array[0 .. 18] of TYearBoundRule = (
- (FStart: 1917; FEnd: 1917; FRule: @CRules[749]),
  (FStart: 1917; FEnd: 1917; FRule: @CRules[750]),
- (FStart: 1919; FEnd: 1919; FRule: @CRules[751]),
+ (FStart: 1917; FEnd: 1917; FRule: @CRules[751]),
  (FStart: 1919; FEnd: 1919; FRule: @CRules[752]),
- (FStart: 1920; FEnd: 1935; FRule: @CRules[753]),
+ (FStart: 1919; FEnd: 1919; FRule: @CRules[753]),
  (FStart: 1920; FEnd: 1935; FRule: @CRules[754]),
- (FStart: 1936; FEnd: 1941; FRule: @CRules[755]),
+ (FStart: 1920; FEnd: 1935; FRule: @CRules[755]),
  (FStart: 1936; FEnd: 1941; FRule: @CRules[756]),
- (FStart: 1946; FEnd: 1950; FRule: @CRules[757]),
+ (FStart: 1936; FEnd: 1941; FRule: @CRules[757]),
  (FStart: 1946; FEnd: 1950; FRule: @CRules[758]),
- (FStart: 1951; FEnd: 1986; FRule: @CRules[736]),
- (FStart: 1951; FEnd: 1959; FRule: @CRules[559]),
+ (FStart: 1946; FEnd: 1950; FRule: @CRules[759]),
+ (FStart: 1951; FEnd: 1986; FRule: @CRules[737]),
+ (FStart: 1951; FEnd: 1959; FRule: @CRules[560]),
  (FStart: 1960; FEnd: 1986; FRule: @CRules[304]),
- (FStart: 1987; FEnd: 1987; FRule: @CRules[759]),
- (FStart: 1987; FEnd: 2006; FRule: @CRules[760]),
- (FStart: 1988; FEnd: 1988; FRule: @CRules[761]),
- (FStart: 1989; FEnd: 2006; FRule: @CRules[759]),
- (FStart: 2007; FEnd: 2011; FRule: @CRules[762]),
- (FStart: 2007; FEnd: 2010; FRule: @CRules[763])
+ (FStart: 1987; FEnd: 1987; FRule: @CRules[760]),
+ (FStart: 1987; FEnd: 2006; FRule: @CRules[761]),
+ (FStart: 1988; FEnd: 1988; FRule: @CRules[762]),
+ (FStart: 1989; FEnd: 2006; FRule: @CRules[760]),
+ (FStart: 2007; FEnd: 2011; FRule: @CRules[763]),
+ (FStart: 2007; FEnd: 2010; FRule: @CRules[764])
  );
 
  { Date-bound rules for Halifax family }
  CFamily_107_Arr: array[0 .. 40] of TYearBoundRule = (
  (FStart: 1916; FEnd: 1916; FRule: @CRules[207]),
  (FStart: 1916; FEnd: 1916; FRule: @CRules[181]),
- (FStart: 1920; FEnd: 1920; FRule: @CRules[764]),
  (FStart: 1920; FEnd: 1920; FRule: @CRules[765]),
- (FStart: 1921; FEnd: 1921; FRule: @CRules[766]),
+ (FStart: 1920; FEnd: 1920; FRule: @CRules[766]),
+ (FStart: 1921; FEnd: 1921; FRule: @CRules[767]),
  (FStart: 1921; FEnd: 1922; FRule: @CRules[276]),
  (FStart: 1922; FEnd: 1922; FRule: @CRules[268]),
- (FStart: 1923; FEnd: 1925; FRule: @CRules[767]),
- (FStart: 1923; FEnd: 1923; FRule: @CRules[768]),
+ (FStart: 1923; FEnd: 1925; FRule: @CRules[768]),
+ (FStart: 1923; FEnd: 1923; FRule: @CRules[769]),
  (FStart: 1924; FEnd: 1924; FRule: @CRules[261]),
- (FStart: 1925; FEnd: 1925; FRule: @CRules[769]),
- (FStart: 1926; FEnd: 1926; FRule: @CRules[770]),
+ (FStart: 1925; FEnd: 1925; FRule: @CRules[770]),
+ (FStart: 1926; FEnd: 1926; FRule: @CRules[771]),
  (FStart: 1926; FEnd: 1926; FRule: @CRules[265]),
  (FStart: 1927; FEnd: 1927; FRule: @CRules[204]),
- (FStart: 1927; FEnd: 1927; FRule: @CRules[771]),
- (FStart: 1928; FEnd: 1931; FRule: @CRules[328]),
- (FStart: 1928; FEnd: 1928; FRule: @CRules[772]),
+ (FStart: 1927; FEnd: 1927; FRule: @CRules[772]),
+ (FStart: 1928; FEnd: 1931; FRule: @CRules[329]),
+ (FStart: 1928; FEnd: 1928; FRule: @CRules[773]),
  (FStart: 1929; FEnd: 1929; FRule: @CRules[267]),
  (FStart: 1930; FEnd: 1930; FRule: @CRules[261]),
- (FStart: 1931; FEnd: 1932; FRule: @CRules[773]),
+ (FStart: 1931; FEnd: 1932; FRule: @CRules[774]),
  (FStart: 1932; FEnd: 1932; FRule: @CRules[204]),
  (FStart: 1933; FEnd: 1933; FRule: @CRules[268]),
- (FStart: 1933; FEnd: 1933; FRule: @CRules[774]),
- (FStart: 1934; FEnd: 1934; FRule: @CRules[775]),
+ (FStart: 1933; FEnd: 1933; FRule: @CRules[775]),
+ (FStart: 1934; FEnd: 1934; FRule: @CRules[776]),
  (FStart: 1934; FEnd: 1934; FRule: @CRules[279]),
- (FStart: 1935; FEnd: 1935; FRule: @CRules[776]),
+ (FStart: 1935; FEnd: 1935; FRule: @CRules[777]),
  (FStart: 1935; FEnd: 1935; FRule: @CRules[210]),
  (FStart: 1936; FEnd: 1936; FRule: @CRules[208]),
  (FStart: 1936; FEnd: 1936; FRule: @CRules[280]),
- (FStart: 1937; FEnd: 1938; FRule: @CRules[767]),
- (FStart: 1937; FEnd: 1941; FRule: @CRules[773]),
- (FStart: 1939; FEnd: 1939; FRule: @CRules[777]),
- (FStart: 1940; FEnd: 1941; FRule: @CRules[767]),
- (FStart: 1946; FEnd: 1949; FRule: @CRules[736]),
- (FStart: 1946; FEnd: 1949; FRule: @CRules[559]),
- (FStart: 1951; FEnd: 1954; FRule: @CRules[736]),
- (FStart: 1951; FEnd: 1954; FRule: @CRules[559]),
- (FStart: 1956; FEnd: 1959; FRule: @CRules[736]),
- (FStart: 1956; FEnd: 1959; FRule: @CRules[559]),
- (FStart: 1962; FEnd: 1973; FRule: @CRules[736]),
+ (FStart: 1937; FEnd: 1938; FRule: @CRules[768]),
+ (FStart: 1937; FEnd: 1941; FRule: @CRules[774]),
+ (FStart: 1939; FEnd: 1939; FRule: @CRules[778]),
+ (FStart: 1940; FEnd: 1941; FRule: @CRules[768]),
+ (FStart: 1946; FEnd: 1949; FRule: @CRules[737]),
+ (FStart: 1946; FEnd: 1949; FRule: @CRules[560]),
+ (FStart: 1951; FEnd: 1954; FRule: @CRules[737]),
+ (FStart: 1951; FEnd: 1954; FRule: @CRules[560]),
+ (FStart: 1956; FEnd: 1959; FRule: @CRules[737]),
+ (FStart: 1956; FEnd: 1959; FRule: @CRules[560]),
+ (FStart: 1962; FEnd: 1973; FRule: @CRules[737]),
  (FStart: 1962; FEnd: 1973; FRule: @CRules[304])
  );
 
  { Date-bound rules for Moncton family }
  CFamily_108_Arr: array[0 .. 12] of TYearBoundRule = (
- (FStart: 1933; FEnd: 1935; FRule: @CRules[778]),
  (FStart: 1933; FEnd: 1935; FRule: @CRules[779]),
- (FStart: 1936; FEnd: 1938; FRule: @CRules[780]),
+ (FStart: 1933; FEnd: 1935; FRule: @CRules[780]),
  (FStart: 1936; FEnd: 1938; FRule: @CRules[781]),
- (FStart: 1939; FEnd: 1939; FRule: @CRules[782]),
- (FStart: 1939; FEnd: 1941; FRule: @CRules[783]),
- (FStart: 1940; FEnd: 1940; FRule: @CRules[784]),
- (FStart: 1941; FEnd: 1941; FRule: @CRules[785]),
- (FStart: 1946; FEnd: 1972; FRule: @CRules[736]),
- (FStart: 1946; FEnd: 1956; FRule: @CRules[559]),
+ (FStart: 1936; FEnd: 1938; FRule: @CRules[782]),
+ (FStart: 1939; FEnd: 1939; FRule: @CRules[783]),
+ (FStart: 1939; FEnd: 1941; FRule: @CRules[784]),
+ (FStart: 1940; FEnd: 1940; FRule: @CRules[785]),
+ (FStart: 1941; FEnd: 1941; FRule: @CRules[786]),
+ (FStart: 1946; FEnd: 1972; FRule: @CRules[737]),
+ (FStart: 1946; FEnd: 1956; FRule: @CRules[560]),
  (FStart: 1957; FEnd: 1972; FRule: @CRules[304]),
- (FStart: 1993; FEnd: 2006; FRule: @CRules[759]),
- (FStart: 1993; FEnd: 2006; FRule: @CRules[760])
+ (FStart: 1993; FEnd: 2006; FRule: @CRules[760]),
+ (FStart: 1993; FEnd: 2006; FRule: @CRules[761])
  );
 
  { Date-bound rules for Mont family }
  CFamily_109_Arr: array[0 .. 22] of TYearBoundRule = (
- (FStart: 1917; FEnd: 1917; FRule: @CRules[786]),
  (FStart: 1917; FEnd: 1917; FRule: @CRules[787]),
- (FStart: 1919; FEnd: 1919; FRule: @CRules[788]),
+ (FStart: 1917; FEnd: 1917; FRule: @CRules[788]),
  (FStart: 1919; FEnd: 1919; FRule: @CRules[789]),
- (FStart: 1920; FEnd: 1920; FRule: @CRules[790]),
- (FStart: 1920; FEnd: 1922; FRule: @CRules[791]),
- (FStart: 1921; FEnd: 1921; FRule: @CRules[744]),
- (FStart: 1922; FEnd: 1922; FRule: @CRules[792]),
- (FStart: 1924; FEnd: 1924; FRule: @CRules[793]),
- (FStart: 1924; FEnd: 1926; FRule: @CRules[794]),
+ (FStart: 1919; FEnd: 1919; FRule: @CRules[790]),
+ (FStart: 1920; FEnd: 1920; FRule: @CRules[791]),
+ (FStart: 1920; FEnd: 1922; FRule: @CRules[792]),
+ (FStart: 1921; FEnd: 1921; FRule: @CRules[745]),
+ (FStart: 1922; FEnd: 1922; FRule: @CRules[793]),
+ (FStart: 1924; FEnd: 1924; FRule: @CRules[794]),
+ (FStart: 1924; FEnd: 1926; FRule: @CRules[795]),
  (FStart: 1925; FEnd: 1926; FRule: @CRules[305]),
  (FStart: 1927; FEnd: 1927; FRule: @CRules[204]),
- (FStart: 1927; FEnd: 1932; FRule: @CRules[795]),
- (FStart: 1928; FEnd: 1931; FRule: @CRules[796]),
+ (FStart: 1927; FEnd: 1932; FRule: @CRules[796]),
+ (FStart: 1928; FEnd: 1931; FRule: @CRules[797]),
  (FStart: 1932; FEnd: 1932; FRule: @CRules[204]),
- (FStart: 1933; FEnd: 1940; FRule: @CRules[796]),
+ (FStart: 1933; FEnd: 1940; FRule: @CRules[797]),
  (FStart: 1933; FEnd: 1933; FRule: @CRules[181]),
- (FStart: 1934; FEnd: 1939; FRule: @CRules[795]),
- (FStart: 1946; FEnd: 1973; FRule: @CRules[736]),
- (FStart: 1945; FEnd: 1948; FRule: @CRules[559]),
+ (FStart: 1934; FEnd: 1939; FRule: @CRules[796]),
+ (FStart: 1946; FEnd: 1973; FRule: @CRules[737]),
+ (FStart: 1945; FEnd: 1948; FRule: @CRules[560]),
  (FStart: 1949; FEnd: 1950; FRule: @CRules[304]),
- (FStart: 1951; FEnd: 1956; FRule: @CRules[559]),
+ (FStart: 1951; FEnd: 1956; FRule: @CRules[560]),
  (FStart: 1957; FEnd: 1973; FRule: @CRules[304])
  );
 
  { Date-bound rules for Toronto family }
  CFamily_110_Arr: array[0 .. 23] of TYearBoundRule = (
- (FStart: 1919; FEnd: 1919; FRule: @CRules[797]),
  (FStart: 1919; FEnd: 1919; FRule: @CRules[798]),
- (FStart: 1920; FEnd: 1920; FRule: @CRules[799]),
- (FStart: 1920; FEnd: 1920; FRule: @CRules[771]),
- (FStart: 1921; FEnd: 1921; FRule: @CRules[800]),
+ (FStart: 1919; FEnd: 1919; FRule: @CRules[799]),
+ (FStart: 1920; FEnd: 1920; FRule: @CRules[800]),
+ (FStart: 1920; FEnd: 1920; FRule: @CRules[772]),
  (FStart: 1921; FEnd: 1921; FRule: @CRules[801]),
- (FStart: 1922; FEnd: 1923; FRule: @CRules[757]),
- (FStart: 1922; FEnd: 1926; FRule: @CRules[802]),
+ (FStart: 1921; FEnd: 1921; FRule: @CRules[802]),
+ (FStart: 1922; FEnd: 1923; FRule: @CRules[758]),
+ (FStart: 1922; FEnd: 1926; FRule: @CRules[803]),
  (FStart: 1924; FEnd: 1927; FRule: @CRules[305]),
- (FStart: 1927; FEnd: 1932; FRule: @CRules[559]),
- (FStart: 1928; FEnd: 1931; FRule: @CRules[736]),
- (FStart: 1932; FEnd: 1932; FRule: @CRules[744]),
- (FStart: 1933; FEnd: 1940; FRule: @CRules[736]),
+ (FStart: 1927; FEnd: 1932; FRule: @CRules[560]),
+ (FStart: 1928; FEnd: 1931; FRule: @CRules[737]),
+ (FStart: 1932; FEnd: 1932; FRule: @CRules[745]),
+ (FStart: 1933; FEnd: 1940; FRule: @CRules[737]),
  (FStart: 1933; FEnd: 1933; FRule: @CRules[296]),
- (FStart: 1934; FEnd: 1939; FRule: @CRules[559]),
- (FStart: 1945; FEnd: 1946; FRule: @CRules[559]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[736]),
- (FStart: 1947; FEnd: 1949; FRule: @CRules[796]),
- (FStart: 1947; FEnd: 1948; FRule: @CRules[795]),
- (FStart: 1949; FEnd: 1949; FRule: @CRules[803]),
- (FStart: 1950; FEnd: 1973; FRule: @CRules[736]),
- (FStart: 1950; FEnd: 1950; FRule: @CRules[804]),
- (FStart: 1951; FEnd: 1956; FRule: @CRules[559]),
+ (FStart: 1934; FEnd: 1939; FRule: @CRules[560]),
+ (FStart: 1945; FEnd: 1946; FRule: @CRules[560]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[737]),
+ (FStart: 1947; FEnd: 1949; FRule: @CRules[797]),
+ (FStart: 1947; FEnd: 1948; FRule: @CRules[796]),
+ (FStart: 1949; FEnd: 1949; FRule: @CRules[804]),
+ (FStart: 1950; FEnd: 1973; FRule: @CRules[737]),
+ (FStart: 1950; FEnd: 1950; FRule: @CRules[805]),
+ (FStart: 1951; FEnd: 1956; FRule: @CRules[560]),
  (FStart: 1957; FEnd: 1973; FRule: @CRules[304])
  );
 
  { Date-bound rules for Winn family }
  CFamily_111_Arr: array[0 .. 23] of TYearBoundRule = (
- (FStart: 1916; FEnd: 1916; FRule: @CRules[805]),
  (FStart: 1916; FEnd: 1916; FRule: @CRules[806]),
+ (FStart: 1916; FEnd: 1916; FRule: @CRules[807]),
  (FStart: 1918; FEnd: 1918; FRule: @CRules[284]),
- (FStart: 1918; FEnd: 1918; FRule: @CRules[748]),
- (FStart: 1937; FEnd: 1937; FRule: @CRules[807]),
+ (FStart: 1918; FEnd: 1918; FRule: @CRules[749]),
  (FStart: 1937; FEnd: 1937; FRule: @CRules[808]),
- (FStart: 1942; FEnd: 1942; FRule: @CRules[733]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[734]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[559]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[809]),
+ (FStart: 1937; FEnd: 1937; FRule: @CRules[809]),
+ (FStart: 1942; FEnd: 1942; FRule: @CRules[734]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[735]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[560]),
  (FStart: 1946; FEnd: 1946; FRule: @CRules[810]),
- (FStart: 1947; FEnd: 1949; FRule: @CRules[736]),
- (FStart: 1947; FEnd: 1949; FRule: @CRules[559]),
- (FStart: 1950; FEnd: 1950; FRule: @CRules[744]),
- (FStart: 1950; FEnd: 1950; FRule: @CRules[735]),
- (FStart: 1951; FEnd: 1960; FRule: @CRules[736]),
- (FStart: 1951; FEnd: 1958; FRule: @CRules[559]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[811]),
+ (FStart: 1947; FEnd: 1949; FRule: @CRules[737]),
+ (FStart: 1947; FEnd: 1949; FRule: @CRules[560]),
+ (FStart: 1950; FEnd: 1950; FRule: @CRules[745]),
+ (FStart: 1950; FEnd: 1950; FRule: @CRules[736]),
+ (FStart: 1951; FEnd: 1960; FRule: @CRules[737]),
+ (FStart: 1951; FEnd: 1958; FRule: @CRules[560]),
  (FStart: 1959; FEnd: 1959; FRule: @CRules[304]),
- (FStart: 1960; FEnd: 1960; FRule: @CRules[559]),
- (FStart: 1963; FEnd: 1963; FRule: @CRules[736]),
- (FStart: 1963; FEnd: 1963; FRule: @CRules[811]),
- (FStart: 1966; FEnd: 1986; FRule: @CRules[736]),
+ (FStart: 1960; FEnd: 1960; FRule: @CRules[560]),
+ (FStart: 1963; FEnd: 1963; FRule: @CRules[737]),
+ (FStart: 1963; FEnd: 1963; FRule: @CRules[812]),
+ (FStart: 1966; FEnd: 1986; FRule: @CRules[737]),
  (FStart: 1966; FEnd: 2005; FRule: @CRules[304]),
  (FStart: 1987; FEnd: 2005; FRule: @CRules[307])
  );
@@ -3081,97 +3085,97 @@ var
  { Date-bound rules for Regina family }
  CFamily_112_Arr: array[0 .. 16] of TYearBoundRule = (
  (FStart: 1918; FEnd: 1918; FRule: @CRules[284]),
- (FStart: 1918; FEnd: 1918; FRule: @CRules[748]),
- (FStart: 1930; FEnd: 1934; FRule: @CRules[767]),
- (FStart: 1930; FEnd: 1934; FRule: @CRules[812]),
- (FStart: 1937; FEnd: 1941; FRule: @CRules[813]),
- (FStart: 1937; FEnd: 1937; FRule: @CRules[329]),
- (FStart: 1938; FEnd: 1938; FRule: @CRules[812]),
- (FStart: 1939; FEnd: 1941; FRule: @CRules[329]),
- (FStart: 1942; FEnd: 1942; FRule: @CRules[733]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[734]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[559]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[814]),
+ (FStart: 1918; FEnd: 1918; FRule: @CRules[749]),
+ (FStart: 1930; FEnd: 1934; FRule: @CRules[768]),
+ (FStart: 1930; FEnd: 1934; FRule: @CRules[813]),
+ (FStart: 1937; FEnd: 1941; FRule: @CRules[814]),
+ (FStart: 1937; FEnd: 1937; FRule: @CRules[330]),
+ (FStart: 1938; FEnd: 1938; FRule: @CRules[813]),
+ (FStart: 1939; FEnd: 1941; FRule: @CRules[330]),
+ (FStart: 1942; FEnd: 1942; FRule: @CRules[734]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[735]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[560]),
  (FStart: 1946; FEnd: 1946; FRule: @CRules[815]),
- (FStart: 1947; FEnd: 1957; FRule: @CRules[736]),
- (FStart: 1947; FEnd: 1957; FRule: @CRules[559]),
- (FStart: 1959; FEnd: 1959; FRule: @CRules[736]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[816]),
+ (FStart: 1947; FEnd: 1957; FRule: @CRules[737]),
+ (FStart: 1947; FEnd: 1957; FRule: @CRules[560]),
+ (FStart: 1959; FEnd: 1959; FRule: @CRules[737]),
  (FStart: 1959; FEnd: 1959; FRule: @CRules[304])
  );
 
  { Date-bound rules for Swift family }
  CFamily_113_Arr: array[0 .. 4] of TYearBoundRule = (
- (FStart: 1957; FEnd: 1957; FRule: @CRules[736]),
+ (FStart: 1957; FEnd: 1957; FRule: @CRules[737]),
  (FStart: 1957; FEnd: 1957; FRule: @CRules[304]),
- (FStart: 1959; FEnd: 1961; FRule: @CRules[736]),
+ (FStart: 1959; FEnd: 1961; FRule: @CRules[737]),
  (FStart: 1959; FEnd: 1959; FRule: @CRules[304]),
- (FStart: 1960; FEnd: 1961; FRule: @CRules[559])
+ (FStart: 1960; FEnd: 1961; FRule: @CRules[560])
  );
 
  { Date-bound rules for Edm family }
  CFamily_114_Arr: array[0 .. 16] of TYearBoundRule = (
- (FStart: 1918; FEnd: 1919; FRule: @CRules[814]),
- (FStart: 1918; FEnd: 1918; FRule: @CRules[748]),
- (FStart: 1919; FEnd: 1919; FRule: @CRules[816]),
- (FStart: 1920; FEnd: 1923; FRule: @CRules[736]),
+ (FStart: 1918; FEnd: 1919; FRule: @CRules[815]),
+ (FStart: 1918; FEnd: 1918; FRule: @CRules[749]),
+ (FStart: 1919; FEnd: 1919; FRule: @CRules[817]),
+ (FStart: 1920; FEnd: 1923; FRule: @CRules[737]),
  (FStart: 1920; FEnd: 1920; FRule: @CRules[304]),
- (FStart: 1921; FEnd: 1923; FRule: @CRules[559]),
- (FStart: 1942; FEnd: 1942; FRule: @CRules[733]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[734]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[559]),
- (FStart: 1947; FEnd: 1947; FRule: @CRules[736]),
- (FStart: 1947; FEnd: 1947; FRule: @CRules[559]),
- (FStart: 1967; FEnd: 1967; FRule: @CRules[736]),
+ (FStart: 1921; FEnd: 1923; FRule: @CRules[560]),
+ (FStart: 1942; FEnd: 1942; FRule: @CRules[734]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[735]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[560]),
+ (FStart: 1947; FEnd: 1947; FRule: @CRules[737]),
+ (FStart: 1947; FEnd: 1947; FRule: @CRules[560]),
+ (FStart: 1967; FEnd: 1967; FRule: @CRules[737]),
  (FStart: 1967; FEnd: 1967; FRule: @CRules[304]),
- (FStart: 1969; FEnd: 1969; FRule: @CRules[736]),
+ (FStart: 1969; FEnd: 1969; FRule: @CRules[737]),
  (FStart: 1969; FEnd: 1969; FRule: @CRules[304]),
- (FStart: 1972; FEnd: 1986; FRule: @CRules[736]),
+ (FStart: 1972; FEnd: 1986; FRule: @CRules[737]),
  (FStart: 1972; FEnd: 2006; FRule: @CRules[304])
  );
 
  { Date-bound rules for Vanc family }
  CFamily_115_Arr: array[0 .. 8] of TYearBoundRule = (
  (FStart: 1918; FEnd: 1918; FRule: @CRules[284]),
- (FStart: 1918; FEnd: 1918; FRule: @CRules[748]),
- (FStart: 1942; FEnd: 1942; FRule: @CRules[733]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[734]),
+ (FStart: 1918; FEnd: 1918; FRule: @CRules[749]),
+ (FStart: 1942; FEnd: 1942; FRule: @CRules[734]),
  (FStart: 1945; FEnd: 1945; FRule: @CRules[735]),
- (FStart: 1946; FEnd: 1986; FRule: @CRules[736]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[810]),
- (FStart: 1947; FEnd: 1961; FRule: @CRules[559]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[736]),
+ (FStart: 1946; FEnd: 1986; FRule: @CRules[737]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[811]),
+ (FStart: 1947; FEnd: 1961; FRule: @CRules[560]),
  (FStart: 1962; FEnd: 2006; FRule: @CRules[304])
  );
 
  { Date-bound rules for NT_YK family }
  CFamily_116_Arr: array[0 .. 11] of TYearBoundRule = (
  (FStart: 1918; FEnd: 1918; FRule: @CRules[284]),
- (FStart: 1918; FEnd: 1918; FRule: @CRules[748]),
- (FStart: 1919; FEnd: 1919; FRule: @CRules[817]),
+ (FStart: 1918; FEnd: 1918; FRule: @CRules[749]),
+ (FStart: 1919; FEnd: 1919; FRule: @CRules[818]),
  (FStart: 1919; FEnd: 1919; FRule: @CRules[206]),
- (FStart: 1942; FEnd: 1942; FRule: @CRules[733]),
- (FStart: 1945; FEnd: 1945; FRule: @CRules[734]),
+ (FStart: 1942; FEnd: 1942; FRule: @CRules[734]),
  (FStart: 1945; FEnd: 1945; FRule: @CRules[735]),
- (FStart: 1965; FEnd: 1965; FRule: @CRules[818]),
+ (FStart: 1945; FEnd: 1945; FRule: @CRules[736]),
+ (FStart: 1965; FEnd: 1965; FRule: @CRules[819]),
  (FStart: 1965; FEnd: 1965; FRule: @CRules[304]),
- (FStart: 1980; FEnd: 1986; FRule: @CRules[736]),
+ (FStart: 1980; FEnd: 1986; FRule: @CRules[737]),
  (FStart: 1980; FEnd: 2006; FRule: @CRules[304]),
  (FStart: 1987; FEnd: 2006; FRule: @CRules[307])
  );
 
  { Date-bound rules for Mexico family }
  CFamily_117_Arr: array[0 .. 13] of TYearBoundRule = (
- (FStart: 1939; FEnd: 1939; FRule: @CRules[819]),
  (FStart: 1939; FEnd: 1939; FRule: @CRules[820]),
- (FStart: 1940; FEnd: 1940; FRule: @CRules[821]),
- (FStart: 1941; FEnd: 1941; FRule: @CRules[822]),
- (FStart: 1943; FEnd: 1943; FRule: @CRules[823]),
- (FStart: 1944; FEnd: 1944; FRule: @CRules[824]),
- (FStart: 1950; FEnd: 1950; FRule: @CRules[825]),
+ (FStart: 1939; FEnd: 1939; FRule: @CRules[821]),
+ (FStart: 1940; FEnd: 1940; FRule: @CRules[822]),
+ (FStart: 1941; FEnd: 1941; FRule: @CRules[823]),
+ (FStart: 1943; FEnd: 1943; FRule: @CRules[824]),
+ (FStart: 1944; FEnd: 1944; FRule: @CRules[825]),
  (FStart: 1950; FEnd: 1950; FRule: @CRules[826]),
+ (FStart: 1950; FEnd: 1950; FRule: @CRules[827]),
  (FStart: 1996; FEnd: 2000; FRule: @CRules[307]),
  (FStart: 1996; FEnd: 2000; FRule: @CRules[304]),
  (FStart: 2001; FEnd: 2001; FRule: @CRules[305]),
- (FStart: 2001; FEnd: 2001; FRule: @CRules[559]),
+ (FStart: 2001; FEnd: 2001; FRule: @CRules[560]),
  (FStart: 2002; FEnd: 9999; FRule: @CRules[307]),
  (FStart: 2002; FEnd: 9999; FRule: @CRules[304])
  );
@@ -3179,102 +3183,103 @@ var
  { Date-bound rules for Bahamas family }
  CFamily_118_Arr: array[0 .. 1] of TYearBoundRule = (
  (FStart: 1964; FEnd: 1975; FRule: @CRules[304]),
- (FStart: 1964; FEnd: 1975; FRule: @CRules[736])
+ (FStart: 1964; FEnd: 1975; FRule: @CRules[737])
  );
 
  { Date-bound rules for Barb family }
  CFamily_119_Arr: array[0 .. 4] of TYearBoundRule = (
- (FStart: 1977; FEnd: 1977; FRule: @CRules[827]),
- (FStart: 1977; FEnd: 1978; FRule: @CRules[828]),
- (FStart: 1978; FEnd: 1980; FRule: @CRules[829]),
- (FStart: 1979; FEnd: 1979; FRule: @CRules[735]),
- (FStart: 1980; FEnd: 1980; FRule: @CRules[830])
+ (FStart: 1977; FEnd: 1977; FRule: @CRules[828]),
+ (FStart: 1977; FEnd: 1978; FRule: @CRules[829]),
+ (FStart: 1978; FEnd: 1980; FRule: @CRules[830]),
+ (FStart: 1979; FEnd: 1979; FRule: @CRules[736]),
+ (FStart: 1980; FEnd: 1980; FRule: @CRules[831])
  );
 
  { Date-bound rules for Belize family }
  CFamily_120_Arr: array[0 .. 5] of TYearBoundRule = (
- (FStart: 1918; FEnd: 1942; FRule: @CRules[831]),
- (FStart: 1919; FEnd: 1943; FRule: @CRules[832]),
- (FStart: 1973; FEnd: 1973; FRule: @CRules[833]),
- (FStart: 1974; FEnd: 1974; FRule: @CRules[834]),
- (FStart: 1982; FEnd: 1982; FRule: @CRules[835]),
- (FStart: 1983; FEnd: 1983; FRule: @CRules[836])
+ (FStart: 1918; FEnd: 1942; FRule: @CRules[832]),
+ (FStart: 1919; FEnd: 1943; FRule: @CRules[833]),
+ (FStart: 1973; FEnd: 1973; FRule: @CRules[834]),
+ (FStart: 1974; FEnd: 1974; FRule: @CRules[835]),
+ (FStart: 1982; FEnd: 1982; FRule: @CRules[836]),
+ (FStart: 1983; FEnd: 1983; FRule: @CRules[837])
  );
 
  { Date-bound rules for CR family }
  CFamily_121_Arr: array[0 .. 4] of TYearBoundRule = (
- (FStart: 1979; FEnd: 1980; FRule: @CRules[837]),
  (FStart: 1979; FEnd: 1980; FRule: @CRules[838]),
- (FStart: 1991; FEnd: 1992; FRule: @CRules[839]),
- (FStart: 1991; FEnd: 1991; FRule: @CRules[840]),
- (FStart: 1992; FEnd: 1992; FRule: @CRules[841])
+ (FStart: 1979; FEnd: 1980; FRule: @CRules[839]),
+ (FStart: 1991; FEnd: 1992; FRule: @CRules[840]),
+ (FStart: 1991; FEnd: 1991; FRule: @CRules[841]),
+ (FStart: 1992; FEnd: 1992; FRule: @CRules[842])
  );
 
  { Date-bound rules for Cuba family }
- CFamily_122_Arr: array[0 .. 37] of TYearBoundRule = (
- (FStart: 1928; FEnd: 1928; FRule: @CRules[842]),
+ CFamily_122_Arr: array[0 .. 38] of TYearBoundRule = (
  (FStart: 1928; FEnd: 1928; FRule: @CRules[843]),
- (FStart: 1940; FEnd: 1942; FRule: @CRules[844]),
+ (FStart: 1928; FEnd: 1928; FRule: @CRules[844]),
  (FStart: 1940; FEnd: 1942; FRule: @CRules[845]),
- (FStart: 1945; FEnd: 1946; FRule: @CRules[844]),
+ (FStart: 1940; FEnd: 1942; FRule: @CRules[846]),
  (FStart: 1945; FEnd: 1946; FRule: @CRules[845]),
+ (FStart: 1945; FEnd: 1946; FRule: @CRules[846]),
  (FStart: 1965; FEnd: 1965; FRule: @CRules[208]),
  (FStart: 1965; FEnd: 1965; FRule: @CRules[210]),
- (FStart: 1966; FEnd: 1966; FRule: @CRules[846]),
- (FStart: 1966; FEnd: 1966; FRule: @CRules[774]),
- (FStart: 1967; FEnd: 1967; FRule: @CRules[847]),
- (FStart: 1967; FEnd: 1968; FRule: @CRules[848]),
+ (FStart: 1966; FEnd: 1966; FRule: @CRules[847]),
+ (FStart: 1966; FEnd: 1966; FRule: @CRules[775]),
+ (FStart: 1967; FEnd: 1967; FRule: @CRules[848]),
+ (FStart: 1967; FEnd: 1968; FRule: @CRules[849]),
  (FStart: 1968; FEnd: 1968; FRule: @CRules[260]),
- (FStart: 1969; FEnd: 1977; FRule: @CRules[796]),
- (FStart: 1969; FEnd: 1971; FRule: @CRules[849]),
- (FStart: 1972; FEnd: 1974; FRule: @CRules[850]),
- (FStart: 1975; FEnd: 1977; FRule: @CRules[849]),
- (FStart: 1978; FEnd: 1978; FRule: @CRules[851]),
- (FStart: 1978; FEnd: 1990; FRule: @CRules[329]),
- (FStart: 1979; FEnd: 1980; FRule: @CRules[852]),
- (FStart: 1981; FEnd: 1985; FRule: @CRules[853]),
- (FStart: 1986; FEnd: 1989; FRule: @CRules[854]),
- (FStart: 1990; FEnd: 1997; FRule: @CRules[855]),
- (FStart: 1991; FEnd: 1995; FRule: @CRules[329]),
- (FStart: 1996; FEnd: 1996; FRule: @CRules[856]),
- (FStart: 1997; FEnd: 1997; FRule: @CRules[857]),
- (FStart: 1998; FEnd: 1999; FRule: @CRules[858]),
- (FStart: 1998; FEnd: 2003; FRule: @CRules[849]),
- (FStart: 2000; FEnd: 2004; FRule: @CRules[855]),
- (FStart: 2006; FEnd: 2010; FRule: @CRules[849]),
- (FStart: 2007; FEnd: 2007; FRule: @CRules[859]),
- (FStart: 2008; FEnd: 2008; FRule: @CRules[852]),
- (FStart: 2009; FEnd: 2010; FRule: @CRules[859]),
- (FStart: 2011; FEnd: 2011; FRule: @CRules[852]),
- (FStart: 2011; FEnd: 2011; FRule: @CRules[860]),
+ (FStart: 1969; FEnd: 1977; FRule: @CRules[797]),
+ (FStart: 1969; FEnd: 1971; FRule: @CRules[850]),
+ (FStart: 1972; FEnd: 1974; FRule: @CRules[851]),
+ (FStart: 1975; FEnd: 1977; FRule: @CRules[850]),
+ (FStart: 1978; FEnd: 1978; FRule: @CRules[852]),
+ (FStart: 1978; FEnd: 1990; FRule: @CRules[330]),
+ (FStart: 1979; FEnd: 1980; FRule: @CRules[853]),
+ (FStart: 1981; FEnd: 1985; FRule: @CRules[854]),
+ (FStart: 1986; FEnd: 1989; FRule: @CRules[855]),
+ (FStart: 1990; FEnd: 1997; FRule: @CRules[856]),
+ (FStart: 1991; FEnd: 1995; FRule: @CRules[330]),
+ (FStart: 1996; FEnd: 1996; FRule: @CRules[857]),
+ (FStart: 1997; FEnd: 1997; FRule: @CRules[858]),
+ (FStart: 1998; FEnd: 1999; FRule: @CRules[859]),
+ (FStart: 1998; FEnd: 2003; FRule: @CRules[850]),
+ (FStart: 2000; FEnd: 2003; FRule: @CRules[856]),
+ (FStart: 2004; FEnd: 2004; FRule: @CRules[859]),
+ (FStart: 2006; FEnd: 2010; FRule: @CRules[850]),
+ (FStart: 2007; FEnd: 2007; FRule: @CRules[860]),
+ (FStart: 2008; FEnd: 2008; FRule: @CRules[853]),
+ (FStart: 2009; FEnd: 2010; FRule: @CRules[860]),
+ (FStart: 2011; FEnd: 2011; FRule: @CRules[853]),
+ (FStart: 2011; FEnd: 2011; FRule: @CRules[861]),
  (FStart: 2012; FEnd: 2012; FRule: @CRules[207]),
- (FStart: 2012; FEnd: 9999; FRule: @CRules[861]),
- (FStart: 2013; FEnd: 9999; FRule: @CRules[859])
+ (FStart: 2012; FEnd: 9999; FRule: @CRules[862]),
+ (FStart: 2013; FEnd: 9999; FRule: @CRules[860])
  );
 
  { Date-bound rules for DR family }
  CFamily_123_Arr: array[0 .. 5] of TYearBoundRule = (
- (FStart: 1966; FEnd: 1966; FRule: @CRules[862]),
- (FStart: 1967; FEnd: 1967; FRule: @CRules[863]),
- (FStart: 1969; FEnd: 1973; FRule: @CRules[864]),
- (FStart: 1970; FEnd: 1970; FRule: @CRules[865]),
- (FStart: 1971; FEnd: 1971; FRule: @CRules[866]),
- (FStart: 1972; FEnd: 1974; FRule: @CRules[867])
+ (FStart: 1966; FEnd: 1966; FRule: @CRules[863]),
+ (FStart: 1967; FEnd: 1967; FRule: @CRules[864]),
+ (FStart: 1969; FEnd: 1973; FRule: @CRules[865]),
+ (FStart: 1970; FEnd: 1970; FRule: @CRules[866]),
+ (FStart: 1971; FEnd: 1971; FRule: @CRules[867]),
+ (FStart: 1972; FEnd: 1974; FRule: @CRules[868])
  );
 
  { Date-bound rules for Salv family }
  CFamily_124_Arr: array[0 .. 1] of TYearBoundRule = (
- (FStart: 1987; FEnd: 1988; FRule: @CRules[767]),
- (FStart: 1987; FEnd: 1988; FRule: @CRules[795])
+ (FStart: 1987; FEnd: 1988; FRule: @CRules[768]),
+ (FStart: 1987; FEnd: 1988; FRule: @CRules[796])
  );
 
  { Date-bound rules for Guat family }
  CFamily_125_Arr: array[0 .. 7] of TYearBoundRule = (
- (FStart: 1973; FEnd: 1973; FRule: @CRules[868]),
- (FStart: 1974; FEnd: 1974; FRule: @CRules[869]),
- (FStart: 1983; FEnd: 1983; FRule: @CRules[870]),
+ (FStart: 1973; FEnd: 1973; FRule: @CRules[869]),
+ (FStart: 1974; FEnd: 1974; FRule: @CRules[870]),
+ (FStart: 1983; FEnd: 1983; FRule: @CRules[871]),
  (FStart: 1983; FEnd: 1983; FRule: @CRules[231]),
- (FStart: 1991; FEnd: 1991; FRule: @CRules[871]),
+ (FStart: 1991; FEnd: 1991; FRule: @CRules[872]),
  (FStart: 1991; FEnd: 1991; FRule: @CRules[263]),
  (FStart: 2006; FEnd: 2006; FRule: @CRules[268]),
  (FStart: 2006; FEnd: 2006; FRule: @CRules[181])
@@ -3282,60 +3287,60 @@ var
 
  { Date-bound rules for Haiti family }
  CFamily_126_Arr: array[0 .. 8] of TYearBoundRule = (
- (FStart: 1983; FEnd: 1983; FRule: @CRules[872]),
- (FStart: 1984; FEnd: 1987; FRule: @CRules[796]),
- (FStart: 1983; FEnd: 1987; FRule: @CRules[849]),
- (FStart: 1988; FEnd: 1997; FRule: @CRules[873]),
+ (FStart: 1983; FEnd: 1983; FRule: @CRules[873]),
+ (FStart: 1984; FEnd: 1987; FRule: @CRules[797]),
+ (FStart: 1983; FEnd: 1987; FRule: @CRules[850]),
  (FStart: 1988; FEnd: 1997; FRule: @CRules[874]),
- (FStart: 2005; FEnd: 2006; FRule: @CRules[855]),
- (FStart: 2005; FEnd: 2006; FRule: @CRules[849]),
- (FStart: 2012; FEnd: 9999; FRule: @CRules[560]),
- (FStart: 2012; FEnd: 9999; FRule: @CRules[561])
+ (FStart: 1988; FEnd: 1997; FRule: @CRules[875]),
+ (FStart: 2005; FEnd: 2006; FRule: @CRules[856]),
+ (FStart: 2005; FEnd: 2006; FRule: @CRules[850]),
+ (FStart: 2012; FEnd: 9999; FRule: @CRules[561]),
+ (FStart: 2012; FEnd: 9999; FRule: @CRules[562])
  );
 
  { Date-bound rules for Hond family }
  CFamily_127_Arr: array[0 .. 3] of TYearBoundRule = (
- (FStart: 1987; FEnd: 1988; FRule: @CRules[767]),
- (FStart: 1987; FEnd: 1988; FRule: @CRules[795]),
- (FStart: 2006; FEnd: 2006; FRule: @CRules[767]),
- (FStart: 2006; FEnd: 2006; FRule: @CRules[875])
+ (FStart: 1987; FEnd: 1988; FRule: @CRules[768]),
+ (FStart: 1987; FEnd: 1988; FRule: @CRules[796]),
+ (FStart: 2006; FEnd: 2006; FRule: @CRules[768]),
+ (FStart: 2006; FEnd: 2006; FRule: @CRules[876])
  );
 
  { Date-bound rules for Nic family }
  CFamily_128_Arr: array[0 .. 5] of TYearBoundRule = (
- (FStart: 1979; FEnd: 1980; FRule: @CRules[876]),
  (FStart: 1979; FEnd: 1980; FRule: @CRules[877]),
- (FStart: 2005; FEnd: 2005; FRule: @CRules[878]),
- (FStart: 2005; FEnd: 2005; FRule: @CRules[812]),
- (FStart: 2006; FEnd: 2006; FRule: @CRules[792]),
- (FStart: 2006; FEnd: 2006; FRule: @CRules[879])
+ (FStart: 1979; FEnd: 1980; FRule: @CRules[878]),
+ (FStart: 2005; FEnd: 2005; FRule: @CRules[879]),
+ (FStart: 2005; FEnd: 2005; FRule: @CRules[813]),
+ (FStart: 2006; FEnd: 2006; FRule: @CRules[793]),
+ (FStart: 2006; FEnd: 2006; FRule: @CRules[880])
  );
 
  { Date-bound rules for TC family }
  CFamily_129_Arr: array[0 .. 4] of TYearBoundRule = (
- (FStart: 1979; FEnd: 1986; FRule: @CRules[736]),
+ (FStart: 1979; FEnd: 1986; FRule: @CRules[737]),
  (FStart: 1979; FEnd: 2006; FRule: @CRules[304]),
  (FStart: 1987; FEnd: 2006; FRule: @CRules[307]),
- (FStart: 2007; FEnd: 9999; FRule: @CRules[560]),
- (FStart: 2007; FEnd: 9999; FRule: @CRules[561])
+ (FStart: 2007; FEnd: 9999; FRule: @CRules[561]),
+ (FStart: 2007; FEnd: 9999; FRule: @CRules[562])
  );
 
  { Date-bound rules for Arg family }
  CFamily_130_Arr: array[0 .. 28] of TYearBoundRule = (
- (FStart: 1930; FEnd: 1930; FRule: @CRules[719]),
- (FStart: 1931; FEnd: 1931; FRule: @CRules[880]),
+ (FStart: 1930; FEnd: 1930; FRule: @CRules[720]),
+ (FStart: 1931; FEnd: 1931; FRule: @CRules[881]),
  (FStart: 1931; FEnd: 1931; FRule: @CRules[139]),
  (FStart: 1932; FEnd: 1940; FRule: @CRules[138]),
- (FStart: 1932; FEnd: 1939; FRule: @CRules[353]),
+ (FStart: 1932; FEnd: 1939; FRule: @CRules[354]),
  (FStart: 1940; FEnd: 1940; FRule: @CRules[318]),
- (FStart: 1941; FEnd: 1941; FRule: @CRules[881]),
+ (FStart: 1941; FEnd: 1941; FRule: @CRules[882]),
  (FStart: 1941; FEnd: 1941; FRule: @CRules[139]),
  (FStart: 1943; FEnd: 1943; FRule: @CRules[71]),
  (FStart: 1943; FEnd: 1943; FRule: @CRules[139]),
  (FStart: 1946; FEnd: 1946; FRule: @CRules[138]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[882]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[883]),
  (FStart: 1963; FEnd: 1963; FRule: @CRules[23]),
- (FStart: 1963; FEnd: 1963; FRule: @CRules[883]),
+ (FStart: 1963; FEnd: 1963; FRule: @CRules[884]),
  (FStart: 1964; FEnd: 1966; FRule: @CRules[138]),
  (FStart: 1964; FEnd: 1966; FRule: @CRules[139]),
  (FStart: 1967; FEnd: 1967; FRule: @CRules[140]),
@@ -3343,107 +3348,107 @@ var
  (FStart: 1968; FEnd: 1969; FRule: @CRules[142]),
  (FStart: 1974; FEnd: 1974; FRule: @CRules[143]),
  (FStart: 1974; FEnd: 1974; FRule: @CRules[144]),
- (FStart: 1988; FEnd: 1988; FRule: @CRules[719]),
- (FStart: 1989; FEnd: 1993; FRule: @CRules[404]),
- (FStart: 1989; FEnd: 1992; FRule: @CRules[884]),
+ (FStart: 1988; FEnd: 1988; FRule: @CRules[720]),
+ (FStart: 1989; FEnd: 1993; FRule: @CRules[405]),
+ (FStart: 1989; FEnd: 1992; FRule: @CRules[885]),
  (FStart: 1999; FEnd: 1999; FRule: @CRules[141]),
- (FStart: 2000; FEnd: 2000; FRule: @CRules[885]),
- (FStart: 2007; FEnd: 2007; FRule: @CRules[886]),
- (FStart: 2008; FEnd: 2009; FRule: @CRules[887]),
- (FStart: 2008; FEnd: 2008; FRule: @CRules[884])
+ (FStart: 2000; FEnd: 2000; FRule: @CRules[886]),
+ (FStart: 2007; FEnd: 2007; FRule: @CRules[887]),
+ (FStart: 2008; FEnd: 2009; FRule: @CRules[888]),
+ (FStart: 2008; FEnd: 2008; FRule: @CRules[885])
  );
 
  { Date-bound rules for SanLuis family }
  CFamily_131_Arr: array[0 .. 1] of TYearBoundRule = (
- (FStart: 2008; FEnd: 2009; FRule: @CRules[888]),
- (FStart: 2007; FEnd: 2008; FRule: @CRules[889])
+ (FStart: 2008; FEnd: 2009; FRule: @CRules[889]),
+ (FStart: 2007; FEnd: 2008; FRule: @CRules[890])
  );
 
  { Date-bound rules for Brazil family }
  CFamily_132_Arr: array[0 .. 63] of TYearBoundRule = (
- (FStart: 1931; FEnd: 1931; FRule: @CRules[890]),
- (FStart: 1932; FEnd: 1933; FRule: @CRules[880]),
- (FStart: 1932; FEnd: 1932; FRule: @CRules[891]),
- (FStart: 1949; FEnd: 1952; FRule: @CRules[719]),
- (FStart: 1950; FEnd: 1950; FRule: @CRules[892]),
- (FStart: 1951; FEnd: 1952; FRule: @CRules[880]),
+ (FStart: 1931; FEnd: 1931; FRule: @CRules[891]),
+ (FStart: 1932; FEnd: 1933; FRule: @CRules[881]),
+ (FStart: 1932; FEnd: 1932; FRule: @CRules[892]),
+ (FStart: 1949; FEnd: 1952; FRule: @CRules[720]),
+ (FStart: 1950; FEnd: 1950; FRule: @CRules[893]),
+ (FStart: 1951; FEnd: 1952; FRule: @CRules[881]),
  (FStart: 1953; FEnd: 1953; FRule: @CRules[138]),
- (FStart: 1963; FEnd: 1963; FRule: @CRules[893]),
+ (FStart: 1963; FEnd: 1963; FRule: @CRules[894]),
  (FStart: 1964; FEnd: 1964; FRule: @CRules[138]),
- (FStart: 1965; FEnd: 1965; FRule: @CRules[894]),
  (FStart: 1965; FEnd: 1965; FRule: @CRules[895]),
- (FStart: 1965; FEnd: 1965; FRule: @CRules[719]),
+ (FStart: 1965; FEnd: 1965; FRule: @CRules[896]),
+ (FStart: 1965; FEnd: 1965; FRule: @CRules[720]),
  (FStart: 1966; FEnd: 1968; FRule: @CRules[138]),
- (FStart: 1966; FEnd: 1967; FRule: @CRules[353]),
- (FStart: 1985; FEnd: 1985; FRule: @CRules[896]),
- (FStart: 1986; FEnd: 1986; FRule: @CRules[897]),
+ (FStart: 1966; FEnd: 1967; FRule: @CRules[354]),
+ (FStart: 1985; FEnd: 1985; FRule: @CRules[897]),
  (FStart: 1986; FEnd: 1986; FRule: @CRules[898]),
+ (FStart: 1986; FEnd: 1986; FRule: @CRules[899]),
+ (FStart: 1987; FEnd: 1987; FRule: @CRules[900]),
  (FStart: 1987; FEnd: 1987; FRule: @CRules[899]),
- (FStart: 1987; FEnd: 1987; FRule: @CRules[898]),
- (FStart: 1988; FEnd: 1988; FRule: @CRules[900]),
  (FStart: 1988; FEnd: 1988; FRule: @CRules[901]),
- (FStart: 1989; FEnd: 1989; FRule: @CRules[902]),
+ (FStart: 1988; FEnd: 1988; FRule: @CRules[902]),
+ (FStart: 1989; FEnd: 1989; FRule: @CRules[903]),
  (FStart: 1989; FEnd: 1989; FRule: @CRules[139]),
- (FStart: 1990; FEnd: 1990; FRule: @CRules[903]),
  (FStart: 1990; FEnd: 1990; FRule: @CRules[904]),
- (FStart: 1991; FEnd: 1991; FRule: @CRules[905]),
+ (FStart: 1990; FEnd: 1990; FRule: @CRules[905]),
  (FStart: 1991; FEnd: 1991; FRule: @CRules[906]),
- (FStart: 1992; FEnd: 1992; FRule: @CRules[907]),
- (FStart: 1992; FEnd: 1992; FRule: @CRules[898]),
- (FStart: 1993; FEnd: 1993; FRule: @CRules[908]),
- (FStart: 1993; FEnd: 1995; FRule: @CRules[909]),
- (FStart: 1994; FEnd: 1995; FRule: @CRules[910]),
- (FStart: 1996; FEnd: 1996; FRule: @CRules[903]),
- (FStart: 1996; FEnd: 1996; FRule: @CRules[573]),
- (FStart: 1997; FEnd: 1997; FRule: @CRules[911]),
- (FStart: 1997; FEnd: 1997; FRule: @CRules[573]),
+ (FStart: 1991; FEnd: 1991; FRule: @CRules[907]),
+ (FStart: 1992; FEnd: 1992; FRule: @CRules[908]),
+ (FStart: 1992; FEnd: 1992; FRule: @CRules[899]),
+ (FStart: 1993; FEnd: 1993; FRule: @CRules[909]),
+ (FStart: 1993; FEnd: 1995; FRule: @CRules[910]),
+ (FStart: 1994; FEnd: 1995; FRule: @CRules[911]),
+ (FStart: 1996; FEnd: 1996; FRule: @CRules[904]),
+ (FStart: 1996; FEnd: 1996; FRule: @CRules[574]),
+ (FStart: 1997; FEnd: 1997; FRule: @CRules[912]),
+ (FStart: 1997; FEnd: 1997; FRule: @CRules[574]),
  (FStart: 1998; FEnd: 1998; FRule: @CRules[138]),
- (FStart: 1998; FEnd: 1998; FRule: @CRules[912]),
- (FStart: 1999; FEnd: 1999; FRule: @CRules[913]),
- (FStart: 1999; FEnd: 1999; FRule: @CRules[891]),
- (FStart: 2000; FEnd: 2000; FRule: @CRules[414]),
- (FStart: 2000; FEnd: 2001; FRule: @CRules[889]),
- (FStart: 2001; FEnd: 2006; FRule: @CRules[910]),
- (FStart: 2002; FEnd: 2002; FRule: @CRules[914]),
- (FStart: 2003; FEnd: 2003; FRule: @CRules[915]),
- (FStart: 2004; FEnd: 2004; FRule: @CRules[896]),
- (FStart: 2005; FEnd: 2005; FRule: @CRules[901]),
- (FStart: 2006; FEnd: 2006; FRule: @CRules[916]),
- (FStart: 2007; FEnd: 2007; FRule: @CRules[917]),
- (FStart: 2007; FEnd: 2007; FRule: @CRules[889]),
- (FStart: 2008; FEnd: 9999; FRule: @CRules[884]),
- (FStart: 2008; FEnd: 2011; FRule: @CRules[910]),
- (FStart: 2012; FEnd: 2012; FRule: @CRules[918]),
- (FStart: 2013; FEnd: 2014; FRule: @CRules[910]),
- (FStart: 2015; FEnd: 2015; FRule: @CRules[918]),
- (FStart: 2016; FEnd: 2022; FRule: @CRules[910]),
- (FStart: 2023; FEnd: 2023; FRule: @CRules[918]),
- (FStart: 2024; FEnd: 2025; FRule: @CRules[910]),
- (FStart: 2026; FEnd: 2026; FRule: @CRules[918]),
- (FStart: 2027; FEnd: 2033; FRule: @CRules[910]),
- (FStart: 2034; FEnd: 2034; FRule: @CRules[918]),
- (FStart: 2035; FEnd: 2036; FRule: @CRules[910]),
- (FStart: 2037; FEnd: 2037; FRule: @CRules[918]),
- (FStart: 2038; FEnd: 9999; FRule: @CRules[910])
+ (FStart: 1998; FEnd: 1998; FRule: @CRules[913]),
+ (FStart: 1999; FEnd: 1999; FRule: @CRules[914]),
+ (FStart: 1999; FEnd: 1999; FRule: @CRules[892]),
+ (FStart: 2000; FEnd: 2000; FRule: @CRules[415]),
+ (FStart: 2000; FEnd: 2001; FRule: @CRules[890]),
+ (FStart: 2001; FEnd: 2006; FRule: @CRules[911]),
+ (FStart: 2002; FEnd: 2002; FRule: @CRules[915]),
+ (FStart: 2003; FEnd: 2003; FRule: @CRules[916]),
+ (FStart: 2004; FEnd: 2004; FRule: @CRules[897]),
+ (FStart: 2005; FEnd: 2005; FRule: @CRules[902]),
+ (FStart: 2006; FEnd: 2006; FRule: @CRules[917]),
+ (FStart: 2007; FEnd: 2007; FRule: @CRules[918]),
+ (FStart: 2007; FEnd: 2007; FRule: @CRules[890]),
+ (FStart: 2008; FEnd: 9999; FRule: @CRules[885]),
+ (FStart: 2008; FEnd: 2011; FRule: @CRules[911]),
+ (FStart: 2012; FEnd: 2012; FRule: @CRules[919]),
+ (FStart: 2013; FEnd: 2014; FRule: @CRules[911]),
+ (FStart: 2015; FEnd: 2015; FRule: @CRules[919]),
+ (FStart: 2016; FEnd: 2022; FRule: @CRules[911]),
+ (FStart: 2023; FEnd: 2023; FRule: @CRules[919]),
+ (FStart: 2024; FEnd: 2025; FRule: @CRules[911]),
+ (FStart: 2026; FEnd: 2026; FRule: @CRules[919]),
+ (FStart: 2027; FEnd: 2033; FRule: @CRules[911]),
+ (FStart: 2034; FEnd: 2034; FRule: @CRules[919]),
+ (FStart: 2035; FEnd: 2036; FRule: @CRules[911]),
+ (FStart: 2037; FEnd: 2037; FRule: @CRules[919]),
+ (FStart: 2038; FEnd: 9999; FRule: @CRules[911])
  );
 
  { Date-bound rules for Chile family }
  CFamily_133_Arr: array[0 .. 36] of TYearBoundRule = (
- (FStart: 1927; FEnd: 1932; FRule: @CRules[506]),
- (FStart: 1928; FEnd: 1932; FRule: @CRules[880]),
- (FStart: 1942; FEnd: 1942; FRule: @CRules[919]),
+ (FStart: 1927; FEnd: 1932; FRule: @CRules[507]),
+ (FStart: 1928; FEnd: 1932; FRule: @CRules[881]),
  (FStart: 1942; FEnd: 1942; FRule: @CRules[920]),
- (FStart: 1946; FEnd: 1946; FRule: @CRules[921]),
+ (FStart: 1942; FEnd: 1942; FRule: @CRules[921]),
  (FStart: 1946; FEnd: 1946; FRule: @CRules[922]),
- (FStart: 1947; FEnd: 1947; FRule: @CRules[923]),
- (FStart: 1968; FEnd: 1968; FRule: @CRules[924]),
+ (FStart: 1946; FEnd: 1946; FRule: @CRules[923]),
+ (FStart: 1947; FEnd: 1947; FRule: @CRules[924]),
+ (FStart: 1968; FEnd: 1968; FRule: @CRules[925]),
  (FStart: 1969; FEnd: 1969; FRule: @CRules[151]),
- (FStart: 1969; FEnd: 1969; FRule: @CRules[925]),
- (FStart: 1970; FEnd: 1970; FRule: @CRules[926]),
- (FStart: 1971; FEnd: 1971; FRule: @CRules[927]),
+ (FStart: 1969; FEnd: 1969; FRule: @CRules[926]),
+ (FStart: 1970; FEnd: 1970; FRule: @CRules[927]),
+ (FStart: 1971; FEnd: 1971; FRule: @CRules[928]),
  (FStart: 1970; FEnd: 1972; FRule: @CRules[146]),
  (FStart: 1972; FEnd: 1986; FRule: @CRules[145]),
- (FStart: 1973; FEnd: 1973; FRule: @CRules[928]),
+ (FStart: 1973; FEnd: 1973; FRule: @CRules[929]),
  (FStart: 1974; FEnd: 1987; FRule: @CRules[146]),
  (FStart: 1987; FEnd: 1987; FRule: @CRules[147]),
  (FStart: 1988; FEnd: 1989; FRule: @CRules[145]),
@@ -3470,124 +3475,124 @@ var
 
  { Date-bound rules for CO family }
  CFamily_134_Arr: array[0 .. 1] of TYearBoundRule = (
- (FStart: 1992; FEnd: 1992; FRule: @CRules[511]),
- (FStart: 1993; FEnd: 1993; FRule: @CRules[929])
+ (FStart: 1992; FEnd: 1992; FRule: @CRules[512]),
+ (FStart: 1993; FEnd: 1993; FRule: @CRules[930])
  );
 
  { Date-bound rules for Falk family }
  CFamily_135_Arr: array[0 .. 11] of TYearBoundRule = (
- (FStart: 1937; FEnd: 1938; FRule: @CRules[930]),
- (FStart: 1938; FEnd: 1942; FRule: @CRules[931]),
- (FStart: 1939; FEnd: 1939; FRule: @CRules[882]),
- (FStart: 1940; FEnd: 1942; FRule: @CRules[930]),
+ (FStart: 1937; FEnd: 1938; FRule: @CRules[931]),
+ (FStart: 1938; FEnd: 1942; FRule: @CRules[932]),
+ (FStart: 1939; FEnd: 1939; FRule: @CRules[883]),
+ (FStart: 1940; FEnd: 1942; FRule: @CRules[931]),
  (FStart: 1943; FEnd: 1943; FRule: @CRules[49]),
- (FStart: 1983; FEnd: 1983; FRule: @CRules[930]),
- (FStart: 1984; FEnd: 1985; FRule: @CRules[932]),
- (FStart: 1984; FEnd: 1984; FRule: @CRules[933]),
- (FStart: 1985; FEnd: 2000; FRule: @CRules[934]),
- (FStart: 1986; FEnd: 2000; FRule: @CRules[935]),
- (FStart: 2001; FEnd: 2010; FRule: @CRules[936]),
+ (FStart: 1983; FEnd: 1983; FRule: @CRules[931]),
+ (FStart: 1984; FEnd: 1985; FRule: @CRules[933]),
+ (FStart: 1984; FEnd: 1984; FRule: @CRules[934]),
+ (FStart: 1985; FEnd: 2000; FRule: @CRules[935]),
+ (FStart: 1986; FEnd: 2000; FRule: @CRules[936]),
+ (FStart: 2001; FEnd: 2010; FRule: @CRules[937]),
  (FStart: 2001; FEnd: 2010; FRule: @CRules[111])
  );
 
  { Date-bound rules for Para family }
  CFamily_136_Arr: array[0 .. 21] of TYearBoundRule = (
- (FStart: 1975; FEnd: 1988; FRule: @CRules[882]),
+ (FStart: 1975; FEnd: 1988; FRule: @CRules[883]),
  (FStart: 1975; FEnd: 1978; FRule: @CRules[138]),
- (FStart: 1979; FEnd: 1991; FRule: @CRules[880]),
- (FStart: 1989; FEnd: 1989; FRule: @CRules[937]),
- (FStart: 1990; FEnd: 1990; FRule: @CRules[882]),
- (FStart: 1991; FEnd: 1991; FRule: @CRules[573]),
+ (FStart: 1979; FEnd: 1991; FRule: @CRules[881]),
+ (FStart: 1989; FEnd: 1989; FRule: @CRules[938]),
+ (FStart: 1990; FEnd: 1990; FRule: @CRules[883]),
+ (FStart: 1991; FEnd: 1991; FRule: @CRules[574]),
  (FStart: 1992; FEnd: 1992; FRule: @CRules[138]),
- (FStart: 1992; FEnd: 1992; FRule: @CRules[938]),
- (FStart: 1993; FEnd: 1993; FRule: @CRules[895]),
- (FStart: 1993; FEnd: 1995; FRule: @CRules[882]),
- (FStart: 1994; FEnd: 1995; FRule: @CRules[939]),
+ (FStart: 1992; FEnd: 1992; FRule: @CRules[939]),
+ (FStart: 1993; FEnd: 1993; FRule: @CRules[896]),
+ (FStart: 1993; FEnd: 1995; FRule: @CRules[883]),
+ (FStart: 1994; FEnd: 1995; FRule: @CRules[940]),
  (FStart: 1996; FEnd: 1996; FRule: @CRules[138]),
  (FStart: 1996; FEnd: 2001; FRule: @CRules[141]),
- (FStart: 1997; FEnd: 1997; FRule: @CRules[939]),
- (FStart: 1998; FEnd: 2001; FRule: @CRules[404]),
+ (FStart: 1997; FEnd: 1997; FRule: @CRules[940]),
+ (FStart: 1998; FEnd: 2001; FRule: @CRules[405]),
  (FStart: 2002; FEnd: 2004; FRule: @CRules[142]),
- (FStart: 2002; FEnd: 2003; FRule: @CRules[940]),
- (FStart: 2004; FEnd: 2009; FRule: @CRules[884]),
- (FStart: 2005; FEnd: 2009; FRule: @CRules[888]),
+ (FStart: 2002; FEnd: 2003; FRule: @CRules[941]),
+ (FStart: 2004; FEnd: 2009; FRule: @CRules[885]),
+ (FStart: 2005; FEnd: 2009; FRule: @CRules[889]),
  (FStart: 2010; FEnd: 9999; FRule: @CRules[141]),
- (FStart: 2010; FEnd: 2012; FRule: @CRules[941]),
- (FStart: 2013; FEnd: 9999; FRule: @CRules[942])
+ (FStart: 2010; FEnd: 2012; FRule: @CRules[942]),
+ (FStart: 2013; FEnd: 9999; FRule: @CRules[943])
  );
 
  { Date-bound rules for Peru family }
  CFamily_137_Arr: array[0 .. 9] of TYearBoundRule = (
- (FStart: 1938; FEnd: 1938; FRule: @CRules[943]),
- (FStart: 1938; FEnd: 1938; FRule: @CRules[880]),
- (FStart: 1938; FEnd: 1939; FRule: @CRules[930]),
- (FStart: 1939; FEnd: 1940; FRule: @CRules[944]),
- (FStart: 1986; FEnd: 1987; FRule: @CRules[943]),
- (FStart: 1986; FEnd: 1987; FRule: @CRules[880]),
- (FStart: 1990; FEnd: 1990; FRule: @CRules[943]),
- (FStart: 1990; FEnd: 1990; FRule: @CRules[880]),
- (FStart: 1994; FEnd: 1994; FRule: @CRules[943]),
- (FStart: 1994; FEnd: 1994; FRule: @CRules[880])
+ (FStart: 1938; FEnd: 1938; FRule: @CRules[944]),
+ (FStart: 1938; FEnd: 1938; FRule: @CRules[881]),
+ (FStart: 1938; FEnd: 1939; FRule: @CRules[931]),
+ (FStart: 1939; FEnd: 1940; FRule: @CRules[945]),
+ (FStart: 1986; FEnd: 1987; FRule: @CRules[944]),
+ (FStart: 1986; FEnd: 1987; FRule: @CRules[881]),
+ (FStart: 1990; FEnd: 1990; FRule: @CRules[944]),
+ (FStart: 1990; FEnd: 1990; FRule: @CRules[881]),
+ (FStart: 1994; FEnd: 1994; FRule: @CRules[944]),
+ (FStart: 1994; FEnd: 1994; FRule: @CRules[881])
  );
 
  { Date-bound rules for Uruguay family }
  CFamily_138_Arr: array[0 .. 44] of TYearBoundRule = (
- (FStart: 1923; FEnd: 1923; FRule: @CRules[945]),
- (FStart: 1924; FEnd: 1926; FRule: @CRules[880]),
- (FStart: 1924; FEnd: 1925; FRule: @CRules[946]),
- (FStart: 1933; FEnd: 1935; FRule: @CRules[405]),
- (FStart: 1934; FEnd: 1936; FRule: @CRules[947]),
- (FStart: 1936; FEnd: 1936; FRule: @CRules[948]),
- (FStart: 1937; FEnd: 1941; FRule: @CRules[949]),
- (FStart: 1937; FEnd: 1940; FRule: @CRules[405]),
- (FStart: 1941; FEnd: 1941; FRule: @CRules[950]),
+ (FStart: 1923; FEnd: 1923; FRule: @CRules[946]),
+ (FStart: 1924; FEnd: 1926; FRule: @CRules[881]),
+ (FStart: 1924; FEnd: 1925; FRule: @CRules[947]),
+ (FStart: 1933; FEnd: 1935; FRule: @CRules[406]),
+ (FStart: 1934; FEnd: 1936; FRule: @CRules[948]),
+ (FStart: 1936; FEnd: 1936; FRule: @CRules[949]),
+ (FStart: 1937; FEnd: 1941; FRule: @CRules[950]),
+ (FStart: 1937; FEnd: 1940; FRule: @CRules[406]),
+ (FStart: 1941; FEnd: 1941; FRule: @CRules[951]),
  (FStart: 1942; FEnd: 1942; FRule: @CRules[49]),
- (FStart: 1942; FEnd: 1942; FRule: @CRules[951]),
- (FStart: 1943; FEnd: 1943; FRule: @CRules[952]),
- (FStart: 1959; FEnd: 1959; FRule: @CRules[953]),
+ (FStart: 1942; FEnd: 1942; FRule: @CRules[952]),
+ (FStart: 1943; FEnd: 1943; FRule: @CRules[953]),
  (FStart: 1959; FEnd: 1959; FRule: @CRules[954]),
- (FStart: 1960; FEnd: 1960; FRule: @CRules[955]),
+ (FStart: 1959; FEnd: 1959; FRule: @CRules[955]),
  (FStart: 1960; FEnd: 1960; FRule: @CRules[956]),
+ (FStart: 1960; FEnd: 1960; FRule: @CRules[957]),
  (FStart: 1965; FEnd: 1967; FRule: @CRules[222]),
- (FStart: 1965; FEnd: 1965; FRule: @CRules[957]),
+ (FStart: 1965; FEnd: 1965; FRule: @CRules[958]),
  (FStart: 1966; FEnd: 1967; FRule: @CRules[213]),
- (FStart: 1968; FEnd: 1970; FRule: @CRules[958]),
  (FStart: 1968; FEnd: 1970; FRule: @CRules[959]),
- (FStart: 1972; FEnd: 1972; FRule: @CRules[960]),
+ (FStart: 1968; FEnd: 1970; FRule: @CRules[960]),
  (FStart: 1972; FEnd: 1972; FRule: @CRules[961]),
- (FStart: 1974; FEnd: 1974; FRule: @CRules[962]),
+ (FStart: 1972; FEnd: 1972; FRule: @CRules[962]),
  (FStart: 1974; FEnd: 1974; FRule: @CRules[963]),
+ (FStart: 1974; FEnd: 1974; FRule: @CRules[964]),
  (FStart: 1976; FEnd: 1976; FRule: @CRules[23]),
- (FStart: 1977; FEnd: 1977; FRule: @CRules[964]),
- (FStart: 1978; FEnd: 1978; FRule: @CRules[880]),
- (FStart: 1979; FEnd: 1979; FRule: @CRules[882]),
+ (FStart: 1977; FEnd: 1977; FRule: @CRules[965]),
+ (FStart: 1978; FEnd: 1978; FRule: @CRules[881]),
+ (FStart: 1979; FEnd: 1979; FRule: @CRules[883]),
  (FStart: 1980; FEnd: 1980; FRule: @CRules[144]),
- (FStart: 1987; FEnd: 1987; FRule: @CRules[951]),
- (FStart: 1988; FEnd: 1988; FRule: @CRules[952]),
- (FStart: 1988; FEnd: 1988; FRule: @CRules[965]),
- (FStart: 1989; FEnd: 1989; FRule: @CRules[966]),
+ (FStart: 1987; FEnd: 1987; FRule: @CRules[952]),
+ (FStart: 1988; FEnd: 1988; FRule: @CRules[953]),
+ (FStart: 1988; FEnd: 1988; FRule: @CRules[966]),
  (FStart: 1989; FEnd: 1989; FRule: @CRules[967]),
- (FStart: 1990; FEnd: 1992; FRule: @CRules[404]),
- (FStart: 1990; FEnd: 1991; FRule: @CRules[968]),
- (FStart: 1992; FEnd: 1992; FRule: @CRules[969]),
- (FStart: 1993; FEnd: 1993; FRule: @CRules[970]),
- (FStart: 2004; FEnd: 2004; FRule: @CRules[971]),
- (FStart: 2005; FEnd: 2005; FRule: @CRules[972]),
+ (FStart: 1989; FEnd: 1989; FRule: @CRules[968]),
+ (FStart: 1990; FEnd: 1992; FRule: @CRules[405]),
+ (FStart: 1990; FEnd: 1991; FRule: @CRules[969]),
+ (FStart: 1992; FEnd: 1992; FRule: @CRules[970]),
+ (FStart: 1993; FEnd: 1993; FRule: @CRules[971]),
+ (FStart: 2004; FEnd: 2004; FRule: @CRules[972]),
+ (FStart: 2005; FEnd: 2005; FRule: @CRules[973]),
  (FStart: 2005; FEnd: 2005; FRule: @CRules[50]),
- (FStart: 2006; FEnd: 2006; FRule: @CRules[973]),
- (FStart: 2006; FEnd: 9999; FRule: @CRules[974]),
- (FStart: 2007; FEnd: 9999; FRule: @CRules[395])
+ (FStart: 2006; FEnd: 2006; FRule: @CRules[974]),
+ (FStart: 2006; FEnd: 9999; FRule: @CRules[975]),
+ (FStart: 2007; FEnd: 9999; FRule: @CRules[396])
  );
 
  { Date-bound rules for SystemV family }
  CFamily_139_Arr: array[0 .. 7] of TYearBoundRule = (
- (FStart: 1; FEnd: 1973; FRule: @CRules[736]),
+ (FStart: 1; FEnd: 1973; FRule: @CRules[737]),
  (FStart: 1; FEnd: 1973; FRule: @CRules[304]),
- (FStart: 1974; FEnd: 1974; FRule: @CRules[737]),
- (FStart: 1974; FEnd: 1974; FRule: @CRules[804]),
- (FStart: 1975; FEnd: 1975; FRule: @CRules[738]),
+ (FStart: 1974; FEnd: 1974; FRule: @CRules[738]),
+ (FStart: 1974; FEnd: 1974; FRule: @CRules[805]),
+ (FStart: 1975; FEnd: 1975; FRule: @CRules[739]),
  (FStart: 1975; FEnd: 1975; FRule: @CRules[304]),
- (FStart: 1976; FEnd: 9999; FRule: @CRules[736]),
+ (FStart: 1976; FEnd: 9999; FRule: @CRules[737]),
  (FStart: 1976; FEnd: 9999; FRule: @CRules[304])
  );
 
@@ -3623,7 +3628,7 @@ var
  (FCount: 8; FFirstRule: @CFamily_26_Arr),
  (FCount: 86; FFirstRule: @CFamily_27_Arr),
  (FCount: 4; FFirstRule: @CFamily_28_Arr),
- (FCount: 28; FFirstRule: @CFamily_29_Arr),
+ (FCount: 31; FFirstRule: @CFamily_29_Arr),
  (FCount: 4; FFirstRule: @CFamily_30_Arr),
  (FCount: 4; FFirstRule: @CFamily_31_Arr),
  (FCount: 24; FFirstRule: @CFamily_32_Arr),
@@ -3716,7 +3721,7 @@ var
  (FCount: 5; FFirstRule: @CFamily_119_Arr),
  (FCount: 6; FFirstRule: @CFamily_120_Arr),
  (FCount: 5; FFirstRule: @CFamily_121_Arr),
- (FCount: 38; FFirstRule: @CFamily_122_Arr),
+ (FCount: 39; FFirstRule: @CFamily_122_Arr),
  (FCount: 6; FFirstRule: @CFamily_123_Arr),
  (FCount: 2; FFirstRule: @CFamily_124_Arr),
  (FCount: 8; FFirstRule: @CFamily_125_Arr),
@@ -5545,10 +5550,9 @@ var
  );
 
  { Time periods for Asia/Amman zone }
- CZone_194_Arr: array[0 .. 2] of TPeriod = (
+ CZone_194_Arr: array[0 .. 1] of TPeriod = (
  (FOffset: 8624; FRuleFamily: nil; FFmtStr: 'LMT'; FUntilYear: 1931; FUntilMonth: 1; FUntilDay: nil; FUntilTime: 0; FUntilTimeMode: trLocal),
- (FOffset: 7200; FRuleFamily: @CRuleFamilies[29]; FFmtStr: 'EE%sT'; FUntilYear: 2012; FUntilMonth: 10; FUntilDay: @CRelativeDays[13]; FUntilTime: 0; FUntilTimeMode: trStandard),
- (FOffset: 10800; FRuleFamily: nil; FFmtStr: 'AST'; FUntilYear: 9999; FUntilMonth: 1; FUntilDay: nil; FUntilTime: 0; FUntilTimeMode: trLocal)
+ (FOffset: 7200; FRuleFamily: @CRuleFamilies[29]; FFmtStr: 'EE%sT'; FUntilYear: 9999; FUntilMonth: 1; FUntilDay: nil; FUntilTime: 0; FUntilTimeMode: trLocal)
  );
 
  { Time periods for Asia/Anadyr zone }
@@ -7697,7 +7701,7 @@ var
  (FName: 'Antarctica/Vostok'; FCount: 2; FFirstPeriod: @CZone_191_Arr),
  (FName: 'Asia/Aden'; FCount: 2; FFirstPeriod: @CZone_192_Arr),
  (FName: 'Asia/Almaty'; FCount: 6; FFirstPeriod: @CZone_193_Arr),
- (FName: 'Asia/Amman'; FCount: 3; FFirstPeriod: @CZone_194_Arr),
+ (FName: 'Asia/Amman'; FCount: 2; FFirstPeriod: @CZone_194_Arr),
  (FName: 'Asia/Anadyr'; FCount: 8; FFirstPeriod: @CZone_195_Arr),
  (FName: 'Asia/Aqtau'; FCount: 10; FFirstPeriod: @CZone_196_Arr),
  (FName: 'Asia/Aqtobe'; FCount: 9; FFirstPeriod: @CZone_197_Arr),

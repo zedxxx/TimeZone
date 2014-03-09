@@ -6,31 +6,7 @@ uses
   t_TzWorld;
 
 const
-  cAmericaMenominee_0: array [0..1] of TTimeZonePoint = (
-    (X: -877; Y: 454), (X: -877; Y: 454)
-  );
-
-  cAmericaMenominee_1: array [0..2] of TTimeZonePoint = (
-    (X: -877; Y: 453), (X: -877; Y: 452), (X: -877; Y: 453)
-  );
-
-  cAmericaMenominee_2: array [0..1] of TTimeZonePoint = (
-    (X: -877; Y: 451), (X: -877; Y: 451)
-  );
-
-  cAmericaMenominee_3: array [0..1] of TTimeZonePoint = (
-    (X: -877; Y: 452), (X: -877; Y: 452)
-  );
-
-  cAmericaMenominee_4: array [0..1] of TTimeZonePoint = (
-    (X: -877; Y: 452), (X: -877; Y: 452)
-  );
-
-  cAmericaMenominee_5: array [0..1] of TTimeZonePoint = (
-    (X: -877; Y: 452), (X: -877; Y: 452)
-  );
-
-  cAmericaMenominee_6: array [0..99] of TTimeZonePoint = (
+  cAmericaMenominee_0: array [0..99] of TTimeZonePoint = (
     (X: -877; Y: 454), (X: -878; Y: 454), (X: -878; Y: 453), (X: -878; Y: 454),
     (X: -878; Y: 453), (X: -878; Y: 454), (X: -878; Y: 453), (X: -879; Y: 453),
     (X: -879; Y: 454), (X: -878; Y: 454), (X: -878; Y: 455), (X: -878; Y: 456),
@@ -58,14 +34,8 @@ const
     (X: -877; Y: 453), (X: -876; Y: 453), (X: -876; Y: 454), (X: -877; Y: 454)
   );
 
-  cAmericaMenomineePolygon: array[0..6] of TTimeZonePolygon = (
-    (PointsCount: 2; FirstPoint: @cAmericaMenominee_0[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaMenominee_1[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaMenominee_2[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaMenominee_3[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaMenominee_4[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaMenominee_5[0]), 
-    (PointsCount: 100; FirstPoint: @cAmericaMenominee_6[0])
+  cAmericaMenomineePolygon: array[0..0] of TTimeZonePolygon = (
+    (PointsCount: 100; FirstPoint: @cAmericaMenominee_0[0])
   );
 
   cAmericaMenomineeBound: TTimeZoneBound = (
@@ -76,7 +46,7 @@ const
   cAmericaMenominee: TTimeZoneInfo = (
     TZID: 'America/Menominee';
     Bound: @cAmericaMenomineeBound;
-    PolygonsCount: 7;
+    PolygonsCount: 1;
     FirstPolygon: @cAmericaMenomineePolygon[0]
   );
 

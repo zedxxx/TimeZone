@@ -58,32 +58,64 @@ const
     (X: -8329; Y: 4506), (X: -8328; Y: 4507), (X: -8328; Y: 4506), (X: -8329; Y: 4506)
   );
 
-  cAmericaDetroit_10: array [0..5] of TTimeZonePoint = (
+  cAmericaDetroit_10: array [0..22] of TTimeZonePoint = (
+    (X: -8600; Y: 4505), (X: -8601; Y: 4506), (X: -8603; Y: 4509), (X: -8604; Y: 4509),
+    (X: -8605; Y: 4510), (X: -8605; Y: 4511), (X: -8606; Y: 4513), (X: -8606; Y: 4514),
+    (X: -8605; Y: 4515), (X: -8604; Y: 4516), (X: -8603; Y: 4516), (X: -8598; Y: 4515),
+    (X: -8598; Y: 4514), (X: -8597; Y: 4514), (X: -8597; Y: 4513), (X: -8598; Y: 4511),
+    (X: -8598; Y: 4509), (X: -8598; Y: 4508), (X: -8596; Y: 4507), (X: -8596; Y: 4506),
+    (X: -8598; Y: 4506), (X: -8599; Y: 4505), (X: -8600; Y: 4505)
+  );
+
+  cAmericaDetroit_11: array [0..5] of TTimeZonePoint = (
     (X: -8331; Y: 4518), (X: -8333; Y: 4518), (X: -8333; Y: 4519), (X: -8332; Y: 4519),
     (X: -8331; Y: 4519), (X: -8331; Y: 4518)
   );
 
-  cAmericaDetroit_11: array [0..4] of TTimeZonePoint = (
+  cAmericaDetroit_12: array [0..11] of TTimeZonePoint = (
+    (X: -8583; Y: 4537), (X: -8584; Y: 4539), (X: -8585; Y: 4540), (X: -8585; Y: 4541),
+    (X: -8587; Y: 4542), (X: -8587; Y: 4544), (X: -8584; Y: 4543), (X: -8583; Y: 4542),
+    (X: -8582; Y: 4539), (X: -8582; Y: 4538), (X: -8583; Y: 4538), (X: -8583; Y: 4537)
+  );
+
+  cAmericaDetroit_13: array [0..9] of TTimeZonePoint = (
+    (X: -8577; Y: 4546), (X: -8577; Y: 4547), (X: -8578; Y: 4547), (X: -8578; Y: 4548),
+    (X: -8579; Y: 4548), (X: -8578; Y: 4549), (X: -8577; Y: 4548), (X: -8576; Y: 4548),
+    (X: -8576; Y: 4546), (X: -8577; Y: 4546)
+  );
+
+  cAmericaDetroit_14: array [0..9] of TTimeZonePoint = (
+    (X: -8675; Y: 4550), (X: -8675; Y: 4548), (X: -8676; Y: 4548), (X: -8677; Y: 4548),
+    (X: -8678; Y: 4549), (X: -8678; Y: 4550), (X: -8678; Y: 4551), (X: -8677; Y: 4551),
+    (X: -8676; Y: 4550), (X: -8675; Y: 4550)
+  );
+
+  cAmericaDetroit_15: array [0..4] of TTimeZonePoint = (
+    (X: -8666; Y: 4552), (X: -8667; Y: 4552), (X: -8667; Y: 4553), (X: -8666; Y: 4553),
+    (X: -8666; Y: 4552)
+  );
+
+  cAmericaDetroit_16: array [0..4] of TTimeZonePoint = (
     (X: -8459; Y: 4582), (X: -8460; Y: 4582), (X: -8461; Y: 4582), (X: -8461; Y: 4583),
     (X: -8459; Y: 4582)
   );
 
-  cAmericaDetroit_12: array [0..4] of TTimeZonePoint = (
+  cAmericaDetroit_17: array [0..4] of TTimeZonePoint = (
     (X: -8486; Y: 4585), (X: -8487; Y: 4585), (X: -8487; Y: 4586), (X: -8486; Y: 4586),
     (X: -8486; Y: 4585)
   );
 
-  cAmericaDetroit_13: array [0..6] of TTimeZonePoint = (
+  cAmericaDetroit_18: array [0..6] of TTimeZonePoint = (
     (X: -8456; Y: 4595), (X: -8457; Y: 4595), (X: -8458; Y: 4595), (X: -8458; Y: 4596),
     (X: -8457; Y: 4596), (X: -8456; Y: 4596), (X: -8456; Y: 4595)
   );
 
-  cAmericaDetroit_14: array [0..5] of TTimeZonePoint = (
+  cAmericaDetroit_19: array [0..5] of TTimeZonePoint = (
     (X: -8426; Y: 4595), (X: -8428; Y: 4595), (X: -8429; Y: 4596), (X: -8428; Y: 4596),
     (X: -8426; Y: 4596), (X: -8426; Y: 4595)
   );
 
-  cAmericaDetroit_15: array [0..27] of TTimeZonePoint = (
+  cAmericaDetroit_20: array [0..27] of TTimeZonePoint = (
     (X: -8443; Y: 4596), (X: -8442; Y: 4596), (X: -8441; Y: 4596), (X: -8442; Y: 4597),
     (X: -8441; Y: 4597), (X: -8442; Y: 4598), (X: -8442; Y: 4599), (X: -8440; Y: 4598),
     (X: -8439; Y: 4598), (X: -8440; Y: 4599), (X: -8439; Y: 4599), (X: -8437; Y: 4597),
@@ -93,76 +125,76 @@ const
     (X: -8438; Y: 4593), (X: -8440; Y: 4594), (X: -8442; Y: 4595), (X: -8443; Y: 4596)
   );
 
-  cAmericaDetroit_16: array [0..12] of TTimeZonePoint = (
+  cAmericaDetroit_21: array [0..12] of TTimeZonePoint = (
     (X: -8462; Y: 4584), (X: -8463; Y: 4584), (X: -8464; Y: 4585), (X: -8465; Y: 4586),
     (X: -8464; Y: 4588), (X: -8463; Y: 4588), (X: -8462; Y: 4588), (X: -8462; Y: 4587),
     (X: -8461; Y: 4586), (X: -8460; Y: 4585), (X: -8460; Y: 4584), (X: -8461; Y: 4584),
     (X: -8462; Y: 4584)
   );
 
-  cAmericaDetroit_17: array [0..7] of TTimeZonePoint = (
+  cAmericaDetroit_22: array [0..7] of TTimeZonePoint = (
     (X: -8463; Y: 4595), (X: -8463; Y: 4596), (X: -8464; Y: 4597), (X: -8463; Y: 4597),
     (X: -8461; Y: 4597), (X: -8461; Y: 4596), (X: -8462; Y: 4595), (X: -8463; Y: 4595)
   );
 
-  cAmericaDetroit_18: array [0..12] of TTimeZonePoint = (
+  cAmericaDetroit_23: array [0..12] of TTimeZonePoint = (
     (X: -8433; Y: 4595), (X: -8435; Y: 4596), (X: -8434; Y: 4596), (X: -8433; Y: 4596),
     (X: -8435; Y: 4598), (X: -8435; Y: 4599), (X: -8434; Y: 4599), (X: -8433; Y: 4598),
     (X: -8433; Y: 4597), (X: -8432; Y: 4597), (X: -8431; Y: 4596), (X: -8431; Y: 4595),
     (X: -8433; Y: 4595)
   );
 
-  cAmericaDetroit_19: array [0..3] of TTimeZonePoint = (
+  cAmericaDetroit_24: array [0..3] of TTimeZonePoint = (
     (X: -8442; Y: 4597), (X: -8443; Y: 4597), (X: -8443; Y: 4598), (X: -8442; Y: 4597)
   );
 
-  cAmericaDetroit_20: array [0..5] of TTimeZonePoint = (
+  cAmericaDetroit_25: array [0..5] of TTimeZonePoint = (
     (X: -8430; Y: 4598), (X: -8430; Y: 4597), (X: -8431; Y: 4597), (X: -8432; Y: 4598),
     (X: -8432; Y: 4599), (X: -8430; Y: 4598)
   );
 
-  cAmericaDetroit_21: array [0..13] of TTimeZonePoint = (
+  cAmericaDetroit_26: array [0..13] of TTimeZonePoint = (
     (X: -8761; Y: 4740), (X: -8762; Y: 4740), (X: -8762; Y: 4741), (X: -8763; Y: 4741),
     (X: -8765; Y: 4741), (X: -8763; Y: 4742), (X: -8762; Y: 4742), (X: -8761; Y: 4742),
     (X: -8759; Y: 4742), (X: -8758; Y: 4741), (X: -8759; Y: 4741), (X: -8760; Y: 4741),
     (X: -8760; Y: 4740), (X: -8761; Y: 4740)
   );
 
-  cAmericaDetroit_22: array [0..4] of TTimeZonePoint = (
+  cAmericaDetroit_27: array [0..4] of TTimeZonePoint = (
     (X: -8881; Y: 4793), (X: -8878; Y: 4794), (X: -8878; Y: 4793), (X: -8880; Y: 4793),
     (X: -8881; Y: 4793)
   );
 
-  cAmericaDetroit_23: array [0..8] of TTimeZonePoint = (
+  cAmericaDetroit_28: array [0..8] of TTimeZonePoint = (
     (X: -8867; Y: 4813), (X: -8866; Y: 4814), (X: -8862; Y: 4815), (X: -8860; Y: 4816),
     (X: -8860; Y: 4815), (X: -8862; Y: 4815), (X: -8864; Y: 4814), (X: -8866; Y: 4813),
     (X: -8867; Y: 4813)
   );
 
-  cAmericaDetroit_24: array [0..3] of TTimeZonePoint = (
+  cAmericaDetroit_29: array [0..3] of TTimeZonePoint = (
     (X: -8862; Y: 4814), (X: -8860; Y: 4815), (X: -8860; Y: 4814), (X: -8862; Y: 4814)
   );
 
-  cAmericaDetroit_25: array [0..6] of TTimeZonePoint = (
+  cAmericaDetroit_30: array [0..6] of TTimeZonePoint = (
     (X: -8837; Y: 4822), (X: -8836; Y: 4823), (X: -8835; Y: 4823), (X: -8834; Y: 4823),
     (X: -8835; Y: 4823), (X: -8836; Y: 4823), (X: -8837; Y: 4822)
   );
 
-  cAmericaDetroit_26: array [0..1] of TTimeZonePoint = (
+  cAmericaDetroit_31: array [0..1] of TTimeZonePoint = (
     (X: -8856; Y: 4815), (X: -8856; Y: 4815)
   );
 
-  cAmericaDetroit_27: array [0..5] of TTimeZonePoint = (
+  cAmericaDetroit_32: array [0..5] of TTimeZonePoint = (
     (X: -8921; Y: 4788), (X: -8923; Y: 4787), (X: -8925; Y: 4786), (X: -8925; Y: 4787),
     (X: -8923; Y: 4787), (X: -8921; Y: 4788)
   );
 
-  cAmericaDetroit_28: array [0..4] of TTimeZonePoint = (
+  cAmericaDetroit_33: array [0..4] of TTimeZonePoint = (
     (X: -8880; Y: 4792), (X: -8881; Y: 4792), (X: -8882; Y: 4791), (X: -8882; Y: 4792),
     (X: -8880; Y: 4792)
   );
 
-  cAmericaDetroit_29: array [0..172] of TTimeZonePoint = (
+  cAmericaDetroit_34: array [0..172] of TTimeZonePoint = (
     (X: -8856; Y: 4815), (X: -8854; Y: 4816), (X: -8853; Y: 4816), (X: -8854; Y: 4815),
     (X: -8852; Y: 4816), (X: -8849; Y: 4818), (X: -8847; Y: 4818), (X: -8848; Y: 4817),
     (X: -8849; Y: 4817), (X: -8850; Y: 4816), (X: -8851; Y: 4816), (X: -8852; Y: 4815),
@@ -209,7 +241,7 @@ const
     (X: -8856; Y: 4815)
   );
 
-  cAmericaDetroit_30: array [0..167] of TTimeZonePoint = (
+  cAmericaDetroit_35: array [0..167] of TTimeZonePoint = (
     (X: -8861; Y: 4719), (X: -8861; Y: 4722), (X: -8861; Y: 4723), (X: -8860; Y: 4723),
     (X: -8857; Y: 4724), (X: -8855; Y: 4726), (X: -8853; Y: 4727), (X: -8850; Y: 4729),
     (X: -8849; Y: 4730), (X: -8848; Y: 4730), (X: -8848; Y: 4731), (X: -8846; Y: 4734),
@@ -254,16 +286,7 @@ const
     (X: -8863; Y: 4717), (X: -8862; Y: 4717), (X: -8862; Y: 4718), (X: -8861; Y: 4719)
   );
 
-  cAmericaDetroit_31: array [0..22] of TTimeZonePoint = (
-    (X: -8600; Y: 4505), (X: -8601; Y: 4506), (X: -8603; Y: 4509), (X: -8604; Y: 4509),
-    (X: -8605; Y: 4510), (X: -8605; Y: 4511), (X: -8606; Y: 4513), (X: -8606; Y: 4514),
-    (X: -8605; Y: 4515), (X: -8604; Y: 4516), (X: -8603; Y: 4516), (X: -8598; Y: 4515),
-    (X: -8598; Y: 4514), (X: -8597; Y: 4514), (X: -8597; Y: 4513), (X: -8598; Y: 4511),
-    (X: -8598; Y: 4509), (X: -8598; Y: 4508), (X: -8596; Y: 4507), (X: -8596; Y: 4506),
-    (X: -8598; Y: 4506), (X: -8599; Y: 4505), (X: -8600; Y: 4505)
-  );
-
-  cAmericaDetroit_32: array [0..1360] of TTimeZonePoint = (
+  cAmericaDetroit_36: array [0..1360] of TTimeZonePoint = (
     (X: -8480; Y: 4170), (X: -8481; Y: 4170), (X: -8481; Y: 4176), (X: -8483; Y: 4176),
     (X: -8487; Y: 4176), (X: -8520; Y: 4176), (X: -8522; Y: 4176), (X: -8529; Y: 4176),
     (X: -8558; Y: 4176), (X: -8566; Y: 4176), (X: -8576; Y: 4176), (X: -8579; Y: 4176),
@@ -607,29 +630,6 @@ const
     (X: -8480; Y: 4170)
   );
 
-  cAmericaDetroit_33: array [0..11] of TTimeZonePoint = (
-    (X: -8583; Y: 4537), (X: -8584; Y: 4539), (X: -8585; Y: 4540), (X: -8585; Y: 4541),
-    (X: -8587; Y: 4542), (X: -8587; Y: 4544), (X: -8584; Y: 4543), (X: -8583; Y: 4542),
-    (X: -8582; Y: 4539), (X: -8582; Y: 4538), (X: -8583; Y: 4538), (X: -8583; Y: 4537)
-  );
-
-  cAmericaDetroit_34: array [0..9] of TTimeZonePoint = (
-    (X: -8577; Y: 4546), (X: -8577; Y: 4547), (X: -8578; Y: 4547), (X: -8578; Y: 4548),
-    (X: -8579; Y: 4548), (X: -8578; Y: 4549), (X: -8577; Y: 4548), (X: -8576; Y: 4548),
-    (X: -8576; Y: 4546), (X: -8577; Y: 4546)
-  );
-
-  cAmericaDetroit_35: array [0..9] of TTimeZonePoint = (
-    (X: -8675; Y: 4550), (X: -8675; Y: 4548), (X: -8676; Y: 4548), (X: -8677; Y: 4548),
-    (X: -8678; Y: 4549), (X: -8678; Y: 4550), (X: -8678; Y: 4551), (X: -8677; Y: 4551),
-    (X: -8676; Y: 4550), (X: -8675; Y: 4550)
-  );
-
-  cAmericaDetroit_36: array [0..4] of TTimeZonePoint = (
-    (X: -8666; Y: 4552), (X: -8667; Y: 4552), (X: -8667; Y: 4553), (X: -8666; Y: 4553),
-    (X: -8666; Y: 4552)
-  );
-
   cAmericaDetroit_37: array [0..9] of TTimeZonePoint = (
     (X: -8664; Y: 4554), (X: -8665; Y: 4556), (X: -8665; Y: 4558), (X: -8664; Y: 4557),
     (X: -8663; Y: 4557), (X: -8662; Y: 4557), (X: -8662; Y: 4556), (X: -8662; Y: 4555),
@@ -711,7 +711,7 @@ const
     (X: -8545; Y: 4578), (X: -8545; Y: 4577), (X: -8546; Y: 4577), (X: -8547; Y: 4577)
   );
 
-  cAmericaDetroit_48: array [0..1099] of TTimeZonePoint = (
+  cAmericaDetroit_48: array [0..1010] of TTimeZonePoint = (
     (X: -8988; Y: 4677), (X: -8986; Y: 4678), (X: -8984; Y: 4679), (X: -8983; Y: 4680),
     (X: -8980; Y: 4681), (X: -8977; Y: 4682), (X: -8975; Y: 4682), (X: -8966; Y: 4683),
     (X: -8965; Y: 4683), (X: -8964; Y: 4682), (X: -8963; Y: 4681), (X: -8961; Y: 4682),
@@ -954,39 +954,17 @@ const
     (X: -8707; Y: 4571), (X: -8709; Y: 4571), (X: -8708; Y: 4570), (X: -8707; Y: 4571),
     (X: -8707; Y: 4570), (X: -8708; Y: 4570), (X: -8709; Y: 4569), (X: -8710; Y: 4568),
     (X: -8712; Y: 4568), (X: -8714; Y: 4567), (X: -8716; Y: 4566), (X: -8719; Y: 4564),
-    (X: -8722; Y: 4560), (X: -8724; Y: 4557), (X: -8726; Y: 4554), (X: -8729; Y: 4549),
-    (X: -8731; Y: 4546), (X: -8733; Y: 4544), (X: -8733; Y: 4543), (X: -8733; Y: 4542),
-    (X: -8733; Y: 4541), (X: -8734; Y: 4541), (X: -8735; Y: 4540), (X: -8736; Y: 4539),
-    (X: -8736; Y: 4538), (X: -8739; Y: 4536), (X: -8739; Y: 4535), (X: -8740; Y: 4534),
-    (X: -8741; Y: 4533), (X: -8742; Y: 4532), (X: -8743; Y: 4531), (X: -8743; Y: 4530),
-    (X: -8744; Y: 4529), (X: -8745; Y: 4528), (X: -8747; Y: 4527), (X: -8752; Y: 4520),
-    (X: -8753; Y: 4520), (X: -8758; Y: 4516), (X: -8759; Y: 4515), (X: -8760; Y: 4514),
-    (X: -8761; Y: 4511), (X: -8760; Y: 4510), (X: -8761; Y: 4510), (X: -8762; Y: 4510),
-    (X: -8761; Y: 4510), (X: -8760; Y: 4510), (X: -8761; Y: 4511), (X: -8761; Y: 4512),
-    (X: -8761; Y: 4513), (X: -8761; Y: 4514), (X: -8760; Y: 4514), (X: -8760; Y: 4515),
-    (X: -8759; Y: 4516), (X: -8759; Y: 4517), (X: -8758; Y: 4517), (X: -8757; Y: 4517),
-    (X: -8757; Y: 4518), (X: -8755; Y: 4519), (X: -8754; Y: 4519), (X: -8754; Y: 4520),
-    (X: -8752; Y: 4522), (X: -8751; Y: 4523), (X: -8749; Y: 4525), (X: -8747; Y: 4527),
-    (X: -8746; Y: 4528), (X: -8745; Y: 4529), (X: -8744; Y: 4529), (X: -8744; Y: 4530),
-    (X: -8744; Y: 4531), (X: -8743; Y: 4532), (X: -8743; Y: 4533), (X: -8742; Y: 4533),
-    (X: -8741; Y: 4533), (X: -8741; Y: 4534), (X: -8741; Y: 4535), (X: -8740; Y: 4535),
-    (X: -8740; Y: 4536), (X: -8740; Y: 4537), (X: -8739; Y: 4537), (X: -8738; Y: 4538),
-    (X: -8737; Y: 4539), (X: -8736; Y: 4540), (X: -8736; Y: 4541), (X: -8735; Y: 4541),
-    (X: -8734; Y: 4541), (X: -8734; Y: 4542), (X: -8733; Y: 4542), (X: -8733; Y: 4543),
-    (X: -8734; Y: 4544), (X: -8734; Y: 4545), (X: -8733; Y: 4545), (X: -8733; Y: 4546),
-    (X: -8732; Y: 4546), (X: -8732; Y: 4547), (X: -8731; Y: 4547), (X: -8731; Y: 4548),
-    (X: -8730; Y: 4549), (X: -8730; Y: 4550), (X: -8729; Y: 4550), (X: -8729; Y: 4551),
-    (X: -8728; Y: 4552), (X: -8728; Y: 4553), (X: -8727; Y: 4554), (X: -8727; Y: 4555),
-    (X: -8733; Y: 4555), (X: -8733; Y: 4590), (X: -8737; Y: 4590), (X: -8737; Y: 4598),
-    (X: -8750; Y: 4599), (X: -8762; Y: 4599), (X: -8762; Y: 4607), (X: -8762; Y: 4616),
-    (X: -8762; Y: 4625), (X: -8774; Y: 4625), (X: -8812; Y: 4625), (X: -8812; Y: 4628),
-    (X: -8812; Y: 4642), (X: -8824; Y: 4642), (X: -8837; Y: 4642), (X: -8862; Y: 4642),
-    (X: -8868; Y: 4642), (X: -8873; Y: 4642), (X: -8874; Y: 4642), (X: -8899; Y: 4642),
-    (X: -8899; Y: 4633), (X: -8905; Y: 4633), (X: -8912; Y: 4633), (X: -8924; Y: 4633),
-    (X: -8937; Y: 4633), (X: -8937; Y: 4639), (X: -8937; Y: 4642), (X: -8936; Y: 4650),
-    (X: -8949; Y: 4651), (X: -8961; Y: 4651), (X: -8974; Y: 4651), (X: -8974; Y: 4659),
-    (X: -8984; Y: 4659), (X: -8987; Y: 4659), (X: -8986; Y: 4663), (X: -8986; Y: 4668),
-    (X: -8986; Y: 4671), (X: -8986; Y: 4672), (X: -8986; Y: 4677), (X: -8988; Y: 4677)
+    (X: -8722; Y: 4560), (X: -8724; Y: 4557), (X: -8726; Y: 4555), (X: -8733; Y: 4555),
+    (X: -8733; Y: 4590), (X: -8737; Y: 4590), (X: -8737; Y: 4598), (X: -8750; Y: 4599),
+    (X: -8762; Y: 4599), (X: -8762; Y: 4607), (X: -8762; Y: 4616), (X: -8762; Y: 4625),
+    (X: -8774; Y: 4625), (X: -8812; Y: 4625), (X: -8812; Y: 4628), (X: -8812; Y: 4642),
+    (X: -8824; Y: 4642), (X: -8837; Y: 4642), (X: -8862; Y: 4642), (X: -8868; Y: 4642),
+    (X: -8873; Y: 4642), (X: -8874; Y: 4642), (X: -8899; Y: 4642), (X: -8899; Y: 4633),
+    (X: -8905; Y: 4633), (X: -8912; Y: 4633), (X: -8924; Y: 4633), (X: -8937; Y: 4633),
+    (X: -8937; Y: 4639), (X: -8937; Y: 4642), (X: -8936; Y: 4650), (X: -8949; Y: 4651),
+    (X: -8961; Y: 4651), (X: -8974; Y: 4651), (X: -8974; Y: 4659), (X: -8984; Y: 4659),
+    (X: -8987; Y: 4659), (X: -8986; Y: 4663), (X: -8986; Y: 4668), (X: -8986; Y: 4671),
+    (X: -8986; Y: 4672), (X: -8986; Y: 4677), (X: -8988; Y: 4677)
   );
 
   cAmericaDetroitPolygon: array[0..48] of TTimeZonePolygon = (
@@ -1000,33 +978,33 @@ const
     (PointsCount: 7; FirstPoint: @cAmericaDetroit_7[0]), 
     (PointsCount: 3; FirstPoint: @cAmericaDetroit_8[0]), 
     (PointsCount: 4; FirstPoint: @cAmericaDetroit_9[0]), 
-    (PointsCount: 6; FirstPoint: @cAmericaDetroit_10[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaDetroit_11[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaDetroit_12[0]), 
-    (PointsCount: 7; FirstPoint: @cAmericaDetroit_13[0]), 
-    (PointsCount: 6; FirstPoint: @cAmericaDetroit_14[0]), 
-    (PointsCount: 28; FirstPoint: @cAmericaDetroit_15[0]), 
-    (PointsCount: 13; FirstPoint: @cAmericaDetroit_16[0]), 
-    (PointsCount: 8; FirstPoint: @cAmericaDetroit_17[0]), 
-    (PointsCount: 13; FirstPoint: @cAmericaDetroit_18[0]), 
-    (PointsCount: 4; FirstPoint: @cAmericaDetroit_19[0]), 
-    (PointsCount: 6; FirstPoint: @cAmericaDetroit_20[0]), 
-    (PointsCount: 14; FirstPoint: @cAmericaDetroit_21[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaDetroit_22[0]), 
-    (PointsCount: 9; FirstPoint: @cAmericaDetroit_23[0]), 
+    (PointsCount: 23; FirstPoint: @cAmericaDetroit_10[0]), 
+    (PointsCount: 6; FirstPoint: @cAmericaDetroit_11[0]), 
+    (PointsCount: 12; FirstPoint: @cAmericaDetroit_12[0]), 
+    (PointsCount: 10; FirstPoint: @cAmericaDetroit_13[0]), 
+    (PointsCount: 10; FirstPoint: @cAmericaDetroit_14[0]), 
+    (PointsCount: 5; FirstPoint: @cAmericaDetroit_15[0]), 
+    (PointsCount: 5; FirstPoint: @cAmericaDetroit_16[0]), 
+    (PointsCount: 5; FirstPoint: @cAmericaDetroit_17[0]), 
+    (PointsCount: 7; FirstPoint: @cAmericaDetroit_18[0]), 
+    (PointsCount: 6; FirstPoint: @cAmericaDetroit_19[0]), 
+    (PointsCount: 28; FirstPoint: @cAmericaDetroit_20[0]), 
+    (PointsCount: 13; FirstPoint: @cAmericaDetroit_21[0]), 
+    (PointsCount: 8; FirstPoint: @cAmericaDetroit_22[0]), 
+    (PointsCount: 13; FirstPoint: @cAmericaDetroit_23[0]), 
     (PointsCount: 4; FirstPoint: @cAmericaDetroit_24[0]), 
-    (PointsCount: 7; FirstPoint: @cAmericaDetroit_25[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaDetroit_26[0]), 
-    (PointsCount: 6; FirstPoint: @cAmericaDetroit_27[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaDetroit_28[0]), 
-    (PointsCount: 173; FirstPoint: @cAmericaDetroit_29[0]), 
-    (PointsCount: 168; FirstPoint: @cAmericaDetroit_30[0]), 
-    (PointsCount: 23; FirstPoint: @cAmericaDetroit_31[0]), 
-    (PointsCount: 1361; FirstPoint: @cAmericaDetroit_32[0]), 
-    (PointsCount: 12; FirstPoint: @cAmericaDetroit_33[0]), 
-    (PointsCount: 10; FirstPoint: @cAmericaDetroit_34[0]), 
-    (PointsCount: 10; FirstPoint: @cAmericaDetroit_35[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaDetroit_36[0]), 
+    (PointsCount: 6; FirstPoint: @cAmericaDetroit_25[0]), 
+    (PointsCount: 14; FirstPoint: @cAmericaDetroit_26[0]), 
+    (PointsCount: 5; FirstPoint: @cAmericaDetroit_27[0]), 
+    (PointsCount: 9; FirstPoint: @cAmericaDetroit_28[0]), 
+    (PointsCount: 4; FirstPoint: @cAmericaDetroit_29[0]), 
+    (PointsCount: 7; FirstPoint: @cAmericaDetroit_30[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaDetroit_31[0]), 
+    (PointsCount: 6; FirstPoint: @cAmericaDetroit_32[0]), 
+    (PointsCount: 5; FirstPoint: @cAmericaDetroit_33[0]), 
+    (PointsCount: 173; FirstPoint: @cAmericaDetroit_34[0]), 
+    (PointsCount: 168; FirstPoint: @cAmericaDetroit_35[0]), 
+    (PointsCount: 1361; FirstPoint: @cAmericaDetroit_36[0]), 
     (PointsCount: 10; FirstPoint: @cAmericaDetroit_37[0]), 
     (PointsCount: 9; FirstPoint: @cAmericaDetroit_38[0]), 
     (PointsCount: 6; FirstPoint: @cAmericaDetroit_39[0]), 
@@ -1038,7 +1016,7 @@ const
     (PointsCount: 18; FirstPoint: @cAmericaDetroit_45[0]), 
     (PointsCount: 14; FirstPoint: @cAmericaDetroit_46[0]), 
     (PointsCount: 24; FirstPoint: @cAmericaDetroit_47[0]), 
-    (PointsCount: 1100; FirstPoint: @cAmericaDetroit_48[0])
+    (PointsCount: 1011; FirstPoint: @cAmericaDetroit_48[0])
   );
 
   cAmericaDetroitBound: TTimeZoneBound = (

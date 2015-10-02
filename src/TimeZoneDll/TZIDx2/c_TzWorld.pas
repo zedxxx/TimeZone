@@ -410,8 +410,7 @@ uses
   c_PacificTarawa,
   c_PacificTongatapu,
   c_PacificWake,
-  c_PacificWallis{,
-  c_uninhabited};
+  c_PacificWallis;
 
 const
   cTzWorld: array [0..406] of PTimeZoneInfo = (
@@ -821,8 +820,7 @@ const
     @cPacificTarawa, 
     @cPacificTongatapu, 
     @cPacificWake, 
-    @cPacificWallis{, 
-    @cuninhabited}
+    @cPacificWallis
   );
 
   cDegreeAccuracyDiv = 100;

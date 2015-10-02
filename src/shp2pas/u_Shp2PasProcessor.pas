@@ -17,6 +17,7 @@ type
     FKmlOutputRoot: string;
     FLatLonAccuracy: TLatLonAccuracy;
     FDoCompactArray: Boolean;
+    FWithUninhabited: Boolean;
     FOnProcessMessages: TOnProgressMessages;
     FMemStream: TMemoryStream;
     FRoundedArray: TRoundedArray;
@@ -51,7 +52,8 @@ type
       const AOutPutPath: string;
       const ALatLonAccuracy: TLatLonAccuracy;
       const ADoCompactArray: Boolean;
-      const AOnProcessMessages: TOnProgressMessages
+      const AOnProcessMessages: TOnProgressMessages;
+      const AWithUninhabited: Boolean = False
     );
     destructor Destroy; override;
     procedure Process;
@@ -71,6 +73,7 @@ const
   cTzPolygon = 'TzPolygon';
   cTzWorldConst = 'c_TzWorld';
   cTzWorldTypes = 't_TzWorld';
+  cUninhabited = 'uninhabited';
 
 { TShp2PasProcessor }
 
@@ -79,7 +82,8 @@ constructor TShp2PasProcessor.Create(
   const AOutPutPath: string;
   const ALatLonAccuracy: TLatLonAccuracy;
   const ADoCompactArray: Boolean;
-  const AOnProcessMessages: TOnProgressMessages
+  const AOnProcessMessages: TOnProgressMessages;
+  const AWithUninhabited: Boolean
 );
 begin
   inherited Create;
@@ -88,6 +92,7 @@ begin
   FLatLonAccuracy := ALatLonAccuracy;
   FDoCompactArray := ADoCompactArray;
   FOnProcessMessages := AOnProcessMessages;
+  FWithUninhabited := AWithUninhabited;
   FMemStream := TMemoryStream.Create;
   FKmlOutputRoot := FOutPutPath + cKmlRoot + PathDelim;
   ForceDirectories(FKmlOutputRoot);
@@ -159,6 +164,12 @@ begin
         );
 
         BufferToFile(VCurFileBody, VCurFileName);
+
+        if not FWithUninhabited then begin
+          if SameText(VCurArrayBaseName, cUninhabited) then begin
+            Continue;
+          end;
+        end;
 
         VTZIDList.Add(VCurArrayBaseName);
 

@@ -1,6 +1,5 @@
 # use glob syntax.
 syntax: glob
-.bin/*
 *.bak
 *.dcu
 *.~*
@@ -11,3 +10,4 @@ syntax: glob
 *.dproj.local
 *.identcache
 *.cbk
+bin\TimeZone.dll

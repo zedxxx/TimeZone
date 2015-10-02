@@ -10,4 +10,5 @@ syntax: glob
 *.dproj.local
 *.identcache
 *.cbk
-bin\TimeZone.dll
+bin/TimeZone.dll
+bin/tz_world_mp.zip

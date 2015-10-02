@@ -1,0 +1,29 @@
+1 VERSIONINFO
+FILEVERSION 1,0,6,0
+PRODUCTVERSION 1,0,0,0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE VFT2_UNKNOWN
+{
+BLOCK "StringFileInfo"
+{
+   BLOCK "040904E4"
+   {
+      VALUE "CompanyName", "zed\000"
+      VALUE "FileDescription", "Based on tzdata.2015g (2015-10-01) and tz_world_mp (2013-11-26)\000"
+      VALUE "FileVersion", "1.0.6.0\000"
+      VALUE "InternalName", "TimeZoneLib\000"
+      VALUE "LegalCopyright", "zed\000"
+      VALUE "LegalTrademarks", "zed\000"
+      VALUE "OriginalFilename", "TimeZone.dll\000"
+      VALUE "ProductName", "TimeZone\000"
+      VALUE "ProductVersion", "1.0.0.0\000"
+      VALUE "Comments", "\000"
+   }
+}
+
+BLOCK "VarFileInfo"
+{
+   VALUE "Translation", 0x0409 0x04E4
+}
+}

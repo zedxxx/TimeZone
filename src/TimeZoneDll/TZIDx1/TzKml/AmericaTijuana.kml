@@ -24,7 +24,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      -116.800000,31.800000,0 -116.800000,31.800000,0 
+      -114.500000,30.100000,0 -114.500000,30.100000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>
@@ -38,7 +38,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      -116.800000,31.800000,0 -116.800000,31.800000,0 
+      -116.100000,30.500000,0 -116.100000,30.500000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>
@@ -52,7 +52,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      -114.700000,32.700000,0 -114.800000,32.700000,0 -114.800000,32.600000,0 -114.800000,32.500000,0 -115.000000,32.500000,0 -116.400000,32.400000,0 -116.500000,31.700000,0 -116.700000,31.700000,0 -116.600000,31.700000,0 -116.600000,31.800000,0 -116.600000,31.900000,0 -116.600000,31.800000,0 -116.600000,31.900000,0 -116.700000,31.900000,0 -116.800000,31.900000,0 -116.800000,32.000000,0 -116.900000,32.000000,0 -116.900000,32.100000,0 -116.900000,32.200000,0 -117.000000,32.300000,0 -117.100000,32.300000,0 -117.100000,32.400000,0 -117.100000,32.500000,0 -115.000000,32.700000,0 -114.700000,32.700000,0 
+      -116.800000,31.800000,0 -116.800000,31.800000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>
@@ -81,6 +81,398 @@
      <extrude>1</extrude>
      <coordinates>
       -117.300000,32.400000,0 -117.300000,32.400000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_5</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -116.800000,31.800000,0 -116.800000,31.800000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_6</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -113.100000,29.100000,0 -113.100000,29.100000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_7</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -113.600000,29.600000,0 -113.600000,29.600000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_8</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -114.400000,29.800000,0 -114.400000,29.800000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_9</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -114.500000,30.000000,0 -114.500000,30.000000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_10</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -114.400000,29.900000,0 -114.400000,30.000000,0 -114.400000,29.900000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_11</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -114.400000,30.000000,0 -114.400000,30.000000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_12</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -113.500000,29.000000,0 -113.500000,29.000000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_13</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -113.500000,29.000000,0 -113.500000,29.100000,0 -113.500000,29.000000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_14</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -113.500000,29.000000,0 -113.500000,29.000000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_15</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -115.400000,28.100000,0 -115.400000,28.100000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_16</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -115.600000,28.300000,0 -115.600000,28.300000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_17</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -112.900000,28.700000,0 -112.800000,28.700000,0 -112.800000,28.600000,0 -112.900000,28.600000,0 -112.900000,28.700000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_18</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -112.900000,28.700000,0 -112.900000,28.700000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_19</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -113.000000,28.700000,0 -113.000000,28.700000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_20</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -115.200000,28.000000,0 -115.300000,28.000000,0 -115.300000,28.100000,0 -115.400000,28.100000,0 -115.300000,28.100000,0 -115.300000,28.200000,0 -115.200000,28.200000,0 -115.300000,28.300000,0 -115.300000,28.400000,0 -115.200000,28.400000,0 -115.200000,28.300000,0 -115.200000,28.200000,0 -115.100000,28.200000,0 -115.200000,28.200000,0 -115.200000,28.100000,0 -115.200000,28.000000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_21</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -115.500000,28.300000,0 -115.500000,28.300000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_22</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -115.600000,28.300000,0 -115.500000,28.300000,0 -115.600000,28.300000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_23</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -113.000000,28.800000,0 -113.000000,28.800000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_24</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -118.400000,28.900000,0 -118.400000,28.900000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_25</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -113.000000,28.900000,0 -113.000000,28.900000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_26</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -113.500000,29.000000,0 -113.500000,29.000000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_27</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -113.500000,29.000000,0 -113.500000,29.000000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_28</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -113.000000,28.900000,0 -113.000000,28.900000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_29</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -113.000000,28.900000,0 -113.000000,28.900000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_30</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -118.400000,29.200000,0 -118.400000,29.100000,0 -118.300000,29.100000,0 -118.300000,29.000000,0 -118.300000,28.900000,0 -118.400000,28.900000,0 -118.400000,29.000000,0 -118.400000,29.100000,0 -118.500000,29.100000,0 -118.400000,29.100000,0 -118.400000,29.200000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_31</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -113.600000,29.600000,0 -113.600000,29.500000,0 -113.600000,29.600000,0 -113.500000,29.600000,0 -113.500000,29.500000,0 -113.400000,29.500000,0 -113.400000,29.400000,0 -113.400000,29.300000,0 -113.300000,29.300000,0 -113.200000,29.300000,0 -113.200000,29.200000,0 -113.200000,29.100000,0 -113.100000,29.100000,0 -113.100000,29.000000,0 -113.200000,29.000000,0 -113.200000,29.100000,0 -113.300000,29.100000,0 -113.300000,29.200000,0 -113.400000,29.200000,0 -113.500000,29.300000,0 -113.400000,29.300000,0 -113.500000,29.300000,0 -113.500000,29.400000,0 -113.600000,29.400000,0 -113.600000,29.500000,0 -113.600000,29.600000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAmericaTijuana_32</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -114.700000,32.700000,0 -114.800000,32.700000,0 -114.800000,32.600000,0 -114.800000,32.500000,0 -114.800000,32.400000,0 -114.900000,32.400000,0 -114.900000,32.300000,0 -115.000000,32.300000,0 -115.000000,32.200000,0 -115.000000,32.100000,0 -115.000000,32.000000,0 -115.000000,31.900000,0 -114.900000,31.900000,0 -114.900000,31.800000,0 -114.800000,31.800000,0 -114.800000,31.700000,0 -114.800000,31.600000,0 -114.900000,31.500000,0 -114.800000,31.500000,0 -114.900000,31.500000,0 -114.900000,31.400000,0 -114.900000,31.300000,0 -114.900000,31.200000,0 -114.900000,31.100000,0 -114.800000,31.100000,0 -114.800000,31.000000,0 -114.700000,30.900000,0 -114.700000,30.800000,0 -114.700000,30.700000,0 -114.700000,30.600000,0 -114.600000,30.500000,0 -114.600000,30.400000,0 -114.600000,30.300000,0 -114.700000,30.300000,0 -114.600000,30.300000,0 -114.600000,30.200000,0 -114.700000,30.200000,0 -114.600000,30.200000,0 -114.600000,30.100000,0 -114.600000,30.000000,0 -114.500000,30.000000,0 -114.500000,29.900000,0 -114.400000,29.900000,0 -114.400000,29.800000,0 -114.300000,29.800000,0 -114.300000,29.700000,0 -114.300000,29.800000,0 -114.200000,29.800000,0 -114.200000,29.700000,0 -114.100000,29.700000,0 -114.100000,29.600000,0 -114.000000,29.600000,0 -114.000000,29.500000,0 -113.900000,29.500000,0 -113.800000,29.500000,0 -113.800000,29.400000,0 -113.700000,29.400000,0 -113.700000,29.300000,0 -113.600000,29.300000,0 -113.600000,29.200000,0 -113.700000,29.200000,0 -113.600000,29.200000,0 -113.600000,29.100000,0 -113.500000,29.100000,0 -113.500000,29.000000,0 -113.600000,29.000000,0 -113.500000,29.000000,0 -113.600000,29.000000,0 -113.500000,29.000000,0 -113.500000,28.900000,0 -113.500000,29.000000,0 -113.400000,29.000000,0 -113.500000,28.900000,0 -113.400000,28.900000,0 -113.400000,29.000000,0 -113.400000,28.900000,0 -113.400000,28.800000,0 -113.300000,28.800000,0 -113.200000,28.800000,0 -113.200000,28.700000,0 -113.100000,28.700000,0 -113.100000,28.600000,0 -113.100000,28.500000,0 -113.000000,28.500000,0 -112.900000,28.500000,0 -112.900000,28.400000,0 -112.800000,28.400000,0 -112.900000,28.400000,0 -112.800000,28.400000,0 -112.900000,28.400000,0 -112.900000,28.300000,0 -112.800000,28.200000,0 -112.800000,28.100000,0 -112.800000,28.000000,0 -112.900000,28.000000,0 -113.000000,28.000000,0 -113.100000,28.000000,0 -113.300000,28.000000,0 -113.600000,28.000000,0 -113.700000,28.000000,0 -113.900000,28.000000,0 -114.200000,28.000000,0 -114.100000,28.100000,0 -114.100000,28.200000,0 -114.100000,28.300000,0 -114.100000,28.400000,0 -114.000000,28.400000,0 -114.000000,28.500000,0 -114.100000,28.500000,0 -114.100000,28.600000,0 -114.200000,28.600000,0 -114.100000,28.600000,0 -114.200000,28.600000,0 -114.200000,28.700000,0 -114.300000,28.700000,0 -114.300000,28.800000,0 -114.400000,28.800000,0 -114.400000,28.900000,0 -114.500000,28.900000,0 -114.500000,29.000000,0 -114.600000,29.000000,0 -114.600000,29.100000,0 -114.700000,29.100000,0 -114.700000,29.200000,0 -114.800000,29.200000,0 -114.800000,29.300000,0 -114.900000,29.300000,0 -115.000000,29.400000,0 -115.100000,29.400000,0 -115.200000,29.400000,0 -115.200000,29.500000,0 -115.300000,29.500000,0 -115.300000,29.600000,0 -115.400000,29.600000,0 -115.500000,29.600000,0 -115.500000,29.700000,0 -115.600000,29.700000,0 -115.700000,29.700000,0 -115.700000,29.800000,0 -115.700000,29.900000,0 -115.700000,30.000000,0 -115.800000,30.000000,0 -115.800000,29.900000,0 -115.800000,30.000000,0 -115.800000,30.100000,0 -115.800000,30.200000,0 -115.800000,30.300000,0 -115.900000,30.400000,0 -116.000000,30.400000,0 -116.000000,30.500000,0 -116.000000,30.600000,0 -116.000000,30.700000,0 -116.000000,30.800000,0 -116.100000,30.800000,0 -116.200000,30.900000,0 -116.300000,31.000000,0 -116.300000,31.100000,0 -116.300000,31.200000,0 -116.400000,31.200000,0 -116.400000,31.300000,0 -116.500000,31.300000,0 -116.500000,31.400000,0 -116.600000,31.500000,0 -116.700000,31.500000,0 -116.700000,31.600000,0 -116.700000,31.500000,0 -116.700000,31.600000,0 -116.600000,31.600000,0 -116.700000,31.600000,0 -116.600000,31.600000,0 -116.600000,31.700000,0 -116.700000,31.700000,0 -116.600000,31.700000,0 -116.600000,31.800000,0 -116.600000,31.900000,0 -116.600000,31.800000,0 -116.600000,31.900000,0 -116.700000,31.900000,0 -116.800000,31.900000,0 -116.800000,32.000000,0 -116.900000,32.000000,0 -116.900000,32.100000,0 -116.900000,32.200000,0 -117.000000,32.300000,0 -117.100000,32.300000,0 -117.100000,32.400000,0 -117.100000,32.500000,0 -115.000000,32.700000,0 -114.700000,32.700000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>

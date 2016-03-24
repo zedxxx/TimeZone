@@ -23,16 +23,22 @@
 <body>
 <h2 align='center'>tz_world, an efele.net/tz map</h2>
 <h3 align='center'>A shapefile of the TZ timezones of the world</h3>
-<p align='center'>Last data update: November 26, 2013</p>
-<p align='center'>Last page update: July 5, 2013</p>
+<p align='center'>Last data update: March 20, 2016</p>
+<p align='center'>Last page update: March 20, 2016</p>
+<p align='center'>TZ version: 2016b</p>
+
 <p>&nbsp;</p>
-<p>The <a href="tz_world.zip">tz_world</a> shapefile captures the boundaries of the TZ timezones across the world, as of TZ 2013b. The geometries are all POLYGONs, and a TZ timezone will sometimes have multiple polygons. There are about 28,000 rows.</p>
-<p>The <a href="tz_world_mp.zip">tz_world_mp</a> shapefile  captures the same boundaries. The geometries are either POLYGONs or MULTIPOLYGONs, and there is a single geometry for each TZ timezone.</p>
+
+<p>The tz_world shapefile (<a href="tz_world.zip">zip</a>, <a href="tz_world.zip.sha1">sha1</a>) captures the boundaries of the TZ timezones across the world, as of TZ 2016b. The geometries are all POLYGONs, and a TZ timezone will sometimes have multiple polygons. There are about 28,000 rows.</p>
+
+<p>The tz_world_mp shapefile (<a href="tz_world_mp.zip">zip</a>, <a href="tz_world_mp.zip.sha1">sha1</a>)  captures the same boundaries. The geometries are either POLYGONs or MULTIPOLYGONs, and there is a single geometry for each TZ timezone.</p>
+
 <p>There is a companion map for the TZ timezones used in <a href="../antarctica">Antarctica</a> stations.</p>
+
 <p>The geometries are primarily derived from the <a href="/maps/fips-10/map">fip10s</a> data (itself derived from the VMAP0 data), augmented with data presented in the pages for the maps of the <a href="../us">United States</a>, <a href='../canada'>Canada</a>, <a href="../russia">Russia</a> and <a href='../china'>China</a>.</p>
 <h3>Snapshot of the zones</h3>
 <p>This is a snaphsot of the zones (many of the smaller zones are not visible at this scale):</p>
-<p align="center"><img src="tz_world.png" /></p>
+<p align="center"><img style='max-width:90%;' src="tz_world.png" /></p>
 
 <h3>&nbsp;</h3>
 <h3>Timezones at sea</h3>
@@ -83,7 +89,7 @@ interior of the country". Similarly, we use a somewhat arbitrary boundary betwee
 
 <h3>Construction of the shapefile</h3>
 
-<p>The zip of the <a href="tz_world_ingredients.zip">ingredients</a> contains a script to build the map from the source, as well as a .prj file for the source map.</p>
+<p>The ingredients (<a href="tz_world_ingredients.zip">zip</a>, <a href="tz_world_ingredients.zip.sha1">sha1</a>) contain a script to build the map from the source, as well as a .prj file for the source map.</p>
 
 <p>For the United States, Russia and China, we started from the tz maps for those countries and turned them manually into masks; the idea is to retain from them only the boundaries that are not present in our base map. Those mask shapefiles are in the ingredients.</p>
 
@@ -107,6 +113,32 @@ This work is published from <span about="http://efele.net/maps/tz" property="vca
 <p><span class="style4"><a href="/contact.html">Contact</a> - <a href="../../thanks.html">Thanks</a></span></p>
 <p>History:</p>
 <ul>
+  <li>March 20, 2016:
+    <ul>
+      <li>updated to tz2016b:
+      <ul>
+        <li>introduced Asia/Barnaul, Europe/Astrakhan, Europe/Ulyanovsk.</li>
+        <li>Durango state in Mexico is entirely in America/Monterrey</li>
+        <li>Baja California state in Mexico is entirely in America/Tijuana (and America/Santa_Isabel no longer exists).</li> 
+        <li>properly label Busingen with Europe/Busingen.</li>
+      </ul>
+      </li>
+      <li>added SHA-1 of the zip files.</li>
+    </ul>
+  </li>
+  <li>November 7, 2015:
+  <ul>
+    <li>Split Pacific/Bougainville (= FIPS4 PP07) from Pacific/Port_Moresby</li>
+      <li>Asia/Chita created from Zabaykalsky Krai (formerly Chita Oblast and Agin-Buryat Autonomous Okrug).</li>
+      <li>Asia/Srednekolymsk created from parts of Asia/Magadan and Asia/Ust-Nera</li>
+    <li>Addition of America/Fort_Nelson.</li>
+  </ul>
+  </li>
+  <li>May 5, 2014:
+  <ul>
+    <li>added the missing tz_greenland_mask shapefile to the ingredients. Thanks to Blake Crosby for reporting the problem.</li>
+  </ul>
+  </li>
   <li>November 26, 2013:
     <ul>
       <li>fixed a problem along the boundary of America/Menominee and Lake Michigan. Thanks to James Diebel for reporting the problem.</li>

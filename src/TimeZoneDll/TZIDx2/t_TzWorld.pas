@@ -3,7 +3,7 @@ unit t_TzWorld;
 interface
 
 type
-  TTimeZonePoint = packed record
+  TTimeZonePoint = record
     X: SmallInt; // Lon
     Y: SmallInt; // Lat
   end;

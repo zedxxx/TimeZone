@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>PacificYap.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cPacificYap_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      143.850000,7.330000,0 143.850000,7.320000,0 143.840000,7.320000,0 143.840000,7.330000,0 143.850000,7.330000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificYap_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      147.050000,7.360000,0 147.040000,7.360000,0 147.040000,7.350000,0 147.030000,7.360000,0 147.040000,7.360000,0 147.040000,7.370000,0 147.050000,7.360000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificYap_2</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      143.920000,7.380000,0 143.920000,7.370000,0 143.910000,7.370000,0 143.910000,7.380000,0 143.920000,7.380000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificYap_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      147.630000,8.090000,0 147.640000,8.090000,0 147.630000,8.080000,0 147.630000,8.090000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificYap_4</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      138.100000,9.550000,0 138.100000,9.560000,0 138.110000,9.570000,0 138.110000,9.580000,0 138.120000,9.580000,0 138.130000,9.590000,0 138.140000,9.580000,0 138.130000,9.580000,0 138.130000,9.570000,0 138.130000,9.560000,0 138.140000,9.560000,0 138.160000,9.570000,0 138.150000,9.570000,0 138.140000,9.570000,0 138.150000,9.580000,0 138.140000,9.580000,0 138.150000,9.590000,0 138.160000,9.600000,0 138.160000,9.610000,0 138.150000,9.610000,0 138.140000,9.630000,0 138.150000,9.640000,0 138.160000,9.630000,0 138.160000,9.620000,0 138.160000,9.610000,0 138.170000,9.610000,0 138.180000,9.610000,0 138.180000,9.600000,0 138.180000,9.590000,0 138.170000,9.580000,0 138.170000,9.590000,0 138.160000,9.580000,0 138.170000,9.570000,0 138.170000,9.560000,0 138.180000,9.550000,0 138.180000,9.560000,0 138.190000,9.560000,0 138.200000,9.560000,0 138.190000,9.550000,0 138.190000,9.540000,0 138.180000,9.530000,0 138.180000,9.520000,0 138.170000,9.520000,0 138.170000,9.530000,0 138.170000,9.520000,0 138.160000,9.520000,0 138.160000,9.510000,0 138.140000,9.520000,0 138.140000,9.530000,0 138.130000,9.530000,0 138.140000,9.550000,0 138.130000,9.540000,0 138.120000,9.520000,0 138.120000,9.510000,0 138.120000,9.500000,0 138.110000,9.500000,0 138.110000,9.490000,0 138.100000,9.490000,0 138.100000,9.480000,0 138.090000,9.480000,0 138.080000,9.470000,0 138.070000,9.470000,0 138.080000,9.460000,0 138.070000,9.460000,0 138.070000,9.450000,0 138.070000,9.440000,0 138.060000,9.440000,0 138.050000,9.450000,0 138.060000,9.460000,0 138.060000,9.480000,0 138.060000,9.490000,0 138.070000,9.500000,0 138.080000,9.510000,0 138.080000,9.520000,0 138.070000,9.520000,0 138.080000,9.520000,0 138.080000,9.530000,0 138.090000,9.530000,0 138.090000,9.540000,0 138.090000,9.550000,0 138.100000,9.550000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificYap_5</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      140.520000,9.770000,0 140.530000,9.770000,0 140.520000,9.760000,0 140.520000,9.750000,0 140.510000,9.750000,0 140.510000,9.760000,0 140.520000,9.770000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificYap_6</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      139.680000,9.890000,0 139.680000,9.880000,0 139.680000,9.890000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificYap_7</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      139.660000,9.900000,0 139.660000,9.910000,0 139.660000,9.920000,0 139.660000,9.910000,0 139.660000,9.900000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cPacificYap_8</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      139.780000,10.020000,0 139.790000,10.020000,0 139.800000,10.020000,0 139.790000,10.010000,0 139.790000,10.020000,0 139.780000,10.020000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

@@ -1,5 +1,7 @@
 cd ".\bin\"
 
+del /Q tz_world_mp.zip
+
 python get_tz_border.py
 python get_tz_data.py
 

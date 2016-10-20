@@ -1,17 +1,16 @@
 1 VERSIONINFO
-FILEVERSION 1,0,7,0
+FILEVERSION 1,0,8,0
 PRODUCTVERSION 1,0,0,0
 FILEOS VOS_NT_WINDOWS32
-FILETYPE VFT_APP
-FILESUBTYPE VFT2_UNKNOWN
+FILETYPE VFT_DLL
 {
 BLOCK "StringFileInfo"
 {
    BLOCK "040904E4"
    {
       VALUE "CompanyName", "zed\000"
-      VALUE "FileDescription", "Based on tzdata.2016c (2016-03-23) and tz_world_mp (2016-03-20)\000"
-      VALUE "FileVersion", "1.0.7.0\000"
+      VALUE "FileDescription", "Based on TZDB.2016h (2016-10-20) and TZ.2016d (2016-05-28)\000"
+      VALUE "FileVersion", "1.0.8.0\000"
       VALUE "InternalName", "TimeZoneLib\000"
       VALUE "LegalCopyright", "zed\000"
       VALUE "LegalTrademarks", "zed\000"

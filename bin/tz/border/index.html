@@ -23,20 +23,22 @@
 <body>
 <h2 align='center'>tz_world, an efele.net/tz map</h2>
 <h3 align='center'>A shapefile of the TZ timezones of the world</h3>
-<p align='center'>Last data update: March 20, 2016</p>
-<p align='center'>Last page update: March 20, 2016</p>
-<p align='center'>TZ version: 2016b</p>
+<p align='center'>Last data update: May 28, 2016</p>
+<p align='center'>Last page update: May 28, 2016</p>
+<p align='center'>TZ version: 2016d</p>
 
 <p>&nbsp;</p>
 
-<p>The tz_world shapefile (<a href="tz_world.zip">zip</a>, <a href="tz_world.zip.sha1">sha1</a>) captures the boundaries of the TZ timezones across the world, as of TZ 2016b. The geometries are all POLYGONs, and a TZ timezone will sometimes have multiple polygons. There are about 28,000 rows.</p>
+<p>The tz_world shapefile (<a href="tz_world.zip">zip</a>, <a href="tz_world.zip.sha1">sha1</a>) captures the boundaries of the TZ timezones across the world. The geometries are all POLYGONs, and a TZ timezone will sometimes have multiple polygons. There are about 28,000 rows.</p>
 
 <p>The tz_world_mp shapefile (<a href="tz_world_mp.zip">zip</a>, <a href="tz_world_mp.zip.sha1">sha1</a>)  captures the same boundaries. The geometries are either POLYGONs or MULTIPOLYGONs, and there is a single geometry for each TZ timezone.</p>
 
 <p>There is a companion map for the TZ timezones used in <a href="../antarctica">Antarctica</a> stations.</p>
 
-<p>The geometries are primarily derived from the <a href="/maps/fips-10/map">fip10s</a> data (itself derived from the VMAP0 data), augmented with data presented in the pages for the maps of the <a href="../us">United States</a>, <a href='../canada'>Canada</a>, <a href="../russia">Russia</a> and <a href='../china'>China</a>.</p>
+<p>The geometries are primarily derived from the <a href="/maps/fips-10/map">fip10s</a> data (itself derived from the VMAP0 data), augmented with data presented in the pages for the maps of the <a href="../us">United States</a>, <a href='../canada'>Canada</a>, <a href='../mexico'>Mexico</a>, <a href="../russia">Russia</a> and <a href='../china'>China</a>.</p>
+
 <h3>Snapshot of the zones</h3>
+
 <p>This is a snaphsot of the zones (many of the smaller zones are not visible at this scale):</p>
 <p align="center"><img style='max-width:90%;' src="tz_world.png" /></p>
 
@@ -45,8 +47,11 @@
 <p>The tz database says: “A ship within the territorial  waters of any nation uses that nation's time. In international  waters, time zone boundaries are meridians 15° apart, except that  UTC−12 and UTC+12 are each 7.5° wide and are separated by  the 180° meridian (not by the International Date Line, which is  for land and territorial waters only). A captain can change ship's  clocks any time after entering a new time zone; midnight changes are  common.” </p>
 <p>While the boundaries in international waters are not difficult to construct, the boundaries of territorial waters are a completely different story, and are similar to the boundaries between countries. Unfortunately, VMAP0 does not provide geometries for the territorial waters. As a consequence, the shapefiles presented here do not cover seas and oceans.</p>
 <p>&nbsp;</p>
+
 <h3>Logical description of the zones</h3>
-<p>The vast majority of the tz timezones are by construction matching a country, so little needs to be said about them: we equate them with the corresponding region in our fips10s data. We also discussed the situation of the  <a href="../us">United States</a>, <a href='../canada'>Canada</a>, <a href='../russia'>Russia</a> and <a href='../china'>China</a> in other pages. That leaves only a few countries with multiple time zones, and again, most of them are straightforward, with timezone matching administrative divisions of the countries: the correspondance is documented in the script we use to build the shapefile (see below). The rest of this section discusses the remaining cases, where the definition of the extent of a zone is open to interpretation.</p>
+
+<p>The vast majority of the tz timezones are by construction matching a country, so little needs to be said about them: we equate them with the corresponding region in our fips10s data. We also discussed the situation of the  <a href="../us">United States</a>, <a href='../canada'>Canada</a>, <a href='../mexico'>Mexico</a>, <a href='../russia'>Russia</a> and <a href='../china'>China</a> in other pages. That leaves only a few countries with multiple time zones, and again, most of them are straightforward, with timezone matching administrative divisions of the countries: the correspondance is documented in the script we use to build the shapefile (see below). The rest of this section discusses the remaining cases, where the definition of the extent of a zone is open to interpretation.</p>
+
 <h4>Uzbekistan</h4>
 <p>This country is covered by two tz timezones, <em>Tashkent</em> and <em>Samarkand</em>. There is not enough information in the tz data to figure out how Uzbekistan is divided between them. We use a separation along first-level administrative divisons that matches WTE.</p>
 <h4>Ukraine</h4>
@@ -80,20 +85,12 @@
 
 <h4>Greenland</h4>
 <p>The boundaries between the four zones are somewhat arbitrary.</p>
-<h4>Mexico</h4>
-
-<p>We use a somewhat arbitrary boundary between the America/Tijuana
-and America/Santa_Isabel timezones. The former is defined as the zone
-within 20 km of the US border, the town of Ensada and "towards the
-interior of the country". Similarly, we use a somewhat arbitrary boundary between America/Bahia_Banderas and America/Mazatlan.</p>
 
 <h3>Construction of the shapefile</h3>
 
 <p>The ingredients (<a href="tz_world_ingredients.zip">zip</a>, <a href="tz_world_ingredients.zip.sha1">sha1</a>) contain a script to build the map from the source, as well as a .prj file for the source map.</p>
 
-<p>For the United States, Russia and China, we started from the tz maps for those countries and turned them manually into masks; the idea is to retain from them only the boundaries that are not present in our base map. Those mask shapefiles are in the ingredients.</p>
-
-<p>For Mexico, we use a mask that captures the 20km zone next to the US boundary, extended to include the town of Ensanada.</p>
+<p>For the United States, Mexico, Russia and China, we started from the tz maps for those countries and turned them manually into masks; the idea is to retain from them only the boundaries that are not present in our base map. Those mask shapefiles are in the ingredients.</p>
 
 <p>For Canada, we use directly the masks that served to create the Canada map.</p>
 
@@ -113,6 +110,14 @@ This work is published from <span about="http://efele.net/maps/tz" property="vca
 <p><span class="style4"><a href="/contact.html">Contact</a> - <a href="../../thanks.html">Thanks</a></span></p>
 <p>History:</p>
 <ul>
+  <li>May 28, 2016:
+    <ul>
+      <li>updated to tz2016d: introduced Asia/Tomsk and Europe/Kirov.</li>
+      <li>use the <a href="../mexico">Mexico</a> map for the timezones of Mexico.</li>
+      <li>Extended America/Dawson_Creek north to join with America/Fort_Nelson.</li>
+    </ul>
+  </li>
+
   <li>March 20, 2016:
     <ul>
       <li>updated to tz2016b:

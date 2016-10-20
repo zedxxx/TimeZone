@@ -153,7 +153,6 @@ uses
   c_AmericaMexico_City,
   c_AmericaMiquelon,
   c_AmericaMoncton,
-  c_AmericaMonterey,
   c_AmericaMonterrey,
   c_AmericaMontevideo,
   c_AmericaMontreal,
@@ -281,6 +280,7 @@ uses
   c_AsiaTehran,
   c_AsiaThimphu,
   c_AsiaTokyo,
+  c_AsiaTomsk,
   c_AsiaUlaanbaatar,
   c_AsiaUrumqi,
   c_AsiaUstNera,
@@ -333,6 +333,7 @@ uses
   c_EuropeJersey,
   c_EuropeKaliningrad,
   c_EuropeKiev,
+  c_EuropeKirov,
   c_EuropeLisbon,
   c_EuropeLjubljana,
   c_EuropeLondon,
@@ -422,7 +423,7 @@ uses
   c_PacificYap;
 
 const
-  cTzWorld: array [0..415] of PTimeZoneInfo = (
+  cTzWorld: array [0..416] of PTimeZoneInfo = (
     @cAfricaAbidjan, 
     @cAfricaAccra, 
     @cAfricaAddis_Ababa, 
@@ -572,7 +573,6 @@ const
     @cAmericaMexico_City, 
     @cAmericaMiquelon, 
     @cAmericaMoncton, 
-    @cAmericaMonterey, 
     @cAmericaMonterrey, 
     @cAmericaMontevideo, 
     @cAmericaMontreal, 
@@ -700,6 +700,7 @@ const
     @cAsiaTehran, 
     @cAsiaThimphu, 
     @cAsiaTokyo, 
+    @cAsiaTomsk, 
     @cAsiaUlaanbaatar, 
     @cAsiaUrumqi, 
     @cAsiaUstNera, 
@@ -752,6 +753,7 @@ const
     @cEuropeJersey, 
     @cEuropeKaliningrad, 
     @cEuropeKiev, 
+    @cEuropeKirov, 
     @cEuropeLisbon, 
     @cEuropeLjubljana, 
     @cEuropeLondon, 

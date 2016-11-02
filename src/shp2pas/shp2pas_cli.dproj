@@ -43,6 +43,7 @@
     <DCCReference Include="t_Shp2PasProcessor.pas" />
     <DCCReference Include="u_KmlWriter.pas" />
     <DCCReference Include="u_Shp2PasProcessor.pas" />
+    <DCCReference Include="u_TreeFolderRemover.pas" />
   </ItemGroup>
 </Project>
 <!-- EurekaLog First Line

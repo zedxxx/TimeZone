@@ -7,7 +7,8 @@ uses
   ShpFiles in 'shapelib\ShpFiles.pas',
   ShpWrapper in 'shapelib\ShpWrapper.pas',
   u_KmlWriter in 'u_KmlWriter.pas',
-  ArgumentParser in 'ArgumentParser.pas';
+  ArgumentParser in 'ArgumentParser.pas',
+  u_TreeFolderRemover in 'u_TreeFolderRemover.pas';
 
 procedure ConvertionProcess(
   const AShapeFile: string;
@@ -26,6 +27,11 @@ begin
   end;
 
   VOutputPath := IncludeTrailingPathDelimiter(Trim(AOutPutPath));
+  if DirectoryExists(VOutputPath) then begin
+    if not FullRemoveDir(VOutputPath, True, True, True) then begin
+      raise Exception.Create('Can''t clean target dir: ' + VOutputPath);
+    end;
+  end;
   if not ForceDirectories(VOutputPath) then begin
     raise Exception.Create(SysErrorMessage(GetLastError));
   end;

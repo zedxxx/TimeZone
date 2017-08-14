@@ -24,77 +24,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      -89.100000,48.400000,0 -89.100000,48.400000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaThunder_Bay_1</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -89.200000,48.400000,0 -89.200000,48.400000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaThunder_Bay_2</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -89.200000,48.400000,0 -89.200000,48.400000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaThunder_Bay_3</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -89.200000,48.300000,0 -89.200000,48.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaThunder_Bay_4</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -89.200000,48.300000,0 -89.200000,48.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaThunder_Bay_5</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -89.200000,48.500000,0 -89.200000,48.400000,0 -89.300000,48.400000,0 -89.200000,48.400000,0 -89.200000,48.300000,0 -89.200000,48.400000,0 -89.200000,48.300000,0 -89.300000,48.400000,0 -89.300000,48.300000,0 -89.400000,48.300000,0 -89.400000,48.400000,0 -89.400000,48.500000,0 -89.300000,48.500000,0 -89.200000,48.500000,0 
+      -89.200000,48.300000,0 -89.300000,48.400000,0 -89.300000,48.300000,0 -89.400000,48.300000,0 -89.400000,48.400000,0 -89.400000,48.500000,0 -89.300000,48.500000,0 -89.200000,48.500000,0 -89.200000,48.300000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>

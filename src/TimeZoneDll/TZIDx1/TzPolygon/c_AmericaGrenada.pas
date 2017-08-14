@@ -6,51 +6,29 @@ uses
   t_TzWorld;
 
 const
-  cAmericaGrenada_0: array [0..9] of TTimeZonePoint = (
-    (X: -616; Y: 122), (X: -616; Y: 121), (X: -616; Y: 120), (X: -617; Y: 120),
-    (X: -618; Y: 120), (X: -617; Y: 120), (X: -618; Y: 121), (X: -617; Y: 121),
-    (X: -617; Y: 122), (X: -616; Y: 122)
+  cAmericaGrenada_0: array [0..27] of TTimeZonePoint = (
+    (X: -612; Y: 125), (X: -612; Y: 124), (X: -613; Y: 124), (X: -613; Y: 123),
+    (X: -613; Y: 122), (X: -614; Y: 122), (X: -614; Y: 121), (X: -614; Y: 120),
+    (X: -615; Y: 120), (X: -615; Y: 119), (X: -616; Y: 119), (X: -616; Y: 118),
+    (X: -617; Y: 118), (X: -618; Y: 118), (X: -619; Y: 118), (X: -619; Y: 119),
+    (X: -620; Y: 119), (X: -620; Y: 120), (X: -620; Y: 121), (X: -620; Y: 122),
+    (X: -619; Y: 122), (X: -619; Y: 123), (X: -618; Y: 123), (X: -618; Y: 124),
+    (X: -617; Y: 125), (X: -617; Y: 126), (X: -614; Y: 125), (X: -612; Y: 125)
   );
 
-  cAmericaGrenada_1: array [0..1] of TTimeZonePoint = (
-    (X: -616; Y: 123), (X: -616; Y: 123)
-  );
-
-  cAmericaGrenada_2: array [0..1] of TTimeZonePoint = (
-    (X: -616; Y: 123), (X: -616; Y: 123)
-  );
-
-  cAmericaGrenada_3: array [0..1] of TTimeZonePoint = (
-    (X: -615; Y: 124), (X: -615; Y: 124)
-  );
-
-  cAmericaGrenada_4: array [0..4] of TTimeZonePoint = (
-    (X: -615; Y: 125), (X: -614; Y: 125), (X: -615; Y: 125), (X: -615; Y: 124),
-    (X: -615; Y: 125)
-  );
-
-  cAmericaGrenada_5: array [0..1] of TTimeZonePoint = (
-    (X: -614; Y: 125), (X: -614; Y: 125)
-  );
-
-  cAmericaGrenadaPolygon: array[0..5] of TTimeZonePolygon = (
-    (PointsCount: 10; FirstPoint: @cAmericaGrenada_0[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaGrenada_1[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaGrenada_2[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaGrenada_3[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaGrenada_4[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaGrenada_5[0])
+  cAmericaGrenadaPolygon: array[0..0] of TTimeZonePolygon = (
+    (PointsCount: 28; FirstPoint: @cAmericaGrenada_0[0])
   );
 
   cAmericaGrenadaBound: TTimeZoneBound = (
-    Min: (X: -618; Y: 120);
-    Max: (X: -614; Y: 125)
+    Min: (X: -620; Y: 118);
+    Max: (X: -612; Y: 126)
   );
 
   cAmericaGrenada: TTimeZoneInfo = (
     TZID: 'America/Grenada';
     Bound: @cAmericaGrenadaBound;
-    PolygonsCount: 6;
+    PolygonsCount: 1;
     FirstPolygon: @cAmericaGrenadaPolygon[0]
   );
 

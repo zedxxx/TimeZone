@@ -6,39 +6,26 @@ uses
   t_TzWorld;
 
 const
-  cAmericaNoronha_0: array [0..36] of TTimeZonePoint = (
-    (X: -324019; Y: -38379), (X: -324017; Y: -38410), (X: -323990; Y: -38453), (X: -323994; Y: -38490),
-    (X: -323930; Y: -38511), (X: -324015; Y: -38557), (X: -324024; Y: -38580), (X: -324100; Y: -38580),
-    (X: -324145; Y: -38603), (X: -324159; Y: -38656), (X: -324200; Y: -38652), (X: -324219; Y: -38679),
-    (X: -324249; Y: -38661), (X: -324278; Y: -38668), (X: -324290; Y: -38695), (X: -324272; Y: -38755),
-    (X: -324283; Y: -38767), (X: -324304; Y: -38769), (X: -324336; Y: -38728), (X: -324379; Y: -38721),
-    (X: -324524; Y: -38748), (X: -324615; Y: -38807), (X: -324620; Y: -38811), (X: -324709; Y: -38779),
-    (X: -324813; Y: -38792), (X: -324826; Y: -38783), (X: -324817; Y: -38751), (X: -324680; Y: -38716),
-    (X: -324595; Y: -38650), (X: -324519; Y: -38613), (X: -324508; Y: -38544), (X: -324453; Y: -38530),
-    (X: -324304; Y: -38431), (X: -324136; Y: -38391), (X: -324019; Y: -38322), (X: -324010; Y: -38352),
-    (X: -324019; Y: -38379)
+  cAmericaNoronha_0: array [0..14] of TTimeZonePoint = (
+    (X: -325192; Y: -40235), (X: -325933; Y: -39693), (X: -326365; Y: -38884), (X: -326403; Y: -37968),
+    (X: -326038; Y: -37127), (X: -325344; Y: -36527), (X: -324457; Y: -36286), (X: -323554; Y: -36454),
+    (X: -322813; Y: -36996), (X: -322381; Y: -37805), (X: -322344; Y: -38720), (X: -322708; Y: -39562),
+    (X: -323403; Y: -40162), (X: -324289; Y: -40402), (X: -325192; Y: -40235)
   );
 
-  cAmericaNoronha_1: array [0..9] of TTimeZonePoint = (
-    (X: -323832; Y: -38048), (X: -323820; Y: -38078), (X: -323845; Y: -38156), (X: -323882; Y: -38168),
-    (X: -323939; Y: -38159), (X: -323983; Y: -38103), (X: -323914; Y: -38064), (X: -323898; Y: -38087),
-    (X: -323861; Y: -38092), (X: -323832; Y: -38048)
-  );
-
-  cAmericaNoronhaPolygon: array[0..1] of TTimeZonePolygon = (
-    (PointsCount: 37; FirstPoint: @cAmericaNoronha_0[0]), 
-    (PointsCount: 10; FirstPoint: @cAmericaNoronha_1[0])
+  cAmericaNoronhaPolygon: array[0..0] of TTimeZonePolygon = (
+    (PointsCount: 15; FirstPoint: @cAmericaNoronha_0[0])
   );
 
   cAmericaNoronhaBound: TTimeZoneBound = (
-    Min: (X: -324826; Y: -38811);
-    Max: (X: -323820; Y: -38048)
+    Min: (X: -326403; Y: -40402);
+    Max: (X: -322344; Y: -36286)
   );
 
   cAmericaNoronha: TTimeZoneInfo = (
     TZID: 'America/Noronha';
     Bound: @cAmericaNoronhaBound;
-    PolygonsCount: 2;
+    PolygonsCount: 1;
     FirstPolygon: @cAmericaNoronhaPolygon[0]
   );
 

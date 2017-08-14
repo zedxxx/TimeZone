@@ -6,17 +6,20 @@ uses
   t_TzWorld;
 
 const
-  cAmericaSt_Barthelemy_0: array [0..2] of TTimeZonePoint = (
-    (X: -628; Y: 179), (X: -629; Y: 179), (X: -628; Y: 179)
+  cAmericaSt_Barthelemy_0: array [0..14] of TTimeZonePoint = (
+    (X: -628; Y: 181), (X: -627; Y: 181), (X: -626; Y: 181), (X: -626; Y: 180),
+    (X: -626; Y: 179), (X: -626; Y: 178), (X: -626; Y: 177), (X: -627; Y: 177),
+    (X: -628; Y: 177), (X: -629; Y: 177), (X: -630; Y: 177), (X: -630; Y: 178),
+    (X: -631; Y: 178), (X: -629; Y: 180), (X: -628; Y: 181)
   );
 
   cAmericaSt_BarthelemyPolygon: array[0..0] of TTimeZonePolygon = (
-    (PointsCount: 3; FirstPoint: @cAmericaSt_Barthelemy_0[0])
+    (PointsCount: 15; FirstPoint: @cAmericaSt_Barthelemy_0[0])
   );
 
   cAmericaSt_BarthelemyBound: TTimeZoneBound = (
-    Min: (X: -629; Y: 179);
-    Max: (X: -628; Y: 179)
+    Min: (X: -631; Y: 177);
+    Max: (X: -626; Y: 181)
   );
 
   cAmericaSt_Barthelemy: TTimeZoneInfo = (

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+ <name>AsiaFamagusta.kml</name>
+ <open>1</open>
+ <Style id="default">
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <StyleMap id="default0">
+  <Pair><key>normal</key><styleUrl>#default</styleUrl></Pair>
+  <Pair><key>highlight</key><styleUrl>#hl</styleUrl></Pair>
+ </StyleMap>
+ <Style id="hl">
+  <IconStyle><scale>1.2</scale></IconStyle>
+  <LineStyle><color>ff7fffff</color><width>2</width></LineStyle>
+  <PolyStyle><fill>0</fill></PolyStyle>
+ </Style>
+ <Placemark>
+  <name>cAsiaFamagusta_0</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      33.900000,35.100000,0 33.800000,35.100000,0 33.800000,35.000000,0 33.700000,35.100000,0 33.700000,35.000000,0 33.700000,35.100000,0 33.700000,35.000000,0 33.600000,35.000000,0 33.600000,35.100000,0 33.600000,35.000000,0 33.600000,35.100000,0 33.500000,35.100000,0 33.500000,35.000000,0 33.400000,35.000000,0 33.500000,35.000000,0 33.500000,35.100000,0 33.400000,35.100000,0 33.400000,35.200000,0 33.300000,35.200000,0 33.400000,35.200000,0 33.300000,35.200000,0 33.200000,35.200000,0 33.100000,35.200000,0 33.000000,35.200000,0 33.000000,35.100000,0 32.900000,35.100000,0 32.800000,35.100000,0 32.700000,35.100000,0 32.700000,35.200000,0 32.600000,35.200000,0 32.500000,35.400000,0 32.600000,35.400000,0 32.700000,35.400000,0 32.700000,35.500000,0 32.800000,35.600000,0 32.900000,35.600000,0 33.000000,35.600000,0 33.200000,35.600000,0 33.300000,35.600000,0 33.600000,35.600000,0 33.700000,35.600000,0 33.900000,35.700000,0 34.000000,35.700000,0 34.100000,35.700000,0 34.300000,35.800000,0 34.500000,35.900000,0 34.600000,35.900000,0 34.700000,35.900000,0 34.800000,35.900000,0 34.800000,35.800000,0 34.900000,35.700000,0 34.800000,35.700000,0 34.800000,35.600000,0 34.800000,35.500000,0 34.700000,35.500000,0 34.600000,35.400000,0 34.500000,35.300000,0 34.400000,35.300000,0 34.300000,35.200000,0 34.200000,35.200000,0 34.000000,35.100000,0 33.900000,35.100000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAsiaFamagusta_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      33.400000,35.200000,0 33.400000,35.200000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+</Document>
+</kml>

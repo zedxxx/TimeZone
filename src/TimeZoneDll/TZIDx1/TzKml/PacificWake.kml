@@ -24,35 +24,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      166.600000,19.300000,0 166.600000,19.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificWake_1</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      166.600000,19.300000,0 166.700000,19.300000,0 166.600000,19.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificWake_2</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      166.600000,19.300000,0 166.600000,19.300000,0 
+      166.500000,19.100000,0 166.500000,19.200000,0 166.400000,19.200000,0 166.400000,19.300000,0 166.400000,19.400000,0 166.400000,19.500000,0 166.500000,19.500000,0 166.600000,19.500000,0 166.700000,19.500000,0 166.800000,19.500000,0 166.800000,19.400000,0 166.900000,19.400000,0 166.900000,19.300000,0 166.900000,19.200000,0 166.800000,19.200000,0 166.800000,19.100000,0 166.700000,19.100000,0 166.600000,19.100000,0 166.500000,19.100000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>

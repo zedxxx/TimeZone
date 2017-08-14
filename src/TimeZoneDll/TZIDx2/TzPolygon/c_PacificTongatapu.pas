@@ -6,619 +6,227 @@ uses
   t_TzWorld;
 
 const
-  cPacificTongatapu_0: array [0..6] of TTimeZonePoint = (
-    (X: -17621; Y: -2235), (X: -17621; Y: -2234), (X: -17621; Y: -2233), (X: -17620; Y: -2233),
-    (X: -17620; Y: -2234), (X: -17620; Y: -2235), (X: -17621; Y: -2235)
-  );
-
-  cPacificTongatapu_1: array [0..2] of TTimeZonePoint = (
-    (X: -17496; Y: -2146), (X: -17495; Y: -2146), (X: -17496; Y: -2146)
-  );
-
-  cPacificTongatapu_2: array [0..34] of TTimeZonePoint = (
-    (X: -17493; Y: -2129), (X: -17493; Y: -2128), (X: -17492; Y: -2128), (X: -17492; Y: -2129),
-    (X: -17492; Y: -2130), (X: -17491; Y: -2131), (X: -17491; Y: -2132), (X: -17491; Y: -2134),
-    (X: -17491; Y: -2137), (X: -17491; Y: -2141), (X: -17490; Y: -2142), (X: -17490; Y: -2143),
-    (X: -17491; Y: -2144), (X: -17491; Y: -2145), (X: -17491; Y: -2146), (X: -17492; Y: -2145),
-    (X: -17493; Y: -2144), (X: -17493; Y: -2143), (X: -17494; Y: -2142), (X: -17495; Y: -2142),
-    (X: -17496; Y: -2142), (X: -17496; Y: -2141), (X: -17497; Y: -2141), (X: -17497; Y: -2140),
-    (X: -17497; Y: -2139), (X: -17497; Y: -2138), (X: -17497; Y: -2137), (X: -17497; Y: -2136),
-    (X: -17497; Y: -2135), (X: -17496; Y: -2134), (X: -17495; Y: -2133), (X: -17494; Y: -2132),
-    (X: -17494; Y: -2131), (X: -17494; Y: -2130), (X: -17493; Y: -2129)
-  );
-
-  cPacificTongatapu_3: array [0..2] of TTimeZonePoint = (
-    (X: -17521; Y: -2116), (X: -17521; Y: -2117), (X: -17521; Y: -2116)
-  );
-
-  cPacificTongatapu_4: array [0..2] of TTimeZonePoint = (
-    (X: -17515; Y: -2115), (X: -17515; Y: -2114), (X: -17515; Y: -2115)
-  );
-
-  cPacificTongatapu_5: array [0..1] of TTimeZonePoint = (
-    (X: -17498; Y: -2112), (X: -17498; Y: -2112)
-  );
-
-  cPacificTongatapu_6: array [0..4] of TTimeZonePoint = (
-    (X: -17503; Y: -2109), (X: -17503; Y: -2110), (X: -17504; Y: -2110), (X: -17504; Y: -2109),
-    (X: -17503; Y: -2109)
-  );
-
-  cPacificTongatapu_7: array [0..3] of TTimeZonePoint = (
-    (X: -17525; Y: -2104), (X: -17525; Y: -2105), (X: -17526; Y: -2105), (X: -17525; Y: -2104)
-  );
-
-  cPacificTongatapu_8: array [0..4] of TTimeZonePoint = (
-    (X: -17500; Y: -2104), (X: -17501; Y: -2104), (X: -17501; Y: -2103), (X: -17500; Y: -2103),
-    (X: -17500; Y: -2104)
-  );
-
-  cPacificTongatapu_9: array [0..5] of TTimeZonePoint = (
-    (X: -17517; Y: -2101), (X: -17516; Y: -2101), (X: -17516; Y: -2102), (X: -17516; Y: -2101),
-    (X: -17517; Y: -2102), (X: -17517; Y: -2101)
-  );
-
-  cPacificTongatapu_10: array [0..5] of TTimeZonePoint = (
-    (X: -17541; Y: -2054), (X: -17541; Y: -2055), (X: -17540; Y: -2056), (X: -17541; Y: -2056),
-    (X: -17542; Y: -2055), (X: -17541; Y: -2054)
-  );
-
-  cPacificTongatapu_11: array [0..4] of TTimeZonePoint = (
-    (X: -17538; Y: -2054), (X: -17539; Y: -2054), (X: -17540; Y: -2054), (X: -17539; Y: -2054),
-    (X: -17538; Y: -2054)
-  );
-
-  cPacificTongatapu_12: array [0..3] of TTimeZonePoint = (
-    (X: -17474; Y: -2049), (X: -17474; Y: -2050), (X: -17475; Y: -2050), (X: -17474; Y: -2049)
-  );
-
-  cPacificTongatapu_13: array [0..2] of TTimeZonePoint = (
-    (X: -17468; Y: -2048), (X: -17468; Y: -2049), (X: -17468; Y: -2048)
-  );
-
-  cPacificTongatapu_14: array [0..108] of TTimeZonePoint = (
-    (X: -17534; Y: -2107), (X: -17533; Y: -2107), (X: -17533; Y: -2106), (X: -17533; Y: -2107),
-    (X: -17533; Y: -2108), (X: -17533; Y: -2109), (X: -17534; Y: -2111), (X: -17532; Y: -2112),
-    (X: -17531; Y: -2112), (X: -17530; Y: -2112), (X: -17528; Y: -2112), (X: -17527; Y: -2112),
-    (X: -17526; Y: -2112), (X: -17525; Y: -2111), (X: -17524; Y: -2112), (X: -17523; Y: -2112),
-    (X: -17521; Y: -2113), (X: -17520; Y: -2113), (X: -17519; Y: -2114), (X: -17517; Y: -2114),
-    (X: -17516; Y: -2114), (X: -17516; Y: -2115), (X: -17517; Y: -2116), (X: -17518; Y: -2116),
-    (X: -17518; Y: -2115), (X: -17519; Y: -2115), (X: -17520; Y: -2115), (X: -17521; Y: -2115),
-    (X: -17521; Y: -2116), (X: -17522; Y: -2116), (X: -17523; Y: -2117), (X: -17522; Y: -2118),
-    (X: -17521; Y: -2118), (X: -17520; Y: -2118), (X: -17520; Y: -2117), (X: -17520; Y: -2116),
-    (X: -17519; Y: -2116), (X: -17518; Y: -2117), (X: -17517; Y: -2117), (X: -17516; Y: -2117),
-    (X: -17515; Y: -2117), (X: -17514; Y: -2118), (X: -17515; Y: -2118), (X: -17516; Y: -2118),
-    (X: -17517; Y: -2118), (X: -17517; Y: -2119), (X: -17516; Y: -2119), (X: -17516; Y: -2120),
-    (X: -17515; Y: -2120), (X: -17515; Y: -2119), (X: -17515; Y: -2118), (X: -17514; Y: -2119),
-    (X: -17513; Y: -2119), (X: -17512; Y: -2119), (X: -17513; Y: -2118), (X: -17513; Y: -2117),
-    (X: -17512; Y: -2117), (X: -17512; Y: -2116), (X: -17513; Y: -2115), (X: -17513; Y: -2114),
-    (X: -17512; Y: -2114), (X: -17512; Y: -2113), (X: -17511; Y: -2113), (X: -17510; Y: -2113),
-    (X: -17508; Y: -2113), (X: -17507; Y: -2113), (X: -17505; Y: -2113), (X: -17504; Y: -2114),
-    (X: -17504; Y: -2115), (X: -17504; Y: -2116), (X: -17505; Y: -2117), (X: -17506; Y: -2117),
-    (X: -17508; Y: -2117), (X: -17508; Y: -2118), (X: -17509; Y: -2119), (X: -17510; Y: -2120),
-    (X: -17511; Y: -2121), (X: -17511; Y: -2122), (X: -17511; Y: -2123), (X: -17510; Y: -2125),
-    (X: -17511; Y: -2126), (X: -17512; Y: -2127), (X: -17513; Y: -2127), (X: -17515; Y: -2127),
-    (X: -17516; Y: -2126), (X: -17517; Y: -2126), (X: -17518; Y: -2124), (X: -17519; Y: -2124),
-    (X: -17520; Y: -2123), (X: -17521; Y: -2122), (X: -17521; Y: -2121), (X: -17523; Y: -2120),
-    (X: -17524; Y: -2120), (X: -17526; Y: -2120), (X: -17527; Y: -2120), (X: -17528; Y: -2119),
-    (X: -17529; Y: -2118), (X: -17530; Y: -2117), (X: -17531; Y: -2117), (X: -17533; Y: -2116),
-    (X: -17534; Y: -2115), (X: -17534; Y: -2114), (X: -17534; Y: -2112), (X: -17535; Y: -2111),
-    (X: -17535; Y: -2110), (X: -17535; Y: -2109), (X: -17535; Y: -2108), (X: -17534; Y: -2108),
-    (X: -17534; Y: -2107)
-  );
-
-  cPacificTongatapu_15: array [0..4] of TTimeZonePoint = (
-    (X: -17512; Y: -2108), (X: -17512; Y: -2109), (X: -17513; Y: -2109), (X: -17513; Y: -2108),
-    (X: -17512; Y: -2108)
-  );
-
-  cPacificTongatapu_16: array [0..4] of TTimeZonePoint = (
-    (X: -17477; Y: -2045), (X: -17476; Y: -2045), (X: -17476; Y: -2046), (X: -17477; Y: -2046),
-    (X: -17477; Y: -2045)
-  );
-
-  cPacificTongatapu_17: array [0..4] of TTimeZonePoint = (
-    (X: -17453; Y: -2039), (X: -17453; Y: -2040), (X: -17454; Y: -2040), (X: -17454; Y: -2039),
-    (X: -17453; Y: -2039)
-  );
-
-  cPacificTongatapu_18: array [0..3] of TTimeZonePoint = (
-    (X: -17452; Y: -2034), (X: -17453; Y: -2035), (X: -17453; Y: -2034), (X: -17452; Y: -2034)
-  );
-
-  cPacificTongatapu_19: array [0..3] of TTimeZonePoint = (
-    (X: -17472; Y: -2032), (X: -17471; Y: -2033), (X: -17472; Y: -2033), (X: -17472; Y: -2032)
-  );
-
-  cPacificTongatapu_20: array [0..4] of TTimeZonePoint = (
-    (X: -17453; Y: -2031), (X: -17452; Y: -2031), (X: -17452; Y: -2032), (X: -17453; Y: -2032),
-    (X: -17453; Y: -2031)
-  );
-
-  cPacificTongatapu_21: array [0..1] of TTimeZonePoint = (
-    (X: -17481; Y: -2028), (X: -17481; Y: -2028)
-  );
-
-  cPacificTongatapu_22: array [0..2] of TTimeZonePoint = (
-    (X: -17463; Y: -2028), (X: -17464; Y: -2028), (X: -17463; Y: -2028)
-  );
-
-  cPacificTongatapu_23: array [0..12] of TTimeZonePoint = (
-    (X: -17478; Y: -2024), (X: -17478; Y: -2025), (X: -17479; Y: -2026), (X: -17479; Y: -2027),
-    (X: -17479; Y: -2026), (X: -17480; Y: -2026), (X: -17480; Y: -2025), (X: -17481; Y: -2025),
-    (X: -17482; Y: -2025), (X: -17481; Y: -2024), (X: -17480; Y: -2024), (X: -17479; Y: -2024),
-    (X: -17478; Y: -2024)
-  );
-
-  cPacificTongatapu_24: array [0..2] of TTimeZonePoint = (
-    (X: -17462; Y: -2014), (X: -17462; Y: -2015), (X: -17462; Y: -2014)
-  );
-
-  cPacificTongatapu_25: array [0..3] of TTimeZonePoint = (
-    (X: -17467; Y: -2004), (X: -17466; Y: -2005), (X: -17467; Y: -2005), (X: -17467; Y: -2004)
-  );
-
-  cPacificTongatapu_26: array [0..2] of TTimeZonePoint = (
-    (X: -17469; Y: -2003), (X: -17468; Y: -2003), (X: -17469; Y: -2003)
-  );
-
-  cPacificTongatapu_27: array [0..4] of TTimeZonePoint = (
-    (X: -17477; Y: -2002), (X: -17478; Y: -2002), (X: -17478; Y: -2001), (X: -17477; Y: -2001),
-    (X: -17477; Y: -2002)
-  );
-
-  cPacificTongatapu_28: array [0..2] of TTimeZonePoint = (
-    (X: -17479; Y: -1999), (X: -17480; Y: -1999), (X: -17479; Y: -1999)
-  );
-
-  cPacificTongatapu_29: array [0..4] of TTimeZonePoint = (
-    (X: -17450; Y: -1996), (X: -17449; Y: -1996), (X: -17449; Y: -1997), (X: -17450; Y: -1997),
-    (X: -17450; Y: -1996)
-  );
-
-  cPacificTongatapu_30: array [0..4] of TTimeZonePoint = (
-    (X: -17447; Y: -1995), (X: -17446; Y: -1995), (X: -17447; Y: -1995), (X: -17447; Y: -1996),
-    (X: -17447; Y: -1995)
-  );
-
-  cPacificTongatapu_31: array [0..1] of TTimeZonePoint = (
-    (X: -17480; Y: -1994), (X: -17480; Y: -1994)
-  );
-
-  cPacificTongatapu_32: array [0..9] of TTimeZonePoint = (
-    (X: -17442; Y: -1991), (X: -17441; Y: -1990), (X: -17441; Y: -1989), (X: -17441; Y: -1988),
-    (X: -17440; Y: -1988), (X: -17440; Y: -1989), (X: -17441; Y: -1989), (X: -17441; Y: -1990),
-    (X: -17441; Y: -1991), (X: -17442; Y: -1991)
-  );
-
-  cPacificTongatapu_33: array [0..3] of TTimeZonePoint = (
-    (X: -17471; Y: -1993), (X: -17471; Y: -1994), (X: -17472; Y: -1994), (X: -17471; Y: -1993)
-  );
-
-  cPacificTongatapu_34: array [0..6] of TTimeZonePoint = (
-    (X: -17442; Y: -1985), (X: -17441; Y: -1984), (X: -17440; Y: -1984), (X: -17440; Y: -1983),
-    (X: -17440; Y: -1984), (X: -17441; Y: -1985), (X: -17442; Y: -1985)
-  );
-
-  cPacificTongatapu_35: array [0..4] of TTimeZonePoint = (
-    (X: -17473; Y: -1980), (X: -17472; Y: -1980), (X: -17472; Y: -1981), (X: -17472; Y: -1980),
-    (X: -17473; Y: -1980)
-  );
-
-  cPacificTongatapu_36: array [0..27] of TTimeZonePoint = (
-    (X: -17509; Y: -1970), (X: -17509; Y: -1971), (X: -17508; Y: -1971), (X: -17507; Y: -1971),
-    (X: -17506; Y: -1971), (X: -17506; Y: -1972), (X: -17505; Y: -1972), (X: -17505; Y: -1973),
-    (X: -17504; Y: -1974), (X: -17504; Y: -1975), (X: -17504; Y: -1976), (X: -17504; Y: -1977),
-    (X: -17505; Y: -1978), (X: -17506; Y: -1978), (X: -17507; Y: -1978), (X: -17508; Y: -1978),
-    (X: -17509; Y: -1978), (X: -17509; Y: -1977), (X: -17510; Y: -1977), (X: -17510; Y: -1976),
-    (X: -17511; Y: -1975), (X: -17511; Y: -1974), (X: -17511; Y: -1973), (X: -17511; Y: -1972),
-    (X: -17510; Y: -1972), (X: -17510; Y: -1971), (X: -17509; Y: -1971), (X: -17509; Y: -1970)
-  );
-
-  cPacificTongatapu_37: array [0..15] of TTimeZonePoint = (
-    (X: -17429; Y: -1972), (X: -17428; Y: -1972), (X: -17428; Y: -1973), (X: -17428; Y: -1974),
-    (X: -17429; Y: -1974), (X: -17429; Y: -1975), (X: -17430; Y: -1975), (X: -17431; Y: -1975),
-    (X: -17432; Y: -1975), (X: -17433; Y: -1975), (X: -17434; Y: -1975), (X: -17433; Y: -1974),
-    (X: -17432; Y: -1973), (X: -17431; Y: -1973), (X: -17430; Y: -1973), (X: -17429; Y: -1972)
-  );
-
-  cPacificTongatapu_38: array [0..2] of TTimeZonePoint = (
-    (X: -17472; Y: -1976), (X: -17473; Y: -1976), (X: -17472; Y: -1976)
-  );
-
-  cPacificTongatapu_39: array [0..2] of TTimeZonePoint = (
-    (X: -17463; Y: -1975), (X: -17463; Y: -1976), (X: -17463; Y: -1975)
-  );
-
-  cPacificTongatapu_40: array [0..17] of TTimeZonePoint = (
-    (X: -17437; Y: -1982), (X: -17437; Y: -1981), (X: -17436; Y: -1981), (X: -17435; Y: -1980),
-    (X: -17435; Y: -1979), (X: -17435; Y: -1978), (X: -17435; Y: -1977), (X: -17434; Y: -1976),
-    (X: -17434; Y: -1977), (X: -17434; Y: -1978), (X: -17434; Y: -1979), (X: -17434; Y: -1981),
-    (X: -17434; Y: -1982), (X: -17435; Y: -1982), (X: -17435; Y: -1983), (X: -17435; Y: -1982),
-    (X: -17436; Y: -1982), (X: -17437; Y: -1982)
-  );
-
-  cPacificTongatapu_41: array [0..11] of TTimeZonePoint = (
-    (X: -17502; Y: -1965), (X: -17501; Y: -1965), (X: -17501; Y: -1966), (X: -17501; Y: -1967),
-    (X: -17502; Y: -1968), (X: -17503; Y: -1968), (X: -17503; Y: -1967), (X: -17504; Y: -1967),
-    (X: -17504; Y: -1966), (X: -17504; Y: -1965), (X: -17503; Y: -1965), (X: -17502; Y: -1965)
-  );
-
-  cPacificTongatapu_42: array [0..1] of TTimeZonePoint = (
-    (X: -17440; Y: -1967), (X: -17440; Y: -1967)
-  );
-
-  cPacificTongatapu_43: array [0..10] of TTimeZonePoint = (
-    (X: -17428; Y: -1969), (X: -17428; Y: -1968), (X: -17429; Y: -1968), (X: -17429; Y: -1967),
-    (X: -17430; Y: -1966), (X: -17430; Y: -1965), (X: -17429; Y: -1965), (X: -17428; Y: -1967),
-    (X: -17427; Y: -1968), (X: -17427; Y: -1969), (X: -17428; Y: -1969)
-  );
-
-  cPacificTongatapu_44: array [0..2] of TTimeZonePoint = (
-    (X: -17449; Y: -1963), (X: -17449; Y: -1964), (X: -17449; Y: -1963)
-  );
-
-  cPacificTongatapu_45: array [0..3] of TTimeZonePoint = (
-    (X: -17446; Y: -1959), (X: -17445; Y: -1960), (X: -17446; Y: -1960), (X: -17446; Y: -1959)
-  );
-
-  cPacificTongatapu_46: array [0..3] of TTimeZonePoint = (
-    (X: -17486; Y: -1917), (X: -17486; Y: -1918), (X: -17487; Y: -1918), (X: -17486; Y: -1917)
-  );
-
-  cPacificTongatapu_47: array [0..3] of TTimeZonePoint = (
-    (X: -17402; Y: -1901), (X: -17401; Y: -1901), (X: -17401; Y: -1902), (X: -17402; Y: -1901)
-  );
-
-  cPacificTongatapu_48: array [0..3] of TTimeZonePoint = (
-    (X: -17427; Y: -1971), (X: -17428; Y: -1972), (X: -17428; Y: -1971), (X: -17427; Y: -1971)
-  );
-
-  cPacificTongatapu_49: array [0..6] of TTimeZonePoint = (
-    (X: -17449; Y: -1997), (X: -17449; Y: -1996), (X: -17448; Y: -1996), (X: -17447; Y: -1996),
-    (X: -17448; Y: -1996), (X: -17448; Y: -1997), (X: -17449; Y: -1997)
-  );
-
-  cPacificTongatapu_50: array [0..1] of TTimeZonePoint = (
-    (X: -17400; Y: -1885), (X: -17400; Y: -1885)
-  );
-
-  cPacificTongatapu_51: array [0..1] of TTimeZonePoint = (
-    (X: -17400; Y: -1884), (X: -17400; Y: -1884)
-  );
-
-  cPacificTongatapu_52: array [0..1] of TTimeZonePoint = (
-    (X: -17398; Y: -1882), (X: -17398; Y: -1882)
-  );
-
-  cPacificTongatapu_53: array [0..13] of TTimeZonePoint = (
-    (X: -17465; Y: -1882), (X: -17466; Y: -1882), (X: -17466; Y: -1881), (X: -17467; Y: -1880),
-    (X: -17467; Y: -1879), (X: -17466; Y: -1878), (X: -17465; Y: -1878), (X: -17464; Y: -1878),
-    (X: -17463; Y: -1879), (X: -17463; Y: -1880), (X: -17463; Y: -1881), (X: -17464; Y: -1881),
-    (X: -17464; Y: -1882), (X: -17465; Y: -1882)
-  );
-
-  cPacificTongatapu_54: array [0..2] of TTimeZonePoint = (
-    (X: -17400; Y: -1879), (X: -17399; Y: -1879), (X: -17400; Y: -1879)
-  );
-
-  cPacificTongatapu_55: array [0..2] of TTimeZonePoint = (
-    (X: -17408; Y: -1881), (X: -17408; Y: -1882), (X: -17408; Y: -1881)
-  );
-
-  cPacificTongatapu_56: array [0..2] of TTimeZonePoint = (
-    (X: -17406; Y: -1881), (X: -17407; Y: -1881), (X: -17406; Y: -1881)
-  );
-
-  cPacificTongatapu_57: array [0..1] of TTimeZonePoint = (
-    (X: -17402; Y: -1876), (X: -17402; Y: -1876)
-  );
-
-  cPacificTongatapu_58: array [0..2] of TTimeZonePoint = (
-    (X: -17404; Y: -1875), (X: -17404; Y: -1876), (X: -17404; Y: -1875)
-  );
-
-  cPacificTongatapu_59: array [0..4] of TTimeZonePoint = (
-    (X: -17407; Y: -1875), (X: -17408; Y: -1875), (X: -17408; Y: -1874), (X: -17407; Y: -1874),
-    (X: -17407; Y: -1875)
-  );
-
-  cPacificTongatapu_60: array [0..6] of TTimeZonePoint = (
-    (X: -17410; Y: -1874), (X: -17411; Y: -1874), (X: -17412; Y: -1874), (X: -17411; Y: -1874),
-    (X: -17410; Y: -1873), (X: -17409; Y: -1874), (X: -17410; Y: -1874)
-  );
-
-  cPacificTongatapu_61: array [0..3] of TTimeZonePoint = (
-    (X: -17401; Y: -1873), (X: -17401; Y: -1874), (X: -17402; Y: -1874), (X: -17401; Y: -1873)
-  );
-
-  cPacificTongatapu_62: array [0..1] of TTimeZonePoint = (
-    (X: -17405; Y: -1873), (X: -17405; Y: -1873)
-  );
-
-  cPacificTongatapu_63: array [0..2] of TTimeZonePoint = (
-    (X: -17411; Y: -1878), (X: -17411; Y: -1879), (X: -17411; Y: -1878)
-  );
-
-  cPacificTongatapu_64: array [0..4] of TTimeZonePoint = (
-    (X: -17418; Y: -1878), (X: -17417; Y: -1878), (X: -17417; Y: -1879), (X: -17418; Y: -1879),
-    (X: -17418; Y: -1878)
-  );
-
-  cPacificTongatapu_65: array [0..4] of TTimeZonePoint = (
-    (X: -17405; Y: -1872), (X: -17405; Y: -1873), (X: -17406; Y: -1873), (X: -17406; Y: -1872),
-    (X: -17405; Y: -1872)
-  );
-
-  cPacificTongatapu_66: array [0..1] of TTimeZonePoint = (
-    (X: -17409; Y: -1872), (X: -17409; Y: -1872)
-  );
-
-  cPacificTongatapu_67: array [0..2] of TTimeZonePoint = (
-    (X: -17414; Y: -1871), (X: -17415; Y: -1871), (X: -17414; Y: -1871)
-  );
-
-  cPacificTongatapu_68: array [0..4] of TTimeZonePoint = (
-    (X: -17417; Y: -1816), (X: -17418; Y: -1816), (X: -17419; Y: -1816), (X: -17418; Y: -1816),
-    (X: -17417; Y: -1816)
-  );
-
-  cPacificTongatapu_69: array [0..7] of TTimeZonePoint = (
-    (X: -17432; Y: -1802), (X: -17431; Y: -1801), (X: -17430; Y: -1801), (X: -17430; Y: -1802),
-    (X: -17431; Y: -1802), (X: -17431; Y: -1803), (X: -17432; Y: -1803), (X: -17432; Y: -1802)
-  );
-
-  cPacificTongatapu_70: array [0..13] of TTimeZonePoint = (
-    (X: -17372; Y: -1593), (X: -17371; Y: -1594), (X: -17371; Y: -1595), (X: -17372; Y: -1596),
-    (X: -17373; Y: -1596), (X: -17374; Y: -1598), (X: -17375; Y: -1598), (X: -17376; Y: -1598),
-    (X: -17377; Y: -1597), (X: -17376; Y: -1595), (X: -17375; Y: -1595), (X: -17373; Y: -1595),
-    (X: -17372; Y: -1594), (X: -17372; Y: -1593)
-  );
-
-  cPacificTongatapu_71: array [0..8] of TTimeZonePoint = (
-    (X: -17372; Y: -1584), (X: -17371; Y: -1584), (X: -17371; Y: -1585), (X: -17370; Y: -1586),
-    (X: -17371; Y: -1586), (X: -17371; Y: -1587), (X: -17372; Y: -1586), (X: -17372; Y: -1585),
-    (X: -17372; Y: -1584)
-  );
-
-  cPacificTongatapu_72: array [0..23] of TTimeZonePoint = (
-    (X: -17562; Y: -1557), (X: -17561; Y: -1557), (X: -17560; Y: -1558), (X: -17560; Y: -1559),
-    (X: -17560; Y: -1560), (X: -17560; Y: -1561), (X: -17561; Y: -1563), (X: -17562; Y: -1563),
-    (X: -17563; Y: -1564), (X: -17564; Y: -1563), (X: -17565; Y: -1564), (X: -17566; Y: -1563),
-    (X: -17566; Y: -1562), (X: -17567; Y: -1562), (X: -17568; Y: -1561), (X: -17568; Y: -1560),
-    (X: -17568; Y: -1559), (X: -17567; Y: -1559), (X: -17567; Y: -1558), (X: -17566; Y: -1557),
-    (X: -17564; Y: -1557), (X: -17564; Y: -1556), (X: -17562; Y: -1556), (X: -17562; Y: -1557)
-  );
-
-  cPacificTongatapu_73: array [0..7] of TTimeZonePoint = (
-    (X: -17391; Y: -1864), (X: -17392; Y: -1864), (X: -17393; Y: -1864), (X: -17393; Y: -1865),
-    (X: -17394; Y: -1864), (X: -17393; Y: -1864), (X: -17392; Y: -1864), (X: -17391; Y: -1864)
-  );
-
-  cPacificTongatapu_74: array [0..4] of TTimeZonePoint = (
-    (X: -17392; Y: -1865), (X: -17392; Y: -1866), (X: -17393; Y: -1866), (X: -17393; Y: -1865),
-    (X: -17392; Y: -1865)
-  );
-
-  cPacificTongatapu_75: array [0..3] of TTimeZonePoint = (
-    (X: -17393; Y: -1870), (X: -17393; Y: -1869), (X: -17392; Y: -1869), (X: -17393; Y: -1870)
-  );
-
-  cPacificTongatapu_76: array [0..4] of TTimeZonePoint = (
-    (X: -17396; Y: -1867), (X: -17396; Y: -1868), (X: -17395; Y: -1868), (X: -17396; Y: -1868),
-    (X: -17396; Y: -1867)
-  );
-
-  cPacificTongatapu_77: array [0..5] of TTimeZonePoint = (
-    (X: -17395; Y: -1869), (X: -17396; Y: -1869), (X: -17396; Y: -1870), (X: -17397; Y: -1870),
-    (X: -17396; Y: -1869), (X: -17395; Y: -1869)
-  );
-
-  cPacificTongatapu_78: array [0..1] of TTimeZonePoint = (
-    (X: -17394; Y: -1868), (X: -17394; Y: -1868)
-  );
-
-  cPacificTongatapu_79: array [0..2] of TTimeZonePoint = (
-    (X: -17414; Y: -1869), (X: -17414; Y: -1870), (X: -17414; Y: -1869)
-  );
-
-  cPacificTongatapu_80: array [0..1] of TTimeZonePoint = (
-    (X: -17405; Y: -1870), (X: -17405; Y: -1870)
-  );
-
-  cPacificTongatapu_81: array [0..4] of TTimeZonePoint = (
-    (X: -17414; Y: -1868), (X: -17413; Y: -1868), (X: -17413; Y: -1869), (X: -17414; Y: -1869),
-    (X: -17414; Y: -1868)
-  );
-
-  cPacificTongatapu_82: array [0..2] of TTimeZonePoint = (
-    (X: -17406; Y: -1869), (X: -17406; Y: -1870), (X: -17406; Y: -1869)
-  );
-
-  cPacificTongatapu_83: array [0..11] of TTimeZonePoint = (
-    (X: -17406; Y: -1871), (X: -17407; Y: -1871), (X: -17407; Y: -1870), (X: -17408; Y: -1870),
-    (X: -17409; Y: -1870), (X: -17410; Y: -1870), (X: -17409; Y: -1869), (X: -17408; Y: -1869),
-    (X: -17407; Y: -1868), (X: -17407; Y: -1869), (X: -17407; Y: -1870), (X: -17406; Y: -1871)
-  );
-
-  cPacificTongatapu_84: array [0..13] of TTimeZonePoint = (
-    (X: -17409; Y: -1866), (X: -17409; Y: -1867), (X: -17410; Y: -1867), (X: -17411; Y: -1867),
-    (X: -17411; Y: -1868), (X: -17412; Y: -1869), (X: -17413; Y: -1870), (X: -17412; Y: -1869),
-    (X: -17412; Y: -1868), (X: -17413; Y: -1867), (X: -17412; Y: -1867), (X: -17411; Y: -1866),
-    (X: -17410; Y: -1866), (X: -17409; Y: -1866)
-  );
-
-  cPacificTongatapu_85: array [0..4] of TTimeZonePoint = (
-    (X: -17392; Y: -1867), (X: -17392; Y: -1868), (X: -17393; Y: -1868), (X: -17393; Y: -1867),
-    (X: -17392; Y: -1867)
-  );
-
-  cPacificTongatapu_86: array [0..4] of TTimeZonePoint = (
-    (X: -17396; Y: -1866), (X: -17395; Y: -1866), (X: -17395; Y: -1867), (X: -17396; Y: -1867),
-    (X: -17396; Y: -1866)
-  );
-
-  cPacificTongatapu_87: array [0..96] of TTimeZonePoint = (
-    (X: -17401; Y: -1858), (X: -17400; Y: -1857), (X: -17399; Y: -1857), (X: -17398; Y: -1856),
-    (X: -17397; Y: -1856), (X: -17396; Y: -1857), (X: -17395; Y: -1857), (X: -17394; Y: -1857),
-    (X: -17394; Y: -1856), (X: -17394; Y: -1857), (X: -17393; Y: -1858), (X: -17393; Y: -1859),
-    (X: -17393; Y: -1860), (X: -17392; Y: -1860), (X: -17393; Y: -1860), (X: -17392; Y: -1861),
-    (X: -17391; Y: -1861), (X: -17391; Y: -1862), (X: -17391; Y: -1863), (X: -17392; Y: -1863),
-    (X: -17393; Y: -1863), (X: -17393; Y: -1862), (X: -17394; Y: -1861), (X: -17394; Y: -1860),
-    (X: -17394; Y: -1861), (X: -17394; Y: -1862), (X: -17395; Y: -1863), (X: -17395; Y: -1862),
-    (X: -17396; Y: -1862), (X: -17396; Y: -1863), (X: -17395; Y: -1863), (X: -17395; Y: -1864),
-    (X: -17395; Y: -1865), (X: -17396; Y: -1865), (X: -17395; Y: -1865), (X: -17396; Y: -1865),
-    (X: -17397; Y: -1865), (X: -17397; Y: -1866), (X: -17397; Y: -1865), (X: -17398; Y: -1865),
-    (X: -17398; Y: -1866), (X: -17398; Y: -1867), (X: -17399; Y: -1867), (X: -17399; Y: -1868),
-    (X: -17400; Y: -1868), (X: -17399; Y: -1868), (X: -17399; Y: -1869), (X: -17399; Y: -1870),
-    (X: -17400; Y: -1869), (X: -17401; Y: -1870), (X: -17401; Y: -1869), (X: -17400; Y: -1869),
-    (X: -17401; Y: -1868), (X: -17401; Y: -1867), (X: -17401; Y: -1866), (X: -17400; Y: -1866),
-    (X: -17400; Y: -1865), (X: -17400; Y: -1866), (X: -17399; Y: -1866), (X: -17399; Y: -1865),
-    (X: -17400; Y: -1865), (X: -17400; Y: -1864), (X: -17399; Y: -1864), (X: -17398; Y: -1863),
-    (X: -17398; Y: -1862), (X: -17398; Y: -1861), (X: -17399; Y: -1860), (X: -17400; Y: -1861),
-    (X: -17400; Y: -1862), (X: -17399; Y: -1861), (X: -17399; Y: -1862), (X: -17399; Y: -1863),
-    (X: -17399; Y: -1864), (X: -17400; Y: -1864), (X: -17401; Y: -1864), (X: -17401; Y: -1863),
-    (X: -17402; Y: -1863), (X: -17403; Y: -1863), (X: -17403; Y: -1864), (X: -17403; Y: -1865),
-    (X: -17402; Y: -1865), (X: -17403; Y: -1865), (X: -17403; Y: -1866), (X: -17404; Y: -1866),
-    (X: -17405; Y: -1866), (X: -17406; Y: -1866), (X: -17406; Y: -1865), (X: -17407; Y: -1865),
-    (X: -17406; Y: -1864), (X: -17407; Y: -1863), (X: -17406; Y: -1862), (X: -17405; Y: -1862),
-    (X: -17404; Y: -1862), (X: -17403; Y: -1862), (X: -17402; Y: -1861), (X: -17401; Y: -1859),
-    (X: -17401; Y: -1858)
-  );
-
-  cPacificTongatapu_88: array [0..3] of TTimeZonePoint = (
-    (X: -17410; Y: -1872), (X: -17411; Y: -1872), (X: -17410; Y: -1871), (X: -17410; Y: -1872)
-  );
-
-  cPacificTongatapu_89: array [0..2] of TTimeZonePoint = (
-    (X: -17404; Y: -1871), (X: -17405; Y: -1871), (X: -17404; Y: -1871)
-  );
-
-  cPacificTongatapu_90: array [0..1] of TTimeZonePoint = (
-    (X: -17399; Y: -1871), (X: -17399; Y: -1871)
-  );
-
-  cPacificTongatapu_91: array [0..3] of TTimeZonePoint = (
-    (X: -17408; Y: -1871), (X: -17408; Y: -1872), (X: -17409; Y: -1871), (X: -17408; Y: -1871)
-  );
-
-  cPacificTongatapu_92: array [0..1] of TTimeZonePoint = (
-    (X: -17414; Y: -1871), (X: -17414; Y: -1871)
-  );
-
-  cPacificTongatapu_93: array [0..14] of TTimeZonePoint = (
-    (X: -17405; Y: -1868), (X: -17404; Y: -1868), (X: -17403; Y: -1868), (X: -17403; Y: -1869),
-    (X: -17402; Y: -1869), (X: -17402; Y: -1870), (X: -17402; Y: -1871), (X: -17402; Y: -1872),
-    (X: -17403; Y: -1872), (X: -17404; Y: -1871), (X: -17404; Y: -1870), (X: -17403; Y: -1870),
-    (X: -17404; Y: -1869), (X: -17404; Y: -1868), (X: -17405; Y: -1868)
-  );
-
-  cPacificTongatapuPolygon: array[0..93] of TTimeZonePolygon = (
-    (PointsCount: 7; FirstPoint: @cPacificTongatapu_0[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_1[0]), 
-    (PointsCount: 35; FirstPoint: @cPacificTongatapu_2[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_3[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_4[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificTongatapu_5[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_6[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificTongatapu_7[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_8[0]), 
-    (PointsCount: 6; FirstPoint: @cPacificTongatapu_9[0]), 
-    (PointsCount: 6; FirstPoint: @cPacificTongatapu_10[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_11[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificTongatapu_12[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_13[0]), 
-    (PointsCount: 109; FirstPoint: @cPacificTongatapu_14[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_15[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_16[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_17[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificTongatapu_18[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificTongatapu_19[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_20[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificTongatapu_21[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_22[0]), 
-    (PointsCount: 13; FirstPoint: @cPacificTongatapu_23[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_24[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificTongatapu_25[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_26[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_27[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_28[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_29[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_30[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificTongatapu_31[0]), 
-    (PointsCount: 10; FirstPoint: @cPacificTongatapu_32[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificTongatapu_33[0]), 
-    (PointsCount: 7; FirstPoint: @cPacificTongatapu_34[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_35[0]), 
-    (PointsCount: 28; FirstPoint: @cPacificTongatapu_36[0]), 
-    (PointsCount: 16; FirstPoint: @cPacificTongatapu_37[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_38[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_39[0]), 
-    (PointsCount: 18; FirstPoint: @cPacificTongatapu_40[0]), 
-    (PointsCount: 12; FirstPoint: @cPacificTongatapu_41[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificTongatapu_42[0]), 
-    (PointsCount: 11; FirstPoint: @cPacificTongatapu_43[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_44[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificTongatapu_45[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificTongatapu_46[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificTongatapu_47[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificTongatapu_48[0]), 
-    (PointsCount: 7; FirstPoint: @cPacificTongatapu_49[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificTongatapu_50[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificTongatapu_51[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificTongatapu_52[0]), 
-    (PointsCount: 14; FirstPoint: @cPacificTongatapu_53[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_54[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_55[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_56[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificTongatapu_57[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_58[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_59[0]), 
-    (PointsCount: 7; FirstPoint: @cPacificTongatapu_60[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificTongatapu_61[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificTongatapu_62[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_63[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_64[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_65[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificTongatapu_66[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_67[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_68[0]), 
-    (PointsCount: 8; FirstPoint: @cPacificTongatapu_69[0]), 
-    (PointsCount: 14; FirstPoint: @cPacificTongatapu_70[0]), 
-    (PointsCount: 9; FirstPoint: @cPacificTongatapu_71[0]), 
-    (PointsCount: 24; FirstPoint: @cPacificTongatapu_72[0]), 
-    (PointsCount: 8; FirstPoint: @cPacificTongatapu_73[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_74[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificTongatapu_75[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_76[0]), 
-    (PointsCount: 6; FirstPoint: @cPacificTongatapu_77[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificTongatapu_78[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_79[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificTongatapu_80[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_81[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_82[0]), 
-    (PointsCount: 12; FirstPoint: @cPacificTongatapu_83[0]), 
-    (PointsCount: 14; FirstPoint: @cPacificTongatapu_84[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_85[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificTongatapu_86[0]), 
-    (PointsCount: 97; FirstPoint: @cPacificTongatapu_87[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificTongatapu_88[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificTongatapu_89[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificTongatapu_90[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificTongatapu_91[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificTongatapu_92[0]), 
-    (PointsCount: 15; FirstPoint: @cPacificTongatapu_93[0])
+  cPacificTongatapu_0: array [0..103] of TTimeZonePoint = (
+    (X: -17886; Y: -2386), (X: -17888; Y: -2387), (X: -17887; Y: -2389), (X: -17887; Y: -2391),
+    (X: -17887; Y: -2394), (X: -17887; Y: -2395), (X: -17887; Y: -2397), (X: -17888; Y: -2399),
+    (X: -17889; Y: -2401), (X: -17890; Y: -2403), (X: -17891; Y: -2405), (X: -17892; Y: -2407),
+    (X: -17894; Y: -2409), (X: -17896; Y: -2410), (X: -17898; Y: -2412), (X: -17900; Y: -2413),
+    (X: -17902; Y: -2413), (X: -17904; Y: -2414), (X: -17907; Y: -2414), (X: -17909; Y: -2415),
+    (X: -17911; Y: -2416), (X: -17914; Y: -2416), (X: -17916; Y: -2416), (X: -17918; Y: -2416),
+    (X: -17920; Y: -2416), (X: -17922; Y: -2415), (X: -17925; Y: -2415), (X: -17927; Y: -2414),
+    (X: -17929; Y: -2413), (X: -17931; Y: -2411), (X: -17932; Y: -2410), (X: -17934; Y: -2409),
+    (X: -17935; Y: -2407), (X: -17936; Y: -2405), (X: -17937; Y: -2403), (X: -17938; Y: -2401),
+    (X: -17939; Y: -2399), (X: -17939; Y: -2397), (X: -17939; Y: -2396), (X: -17940; Y: -2394),
+    (X: -17939; Y: -2392), (X: -17939; Y: -2389), (X: -17938; Y: -2387), (X: -17937; Y: -2385),
+    (X: -17936; Y: -2383), (X: -17935; Y: -2381), (X: -17933; Y: -2380), (X: -17931; Y: -2378),
+    (X: -17930; Y: -2377), (X: -17928; Y: -2376), (X: -17927; Y: -2376), (X: -17925; Y: -2375),
+    (X: -17923; Y: -2374), (X: -17921; Y: -2373), (X: -17920; Y: -2373), (X: -17917; Y: -2372),
+    (X: -17915; Y: -2372), (X: -17916; Y: -2370), (X: -17916; Y: -2368), (X: -17916; Y: -2366),
+    (X: -17916; Y: -2364), (X: -17916; Y: -2362), (X: -17916; Y: -2360), (X: -17916; Y: -2359),
+    (X: -17915; Y: -2357), (X: -17914; Y: -2354), (X: -17912; Y: -2352), (X: -17910; Y: -2349),
+    (X: -17908; Y: -2347), (X: -17906; Y: -2346), (X: -17904; Y: -2344), (X: -17902; Y: -2343),
+    (X: -17899; Y: -2342), (X: -17897; Y: -2342), (X: -17894; Y: -2341), (X: -17891; Y: -2341),
+    (X: -17889; Y: -2341), (X: -17886; Y: -2342), (X: -17884; Y: -2342), (X: -17881; Y: -2343),
+    (X: -17879; Y: -2344), (X: -17877; Y: -2345), (X: -17875; Y: -2347), (X: -17873; Y: -2348),
+    (X: -17871; Y: -2350), (X: -17870; Y: -2352), (X: -17869; Y: -2354), (X: -17868; Y: -2356),
+    (X: -17867; Y: -2359), (X: -17867; Y: -2361), (X: -17867; Y: -2364), (X: -17867; Y: -2366),
+    (X: -17867; Y: -2368), (X: -17868; Y: -2371), (X: -17868; Y: -2373), (X: -17870; Y: -2375),
+    (X: -17871; Y: -2377), (X: -17872; Y: -2379), (X: -17874; Y: -2381), (X: -17876; Y: -2382),
+    (X: -17878; Y: -2383), (X: -17881; Y: -2385), (X: -17883; Y: -2386), (X: -17886; Y: -2386)
+  );
+
+  cPacificTongatapu_1: array [0..39] of TTimeZonePoint = (
+    (X: -17626; Y: -2214), (X: -17623; Y: -2213), (X: -17622; Y: -2213), (X: -17618; Y: -2213),
+    (X: -17614; Y: -2214), (X: -17611; Y: -2215), (X: -17608; Y: -2217), (X: -17606; Y: -2218),
+    (X: -17603; Y: -2221), (X: -17601; Y: -2224), (X: -17599; Y: -2228), (X: -17598; Y: -2232),
+    (X: -17598; Y: -2235), (X: -17599; Y: -2238), (X: -17600; Y: -2241), (X: -17602; Y: -2246),
+    (X: -17604; Y: -2248), (X: -17607; Y: -2250), (X: -17610; Y: -2252), (X: -17613; Y: -2254),
+    (X: -17617; Y: -2255), (X: -17620; Y: -2255), (X: -17623; Y: -2255), (X: -17627; Y: -2254),
+    (X: -17630; Y: -2253), (X: -17633; Y: -2251), (X: -17636; Y: -2249), (X: -17638; Y: -2247),
+    (X: -17640; Y: -2244), (X: -17642; Y: -2240), (X: -17643; Y: -2237), (X: -17643; Y: -2234),
+    (X: -17643; Y: -2230), (X: -17642; Y: -2227), (X: -17641; Y: -2223), (X: -17638; Y: -2221),
+    (X: -17636; Y: -2218), (X: -17633; Y: -2216), (X: -17629; Y: -2215), (X: -17626; Y: -2214)
+  );
+
+  cPacificTongatapu_2: array [0..83] of TTimeZonePoint = (
+    (X: -17517; Y: -2147), (X: -17519; Y: -2147), (X: -17521; Y: -2146), (X: -17523; Y: -2145),
+    (X: -17525; Y: -2145), (X: -17528; Y: -2143), (X: -17531; Y: -2141), (X: -17533; Y: -2139),
+    (X: -17537; Y: -2138), (X: -17540; Y: -2136), (X: -17543; Y: -2134), (X: -17545; Y: -2133),
+    (X: -17547; Y: -2131), (X: -17549; Y: -2129), (X: -17550; Y: -2128), (X: -17552; Y: -2126),
+    (X: -17554; Y: -2123), (X: -17554; Y: -2122), (X: -17555; Y: -2119), (X: -17557; Y: -2113),
+    (X: -17557; Y: -2110), (X: -17557; Y: -2107), (X: -17556; Y: -2104), (X: -17555; Y: -2101),
+    (X: -17553; Y: -2098), (X: -17551; Y: -2095), (X: -17548; Y: -2092), (X: -17545; Y: -2089),
+    (X: -17541; Y: -2087), (X: -17538; Y: -2086), (X: -17537; Y: -2086), (X: -17536; Y: -2085),
+    (X: -17535; Y: -2085), (X: -17530; Y: -2083), (X: -17527; Y: -2082), (X: -17523; Y: -2081),
+    (X: -17519; Y: -2082), (X: -17515; Y: -2083), (X: -17513; Y: -2084), (X: -17509; Y: -2084),
+    (X: -17507; Y: -2083), (X: -17504; Y: -2082), (X: -17500; Y: -2082), (X: -17496; Y: -2082),
+    (X: -17492; Y: -2084), (X: -17489; Y: -2085), (X: -17486; Y: -2087), (X: -17483; Y: -2090),
+    (X: -17482; Y: -2093), (X: -17480; Y: -2096), (X: -17479; Y: -2099), (X: -17479; Y: -2101),
+    (X: -17477; Y: -2105), (X: -17476; Y: -2109), (X: -17476; Y: -2113), (X: -17476; Y: -2114),
+    (X: -17474; Y: -2117), (X: -17472; Y: -2120), (X: -17471; Y: -2123), (X: -17470; Y: -2126),
+    (X: -17470; Y: -2128), (X: -17469; Y: -2131), (X: -17469; Y: -2138), (X: -17469; Y: -2141),
+    (X: -17469; Y: -2144), (X: -17469; Y: -2148), (X: -17470; Y: -2151), (X: -17472; Y: -2155),
+    (X: -17475; Y: -2160), (X: -17478; Y: -2162), (X: -17481; Y: -2163), (X: -17484; Y: -2165),
+    (X: -17486; Y: -2165), (X: -17490; Y: -2167), (X: -17495; Y: -2167), (X: -17499; Y: -2167),
+    (X: -17503; Y: -2166), (X: -17506; Y: -2165), (X: -17509; Y: -2163), (X: -17512; Y: -2160),
+    (X: -17514; Y: -2158), (X: -17516; Y: -2155), (X: -17517; Y: -2151), (X: -17517; Y: -2147)
+  );
+
+  cPacificTongatapu_3: array [0..44] of TTimeZonePoint = (
+    (X: -17548; Y: -2035), (X: -17547; Y: -2035), (X: -17546; Y: -2035), (X: -17543; Y: -2034),
+    (X: -17539; Y: -2033), (X: -17536; Y: -2033), (X: -17532; Y: -2034), (X: -17531; Y: -2035),
+    (X: -17528; Y: -2036), (X: -17524; Y: -2038), (X: -17521; Y: -2041), (X: -17519; Y: -2044),
+    (X: -17517; Y: -2048), (X: -17516; Y: -2052), (X: -17516; Y: -2055), (X: -17516; Y: -2056),
+    (X: -17516; Y: -2058), (X: -17517; Y: -2062), (X: -17518; Y: -2065), (X: -17520; Y: -2069),
+    (X: -17523; Y: -2072), (X: -17526; Y: -2074), (X: -17529; Y: -2075), (X: -17531; Y: -2076),
+    (X: -17534; Y: -2077), (X: -17538; Y: -2077), (X: -17541; Y: -2077), (X: -17545; Y: -2076),
+    (X: -17549; Y: -2074), (X: -17550; Y: -2073), (X: -17551; Y: -2073), (X: -17554; Y: -2071),
+    (X: -17557; Y: -2069), (X: -17559; Y: -2066), (X: -17560; Y: -2063), (X: -17561; Y: -2060),
+    (X: -17562; Y: -2056), (X: -17562; Y: -2054), (X: -17561; Y: -2050), (X: -17560; Y: -2046),
+    (X: -17558; Y: -2043), (X: -17555; Y: -2040), (X: -17553; Y: -2038), (X: -17551; Y: -2037),
+    (X: -17548; Y: -2035)
+  );
+
+  cPacificTongatapu_4: array [0..137] of TTimeZonePoint = (
+    (X: -17433; Y: -2018), (X: -17435; Y: -2019), (X: -17433; Y: -2022), (X: -17432; Y: -2025),
+    (X: -17431; Y: -2029), (X: -17431; Y: -2035), (X: -17431; Y: -2039), (X: -17431; Y: -2042),
+    (X: -17432; Y: -2045), (X: -17433; Y: -2048), (X: -17435; Y: -2051), (X: -17438; Y: -2054),
+    (X: -17441; Y: -2056), (X: -17445; Y: -2058), (X: -17449; Y: -2060), (X: -17453; Y: -2060),
+    (X: -17454; Y: -2060), (X: -17455; Y: -2061), (X: -17457; Y: -2064), (X: -17460; Y: -2066),
+    (X: -17463; Y: -2068), (X: -17467; Y: -2070), (X: -17470; Y: -2070), (X: -17474; Y: -2071),
+    (X: -17478; Y: -2070), (X: -17481; Y: -2069), (X: -17484; Y: -2068), (X: -17486; Y: -2067),
+    (X: -17489; Y: -2066), (X: -17492; Y: -2064), (X: -17495; Y: -2061), (X: -17497; Y: -2058),
+    (X: -17499; Y: -2055), (X: -17500; Y: -2052), (X: -17500; Y: -2048), (X: -17500; Y: -2045),
+    (X: -17499; Y: -2041), (X: -17498; Y: -2040), (X: -17500; Y: -2037), (X: -17502; Y: -2034),
+    (X: -17503; Y: -2031), (X: -17503; Y: -2027), (X: -17503; Y: -2024), (X: -17502; Y: -2020),
+    (X: -17500; Y: -2015), (X: -17500; Y: -2014), (X: -17500; Y: -2010), (X: -17500; Y: -2007),
+    (X: -17499; Y: -2004), (X: -17500; Y: -2003), (X: -17501; Y: -2001), (X: -17501; Y: -1998),
+    (X: -17505; Y: -1999), (X: -17509; Y: -1999), (X: -17511; Y: -1999), (X: -17514; Y: -1998),
+    (X: -17517; Y: -1997), (X: -17520; Y: -1995), (X: -17523; Y: -1993), (X: -17524; Y: -1992),
+    (X: -17525; Y: -1991), (X: -17527; Y: -1988), (X: -17528; Y: -1987), (X: -17530; Y: -1984),
+    (X: -17531; Y: -1981), (X: -17532; Y: -1977), (X: -17532; Y: -1974), (X: -17531; Y: -1970),
+    (X: -17531; Y: -1968), (X: -17530; Y: -1965), (X: -17528; Y: -1962), (X: -17527; Y: -1960),
+    (X: -17525; Y: -1958), (X: -17523; Y: -1956), (X: -17521; Y: -1955), (X: -17520; Y: -1954),
+    (X: -17519; Y: -1953), (X: -17517; Y: -1951), (X: -17514; Y: -1948), (X: -17511; Y: -1946),
+    (X: -17507; Y: -1945), (X: -17503; Y: -1945), (X: -17499; Y: -1945), (X: -17494; Y: -1946),
+    (X: -17491; Y: -1947), (X: -17487; Y: -1949), (X: -17484; Y: -1952), (X: -17482; Y: -1956),
+    (X: -17481; Y: -1958), (X: -17480; Y: -1958), (X: -17476; Y: -1957), (X: -17472; Y: -1957),
+    (X: -17469; Y: -1957), (X: -17468; Y: -1954), (X: -17467; Y: -1952), (X: -17464; Y: -1949),
+    (X: -17463; Y: -1948), (X: -17462; Y: -1947), (X: -17459; Y: -1944), (X: -17455; Y: -1941),
+    (X: -17452; Y: -1940), (X: -17448; Y: -1939), (X: -17444; Y: -1939), (X: -17441; Y: -1940),
+    (X: -17437; Y: -1941), (X: -17434; Y: -1942), (X: -17431; Y: -1945), (X: -17429; Y: -1945),
+    (X: -17425; Y: -1945), (X: -17421; Y: -1946), (X: -17417; Y: -1948), (X: -17414; Y: -1950),
+    (X: -17412; Y: -1953), (X: -17411; Y: -1955), (X: -17409; Y: -1957), (X: -17407; Y: -1960),
+    (X: -17406; Y: -1963), (X: -17405; Y: -1967), (X: -17405; Y: -1969), (X: -17405; Y: -1971),
+    (X: -17406; Y: -1974), (X: -17407; Y: -1976), (X: -17408; Y: -1980), (X: -17410; Y: -1985),
+    (X: -17411; Y: -1986), (X: -17412; Y: -1988), (X: -17414; Y: -1990), (X: -17414; Y: -1991),
+    (X: -17415; Y: -1993), (X: -17419; Y: -1997), (X: -17420; Y: -1998), (X: -17422; Y: -2001),
+    (X: -17425; Y: -2005), (X: -17425; Y: -2007), (X: -17426; Y: -2010), (X: -17428; Y: -2013),
+    (X: -17430; Y: -2016), (X: -17433; Y: -2018)
+  );
+
+  cPacificTongatapu_5: array [0..44] of TTimeZonePoint = (
+    (X: -17487; Y: -1874), (X: -17487; Y: -1873), (X: -17486; Y: -1872), (X: -17485; Y: -1870),
+    (X: -17484; Y: -1867), (X: -17481; Y: -1865), (X: -17478; Y: -1862), (X: -17475; Y: -1860),
+    (X: -17471; Y: -1859), (X: -17468; Y: -1858), (X: -17464; Y: -1858), (X: -17459; Y: -1859),
+    (X: -17456; Y: -1860), (X: -17452; Y: -1862), (X: -17450; Y: -1864), (X: -17449; Y: -1864),
+    (X: -17446; Y: -1867), (X: -17444; Y: -1870), (X: -17442; Y: -1873), (X: -17441; Y: -1876),
+    (X: -17441; Y: -1879), (X: -17441; Y: -1882), (X: -17442; Y: -1886), (X: -17443; Y: -1889),
+    (X: -17444; Y: -1891), (X: -17445; Y: -1893), (X: -17446; Y: -1894), (X: -17448; Y: -1897),
+    (X: -17451; Y: -1899), (X: -17455; Y: -1901), (X: -17458; Y: -1902), (X: -17463; Y: -1903),
+    (X: -17466; Y: -1903), (X: -17469; Y: -1902), (X: -17474; Y: -1901), (X: -17476; Y: -1900),
+    (X: -17478; Y: -1898), (X: -17481; Y: -1896), (X: -17483; Y: -1894), (X: -17485; Y: -1890),
+    (X: -17486; Y: -1888), (X: -17488; Y: -1884), (X: -17488; Y: -1881), (X: -17488; Y: -1877),
+    (X: -17487; Y: -1874)
+  );
+
+  cPacificTongatapu_6: array [0..62] of TTimeZonePoint = (
+    (X: -17414; Y: -1844), (X: -17411; Y: -1843), (X: -17410; Y: -1843), (X: -17407; Y: -1840),
+    (X: -17404; Y: -1839), (X: -17401; Y: -1838), (X: -17397; Y: -1837), (X: -17394; Y: -1837),
+    (X: -17390; Y: -1838), (X: -17387; Y: -1839), (X: -17384; Y: -1840), (X: -17381; Y: -1843),
+    (X: -17378; Y: -1845), (X: -17376; Y: -1848), (X: -17375; Y: -1851), (X: -17374; Y: -1853),
+    (X: -17372; Y: -1856), (X: -17372; Y: -1860), (X: -17372; Y: -1861), (X: -17371; Y: -1865),
+    (X: -17371; Y: -1870), (X: -17372; Y: -1874), (X: -17372; Y: -1876), (X: -17374; Y: -1879),
+    (X: -17375; Y: -1882), (X: -17376; Y: -1885), (X: -17379; Y: -1892), (X: -17380; Y: -1894),
+    (X: -17381; Y: -1896), (X: -17384; Y: -1899), (X: -17386; Y: -1902), (X: -17389; Y: -1904),
+    (X: -17393; Y: -1905), (X: -17396; Y: -1906), (X: -17400; Y: -1906), (X: -17403; Y: -1906),
+    (X: -17406; Y: -1905), (X: -17410; Y: -1904), (X: -17413; Y: -1902), (X: -17415; Y: -1901),
+    (X: -17419; Y: -1899), (X: -17422; Y: -1899), (X: -17426; Y: -1897), (X: -17429; Y: -1896),
+    (X: -17432; Y: -1893), (X: -17434; Y: -1891), (X: -17436; Y: -1888), (X: -17438; Y: -1884),
+    (X: -17438; Y: -1881), (X: -17438; Y: -1877), (X: -17437; Y: -1874), (X: -17436; Y: -1870),
+    (X: -17436; Y: -1868), (X: -17435; Y: -1865), (X: -17434; Y: -1863), (X: -17433; Y: -1860),
+    (X: -17430; Y: -1856), (X: -17427; Y: -1853), (X: -17424; Y: -1851), (X: -17423; Y: -1850),
+    (X: -17421; Y: -1848), (X: -17418; Y: -1846), (X: -17414; Y: -1844)
+  );
+
+  cPacificTongatapu_7: array [0..51] of TTimeZonePoint = (
+    (X: -17454; Y: -1800), (X: -17453; Y: -1796), (X: -17452; Y: -1793), (X: -17450; Y: -1791),
+    (X: -17448; Y: -1788), (X: -17444; Y: -1785), (X: -17441; Y: -1783), (X: -17437; Y: -1782),
+    (X: -17432; Y: -1781), (X: -17428; Y: -1781), (X: -17425; Y: -1782), (X: -17422; Y: -1783),
+    (X: -17419; Y: -1785), (X: -17416; Y: -1787), (X: -17414; Y: -1790), (X: -17412; Y: -1793),
+    (X: -17411; Y: -1796), (X: -17410; Y: -1797), (X: -17408; Y: -1798), (X: -17405; Y: -1800),
+    (X: -17402; Y: -1803), (X: -17400; Y: -1805), (X: -17398; Y: -1809), (X: -17397; Y: -1812),
+    (X: -17397; Y: -1816), (X: -17397; Y: -1819), (X: -17397; Y: -1822), (X: -17399; Y: -1825),
+    (X: -17400; Y: -1828), (X: -17403; Y: -1830), (X: -17405; Y: -1832), (X: -17408; Y: -1834),
+    (X: -17411; Y: -1836), (X: -17415; Y: -1836), (X: -17419; Y: -1837), (X: -17423; Y: -1836),
+    (X: -17427; Y: -1835), (X: -17430; Y: -1833), (X: -17433; Y: -1831), (X: -17436; Y: -1828),
+    (X: -17437; Y: -1825), (X: -17438; Y: -1822), (X: -17440; Y: -1822), (X: -17443; Y: -1821),
+    (X: -17446; Y: -1819), (X: -17447; Y: -1817), (X: -17449; Y: -1816), (X: -17451; Y: -1813),
+    (X: -17452; Y: -1810), (X: -17453; Y: -1807), (X: -17454; Y: -1803), (X: -17454; Y: -1800)
+  );
+
+  cPacificTongatapu_8: array [0..47] of TTimeZonePoint = (
+    (X: -17587; Y: -1553), (X: -17586; Y: -1551), (X: -17586; Y: -1550), (X: -17584; Y: -1547),
+    (X: -17582; Y: -1545), (X: -17580; Y: -1542), (X: -17577; Y: -1540), (X: -17573; Y: -1539),
+    (X: -17571; Y: -1538), (X: -17567; Y: -1537), (X: -17566; Y: -1537), (X: -17562; Y: -1537),
+    (X: -17558; Y: -1537), (X: -17554; Y: -1538), (X: -17553; Y: -1539), (X: -17550; Y: -1541),
+    (X: -17549; Y: -1541), (X: -17548; Y: -1542), (X: -17545; Y: -1545), (X: -17544; Y: -1546),
+    (X: -17542; Y: -1549), (X: -17541; Y: -1552), (X: -17540; Y: -1556), (X: -17539; Y: -1558),
+    (X: -17539; Y: -1561), (X: -17539; Y: -1562), (X: -17540; Y: -1566), (X: -17541; Y: -1569),
+    (X: -17543; Y: -1573), (X: -17546; Y: -1576), (X: -17549; Y: -1579), (X: -17552; Y: -1581),
+    (X: -17558; Y: -1583), (X: -17562; Y: -1584), (X: -17565; Y: -1584), (X: -17567; Y: -1584),
+    (X: -17571; Y: -1583), (X: -17573; Y: -1582), (X: -17575; Y: -1581), (X: -17578; Y: -1579),
+    (X: -17581; Y: -1577), (X: -17583; Y: -1575), (X: -17585; Y: -1572), (X: -17587; Y: -1569),
+    (X: -17588; Y: -1566), (X: -17589; Y: -1563), (X: -17588; Y: -1557), (X: -17587; Y: -1553)
+  );
+
+  cPacificTongatapu_9: array [0..45] of TTimeZonePoint = (
+    (X: -17353; Y: -1590), (X: -17354; Y: -1592), (X: -17354; Y: -1597), (X: -17355; Y: -1600),
+    (X: -17357; Y: -1604), (X: -17358; Y: -1607), (X: -17362; Y: -1611), (X: -17364; Y: -1613),
+    (X: -17367; Y: -1615), (X: -17370; Y: -1616), (X: -17373; Y: -1618), (X: -17376; Y: -1618),
+    (X: -17379; Y: -1618), (X: -17382; Y: -1618), (X: -17386; Y: -1617), (X: -17388; Y: -1616),
+    (X: -17390; Y: -1615), (X: -17394; Y: -1612), (X: -17396; Y: -1610), (X: -17398; Y: -1607),
+    (X: -17400; Y: -1603), (X: -17401; Y: -1599), (X: -17402; Y: -1596), (X: -17401; Y: -1592),
+    (X: -17400; Y: -1589), (X: -17399; Y: -1586), (X: -17397; Y: -1583), (X: -17396; Y: -1581),
+    (X: -17395; Y: -1579), (X: -17394; Y: -1575), (X: -17392; Y: -1572), (X: -17390; Y: -1569),
+    (X: -17387; Y: -1567), (X: -17384; Y: -1566), (X: -17381; Y: -1565), (X: -17378; Y: -1564),
+    (X: -17374; Y: -1564), (X: -17371; Y: -1564), (X: -17368; Y: -1565), (X: -17363; Y: -1568),
+    (X: -17360; Y: -1570), (X: -17358; Y: -1572), (X: -17355; Y: -1576), (X: -17354; Y: -1580),
+    (X: -17353; Y: -1586), (X: -17353; Y: -1590)
+  );
+
+  cPacificTongatapuPolygon: array[0..9] of TTimeZonePolygon = (
+    (PointsCount: 104; FirstPoint: @cPacificTongatapu_0[0]), 
+    (PointsCount: 40; FirstPoint: @cPacificTongatapu_1[0]), 
+    (PointsCount: 84; FirstPoint: @cPacificTongatapu_2[0]), 
+    (PointsCount: 45; FirstPoint: @cPacificTongatapu_3[0]), 
+    (PointsCount: 138; FirstPoint: @cPacificTongatapu_4[0]), 
+    (PointsCount: 45; FirstPoint: @cPacificTongatapu_5[0]), 
+    (PointsCount: 63; FirstPoint: @cPacificTongatapu_6[0]), 
+    (PointsCount: 52; FirstPoint: @cPacificTongatapu_7[0]), 
+    (PointsCount: 48; FirstPoint: @cPacificTongatapu_8[0]), 
+    (PointsCount: 46; FirstPoint: @cPacificTongatapu_9[0])
   );
 
   cPacificTongatapuBound: TTimeZoneBound = (
-    Min: (X: -17621; Y: -2235);
-    Max: (X: -17370; Y: -1556)
+    Min: (X: -17940; Y: -2416);
+    Max: (X: -17353; Y: -1537)
   );
 
   cPacificTongatapu: TTimeZoneInfo = (
     TZID: 'Pacific/Tongatapu';
     Bound: @cPacificTongatapuBound;
-    PolygonsCount: 94;
+    PolygonsCount: 10;
     FirstPolygon: @cPacificTongatapuPolygon[0]
   );
 

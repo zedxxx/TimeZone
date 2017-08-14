@@ -24,63 +24,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      6.500000,0.000000,0 6.500000,0.000000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAfricaSao_Tome_1</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      6.500000,0.000000,0 6.500000,0.100000,0 6.500000,0.200000,0 6.500000,0.300000,0 6.500000,0.400000,0 6.600000,0.400000,0 6.700000,0.400000,0 6.700000,0.300000,0 6.700000,0.400000,0 6.700000,0.300000,0 6.800000,0.300000,0 6.800000,0.200000,0 6.700000,0.200000,0 6.700000,0.100000,0 6.600000,0.100000,0 6.600000,0.000000,0 6.500000,0.000000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAfricaSao_Tome_2</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      7.300000,1.400000,0 7.300000,1.400000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAfricaSao_Tome_3</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      7.300000,1.400000,0 7.300000,1.400000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAfricaSao_Tome_4</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      7.400000,1.700000,0 7.500000,1.700000,0 7.400000,1.700000,0 7.400000,1.600000,0 7.400000,1.700000,0 7.400000,1.600000,0 7.500000,1.600000,0 7.400000,1.600000,0 7.400000,1.500000,0 7.400000,1.600000,0 7.300000,1.600000,0 7.400000,1.600000,0 7.400000,1.700000,0 
+      7.300000,0.800000,0 6.900000,0.100000,0 6.800000,-0.100000,0 6.700000,-0.100000,0 6.600000,-0.200000,0 6.500000,-0.200000,0 6.400000,-0.200000,0 6.400000,-0.100000,0 6.300000,-0.100000,0 6.300000,0.100000,0 6.300000,0.200000,0 6.300000,0.300000,0 6.300000,0.400000,0 6.800000,1.100000,0 7.200000,1.800000,0 7.200000,1.900000,0 7.300000,1.900000,0 7.400000,1.900000,0 7.500000,1.900000,0 7.600000,1.900000,0 7.600000,1.800000,0 7.700000,1.800000,0 7.700000,1.700000,0 7.700000,1.600000,0 7.600000,1.500000,0 7.600000,1.400000,0 7.300000,0.800000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>

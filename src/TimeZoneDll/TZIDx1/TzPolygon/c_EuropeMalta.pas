@@ -6,36 +6,30 @@ uses
   t_TzWorld;
 
 const
-  cEuropeMalta_0: array [0..9] of TTimeZonePoint = (
-    (X: 145; Y: 359), (X: 146; Y: 359), (X: 146; Y: 358), (X: 145; Y: 358),
-    (X: 144; Y: 358), (X: 144; Y: 359), (X: 143; Y: 359), (X: 143; Y: 360),
-    (X: 144; Y: 360), (X: 145; Y: 359)
+  cEuropeMalta_0: array [0..31] of TTimeZonePoint = (
+    (X: 141; Y: 359), (X: 140; Y: 359), (X: 140; Y: 360), (X: 139; Y: 360),
+    (X: 139; Y: 361), (X: 140; Y: 361), (X: 140; Y: 362), (X: 141; Y: 363),
+    (X: 142; Y: 363), (X: 143; Y: 363), (X: 144; Y: 363), (X: 144; Y: 362),
+    (X: 145; Y: 362), (X: 145; Y: 361), (X: 146; Y: 361), (X: 147; Y: 361),
+    (X: 147; Y: 360), (X: 148; Y: 360), (X: 148; Y: 359), (X: 148; Y: 358),
+    (X: 148; Y: 357), (X: 147; Y: 357), (X: 147; Y: 356), (X: 146; Y: 356),
+    (X: 145; Y: 356), (X: 144; Y: 356), (X: 143; Y: 356), (X: 143; Y: 357),
+    (X: 142; Y: 357), (X: 141; Y: 357), (X: 141; Y: 358), (X: 141; Y: 359)
   );
 
-  cEuropeMalta_1: array [0..2] of TTimeZonePoint = (
-    (X: 143; Y: 360), (X: 144; Y: 360), (X: 143; Y: 360)
-  );
-
-  cEuropeMalta_2: array [0..4] of TTimeZonePoint = (
-    (X: 143; Y: 361), (X: 143; Y: 360), (X: 142; Y: 360), (X: 142; Y: 361),
-    (X: 143; Y: 361)
-  );
-
-  cEuropeMaltaPolygon: array[0..2] of TTimeZonePolygon = (
-    (PointsCount: 10; FirstPoint: @cEuropeMalta_0[0]), 
-    (PointsCount: 3; FirstPoint: @cEuropeMalta_1[0]), 
-    (PointsCount: 5; FirstPoint: @cEuropeMalta_2[0])
+  cEuropeMaltaPolygon: array[0..0] of TTimeZonePolygon = (
+    (PointsCount: 32; FirstPoint: @cEuropeMalta_0[0])
   );
 
   cEuropeMaltaBound: TTimeZoneBound = (
-    Min: (X: 142; Y: 358);
-    Max: (X: 146; Y: 361)
+    Min: (X: 139; Y: 356);
+    Max: (X: 148; Y: 363)
   );
 
   cEuropeMalta: TTimeZoneInfo = (
     TZID: 'Europe/Malta';
     Bound: @cEuropeMaltaBound;
-    PolygonsCount: 3;
+    PolygonsCount: 1;
     FirstPolygon: @cEuropeMaltaPolygon[0]
   );
 

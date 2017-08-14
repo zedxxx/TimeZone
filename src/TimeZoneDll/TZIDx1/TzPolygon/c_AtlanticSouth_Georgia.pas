@@ -6,158 +6,139 @@ uses
   t_TzWorld;
 
 const
-  cAtlanticSouth_Georgia_0: array [0..6] of TTimeZonePoint = (
-    (X: -272; Y: -595), (X: -273; Y: -595), (X: -272; Y: -595), (X: -273; Y: -595),
-    (X: -272; Y: -595), (X: -272; Y: -594), (X: -272; Y: -595)
+  cAtlanticSouth_Georgia_0: array [0..22] of TTimeZonePoint = (
+    (X: -285; Y: -568), (X: -285; Y: -567), (X: -285; Y: -566), (X: -284; Y: -566),
+    (X: -284; Y: -565), (X: -283; Y: -565), (X: -282; Y: -565), (X: -281; Y: -565),
+    (X: -280; Y: -565), (X: -279; Y: -565), (X: -279; Y: -566), (X: -278; Y: -566),
+    (X: -278; Y: -567), (X: -278; Y: -568), (X: -279; Y: -568), (X: -279; Y: -569),
+    (X: -280; Y: -569), (X: -281; Y: -569), (X: -282; Y: -569), (X: -283; Y: -569),
+    (X: -284; Y: -569), (X: -284; Y: -568), (X: -285; Y: -568)
   );
 
-  cAtlanticSouth_Georgia_1: array [0..4] of TTimeZonePoint = (
-    (X: -273; Y: -594), (X: -273; Y: -595), (X: -274; Y: -595), (X: -274; Y: -594),
-    (X: -273; Y: -594)
+  cAtlanticSouth_Georgia_1: array [0..29] of TTimeZonePoint = (
+    (X: -266; Y: -593), (X: -267; Y: -593), (X: -268; Y: -593), (X: -268; Y: -592),
+    (X: -269; Y: -592), (X: -270; Y: -592), (X: -271; Y: -592), (X: -271; Y: -591),
+    (X: -271; Y: -590), (X: -271; Y: -589), (X: -270; Y: -589), (X: -269; Y: -589),
+    (X: -268; Y: -588), (X: -267; Y: -588), (X: -266; Y: -588), (X: -265; Y: -588),
+    (X: -264; Y: -588), (X: -263; Y: -588), (X: -263; Y: -589), (X: -262; Y: -589),
+    (X: -262; Y: -590), (X: -261; Y: -590), (X: -261; Y: -591), (X: -262; Y: -591),
+    (X: -262; Y: -592), (X: -263; Y: -592), (X: -264; Y: -592), (X: -264; Y: -593),
+    (X: -265; Y: -593), (X: -266; Y: -593)
   );
 
-  cAtlanticSouth_Georgia_2: array [0..1] of TTimeZonePoint = (
-    (X: -271; Y: -594), (X: -271; Y: -594)
+  cAtlanticSouth_Georgia_2: array [0..31] of TTimeZonePoint = (
+    (X: -278; Y: -593), (X: -277; Y: -593), (X: -276; Y: -593), (X: -275; Y: -592),
+    (X: -274; Y: -592), (X: -273; Y: -592), (X: -272; Y: -592), (X: -271; Y: -592),
+    (X: -270; Y: -592), (X: -269; Y: -592), (X: -269; Y: -593), (X: -268; Y: -593),
+    (X: -267; Y: -593), (X: -267; Y: -594), (X: -267; Y: -595), (X: -268; Y: -595),
+    (X: -268; Y: -596), (X: -269; Y: -596), (X: -269; Y: -597), (X: -270; Y: -597),
+    (X: -271; Y: -597), (X: -272; Y: -597), (X: -273; Y: -597), (X: -274; Y: -597),
+    (X: -275; Y: -597), (X: -275; Y: -596), (X: -276; Y: -596), (X: -277; Y: -596),
+    (X: -278; Y: -596), (X: -278; Y: -595), (X: -278; Y: -594), (X: -278; Y: -593)
   );
 
-  cAtlanticSouth_Georgia_3: array [0..5] of TTimeZonePoint = (
-    (X: -266; Y: -590), (X: -265; Y: -590), (X: -265; Y: -591), (X: -266; Y: -591),
-    (X: -267; Y: -590), (X: -266; Y: -590)
+  cAtlanticSouth_Georgia_3: array [0..24] of TTimeZonePoint = (
+    (X: -280; Y: -562), (X: -279; Y: -562), (X: -279; Y: -561), (X: -278; Y: -561),
+    (X: -277; Y: -561), (X: -276; Y: -561), (X: -275; Y: -561), (X: -274; Y: -561),
+    (X: -273; Y: -561), (X: -273; Y: -562), (X: -272; Y: -562), (X: -272; Y: -563),
+    (X: -272; Y: -564), (X: -273; Y: -564), (X: -273; Y: -565), (X: -274; Y: -565),
+    (X: -275; Y: -565), (X: -276; Y: -565), (X: -277; Y: -565), (X: -278; Y: -565),
+    (X: -279; Y: -565), (X: -279; Y: -564), (X: -280; Y: -564), (X: -280; Y: -563),
+    (X: -280; Y: -562)
   );
 
-  cAtlanticSouth_Georgia_4: array [0..8] of TTimeZonePoint = (
-    (X: -262; Y: -584), (X: -262; Y: -585), (X: -263; Y: -585), (X: -264; Y: -585),
-    (X: -264; Y: -584), (X: -265; Y: -584), (X: -264; Y: -584), (X: -263; Y: -584),
-    (X: -262; Y: -584)
+  cAtlanticSouth_Georgia_4: array [0..47] of TTimeZonePoint = (
+    (X: -270; Y: -573), (X: -271; Y: -573), (X: -271; Y: -572), (X: -272; Y: -572),
+    (X: -272; Y: -571), (X: -272; Y: -570), (X: -271; Y: -570), (X: -271; Y: -569),
+    (X: -270; Y: -569), (X: -271; Y: -569), (X: -272; Y: -569), (X: -273; Y: -569),
+    (X: -274; Y: -569), (X: -275; Y: -569), (X: -275; Y: -568), (X: -276; Y: -568),
+    (X: -276; Y: -567), (X: -275; Y: -566), (X: -274; Y: -566), (X: -274; Y: -565),
+    (X: -273; Y: -565), (X: -272; Y: -565), (X: -271; Y: -565), (X: -270; Y: -565),
+    (X: -269; Y: -565), (X: -269; Y: -566), (X: -268; Y: -566), (X: -267; Y: -566),
+    (X: -267; Y: -567), (X: -267; Y: -568), (X: -268; Y: -568), (X: -268; Y: -569),
+    (X: -267; Y: -569), (X: -266; Y: -569), (X: -265; Y: -569), (X: -264; Y: -569),
+    (X: -264; Y: -570), (X: -263; Y: -570), (X: -263; Y: -571), (X: -263; Y: -572),
+    (X: -264; Y: -572), (X: -264; Y: -573), (X: -265; Y: -573), (X: -266; Y: -573),
+    (X: -267; Y: -573), (X: -268; Y: -573), (X: -269; Y: -573), (X: -270; Y: -573)
   );
 
-  cAtlanticSouth_Georgia_5: array [0..3] of TTimeZonePoint = (
-    (X: -265; Y: -578), (X: -265; Y: -577), (X: -264; Y: -578), (X: -265; Y: -578)
+  cAtlanticSouth_Georgia_5: array [0..30] of TTimeZonePoint = (
+    (X: -259; Y: -583), (X: -259; Y: -584), (X: -259; Y: -585), (X: -258; Y: -585),
+    (X: -259; Y: -585), (X: -259; Y: -586), (X: -260; Y: -586), (X: -260; Y: -587),
+    (X: -261; Y: -587), (X: -262; Y: -587), (X: -263; Y: -587), (X: -264; Y: -587),
+    (X: -265; Y: -587), (X: -266; Y: -587), (X: -266; Y: -586), (X: -267; Y: -586),
+    (X: -268; Y: -586), (X: -268; Y: -585), (X: -268; Y: -584), (X: -268; Y: -583),
+    (X: -267; Y: -583), (X: -267; Y: -582), (X: -266; Y: -582), (X: -265; Y: -582),
+    (X: -264; Y: -582), (X: -263; Y: -582), (X: -262; Y: -582), (X: -261; Y: -582),
+    (X: -260; Y: -582), (X: -260; Y: -583), (X: -259; Y: -583)
   );
 
-  cAtlanticSouth_Georgia_6: array [0..2] of TTimeZonePoint = (
-    (X: -271; Y: -567), (X: -272; Y: -567), (X: -271; Y: -567)
+  cAtlanticSouth_Georgia_6: array [0..18] of TTimeZonePoint = (
+    (X: -421; Y: -537), (X: -421; Y: -536), (X: -421; Y: -535), (X: -420; Y: -535),
+    (X: -419; Y: -535), (X: -418; Y: -535), (X: -417; Y: -535), (X: -416; Y: -535),
+    (X: -415; Y: -535), (X: -415; Y: -536), (X: -415; Y: -537), (X: -415; Y: -538),
+    (X: -416; Y: -538), (X: -417; Y: -538), (X: -418; Y: -538), (X: -419; Y: -538),
+    (X: -420; Y: -538), (X: -421; Y: -538), (X: -421; Y: -537)
   );
 
-  cAtlanticSouth_Georgia_7: array [0..2] of TTimeZonePoint = (
-    (X: -276; Y: -563), (X: -275; Y: -563), (X: -276; Y: -563)
+  cAtlanticSouth_Georgia_7: array [0..91] of TTimeZonePoint = (
+    (X: -364; Y: -550), (X: -365; Y: -550), (X: -365; Y: -549), (X: -366; Y: -549),
+    (X: -366; Y: -548), (X: -367; Y: -548), (X: -368; Y: -548), (X: -369; Y: -548),
+    (X: -370; Y: -548), (X: -370; Y: -547), (X: -371; Y: -547), (X: -372; Y: -547),
+    (X: -373; Y: -547), (X: -374; Y: -547), (X: -374; Y: -546), (X: -375; Y: -546),
+    (X: -375; Y: -545), (X: -376; Y: -545), (X: -376; Y: -544), (X: -377; Y: -544),
+    (X: -378; Y: -544), (X: -379; Y: -543), (X: -380; Y: -543), (X: -381; Y: -543),
+    (X: -382; Y: -543), (X: -382; Y: -542), (X: -383; Y: -542), (X: -384; Y: -542),
+    (X: -385; Y: -542), (X: -385; Y: -541), (X: -386; Y: -541), (X: -386; Y: -540),
+    (X: -386; Y: -539), (X: -385; Y: -539), (X: -385; Y: -538), (X: -384; Y: -538),
+    (X: -383; Y: -538), (X: -382; Y: -538), (X: -381; Y: -538), (X: -380; Y: -538),
+    (X: -379; Y: -538), (X: -378; Y: -538), (X: -377; Y: -538), (X: -376; Y: -538),
+    (X: -375; Y: -538), (X: -374; Y: -538), (X: -373; Y: -538), (X: -372; Y: -538),
+    (X: -371; Y: -538), (X: -370; Y: -538), (X: -370; Y: -539), (X: -369; Y: -539),
+    (X: -368; Y: -539), (X: -367; Y: -539), (X: -366; Y: -539), (X: -365; Y: -539),
+    (X: -365; Y: -540), (X: -364; Y: -540), (X: -363; Y: -540), (X: -362; Y: -540),
+    (X: -362; Y: -541), (X: -361; Y: -541), (X: -360; Y: -541), (X: -360; Y: -542),
+    (X: -359; Y: -542), (X: -359; Y: -543), (X: -358; Y: -543), (X: -358; Y: -544),
+    (X: -357; Y: -544), (X: -356; Y: -544), (X: -356; Y: -545), (X: -355; Y: -545),
+    (X: -355; Y: -546), (X: -356; Y: -546), (X: -355; Y: -546), (X: -355; Y: -547),
+    (X: -354; Y: -547), (X: -354; Y: -548), (X: -354; Y: -549), (X: -355; Y: -549),
+    (X: -355; Y: -550), (X: -356; Y: -550), (X: -357; Y: -550), (X: -358; Y: -550),
+    (X: -358; Y: -551), (X: -359; Y: -551), (X: -360; Y: -551), (X: -361; Y: -551),
+    (X: -362; Y: -551), (X: -363; Y: -551), (X: -363; Y: -550), (X: -364; Y: -550)
   );
 
-  cAtlanticSouth_Georgia_8: array [0..1] of TTimeZonePoint = (
-    (X: -268; Y: -571), (X: -268; Y: -571)
+  cAtlanticSouth_Georgia_8: array [0..28] of TTimeZonePoint = (
+    (X: -268; Y: -577), (X: -268; Y: -576), (X: -267; Y: -576), (X: -266; Y: -576),
+    (X: -266; Y: -575), (X: -265; Y: -575), (X: -264; Y: -575), (X: -264; Y: -576),
+    (X: -263; Y: -576), (X: -262; Y: -576), (X: -261; Y: -576), (X: -261; Y: -577),
+    (X: -260; Y: -577), (X: -260; Y: -578), (X: -260; Y: -579), (X: -261; Y: -579),
+    (X: -261; Y: -580), (X: -262; Y: -580), (X: -263; Y: -580), (X: -264; Y: -580),
+    (X: -265; Y: -580), (X: -266; Y: -580), (X: -267; Y: -580), (X: -267; Y: -579),
+    (X: -268; Y: -579), (X: -269; Y: -579), (X: -269; Y: -578), (X: -269; Y: -577),
+    (X: -268; Y: -577)
   );
 
-  cAtlanticSouth_Georgia_9: array [0..2] of TTimeZonePoint = (
-    (X: -267; Y: -571), (X: -266; Y: -571), (X: -267; Y: -571)
-  );
-
-  cAtlanticSouth_Georgia_10: array [0..2] of TTimeZonePoint = (
-    (X: -377; Y: -541), (X: -378; Y: -541), (X: -377; Y: -541)
-  );
-
-  cAtlanticSouth_Georgia_11: array [0..2] of TTimeZonePoint = (
-    (X: -370; Y: -545), (X: -371; Y: -545), (X: -370; Y: -545)
-  );
-
-  cAtlanticSouth_Georgia_12: array [0..2] of TTimeZonePoint = (
-    (X: -418; Y: -536), (X: -418; Y: -537), (X: -418; Y: -536)
-  );
-
-  cAtlanticSouth_Georgia_13: array [0..1] of TTimeZonePoint = (
-    (X: -382; Y: -540), (X: -382; Y: -540)
-  );
-
-  cAtlanticSouth_Georgia_14: array [0..1] of TTimeZonePoint = (
-    (X: -382; Y: -540), (X: -382; Y: -540)
-  );
-
-  cAtlanticSouth_Georgia_15: array [0..1] of TTimeZonePoint = (
-    (X: -373; Y: -540), (X: -373; Y: -540)
-  );
-
-  cAtlanticSouth_Georgia_16: array [0..1] of TTimeZonePoint = (
-    (X: -373; Y: -540), (X: -373; Y: -540)
-  );
-
-  cAtlanticSouth_Georgia_17: array [0..2] of TTimeZonePoint = (
-    (X: -380; Y: -540), (X: -381; Y: -540), (X: -380; Y: -540)
-  );
-
-  cAtlanticSouth_Georgia_18: array [0..1] of TTimeZonePoint = (
-    (X: -358; Y: -548), (X: -358; Y: -548)
-  );
-
-  cAtlanticSouth_Georgia_19: array [0..140] of TTimeZonePoint = (
-    (X: -370; Y: -541), (X: -369; Y: -541), (X: -368; Y: -541), (X: -368; Y: -542),
-    (X: -368; Y: -541), (X: -367; Y: -541), (X: -366; Y: -541), (X: -367; Y: -541),
-    (X: -367; Y: -542), (X: -366; Y: -542), (X: -365; Y: -542), (X: -366; Y: -542),
-    (X: -367; Y: -542), (X: -367; Y: -543), (X: -366; Y: -543), (X: -366; Y: -542),
-    (X: -365; Y: -542), (X: -365; Y: -543), (X: -365; Y: -544), (X: -365; Y: -543),
-    (X: -364; Y: -543), (X: -364; Y: -544), (X: -363; Y: -544), (X: -363; Y: -543),
-    (X: -364; Y: -543), (X: -364; Y: -542), (X: -364; Y: -543), (X: -363; Y: -543),
-    (X: -362; Y: -543), (X: -363; Y: -543), (X: -362; Y: -543), (X: -363; Y: -543),
-    (X: -362; Y: -543), (X: -362; Y: -544), (X: -363; Y: -544), (X: -362; Y: -544),
-    (X: -361; Y: -544), (X: -361; Y: -545), (X: -360; Y: -545), (X: -361; Y: -545),
-    (X: -361; Y: -546), (X: -360; Y: -546), (X: -359; Y: -546), (X: -359; Y: -545),
-    (X: -359; Y: -546), (X: -359; Y: -547), (X: -359; Y: -548), (X: -358; Y: -548),
-    (X: -358; Y: -547), (X: -358; Y: -548), (X: -359; Y: -548), (X: -360; Y: -548),
-    (X: -361; Y: -548), (X: -360; Y: -548), (X: -359; Y: -548), (X: -359; Y: -549),
-    (X: -360; Y: -549), (X: -360; Y: -548), (X: -360; Y: -549), (X: -361; Y: -549),
-    (X: -361; Y: -548), (X: -362; Y: -548), (X: -363; Y: -548), (X: -363; Y: -547),
-    (X: -363; Y: -546), (X: -364; Y: -546), (X: -365; Y: -546), (X: -365; Y: -545),
-    (X: -366; Y: -545), (X: -367; Y: -545), (X: -368; Y: -545), (X: -368; Y: -544),
-    (X: -369; Y: -544), (X: -369; Y: -543), (X: -370; Y: -544), (X: -370; Y: -543),
-    (X: -371; Y: -543), (X: -372; Y: -543), (X: -372; Y: -542), (X: -372; Y: -543),
-    (X: -372; Y: -542), (X: -373; Y: -542), (X: -373; Y: -543), (X: -374; Y: -543),
-    (X: -374; Y: -542), (X: -373; Y: -542), (X: -374; Y: -542), (X: -373; Y: -542),
-    (X: -372; Y: -541), (X: -373; Y: -541), (X: -374; Y: -542), (X: -374; Y: -541),
-    (X: -375; Y: -541), (X: -376; Y: -541), (X: -376; Y: -542), (X: -375; Y: -542),
-    (X: -376; Y: -542), (X: -377; Y: -542), (X: -377; Y: -541), (X: -376; Y: -541),
-    (X: -377; Y: -541), (X: -376; Y: -541), (X: -376; Y: -540), (X: -377; Y: -540),
-    (X: -378; Y: -541), (X: -378; Y: -540), (X: -378; Y: -541), (X: -378; Y: -540),
-    (X: -379; Y: -541), (X: -379; Y: -540), (X: -380; Y: -540), (X: -380; Y: -541),
-    (X: -380; Y: -540), (X: -379; Y: -540), (X: -378; Y: -540), (X: -377; Y: -540),
-    (X: -376; Y: -540), (X: -375; Y: -540), (X: -374; Y: -540), (X: -375; Y: -540),
-    (X: -374; Y: -540), (X: -375; Y: -540), (X: -374; Y: -540), (X: -375; Y: -540),
-    (X: -375; Y: -541), (X: -374; Y: -541), (X: -374; Y: -540), (X: -373; Y: -541),
-    (X: -373; Y: -540), (X: -373; Y: -541), (X: -372; Y: -541), (X: -372; Y: -540),
-    (X: -372; Y: -541), (X: -372; Y: -540), (X: -371; Y: -540), (X: -371; Y: -541),
-    (X: -372; Y: -541), (X: -371; Y: -541), (X: -372; Y: -541), (X: -371; Y: -541),
-    (X: -370; Y: -541)
-  );
-
-  cAtlanticSouth_GeorgiaPolygon: array[0..19] of TTimeZonePolygon = (
-    (PointsCount: 7; FirstPoint: @cAtlanticSouth_Georgia_0[0]), 
-    (PointsCount: 5; FirstPoint: @cAtlanticSouth_Georgia_1[0]), 
-    (PointsCount: 2; FirstPoint: @cAtlanticSouth_Georgia_2[0]), 
-    (PointsCount: 6; FirstPoint: @cAtlanticSouth_Georgia_3[0]), 
-    (PointsCount: 9; FirstPoint: @cAtlanticSouth_Georgia_4[0]), 
-    (PointsCount: 4; FirstPoint: @cAtlanticSouth_Georgia_5[0]), 
-    (PointsCount: 3; FirstPoint: @cAtlanticSouth_Georgia_6[0]), 
-    (PointsCount: 3; FirstPoint: @cAtlanticSouth_Georgia_7[0]), 
-    (PointsCount: 2; FirstPoint: @cAtlanticSouth_Georgia_8[0]), 
-    (PointsCount: 3; FirstPoint: @cAtlanticSouth_Georgia_9[0]), 
-    (PointsCount: 3; FirstPoint: @cAtlanticSouth_Georgia_10[0]), 
-    (PointsCount: 3; FirstPoint: @cAtlanticSouth_Georgia_11[0]), 
-    (PointsCount: 3; FirstPoint: @cAtlanticSouth_Georgia_12[0]), 
-    (PointsCount: 2; FirstPoint: @cAtlanticSouth_Georgia_13[0]), 
-    (PointsCount: 2; FirstPoint: @cAtlanticSouth_Georgia_14[0]), 
-    (PointsCount: 2; FirstPoint: @cAtlanticSouth_Georgia_15[0]), 
-    (PointsCount: 2; FirstPoint: @cAtlanticSouth_Georgia_16[0]), 
-    (PointsCount: 3; FirstPoint: @cAtlanticSouth_Georgia_17[0]), 
-    (PointsCount: 2; FirstPoint: @cAtlanticSouth_Georgia_18[0]), 
-    (PointsCount: 141; FirstPoint: @cAtlanticSouth_Georgia_19[0])
+  cAtlanticSouth_GeorgiaPolygon: array[0..8] of TTimeZonePolygon = (
+    (PointsCount: 23; FirstPoint: @cAtlanticSouth_Georgia_0[0]), 
+    (PointsCount: 30; FirstPoint: @cAtlanticSouth_Georgia_1[0]), 
+    (PointsCount: 32; FirstPoint: @cAtlanticSouth_Georgia_2[0]), 
+    (PointsCount: 25; FirstPoint: @cAtlanticSouth_Georgia_3[0]), 
+    (PointsCount: 48; FirstPoint: @cAtlanticSouth_Georgia_4[0]), 
+    (PointsCount: 31; FirstPoint: @cAtlanticSouth_Georgia_5[0]), 
+    (PointsCount: 19; FirstPoint: @cAtlanticSouth_Georgia_6[0]), 
+    (PointsCount: 92; FirstPoint: @cAtlanticSouth_Georgia_7[0]), 
+    (PointsCount: 29; FirstPoint: @cAtlanticSouth_Georgia_8[0])
   );
 
   cAtlanticSouth_GeorgiaBound: TTimeZoneBound = (
-    Min: (X: -418; Y: -595);
-    Max: (X: -262; Y: -536)
+    Min: (X: -421; Y: -597);
+    Max: (X: -258; Y: -535)
   );
 
   cAtlanticSouth_Georgia: TTimeZoneInfo = (
     TZID: 'Atlantic/South_Georgia';
     Bound: @cAtlanticSouth_GeorgiaBound;
-    PolygonsCount: 20;
+    PolygonsCount: 9;
     FirstPolygon: @cAtlanticSouth_GeorgiaPolygon[0]
   );
 

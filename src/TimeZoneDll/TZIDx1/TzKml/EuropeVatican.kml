@@ -24,7 +24,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      12.400000,41.900000,0 12.500000,41.900000,0 12.400000,41.900000,0 
+      12.500000,41.900000,0 12.400000,41.900000,0 12.500000,41.900000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>

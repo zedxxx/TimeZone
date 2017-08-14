@@ -6,197 +6,134 @@ uses
   t_TzWorld;
 
 const
-  cPacificRarotonga_0: array [0..2] of TTimeZonePoint = (
-    (X: -1579; Y: -219), (X: -1580; Y: -219), (X: -1579; Y: -219)
+  cPacificRarotonga_0: array [0..18] of TTimeZonePoint = (
+    (X: -1572; Y: -204), (X: -1573; Y: -204), (X: -1574; Y: -204), (X: -1575; Y: -204),
+    (X: -1575; Y: -203), (X: -1576; Y: -202), (X: -1576; Y: -201), (X: -1575; Y: -201),
+    (X: -1575; Y: -200), (X: -1574; Y: -200), (X: -1574; Y: -199), (X: -1573; Y: -199),
+    (X: -1572; Y: -200), (X: -1571; Y: -200), (X: -1571; Y: -201), (X: -1571; Y: -202),
+    (X: -1571; Y: -203), (X: -1572; Y: -203), (X: -1572; Y: -204)
   );
 
-  cPacificRarotonga_1: array [0..4] of TTimeZonePoint = (
-    (X: -1598; Y: -212), (X: -1597; Y: -212), (X: -1597; Y: -213), (X: -1598; Y: -213),
-    (X: -1598; Y: -212)
+  cPacificRarotonga_1: array [0..20] of TTimeZonePoint = (
+    (X: -1577; Y: -89), (X: -1577; Y: -90), (X: -1577; Y: -91), (X: -1577; Y: -92),
+    (X: -1578; Y: -92), (X: -1578; Y: -93), (X: -1579; Y: -93), (X: -1580; Y: -93),
+    (X: -1581; Y: -93), (X: -1581; Y: -92), (X: -1582; Y: -92), (X: -1582; Y: -91),
+    (X: -1583; Y: -90), (X: -1583; Y: -89), (X: -1582; Y: -89), (X: -1582; Y: -88),
+    (X: -1581; Y: -87), (X: -1580; Y: -87), (X: -1579; Y: -87), (X: -1578; Y: -88),
+    (X: -1577; Y: -89)
   );
 
-  cPacificRarotonga_2: array [0..4] of TTimeZonePoint = (
-    (X: -1573; Y: -202), (X: -1574; Y: -202), (X: -1574; Y: -201), (X: -1573; Y: -201),
-    (X: -1573; Y: -202)
+  cPacificRarotonga_2: array [0..28] of TTimeZonePoint = (
+    (X: -1612; Y: -102), (X: -1613; Y: -102), (X: -1613; Y: -101), (X: -1613; Y: -100),
+    (X: -1613; Y: -99), (X: -1612; Y: -98), (X: -1611; Y: -98), (X: -1610; Y: -98),
+    (X: -1609; Y: -99), (X: -1609; Y: -100), (X: -1609; Y: -101), (X: -1609; Y: -102),
+    (X: -1608; Y: -102), (X: -1608; Y: -103), (X: -1608; Y: -104), (X: -1607; Y: -104),
+    (X: -1607; Y: -105), (X: -1608; Y: -105), (X: -1608; Y: -106), (X: -1609; Y: -106),
+    (X: -1609; Y: -107), (X: -1610; Y: -107), (X: -1611; Y: -107), (X: -1611; Y: -106),
+    (X: -1612; Y: -106), (X: -1612; Y: -105), (X: -1612; Y: -104), (X: -1612; Y: -103),
+    (X: -1612; Y: -102)
   );
 
-  cPacificRarotonga_3: array [0..1] of TTimeZonePoint = (
-    (X: -1581; Y: -200), (X: -1581; Y: -200)
+  cPacificRarotonga_3: array [0..19] of TTimeZonePoint = (
+    (X: -1661; Y: -108), (X: -1660; Y: -108), (X: -1660; Y: -107), (X: -1659; Y: -107),
+    (X: -1659; Y: -106), (X: -1658; Y: -106), (X: -1658; Y: -107), (X: -1657; Y: -107),
+    (X: -1656; Y: -108), (X: -1656; Y: -109), (X: -1656; Y: -110), (X: -1657; Y: -110),
+    (X: -1657; Y: -111), (X: -1658; Y: -111), (X: -1659; Y: -111), (X: -1660; Y: -111),
+    (X: -1660; Y: -110), (X: -1661; Y: -110), (X: -1661; Y: -109), (X: -1661; Y: -108)
   );
 
-  cPacificRarotonga_4: array [0..1] of TTimeZonePoint = (
-    (X: -1583; Y: -198), (X: -1583; Y: -198)
+  cPacificRarotonga_4: array [0..15] of TTimeZonePoint = (
+    (X: -1656; Y: -114), (X: -1655; Y: -114), (X: -1654; Y: -114), (X: -1653; Y: -114),
+    (X: -1652; Y: -114), (X: -1652; Y: -115), (X: -1652; Y: -116), (X: -1652; Y: -117),
+    (X: -1653; Y: -117), (X: -1654; Y: -118), (X: -1655; Y: -118), (X: -1655; Y: -117),
+    (X: -1656; Y: -117), (X: -1656; Y: -116), (X: -1656; Y: -115), (X: -1656; Y: -114)
   );
 
-  cPacificRarotonga_5: array [0..2] of TTimeZonePoint = (
-    (X: -1577; Y: -198), (X: -1577; Y: -199), (X: -1577; Y: -198)
+  cPacificRarotonga_5: array [0..20] of TTimeZonePoint = (
+    (X: -1629; Y: -135), (X: -1630; Y: -135), (X: -1631; Y: -135), (X: -1632; Y: -135),
+    (X: -1633; Y: -135), (X: -1633; Y: -134), (X: -1634; Y: -134), (X: -1634; Y: -133),
+    (X: -1634; Y: -132), (X: -1634; Y: -131), (X: -1633; Y: -131), (X: -1632; Y: -130),
+    (X: -1631; Y: -130), (X: -1630; Y: -130), (X: -1630; Y: -131), (X: -1629; Y: -131),
+    (X: -1629; Y: -132), (X: -1628; Y: -132), (X: -1628; Y: -133), (X: -1629; Y: -134),
+    (X: -1629; Y: -135)
   );
 
-  cPacificRarotonga_6: array [0..4] of TTimeZonePoint = (
-    (X: -1589; Y: -193), (X: -1590; Y: -193), (X: -1590; Y: -192), (X: -1589; Y: -192),
-    (X: -1589; Y: -193)
+  cPacificRarotonga_6: array [0..18] of TTimeZonePoint = (
+    (X: -1634; Y: -179), (X: -1633; Y: -179), (X: -1633; Y: -178), (X: -1632; Y: -178),
+    (X: -1631; Y: -178), (X: -1630; Y: -178), (X: -1630; Y: -179), (X: -1629; Y: -179),
+    (X: -1629; Y: -180), (X: -1629; Y: -181), (X: -1630; Y: -182), (X: -1631; Y: -183),
+    (X: -1632; Y: -183), (X: -1633; Y: -183), (X: -1633; Y: -182), (X: -1634; Y: -182),
+    (X: -1634; Y: -181), (X: -1634; Y: -180), (X: -1634; Y: -179)
   );
 
-  cPacificRarotonga_7: array [0..2] of TTimeZonePoint = (
-    (X: -1589; Y: -192), (X: -1589; Y: -193), (X: -1589; Y: -192)
+  cPacificRarotonga_7: array [0..19] of TTimeZonePoint = (
+    (X: -1595; Y: -189), (X: -1595; Y: -190), (X: -1596; Y: -191), (X: -1597; Y: -191),
+    (X: -1597; Y: -192), (X: -1598; Y: -191), (X: -1599; Y: -191), (X: -1600; Y: -191),
+    (X: -1600; Y: -190), (X: -1600; Y: -189), (X: -1600; Y: -188), (X: -1600; Y: -187),
+    (X: -1599; Y: -187), (X: -1599; Y: -186), (X: -1598; Y: -186), (X: -1597; Y: -186),
+    (X: -1596; Y: -187), (X: -1596; Y: -188), (X: -1595; Y: -188), (X: -1595; Y: -189)
   );
 
-  cPacificRarotonga_8: array [0..1] of TTimeZonePoint = (
-    (X: -1597; Y: -189), (X: -1597; Y: -189)
+  cPacificRarotonga_8: array [0..17] of TTimeZonePoint = (
+    (X: -1589; Y: -195), (X: -1590; Y: -195), (X: -1591; Y: -194), (X: -1592; Y: -194),
+    (X: -1592; Y: -193), (X: -1592; Y: -192), (X: -1591; Y: -192), (X: -1591; Y: -191),
+    (X: -1590; Y: -191), (X: -1589; Y: -191), (X: -1588; Y: -191), (X: -1587; Y: -191),
+    (X: -1587; Y: -192), (X: -1587; Y: -193), (X: -1587; Y: -194), (X: -1588; Y: -194),
+    (X: -1588; Y: -195), (X: -1589; Y: -195)
   );
 
-  cPacificRarotonga_9: array [0..1] of TTimeZonePoint = (
-    (X: -1598; Y: -189), (X: -1598; Y: -189)
+  cPacificRarotonga_9: array [0..34] of TTimeZonePoint = (
+    (X: -1579; Y: -200), (X: -1579; Y: -201), (X: -1579; Y: -202), (X: -1580; Y: -202),
+    (X: -1581; Y: -202), (X: -1582; Y: -202), (X: -1583; Y: -202), (X: -1583; Y: -201),
+    (X: -1583; Y: -200), (X: -1584; Y: -200), (X: -1585; Y: -199), (X: -1585; Y: -198),
+    (X: -1585; Y: -197), (X: -1584; Y: -197), (X: -1584; Y: -196), (X: -1583; Y: -196),
+    (X: -1582; Y: -196), (X: -1581; Y: -197), (X: -1581; Y: -198), (X: -1580; Y: -198),
+    (X: -1579; Y: -199), (X: -1579; Y: -198), (X: -1579; Y: -197), (X: -1578; Y: -197),
+    (X: -1578; Y: -196), (X: -1577; Y: -196), (X: -1576; Y: -197), (X: -1575; Y: -197),
+    (X: -1575; Y: -198), (X: -1575; Y: -199), (X: -1575; Y: -200), (X: -1576; Y: -201),
+    (X: -1577; Y: -201), (X: -1578; Y: -201), (X: -1579; Y: -200)
   );
 
-  cPacificRarotonga_10: array [0..1] of TTimeZonePoint = (
-    (X: -1598; Y: -189), (X: -1598; Y: -189)
+  cPacificRarotonga_10: array [0..17] of TTimeZonePoint = (
+    (X: -1582; Y: -219), (X: -1581; Y: -218), (X: -1581; Y: -217), (X: -1580; Y: -217),
+    (X: -1579; Y: -217), (X: -1578; Y: -217), (X: -1577; Y: -218), (X: -1577; Y: -219),
+    (X: -1577; Y: -220), (X: -1577; Y: -221), (X: -1578; Y: -221), (X: -1578; Y: -222),
+    (X: -1579; Y: -222), (X: -1580; Y: -222), (X: -1580; Y: -221), (X: -1581; Y: -221),
+    (X: -1582; Y: -220), (X: -1582; Y: -219)
   );
 
-  cPacificRarotonga_11: array [0..2] of TTimeZonePoint = (
-    (X: -1598; Y: -188), (X: -1598; Y: -189), (X: -1598; Y: -188)
+  cPacificRarotonga_11: array [0..18] of TTimeZonePoint = (
+    (X: -1596; Y: -211), (X: -1595; Y: -211), (X: -1595; Y: -212), (X: -1595; Y: -213),
+    (X: -1595; Y: -214), (X: -1596; Y: -214), (X: -1597; Y: -215), (X: -1598; Y: -215),
+    (X: -1599; Y: -215), (X: -1599; Y: -214), (X: -1600; Y: -214), (X: -1600; Y: -213),
+    (X: -1600; Y: -212), (X: -1600; Y: -211), (X: -1599; Y: -210), (X: -1598; Y: -210),
+    (X: -1597; Y: -210), (X: -1596; Y: -210), (X: -1596; Y: -211)
   );
 
-  cPacificRarotonga_12: array [0..1] of TTimeZonePoint = (
-    (X: -1630; Y: -135), (X: -1630; Y: -135)
-  );
-
-  cPacificRarotonga_13: array [0..1] of TTimeZonePoint = (
-    (X: -1632; Y: -134), (X: -1632; Y: -134)
-  );
-
-  cPacificRarotonga_14: array [0..1] of TTimeZonePoint = (
-    (X: -1631; Y: -134), (X: -1631; Y: -134)
-  );
-
-  cPacificRarotonga_15: array [0..1] of TTimeZonePoint = (
-    (X: -1631; Y: -134), (X: -1631; Y: -134)
-  );
-
-  cPacificRarotonga_16: array [0..1] of TTimeZonePoint = (
-    (X: -1654; Y: -116), (X: -1654; Y: -116)
-  );
-
-  cPacificRarotonga_17: array [0..2] of TTimeZonePoint = (
-    (X: -1658; Y: -109), (X: -1658; Y: -110), (X: -1658; Y: -109)
-  );
-
-  cPacificRarotonga_18: array [0..2] of TTimeZonePoint = (
-    (X: -1658; Y: -109), (X: -1659; Y: -109), (X: -1658; Y: -109)
-  );
-
-  cPacificRarotonga_19: array [0..1] of TTimeZonePoint = (
-    (X: -1658; Y: -109), (X: -1658; Y: -109)
-  );
-
-  cPacificRarotonga_20: array [0..1] of TTimeZonePoint = (
-    (X: -1610; Y: -104), (X: -1610; Y: -104)
-  );
-
-  cPacificRarotonga_21: array [0..2] of TTimeZonePoint = (
-    (X: -1610; Y: -104), (X: -1609; Y: -104), (X: -1610; Y: -104)
-  );
-
-  cPacificRarotonga_22: array [0..1] of TTimeZonePoint = (
-    (X: -1611; Y: -100), (X: -1611; Y: -100)
-  );
-
-  cPacificRarotonga_23: array [0..1] of TTimeZonePoint = (
-    (X: -1611; Y: -100), (X: -1611; Y: -100)
-  );
-
-  cPacificRarotonga_24: array [0..1] of TTimeZonePoint = (
-    (X: -1579; Y: -91), (X: -1579; Y: -91)
-  );
-
-  cPacificRarotonga_25: array [0..2] of TTimeZonePoint = (
-    (X: -1579; Y: -91), (X: -1579; Y: -90), (X: -1579; Y: -91)
-  );
-
-  cPacificRarotonga_26: array [0..1] of TTimeZonePoint = (
-    (X: -1580; Y: -91), (X: -1580; Y: -91)
-  );
-
-  cPacificRarotonga_27: array [0..1] of TTimeZonePoint = (
-    (X: -1579; Y: -90), (X: -1579; Y: -90)
-  );
-
-  cPacificRarotonga_28: array [0..1] of TTimeZonePoint = (
-    (X: -1579; Y: -90), (X: -1579; Y: -90)
-  );
-
-  cPacificRarotonga_29: array [0..1] of TTimeZonePoint = (
-    (X: -1581; Y: -90), (X: -1581; Y: -90)
-  );
-
-  cPacificRarotonga_30: array [0..2] of TTimeZonePoint = (
-    (X: -1580; Y: -90), (X: -1580; Y: -89), (X: -1580; Y: -90)
-  );
-
-  cPacificRarotonga_31: array [0..2] of TTimeZonePoint = (
-    (X: -1580; Y: -90), (X: -1579; Y: -90), (X: -1580; Y: -90)
-  );
-
-  cPacificRarotonga_32: array [0..2] of TTimeZonePoint = (
-    (X: -1580; Y: -90), (X: -1580; Y: -89), (X: -1580; Y: -90)
-  );
-
-  cPacificRarotonga_33: array [0..4] of TTimeZonePoint = (
-    (X: -1581; Y: -90), (X: -1580; Y: -90), (X: -1580; Y: -91), (X: -1580; Y: -90),
-    (X: -1581; Y: -90)
-  );
-
-  cPacificRarotonga_34: array [0..1] of TTimeZonePoint = (
-    (X: -1579; Y: -90), (X: -1579; Y: -90)
-  );
-
-  cPacificRarotongaPolygon: array[0..34] of TTimeZonePolygon = (
-    (PointsCount: 3; FirstPoint: @cPacificRarotonga_0[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificRarotonga_1[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificRarotonga_2[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_3[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_4[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificRarotonga_5[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificRarotonga_6[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificRarotonga_7[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_8[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_9[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_10[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificRarotonga_11[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_12[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_13[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_14[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_15[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_16[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificRarotonga_17[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificRarotonga_18[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_19[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_20[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificRarotonga_21[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_22[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_23[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_24[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificRarotonga_25[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_26[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_27[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_28[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_29[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificRarotonga_30[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificRarotonga_31[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificRarotonga_32[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificRarotonga_33[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificRarotonga_34[0])
+  cPacificRarotongaPolygon: array[0..11] of TTimeZonePolygon = (
+    (PointsCount: 19; FirstPoint: @cPacificRarotonga_0[0]), 
+    (PointsCount: 21; FirstPoint: @cPacificRarotonga_1[0]), 
+    (PointsCount: 29; FirstPoint: @cPacificRarotonga_2[0]), 
+    (PointsCount: 20; FirstPoint: @cPacificRarotonga_3[0]), 
+    (PointsCount: 16; FirstPoint: @cPacificRarotonga_4[0]), 
+    (PointsCount: 21; FirstPoint: @cPacificRarotonga_5[0]), 
+    (PointsCount: 19; FirstPoint: @cPacificRarotonga_6[0]), 
+    (PointsCount: 20; FirstPoint: @cPacificRarotonga_7[0]), 
+    (PointsCount: 18; FirstPoint: @cPacificRarotonga_8[0]), 
+    (PointsCount: 35; FirstPoint: @cPacificRarotonga_9[0]), 
+    (PointsCount: 18; FirstPoint: @cPacificRarotonga_10[0]), 
+    (PointsCount: 19; FirstPoint: @cPacificRarotonga_11[0])
   );
 
   cPacificRarotongaBound: TTimeZoneBound = (
-    Min: (X: -1659; Y: -219);
-    Max: (X: -1573; Y: -89)
+    Min: (X: -1661; Y: -222);
+    Max: (X: -1571; Y: -87)
   );
 
   cPacificRarotonga: TTimeZoneInfo = (
     TZID: 'Pacific/Rarotonga';
     Bound: @cPacificRarotongaBound;
-    PolygonsCount: 35;
+    PolygonsCount: 12;
     FirstPolygon: @cPacificRarotongaPolygon[0]
   );
 

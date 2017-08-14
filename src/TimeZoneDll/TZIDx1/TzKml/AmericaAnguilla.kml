@@ -24,49 +24,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      -63.000000,18.300000,0 -62.900000,18.300000,0 -63.000000,18.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaAnguilla_1</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -63.400000,18.600000,0 -63.400000,18.600000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaAnguilla_2</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -63.200000,18.200000,0 -63.100000,18.200000,0 -63.000000,18.300000,0 -63.000000,18.200000,0 -63.100000,18.200000,0 -63.200000,18.200000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaAnguilla_3</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -63.300000,18.300000,0 -63.200000,18.300000,0 -63.300000,18.300000,0 
+      -62.800000,18.200000,0 -62.900000,18.200000,0 -63.200000,18.100000,0 -63.400000,18.100000,0 -63.500000,18.200000,0 -63.500000,18.300000,0 -63.500000,18.400000,0 -63.600000,18.400000,0 -63.600000,18.500000,0 -63.600000,18.600000,0 -63.600000,18.700000,0 -63.500000,18.800000,0 -63.400000,18.800000,0 -63.300000,18.800000,0 -63.300000,18.700000,0 -63.200000,18.700000,0 -63.200000,18.600000,0 -63.200000,18.500000,0 -63.100000,18.500000,0 -63.000000,18.500000,0 -62.900000,18.500000,0 -62.800000,18.500000,0 -62.800000,18.400000,0 -62.700000,18.400000,0 -62.700000,18.300000,0 -62.700000,18.200000,0 -62.800000,18.200000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>

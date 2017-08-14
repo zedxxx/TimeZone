@@ -24,7 +24,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      -64.700000,17.700000,0 -64.800000,17.700000,0 -64.900000,17.700000,0 -64.900000,17.800000,0 -64.800000,17.800000,0 -64.700000,17.800000,0 -64.600000,17.800000,0 -64.600000,17.700000,0 -64.700000,17.700000,0 
+      -64.700000,18.300000,0 -64.600000,18.100000,0 -64.700000,18.100000,0 -64.800000,18.100000,0 -64.800000,18.000000,0 -64.900000,18.000000,0 -64.900000,18.100000,0 -65.000000,18.100000,0 -65.100000,18.200000,0 -65.200000,18.200000,0 -65.100000,18.400000,0 -65.200000,18.600000,0 -65.100000,18.600000,0 -65.000000,18.600000,0 -64.900000,18.500000,0 -64.900000,18.400000,0 -64.800000,18.400000,0 -64.700000,18.400000,0 -64.600000,18.400000,0 -64.600000,18.300000,0 -64.700000,18.300000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>
@@ -38,133 +38,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      -64.600000,17.800000,0 -64.600000,17.800000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaSt_Thomas_2</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -65.100000,18.300000,0 -65.100000,18.400000,0 -65.100000,18.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaSt_Thomas_3</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -64.900000,18.400000,0 -64.900000,18.400000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaSt_Thomas_4</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -64.800000,18.300000,0 -64.800000,18.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaSt_Thomas_5</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -65.000000,18.300000,0 -64.900000,18.300000,0 -65.000000,18.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaSt_Thomas_6</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -64.800000,18.300000,0 -64.800000,18.400000,0 -64.700000,18.400000,0 -64.800000,18.400000,0 -64.700000,18.400000,0 -64.700000,18.300000,0 -64.700000,18.400000,0 -64.700000,18.300000,0 -64.700000,18.400000,0 -64.700000,18.300000,0 -64.800000,18.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaSt_Thomas_7</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -64.800000,18.400000,0 -64.800000,18.400000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaSt_Thomas_8</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -65.000000,18.400000,0 -65.000000,18.300000,0 -65.000000,18.400000,0 -64.900000,18.400000,0 -64.800000,18.300000,0 -64.900000,18.300000,0 -65.000000,18.300000,0 -65.000000,18.400000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaSt_Thomas_9</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -64.800000,18.400000,0 -64.800000,18.400000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaSt_Thomas_10</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -64.900000,18.400000,0 -64.800000,18.400000,0 -64.900000,18.400000,0 
+      -64.700000,18.000000,0 -64.600000,18.000000,0 -64.500000,18.000000,0 -64.500000,17.900000,0 -64.400000,17.900000,0 -64.400000,17.800000,0 -64.400000,17.700000,0 -64.400000,17.600000,0 -64.500000,17.600000,0 -64.500000,17.500000,0 -64.600000,17.500000,0 -64.700000,17.500000,0 -64.800000,17.500000,0 -64.900000,17.500000,0 -65.000000,17.500000,0 -65.100000,17.500000,0 -65.100000,17.600000,0 -65.100000,17.700000,0 -65.100000,17.800000,0 -65.100000,17.900000,0 -65.000000,17.900000,0 -65.000000,18.000000,0 -64.900000,18.000000,0 -64.800000,18.000000,0 -64.700000,18.000000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>

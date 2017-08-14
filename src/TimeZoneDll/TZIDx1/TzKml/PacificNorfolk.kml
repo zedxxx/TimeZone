@@ -24,35 +24,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      167.900000,-29.100000,0 168.000000,-29.100000,0 167.900000,-29.100000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificNorfolk_1</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      168.000000,-29.100000,0 168.000000,-29.100000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificNorfolk_2</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      168.000000,-29.000000,0 168.000000,-29.100000,0 168.000000,-29.000000,0 167.900000,-29.000000,0 168.000000,-29.000000,0 
+      168.000000,-29.300000,0 167.900000,-29.300000,0 167.800000,-29.300000,0 167.800000,-29.200000,0 167.700000,-29.200000,0 167.700000,-29.100000,0 167.700000,-29.000000,0 167.700000,-28.900000,0 167.800000,-28.900000,0 167.800000,-28.800000,0 167.900000,-28.800000,0 168.000000,-28.800000,0 168.100000,-28.800000,0 168.100000,-28.900000,0 168.200000,-28.900000,0 168.200000,-29.000000,0 168.200000,-29.100000,0 168.200000,-29.200000,0 168.100000,-29.200000,0 168.100000,-29.300000,0 168.000000,-29.300000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>

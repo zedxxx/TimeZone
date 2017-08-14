@@ -7,7 +7,7 @@ uses
 
 const
   cEuropeVatican_0: array [0..2] of TTimeZonePoint = (
-    (X: 124; Y: 419), (X: 125; Y: 419), (X: 124; Y: 419)
+    (X: 125; Y: 419), (X: 124; Y: 419), (X: 125; Y: 419)
   );
 
   cEuropeVaticanPolygon: array[0..0] of TTimeZonePolygon = (

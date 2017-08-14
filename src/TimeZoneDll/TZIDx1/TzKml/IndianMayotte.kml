@@ -24,63 +24,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      45.200000,-12.800000,0 45.300000,-12.800000,0 45.200000,-12.800000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cIndianMayotte_1</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      45.300000,-12.800000,0 45.300000,-12.800000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cIndianMayotte_2</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      45.100000,-12.700000,0 45.200000,-12.700000,0 45.200000,-12.800000,0 45.200000,-12.900000,0 45.200000,-13.000000,0 45.100000,-13.000000,0 45.100000,-12.900000,0 45.100000,-12.800000,0 45.000000,-12.800000,0 45.000000,-12.700000,0 45.100000,-12.700000,0 45.000000,-12.700000,0 45.100000,-12.700000,0 45.100000,-12.600000,0 45.100000,-12.700000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cIndianMayotte_3</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      45.200000,-12.800000,0 45.200000,-12.800000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cIndianMayotte_4</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      45.000000,-12.600000,0 45.000000,-12.700000,0 45.000000,-12.600000,0 
+      45.100000,-12.400000,0 45.200000,-12.400000,0 45.300000,-12.400000,0 45.300000,-12.500000,0 45.400000,-12.500000,0 45.400000,-12.600000,0 45.500000,-12.600000,0 45.500000,-12.700000,0 45.500000,-12.800000,0 45.500000,-12.900000,0 45.500000,-13.000000,0 45.400000,-13.000000,0 45.400000,-13.100000,0 45.400000,-13.200000,0 45.300000,-13.200000,0 45.200000,-13.300000,0 45.100000,-13.300000,0 45.000000,-13.300000,0 45.000000,-13.200000,0 44.900000,-13.200000,0 44.800000,-13.100000,0 44.800000,-13.000000,0 44.800000,-12.900000,0 44.700000,-12.900000,0 44.700000,-12.800000,0 44.800000,-12.800000,0 44.800000,-12.700000,0 44.700000,-12.700000,0 44.700000,-12.600000,0 44.800000,-12.600000,0 44.800000,-12.500000,0 44.900000,-12.500000,0 44.900000,-12.400000,0 45.000000,-12.400000,0 45.100000,-12.400000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>

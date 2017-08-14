@@ -6,40 +6,30 @@ uses
   t_TzWorld;
 
 const
-  cEuropeGuernsey_0: array [0..2] of TTimeZonePoint = (
-    (X: -24; Y: 495), (X: -24; Y: 494), (X: -24; Y: 495)
+  cEuropeGuernsey_0: array [0..28] of TTimeZonePoint = (
+    (X: -21; Y: 494), (X: -22; Y: 494), (X: -23; Y: 493), (X: -24; Y: 493),
+    (X: -25; Y: 493), (X: -26; Y: 492), (X: -27; Y: 493), (X: -28; Y: 493),
+    (X: -29; Y: 493), (X: -30; Y: 493), (X: -30; Y: 494), (X: -30; Y: 495),
+    (X: -30; Y: 496), (X: -29; Y: 496), (X: -28; Y: 496), (X: -28; Y: 497),
+    (X: -27; Y: 497), (X: -27; Y: 498), (X: -26; Y: 498), (X: -26; Y: 499),
+    (X: -25; Y: 499), (X: -24; Y: 499), (X: -23; Y: 499), (X: -22; Y: 499),
+    (X: -21; Y: 499), (X: -21; Y: 498), (X: -21; Y: 497), (X: -21; Y: 495),
+    (X: -21; Y: 494)
   );
 
-  cEuropeGuernsey_1: array [0..8] of TTimeZonePoint = (
-    (X: -25; Y: 495), (X: -25; Y: 494), (X: -26; Y: 494), (X: -27; Y: 494),
-    (X: -27; Y: 495), (X: -26; Y: 495), (X: -25; Y: 495), (X: -26; Y: 495),
-    (X: -25; Y: 495)
-  );
-
-  cEuropeGuernsey_2: array [0..1] of TTimeZonePoint = (
-    (X: -22; Y: 497), (X: -22; Y: 497)
-  );
-
-  cEuropeGuernsey_3: array [0..1] of TTimeZonePoint = (
-    (X: -25; Y: 495), (X: -25; Y: 495)
-  );
-
-  cEuropeGuernseyPolygon: array[0..3] of TTimeZonePolygon = (
-    (PointsCount: 3; FirstPoint: @cEuropeGuernsey_0[0]), 
-    (PointsCount: 9; FirstPoint: @cEuropeGuernsey_1[0]), 
-    (PointsCount: 2; FirstPoint: @cEuropeGuernsey_2[0]), 
-    (PointsCount: 2; FirstPoint: @cEuropeGuernsey_3[0])
+  cEuropeGuernseyPolygon: array[0..0] of TTimeZonePolygon = (
+    (PointsCount: 29; FirstPoint: @cEuropeGuernsey_0[0])
   );
 
   cEuropeGuernseyBound: TTimeZoneBound = (
-    Min: (X: -27; Y: 494);
-    Max: (X: -22; Y: 497)
+    Min: (X: -30; Y: 492);
+    Max: (X: -21; Y: 499)
   );
 
   cEuropeGuernsey: TTimeZoneInfo = (
     TZID: 'Europe/Guernsey';
     Bound: @cEuropeGuernseyBound;
-    PolygonsCount: 4;
+    PolygonsCount: 1;
     FirstPolygon: @cEuropeGuernseyPolygon[0]
   );
 

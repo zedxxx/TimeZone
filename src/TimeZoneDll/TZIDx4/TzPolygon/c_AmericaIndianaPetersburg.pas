@@ -6,7 +6,7 @@ uses
   t_TzWorld;
 
 const
-  cAmericaIndianaPetersburg_0: array [0..103] of TTimeZonePoint = (
+  cAmericaIndianaPetersburg_0: array [0..104] of TTimeZonePoint = (
     (X: -870723; Y: 385147), (X: -870730; Y: 382323), (X: -872985; Y: 382319), (X: -872981; Y: 382460),
     (X: -873169; Y: 382459), (X: -873160; Y: 383773), (X: -873183; Y: 383778), (X: -873301; Y: 383795),
     (X: -873348; Y: 383817), (X: -873454; Y: 383835), (X: -873577; Y: 383816), (X: -873642; Y: 383797),
@@ -31,12 +31,13 @@ const
     (X: -871352; Y: 385203), (X: -871394; Y: 385261), (X: -871383; Y: 385293), (X: -871353; Y: 385320),
     (X: -871312; Y: 385302), (X: -871265; Y: 385253), (X: -871241; Y: 385248), (X: -871194; Y: 385262),
     (X: -871195; Y: 385344), (X: -871148; Y: 385367), (X: -871077; Y: 385376), (X: -871001; Y: 385336),
-    (X: -870953; Y: 385291), (X: -870923; Y: 385223), (X: -870811; Y: 385205), (X: -870870; Y: 385155),
-    (X: -870869; Y: 385128), (X: -870828; Y: 385119), (X: -870770; Y: 385146), (X: -870723; Y: 385147)
+    (X: -870953; Y: 385291), (X: -870923; Y: 385223), (X: -870820; Y: 385207), (X: -870811; Y: 385205),
+    (X: -870870; Y: 385155), (X: -870869; Y: 385128), (X: -870828; Y: 385119), (X: -870770; Y: 385146),
+    (X: -870723; Y: 385147)
   );
 
   cAmericaIndianaPetersburgPolygon: array[0..0] of TTimeZonePolygon = (
-    (PointsCount: 104; FirstPoint: @cAmericaIndianaPetersburg_0[0])
+    (PointsCount: 105; FirstPoint: @cAmericaIndianaPetersburg_0[0])
   );
 
   cAmericaIndianaPetersburgBound: TTimeZoneBound = (

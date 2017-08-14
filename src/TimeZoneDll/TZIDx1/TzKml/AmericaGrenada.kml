@@ -24,77 +24,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      -61.600000,12.200000,0 -61.600000,12.100000,0 -61.600000,12.000000,0 -61.700000,12.000000,0 -61.800000,12.000000,0 -61.700000,12.000000,0 -61.800000,12.100000,0 -61.700000,12.100000,0 -61.700000,12.200000,0 -61.600000,12.200000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaGrenada_1</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -61.600000,12.300000,0 -61.600000,12.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaGrenada_2</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -61.600000,12.300000,0 -61.600000,12.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaGrenada_3</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -61.500000,12.400000,0 -61.500000,12.400000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaGrenada_4</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -61.500000,12.500000,0 -61.400000,12.500000,0 -61.500000,12.500000,0 -61.500000,12.400000,0 -61.500000,12.500000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaGrenada_5</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -61.400000,12.500000,0 -61.400000,12.500000,0 
+      -61.200000,12.500000,0 -61.200000,12.400000,0 -61.300000,12.400000,0 -61.300000,12.300000,0 -61.300000,12.200000,0 -61.400000,12.200000,0 -61.400000,12.100000,0 -61.400000,12.000000,0 -61.500000,12.000000,0 -61.500000,11.900000,0 -61.600000,11.900000,0 -61.600000,11.800000,0 -61.700000,11.800000,0 -61.800000,11.800000,0 -61.900000,11.800000,0 -61.900000,11.900000,0 -62.000000,11.900000,0 -62.000000,12.000000,0 -62.000000,12.100000,0 -62.000000,12.200000,0 -61.900000,12.200000,0 -61.900000,12.300000,0 -61.800000,12.300000,0 -61.800000,12.400000,0 -61.700000,12.500000,0 -61.700000,12.600000,0 -61.400000,12.500000,0 -61.200000,12.500000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>

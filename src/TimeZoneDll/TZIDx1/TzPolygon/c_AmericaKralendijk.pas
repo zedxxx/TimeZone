@@ -6,41 +6,37 @@ uses
   t_TzWorld;
 
 const
-  cAmericaKralendijk_0: array [0..2] of TTimeZonePoint = (
-    (X: -683; Y: 121), (X: -683; Y: 122), (X: -683; Y: 121)
+  cAmericaKralendijk_0: array [0..21] of TTimeZonePoint = (
+    (X: -684; Y: 119), (X: -686; Y: 122), (X: -686; Y: 123), (X: -686; Y: 124),
+    (X: -685; Y: 124), (X: -685; Y: 125), (X: -684; Y: 125), (X: -683; Y: 125),
+    (X: -682; Y: 125), (X: -682; Y: 124), (X: -681; Y: 124), (X: -680; Y: 124),
+    (X: -680; Y: 123), (X: -680; Y: 122), (X: -680; Y: 121), (X: -680; Y: 120),
+    (X: -680; Y: 119), (X: -681; Y: 119), (X: -681; Y: 118), (X: -682; Y: 118),
+    (X: -683; Y: 118), (X: -684; Y: 119)
   );
 
-  cAmericaKralendijk_1: array [0..10] of TTimeZonePoint = (
-    (X: -684; Y: 123), (X: -683; Y: 123), (X: -683; Y: 122), (X: -682; Y: 122),
-    (X: -682; Y: 121), (X: -682; Y: 120), (X: -683; Y: 120), (X: -683; Y: 121),
-    (X: -683; Y: 122), (X: -684; Y: 122), (X: -684; Y: 123)
+  cAmericaKralendijk_1: array [0..19] of TTimeZonePoint = (
+    (X: -630; Y: 177), (X: -629; Y: 177), (X: -628; Y: 177), (X: -628; Y: 176),
+    (X: -631; Y: 173), (X: -632; Y: 174), (X: -633; Y: 174), (X: -634; Y: 174),
+    (X: -634; Y: 175), (X: -635; Y: 175), (X: -635; Y: 176), (X: -635; Y: 177),
+    (X: -634; Y: 177), (X: -634; Y: 178), (X: -633; Y: 178), (X: -632; Y: 179),
+    (X: -632; Y: 178), (X: -631; Y: 178), (X: -630; Y: 178), (X: -630; Y: 177)
   );
 
-  cAmericaKralendijk_2: array [0..2] of TTimeZonePoint = (
-    (X: -630; Y: 175), (X: -629; Y: 175), (X: -630; Y: 175)
-  );
-
-  cAmericaKralendijk_3: array [0..4] of TTimeZonePoint = (
-    (X: -632; Y: 176), (X: -633; Y: 176), (X: -632; Y: 176), (X: -632; Y: 177),
-    (X: -632; Y: 176)
-  );
-
-  cAmericaKralendijkPolygon: array[0..3] of TTimeZonePolygon = (
-    (PointsCount: 3; FirstPoint: @cAmericaKralendijk_0[0]), 
-    (PointsCount: 11; FirstPoint: @cAmericaKralendijk_1[0]), 
-    (PointsCount: 3; FirstPoint: @cAmericaKralendijk_2[0]), 
-    (PointsCount: 5; FirstPoint: @cAmericaKralendijk_3[0])
+  cAmericaKralendijkPolygon: array[0..1] of TTimeZonePolygon = (
+    (PointsCount: 22; FirstPoint: @cAmericaKralendijk_0[0]), 
+    (PointsCount: 20; FirstPoint: @cAmericaKralendijk_1[0])
   );
 
   cAmericaKralendijkBound: TTimeZoneBound = (
-    Min: (X: -684; Y: 120);
-    Max: (X: -629; Y: 177)
+    Min: (X: -686; Y: 118);
+    Max: (X: -628; Y: 179)
   );
 
   cAmericaKralendijk: TTimeZoneInfo = (
     TZID: 'America/Kralendijk';
     Bound: @cAmericaKralendijkBound;
-    PolygonsCount: 4;
+    PolygonsCount: 2;
     FirstPolygon: @cAmericaKralendijkPolygon[0]
   );
 

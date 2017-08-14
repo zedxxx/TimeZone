@@ -6,46 +6,31 @@ uses
   t_TzWorld;
 
 const
-  cIndianMayotte_0: array [0..2] of TTimeZonePoint = (
-    (X: 452; Y: -128), (X: 453; Y: -128), (X: 452; Y: -128)
+  cIndianMayotte_0: array [0..34] of TTimeZonePoint = (
+    (X: 451; Y: -124), (X: 452; Y: -124), (X: 453; Y: -124), (X: 453; Y: -125),
+    (X: 454; Y: -125), (X: 454; Y: -126), (X: 455; Y: -126), (X: 455; Y: -127),
+    (X: 455; Y: -128), (X: 455; Y: -129), (X: 455; Y: -130), (X: 454; Y: -130),
+    (X: 454; Y: -131), (X: 454; Y: -132), (X: 453; Y: -132), (X: 452; Y: -133),
+    (X: 451; Y: -133), (X: 450; Y: -133), (X: 450; Y: -132), (X: 449; Y: -132),
+    (X: 448; Y: -131), (X: 448; Y: -130), (X: 448; Y: -129), (X: 447; Y: -129),
+    (X: 447; Y: -128), (X: 448; Y: -128), (X: 448; Y: -127), (X: 447; Y: -127),
+    (X: 447; Y: -126), (X: 448; Y: -126), (X: 448; Y: -125), (X: 449; Y: -125),
+    (X: 449; Y: -124), (X: 450; Y: -124), (X: 451; Y: -124)
   );
 
-  cIndianMayotte_1: array [0..1] of TTimeZonePoint = (
-    (X: 453; Y: -128), (X: 453; Y: -128)
-  );
-
-  cIndianMayotte_2: array [0..14] of TTimeZonePoint = (
-    (X: 451; Y: -127), (X: 452; Y: -127), (X: 452; Y: -128), (X: 452; Y: -129),
-    (X: 452; Y: -130), (X: 451; Y: -130), (X: 451; Y: -129), (X: 451; Y: -128),
-    (X: 450; Y: -128), (X: 450; Y: -127), (X: 451; Y: -127), (X: 450; Y: -127),
-    (X: 451; Y: -127), (X: 451; Y: -126), (X: 451; Y: -127)
-  );
-
-  cIndianMayotte_3: array [0..1] of TTimeZonePoint = (
-    (X: 452; Y: -128), (X: 452; Y: -128)
-  );
-
-  cIndianMayotte_4: array [0..2] of TTimeZonePoint = (
-    (X: 450; Y: -126), (X: 450; Y: -127), (X: 450; Y: -126)
-  );
-
-  cIndianMayottePolygon: array[0..4] of TTimeZonePolygon = (
-    (PointsCount: 3; FirstPoint: @cIndianMayotte_0[0]), 
-    (PointsCount: 2; FirstPoint: @cIndianMayotte_1[0]), 
-    (PointsCount: 15; FirstPoint: @cIndianMayotte_2[0]), 
-    (PointsCount: 2; FirstPoint: @cIndianMayotte_3[0]), 
-    (PointsCount: 3; FirstPoint: @cIndianMayotte_4[0])
+  cIndianMayottePolygon: array[0..0] of TTimeZonePolygon = (
+    (PointsCount: 35; FirstPoint: @cIndianMayotte_0[0])
   );
 
   cIndianMayotteBound: TTimeZoneBound = (
-    Min: (X: 450; Y: -130);
-    Max: (X: 453; Y: -126)
+    Min: (X: 447; Y: -133);
+    Max: (X: 455; Y: -124)
   );
 
   cIndianMayotte: TTimeZoneInfo = (
     TZID: 'Indian/Mayotte';
     Bound: @cIndianMayotteBound;
-    PolygonsCount: 5;
+    PolygonsCount: 1;
     FirstPolygon: @cIndianMayottePolygon[0]
   );
 

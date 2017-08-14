@@ -24,7 +24,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      113.600000,22.100000,0 113.500000,22.100000,0 113.600000,22.100000,0 
+      113.500000,22.100000,0 113.500000,22.100000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>
@@ -38,21 +38,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      113.600000,22.200000,0 113.500000,22.200000,0 113.600000,22.200000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAsiaMacau_2</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      113.500000,22.200000,0 113.600000,22.200000,0 113.500000,22.200000,0 
+      113.600000,22.200000,0 113.600000,22.100000,0 113.500000,22.100000,0 113.500000,22.200000,0 113.600000,22.200000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>

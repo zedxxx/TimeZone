@@ -7,8 +7,8 @@ uses
 
 const
   cEuropeSan_Marino_0: array [0..4] of TTimeZonePoint = (
-    (X: 125; Y: 439), (X: 124; Y: 439), (X: 124; Y: 440), (X: 125; Y: 440),
-    (X: 125; Y: 439)
+    (X: 124; Y: 439), (X: 124; Y: 440), (X: 125; Y: 440), (X: 125; Y: 439),
+    (X: 124; Y: 439)
   );
 
   cEuropeSan_MarinoPolygon: array[0..0] of TTimeZonePolygon = (

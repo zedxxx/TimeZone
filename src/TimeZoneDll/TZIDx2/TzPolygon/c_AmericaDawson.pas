@@ -6,18 +6,21 @@ uses
   t_TzWorld;
 
 const
-  cAmericaDawson_0: array [0..7] of TTimeZonePoint = (
-    (X: -13946; Y: 6405), (X: -13943; Y: 6407), (X: -13936; Y: 6407), (X: -13936; Y: 6406),
-    (X: -13942; Y: 6405), (X: -13943; Y: 6404), (X: -13943; Y: 6405), (X: -13946; Y: 6405)
+  cAmericaDawson_0: array [0..17] of TTimeZonePoint = (
+    (X: -13945; Y: 6409), (X: -13941; Y: 6409), (X: -13941; Y: 6407), (X: -13938; Y: 6406),
+    (X: -13928; Y: 6405), (X: -13929; Y: 6402), (X: -13945; Y: 6403), (X: -13948; Y: 6402),
+    (X: -13948; Y: 6403), (X: -13947; Y: 6403), (X: -13947; Y: 6404), (X: -13947; Y: 6405),
+    (X: -13946; Y: 6405), (X: -13945; Y: 6405), (X: -13944; Y: 6407), (X: -13945; Y: 6408),
+    (X: -13944; Y: 6408), (X: -13945; Y: 6409)
   );
 
   cAmericaDawsonPolygon: array[0..0] of TTimeZonePolygon = (
-    (PointsCount: 8; FirstPoint: @cAmericaDawson_0[0])
+    (PointsCount: 18; FirstPoint: @cAmericaDawson_0[0])
   );
 
   cAmericaDawsonBound: TTimeZoneBound = (
-    Min: (X: -13946; Y: 6404);
-    Max: (X: -13936; Y: 6407)
+    Min: (X: -13948; Y: 6402);
+    Max: (X: -13928; Y: 6409)
   );
 
   cAmericaDawson: TTimeZoneInfo = (

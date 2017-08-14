@@ -24,7 +24,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      72.400000,-7.400000,0 72.400000,-7.300000,0 72.400000,-7.400000,0 72.500000,-7.400000,0 72.500000,-7.300000,0 72.400000,-7.200000,0 72.500000,-7.300000,0 72.500000,-7.400000,0 72.400000,-7.400000,0 
+      72.200000,-5.100000,0 72.300000,-5.100000,0 72.400000,-5.100000,0 72.400000,-5.200000,0 72.500000,-5.200000,0 72.500000,-5.300000,0 72.500000,-5.400000,0 72.400000,-5.500000,0 72.300000,-5.500000,0 72.300000,-5.600000,0 72.200000,-5.600000,0 72.100000,-5.500000,0 72.100000,-5.600000,0 72.000000,-5.600000,0 71.900000,-5.600000,0 71.900000,-5.700000,0 71.800000,-5.700000,0 71.700000,-5.700000,0 71.700000,-5.600000,0 71.600000,-5.600000,0 71.600000,-5.500000,0 71.500000,-5.400000,0 71.500000,-5.300000,0 71.500000,-5.200000,0 71.600000,-5.200000,0 71.600000,-5.100000,0 71.700000,-5.100000,0 71.800000,-5.000000,0 71.900000,-5.000000,0 72.000000,-5.000000,0 72.000000,-5.100000,0 72.100000,-5.100000,0 72.200000,-5.100000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>
@@ -38,7 +38,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      71.400000,-6.700000,0 71.400000,-6.700000,0 
+      72.200000,-5.700000,0 72.200000,-5.600000,0 72.300000,-5.600000,0 72.400000,-5.600000,0 72.400000,-5.700000,0 72.400000,-5.800000,0 72.300000,-5.800000,0 72.200000,-5.700000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>
@@ -52,7 +52,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      71.300000,-6.700000,0 71.400000,-6.700000,0 71.300000,-6.700000,0 
+      71.000000,-6.400000,0 71.000000,-6.300000,0 71.100000,-6.300000,0 71.100000,-6.200000,0 71.100000,-6.100000,0 71.200000,-6.100000,0 71.200000,-6.000000,0 71.300000,-6.000000,0 71.400000,-6.000000,0 71.500000,-5.900000,0 71.600000,-6.000000,0 71.700000,-6.000000,0 71.700000,-6.100000,0 71.700000,-6.200000,0 71.700000,-6.300000,0 71.600000,-6.300000,0 71.600000,-6.400000,0 71.500000,-6.400000,0 71.400000,-6.400000,0 71.400000,-6.500000,0 71.500000,-6.500000,0 71.500000,-6.600000,0 71.600000,-6.600000,0 71.600000,-6.700000,0 71.600000,-6.800000,0 71.500000,-6.800000,0 71.500000,-6.900000,0 71.400000,-6.900000,0 71.300000,-6.900000,0 71.200000,-6.800000,0 71.100000,-6.800000,0 71.100000,-6.700000,0 71.100000,-6.600000,0 71.100000,-6.500000,0 71.000000,-6.500000,0 71.000000,-6.400000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>
@@ -66,189 +66,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      71.300000,-6.600000,0 71.300000,-6.700000,0 71.300000,-6.600000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cIndianChagos_4</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      71.300000,-6.400000,0 71.300000,-6.400000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cIndianChagos_5</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      71.400000,-6.200000,0 71.300000,-6.200000,0 71.400000,-6.200000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cIndianChagos_6</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      72.300000,-5.700000,0 72.300000,-5.700000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cIndianChagos_7</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      71.800000,-5.400000,0 71.800000,-5.400000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cIndianChagos_8</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      71.800000,-5.400000,0 71.700000,-5.400000,0 71.800000,-5.400000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cIndianChagos_9</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      72.200000,-5.300000,0 72.200000,-5.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cIndianChagos_10</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      71.700000,-5.300000,0 71.700000,-5.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cIndianChagos_11</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      71.900000,-5.200000,0 71.900000,-5.200000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cIndianChagos_12</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      71.800000,-5.200000,0 71.800000,-5.200000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cIndianChagos_13</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      72.000000,-5.200000,0 72.000000,-5.200000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cIndianChagos_14</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      71.800000,-5.300000,0 71.700000,-5.300000,0 71.800000,-5.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cIndianChagos_15</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      72.200000,-5.400000,0 72.200000,-5.400000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cIndianChagos_16</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      71.800000,-5.300000,0 71.800000,-5.400000,0 71.800000,-5.300000,0 
+      72.300000,-7.100000,0 72.300000,-7.000000,0 72.400000,-7.000000,0 72.500000,-7.000000,0 72.500000,-7.100000,0 72.600000,-7.100000,0 72.600000,-7.200000,0 72.700000,-7.200000,0 72.700000,-7.300000,0 72.700000,-7.400000,0 72.600000,-7.500000,0 72.600000,-7.600000,0 72.500000,-7.600000,0 72.400000,-7.600000,0 72.300000,-7.600000,0 72.300000,-7.500000,0 72.200000,-7.500000,0 72.200000,-7.400000,0 72.200000,-7.300000,0 72.200000,-7.200000,0 72.200000,-7.100000,0 72.300000,-7.100000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>

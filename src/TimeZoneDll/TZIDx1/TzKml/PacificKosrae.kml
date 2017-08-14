@@ -24,49 +24,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      163.000000,5.300000,0 163.000000,5.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificKosrae_1</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      163.000000,5.300000,0 163.000000,5.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificKosrae_2</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      162.900000,5.300000,0 163.000000,5.300000,0 162.900000,5.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificKosrae_3</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      163.000000,5.300000,0 162.900000,5.300000,0 163.000000,5.300000,0 163.000000,5.400000,0 163.000000,5.300000,0 
+      163.200000,5.300000,0 163.200000,5.200000,0 163.200000,5.100000,0 163.100000,5.100000,0 163.000000,5.100000,0 162.900000,5.100000,0 162.800000,5.100000,0 162.800000,5.200000,0 162.700000,5.200000,0 162.700000,5.300000,0 162.700000,5.400000,0 162.800000,5.400000,0 162.800000,5.500000,0 162.900000,5.500000,0 162.900000,5.600000,0 163.000000,5.600000,0 163.100000,5.600000,0 163.100000,5.500000,0 163.200000,5.500000,0 163.200000,5.400000,0 163.200000,5.300000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>

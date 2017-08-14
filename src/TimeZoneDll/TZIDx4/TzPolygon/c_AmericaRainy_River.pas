@@ -6,20 +6,20 @@ uses
   t_TzWorld;
 
 const
-  cAmericaRainy_River_0: array [0..13] of TTimeZonePoint = (
-    (X: -945488; Y: 487141), (X: -945521; Y: 487159), (X: -945759; Y: 487163), (X: -945899; Y: 487204),
-    (X: -945900; Y: 487261), (X: -945731; Y: 487264), (X: -945731; Y: 487303), (X: -945623; Y: 487302),
-    (X: -945623; Y: 487314), (X: -945568; Y: 487314), (X: -945566; Y: 487229), (X: -945487; Y: 487231),
-    (X: -945487; Y: 487148), (X: -945488; Y: 487141)
+  cAmericaRainy_River_0: array [0..14] of TTimeZonePoint = (
+    (X: -945404; Y: 487052), (X: -945457; Y: 487124), (X: -945490; Y: 487147), (X: -945507; Y: 487151),
+    (X: -945558; Y: 487162), (X: -945686; Y: 487155), (X: -945876; Y: 487176), (X: -945914; Y: 487196),
+    (X: -945963; Y: 487247), (X: -946012; Y: 487282), (X: -946105; Y: 487317), (X: -946106; Y: 487318),
+    (X: -946186; Y: 487369), (X: -945402; Y: 487369), (X: -945404; Y: 487052)
   );
 
   cAmericaRainy_RiverPolygon: array[0..0] of TTimeZonePolygon = (
-    (PointsCount: 14; FirstPoint: @cAmericaRainy_River_0[0])
+    (PointsCount: 15; FirstPoint: @cAmericaRainy_River_0[0])
   );
 
   cAmericaRainy_RiverBound: TTimeZoneBound = (
-    Min: (X: -945900; Y: 487141);
-    Max: (X: -945487; Y: 487314)
+    Min: (X: -946186; Y: 487052);
+    Max: (X: -945402; Y: 487369)
   );
 
   cAmericaRainy_River: TTimeZoneInfo = (

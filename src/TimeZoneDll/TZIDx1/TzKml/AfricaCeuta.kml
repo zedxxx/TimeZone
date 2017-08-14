@@ -24,7 +24,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      -2.400000,35.200000,0 -2.400000,35.200000,0 
+      -5.400000,35.900000,0 -5.400000,35.900000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>
@@ -38,7 +38,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      -3.000000,35.300000,0 -2.900000,35.300000,0 -3.000000,35.300000,0 
+      -2.400000,35.200000,0 -2.400000,35.200000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>
@@ -52,7 +52,119 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
+      -3.900000,35.200000,0 -3.900000,35.200000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAfricaCeuta_3</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -3.900000,35.200000,0 -3.900000,35.200000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAfricaCeuta_4</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -2.400000,35.200000,0 -2.400000,35.200000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAfricaCeuta_5</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -2.400000,35.200000,0 -2.400000,35.200000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAfricaCeuta_6</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -3.900000,35.200000,0 -3.900000,35.200000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAfricaCeuta_7</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -5.300000,35.900000,0 -5.300000,35.900000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAfricaCeuta_8</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -4.300000,35.200000,0 -4.300000,35.200000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAfricaCeuta_9</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
       -5.400000,35.900000,0 -5.300000,35.900000,0 -5.400000,35.900000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
+ <Placemark>
+  <name>cAfricaCeuta_10</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -3.000000,35.300000,0 -2.900000,35.300000,0 -3.000000,35.300000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>

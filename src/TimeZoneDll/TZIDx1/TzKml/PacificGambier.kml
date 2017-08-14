@@ -24,7 +24,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      -134.900000,-23.200000,0 -134.900000,-23.200000,0 
+      -136.200000,-22.200000,0 -136.300000,-22.200000,0 -136.400000,-22.200000,0 -136.400000,-22.100000,0 -136.400000,-22.000000,0 -136.400000,-21.900000,0 -136.300000,-21.900000,0 -136.300000,-21.800000,0 -136.200000,-21.800000,0 -136.100000,-21.800000,0 -136.000000,-21.800000,0 -136.000000,-21.900000,0 -136.000000,-22.000000,0 -136.000000,-22.100000,0 -136.000000,-22.200000,0 -136.100000,-22.200000,0 -136.200000,-22.200000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>
@@ -38,7 +38,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      -135.000000,-23.100000,0 -135.000000,-23.200000,0 -135.000000,-23.100000,0 -135.000000,-23.200000,0 -135.100000,-23.200000,0 -135.100000,-23.100000,0 -135.000000,-23.100000,0 
+      -135.800000,-21.500000,0 -135.900000,-21.500000,0 -135.800000,-21.400000,0 -135.800000,-21.300000,0 -135.700000,-21.300000,0 -135.600000,-21.300000,0 -135.500000,-21.300000,0 -135.400000,-21.300000,0 -135.300000,-21.400000,0 -135.300000,-21.500000,0 -135.200000,-21.500000,0 -135.200000,-21.600000,0 -135.300000,-21.600000,0 -135.300000,-21.700000,0 -135.400000,-21.700000,0 -135.500000,-21.800000,0 -135.600000,-21.800000,0 -135.700000,-21.800000,0 -135.700000,-21.700000,0 -135.800000,-21.700000,0 -135.800000,-21.600000,0 -135.800000,-21.500000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>
@@ -52,7 +52,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      -134.900000,-23.100000,0 -134.900000,-23.100000,0 
+      -134.700000,-23.400000,0 -134.800000,-23.400000,0 -134.900000,-23.400000,0 -135.000000,-23.400000,0 -135.100000,-23.400000,0 -135.200000,-23.400000,0 -135.200000,-23.300000,0 -135.300000,-23.300000,0 -135.300000,-23.200000,0 -135.300000,-23.100000,0 -135.300000,-23.000000,0 -135.200000,-22.900000,0 -135.100000,-22.900000,0 -135.100000,-22.800000,0 -135.000000,-22.800000,0 -134.900000,-22.800000,0 -134.800000,-22.800000,0 -134.800000,-22.900000,0 -134.700000,-22.900000,0 -134.700000,-23.000000,0 -134.600000,-23.000000,0 -134.600000,-23.100000,0 -134.600000,-23.200000,0 -134.600000,-23.100000,0 -134.500000,-23.100000,0 -134.400000,-23.100000,0 -134.400000,-23.200000,0 -134.300000,-23.200000,0 -134.300000,-23.300000,0 -134.200000,-23.300000,0 -134.200000,-23.400000,0 -134.300000,-23.400000,0 -134.300000,-23.500000,0 -134.400000,-23.500000,0 -134.400000,-23.600000,0 -134.500000,-23.600000,0 -134.600000,-23.600000,0 -134.600000,-23.500000,0 -134.700000,-23.500000,0 -134.700000,-23.400000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>
@@ -66,217 +66,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      -136.200000,-22.000000,0 -136.200000,-22.000000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificGambier_4</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -136.200000,-22.000000,0 -136.200000,-22.000000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificGambier_5</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -136.200000,-22.000000,0 -136.200000,-22.000000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificGambier_6</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -135.600000,-21.500000,0 -135.600000,-21.500000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificGambier_7</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -135.500000,-21.500000,0 -135.500000,-21.500000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificGambier_8</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -135.000000,-23.100000,0 -134.900000,-23.100000,0 -135.000000,-23.100000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificGambier_9</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -134.900000,-23.100000,0 -134.900000,-23.100000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificGambier_10</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -136.400000,-21.500000,0 -136.400000,-21.400000,0 -136.400000,-21.500000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificGambier_11</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -136.600000,-21.300000,0 -136.500000,-21.300000,0 -136.500000,-21.400000,0 -136.500000,-21.300000,0 -136.600000,-21.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificGambier_12</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -136.700000,-21.300000,0 -136.700000,-21.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificGambier_13</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -136.700000,-21.300000,0 -136.600000,-21.300000,0 -136.700000,-21.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificGambier_14</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -136.700000,-21.300000,0 -136.800000,-21.300000,0 -136.700000,-21.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificGambier_15</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -136.700000,-21.300000,0 -136.800000,-21.300000,0 -136.700000,-21.300000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificGambier_16</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -135.600000,-21.500000,0 -135.600000,-21.500000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificGambier_17</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -135.500000,-21.500000,0 -135.500000,-21.500000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificGambier_18</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -135.600000,-21.500000,0 -135.600000,-21.500000,0 
+      -136.600000,-21.100000,0 -136.500000,-21.100000,0 -136.400000,-21.100000,0 -136.400000,-21.200000,0 -136.300000,-21.200000,0 -136.300000,-21.300000,0 -136.200000,-21.300000,0 -136.200000,-21.400000,0 -136.200000,-21.500000,0 -136.200000,-21.600000,0 -136.200000,-21.700000,0 -136.300000,-21.700000,0 -136.400000,-21.700000,0 -136.500000,-21.700000,0 -136.500000,-21.600000,0 -136.600000,-21.600000,0 -136.600000,-21.500000,0 -136.700000,-21.500000,0 -136.800000,-21.500000,0 -136.900000,-21.500000,0 -136.900000,-21.400000,0 -137.000000,-21.400000,0 -137.000000,-21.300000,0 -137.000000,-21.200000,0 -136.900000,-21.200000,0 -136.900000,-21.100000,0 -136.800000,-21.100000,0 -136.700000,-21.100000,0 -136.600000,-21.100000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>

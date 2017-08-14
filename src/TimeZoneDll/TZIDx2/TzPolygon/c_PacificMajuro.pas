@@ -6,1100 +6,1512 @@ uses
   t_TzWorld;
 
 const
-  cPacificMajuro_0: array [0..23] of TTimeZonePoint = (
-    (X: 16876; Y: 460), (X: 16875; Y: 460), (X: 16875; Y: 459), (X: 16874; Y: 459),
-    (X: 16874; Y: 458), (X: 16873; Y: 458), (X: 16872; Y: 458), (X: 16872; Y: 457),
-    (X: 16871; Y: 457), (X: 16870; Y: 458), (X: 16869; Y: 458), (X: 16869; Y: 459),
-    (X: 16870; Y: 458), (X: 16871; Y: 458), (X: 16872; Y: 458), (X: 16873; Y: 458),
-    (X: 16874; Y: 459), (X: 16875; Y: 459), (X: 16875; Y: 460), (X: 16876; Y: 460),
-    (X: 16876; Y: 461), (X: 16877; Y: 461), (X: 16877; Y: 460), (X: 16876; Y: 460)
-  );
-
-  cPacificMajuro_1: array [0..3] of TTimeZonePoint = (
-    (X: 16867; Y: 461), (X: 16866; Y: 462), (X: 16867; Y: 462), (X: 16867; Y: 461)
-  );
-
-  cPacificMajuro_2: array [0..4] of TTimeZonePoint = (
-    (X: 16877; Y: 464), (X: 16877; Y: 463), (X: 16877; Y: 462), (X: 16877; Y: 463),
-    (X: 16877; Y: 464)
-  );
-
-  cPacificMajuro_3: array [0..6] of TTimeZonePoint = (
-    (X: 16866; Y: 465), (X: 16866; Y: 464), (X: 16866; Y: 463), (X: 16865; Y: 463),
-    (X: 16865; Y: 464), (X: 16865; Y: 465), (X: 16866; Y: 465)
-  );
-
-  cPacificMajuro_4: array [0..4] of TTimeZonePoint = (
-    (X: 16867; Y: 468), (X: 16867; Y: 467), (X: 16867; Y: 466), (X: 16867; Y: 467),
-    (X: 16867; Y: 468)
-  );
-
-  cPacificMajuro_5: array [0..5] of TTimeZonePoint = (
-    (X: 16911; Y: 564), (X: 16911; Y: 565), (X: 16912; Y: 565), (X: 16913; Y: 565),
-    (X: 16912; Y: 564), (X: 16911; Y: 564)
-  );
-
-  cPacificMajuro_6: array [0..20] of TTimeZonePoint = (
-    (X: 16811; Y: 563), (X: 16812; Y: 564), (X: 16813; Y: 564), (X: 16813; Y: 563),
-    (X: 16813; Y: 562), (X: 16813; Y: 561), (X: 16812; Y: 560), (X: 16812; Y: 559),
-    (X: 16811; Y: 559), (X: 16810; Y: 559), (X: 16810; Y: 560), (X: 16810; Y: 561),
-    (X: 16810; Y: 560), (X: 16811; Y: 559), (X: 16812; Y: 559), (X: 16812; Y: 560),
-    (X: 16812; Y: 561), (X: 16813; Y: 562), (X: 16813; Y: 563), (X: 16812; Y: 563),
-    (X: 16811; Y: 563)
-  );
-
-  cPacificMajuro_7: array [0..6] of TTimeZonePoint = (
-    (X: 16809; Y: 565), (X: 16809; Y: 564), (X: 16810; Y: 564), (X: 16810; Y: 563),
-    (X: 16809; Y: 563), (X: 16809; Y: 564), (X: 16809; Y: 565)
-  );
-
-  cPacificMajuro_8: array [0..5] of TTimeZonePoint = (
-    (X: 16955; Y: 584), (X: 16955; Y: 583), (X: 16956; Y: 583), (X: 16956; Y: 582),
-    (X: 16955; Y: 583), (X: 16955; Y: 584)
-  );
-
-  cPacificMajuro_9: array [0..3] of TTimeZonePoint = (
-    (X: 16954; Y: 584), (X: 16953; Y: 584), (X: 16953; Y: 585), (X: 16954; Y: 584)
-  );
-
-  cPacificMajuro_10: array [0..36] of TTimeZonePoint = (
-    (X: 16964; Y: 587), (X: 16963; Y: 587), (X: 16963; Y: 586), (X: 16963; Y: 585),
-    (X: 16963; Y: 584), (X: 16963; Y: 582), (X: 16962; Y: 581), (X: 16962; Y: 580),
-    (X: 16962; Y: 579), (X: 16961; Y: 579), (X: 16960; Y: 579), (X: 16959; Y: 579),
-    (X: 16959; Y: 580), (X: 16958; Y: 580), (X: 16958; Y: 581), (X: 16959; Y: 581),
-    (X: 16959; Y: 580), (X: 16960; Y: 580), (X: 16960; Y: 579), (X: 16961; Y: 579),
-    (X: 16962; Y: 581), (X: 16962; Y: 582), (X: 16962; Y: 583), (X: 16963; Y: 584),
-    (X: 16963; Y: 585), (X: 16963; Y: 586), (X: 16963; Y: 587), (X: 16964; Y: 588),
-    (X: 16964; Y: 589), (X: 16964; Y: 590), (X: 16964; Y: 591), (X: 16965; Y: 591),
-    (X: 16964; Y: 591), (X: 16964; Y: 590), (X: 16964; Y: 589), (X: 16964; Y: 588),
-    (X: 16964; Y: 587)
-  );
-
-  cPacificMajuro_11: array [0..6] of TTimeZonePoint = (
-    (X: 17215; Y: 590), (X: 17216; Y: 590), (X: 17216; Y: 589), (X: 17216; Y: 588),
-    (X: 17216; Y: 589), (X: 17215; Y: 589), (X: 17215; Y: 590)
-  );
-
-  cPacificMajuro_12: array [0..2] of TTimeZonePoint = (
-    (X: 16965; Y: 593), (X: 16965; Y: 592), (X: 16965; Y: 593)
-  );
-
-  cPacificMajuro_13: array [0..3] of TTimeZonePoint = (
-    (X: 17213; Y: 593), (X: 17214; Y: 592), (X: 17213; Y: 592), (X: 17213; Y: 593)
-  );
-
-  cPacificMajuro_14: array [0..8] of TTimeZonePoint = (
-    (X: 16945; Y: 595), (X: 16945; Y: 594), (X: 16945; Y: 595), (X: 16944; Y: 595),
-    (X: 16943; Y: 595), (X: 16943; Y: 596), (X: 16944; Y: 596), (X: 16944; Y: 595),
-    (X: 16945; Y: 595)
-  );
-
-  cPacificMajuro_15: array [0..9] of TTimeZonePoint = (
-    (X: 16973; Y: 600), (X: 16972; Y: 600), (X: 16973; Y: 600), (X: 16973; Y: 601),
-    (X: 16972; Y: 601), (X: 16972; Y: 602), (X: 16971; Y: 602), (X: 16972; Y: 602),
-    (X: 16973; Y: 601), (X: 16973; Y: 600)
-  );
-
-  cPacificMajuro_16: array [0..31] of TTimeZonePoint = (
-    (X: 17199; Y: 604), (X: 17198; Y: 604), (X: 17197; Y: 604), (X: 17196; Y: 603),
-    (X: 17195; Y: 603), (X: 17194; Y: 603), (X: 17194; Y: 604), (X: 17193; Y: 605),
-    (X: 17192; Y: 605), (X: 17192; Y: 606), (X: 17193; Y: 605), (X: 17194; Y: 604),
-    (X: 17195; Y: 604), (X: 17196; Y: 604), (X: 17197; Y: 604), (X: 17198; Y: 604),
-    (X: 17199; Y: 605), (X: 17199; Y: 604), (X: 17200; Y: 604), (X: 17201; Y: 604),
-    (X: 17202; Y: 604), (X: 17202; Y: 603), (X: 17203; Y: 603), (X: 17204; Y: 602),
-    (X: 17205; Y: 602), (X: 17205; Y: 601), (X: 17204; Y: 602), (X: 17203; Y: 602),
-    (X: 17202; Y: 603), (X: 17201; Y: 603), (X: 17200; Y: 603), (X: 17199; Y: 604)
-  );
-
-  cPacificMajuro_17: array [0..5] of TTimeZonePoint = (
-    (X: 17190; Y: 607), (X: 17189; Y: 607), (X: 17188; Y: 607), (X: 17187; Y: 607),
-    (X: 17188; Y: 607), (X: 17190; Y: 607)
-  );
-
-  cPacificMajuro_18: array [0..2] of TTimeZonePoint = (
-    (X: 16961; Y: 607), (X: 16962; Y: 607), (X: 16961; Y: 607)
-  );
-
-  cPacificMajuro_19: array [0..7] of TTimeZonePoint = (
-    (X: 16969; Y: 604), (X: 16968; Y: 604), (X: 16967; Y: 605), (X: 16967; Y: 606),
-    (X: 16968; Y: 606), (X: 16968; Y: 605), (X: 16968; Y: 604), (X: 16969; Y: 604)
-  );
-
-  cPacificMajuro_20: array [0..19] of TTimeZonePoint = (
-    (X: 17183; Y: 605), (X: 17182; Y: 605), (X: 17182; Y: 604), (X: 17181; Y: 604),
-    (X: 17180; Y: 604), (X: 17179; Y: 605), (X: 17178; Y: 605), (X: 17178; Y: 606),
-    (X: 17177; Y: 606), (X: 17177; Y: 607), (X: 17176; Y: 607), (X: 17177; Y: 607),
-    (X: 17178; Y: 606), (X: 17179; Y: 605), (X: 17180; Y: 605), (X: 17180; Y: 604),
-    (X: 17181; Y: 604), (X: 17182; Y: 604), (X: 17182; Y: 605), (X: 17183; Y: 605)
-  );
-
-  cPacificMajuro_21: array [0..4] of TTimeZonePoint = (
-    (X: 16959; Y: 610), (X: 16959; Y: 611), (X: 16958; Y: 611), (X: 16959; Y: 611),
-    (X: 16959; Y: 610)
-  );
-
-  cPacificMajuro_22: array [0..3] of TTimeZonePoint = (
-    (X: 17173; Y: 613), (X: 17172; Y: 613), (X: 17172; Y: 614), (X: 17173; Y: 613)
-  );
-
-  cPacificMajuro_23: array [0..8] of TTimeZonePoint = (
-    (X: 16955; Y: 617), (X: 16956; Y: 615), (X: 16956; Y: 614), (X: 16956; Y: 613),
-    (X: 16956; Y: 612), (X: 16956; Y: 613), (X: 16956; Y: 614), (X: 16955; Y: 615),
-    (X: 16955; Y: 617)
-  );
-
-  cPacificMajuro_24: array [0..6] of TTimeZonePoint = (
-    (X: 17172; Y: 618), (X: 17172; Y: 617), (X: 17172; Y: 616), (X: 17172; Y: 615),
-    (X: 17172; Y: 616), (X: 17172; Y: 617), (X: 17172; Y: 618)
-  );
-
-  cPacificMajuro_25: array [0..3] of TTimeZonePoint = (
-    (X: 16960; Y: 610), (X: 16960; Y: 608), (X: 16959; Y: 610), (X: 16960; Y: 610)
-  );
-
-  cPacificMajuro_26: array [0..10] of TTimeZonePoint = (
-    (X: 17175; Y: 608), (X: 17174; Y: 608), (X: 17173; Y: 608), (X: 17172; Y: 608),
-    (X: 17172; Y: 609), (X: 17172; Y: 610), (X: 17173; Y: 611), (X: 17173; Y: 610),
-    (X: 17173; Y: 609), (X: 17174; Y: 608), (X: 17175; Y: 608)
-  );
-
-  cPacificMajuro_27: array [0..20] of TTimeZonePoint = (
-    (X: 16967; Y: 595), (X: 16967; Y: 594), (X: 16966; Y: 594), (X: 16965; Y: 593),
-    (X: 16965; Y: 594), (X: 16966; Y: 594), (X: 16967; Y: 595), (X: 16968; Y: 596),
-    (X: 16969; Y: 597), (X: 16970; Y: 597), (X: 16971; Y: 597), (X: 16972; Y: 598),
-    (X: 16972; Y: 599), (X: 16973; Y: 599), (X: 16973; Y: 598), (X: 16972; Y: 598),
-    (X: 16971; Y: 597), (X: 16970; Y: 597), (X: 16969; Y: 596), (X: 16968; Y: 595),
-    (X: 16967; Y: 595)
-  );
-
-  cPacificMajuro_28: array [0..3] of TTimeZonePoint = (
-    (X: 17211; Y: 598), (X: 17212; Y: 597), (X: 17211; Y: 597), (X: 17211; Y: 598)
-  );
-
-  cPacificMajuro_29: array [0..3] of TTimeZonePoint = (
-    (X: 17188; Y: 623), (X: 17188; Y: 624), (X: 17189; Y: 624), (X: 17188; Y: 623)
-  );
-
-  cPacificMajuro_30: array [0..2] of TTimeZonePoint = (
-    (X: 16942; Y: 628), (X: 16941; Y: 628), (X: 16942; Y: 628)
-  );
-
-  cPacificMajuro_31: array [0..4] of TTimeZonePoint = (
-    (X: 16952; Y: 623), (X: 16951; Y: 623), (X: 16951; Y: 624), (X: 16951; Y: 623),
-    (X: 16952; Y: 623)
-  );
-
-  cPacificMajuro_32: array [0..43] of TTimeZonePoint = (
-    (X: 17175; Y: 696), (X: 17176; Y: 696), (X: 17175; Y: 695), (X: 17174; Y: 695),
-    (X: 17173; Y: 696), (X: 17172; Y: 697), (X: 17171; Y: 697), (X: 17170; Y: 698),
-    (X: 17170; Y: 699), (X: 17169; Y: 699), (X: 17168; Y: 699), (X: 17167; Y: 700),
-    (X: 17166; Y: 700), (X: 17165; Y: 699), (X: 17164; Y: 699), (X: 17163; Y: 699),
-    (X: 17161; Y: 699), (X: 17160; Y: 699), (X: 17160; Y: 700), (X: 17159; Y: 701),
-    (X: 17158; Y: 702), (X: 17158; Y: 703), (X: 17158; Y: 702), (X: 17159; Y: 702),
-    (X: 17159; Y: 701), (X: 17160; Y: 700), (X: 17161; Y: 699), (X: 17162; Y: 699),
-    (X: 17163; Y: 699), (X: 17164; Y: 700), (X: 17165; Y: 700), (X: 17166; Y: 700),
-    (X: 17167; Y: 700), (X: 17168; Y: 699), (X: 17169; Y: 699), (X: 17170; Y: 699),
-    (X: 17171; Y: 698), (X: 17171; Y: 697), (X: 17172; Y: 697), (X: 17173; Y: 697),
-    (X: 17174; Y: 696), (X: 17174; Y: 695), (X: 17175; Y: 695), (X: 17175; Y: 696)
-  );
-
-  cPacificMajuro_33: array [0..17] of TTimeZonePoint = (
-    (X: 17189; Y: 709), (X: 17189; Y: 710), (X: 17190; Y: 710), (X: 17190; Y: 709),
-    (X: 17191; Y: 710), (X: 17192; Y: 711), (X: 17192; Y: 712), (X: 17191; Y: 713),
-    (X: 17192; Y: 713), (X: 17193; Y: 713), (X: 17193; Y: 712), (X: 17193; Y: 711),
-    (X: 17192; Y: 711), (X: 17192; Y: 710), (X: 17191; Y: 710), (X: 17191; Y: 709),
-    (X: 17190; Y: 709), (X: 17189; Y: 709)
-  );
-
-  cPacificMajuro_34: array [0..2] of TTimeZonePoint = (
-    (X: 17157; Y: 712), (X: 17157; Y: 711), (X: 17157; Y: 712)
-  );
-
-  cPacificMajuro_35: array [0..6] of TTimeZonePoint = (
-    (X: 17136; Y: 712), (X: 17136; Y: 713), (X: 17137; Y: 713), (X: 17137; Y: 712),
-    (X: 17138; Y: 711), (X: 17137; Y: 712), (X: 17136; Y: 712)
-  );
-
-  cPacificMajuro_36: array [0..4] of TTimeZonePoint = (
-    (X: 17132; Y: 712), (X: 17131; Y: 713), (X: 17131; Y: 714), (X: 17132; Y: 713),
-    (X: 17132; Y: 712)
-  );
-
-  cPacificMajuro_37: array [0..10] of TTimeZonePoint = (
-    (X: 17156; Y: 707), (X: 17156; Y: 706), (X: 17156; Y: 705), (X: 17157; Y: 705),
-    (X: 17156; Y: 705), (X: 17155; Y: 705), (X: 17155; Y: 706), (X: 17155; Y: 707),
-    (X: 17156; Y: 707), (X: 17156; Y: 708), (X: 17156; Y: 707)
-  );
-
-  cPacificMajuro_38: array [0..13] of TTimeZonePoint = (
-    (X: 17189; Y: 709), (X: 17188; Y: 709), (X: 17188; Y: 708), (X: 17187; Y: 708),
-    (X: 17186; Y: 708), (X: 17185; Y: 707), (X: 17184; Y: 707), (X: 17185; Y: 708),
-    (X: 17186; Y: 708), (X: 17187; Y: 709), (X: 17188; Y: 709), (X: 17188; Y: 708),
-    (X: 17188; Y: 709), (X: 17189; Y: 709)
-  );
-
-  cPacificMajuro_39: array [0..12] of TTimeZonePoint = (
-    (X: 17180; Y: 707), (X: 17180; Y: 706), (X: 17179; Y: 705), (X: 17179; Y: 704),
-    (X: 17178; Y: 704), (X: 17178; Y: 703), (X: 17177; Y: 703), (X: 17176; Y: 702),
-    (X: 17177; Y: 703), (X: 17178; Y: 704), (X: 17179; Y: 705), (X: 17179; Y: 706),
-    (X: 17180; Y: 707)
-  );
-
-  cPacificMajuro_40: array [0..22] of TTimeZonePoint = (
-    (X: 17131; Y: 707), (X: 17135; Y: 709), (X: 17136; Y: 709), (X: 17137; Y: 709),
-    (X: 17138; Y: 709), (X: 17138; Y: 710), (X: 17138; Y: 711), (X: 17139; Y: 710),
-    (X: 17139; Y: 709), (X: 17138; Y: 709), (X: 17137; Y: 709), (X: 17136; Y: 709),
-    (X: 17135; Y: 709), (X: 17133; Y: 708), (X: 17132; Y: 708), (X: 17131; Y: 707),
-    (X: 17130; Y: 707), (X: 17129; Y: 707), (X: 17128; Y: 706), (X: 17126; Y: 706),
-    (X: 17128; Y: 707), (X: 17129; Y: 707), (X: 17131; Y: 707)
-  );
-
-  cPacificMajuro_41: array [0..7] of TTimeZonePoint = (
-    (X: 17186; Y: 708), (X: 17185; Y: 708), (X: 17184; Y: 709), (X: 17183; Y: 709),
-    (X: 17184; Y: 709), (X: 17185; Y: 709), (X: 17186; Y: 709), (X: 17186; Y: 708)
-  );
-
-  cPacificMajuro_42: array [0..26] of TTimeZonePoint = (
-    (X: 17124; Y: 706), (X: 17123; Y: 705), (X: 17121; Y: 706), (X: 17120; Y: 706),
-    (X: 17113; Y: 709), (X: 17110; Y: 710), (X: 17109; Y: 711), (X: 17107; Y: 711),
-    (X: 17106; Y: 712), (X: 17105; Y: 713), (X: 17105; Y: 714), (X: 17104; Y: 714),
-    (X: 17103; Y: 715), (X: 17104; Y: 716), (X: 17104; Y: 717), (X: 17105; Y: 715),
-    (X: 17105; Y: 714), (X: 17105; Y: 713), (X: 17106; Y: 712), (X: 17107; Y: 712),
-    (X: 17109; Y: 711), (X: 17110; Y: 711), (X: 17118; Y: 708), (X: 17120; Y: 707),
-    (X: 17122; Y: 706), (X: 17123; Y: 706), (X: 17124; Y: 706)
-  );
-
-  cPacificMajuro_43: array [0..32] of TTimeZonePoint = (
-    (X: 16883; Y: 729), (X: 16882; Y: 728), (X: 16881; Y: 728), (X: 16880; Y: 728),
-    (X: 16879; Y: 728), (X: 16878; Y: 728), (X: 16877; Y: 728), (X: 16876; Y: 728),
-    (X: 16875; Y: 728), (X: 16874; Y: 729), (X: 16874; Y: 730), (X: 16873; Y: 730),
-    (X: 16872; Y: 730), (X: 16871; Y: 730), (X: 16870; Y: 730), (X: 16869; Y: 730),
-    (X: 16869; Y: 731), (X: 16869; Y: 730), (X: 16870; Y: 730), (X: 16871; Y: 730),
-    (X: 16872; Y: 730), (X: 16873; Y: 730), (X: 16874; Y: 730), (X: 16875; Y: 730),
-    (X: 16875; Y: 729), (X: 16876; Y: 729), (X: 16877; Y: 729), (X: 16878; Y: 729),
-    (X: 16879; Y: 729), (X: 16880; Y: 728), (X: 16882; Y: 728), (X: 16882; Y: 729),
-    (X: 16883; Y: 729)
-  );
-
-  cPacificMajuro_44: array [0..6] of TTimeZonePoint = (
-    (X: 16868; Y: 731), (X: 16867; Y: 731), (X: 16867; Y: 732), (X: 16866; Y: 732),
-    (X: 16867; Y: 733), (X: 16867; Y: 732), (X: 16868; Y: 731)
-  );
-
-  cPacificMajuro_45: array [0..4] of TTimeZonePoint = (
-    (X: 17108; Y: 722), (X: 17109; Y: 722), (X: 17109; Y: 721), (X: 17108; Y: 721),
-    (X: 17108; Y: 722)
-  );
-
-  cPacificMajuro_46: array [0..2] of TTimeZonePoint = (
-    (X: 17106; Y: 722), (X: 17107; Y: 722), (X: 17106; Y: 722)
-  );
-
-  cPacificMajuro_47: array [0..6] of TTimeZonePoint = (
-    (X: 17164; Y: 725), (X: 17164; Y: 724), (X: 17164; Y: 723), (X: 17164; Y: 722),
-    (X: 17163; Y: 722), (X: 17163; Y: 725), (X: 17164; Y: 725)
-  );
-
-  cPacificMajuro_48: array [0..7] of TTimeZonePoint = (
-    (X: 17172; Y: 619), (X: 17171; Y: 620), (X: 17171; Y: 621), (X: 17172; Y: 621),
-    (X: 17172; Y: 622), (X: 17172; Y: 621), (X: 17172; Y: 620), (X: 17172; Y: 619)
-  );
-
-  cPacificMajuro_49: array [0..4] of TTimeZonePoint = (
-    (X: 16952; Y: 622), (X: 16952; Y: 621), (X: 16953; Y: 621), (X: 16952; Y: 621),
-    (X: 16952; Y: 622)
-  );
-
-  cPacificMajuro_50: array [0..7] of TTimeZonePoint = (
-    (X: 16864; Y: 735), (X: 16864; Y: 734), (X: 16863; Y: 734), (X: 16861; Y: 735),
-    (X: 16860; Y: 735), (X: 16861; Y: 735), (X: 16863; Y: 735), (X: 16864; Y: 735)
-  );
-
-  cPacificMajuro_51: array [0..18] of TTimeZonePoint = (
-    (X: 16857; Y: 738), (X: 16856; Y: 739), (X: 16856; Y: 740), (X: 16856; Y: 741),
-    (X: 16855; Y: 742), (X: 16855; Y: 743), (X: 16855; Y: 744), (X: 16855; Y: 745),
-    (X: 16855; Y: 746), (X: 16856; Y: 746), (X: 16856; Y: 745), (X: 16855; Y: 745),
-    (X: 16855; Y: 744), (X: 16855; Y: 743), (X: 16856; Y: 742), (X: 16856; Y: 741),
-    (X: 16856; Y: 740), (X: 16856; Y: 739), (X: 16857; Y: 738)
-  );
-
-  cPacificMajuro_52: array [0..3] of TTimeZonePoint = (
-    (X: 16893; Y: 749), (X: 16894; Y: 750), (X: 16894; Y: 749), (X: 16893; Y: 749)
-  );
-
-  cPacificMajuro_53: array [0..2] of TTimeZonePoint = (
-    (X: 16894; Y: 752), (X: 16894; Y: 753), (X: 16894; Y: 752)
-  );
-
-  cPacificMajuro_54: array [0..16] of TTimeZonePoint = (
-    (X: 16894; Y: 760), (X: 16893; Y: 760), (X: 16894; Y: 760), (X: 16895; Y: 760),
-    (X: 16896; Y: 760), (X: 16897; Y: 760), (X: 16897; Y: 759), (X: 16897; Y: 758),
-    (X: 16897; Y: 757), (X: 16896; Y: 756), (X: 16896; Y: 757), (X: 16897; Y: 757),
-    (X: 16897; Y: 758), (X: 16897; Y: 759), (X: 16896; Y: 759), (X: 16895; Y: 760),
-    (X: 16894; Y: 760)
-  );
-
-  cPacificMajuro_55: array [0..11] of TTimeZonePoint = (
-    (X: 16826; Y: 776), (X: 16826; Y: 775), (X: 16825; Y: 775), (X: 16824; Y: 775),
-    (X: 16823; Y: 775), (X: 16822; Y: 775), (X: 16822; Y: 776), (X: 16823; Y: 775),
-    (X: 16824; Y: 775), (X: 16825; Y: 775), (X: 16825; Y: 776), (X: 16826; Y: 776)
-  );
-
-  cPacificMajuro_56: array [0..4] of TTimeZonePoint = (
-    (X: 16830; Y: 783), (X: 16830; Y: 782), (X: 16829; Y: 782), (X: 16829; Y: 783),
-    (X: 16830; Y: 783)
-  );
-
-  cPacificMajuro_57: array [0..2] of TTimeZonePoint = (
-    (X: 16816; Y: 807), (X: 16817; Y: 807), (X: 16816; Y: 807)
-  );
-
-  cPacificMajuro_58: array [0..5] of TTimeZonePoint = (
-    (X: 17118; Y: 814), (X: 17117; Y: 815), (X: 17117; Y: 816), (X: 17117; Y: 815),
-    (X: 17118; Y: 815), (X: 17118; Y: 814)
-  );
-
-  cPacificMajuro_59: array [0..6] of TTimeZonePoint = (
-    (X: 16817; Y: 816), (X: 16818; Y: 816), (X: 16818; Y: 815), (X: 16818; Y: 814),
-    (X: 16818; Y: 815), (X: 16818; Y: 816), (X: 16817; Y: 816)
-  );
-
-  cPacificMajuro_60: array [0..3] of TTimeZonePoint = (
-    (X: 17118; Y: 818), (X: 17117; Y: 817), (X: 17117; Y: 818), (X: 17118; Y: 818)
-  );
-
-  cPacificMajuro_61: array [0..4] of TTimeZonePoint = (
-    (X: 16797; Y: 819), (X: 16798; Y: 819), (X: 16798; Y: 818), (X: 16798; Y: 819),
-    (X: 16797; Y: 819)
-  );
-
-  cPacificMajuro_62: array [0..4] of TTimeZonePoint = (
-    (X: 17117; Y: 819), (X: 17116; Y: 819), (X: 17116; Y: 820), (X: 17117; Y: 820),
-    (X: 17117; Y: 819)
-  );
-
-  cPacificMajuro_63: array [0..4] of TTimeZonePoint = (
-    (X: 17111; Y: 818), (X: 17112; Y: 818), (X: 17112; Y: 817), (X: 17111; Y: 817),
-    (X: 17111; Y: 818)
-  );
-
-  cPacificMajuro_64: array [0..2] of TTimeZonePoint = (
-    (X: 17106; Y: 820), (X: 17107; Y: 820), (X: 17106; Y: 820)
-  );
-
-  cPacificMajuro_65: array [0..2] of TTimeZonePoint = (
-    (X: 17116; Y: 822), (X: 17115; Y: 822), (X: 17116; Y: 822)
-  );
-
-  cPacificMajuro_66: array [0..2] of TTimeZonePoint = (
-    (X: 17102; Y: 823), (X: 17101; Y: 823), (X: 17102; Y: 823)
-  );
-
-  cPacificMajuro_67: array [0..2] of TTimeZonePoint = (
-    (X: 16740; Y: 831), (X: 16741; Y: 831), (X: 16740; Y: 831)
-  );
-
-  cPacificMajuro_68: array [0..1] of TTimeZonePoint = (
-    (X: 17114; Y: 833), (X: 17114; Y: 833)
-  );
-
-  cPacificMajuro_69: array [0..3] of TTimeZonePoint = (
-    (X: 17104; Y: 837), (X: 17105; Y: 837), (X: 17104; Y: 836), (X: 17104; Y: 837)
-  );
-
-  cPacificMajuro_70: array [0..1] of TTimeZonePoint = (
-    (X: 17118; Y: 849), (X: 17118; Y: 849)
-  );
-
-  cPacificMajuro_71: array [0..4] of TTimeZonePoint = (
-    (X: 17116; Y: 832), (X: 17117; Y: 831), (X: 17116; Y: 831), (X: 17115; Y: 832),
-    (X: 17116; Y: 832)
-  );
-
-  cPacificMajuro_72: array [0..3] of TTimeZonePoint = (
-    (X: 17119; Y: 850), (X: 17120; Y: 850), (X: 17119; Y: 849), (X: 17119; Y: 850)
-  );
-
-  cPacificMajuro_73: array [0..1] of TTimeZonePoint = (
-    (X: 17102; Y: 861), (X: 17102; Y: 861)
-  );
-
-  cPacificMajuro_74: array [0..4] of TTimeZonePoint = (
-    (X: 17123; Y: 871), (X: 17123; Y: 872), (X: 17124; Y: 871), (X: 17123; Y: 870),
-    (X: 17123; Y: 871)
-  );
-
-  cPacificMajuro_75: array [0..2] of TTimeZonePoint = (
-    (X: 17089; Y: 876), (X: 17089; Y: 875), (X: 17089; Y: 876)
-  );
-
-  cPacificMajuro_76: array [0..2] of TTimeZonePoint = (
-    (X: 17117; Y: 877), (X: 17118; Y: 877), (X: 17117; Y: 877)
-  );
-
-  cPacificMajuro_77: array [0..2] of TTimeZonePoint = (
-    (X: 17109; Y: 884), (X: 17110; Y: 884), (X: 17109; Y: 884)
-  );
-
-  cPacificMajuro_78: array [0..3] of TTimeZonePoint = (
-    (X: 17106; Y: 887), (X: 17107; Y: 887), (X: 17107; Y: 886), (X: 17106; Y: 887)
-  );
-
-  cPacificMajuro_79: array [0..2] of TTimeZonePoint = (
-    (X: 17098; Y: 889), (X: 17099; Y: 889), (X: 17098; Y: 889)
-  );
-
-  cPacificMajuro_80: array [0..2] of TTimeZonePoint = (
-    (X: 16576; Y: 893), (X: 16577; Y: 893), (X: 16576; Y: 893)
-  );
-
-  cPacificMajuro_81: array [0..1] of TTimeZonePoint = (
-    (X: 16622; Y: 892), (X: 16622; Y: 892)
-  );
-
-  cPacificMajuro_82: array [0..7] of TTimeZonePoint = (
-    (X: 16627; Y: 893), (X: 16627; Y: 892), (X: 16626; Y: 891), (X: 16626; Y: 892),
-    (X: 16625; Y: 892), (X: 16626; Y: 892), (X: 16627; Y: 892), (X: 16627; Y: 893)
-  );
-
-  cPacificMajuro_83: array [0..6] of TTimeZonePoint = (
-    (X: 17085; Y: 890), (X: 17086; Y: 890), (X: 17085; Y: 890), (X: 17085; Y: 889),
-    (X: 17084; Y: 889), (X: 17084; Y: 890), (X: 17085; Y: 890)
-  );
-
-  cPacificMajuro_84: array [0..2] of TTimeZonePoint = (
-    (X: 17094; Y: 890), (X: 17094; Y: 891), (X: 17094; Y: 890)
-  );
-
-  cPacificMajuro_85: array [0..1] of TTimeZonePoint = (
-    (X: 16626; Y: 894), (X: 16626; Y: 894)
-  );
-
-  cPacificMajuro_86: array [0..2] of TTimeZonePoint = (
-    (X: 16623; Y: 895), (X: 16623; Y: 896), (X: 16623; Y: 895)
-  );
-
-  cPacificMajuro_87: array [0..4] of TTimeZonePoint = (
-    (X: 17004; Y: 902), (X: 17004; Y: 903), (X: 17005; Y: 903), (X: 17005; Y: 902),
-    (X: 17004; Y: 902)
-  );
-
-  cPacificMajuro_88: array [0..3] of TTimeZonePoint = (
-    (X: 16569; Y: 907), (X: 16568; Y: 908), (X: 16569; Y: 908), (X: 16569; Y: 907)
-  );
-
-  cPacificMajuro_89: array [0..2] of TTimeZonePoint = (
-    (X: 16565; Y: 914), (X: 16566; Y: 914), (X: 16565; Y: 914)
-  );
-
-  cPacificMajuro_90: array [0..1] of TTimeZonePoint = (
-    (X: 16995; Y: 916), (X: 16995; Y: 916)
-  );
-
-  cPacificMajuro_91: array [0..1] of TTimeZonePoint = (
-    (X: 16991; Y: 919), (X: 16991; Y: 919)
-  );
-
-  cPacificMajuro_92: array [0..3] of TTimeZonePoint = (
-    (X: 16552; Y: 922), (X: 16553; Y: 922), (X: 16553; Y: 921), (X: 16552; Y: 922)
-  );
-
-  cPacificMajuro_93: array [0..3] of TTimeZonePoint = (
-    (X: 17005; Y: 937), (X: 17006; Y: 938), (X: 17006; Y: 937), (X: 17005; Y: 937)
-  );
-
-  cPacificMajuro_94: array [0..4] of TTimeZonePoint = (
-    (X: 17020; Y: 939), (X: 17021; Y: 939), (X: 17020; Y: 939), (X: 17020; Y: 938),
-    (X: 17020; Y: 939)
-  );
-
-  cPacificMajuro_95: array [0..2] of TTimeZonePoint = (
-    (X: 17022; Y: 940), (X: 17022; Y: 941), (X: 17022; Y: 940)
-  );
-
-  cPacificMajuro_96: array [0..7] of TTimeZonePoint = (
-    (X: 17024; Y: 947), (X: 17025; Y: 946), (X: 17025; Y: 945), (X: 17024; Y: 945),
-    (X: 17024; Y: 944), (X: 17024; Y: 945), (X: 17024; Y: 946), (X: 17024; Y: 947)
-  );
-
-  cPacificMajuro_97: array [0..2] of TTimeZonePoint = (
-    (X: 17087; Y: 884), (X: 17086; Y: 884), (X: 17087; Y: 884)
-  );
-
-  cPacificMajuro_98: array [0..1] of TTimeZonePoint = (
-    (X: 17023; Y: 948), (X: 17023; Y: 948)
-  );
-
-  cPacificMajuro_99: array [0..2] of TTimeZonePoint = (
-    (X: 17020; Y: 951), (X: 17020; Y: 952), (X: 17020; Y: 951)
-  );
-
-  cPacificMajuro_100: array [0..2] of TTimeZonePoint = (
-    (X: 16997; Y: 952), (X: 16998; Y: 952), (X: 16997; Y: 952)
-  );
-
-  cPacificMajuro_101: array [0..2] of TTimeZonePoint = (
-    (X: 16995; Y: 953), (X: 16996; Y: 953), (X: 16995; Y: 953)
-  );
-
-  cPacificMajuro_102: array [0..1] of TTimeZonePoint = (
-    (X: 17019; Y: 953), (X: 17019; Y: 953)
-  );
-
-  cPacificMajuro_103: array [0..2] of TTimeZonePoint = (
-    (X: 16984; Y: 954), (X: 16985; Y: 954), (X: 16984; Y: 954)
-  );
-
-  cPacificMajuro_104: array [0..3] of TTimeZonePoint = (
-    (X: 17015; Y: 955), (X: 17015; Y: 956), (X: 17016; Y: 956), (X: 17015; Y: 955)
-  );
-
-  cPacificMajuro_105: array [0..9] of TTimeZonePoint = (
-    (X: 16099; Y: 976), (X: 16098; Y: 976), (X: 16097; Y: 976), (X: 16096; Y: 976),
-    (X: 16095; Y: 977), (X: 16096; Y: 977), (X: 16096; Y: 976), (X: 16097; Y: 976),
-    (X: 16098; Y: 976), (X: 16099; Y: 976)
-  );
-
-  cPacificMajuro_106: array [0..4] of TTimeZonePoint = (
-    (X: 16097; Y: 980), (X: 16097; Y: 979), (X: 16097; Y: 980), (X: 16097; Y: 979),
-    (X: 16097; Y: 980)
-  );
-
-  cPacificMajuro_107: array [0..7] of TTimeZonePoint = (
-    (X: 16918; Y: 981), (X: 16918; Y: 980), (X: 16917; Y: 980), (X: 16916; Y: 980),
-    (X: 16915; Y: 980), (X: 16916; Y: 980), (X: 16917; Y: 980), (X: 16918; Y: 981)
-  );
-
-  cPacificMajuro_108: array [0..6] of TTimeZonePoint = (
-    (X: 16930; Y: 982), (X: 16931; Y: 982), (X: 16931; Y: 983), (X: 16932; Y: 983),
-    (X: 16932; Y: 982), (X: 16931; Y: 982), (X: 16930; Y: 982)
-  );
-
-  cPacificMajuro_109: array [0..4] of TTimeZonePoint = (
-    (X: 16923; Y: 983), (X: 16924; Y: 983), (X: 16925; Y: 983), (X: 16924; Y: 983),
-    (X: 16923; Y: 983)
-  );
-
-  cPacificMajuro_110: array [0..4] of TTimeZonePoint = (
-    (X: 16923; Y: 983), (X: 16922; Y: 983), (X: 16922; Y: 982), (X: 16922; Y: 983),
-    (X: 16923; Y: 983)
-  );
-
-  cPacificMajuro_111: array [0..3] of TTimeZonePoint = (
-    (X: 16988; Y: 953), (X: 16988; Y: 954), (X: 16989; Y: 953), (X: 16988; Y: 953)
-  );
-
-  cPacificMajuro_112: array [0..2] of TTimeZonePoint = (
-    (X: 16932; Y: 984), (X: 16931; Y: 985), (X: 16932; Y: 984)
-  );
-
-  cPacificMajuro_113: array [0..2] of TTimeZonePoint = (
-    (X: 16930; Y: 986), (X: 16930; Y: 985), (X: 16930; Y: 986)
-  );
-
-  cPacificMajuro_114: array [0..2] of TTimeZonePoint = (
-    (X: 16907; Y: 988), (X: 16907; Y: 987), (X: 16907; Y: 988)
-  );
-
-  cPacificMajuro_115: array [0..2] of TTimeZonePoint = (
-    (X: 16928; Y: 989), (X: 16927; Y: 989), (X: 16928; Y: 989)
-  );
-
-  cPacificMajuro_116: array [0..2] of TTimeZonePoint = (
-    (X: 16926; Y: 990), (X: 16927; Y: 990), (X: 16926; Y: 990)
-  );
-
-  cPacificMajuro_117: array [0..2] of TTimeZonePoint = (
-    (X: 16926; Y: 991), (X: 16926; Y: 990), (X: 16926; Y: 991)
-  );
-
-  cPacificMajuro_118: array [0..2] of TTimeZonePoint = (
-    (X: 16902; Y: 992), (X: 16902; Y: 991), (X: 16902; Y: 992)
-  );
-
-  cPacificMajuro_119: array [0..3] of TTimeZonePoint = (
-    (X: 16923; Y: 991), (X: 16923; Y: 992), (X: 16924; Y: 992), (X: 16923; Y: 991)
-  );
-
-  cPacificMajuro_120: array [0..3] of TTimeZonePoint = (
-    (X: 16603; Y: 1003), (X: 16604; Y: 1004), (X: 16604; Y: 1003), (X: 16603; Y: 1003)
-  );
-
-  cPacificMajuro_121: array [0..3] of TTimeZonePoint = (
-    (X: 16902; Y: 1003), (X: 16901; Y: 1003), (X: 16901; Y: 1004), (X: 16902; Y: 1003)
-  );
-
-  cPacificMajuro_122: array [0..4] of TTimeZonePoint = (
-    (X: 16900; Y: 1005), (X: 16901; Y: 1005), (X: 16901; Y: 1004), (X: 16900; Y: 1004),
-    (X: 16900; Y: 1005)
-  );
-
-  cPacificMajuro_123: array [0..1] of TTimeZonePoint = (
-    (X: 16953; Y: 1008), (X: 16953; Y: 1008)
-  );
-
-  cPacificMajuro_124: array [0..8] of TTimeZonePoint = (
-    (X: 16601; Y: 1018), (X: 16601; Y: 1019), (X: 16602; Y: 1019), (X: 16602; Y: 1018),
-    (X: 16603; Y: 1018), (X: 16603; Y: 1017), (X: 16602; Y: 1017), (X: 16602; Y: 1018),
-    (X: 16601; Y: 1018)
-  );
-
-  cPacificMajuro_125: array [0..4] of TTimeZonePoint = (
-    (X: 16593; Y: 1019), (X: 16594; Y: 1019), (X: 16594; Y: 1018), (X: 16593; Y: 1018),
-    (X: 16593; Y: 1019)
-  );
-
-  cPacificMajuro_126: array [0..4] of TTimeZonePoint = (
-    (X: 16999; Y: 1022), (X: 16999; Y: 1021), (X: 16998; Y: 1021), (X: 16999; Y: 1021),
-    (X: 16999; Y: 1022)
-  );
-
-  cPacificMajuro_127: array [0..7] of TTimeZonePoint = (
-    (X: 17088; Y: 1030), (X: 17089; Y: 1030), (X: 17089; Y: 1029), (X: 17089; Y: 1028),
-    (X: 17088; Y: 1027), (X: 17088; Y: 1028), (X: 17088; Y: 1029), (X: 17088; Y: 1030)
-  );
-
-  cPacificMajuro_128: array [0..2] of TTimeZonePoint = (
-    (X: 16997; Y: 1031), (X: 16998; Y: 1031), (X: 16997; Y: 1031)
-  );
-
-  cPacificMajuro_129: array [0..1] of TTimeZonePoint = (
-    (X: 16998; Y: 1035), (X: 16998; Y: 1035)
-  );
-
-  cPacificMajuro_130: array [0..2] of TTimeZonePoint = (
-    (X: 16997; Y: 1042), (X: 16997; Y: 1041), (X: 16997; Y: 1042)
-  );
-
-  cPacificMajuro_131: array [0..4] of TTimeZonePoint = (
-    (X: 16996; Y: 1044), (X: 16996; Y: 1045), (X: 16996; Y: 1044), (X: 16997; Y: 1044),
-    (X: 16996; Y: 1044)
-  );
-
-  cPacificMajuro_132: array [0..1] of TTimeZonePoint = (
-    (X: 16996; Y: 1045), (X: 16996; Y: 1045)
-  );
-
-  cPacificMajuro_133: array [0..2] of TTimeZonePoint = (
-    (X: 16995; Y: 1046), (X: 16996; Y: 1046), (X: 16995; Y: 1046)
-  );
-
-  cPacificMajuro_134: array [0..3] of TTimeZonePoint = (
-    (X: 16648; Y: 1112), (X: 16649; Y: 1111), (X: 16648; Y: 1111), (X: 16648; Y: 1112)
-  );
-
-  cPacificMajuro_135: array [0..2] of TTimeZonePoint = (
-    (X: 16652; Y: 1112), (X: 16653; Y: 1111), (X: 16652; Y: 1112)
-  );
-
-  cPacificMajuro_136: array [0..2] of TTimeZonePoint = (
-    (X: 16634; Y: 1112), (X: 16635; Y: 1112), (X: 16634; Y: 1112)
-  );
-
-  cPacificMajuro_137: array [0..3] of TTimeZonePoint = (
-    (X: 16968; Y: 1114), (X: 16968; Y: 1113), (X: 16967; Y: 1114), (X: 16968; Y: 1114)
-  );
-
-  cPacificMajuro_138: array [0..1] of TTimeZonePoint = (
-    (X: 16636; Y: 1112), (X: 16636; Y: 1112)
-  );
-
-  cPacificMajuro_139: array [0..4] of TTimeZonePoint = (
-    (X: 16640; Y: 1111), (X: 16640; Y: 1112), (X: 16641; Y: 1112), (X: 16640; Y: 1112),
-    (X: 16640; Y: 1111)
-  );
-
-  cPacificMajuro_140: array [0..1] of TTimeZonePoint = (
-    (X: 16642; Y: 1112), (X: 16642; Y: 1112)
-  );
-
-  cPacificMajuro_141: array [0..1] of TTimeZonePoint = (
-    (X: 16629; Y: 1114), (X: 16629; Y: 1114)
-  );
-
-  cPacificMajuro_142: array [0..17] of TTimeZonePoint = (
-    (X: 16687; Y: 1115), (X: 16686; Y: 1115), (X: 16686; Y: 1114), (X: 16685; Y: 1114),
-    (X: 16684; Y: 1114), (X: 16684; Y: 1115), (X: 16685; Y: 1115), (X: 16686; Y: 1115),
-    (X: 16687; Y: 1115), (X: 16688; Y: 1115), (X: 16689; Y: 1115), (X: 16690; Y: 1116),
-    (X: 16690; Y: 1117), (X: 16690; Y: 1116), (X: 16690; Y: 1115), (X: 16689; Y: 1115),
-    (X: 16688; Y: 1115), (X: 16687; Y: 1115)
-  );
-
-  cPacificMajuro_143: array [0..2] of TTimeZonePoint = (
-    (X: 16629; Y: 1115), (X: 16629; Y: 1116), (X: 16629; Y: 1115)
-  );
-
-  cPacificMajuro_144: array [0..5] of TTimeZonePoint = (
-    (X: 16678; Y: 1117), (X: 16678; Y: 1116), (X: 16677; Y: 1116), (X: 16676; Y: 1116),
-    (X: 16677; Y: 1116), (X: 16678; Y: 1117)
-  );
-
-  cPacificMajuro_145: array [0..2] of TTimeZonePoint = (
-    (X: 16987; Y: 1029), (X: 16987; Y: 1028), (X: 16987; Y: 1029)
-  );
-
-  cPacificMajuro_146: array [0..4] of TTimeZonePoint = (
-    (X: 16668; Y: 1120), (X: 16668; Y: 1121), (X: 16669; Y: 1121), (X: 16669; Y: 1120),
-    (X: 16668; Y: 1120)
-  );
-
-  cPacificMajuro_147: array [0..4] of TTimeZonePoint = (
-    (X: 16977; Y: 1122), (X: 16978; Y: 1122), (X: 16978; Y: 1121), (X: 16977; Y: 1121),
-    (X: 16977; Y: 1122)
-  );
-
-  cPacificMajuro_148: array [0..6] of TTimeZonePoint = (
-    (X: 16987; Y: 1123), (X: 16986; Y: 1123), (X: 16985; Y: 1123), (X: 16986; Y: 1123),
-    (X: 16986; Y: 1124), (X: 16987; Y: 1124), (X: 16987; Y: 1123)
-  );
-
-  cPacificMajuro_149: array [0..4] of TTimeZonePoint = (
-    (X: 16747; Y: 1129), (X: 16747; Y: 1130), (X: 16748; Y: 1130), (X: 16748; Y: 1129),
-    (X: 16747; Y: 1129)
-  );
-
-  cPacificMajuro_150: array [0..11] of TTimeZonePoint = (
-    (X: 16235; Y: 1135), (X: 16235; Y: 1134), (X: 16234; Y: 1133), (X: 16233; Y: 1132),
-    (X: 16232; Y: 1132), (X: 16232; Y: 1133), (X: 16231; Y: 1133), (X: 16232; Y: 1134),
-    (X: 16233; Y: 1134), (X: 16234; Y: 1134), (X: 16234; Y: 1135), (X: 16235; Y: 1135)
-  );
-
-  cPacificMajuro_151: array [0..4] of TTimeZonePoint = (
-    (X: 16752; Y: 1137), (X: 16752; Y: 1138), (X: 16753; Y: 1138), (X: 16752; Y: 1138),
-    (X: 16752; Y: 1137)
-  );
-
-  cPacificMajuro_152: array [0..2] of TTimeZonePoint = (
-    (X: 16751; Y: 1139), (X: 16752; Y: 1139), (X: 16751; Y: 1139)
-  );
-
-  cPacificMajuro_153: array [0..5] of TTimeZonePoint = (
-    (X: 16237; Y: 1141), (X: 16238; Y: 1141), (X: 16237; Y: 1140), (X: 16237; Y: 1139),
-    (X: 16237; Y: 1140), (X: 16237; Y: 1141)
-  );
-
-  cPacificMajuro_154: array [0..4] of TTimeZonePoint = (
-    (X: 16239; Y: 1143), (X: 16239; Y: 1142), (X: 16238; Y: 1142), (X: 16238; Y: 1143),
-    (X: 16239; Y: 1143)
-  );
-
-  cPacificMajuro_155: array [0..2] of TTimeZonePoint = (
-    (X: 16706; Y: 1144), (X: 16706; Y: 1145), (X: 16706; Y: 1144)
-  );
-
-  cPacificMajuro_156: array [0..2] of TTimeZonePoint = (
-    (X: 16668; Y: 1146), (X: 16669; Y: 1146), (X: 16668; Y: 1146)
-  );
-
-  cPacificMajuro_157: array [0..4] of TTimeZonePoint = (
-    (X: 16535; Y: 1149), (X: 16535; Y: 1150), (X: 16534; Y: 1150), (X: 16535; Y: 1150),
-    (X: 16535; Y: 1149)
-  );
-
-  cPacificMajuro_158: array [0..2] of TTimeZonePoint = (
-    (X: 16537; Y: 1150), (X: 16538; Y: 1150), (X: 16537; Y: 1150)
-  );
-
-  cPacificMajuro_159: array [0..4] of TTimeZonePoint = (
-    (X: 16748; Y: 1140), (X: 16749; Y: 1140), (X: 16749; Y: 1141), (X: 16749; Y: 1140),
-    (X: 16748; Y: 1140)
-  );
-
-  cPacificMajuro_160: array [0..4] of TTimeZonePoint = (
-    (X: 16541; Y: 1151), (X: 16542; Y: 1151), (X: 16542; Y: 1152), (X: 16542; Y: 1151),
-    (X: 16541; Y: 1151)
-  );
-
-  cPacificMajuro_161: array [0..5] of TTimeZonePoint = (
-    (X: 16556; Y: 1151), (X: 16556; Y: 1152), (X: 16557; Y: 1153), (X: 16557; Y: 1152),
-    (X: 16556; Y: 1152), (X: 16556; Y: 1151)
-  );
-
-  cPacificMajuro_162: array [0..3] of TTimeZonePoint = (
-    (X: 16235; Y: 1155), (X: 16236; Y: 1155), (X: 16235; Y: 1154), (X: 16235; Y: 1155)
-  );
-
-  cPacificMajuro_163: array [0..1] of TTimeZonePoint = (
-    (X: 16233; Y: 1160), (X: 16233; Y: 1160)
-  );
-
-  cPacificMajuro_164: array [0..4] of TTimeZonePoint = (
-    (X: 16232; Y: 1162), (X: 16231; Y: 1162), (X: 16232; Y: 1162), (X: 16232; Y: 1163),
-    (X: 16232; Y: 1162)
-  );
-
-  cPacificMajuro_165: array [0..12] of TTimeZonePoint = (
-    (X: 16556; Y: 1163), (X: 16556; Y: 1162), (X: 16556; Y: 1161), (X: 16555; Y: 1161),
-    (X: 16555; Y: 1162), (X: 16555; Y: 1163), (X: 16554; Y: 1163), (X: 16554; Y: 1164),
-    (X: 16553; Y: 1164), (X: 16554; Y: 1164), (X: 16555; Y: 1164), (X: 16555; Y: 1163),
-    (X: 16556; Y: 1163)
-  );
-
-  cPacificMajuro_166: array [0..3] of TTimeZonePoint = (
-    (X: 16229; Y: 1163), (X: 16230; Y: 1163), (X: 16230; Y: 1162), (X: 16229; Y: 1163)
-  );
-
-  cPacificMajuro_167: array [0..2] of TTimeZonePoint = (
-    (X: 16214; Y: 1164), (X: 16215; Y: 1164), (X: 16214; Y: 1164)
-  );
-
-  cPacificMajuro_168: array [0..1] of TTimeZonePoint = (
-    (X: 16216; Y: 1165), (X: 16216; Y: 1165)
-  );
-
-  cPacificMajuro_169: array [0..5] of TTimeZonePoint = (
-    (X: 16224; Y: 1167), (X: 16225; Y: 1166), (X: 16224; Y: 1166), (X: 16223; Y: 1166),
-    (X: 16223; Y: 1167), (X: 16224; Y: 1167)
-  );
-
-  cPacificMajuro_170: array [0..1] of TTimeZonePoint = (
-    (X: 16220; Y: 1167), (X: 16220; Y: 1167)
-  );
-
-  cPacificMajuro_171: array [0..4] of TTimeZonePoint = (
-    (X: 16221; Y: 1167), (X: 16221; Y: 1168), (X: 16221; Y: 1167), (X: 16222; Y: 1167),
-    (X: 16221; Y: 1167)
-  );
-
-  cPacificMajuro_172: array [0..2] of TTimeZonePoint = (
-    (X: 16526; Y: 1169), (X: 16526; Y: 1170), (X: 16526; Y: 1169)
-  );
-
-  cPacificMajuro_173: array [0..3] of TTimeZonePoint = (
-    (X: 16529; Y: 1171), (X: 16530; Y: 1171), (X: 16529; Y: 1170), (X: 16529; Y: 1171)
-  );
-
-  cPacificMajuro_174: array [0..3] of TTimeZonePoint = (
-    (X: 17012; Y: 1219), (X: 17011; Y: 1219), (X: 17011; Y: 1220), (X: 17012; Y: 1219)
-  );
-
-  cPacificMajuro_175: array [0..4] of TTimeZonePoint = (
-    (X: 17014; Y: 1226), (X: 17015; Y: 1226), (X: 17014; Y: 1226), (X: 17014; Y: 1225),
-    (X: 17014; Y: 1226)
-  );
-
-  cPacificMajuro_176: array [0..2] of TTimeZonePoint = (
-    (X: 16895; Y: 1456), (X: 16894; Y: 1456), (X: 16895; Y: 1456)
-  );
-
-  cPacificMajuro_177: array [0..2] of TTimeZonePoint = (
-    (X: 16897; Y: 1458), (X: 16896; Y: 1457), (X: 16897; Y: 1458)
-  );
-
-  cPacificMajuro_178: array [0..4] of TTimeZonePoint = (
-    (X: 16897; Y: 1458), (X: 16898; Y: 1458), (X: 16898; Y: 1459), (X: 16898; Y: 1458),
-    (X: 16897; Y: 1458)
-  );
-
-  cPacificMajuro_179: array [0..10] of TTimeZonePoint = (
-    (X: 16902; Y: 1462), (X: 16902; Y: 1461), (X: 16901; Y: 1460), (X: 16900; Y: 1459),
-    (X: 16899; Y: 1459), (X: 16898; Y: 1459), (X: 16899; Y: 1459), (X: 16900; Y: 1460),
-    (X: 16901; Y: 1460), (X: 16901; Y: 1461), (X: 16902; Y: 1462)
-  );
-
-  cPacificMajuro_180: array [0..1] of TTimeZonePoint = (
-    (X: 16902; Y: 1463), (X: 16902; Y: 1463)
-  );
-
-  cPacificMajuro_181: array [0..6] of TTimeZonePoint = (
-    (X: 16902; Y: 1465), (X: 16901; Y: 1465), (X: 16902; Y: 1465), (X: 16902; Y: 1466),
-    (X: 16902; Y: 1465), (X: 16902; Y: 1464), (X: 16902; Y: 1465)
-  );
-
-  cPacificMajuroPolygon: array[0..181] of TTimeZonePolygon = (
-    (PointsCount: 24; FirstPoint: @cPacificMajuro_0[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_1[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_2[0]), 
-    (PointsCount: 7; FirstPoint: @cPacificMajuro_3[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_4[0]), 
-    (PointsCount: 6; FirstPoint: @cPacificMajuro_5[0]), 
-    (PointsCount: 21; FirstPoint: @cPacificMajuro_6[0]), 
-    (PointsCount: 7; FirstPoint: @cPacificMajuro_7[0]), 
-    (PointsCount: 6; FirstPoint: @cPacificMajuro_8[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_9[0]), 
-    (PointsCount: 37; FirstPoint: @cPacificMajuro_10[0]), 
-    (PointsCount: 7; FirstPoint: @cPacificMajuro_11[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_12[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_13[0]), 
-    (PointsCount: 9; FirstPoint: @cPacificMajuro_14[0]), 
-    (PointsCount: 10; FirstPoint: @cPacificMajuro_15[0]), 
-    (PointsCount: 32; FirstPoint: @cPacificMajuro_16[0]), 
-    (PointsCount: 6; FirstPoint: @cPacificMajuro_17[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_18[0]), 
-    (PointsCount: 8; FirstPoint: @cPacificMajuro_19[0]), 
-    (PointsCount: 20; FirstPoint: @cPacificMajuro_20[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_21[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_22[0]), 
-    (PointsCount: 9; FirstPoint: @cPacificMajuro_23[0]), 
-    (PointsCount: 7; FirstPoint: @cPacificMajuro_24[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_25[0]), 
-    (PointsCount: 11; FirstPoint: @cPacificMajuro_26[0]), 
-    (PointsCount: 21; FirstPoint: @cPacificMajuro_27[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_28[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_29[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_30[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_31[0]), 
-    (PointsCount: 44; FirstPoint: @cPacificMajuro_32[0]), 
-    (PointsCount: 18; FirstPoint: @cPacificMajuro_33[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_34[0]), 
-    (PointsCount: 7; FirstPoint: @cPacificMajuro_35[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_36[0]), 
-    (PointsCount: 11; FirstPoint: @cPacificMajuro_37[0]), 
-    (PointsCount: 14; FirstPoint: @cPacificMajuro_38[0]), 
-    (PointsCount: 13; FirstPoint: @cPacificMajuro_39[0]), 
-    (PointsCount: 23; FirstPoint: @cPacificMajuro_40[0]), 
-    (PointsCount: 8; FirstPoint: @cPacificMajuro_41[0]), 
-    (PointsCount: 27; FirstPoint: @cPacificMajuro_42[0]), 
-    (PointsCount: 33; FirstPoint: @cPacificMajuro_43[0]), 
-    (PointsCount: 7; FirstPoint: @cPacificMajuro_44[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_45[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_46[0]), 
-    (PointsCount: 7; FirstPoint: @cPacificMajuro_47[0]), 
-    (PointsCount: 8; FirstPoint: @cPacificMajuro_48[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_49[0]), 
-    (PointsCount: 8; FirstPoint: @cPacificMajuro_50[0]), 
-    (PointsCount: 19; FirstPoint: @cPacificMajuro_51[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_52[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_53[0]), 
-    (PointsCount: 17; FirstPoint: @cPacificMajuro_54[0]), 
-    (PointsCount: 12; FirstPoint: @cPacificMajuro_55[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_56[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_57[0]), 
-    (PointsCount: 6; FirstPoint: @cPacificMajuro_58[0]), 
-    (PointsCount: 7; FirstPoint: @cPacificMajuro_59[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_60[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_61[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_62[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_63[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_64[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_65[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_66[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_67[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_68[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_69[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_70[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_71[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_72[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_73[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_74[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_75[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_76[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_77[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_78[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_79[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_80[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_81[0]), 
-    (PointsCount: 8; FirstPoint: @cPacificMajuro_82[0]), 
-    (PointsCount: 7; FirstPoint: @cPacificMajuro_83[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_84[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_85[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_86[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_87[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_88[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_89[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_90[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_91[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_92[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_93[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_94[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_95[0]), 
-    (PointsCount: 8; FirstPoint: @cPacificMajuro_96[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_97[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_98[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_99[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_100[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_101[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_102[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_103[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_104[0]), 
-    (PointsCount: 10; FirstPoint: @cPacificMajuro_105[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_106[0]), 
-    (PointsCount: 8; FirstPoint: @cPacificMajuro_107[0]), 
-    (PointsCount: 7; FirstPoint: @cPacificMajuro_108[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_109[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_110[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_111[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_112[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_113[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_114[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_115[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_116[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_117[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_118[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_119[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_120[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_121[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_122[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_123[0]), 
-    (PointsCount: 9; FirstPoint: @cPacificMajuro_124[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_125[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_126[0]), 
-    (PointsCount: 8; FirstPoint: @cPacificMajuro_127[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_128[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_129[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_130[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_131[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_132[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_133[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_134[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_135[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_136[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_137[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_138[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_139[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_140[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_141[0]), 
-    (PointsCount: 18; FirstPoint: @cPacificMajuro_142[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_143[0]), 
-    (PointsCount: 6; FirstPoint: @cPacificMajuro_144[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_145[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_146[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_147[0]), 
-    (PointsCount: 7; FirstPoint: @cPacificMajuro_148[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_149[0]), 
-    (PointsCount: 12; FirstPoint: @cPacificMajuro_150[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_151[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_152[0]), 
-    (PointsCount: 6; FirstPoint: @cPacificMajuro_153[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_154[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_155[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_156[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_157[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_158[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_159[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_160[0]), 
-    (PointsCount: 6; FirstPoint: @cPacificMajuro_161[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_162[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_163[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_164[0]), 
-    (PointsCount: 13; FirstPoint: @cPacificMajuro_165[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_166[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_167[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_168[0]), 
-    (PointsCount: 6; FirstPoint: @cPacificMajuro_169[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_170[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_171[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_172[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_173[0]), 
-    (PointsCount: 4; FirstPoint: @cPacificMajuro_174[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_175[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_176[0]), 
-    (PointsCount: 3; FirstPoint: @cPacificMajuro_177[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMajuro_178[0]), 
-    (PointsCount: 11; FirstPoint: @cPacificMajuro_179[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMajuro_180[0]), 
-    (PointsCount: 7; FirstPoint: @cPacificMajuro_181[0])
+  cPacificMajuro_0: array [0..17] of TTimeZonePoint = (
+    (X: 16730; Y: 812), (X: 16723; Y: 818), (X: 16718; Y: 824), (X: 16717; Y: 832),
+    (X: 16718; Y: 840), (X: 16724; Y: 847), (X: 16730; Y: 850), (X: 16736; Y: 852),
+    (X: 16746; Y: 850), (X: 16752; Y: 847), (X: 16756; Y: 841), (X: 16758; Y: 835),
+    (X: 16758; Y: 827), (X: 16755; Y: 818), (X: 16749; Y: 814), (X: 16745; Y: 811),
+    (X: 16739; Y: 811), (X: 16730; Y: 812)
+  );
+
+  cPacificMajuro_1: array [0..306] of TTimeZonePoint = (
+    (X: 17008; Y: 881), (X: 17007; Y: 881), (X: 17005; Y: 881), (X: 17004; Y: 881),
+    (X: 17003; Y: 881), (X: 17002; Y: 882), (X: 17001; Y: 882), (X: 17000; Y: 882),
+    (X: 16999; Y: 882), (X: 16998; Y: 882), (X: 16998; Y: 883), (X: 16997; Y: 883),
+    (X: 16996; Y: 883), (X: 16996; Y: 884), (X: 16995; Y: 884), (X: 16994; Y: 885),
+    (X: 16993; Y: 885), (X: 16992; Y: 886), (X: 16991; Y: 886), (X: 16991; Y: 887),
+    (X: 16990; Y: 887), (X: 16990; Y: 888), (X: 16989; Y: 888), (X: 16989; Y: 889),
+    (X: 16988; Y: 889), (X: 16988; Y: 890), (X: 16987; Y: 890), (X: 16987; Y: 891),
+    (X: 16986; Y: 892), (X: 16986; Y: 893), (X: 16985; Y: 894), (X: 16985; Y: 895),
+    (X: 16985; Y: 896), (X: 16984; Y: 896), (X: 16984; Y: 897), (X: 16984; Y: 898),
+    (X: 16984; Y: 899), (X: 16983; Y: 899), (X: 16982; Y: 900), (X: 16981; Y: 901),
+    (X: 16980; Y: 902), (X: 16979; Y: 902), (X: 16979; Y: 903), (X: 16978; Y: 903),
+    (X: 16977; Y: 903), (X: 16977; Y: 904), (X: 16976; Y: 904), (X: 16976; Y: 905),
+    (X: 16975; Y: 905), (X: 16975; Y: 906), (X: 16974; Y: 906), (X: 16974; Y: 907),
+    (X: 16974; Y: 908), (X: 16973; Y: 908), (X: 16973; Y: 909), (X: 16972; Y: 910),
+    (X: 16972; Y: 911), (X: 16971; Y: 912), (X: 16971; Y: 913), (X: 16971; Y: 914),
+    (X: 16971; Y: 915), (X: 16970; Y: 915), (X: 16970; Y: 916), (X: 16970; Y: 917),
+    (X: 16970; Y: 918), (X: 16970; Y: 919), (X: 16970; Y: 920), (X: 16970; Y: 921),
+    (X: 16970; Y: 922), (X: 16970; Y: 923), (X: 16971; Y: 923), (X: 16971; Y: 924),
+    (X: 16971; Y: 925), (X: 16971; Y: 926), (X: 16972; Y: 927), (X: 16972; Y: 928),
+    (X: 16972; Y: 929), (X: 16972; Y: 930), (X: 16971; Y: 930), (X: 16971; Y: 931),
+    (X: 16971; Y: 932), (X: 16971; Y: 933), (X: 16971; Y: 934), (X: 16971; Y: 935),
+    (X: 16971; Y: 936), (X: 16971; Y: 937), (X: 16970; Y: 937), (X: 16969; Y: 938),
+    (X: 16968; Y: 938), (X: 16968; Y: 939), (X: 16967; Y: 939), (X: 16967; Y: 940),
+    (X: 16966; Y: 941), (X: 16966; Y: 942), (X: 16965; Y: 942), (X: 16965; Y: 943),
+    (X: 16965; Y: 944), (X: 16964; Y: 944), (X: 16964; Y: 945), (X: 16963; Y: 946),
+    (X: 16963; Y: 947), (X: 16963; Y: 948), (X: 16963; Y: 949), (X: 16963; Y: 950),
+    (X: 16962; Y: 951), (X: 16962; Y: 952), (X: 16962; Y: 953), (X: 16962; Y: 954),
+    (X: 16962; Y: 955), (X: 16963; Y: 956), (X: 16963; Y: 957), (X: 16963; Y: 958),
+    (X: 16963; Y: 959), (X: 16964; Y: 960), (X: 16964; Y: 961), (X: 16964; Y: 962),
+    (X: 16965; Y: 962), (X: 16965; Y: 963), (X: 16965; Y: 964), (X: 16966; Y: 964),
+    (X: 16966; Y: 965), (X: 16967; Y: 965), (X: 16967; Y: 966), (X: 16968; Y: 966),
+    (X: 16968; Y: 967), (X: 16969; Y: 967), (X: 16969; Y: 968), (X: 16970; Y: 968),
+    (X: 16970; Y: 969), (X: 16971; Y: 969), (X: 16972; Y: 970), (X: 16973; Y: 970),
+    (X: 16973; Y: 971), (X: 16974; Y: 971), (X: 16975; Y: 971), (X: 16976; Y: 972),
+    (X: 16977; Y: 972), (X: 16978; Y: 972), (X: 16979; Y: 973), (X: 16980; Y: 973),
+    (X: 16981; Y: 973), (X: 16982; Y: 973), (X: 16984; Y: 973), (X: 16986; Y: 973),
+    (X: 16987; Y: 973), (X: 16988; Y: 973), (X: 16990; Y: 973), (X: 16991; Y: 973),
+    (X: 16992; Y: 972), (X: 16993; Y: 972), (X: 16995; Y: 972), (X: 16997; Y: 972),
+    (X: 16998; Y: 972), (X: 16999; Y: 972), (X: 17001; Y: 972), (X: 17004; Y: 972),
+    (X: 17004; Y: 973), (X: 17005; Y: 973), (X: 17006; Y: 973), (X: 17006; Y: 974),
+    (X: 17007; Y: 974), (X: 17008; Y: 974), (X: 17009; Y: 975), (X: 17010; Y: 975),
+    (X: 17011; Y: 975), (X: 17012; Y: 975), (X: 17013; Y: 975), (X: 17014; Y: 976),
+    (X: 17015; Y: 976), (X: 17017; Y: 975), (X: 17018; Y: 975), (X: 17019; Y: 975),
+    (X: 17020; Y: 975), (X: 17021; Y: 975), (X: 17022; Y: 974), (X: 17023; Y: 974),
+    (X: 17024; Y: 974), (X: 17024; Y: 973), (X: 17025; Y: 973), (X: 17026; Y: 973),
+    (X: 17026; Y: 972), (X: 17027; Y: 972), (X: 17027; Y: 971), (X: 17028; Y: 971),
+    (X: 17029; Y: 971), (X: 17029; Y: 970), (X: 17030; Y: 969), (X: 17031; Y: 969),
+    (X: 17031; Y: 968), (X: 17032; Y: 968), (X: 17032; Y: 967), (X: 17033; Y: 966),
+    (X: 17034; Y: 966), (X: 17034; Y: 965), (X: 17035; Y: 964), (X: 17036; Y: 963),
+    (X: 17037; Y: 962), (X: 17038; Y: 961), (X: 17039; Y: 960), (X: 17040; Y: 959),
+    (X: 17040; Y: 958), (X: 17041; Y: 958), (X: 17041; Y: 957), (X: 17042; Y: 957),
+    (X: 17042; Y: 956), (X: 17043; Y: 955), (X: 17043; Y: 954), (X: 17043; Y: 953),
+    (X: 17044; Y: 953), (X: 17044; Y: 952), (X: 17044; Y: 951), (X: 17044; Y: 950),
+    (X: 17044; Y: 949), (X: 17045; Y: 948), (X: 17045; Y: 947), (X: 17045; Y: 946),
+    (X: 17045; Y: 945), (X: 17045; Y: 944), (X: 17045; Y: 943), (X: 17044; Y: 943),
+    (X: 17044; Y: 942), (X: 17044; Y: 941), (X: 17044; Y: 940), (X: 17044; Y: 939),
+    (X: 17043; Y: 938), (X: 17043; Y: 937), (X: 17042; Y: 936), (X: 17042; Y: 935),
+    (X: 17042; Y: 934), (X: 17041; Y: 933), (X: 17041; Y: 932), (X: 17040; Y: 931),
+    (X: 17040; Y: 930), (X: 17039; Y: 929), (X: 17039; Y: 928), (X: 17038; Y: 928),
+    (X: 17038; Y: 927), (X: 17037; Y: 927), (X: 17037; Y: 926), (X: 17036; Y: 926),
+    (X: 17036; Y: 925), (X: 17035; Y: 924), (X: 17034; Y: 923), (X: 17033; Y: 923),
+    (X: 17033; Y: 922), (X: 17032; Y: 922), (X: 17031; Y: 922), (X: 17031; Y: 921),
+    (X: 17030; Y: 921), (X: 17030; Y: 920), (X: 17029; Y: 920), (X: 17028; Y: 920),
+    (X: 17028; Y: 919), (X: 17028; Y: 918), (X: 17029; Y: 917), (X: 17029; Y: 916),
+    (X: 17030; Y: 915), (X: 17030; Y: 914), (X: 17030; Y: 913), (X: 17030; Y: 912),
+    (X: 17030; Y: 911), (X: 17031; Y: 910), (X: 17031; Y: 909), (X: 17031; Y: 908),
+    (X: 17031; Y: 907), (X: 17031; Y: 906), (X: 17031; Y: 905), (X: 17031; Y: 904),
+    (X: 17031; Y: 903), (X: 17030; Y: 903), (X: 17030; Y: 902), (X: 17030; Y: 901),
+    (X: 17030; Y: 900), (X: 17030; Y: 899), (X: 17029; Y: 898), (X: 17029; Y: 897),
+    (X: 17029; Y: 896), (X: 17028; Y: 896), (X: 17028; Y: 895), (X: 17028; Y: 894),
+    (X: 17027; Y: 894), (X: 17027; Y: 893), (X: 17026; Y: 892), (X: 17026; Y: 891),
+    (X: 17025; Y: 891), (X: 17024; Y: 890), (X: 17024; Y: 889), (X: 17023; Y: 888),
+    (X: 17023; Y: 887), (X: 17022; Y: 887), (X: 17021; Y: 886), (X: 17020; Y: 885),
+    (X: 17019; Y: 885), (X: 17019; Y: 884), (X: 17018; Y: 884), (X: 17017; Y: 884),
+    (X: 17017; Y: 883), (X: 17016; Y: 883), (X: 17015; Y: 883), (X: 17015; Y: 882),
+    (X: 17014; Y: 882), (X: 17013; Y: 882), (X: 17012; Y: 882), (X: 17012; Y: 881),
+    (X: 17011; Y: 881), (X: 17010; Y: 881), (X: 17008; Y: 881)
+  );
+
+  cPacificMajuro_2: array [0..184] of TTimeZonePoint = (
+    (X: 16099; Y: 957), (X: 16098; Y: 957), (X: 16096; Y: 957), (X: 16094; Y: 957),
+    (X: 16093; Y: 957), (X: 16092; Y: 957), (X: 16091; Y: 958), (X: 16090; Y: 958),
+    (X: 16089; Y: 958), (X: 16088; Y: 958), (X: 16088; Y: 959), (X: 16087; Y: 959),
+    (X: 16086; Y: 959), (X: 16085; Y: 960), (X: 16084; Y: 960), (X: 16084; Y: 961),
+    (X: 16083; Y: 961), (X: 16082; Y: 961), (X: 16082; Y: 962), (X: 16081; Y: 962),
+    (X: 16081; Y: 963), (X: 16080; Y: 963), (X: 16079; Y: 963), (X: 16078; Y: 964),
+    (X: 16077; Y: 964), (X: 16076; Y: 964), (X: 16076; Y: 965), (X: 16075; Y: 965),
+    (X: 16074; Y: 965), (X: 16073; Y: 965), (X: 16072; Y: 966), (X: 16071; Y: 966),
+    (X: 16070; Y: 967), (X: 16069; Y: 967), (X: 16069; Y: 968), (X: 16068; Y: 968),
+    (X: 16067; Y: 969), (X: 16066; Y: 969), (X: 16066; Y: 970), (X: 16065; Y: 970),
+    (X: 16065; Y: 971), (X: 16064; Y: 971), (X: 16064; Y: 972), (X: 16063; Y: 972),
+    (X: 16063; Y: 973), (X: 16063; Y: 974), (X: 16062; Y: 974), (X: 16062; Y: 975),
+    (X: 16061; Y: 976), (X: 16061; Y: 977), (X: 16061; Y: 978), (X: 16060; Y: 979),
+    (X: 16060; Y: 980), (X: 16060; Y: 981), (X: 16060; Y: 982), (X: 16060; Y: 983),
+    (X: 16060; Y: 984), (X: 16059; Y: 984), (X: 16059; Y: 985), (X: 16060; Y: 985),
+    (X: 16060; Y: 986), (X: 16060; Y: 987), (X: 16060; Y: 988), (X: 16060; Y: 989),
+    (X: 16060; Y: 990), (X: 16061; Y: 991), (X: 16061; Y: 992), (X: 16061; Y: 993),
+    (X: 16062; Y: 994), (X: 16062; Y: 995), (X: 16063; Y: 995), (X: 16063; Y: 996),
+    (X: 16064; Y: 997), (X: 16065; Y: 998), (X: 16065; Y: 999), (X: 16066; Y: 999),
+    (X: 16066; Y: 1000), (X: 16067; Y: 1000), (X: 16068; Y: 1001), (X: 16069; Y: 1001),
+    (X: 16069; Y: 1002), (X: 16070; Y: 1002), (X: 16071; Y: 1002), (X: 16071; Y: 1003),
+    (X: 16072; Y: 1003), (X: 16073; Y: 1003), (X: 16073; Y: 1004), (X: 16074; Y: 1004),
+    (X: 16075; Y: 1005), (X: 16076; Y: 1005), (X: 16077; Y: 1006), (X: 16078; Y: 1006),
+    (X: 16079; Y: 1006), (X: 16080; Y: 1006), (X: 16081; Y: 1007), (X: 16082; Y: 1007),
+    (X: 16084; Y: 1007), (X: 16086; Y: 1007), (X: 16087; Y: 1007), (X: 16087; Y: 1006),
+    (X: 16088; Y: 1006), (X: 16089; Y: 1006), (X: 16090; Y: 1006), (X: 16091; Y: 1006),
+    (X: 16091; Y: 1005), (X: 16092; Y: 1005), (X: 16093; Y: 1005), (X: 16094; Y: 1005),
+    (X: 16095; Y: 1004), (X: 16096; Y: 1004), (X: 16097; Y: 1004), (X: 16098; Y: 1004),
+    (X: 16098; Y: 1003), (X: 16099; Y: 1003), (X: 16100; Y: 1003), (X: 16101; Y: 1002),
+    (X: 16102; Y: 1002), (X: 16103; Y: 1001), (X: 16104; Y: 1000), (X: 16105; Y: 999),
+    (X: 16106; Y: 999), (X: 16106; Y: 998), (X: 16107; Y: 998), (X: 16108; Y: 997),
+    (X: 16109; Y: 997), (X: 16109; Y: 996), (X: 16110; Y: 996), (X: 16110; Y: 995),
+    (X: 16111; Y: 995), (X: 16112; Y: 994), (X: 16113; Y: 993), (X: 16114; Y: 992),
+    (X: 16114; Y: 991), (X: 16115; Y: 991), (X: 16115; Y: 990), (X: 16116; Y: 990),
+    (X: 16116; Y: 989), (X: 16117; Y: 988), (X: 16117; Y: 987), (X: 16118; Y: 986),
+    (X: 16118; Y: 985), (X: 16118; Y: 984), (X: 16119; Y: 983), (X: 16119; Y: 982),
+    (X: 16119; Y: 981), (X: 16119; Y: 980), (X: 16119; Y: 979), (X: 16119; Y: 978),
+    (X: 16119; Y: 977), (X: 16119; Y: 976), (X: 16119; Y: 975), (X: 16119; Y: 974),
+    (X: 16119; Y: 973), (X: 16119; Y: 972), (X: 16118; Y: 971), (X: 16118; Y: 970),
+    (X: 16118; Y: 969), (X: 16117; Y: 969), (X: 16117; Y: 968), (X: 16117; Y: 967),
+    (X: 16116; Y: 967), (X: 16116; Y: 966), (X: 16115; Y: 965), (X: 16115; Y: 964),
+    (X: 16114; Y: 964), (X: 16114; Y: 963), (X: 16113; Y: 963), (X: 16113; Y: 962),
+    (X: 16112; Y: 962), (X: 16112; Y: 961), (X: 16111; Y: 961), (X: 16111; Y: 960),
+    (X: 16110; Y: 960), (X: 16109; Y: 960), (X: 16109; Y: 959), (X: 16108; Y: 959),
+    (X: 16107; Y: 958), (X: 16106; Y: 958), (X: 16105; Y: 958), (X: 16105; Y: 957),
+    (X: 16104; Y: 957), (X: 16103; Y: 957), (X: 16102; Y: 957), (X: 16101; Y: 957),
+    (X: 16099; Y: 957)
+  );
+
+  cPacificMajuro_3: array [0..487] of TTimeZonePoint = (
+    (X: 16973; Y: 1012), (X: 16973; Y: 1011), (X: 16973; Y: 1010), (X: 16973; Y: 1009),
+    (X: 16973; Y: 1008), (X: 16973; Y: 1007), (X: 16973; Y: 1006), (X: 16973; Y: 1005),
+    (X: 16973; Y: 1004), (X: 16973; Y: 1003), (X: 16972; Y: 1003), (X: 16972; Y: 1002),
+    (X: 16972; Y: 1001), (X: 16971; Y: 1000), (X: 16971; Y: 999), (X: 16971; Y: 998),
+    (X: 16970; Y: 998), (X: 16970; Y: 997), (X: 16969; Y: 996), (X: 16969; Y: 995),
+    (X: 16968; Y: 995), (X: 16968; Y: 994), (X: 16967; Y: 994), (X: 16967; Y: 993),
+    (X: 16966; Y: 993), (X: 16966; Y: 992), (X: 16965; Y: 992), (X: 16965; Y: 991),
+    (X: 16964; Y: 991), (X: 16963; Y: 991), (X: 16963; Y: 990), (X: 16962; Y: 990),
+    (X: 16961; Y: 990), (X: 16961; Y: 989), (X: 16960; Y: 989), (X: 16959; Y: 989),
+    (X: 16958; Y: 988), (X: 16957; Y: 988), (X: 16956; Y: 988), (X: 16955; Y: 988),
+    (X: 16953; Y: 988), (X: 16951; Y: 988), (X: 16951; Y: 987), (X: 16952; Y: 987),
+    (X: 16952; Y: 986), (X: 16952; Y: 985), (X: 16952; Y: 984), (X: 16952; Y: 983),
+    (X: 16952; Y: 982), (X: 16952; Y: 981), (X: 16952; Y: 980), (X: 16952; Y: 979),
+    (X: 16951; Y: 978), (X: 16951; Y: 977), (X: 16951; Y: 976), (X: 16951; Y: 975),
+    (X: 16950; Y: 975), (X: 16950; Y: 974), (X: 16950; Y: 973), (X: 16949; Y: 973),
+    (X: 16949; Y: 972), (X: 16949; Y: 971), (X: 16948; Y: 971), (X: 16948; Y: 970),
+    (X: 16947; Y: 970), (X: 16947; Y: 969), (X: 16946; Y: 969), (X: 16946; Y: 968),
+    (X: 16945; Y: 968), (X: 16945; Y: 967), (X: 16944; Y: 967), (X: 16944; Y: 966),
+    (X: 16943; Y: 966), (X: 16942; Y: 965), (X: 16941; Y: 965), (X: 16940; Y: 964),
+    (X: 16939; Y: 964), (X: 16938; Y: 963), (X: 16937; Y: 963), (X: 16936; Y: 963),
+    (X: 16935; Y: 963), (X: 16935; Y: 962), (X: 16934; Y: 962), (X: 16933; Y: 962),
+    (X: 16932; Y: 962), (X: 16930; Y: 962), (X: 16929; Y: 962), (X: 16927; Y: 962),
+    (X: 16926; Y: 962), (X: 16925; Y: 962), (X: 16924; Y: 962), (X: 16924; Y: 961),
+    (X: 16923; Y: 961), (X: 16922; Y: 961), (X: 16921; Y: 961), (X: 16920; Y: 961),
+    (X: 16920; Y: 960), (X: 16919; Y: 960), (X: 16915; Y: 960), (X: 16913; Y: 960),
+    (X: 16912; Y: 960), (X: 16911; Y: 960), (X: 16910; Y: 961), (X: 16909; Y: 961),
+    (X: 16908; Y: 961), (X: 16907; Y: 961), (X: 16906; Y: 962), (X: 16905; Y: 962),
+    (X: 16904; Y: 962), (X: 16903; Y: 963), (X: 16902; Y: 963), (X: 16901; Y: 964),
+    (X: 16900; Y: 964), (X: 16900; Y: 965), (X: 16899; Y: 965), (X: 16899; Y: 966),
+    (X: 16898; Y: 966), (X: 16897; Y: 966), (X: 16897; Y: 967), (X: 16896; Y: 968),
+    (X: 16895; Y: 968), (X: 16895; Y: 969), (X: 16894; Y: 969), (X: 16894; Y: 970),
+    (X: 16893; Y: 970), (X: 16893; Y: 971), (X: 16893; Y: 972), (X: 16892; Y: 972),
+    (X: 16892; Y: 973), (X: 16891; Y: 973), (X: 16891; Y: 974), (X: 16890; Y: 974),
+    (X: 16889; Y: 975), (X: 16888; Y: 976), (X: 16887; Y: 976), (X: 16887; Y: 977),
+    (X: 16886; Y: 977), (X: 16886; Y: 978), (X: 16885; Y: 978), (X: 16885; Y: 979),
+    (X: 16884; Y: 979), (X: 16884; Y: 980), (X: 16883; Y: 981), (X: 16883; Y: 982),
+    (X: 16883; Y: 983), (X: 16882; Y: 983), (X: 16882; Y: 984), (X: 16882; Y: 985),
+    (X: 16881; Y: 986), (X: 16881; Y: 987), (X: 16881; Y: 988), (X: 16881; Y: 989),
+    (X: 16881; Y: 990), (X: 16881; Y: 991), (X: 16881; Y: 992), (X: 16881; Y: 993),
+    (X: 16881; Y: 994), (X: 16881; Y: 995), (X: 16881; Y: 996), (X: 16880; Y: 997),
+    (X: 16880; Y: 998), (X: 16880; Y: 999), (X: 16879; Y: 999), (X: 16879; Y: 1000),
+    (X: 16879; Y: 1001), (X: 16879; Y: 1002), (X: 16879; Y: 1003), (X: 16879; Y: 1004),
+    (X: 16879; Y: 1005), (X: 16879; Y: 1006), (X: 16879; Y: 1007), (X: 16879; Y: 1008),
+    (X: 16879; Y: 1009), (X: 16879; Y: 1010), (X: 16879; Y: 1011), (X: 16880; Y: 1011),
+    (X: 16880; Y: 1012), (X: 16880; Y: 1013), (X: 16881; Y: 1014), (X: 16881; Y: 1015),
+    (X: 16882; Y: 1016), (X: 16882; Y: 1017), (X: 16883; Y: 1017), (X: 16883; Y: 1018),
+    (X: 16884; Y: 1018), (X: 16884; Y: 1019), (X: 16885; Y: 1019), (X: 16885; Y: 1020),
+    (X: 16886; Y: 1020), (X: 16886; Y: 1021), (X: 16887; Y: 1021), (X: 16888; Y: 1022),
+    (X: 16889; Y: 1022), (X: 16889; Y: 1023), (X: 16890; Y: 1023), (X: 16891; Y: 1023),
+    (X: 16891; Y: 1024), (X: 16892; Y: 1024), (X: 16893; Y: 1024), (X: 16894; Y: 1024),
+    (X: 16894; Y: 1025), (X: 16895; Y: 1025), (X: 16896; Y: 1025), (X: 16897; Y: 1025),
+    (X: 16899; Y: 1025), (X: 16901; Y: 1025), (X: 16902; Y: 1025), (X: 16903; Y: 1025),
+    (X: 16904; Y: 1025), (X: 16904; Y: 1024), (X: 16905; Y: 1024), (X: 16906; Y: 1024),
+    (X: 16907; Y: 1024), (X: 16907; Y: 1023), (X: 16908; Y: 1023), (X: 16909; Y: 1023),
+    (X: 16910; Y: 1023), (X: 16911; Y: 1023), (X: 16911; Y: 1022), (X: 16912; Y: 1022),
+    (X: 16913; Y: 1022), (X: 16914; Y: 1022), (X: 16915; Y: 1022), (X: 16916; Y: 1021),
+    (X: 16917; Y: 1021), (X: 16918; Y: 1020), (X: 16919; Y: 1020), (X: 16920; Y: 1020),
+    (X: 16920; Y: 1019), (X: 16921; Y: 1019), (X: 16922; Y: 1018), (X: 16923; Y: 1017),
+    (X: 16924; Y: 1016), (X: 16925; Y: 1015), (X: 16926; Y: 1014), (X: 16926; Y: 1013),
+    (X: 16927; Y: 1013), (X: 16927; Y: 1012), (X: 16928; Y: 1012), (X: 16928; Y: 1011),
+    (X: 16929; Y: 1011), (X: 16930; Y: 1011), (X: 16930; Y: 1010), (X: 16931; Y: 1010),
+    (X: 16932; Y: 1010), (X: 16932; Y: 1011), (X: 16932; Y: 1012), (X: 16932; Y: 1013),
+    (X: 16933; Y: 1013), (X: 16933; Y: 1014), (X: 16933; Y: 1015), (X: 16933; Y: 1016),
+    (X: 16934; Y: 1016), (X: 16934; Y: 1017), (X: 16934; Y: 1018), (X: 16935; Y: 1018),
+    (X: 16935; Y: 1019), (X: 16936; Y: 1020), (X: 16936; Y: 1021), (X: 16937; Y: 1021),
+    (X: 16937; Y: 1022), (X: 16938; Y: 1022), (X: 16938; Y: 1023), (X: 16939; Y: 1023),
+    (X: 16939; Y: 1024), (X: 16940; Y: 1024), (X: 16941; Y: 1025), (X: 16942; Y: 1025),
+    (X: 16942; Y: 1026), (X: 16943; Y: 1026), (X: 16944; Y: 1026), (X: 16944; Y: 1027),
+    (X: 16945; Y: 1027), (X: 16946; Y: 1027), (X: 16947; Y: 1027), (X: 16947; Y: 1028),
+    (X: 16948; Y: 1028), (X: 16949; Y: 1028), (X: 16950; Y: 1028), (X: 16952; Y: 1028),
+    (X: 16953; Y: 1028), (X: 16955; Y: 1028), (X: 16956; Y: 1028), (X: 16957; Y: 1028),
+    (X: 16958; Y: 1028), (X: 16958; Y: 1027), (X: 16959; Y: 1027), (X: 16960; Y: 1027),
+    (X: 16961; Y: 1027), (X: 16961; Y: 1026), (X: 16962; Y: 1026), (X: 16963; Y: 1026),
+    (X: 16963; Y: 1025), (X: 16964; Y: 1025), (X: 16964; Y: 1024), (X: 16965; Y: 1024),
+    (X: 16966; Y: 1024), (X: 16966; Y: 1023), (X: 16967; Y: 1023), (X: 16966; Y: 1023),
+    (X: 16966; Y: 1024), (X: 16966; Y: 1025), (X: 16966; Y: 1026), (X: 16966; Y: 1027),
+    (X: 16966; Y: 1028), (X: 16966; Y: 1029), (X: 16966; Y: 1030), (X: 16966; Y: 1031),
+    (X: 16966; Y: 1032), (X: 16966; Y: 1033), (X: 16966; Y: 1034), (X: 16966; Y: 1035),
+    (X: 16967; Y: 1036), (X: 16967; Y: 1037), (X: 16967; Y: 1038), (X: 16968; Y: 1038),
+    (X: 16968; Y: 1039), (X: 16968; Y: 1040), (X: 16969; Y: 1040), (X: 16969; Y: 1041),
+    (X: 16970; Y: 1041), (X: 16970; Y: 1042), (X: 16971; Y: 1042), (X: 16971; Y: 1043),
+    (X: 16972; Y: 1044), (X: 16973; Y: 1044), (X: 16973; Y: 1045), (X: 16974; Y: 1045),
+    (X: 16974; Y: 1046), (X: 16974; Y: 1047), (X: 16974; Y: 1048), (X: 16974; Y: 1049),
+    (X: 16974; Y: 1050), (X: 16974; Y: 1051), (X: 16975; Y: 1052), (X: 16975; Y: 1053),
+    (X: 16975; Y: 1054), (X: 16976; Y: 1055), (X: 16976; Y: 1056), (X: 16977; Y: 1057),
+    (X: 16977; Y: 1058), (X: 16978; Y: 1058), (X: 16978; Y: 1059), (X: 16979; Y: 1060),
+    (X: 16980; Y: 1061), (X: 16981; Y: 1062), (X: 16982; Y: 1062), (X: 16982; Y: 1063),
+    (X: 16983; Y: 1063), (X: 16983; Y: 1064), (X: 16984; Y: 1064), (X: 16985; Y: 1064),
+    (X: 16985; Y: 1065), (X: 16986; Y: 1065), (X: 16987; Y: 1066), (X: 16988; Y: 1066),
+    (X: 16989; Y: 1066), (X: 16990; Y: 1066), (X: 16990; Y: 1067), (X: 16991; Y: 1067),
+    (X: 16992; Y: 1067), (X: 16994; Y: 1067), (X: 16995; Y: 1067), (X: 16997; Y: 1067),
+    (X: 16998; Y: 1067), (X: 16999; Y: 1067), (X: 16999; Y: 1066), (X: 17000; Y: 1066),
+    (X: 17001; Y: 1066), (X: 17002; Y: 1066), (X: 17003; Y: 1065), (X: 17004; Y: 1065),
+    (X: 17005; Y: 1064), (X: 17006; Y: 1064), (X: 17007; Y: 1063), (X: 17008; Y: 1062),
+    (X: 17009; Y: 1062), (X: 17009; Y: 1061), (X: 17010; Y: 1061), (X: 17010; Y: 1060),
+    (X: 17011; Y: 1060), (X: 17011; Y: 1059), (X: 17012; Y: 1058), (X: 17012; Y: 1057),
+    (X: 17013; Y: 1057), (X: 17013; Y: 1056), (X: 17014; Y: 1055), (X: 17014; Y: 1054),
+    (X: 17015; Y: 1053), (X: 17015; Y: 1052), (X: 17016; Y: 1051), (X: 17016; Y: 1050),
+    (X: 17016; Y: 1049), (X: 17017; Y: 1048), (X: 17017; Y: 1047), (X: 17017; Y: 1046),
+    (X: 17017; Y: 1045), (X: 17017; Y: 1044), (X: 17017; Y: 1043), (X: 17018; Y: 1043),
+    (X: 17018; Y: 1042), (X: 17018; Y: 1041), (X: 17018; Y: 1040), (X: 17018; Y: 1039),
+    (X: 17018; Y: 1038), (X: 17018; Y: 1037), (X: 17018; Y: 1036), (X: 17018; Y: 1035),
+    (X: 17018; Y: 1034), (X: 17018; Y: 1033), (X: 17018; Y: 1032), (X: 17018; Y: 1031),
+    (X: 17018; Y: 1030), (X: 17019; Y: 1029), (X: 17019; Y: 1028), (X: 17019; Y: 1027),
+    (X: 17019; Y: 1026), (X: 17019; Y: 1025), (X: 17019; Y: 1024), (X: 17019; Y: 1023),
+    (X: 17019; Y: 1022), (X: 17019; Y: 1021), (X: 17019; Y: 1020), (X: 17019; Y: 1019),
+    (X: 17019; Y: 1018), (X: 17018; Y: 1017), (X: 17018; Y: 1016), (X: 17018; Y: 1015),
+    (X: 17018; Y: 1014), (X: 17017; Y: 1014), (X: 17017; Y: 1013), (X: 17017; Y: 1012),
+    (X: 17016; Y: 1012), (X: 17016; Y: 1011), (X: 17015; Y: 1010), (X: 17014; Y: 1009),
+    (X: 17014; Y: 1008), (X: 17013; Y: 1008), (X: 17013; Y: 1007), (X: 17012; Y: 1007),
+    (X: 17012; Y: 1006), (X: 17011; Y: 1006), (X: 17010; Y: 1005), (X: 17009; Y: 1005),
+    (X: 17009; Y: 1004), (X: 17008; Y: 1004), (X: 17007; Y: 1004), (X: 17007; Y: 1003),
+    (X: 17006; Y: 1003), (X: 17005; Y: 1003), (X: 17004; Y: 1002), (X: 17003; Y: 1002),
+    (X: 17002; Y: 1002), (X: 17001; Y: 1002), (X: 17000; Y: 1002), (X: 16999; Y: 1002),
+    (X: 16998; Y: 1002), (X: 16996; Y: 1002), (X: 16995; Y: 1002), (X: 16994; Y: 1002),
+    (X: 16993; Y: 1002), (X: 16992; Y: 1002), (X: 16992; Y: 1003), (X: 16991; Y: 1003),
+    (X: 16990; Y: 1003), (X: 16989; Y: 1003), (X: 16987; Y: 1003), (X: 16986; Y: 1003),
+    (X: 16985; Y: 1003), (X: 16985; Y: 1004), (X: 16984; Y: 1004), (X: 16983; Y: 1004),
+    (X: 16982; Y: 1004), (X: 16982; Y: 1005), (X: 16981; Y: 1005), (X: 16980; Y: 1005),
+    (X: 16980; Y: 1006), (X: 16979; Y: 1006), (X: 16978; Y: 1006), (X: 16978; Y: 1007),
+    (X: 16977; Y: 1007), (X: 16977; Y: 1008), (X: 16976; Y: 1008), (X: 16975; Y: 1009),
+    (X: 16974; Y: 1010), (X: 16974; Y: 1011), (X: 16973; Y: 1011), (X: 16973; Y: 1012)
+  );
+
+  cPacificMajuro_4: array [0..190] of TTimeZonePoint = (
+    (X: 16603; Y: 982), (X: 16602; Y: 982), (X: 16600; Y: 982), (X: 16599; Y: 982),
+    (X: 16598; Y: 982), (X: 16597; Y: 982), (X: 16596; Y: 982), (X: 16596; Y: 983),
+    (X: 16595; Y: 983), (X: 16594; Y: 983), (X: 16593; Y: 984), (X: 16592; Y: 984),
+    (X: 16592; Y: 985), (X: 16591; Y: 985), (X: 16590; Y: 985), (X: 16590; Y: 986),
+    (X: 16589; Y: 986), (X: 16589; Y: 987), (X: 16588; Y: 987), (X: 16587; Y: 987),
+    (X: 16587; Y: 988), (X: 16586; Y: 988), (X: 16586; Y: 989), (X: 16585; Y: 989),
+    (X: 16584; Y: 990), (X: 16583; Y: 991), (X: 16583; Y: 992), (X: 16582; Y: 992),
+    (X: 16582; Y: 993), (X: 16581; Y: 993), (X: 16581; Y: 994), (X: 16580; Y: 994),
+    (X: 16580; Y: 995), (X: 16579; Y: 996), (X: 16579; Y: 997), (X: 16578; Y: 997),
+    (X: 16578; Y: 998), (X: 16578; Y: 999), (X: 16577; Y: 1000), (X: 16577; Y: 1001),
+    (X: 16576; Y: 1002), (X: 16576; Y: 1003), (X: 16575; Y: 1004), (X: 16575; Y: 1005),
+    (X: 16575; Y: 1006), (X: 16574; Y: 1006), (X: 16574; Y: 1007), (X: 16574; Y: 1008),
+    (X: 16574; Y: 1009), (X: 16573; Y: 1010), (X: 16573; Y: 1011), (X: 16573; Y: 1012),
+    (X: 16572; Y: 1013), (X: 16572; Y: 1014), (X: 16572; Y: 1015), (X: 16572; Y: 1016),
+    (X: 16572; Y: 1017), (X: 16572; Y: 1018), (X: 16572; Y: 1019), (X: 16572; Y: 1020),
+    (X: 16572; Y: 1021), (X: 16572; Y: 1022), (X: 16572; Y: 1023), (X: 16573; Y: 1024),
+    (X: 16573; Y: 1025), (X: 16573; Y: 1026), (X: 16574; Y: 1026), (X: 16574; Y: 1027),
+    (X: 16574; Y: 1028), (X: 16575; Y: 1028), (X: 16575; Y: 1029), (X: 16575; Y: 1030),
+    (X: 16576; Y: 1030), (X: 16576; Y: 1031), (X: 16577; Y: 1031), (X: 16577; Y: 1032),
+    (X: 16578; Y: 1032), (X: 16578; Y: 1033), (X: 16579; Y: 1033), (X: 16579; Y: 1034),
+    (X: 16580; Y: 1034), (X: 16581; Y: 1035), (X: 16582; Y: 1035), (X: 16582; Y: 1036),
+    (X: 16583; Y: 1036), (X: 16584; Y: 1036), (X: 16584; Y: 1037), (X: 16585; Y: 1037),
+    (X: 16586; Y: 1037), (X: 16587; Y: 1037), (X: 16588; Y: 1038), (X: 16589; Y: 1038),
+    (X: 16590; Y: 1038), (X: 16592; Y: 1038), (X: 16593; Y: 1038), (X: 16594; Y: 1038),
+    (X: 16595; Y: 1038), (X: 16596; Y: 1038), (X: 16597; Y: 1038), (X: 16598; Y: 1038),
+    (X: 16600; Y: 1038), (X: 16601; Y: 1038), (X: 16603; Y: 1038), (X: 16604; Y: 1037),
+    (X: 16605; Y: 1037), (X: 16606; Y: 1037), (X: 16607; Y: 1037), (X: 16608; Y: 1037),
+    (X: 16608; Y: 1036), (X: 16609; Y: 1036), (X: 16610; Y: 1036), (X: 16611; Y: 1035),
+    (X: 16612; Y: 1035), (X: 16613; Y: 1034), (X: 16614; Y: 1034), (X: 16614; Y: 1033),
+    (X: 16615; Y: 1033), (X: 16615; Y: 1032), (X: 16616; Y: 1032), (X: 16616; Y: 1031),
+    (X: 16617; Y: 1031), (X: 16617; Y: 1030), (X: 16618; Y: 1030), (X: 16618; Y: 1029),
+    (X: 16619; Y: 1028), (X: 16619; Y: 1027), (X: 16620; Y: 1027), (X: 16620; Y: 1026),
+    (X: 16620; Y: 1025), (X: 16621; Y: 1024), (X: 16621; Y: 1023), (X: 16621; Y: 1022),
+    (X: 16622; Y: 1021), (X: 16622; Y: 1020), (X: 16622; Y: 1019), (X: 16622; Y: 1018),
+    (X: 16622; Y: 1017), (X: 16622; Y: 1016), (X: 16622; Y: 1015), (X: 16622; Y: 1014),
+    (X: 16622; Y: 1013), (X: 16622; Y: 1012), (X: 16622; Y: 1011), (X: 16622; Y: 1010),
+    (X: 16622; Y: 1009), (X: 16623; Y: 1009), (X: 16623; Y: 1008), (X: 16623; Y: 1007),
+    (X: 16623; Y: 1006), (X: 16623; Y: 1005), (X: 16623; Y: 1004), (X: 16623; Y: 1003),
+    (X: 16623; Y: 1002), (X: 16623; Y: 1001), (X: 16623; Y: 1000), (X: 16623; Y: 999),
+    (X: 16623; Y: 998), (X: 16623; Y: 997), (X: 16622; Y: 997), (X: 16622; Y: 996),
+    (X: 16622; Y: 995), (X: 16622; Y: 994), (X: 16621; Y: 994), (X: 16621; Y: 993),
+    (X: 16621; Y: 992), (X: 16620; Y: 992), (X: 16620; Y: 991), (X: 16620; Y: 990),
+    (X: 16619; Y: 990), (X: 16619; Y: 989), (X: 16618; Y: 988), (X: 16617; Y: 988),
+    (X: 16617; Y: 987), (X: 16616; Y: 987), (X: 16616; Y: 986), (X: 16615; Y: 986),
+    (X: 16615; Y: 985), (X: 16614; Y: 985), (X: 16613; Y: 985), (X: 16613; Y: 984),
+    (X: 16612; Y: 984), (X: 16611; Y: 984), (X: 16611; Y: 983), (X: 16610; Y: 983),
+    (X: 16609; Y: 983), (X: 16609; Y: 982), (X: 16608; Y: 982), (X: 16607; Y: 982),
+    (X: 16606; Y: 982), (X: 16605; Y: 982), (X: 16603; Y: 982)
+  );
+
+  cPacificMajuro_5: array [0..137] of TTimeZonePoint = (
+    (X: 17088; Y: 1007), (X: 17086; Y: 1007), (X: 17085; Y: 1007), (X: 17084; Y: 1007),
+    (X: 17083; Y: 1007), (X: 17082; Y: 1007), (X: 17081; Y: 1007), (X: 17081; Y: 1008),
+    (X: 17080; Y: 1008), (X: 17079; Y: 1008), (X: 17078; Y: 1009), (X: 17077; Y: 1009),
+    (X: 17076; Y: 1010), (X: 17075; Y: 1010), (X: 17075; Y: 1011), (X: 17074; Y: 1011),
+    (X: 17073; Y: 1012), (X: 17072; Y: 1012), (X: 17072; Y: 1013), (X: 17071; Y: 1013),
+    (X: 17071; Y: 1014), (X: 17070; Y: 1015), (X: 17069; Y: 1016), (X: 17069; Y: 1017),
+    (X: 17068; Y: 1018), (X: 17068; Y: 1019), (X: 17067; Y: 1020), (X: 17067; Y: 1021),
+    (X: 17067; Y: 1022), (X: 17066; Y: 1023), (X: 17066; Y: 1024), (X: 17066; Y: 1025),
+    (X: 17066; Y: 1026), (X: 17066; Y: 1027), (X: 17066; Y: 1028), (X: 17066; Y: 1029),
+    (X: 17066; Y: 1030), (X: 17066; Y: 1031), (X: 17066; Y: 1032), (X: 17067; Y: 1033),
+    (X: 17067; Y: 1034), (X: 17067; Y: 1035), (X: 17067; Y: 1036), (X: 17068; Y: 1036),
+    (X: 17068; Y: 1037), (X: 17068; Y: 1038), (X: 17069; Y: 1038), (X: 17069; Y: 1039),
+    (X: 17069; Y: 1040), (X: 17070; Y: 1040), (X: 17070; Y: 1041), (X: 17071; Y: 1042),
+    (X: 17071; Y: 1043), (X: 17072; Y: 1043), (X: 17073; Y: 1044), (X: 17074; Y: 1045),
+    (X: 17075; Y: 1046), (X: 17076; Y: 1046), (X: 17076; Y: 1047), (X: 17077; Y: 1047),
+    (X: 17078; Y: 1048), (X: 17079; Y: 1048), (X: 17080; Y: 1048), (X: 17080; Y: 1049),
+    (X: 17081; Y: 1049), (X: 17082; Y: 1049), (X: 17083; Y: 1049), (X: 17084; Y: 1050),
+    (X: 17085; Y: 1050), (X: 17087; Y: 1050), (X: 17088; Y: 1050), (X: 17090; Y: 1050),
+    (X: 17091; Y: 1050), (X: 17092; Y: 1049), (X: 17093; Y: 1049), (X: 17094; Y: 1049),
+    (X: 17095; Y: 1049), (X: 17095; Y: 1048), (X: 17096; Y: 1048), (X: 17097; Y: 1048),
+    (X: 17098; Y: 1047), (X: 17099; Y: 1047), (X: 17099; Y: 1046), (X: 17100; Y: 1046),
+    (X: 17100; Y: 1045), (X: 17101; Y: 1045), (X: 17102; Y: 1044), (X: 17103; Y: 1043),
+    (X: 17104; Y: 1042), (X: 17104; Y: 1041), (X: 17105; Y: 1041), (X: 17105; Y: 1040),
+    (X: 17106; Y: 1039), (X: 17106; Y: 1038), (X: 17107; Y: 1037), (X: 17107; Y: 1036),
+    (X: 17107; Y: 1035), (X: 17108; Y: 1034), (X: 17108; Y: 1033), (X: 17108; Y: 1032),
+    (X: 17108; Y: 1031), (X: 17108; Y: 1030), (X: 17108; Y: 1029), (X: 17108; Y: 1028),
+    (X: 17108; Y: 1027), (X: 17108; Y: 1026), (X: 17108; Y: 1025), (X: 17108; Y: 1024),
+    (X: 17107; Y: 1023), (X: 17107; Y: 1022), (X: 17107; Y: 1021), (X: 17107; Y: 1020),
+    (X: 17106; Y: 1020), (X: 17106; Y: 1019), (X: 17106; Y: 1018), (X: 17105; Y: 1018),
+    (X: 17105; Y: 1017), (X: 17105; Y: 1016), (X: 17104; Y: 1016), (X: 17104; Y: 1015),
+    (X: 17103; Y: 1014), (X: 17102; Y: 1013), (X: 17101; Y: 1012), (X: 17100; Y: 1011),
+    (X: 17099; Y: 1011), (X: 17099; Y: 1010), (X: 17098; Y: 1010), (X: 17097; Y: 1009),
+    (X: 17096; Y: 1009), (X: 17095; Y: 1008), (X: 17094; Y: 1008), (X: 17093; Y: 1008),
+    (X: 17093; Y: 1007), (X: 17092; Y: 1007), (X: 17091; Y: 1007), (X: 17090; Y: 1007),
+    (X: 17089; Y: 1007), (X: 17088; Y: 1007)
+  );
+
+  cPacificMajuro_6: array [0..236] of TTimeZonePoint = (
+    (X: 16964; Y: 1088), (X: 16963; Y: 1088), (X: 16961; Y: 1088), (X: 16960; Y: 1088),
+    (X: 16959; Y: 1088), (X: 16958; Y: 1088), (X: 16958; Y: 1089), (X: 16957; Y: 1089),
+    (X: 16956; Y: 1089), (X: 16955; Y: 1089), (X: 16955; Y: 1090), (X: 16954; Y: 1090),
+    (X: 16953; Y: 1090), (X: 16952; Y: 1091), (X: 16951; Y: 1091), (X: 16951; Y: 1092),
+    (X: 16950; Y: 1092), (X: 16949; Y: 1093), (X: 16948; Y: 1093), (X: 16948; Y: 1094),
+    (X: 16947; Y: 1094), (X: 16947; Y: 1095), (X: 16946; Y: 1095), (X: 16946; Y: 1096),
+    (X: 16945; Y: 1097), (X: 16945; Y: 1098), (X: 16944; Y: 1098), (X: 16944; Y: 1099),
+    (X: 16943; Y: 1099), (X: 16943; Y: 1100), (X: 16943; Y: 1101), (X: 16943; Y: 1102),
+    (X: 16942; Y: 1102), (X: 16942; Y: 1103), (X: 16942; Y: 1104), (X: 16942; Y: 1105),
+    (X: 16941; Y: 1105), (X: 16941; Y: 1106), (X: 16940; Y: 1106), (X: 16940; Y: 1107),
+    (X: 16939; Y: 1107), (X: 16939; Y: 1108), (X: 16938; Y: 1108), (X: 16938; Y: 1109),
+    (X: 16938; Y: 1110), (X: 16937; Y: 1110), (X: 16937; Y: 1111), (X: 16936; Y: 1111),
+    (X: 16936; Y: 1112), (X: 16936; Y: 1113), (X: 16936; Y: 1114), (X: 16935; Y: 1114),
+    (X: 16935; Y: 1115), (X: 16935; Y: 1116), (X: 16935; Y: 1117), (X: 16935; Y: 1118),
+    (X: 16935; Y: 1119), (X: 16935; Y: 1120), (X: 16935; Y: 1121), (X: 16935; Y: 1122),
+    (X: 16935; Y: 1123), (X: 16935; Y: 1124), (X: 16935; Y: 1125), (X: 16935; Y: 1126),
+    (X: 16936; Y: 1126), (X: 16936; Y: 1127), (X: 16936; Y: 1128), (X: 16937; Y: 1128),
+    (X: 16937; Y: 1129), (X: 16937; Y: 1130), (X: 16938; Y: 1130), (X: 16938; Y: 1131),
+    (X: 16939; Y: 1132), (X: 16940; Y: 1133), (X: 16940; Y: 1134), (X: 16941; Y: 1134),
+    (X: 16941; Y: 1135), (X: 16942; Y: 1135), (X: 16942; Y: 1136), (X: 16943; Y: 1136),
+    (X: 16944; Y: 1137), (X: 16945; Y: 1137), (X: 16946; Y: 1138), (X: 16947; Y: 1138),
+    (X: 16948; Y: 1139), (X: 16949; Y: 1139), (X: 16950; Y: 1139), (X: 16951; Y: 1139),
+    (X: 16951; Y: 1140), (X: 16952; Y: 1140), (X: 16953; Y: 1140), (X: 16955; Y: 1140),
+    (X: 16957; Y: 1140), (X: 16959; Y: 1140), (X: 16960; Y: 1140), (X: 16960; Y: 1141),
+    (X: 16961; Y: 1141), (X: 16961; Y: 1142), (X: 16962; Y: 1143), (X: 16962; Y: 1144),
+    (X: 16963; Y: 1144), (X: 16963; Y: 1145), (X: 16964; Y: 1145), (X: 16964; Y: 1146),
+    (X: 16965; Y: 1146), (X: 16965; Y: 1147), (X: 16966; Y: 1147), (X: 16966; Y: 1148),
+    (X: 16967; Y: 1148), (X: 16968; Y: 1148), (X: 16968; Y: 1149), (X: 16969; Y: 1149),
+    (X: 16970; Y: 1149), (X: 16970; Y: 1150), (X: 16971; Y: 1150), (X: 16972; Y: 1150),
+    (X: 16972; Y: 1151), (X: 16973; Y: 1151), (X: 16974; Y: 1151), (X: 16975; Y: 1151),
+    (X: 16976; Y: 1151), (X: 16978; Y: 1152), (X: 16979; Y: 1152), (X: 16981; Y: 1151),
+    (X: 16982; Y: 1151), (X: 16983; Y: 1151), (X: 16984; Y: 1151), (X: 16985; Y: 1151),
+    (X: 16986; Y: 1150), (X: 16987; Y: 1150), (X: 16988; Y: 1149), (X: 16989; Y: 1149),
+    (X: 16989; Y: 1148), (X: 16990; Y: 1148), (X: 16991; Y: 1148), (X: 16991; Y: 1147),
+    (X: 16992; Y: 1147), (X: 16992; Y: 1146), (X: 16993; Y: 1146), (X: 16994; Y: 1145),
+    (X: 16994; Y: 1144), (X: 16995; Y: 1144), (X: 16995; Y: 1143), (X: 16996; Y: 1143),
+    (X: 16996; Y: 1142), (X: 16997; Y: 1141), (X: 16997; Y: 1140), (X: 16998; Y: 1140),
+    (X: 16998; Y: 1139), (X: 16999; Y: 1139), (X: 16999; Y: 1138), (X: 17000; Y: 1138),
+    (X: 17000; Y: 1137), (X: 17001; Y: 1137), (X: 17001; Y: 1136), (X: 17002; Y: 1136),
+    (X: 17002; Y: 1135), (X: 17003; Y: 1134), (X: 17003; Y: 1133), (X: 17004; Y: 1133),
+    (X: 17004; Y: 1132), (X: 17005; Y: 1131), (X: 17005; Y: 1130), (X: 17005; Y: 1129),
+    (X: 17006; Y: 1129), (X: 17006; Y: 1128), (X: 17006; Y: 1127), (X: 17006; Y: 1126),
+    (X: 17006; Y: 1125), (X: 17006; Y: 1124), (X: 17006; Y: 1123), (X: 17006; Y: 1122),
+    (X: 17006; Y: 1121), (X: 17006; Y: 1120), (X: 17006; Y: 1119), (X: 17006; Y: 1118),
+    (X: 17006; Y: 1117), (X: 17005; Y: 1116), (X: 17005; Y: 1115), (X: 17005; Y: 1114),
+    (X: 17004; Y: 1114), (X: 17004; Y: 1113), (X: 17004; Y: 1112), (X: 17003; Y: 1112),
+    (X: 17003; Y: 1111), (X: 17002; Y: 1111), (X: 17002; Y: 1110), (X: 17001; Y: 1109),
+    (X: 17000; Y: 1108), (X: 17000; Y: 1107), (X: 16999; Y: 1107), (X: 16998; Y: 1107),
+    (X: 16998; Y: 1106), (X: 16997; Y: 1106), (X: 16997; Y: 1105), (X: 16996; Y: 1105),
+    (X: 16995; Y: 1104), (X: 16994; Y: 1104), (X: 16993; Y: 1104), (X: 16993; Y: 1103),
+    (X: 16992; Y: 1103), (X: 16991; Y: 1103), (X: 16990; Y: 1103), (X: 16989; Y: 1103),
+    (X: 16988; Y: 1102), (X: 16987; Y: 1102), (X: 16986; Y: 1102), (X: 16985; Y: 1102),
+    (X: 16985; Y: 1101), (X: 16984; Y: 1101), (X: 16984; Y: 1100), (X: 16983; Y: 1099),
+    (X: 16983; Y: 1098), (X: 16982; Y: 1098), (X: 16982; Y: 1097), (X: 16981; Y: 1097),
+    (X: 16981; Y: 1096), (X: 16980; Y: 1096), (X: 16979; Y: 1095), (X: 16978; Y: 1094),
+    (X: 16977; Y: 1093), (X: 16976; Y: 1093), (X: 16976; Y: 1092), (X: 16975; Y: 1092),
+    (X: 16975; Y: 1091), (X: 16974; Y: 1091), (X: 16973; Y: 1090), (X: 16972; Y: 1090),
+    (X: 16971; Y: 1090), (X: 16971; Y: 1089), (X: 16970; Y: 1089), (X: 16969; Y: 1089),
+    (X: 16968; Y: 1089), (X: 16968; Y: 1088), (X: 16967; Y: 1088), (X: 16966; Y: 1088),
+    (X: 16964; Y: 1088)
+  );
+
+  cPacificMajuro_7: array [0..462] of TTimeZonePoint = (
+    (X: 16650; Y: 1091), (X: 16648; Y: 1091), (X: 16646; Y: 1092), (X: 16645; Y: 1092),
+    (X: 16644; Y: 1092), (X: 16643; Y: 1092), (X: 16642; Y: 1092), (X: 16640; Y: 1092),
+    (X: 16638; Y: 1092), (X: 16637; Y: 1092), (X: 16636; Y: 1092), (X: 16635; Y: 1092),
+    (X: 16634; Y: 1092), (X: 16632; Y: 1093), (X: 16631; Y: 1093), (X: 16630; Y: 1093),
+    (X: 16629; Y: 1093), (X: 16628; Y: 1093), (X: 16627; Y: 1093), (X: 16627; Y: 1094),
+    (X: 16626; Y: 1094), (X: 16625; Y: 1094), (X: 16625; Y: 1095), (X: 16624; Y: 1095),
+    (X: 16623; Y: 1095), (X: 16622; Y: 1095), (X: 16621; Y: 1095), (X: 16621; Y: 1096),
+    (X: 16620; Y: 1096), (X: 16619; Y: 1096), (X: 16619; Y: 1097), (X: 16618; Y: 1097),
+    (X: 16617; Y: 1098), (X: 16616; Y: 1098), (X: 16616; Y: 1099), (X: 16615; Y: 1099),
+    (X: 16615; Y: 1100), (X: 16614; Y: 1100), (X: 16614; Y: 1101), (X: 16613; Y: 1101),
+    (X: 16613; Y: 1102), (X: 16612; Y: 1102), (X: 16612; Y: 1103), (X: 16611; Y: 1104),
+    (X: 16611; Y: 1105), (X: 16610; Y: 1105), (X: 16610; Y: 1106), (X: 16610; Y: 1107),
+    (X: 16609; Y: 1108), (X: 16609; Y: 1109), (X: 16609; Y: 1110), (X: 16609; Y: 1111),
+    (X: 16609; Y: 1112), (X: 16608; Y: 1112), (X: 16608; Y: 1113), (X: 16608; Y: 1114),
+    (X: 16608; Y: 1115), (X: 16608; Y: 1116), (X: 16609; Y: 1117), (X: 16608; Y: 1118),
+    (X: 16609; Y: 1119), (X: 16609; Y: 1120), (X: 16609; Y: 1121), (X: 16609; Y: 1122),
+    (X: 16609; Y: 1123), (X: 16609; Y: 1124), (X: 16610; Y: 1124), (X: 16610; Y: 1125),
+    (X: 16610; Y: 1126), (X: 16611; Y: 1127), (X: 16611; Y: 1128), (X: 16612; Y: 1128),
+    (X: 16612; Y: 1129), (X: 16612; Y: 1130), (X: 16613; Y: 1130), (X: 16613; Y: 1131),
+    (X: 16614; Y: 1131), (X: 16614; Y: 1132), (X: 16615; Y: 1132), (X: 16615; Y: 1133),
+    (X: 16616; Y: 1133), (X: 16616; Y: 1134), (X: 16617; Y: 1134), (X: 16618; Y: 1135),
+    (X: 16619; Y: 1135), (X: 16619; Y: 1136), (X: 16620; Y: 1136), (X: 16621; Y: 1136),
+    (X: 16622; Y: 1137), (X: 16623; Y: 1137), (X: 16624; Y: 1137), (X: 16625; Y: 1137),
+    (X: 16625; Y: 1138), (X: 16626; Y: 1138), (X: 16627; Y: 1138), (X: 16629; Y: 1138),
+    (X: 16630; Y: 1138), (X: 16631; Y: 1138), (X: 16632; Y: 1138), (X: 16633; Y: 1138),
+    (X: 16633; Y: 1137), (X: 16634; Y: 1137), (X: 16635; Y: 1137), (X: 16636; Y: 1137),
+    (X: 16637; Y: 1137), (X: 16638; Y: 1136), (X: 16639; Y: 1136), (X: 16640; Y: 1136),
+    (X: 16641; Y: 1136), (X: 16642; Y: 1137), (X: 16643; Y: 1137), (X: 16643; Y: 1138),
+    (X: 16643; Y: 1139), (X: 16644; Y: 1140), (X: 16644; Y: 1141), (X: 16644; Y: 1142),
+    (X: 16645; Y: 1142), (X: 16645; Y: 1143), (X: 16646; Y: 1144), (X: 16646; Y: 1145),
+    (X: 16647; Y: 1145), (X: 16647; Y: 1146), (X: 16647; Y: 1147), (X: 16647; Y: 1148),
+    (X: 16647; Y: 1149), (X: 16647; Y: 1150), (X: 16647; Y: 1151), (X: 16648; Y: 1151),
+    (X: 16648; Y: 1152), (X: 16648; Y: 1153), (X: 16649; Y: 1154), (X: 16649; Y: 1155),
+    (X: 16650; Y: 1156), (X: 16650; Y: 1157), (X: 16651; Y: 1158), (X: 16651; Y: 1159),
+    (X: 16652; Y: 1159), (X: 16652; Y: 1160), (X: 16653; Y: 1160), (X: 16653; Y: 1161),
+    (X: 16654; Y: 1161), (X: 16654; Y: 1162), (X: 16655; Y: 1162), (X: 16655; Y: 1163),
+    (X: 16656; Y: 1163), (X: 16657; Y: 1164), (X: 16658; Y: 1165), (X: 16659; Y: 1165),
+    (X: 16660; Y: 1165), (X: 16660; Y: 1166), (X: 16661; Y: 1166), (X: 16662; Y: 1166),
+    (X: 16663; Y: 1166), (X: 16663; Y: 1167), (X: 16664; Y: 1167), (X: 16665; Y: 1167),
+    (X: 16666; Y: 1167), (X: 16668; Y: 1167), (X: 16669; Y: 1167), (X: 16671; Y: 1167),
+    (X: 16672; Y: 1167), (X: 16673; Y: 1167), (X: 16674; Y: 1167), (X: 16674; Y: 1166),
+    (X: 16675; Y: 1167), (X: 16676; Y: 1167), (X: 16677; Y: 1167), (X: 16677; Y: 1168),
+    (X: 16678; Y: 1168), (X: 16679; Y: 1168), (X: 16680; Y: 1168), (X: 16681; Y: 1168),
+    (X: 16682; Y: 1168), (X: 16683; Y: 1168), (X: 16683; Y: 1169), (X: 16684; Y: 1169),
+    (X: 16686; Y: 1169), (X: 16687; Y: 1169), (X: 16688; Y: 1169), (X: 16689; Y: 1169),
+    (X: 16690; Y: 1168), (X: 16691; Y: 1168), (X: 16692; Y: 1168), (X: 16693; Y: 1168),
+    (X: 16694; Y: 1167), (X: 16695; Y: 1167), (X: 16696; Y: 1166), (X: 16697; Y: 1166),
+    (X: 16698; Y: 1166), (X: 16699; Y: 1166), (X: 16700; Y: 1167), (X: 16701; Y: 1167),
+    (X: 16702; Y: 1167), (X: 16703; Y: 1167), (X: 16705; Y: 1167), (X: 16706; Y: 1167),
+    (X: 16707; Y: 1167), (X: 16708; Y: 1167), (X: 16709; Y: 1167), (X: 16710; Y: 1167),
+    (X: 16711; Y: 1167), (X: 16711; Y: 1166), (X: 16712; Y: 1166), (X: 16713; Y: 1166),
+    (X: 16714; Y: 1165), (X: 16715; Y: 1165), (X: 16716; Y: 1164), (X: 16717; Y: 1164),
+    (X: 16717; Y: 1163), (X: 16718; Y: 1163), (X: 16719; Y: 1162), (X: 16720; Y: 1162),
+    (X: 16720; Y: 1161), (X: 16721; Y: 1161), (X: 16721; Y: 1160), (X: 16722; Y: 1159),
+    (X: 16722; Y: 1158), (X: 16723; Y: 1158), (X: 16723; Y: 1157), (X: 16724; Y: 1156),
+    (X: 16724; Y: 1155), (X: 16725; Y: 1155), (X: 16725; Y: 1156), (X: 16726; Y: 1156),
+    (X: 16727; Y: 1157), (X: 16728; Y: 1157), (X: 16729; Y: 1158), (X: 16730; Y: 1158),
+    (X: 16731; Y: 1158), (X: 16732; Y: 1159), (X: 16733; Y: 1159), (X: 16734; Y: 1159),
+    (X: 16736; Y: 1159), (X: 16737; Y: 1159), (X: 16738; Y: 1160), (X: 16739; Y: 1160),
+    (X: 16740; Y: 1160), (X: 16740; Y: 1161), (X: 16741; Y: 1161), (X: 16742; Y: 1161),
+    (X: 16743; Y: 1161), (X: 16745; Y: 1161), (X: 16746; Y: 1161), (X: 16748; Y: 1161),
+    (X: 16749; Y: 1161), (X: 16750; Y: 1161), (X: 16751; Y: 1160), (X: 16752; Y: 1160),
+    (X: 16753; Y: 1160), (X: 16754; Y: 1160), (X: 16755; Y: 1160), (X: 16756; Y: 1159),
+    (X: 16757; Y: 1159), (X: 16758; Y: 1158), (X: 16759; Y: 1158), (X: 16760; Y: 1157),
+    (X: 16761; Y: 1157), (X: 16762; Y: 1156), (X: 16763; Y: 1156), (X: 16763; Y: 1155),
+    (X: 16764; Y: 1155), (X: 16764; Y: 1154), (X: 16765; Y: 1154), (X: 16766; Y: 1153),
+    (X: 16767; Y: 1152), (X: 16768; Y: 1151), (X: 16768; Y: 1150), (X: 16769; Y: 1150),
+    (X: 16769; Y: 1149), (X: 16770; Y: 1149), (X: 16770; Y: 1148), (X: 16770; Y: 1147),
+    (X: 16771; Y: 1147), (X: 16771; Y: 1146), (X: 16771; Y: 1145), (X: 16772; Y: 1145),
+    (X: 16772; Y: 1144), (X: 16772; Y: 1143), (X: 16772; Y: 1142), (X: 16772; Y: 1141),
+    (X: 16773; Y: 1140), (X: 16773; Y: 1139), (X: 16773; Y: 1138), (X: 16773; Y: 1137),
+    (X: 16773; Y: 1136), (X: 16772; Y: 1136), (X: 16772; Y: 1135), (X: 16772; Y: 1134),
+    (X: 16772; Y: 1133), (X: 16772; Y: 1132), (X: 16771; Y: 1131), (X: 16771; Y: 1130),
+    (X: 16771; Y: 1129), (X: 16770; Y: 1129), (X: 16770; Y: 1128), (X: 16769; Y: 1127),
+    (X: 16769; Y: 1126), (X: 16768; Y: 1125), (X: 16768; Y: 1124), (X: 16767; Y: 1123),
+    (X: 16767; Y: 1122), (X: 16766; Y: 1121), (X: 16766; Y: 1120), (X: 16765; Y: 1119),
+    (X: 16764; Y: 1118), (X: 16763; Y: 1117), (X: 16763; Y: 1116), (X: 16762; Y: 1116),
+    (X: 16762; Y: 1115), (X: 16761; Y: 1115), (X: 16761; Y: 1114), (X: 16760; Y: 1114),
+    (X: 16759; Y: 1113), (X: 16758; Y: 1113), (X: 16758; Y: 1112), (X: 16757; Y: 1112),
+    (X: 16756; Y: 1111), (X: 16755; Y: 1111), (X: 16754; Y: 1111), (X: 16753; Y: 1111),
+    (X: 16753; Y: 1110), (X: 16752; Y: 1110), (X: 16751; Y: 1110), (X: 16750; Y: 1110),
+    (X: 16749; Y: 1110), (X: 16747; Y: 1110), (X: 16746; Y: 1110), (X: 16744; Y: 1110),
+    (X: 16743; Y: 1110), (X: 16742; Y: 1110), (X: 16741; Y: 1110), (X: 16740; Y: 1110),
+    (X: 16740; Y: 1111), (X: 16739; Y: 1111), (X: 16738; Y: 1111), (X: 16737; Y: 1111),
+    (X: 16737; Y: 1112), (X: 16736; Y: 1112), (X: 16735; Y: 1113), (X: 16734; Y: 1113),
+    (X: 16734; Y: 1114), (X: 16733; Y: 1114), (X: 16733; Y: 1115), (X: 16732; Y: 1115),
+    (X: 16732; Y: 1116), (X: 16731; Y: 1116), (X: 16731; Y: 1117), (X: 16730; Y: 1117),
+    (X: 16730; Y: 1118), (X: 16729; Y: 1118), (X: 16729; Y: 1119), (X: 16728; Y: 1119),
+    (X: 16727; Y: 1119), (X: 16727; Y: 1120), (X: 16726; Y: 1120), (X: 16725; Y: 1120),
+    (X: 16725; Y: 1121), (X: 16724; Y: 1121), (X: 16724; Y: 1122), (X: 16723; Y: 1122),
+    (X: 16722; Y: 1123), (X: 16721; Y: 1124), (X: 16720; Y: 1125), (X: 16720; Y: 1126),
+    (X: 16719; Y: 1126), (X: 16719; Y: 1127), (X: 16719; Y: 1126), (X: 16718; Y: 1126),
+    (X: 16718; Y: 1125), (X: 16717; Y: 1124), (X: 16717; Y: 1123), (X: 16716; Y: 1123),
+    (X: 16716; Y: 1122), (X: 16715; Y: 1122), (X: 16715; Y: 1121), (X: 16714; Y: 1121),
+    (X: 16713; Y: 1120), (X: 16712; Y: 1120), (X: 16712; Y: 1119), (X: 16711; Y: 1119),
+    (X: 16710; Y: 1119), (X: 16710; Y: 1118), (X: 16710; Y: 1117), (X: 16710; Y: 1116),
+    (X: 16710; Y: 1115), (X: 16710; Y: 1114), (X: 16710; Y: 1113), (X: 16710; Y: 1112),
+    (X: 16710; Y: 1111), (X: 16709; Y: 1111), (X: 16709; Y: 1110), (X: 16709; Y: 1109),
+    (X: 16708; Y: 1108), (X: 16708; Y: 1107), (X: 16708; Y: 1106), (X: 16707; Y: 1106),
+    (X: 16707; Y: 1105), (X: 16706; Y: 1104), (X: 16706; Y: 1103), (X: 16705; Y: 1103),
+    (X: 16705; Y: 1102), (X: 16704; Y: 1102), (X: 16704; Y: 1101), (X: 16703; Y: 1101),
+    (X: 16702; Y: 1100), (X: 16702; Y: 1099), (X: 16701; Y: 1099), (X: 16700; Y: 1099),
+    (X: 16700; Y: 1098), (X: 16699; Y: 1098), (X: 16698; Y: 1097), (X: 16697; Y: 1097),
+    (X: 16696; Y: 1097), (X: 16695; Y: 1096), (X: 16694; Y: 1096), (X: 16693; Y: 1096),
+    (X: 16692; Y: 1096), (X: 16691; Y: 1096), (X: 16690; Y: 1095), (X: 16689; Y: 1095),
+    (X: 16688; Y: 1095), (X: 16687; Y: 1095), (X: 16685; Y: 1095), (X: 16684; Y: 1095),
+    (X: 16682; Y: 1095), (X: 16681; Y: 1095), (X: 16680; Y: 1095), (X: 16679; Y: 1095),
+    (X: 16679; Y: 1096), (X: 16678; Y: 1096), (X: 16677; Y: 1096), (X: 16676; Y: 1096),
+    (X: 16675; Y: 1096), (X: 16674; Y: 1097), (X: 16673; Y: 1097), (X: 16672; Y: 1097),
+    (X: 16671; Y: 1097), (X: 16670; Y: 1097), (X: 16669; Y: 1098), (X: 16668; Y: 1098),
+    (X: 16667; Y: 1098), (X: 16666; Y: 1097), (X: 16666; Y: 1096), (X: 16665; Y: 1096),
+    (X: 16664; Y: 1096), (X: 16664; Y: 1095), (X: 16663; Y: 1095), (X: 16662; Y: 1095),
+    (X: 16662; Y: 1094), (X: 16661; Y: 1094), (X: 16660; Y: 1094), (X: 16660; Y: 1093),
+    (X: 16659; Y: 1093), (X: 16658; Y: 1093), (X: 16657; Y: 1093), (X: 16656; Y: 1093),
+    (X: 16656; Y: 1092), (X: 16655; Y: 1092), (X: 16654; Y: 1092), (X: 16653; Y: 1092),
+    (X: 16652; Y: 1092), (X: 16651; Y: 1092), (X: 16650; Y: 1091)
+  );
+
+  cPacificMajuro_8: array [0..289] of TTimeZonePoint = (
+    (X: 17217; Y: 568), (X: 17215; Y: 568), (X: 17214; Y: 568), (X: 17213; Y: 568),
+    (X: 17212; Y: 568), (X: 17211; Y: 568), (X: 17211; Y: 569), (X: 17210; Y: 569),
+    (X: 17209; Y: 569), (X: 17209; Y: 570), (X: 17208; Y: 570), (X: 17207; Y: 570),
+    (X: 17206; Y: 571), (X: 17205; Y: 571), (X: 17205; Y: 572), (X: 17204; Y: 572),
+    (X: 17204; Y: 573), (X: 17203; Y: 573), (X: 17203; Y: 574), (X: 17202; Y: 574),
+    (X: 17202; Y: 575), (X: 17201; Y: 575), (X: 17201; Y: 576), (X: 17200; Y: 577),
+    (X: 17199; Y: 577), (X: 17199; Y: 578), (X: 17198; Y: 579), (X: 17198; Y: 580),
+    (X: 17197; Y: 580), (X: 17197; Y: 581), (X: 17196; Y: 581), (X: 17196; Y: 582),
+    (X: 17196; Y: 583), (X: 17195; Y: 583), (X: 17194; Y: 583), (X: 17193; Y: 583),
+    (X: 17192; Y: 583), (X: 17191; Y: 584), (X: 17190; Y: 584), (X: 17189; Y: 584),
+    (X: 17188; Y: 584), (X: 17188; Y: 585), (X: 17187; Y: 585), (X: 17187; Y: 584),
+    (X: 17186; Y: 584), (X: 17185; Y: 584), (X: 17184; Y: 584), (X: 17183; Y: 584),
+    (X: 17182; Y: 584), (X: 17181; Y: 584), (X: 17179; Y: 584), (X: 17178; Y: 584),
+    (X: 17177; Y: 584), (X: 17176; Y: 584), (X: 17176; Y: 585), (X: 17175; Y: 585),
+    (X: 17174; Y: 585), (X: 17173; Y: 585), (X: 17173; Y: 586), (X: 17172; Y: 586),
+    (X: 17171; Y: 586), (X: 17171; Y: 587), (X: 17170; Y: 587), (X: 17169; Y: 587),
+    (X: 17169; Y: 588), (X: 17168; Y: 588), (X: 17167; Y: 588), (X: 17167; Y: 589),
+    (X: 17166; Y: 589), (X: 17165; Y: 589), (X: 17164; Y: 590), (X: 17163; Y: 590),
+    (X: 17162; Y: 591), (X: 17161; Y: 591), (X: 17161; Y: 592), (X: 17160; Y: 592),
+    (X: 17159; Y: 593), (X: 17158; Y: 594), (X: 17157; Y: 595), (X: 17156; Y: 596),
+    (X: 17156; Y: 597), (X: 17155; Y: 597), (X: 17155; Y: 598), (X: 17155; Y: 599),
+    (X: 17154; Y: 599), (X: 17154; Y: 600), (X: 17154; Y: 601), (X: 17153; Y: 602),
+    (X: 17153; Y: 603), (X: 17153; Y: 604), (X: 17153; Y: 605), (X: 17152; Y: 606),
+    (X: 17152; Y: 607), (X: 17152; Y: 608), (X: 17152; Y: 609), (X: 17152; Y: 610),
+    (X: 17152; Y: 611), (X: 17153; Y: 611), (X: 17153; Y: 612), (X: 17153; Y: 613),
+    (X: 17153; Y: 614), (X: 17152; Y: 614), (X: 17152; Y: 615), (X: 17152; Y: 616),
+    (X: 17152; Y: 617), (X: 17152; Y: 618), (X: 17152; Y: 619), (X: 17151; Y: 620),
+    (X: 17151; Y: 621), (X: 17151; Y: 622), (X: 17152; Y: 622), (X: 17152; Y: 623),
+    (X: 17152; Y: 624), (X: 17152; Y: 625), (X: 17152; Y: 626), (X: 17152; Y: 627),
+    (X: 17153; Y: 628), (X: 17153; Y: 629), (X: 17154; Y: 630), (X: 17154; Y: 631),
+    (X: 17154; Y: 632), (X: 17155; Y: 632), (X: 17155; Y: 633), (X: 17156; Y: 633),
+    (X: 17156; Y: 634), (X: 17157; Y: 634), (X: 17157; Y: 635), (X: 17158; Y: 636),
+    (X: 17159; Y: 637), (X: 17160; Y: 637), (X: 17160; Y: 638), (X: 17161; Y: 638),
+    (X: 17161; Y: 639), (X: 17162; Y: 639), (X: 17163; Y: 639), (X: 17163; Y: 640),
+    (X: 17164; Y: 640), (X: 17165; Y: 640), (X: 17166; Y: 641), (X: 17167; Y: 641),
+    (X: 17168; Y: 641), (X: 17169; Y: 641), (X: 17170; Y: 642), (X: 17171; Y: 642),
+    (X: 17172; Y: 642), (X: 17173; Y: 642), (X: 17174; Y: 642), (X: 17175; Y: 642),
+    (X: 17175; Y: 643), (X: 17176; Y: 643), (X: 17177; Y: 643), (X: 17178; Y: 643),
+    (X: 17179; Y: 643), (X: 17179; Y: 644), (X: 17180; Y: 644), (X: 17181; Y: 644),
+    (X: 17182; Y: 644), (X: 17184; Y: 644), (X: 17184; Y: 645), (X: 17185; Y: 645),
+    (X: 17186; Y: 645), (X: 17187; Y: 645), (X: 17188; Y: 646), (X: 17189; Y: 646),
+    (X: 17191; Y: 646), (X: 17192; Y: 646), (X: 17194; Y: 646), (X: 17195; Y: 646),
+    (X: 17196; Y: 645), (X: 17197; Y: 645), (X: 17198; Y: 645), (X: 17199; Y: 645),
+    (X: 17199; Y: 644), (X: 17200; Y: 644), (X: 17201; Y: 644), (X: 17202; Y: 643),
+    (X: 17203; Y: 643), (X: 17203; Y: 642), (X: 17204; Y: 642), (X: 17205; Y: 642),
+    (X: 17207; Y: 642), (X: 17208; Y: 642), (X: 17209; Y: 642), (X: 17210; Y: 642),
+    (X: 17211; Y: 642), (X: 17212; Y: 642), (X: 17212; Y: 641), (X: 17213; Y: 641),
+    (X: 17214; Y: 641), (X: 17215; Y: 641), (X: 17215; Y: 640), (X: 17216; Y: 640),
+    (X: 17217; Y: 640), (X: 17217; Y: 639), (X: 17218; Y: 639), (X: 17219; Y: 639),
+    (X: 17219; Y: 638), (X: 17220; Y: 638), (X: 17220; Y: 637), (X: 17221; Y: 637),
+    (X: 17222; Y: 636), (X: 17223; Y: 635), (X: 17224; Y: 634), (X: 17224; Y: 633),
+    (X: 17225; Y: 633), (X: 17225; Y: 632), (X: 17226; Y: 631), (X: 17226; Y: 630),
+    (X: 17226; Y: 629), (X: 17227; Y: 629), (X: 17227; Y: 628), (X: 17227; Y: 627),
+    (X: 17228; Y: 626), (X: 17228; Y: 625), (X: 17228; Y: 624), (X: 17229; Y: 624),
+    (X: 17229; Y: 623), (X: 17229; Y: 622), (X: 17229; Y: 621), (X: 17230; Y: 621),
+    (X: 17230; Y: 620), (X: 17230; Y: 619), (X: 17230; Y: 618), (X: 17230; Y: 617),
+    (X: 17230; Y: 616), (X: 17230; Y: 615), (X: 17231; Y: 614), (X: 17231; Y: 613),
+    (X: 17231; Y: 612), (X: 17231; Y: 611), (X: 17231; Y: 610), (X: 17231; Y: 609),
+    (X: 17231; Y: 608), (X: 17231; Y: 607), (X: 17231; Y: 606), (X: 17231; Y: 605),
+    (X: 17231; Y: 604), (X: 17232; Y: 604), (X: 17232; Y: 603), (X: 17233; Y: 603),
+    (X: 17233; Y: 602), (X: 17234; Y: 601), (X: 17234; Y: 600), (X: 17235; Y: 599),
+    (X: 17235; Y: 598), (X: 17236; Y: 597), (X: 17236; Y: 596), (X: 17236; Y: 595),
+    (X: 17237; Y: 595), (X: 17237; Y: 594), (X: 17237; Y: 593), (X: 17237; Y: 592),
+    (X: 17237; Y: 591), (X: 17237; Y: 590), (X: 17237; Y: 589), (X: 17237; Y: 588),
+    (X: 17237; Y: 587), (X: 17237; Y: 586), (X: 17237; Y: 585), (X: 17237; Y: 584),
+    (X: 17237; Y: 583), (X: 17237; Y: 582), (X: 17236; Y: 582), (X: 17236; Y: 581),
+    (X: 17236; Y: 580), (X: 17235; Y: 579), (X: 17235; Y: 578), (X: 17234; Y: 577),
+    (X: 17234; Y: 576), (X: 17233; Y: 576), (X: 17233; Y: 575), (X: 17232; Y: 575),
+    (X: 17232; Y: 574), (X: 17231; Y: 573), (X: 17230; Y: 572), (X: 17229; Y: 572),
+    (X: 17229; Y: 571), (X: 17228; Y: 571), (X: 17227; Y: 570), (X: 17226; Y: 570),
+    (X: 17225; Y: 570), (X: 17225; Y: 569), (X: 17224; Y: 569), (X: 17223; Y: 569),
+    (X: 17223; Y: 568), (X: 17222; Y: 568), (X: 17221; Y: 568), (X: 17220; Y: 568),
+    (X: 17219; Y: 568), (X: 17217; Y: 568)
+  );
+
+  cPacificMajuro_9: array [0..235] of TTimeZonePoint = (
+    (X: 16535; Y: 1129), (X: 16534; Y: 1129), (X: 16532; Y: 1130), (X: 16531; Y: 1130),
+    (X: 16530; Y: 1130), (X: 16529; Y: 1130), (X: 16528; Y: 1130), (X: 16528; Y: 1131),
+    (X: 16527; Y: 1131), (X: 16526; Y: 1131), (X: 16525; Y: 1131), (X: 16525; Y: 1132),
+    (X: 16524; Y: 1132), (X: 16523; Y: 1133), (X: 16522; Y: 1133), (X: 16522; Y: 1134),
+    (X: 16521; Y: 1134), (X: 16520; Y: 1134), (X: 16519; Y: 1135), (X: 16518; Y: 1135),
+    (X: 16517; Y: 1136), (X: 16516; Y: 1136), (X: 16516; Y: 1137), (X: 16515; Y: 1137),
+    (X: 16515; Y: 1138), (X: 16514; Y: 1138), (X: 16513; Y: 1139), (X: 16512; Y: 1139),
+    (X: 16512; Y: 1140), (X: 16511; Y: 1140), (X: 16510; Y: 1141), (X: 16509; Y: 1142),
+    (X: 16508; Y: 1142), (X: 16508; Y: 1143), (X: 16507; Y: 1143), (X: 16507; Y: 1144),
+    (X: 16506; Y: 1145), (X: 16505; Y: 1146), (X: 16505; Y: 1147), (X: 16504; Y: 1147),
+    (X: 16504; Y: 1148), (X: 16504; Y: 1149), (X: 16503; Y: 1149), (X: 16503; Y: 1150),
+    (X: 16503; Y: 1151), (X: 16502; Y: 1152), (X: 16502; Y: 1153), (X: 16502; Y: 1154),
+    (X: 16502; Y: 1155), (X: 16502; Y: 1156), (X: 16502; Y: 1157), (X: 16502; Y: 1158),
+    (X: 16502; Y: 1159), (X: 16502; Y: 1160), (X: 16502; Y: 1161), (X: 16502; Y: 1162),
+    (X: 16502; Y: 1163), (X: 16503; Y: 1164), (X: 16503; Y: 1165), (X: 16503; Y: 1166),
+    (X: 16504; Y: 1166), (X: 16504; Y: 1167), (X: 16504; Y: 1168), (X: 16505; Y: 1168),
+    (X: 16505; Y: 1169), (X: 16505; Y: 1170), (X: 16505; Y: 1171), (X: 16505; Y: 1172),
+    (X: 16505; Y: 1173), (X: 16506; Y: 1173), (X: 16506; Y: 1174), (X: 16506; Y: 1175),
+    (X: 16506; Y: 1176), (X: 16507; Y: 1176), (X: 16507; Y: 1177), (X: 16507; Y: 1178),
+    (X: 16508; Y: 1179), (X: 16508; Y: 1180), (X: 16509; Y: 1180), (X: 16509; Y: 1181),
+    (X: 16510; Y: 1181), (X: 16510; Y: 1182), (X: 16511; Y: 1182), (X: 16511; Y: 1183),
+    (X: 16512; Y: 1183), (X: 16512; Y: 1184), (X: 16513; Y: 1184), (X: 16513; Y: 1185),
+    (X: 16514; Y: 1185), (X: 16515; Y: 1186), (X: 16516; Y: 1186), (X: 16517; Y: 1187),
+    (X: 16518; Y: 1187), (X: 16518; Y: 1188), (X: 16519; Y: 1188), (X: 16520; Y: 1188),
+    (X: 16520; Y: 1189), (X: 16521; Y: 1189), (X: 16522; Y: 1189), (X: 16523; Y: 1189),
+    (X: 16523; Y: 1190), (X: 16524; Y: 1190), (X: 16525; Y: 1190), (X: 16526; Y: 1190),
+    (X: 16527; Y: 1190), (X: 16529; Y: 1191), (X: 16530; Y: 1191), (X: 16532; Y: 1190),
+    (X: 16533; Y: 1190), (X: 16534; Y: 1190), (X: 16535; Y: 1190), (X: 16536; Y: 1190),
+    (X: 16536; Y: 1189), (X: 16537; Y: 1189), (X: 16539; Y: 1190), (X: 16541; Y: 1190),
+    (X: 16542; Y: 1190), (X: 16544; Y: 1190), (X: 16545; Y: 1190), (X: 16546; Y: 1189),
+    (X: 16547; Y: 1189), (X: 16548; Y: 1189), (X: 16549; Y: 1189), (X: 16549; Y: 1188),
+    (X: 16550; Y: 1188), (X: 16551; Y: 1188), (X: 16551; Y: 1187), (X: 16552; Y: 1187),
+    (X: 16553; Y: 1187), (X: 16554; Y: 1186), (X: 16555; Y: 1186), (X: 16555; Y: 1185),
+    (X: 16556; Y: 1185), (X: 16556; Y: 1184), (X: 16557; Y: 1184), (X: 16557; Y: 1183),
+    (X: 16558; Y: 1183), (X: 16560; Y: 1183), (X: 16561; Y: 1182), (X: 16562; Y: 1182),
+    (X: 16563; Y: 1182), (X: 16563; Y: 1181), (X: 16564; Y: 1181), (X: 16565; Y: 1181),
+    (X: 16566; Y: 1180), (X: 16567; Y: 1179), (X: 16568; Y: 1179), (X: 16568; Y: 1178),
+    (X: 16569; Y: 1178), (X: 16569; Y: 1177), (X: 16570; Y: 1177), (X: 16570; Y: 1176),
+    (X: 16571; Y: 1176), (X: 16571; Y: 1175), (X: 16572; Y: 1175), (X: 16572; Y: 1174),
+    (X: 16573; Y: 1173), (X: 16573; Y: 1172), (X: 16574; Y: 1172), (X: 16574; Y: 1171),
+    (X: 16574; Y: 1170), (X: 16575; Y: 1169), (X: 16575; Y: 1168), (X: 16575; Y: 1167),
+    (X: 16576; Y: 1166), (X: 16576; Y: 1165), (X: 16576; Y: 1164), (X: 16576; Y: 1163),
+    (X: 16576; Y: 1162), (X: 16576; Y: 1161), (X: 16576; Y: 1160), (X: 16576; Y: 1159),
+    (X: 16577; Y: 1159), (X: 16577; Y: 1158), (X: 16577; Y: 1157), (X: 16577; Y: 1156),
+    (X: 16577; Y: 1155), (X: 16577; Y: 1154), (X: 16577; Y: 1153), (X: 16577; Y: 1152),
+    (X: 16577; Y: 1151), (X: 16577; Y: 1150), (X: 16577; Y: 1149), (X: 16577; Y: 1148),
+    (X: 16577; Y: 1147), (X: 16576; Y: 1146), (X: 16576; Y: 1145), (X: 16576; Y: 1144),
+    (X: 16575; Y: 1144), (X: 16575; Y: 1143), (X: 16575; Y: 1142), (X: 16574; Y: 1142),
+    (X: 16574; Y: 1141), (X: 16573; Y: 1140), (X: 16573; Y: 1139), (X: 16572; Y: 1139),
+    (X: 16572; Y: 1138), (X: 16571; Y: 1138), (X: 16571; Y: 1137), (X: 16570; Y: 1137),
+    (X: 16570; Y: 1136), (X: 16569; Y: 1136), (X: 16568; Y: 1135), (X: 16567; Y: 1134),
+    (X: 16566; Y: 1134), (X: 16565; Y: 1133), (X: 16564; Y: 1133), (X: 16563; Y: 1133),
+    (X: 16563; Y: 1132), (X: 16562; Y: 1132), (X: 16561; Y: 1132), (X: 16560; Y: 1132),
+    (X: 16559; Y: 1132), (X: 16558; Y: 1131), (X: 16557; Y: 1131), (X: 16556; Y: 1131),
+    (X: 16554; Y: 1131), (X: 16553; Y: 1132), (X: 16552; Y: 1132), (X: 16551; Y: 1132),
+    (X: 16550; Y: 1132), (X: 16549; Y: 1132), (X: 16548; Y: 1132), (X: 16547; Y: 1132),
+    (X: 16546; Y: 1131), (X: 16545; Y: 1131), (X: 16544; Y: 1131), (X: 16543; Y: 1131),
+    (X: 16542; Y: 1131), (X: 16542; Y: 1130), (X: 16541; Y: 1130), (X: 16540; Y: 1130),
+    (X: 16539; Y: 1130), (X: 16538; Y: 1130), (X: 16537; Y: 1130), (X: 16535; Y: 1129)
+  );
+
+  cPacificMajuro_10: array [0..140] of TTimeZonePoint = (
+    (X: 16912; Y: 544), (X: 16911; Y: 544), (X: 16909; Y: 544), (X: 16908; Y: 544),
+    (X: 16907; Y: 544), (X: 16907; Y: 545), (X: 16906; Y: 545), (X: 16905; Y: 545),
+    (X: 16904; Y: 545), (X: 16903; Y: 546), (X: 16902; Y: 546), (X: 16901; Y: 547),
+    (X: 16900; Y: 547), (X: 16900; Y: 548), (X: 16899; Y: 548), (X: 16899; Y: 549),
+    (X: 16898; Y: 549), (X: 16897; Y: 550), (X: 16896; Y: 551), (X: 16895; Y: 552),
+    (X: 16895; Y: 553), (X: 16894; Y: 553), (X: 16894; Y: 554), (X: 16894; Y: 555),
+    (X: 16893; Y: 555), (X: 16893; Y: 556), (X: 16893; Y: 557), (X: 16892; Y: 557),
+    (X: 16892; Y: 558), (X: 16892; Y: 559), (X: 16892; Y: 560), (X: 16891; Y: 561),
+    (X: 16891; Y: 562), (X: 16891; Y: 563), (X: 16891; Y: 564), (X: 16891; Y: 565),
+    (X: 16891; Y: 566), (X: 16891; Y: 567), (X: 16892; Y: 568), (X: 16892; Y: 569),
+    (X: 16892; Y: 570), (X: 16892; Y: 571), (X: 16893; Y: 571), (X: 16893; Y: 572),
+    (X: 16893; Y: 573), (X: 16894; Y: 574), (X: 16894; Y: 575), (X: 16895; Y: 575),
+    (X: 16895; Y: 576), (X: 16896; Y: 577), (X: 16897; Y: 578), (X: 16897; Y: 579),
+    (X: 16898; Y: 579), (X: 16899; Y: 579), (X: 16899; Y: 580), (X: 16900; Y: 580),
+    (X: 16900; Y: 581), (X: 16901; Y: 581), (X: 16902; Y: 582), (X: 16903; Y: 582),
+    (X: 16903; Y: 583), (X: 16904; Y: 583), (X: 16905; Y: 583), (X: 16906; Y: 584),
+    (X: 16907; Y: 584), (X: 16908; Y: 584), (X: 16909; Y: 584), (X: 16909; Y: 585),
+    (X: 16910; Y: 585), (X: 16911; Y: 585), (X: 16912; Y: 585), (X: 16913; Y: 585),
+    (X: 16915; Y: 585), (X: 16916; Y: 585), (X: 16917; Y: 584), (X: 16918; Y: 584),
+    (X: 16919; Y: 584), (X: 16920; Y: 584), (X: 16920; Y: 583), (X: 16921; Y: 583),
+    (X: 16922; Y: 583), (X: 16923; Y: 582), (X: 16924; Y: 582), (X: 16924; Y: 581),
+    (X: 16925; Y: 581), (X: 16926; Y: 580), (X: 16927; Y: 579), (X: 16928; Y: 579),
+    (X: 16928; Y: 578), (X: 16929; Y: 577), (X: 16930; Y: 576), (X: 16930; Y: 575),
+    (X: 16931; Y: 575), (X: 16931; Y: 574), (X: 16931; Y: 573), (X: 16932; Y: 572),
+    (X: 16932; Y: 571), (X: 16932; Y: 570), (X: 16933; Y: 570), (X: 16933; Y: 569),
+    (X: 16933; Y: 568), (X: 16933; Y: 567), (X: 16933; Y: 566), (X: 16933; Y: 565),
+    (X: 16933; Y: 564), (X: 16933; Y: 563), (X: 16933; Y: 562), (X: 16933; Y: 561),
+    (X: 16933; Y: 560), (X: 16932; Y: 560), (X: 16932; Y: 559), (X: 16932; Y: 558),
+    (X: 16932; Y: 557), (X: 16931; Y: 557), (X: 16931; Y: 556), (X: 16931; Y: 555),
+    (X: 16930; Y: 555), (X: 16930; Y: 554), (X: 16929; Y: 553), (X: 16929; Y: 552),
+    (X: 16928; Y: 552), (X: 16928; Y: 551), (X: 16927; Y: 551), (X: 16927; Y: 550),
+    (X: 16926; Y: 550), (X: 16926; Y: 549), (X: 16925; Y: 549), (X: 16924; Y: 548),
+    (X: 16923; Y: 547), (X: 16922; Y: 547), (X: 16922; Y: 546), (X: 16921; Y: 546),
+    (X: 16920; Y: 546), (X: 16920; Y: 545), (X: 16919; Y: 545), (X: 16918; Y: 545),
+    (X: 16917; Y: 545), (X: 16916; Y: 544), (X: 16915; Y: 544), (X: 16914; Y: 544),
+    (X: 16912; Y: 544)
+  );
+
+  cPacificMajuro_11: array [0..372] of TTimeZonePoint = (
+    (X: 17144; Y: 731), (X: 17144; Y: 732), (X: 17144; Y: 733), (X: 17145; Y: 733),
+    (X: 17145; Y: 734), (X: 17145; Y: 735), (X: 17145; Y: 736), (X: 17146; Y: 736),
+    (X: 17146; Y: 737), (X: 17146; Y: 738), (X: 17147; Y: 738), (X: 17147; Y: 739),
+    (X: 17147; Y: 740), (X: 17148; Y: 740), (X: 17148; Y: 741), (X: 17149; Y: 742),
+    (X: 17150; Y: 743), (X: 17151; Y: 743), (X: 17151; Y: 744), (X: 17152; Y: 744),
+    (X: 17152; Y: 745), (X: 17153; Y: 745), (X: 17153; Y: 746), (X: 17154; Y: 746),
+    (X: 17155; Y: 746), (X: 17155; Y: 747), (X: 17156; Y: 747), (X: 17157; Y: 747),
+    (X: 17157; Y: 748), (X: 17158; Y: 748), (X: 17159; Y: 748), (X: 17160; Y: 748),
+    (X: 17160; Y: 749), (X: 17161; Y: 749), (X: 17162; Y: 749), (X: 17164; Y: 749),
+    (X: 17165; Y: 749), (X: 17167; Y: 749), (X: 17168; Y: 749), (X: 17169; Y: 749),
+    (X: 17169; Y: 748), (X: 17170; Y: 748), (X: 17171; Y: 748), (X: 17172; Y: 748),
+    (X: 17173; Y: 747), (X: 17174; Y: 747), (X: 17175; Y: 747), (X: 17175; Y: 746),
+    (X: 17176; Y: 746), (X: 17177; Y: 745), (X: 17178; Y: 745), (X: 17179; Y: 744),
+    (X: 17180; Y: 743), (X: 17181; Y: 742), (X: 17182; Y: 741), (X: 17182; Y: 740),
+    (X: 17183; Y: 740), (X: 17183; Y: 739), (X: 17184; Y: 738), (X: 17184; Y: 737),
+    (X: 17185; Y: 736), (X: 17185; Y: 735), (X: 17185; Y: 734), (X: 17186; Y: 733),
+    (X: 17186; Y: 732), (X: 17187; Y: 732), (X: 17187; Y: 733), (X: 17188; Y: 733),
+    (X: 17189; Y: 733), (X: 17190; Y: 733), (X: 17192; Y: 733), (X: 17193; Y: 733),
+    (X: 17194; Y: 733), (X: 17195; Y: 733), (X: 17196; Y: 733), (X: 17197; Y: 733),
+    (X: 17198; Y: 732), (X: 17199; Y: 732), (X: 17200; Y: 732), (X: 17200; Y: 731),
+    (X: 17201; Y: 731), (X: 17202; Y: 731), (X: 17202; Y: 730), (X: 17203; Y: 730),
+    (X: 17204; Y: 729), (X: 17205; Y: 729), (X: 17206; Y: 728), (X: 17207; Y: 728),
+    (X: 17207; Y: 727), (X: 17208; Y: 726), (X: 17209; Y: 725), (X: 17210; Y: 724),
+    (X: 17210; Y: 723), (X: 17211; Y: 723), (X: 17211; Y: 722), (X: 17211; Y: 721),
+    (X: 17212; Y: 721), (X: 17212; Y: 720), (X: 17212; Y: 719), (X: 17213; Y: 719),
+    (X: 17213; Y: 718), (X: 17213; Y: 717), (X: 17213; Y: 716), (X: 17214; Y: 715),
+    (X: 17214; Y: 714), (X: 17214; Y: 713), (X: 17214; Y: 712), (X: 17214; Y: 711),
+    (X: 17214; Y: 710), (X: 17214; Y: 709), (X: 17213; Y: 709), (X: 17213; Y: 708),
+    (X: 17213; Y: 707), (X: 17213; Y: 706), (X: 17213; Y: 705), (X: 17212; Y: 704),
+    (X: 17212; Y: 703), (X: 17211; Y: 702), (X: 17211; Y: 701), (X: 17210; Y: 701),
+    (X: 17210; Y: 700), (X: 17209; Y: 699), (X: 17209; Y: 698), (X: 17208; Y: 698),
+    (X: 17208; Y: 697), (X: 17207; Y: 697), (X: 17207; Y: 696), (X: 17206; Y: 695),
+    (X: 17205; Y: 695), (X: 17205; Y: 694), (X: 17204; Y: 694), (X: 17204; Y: 693),
+    (X: 17203; Y: 693), (X: 17203; Y: 692), (X: 17202; Y: 692), (X: 17201; Y: 691),
+    (X: 17200; Y: 691), (X: 17199; Y: 690), (X: 17198; Y: 690), (X: 17197; Y: 690),
+    (X: 17197; Y: 689), (X: 17196; Y: 689), (X: 17195; Y: 689), (X: 17195; Y: 688),
+    (X: 17194; Y: 688), (X: 17194; Y: 687), (X: 17194; Y: 686), (X: 17193; Y: 686),
+    (X: 17193; Y: 685), (X: 17192; Y: 684), (X: 17192; Y: 683), (X: 17191; Y: 683),
+    (X: 17191; Y: 682), (X: 17190; Y: 682), (X: 17190; Y: 681), (X: 17189; Y: 681),
+    (X: 17189; Y: 680), (X: 17188; Y: 680), (X: 17187; Y: 679), (X: 17186; Y: 679),
+    (X: 17186; Y: 678), (X: 17185; Y: 678), (X: 17184; Y: 678), (X: 17184; Y: 677),
+    (X: 17183; Y: 677), (X: 17182; Y: 677), (X: 17181; Y: 676), (X: 17180; Y: 676),
+    (X: 17179; Y: 676), (X: 17178; Y: 676), (X: 17176; Y: 676), (X: 17174; Y: 676),
+    (X: 17173; Y: 676), (X: 17172; Y: 676), (X: 17171; Y: 676), (X: 17170; Y: 676),
+    (X: 17169; Y: 676), (X: 17168; Y: 677), (X: 17167; Y: 677), (X: 17166; Y: 677),
+    (X: 17166; Y: 678), (X: 17165; Y: 678), (X: 17164; Y: 678), (X: 17163; Y: 679),
+    (X: 17162; Y: 679), (X: 17161; Y: 679), (X: 17159; Y: 679), (X: 17158; Y: 680),
+    (X: 17157; Y: 680), (X: 17156; Y: 680), (X: 17155; Y: 680), (X: 17154; Y: 680),
+    (X: 17154; Y: 681), (X: 17153; Y: 681), (X: 17152; Y: 681), (X: 17152; Y: 682),
+    (X: 17151; Y: 682), (X: 17150; Y: 682), (X: 17150; Y: 683), (X: 17149; Y: 683),
+    (X: 17148; Y: 684), (X: 17147; Y: 684), (X: 17147; Y: 685), (X: 17146; Y: 685),
+    (X: 17146; Y: 686), (X: 17145; Y: 686), (X: 17145; Y: 687), (X: 17144; Y: 687),
+    (X: 17144; Y: 688), (X: 17143; Y: 688), (X: 17143; Y: 689), (X: 17142; Y: 689),
+    (X: 17141; Y: 689), (X: 17140; Y: 689), (X: 17139; Y: 688), (X: 17138; Y: 688),
+    (X: 17137; Y: 688), (X: 17136; Y: 688), (X: 17134; Y: 687), (X: 17133; Y: 687),
+    (X: 17132; Y: 687), (X: 17131; Y: 687), (X: 17130; Y: 686), (X: 17129; Y: 686),
+    (X: 17128; Y: 686), (X: 17127; Y: 686), (X: 17126; Y: 686), (X: 17125; Y: 685),
+    (X: 17124; Y: 685), (X: 17123; Y: 685), (X: 17121; Y: 685), (X: 17120; Y: 686),
+    (X: 17119; Y: 686), (X: 17118; Y: 686), (X: 17117; Y: 686), (X: 17116; Y: 686),
+    (X: 17116; Y: 687), (X: 17115; Y: 687), (X: 17114; Y: 687), (X: 17113; Y: 687),
+    (X: 17112; Y: 688), (X: 17111; Y: 688), (X: 17110; Y: 688), (X: 17110; Y: 689),
+    (X: 17109; Y: 689), (X: 17108; Y: 689), (X: 17107; Y: 690), (X: 17106; Y: 690),
+    (X: 17105; Y: 690), (X: 17105; Y: 691), (X: 17104; Y: 691), (X: 17103; Y: 691),
+    (X: 17102; Y: 691), (X: 17102; Y: 692), (X: 17101; Y: 692), (X: 17100; Y: 692),
+    (X: 17099; Y: 693), (X: 17098; Y: 693), (X: 17097; Y: 694), (X: 17096; Y: 694),
+    (X: 17095; Y: 695), (X: 17094; Y: 695), (X: 17093; Y: 696), (X: 17092; Y: 697),
+    (X: 17091; Y: 698), (X: 17090; Y: 699), (X: 17089; Y: 699), (X: 17089; Y: 700),
+    (X: 17088; Y: 700), (X: 17088; Y: 701), (X: 17087; Y: 702), (X: 17086; Y: 703),
+    (X: 17086; Y: 704), (X: 17085; Y: 704), (X: 17085; Y: 705), (X: 17085; Y: 706),
+    (X: 17084; Y: 706), (X: 17084; Y: 707), (X: 17084; Y: 708), (X: 17083; Y: 709),
+    (X: 17083; Y: 710), (X: 17083; Y: 711), (X: 17083; Y: 712), (X: 17083; Y: 713),
+    (X: 17083; Y: 714), (X: 17083; Y: 715), (X: 17083; Y: 716), (X: 17083; Y: 717),
+    (X: 17083; Y: 718), (X: 17083; Y: 719), (X: 17083; Y: 720), (X: 17083; Y: 721),
+    (X: 17084; Y: 721), (X: 17084; Y: 722), (X: 17084; Y: 723), (X: 17085; Y: 723),
+    (X: 17085; Y: 724), (X: 17085; Y: 725), (X: 17086; Y: 726), (X: 17086; Y: 727),
+    (X: 17086; Y: 728), (X: 17086; Y: 729), (X: 17087; Y: 729), (X: 17087; Y: 730),
+    (X: 17087; Y: 731), (X: 17088; Y: 731), (X: 17088; Y: 732), (X: 17089; Y: 733),
+    (X: 17089; Y: 734), (X: 17090; Y: 734), (X: 17090; Y: 735), (X: 17091; Y: 735),
+    (X: 17091; Y: 736), (X: 17092; Y: 736), (X: 17092; Y: 737), (X: 17093; Y: 737),
+    (X: 17093; Y: 738), (X: 17094; Y: 738), (X: 17095; Y: 739), (X: 17096; Y: 739),
+    (X: 17096; Y: 740), (X: 17097; Y: 740), (X: 17098; Y: 740), (X: 17098; Y: 741),
+    (X: 17099; Y: 741), (X: 17100; Y: 741), (X: 17101; Y: 741), (X: 17101; Y: 742),
+    (X: 17102; Y: 742), (X: 17103; Y: 742), (X: 17104; Y: 742), (X: 17106; Y: 742),
+    (X: 17107; Y: 742), (X: 17109; Y: 742), (X: 17110; Y: 742), (X: 17111; Y: 742),
+    (X: 17112; Y: 742), (X: 17112; Y: 741), (X: 17113; Y: 741), (X: 17114; Y: 741),
+    (X: 17115; Y: 741), (X: 17116; Y: 740), (X: 17117; Y: 740), (X: 17118; Y: 739),
+    (X: 17119; Y: 739), (X: 17119; Y: 738), (X: 17120; Y: 738), (X: 17121; Y: 737),
+    (X: 17122; Y: 737), (X: 17122; Y: 736), (X: 17124; Y: 736), (X: 17125; Y: 736),
+    (X: 17126; Y: 736), (X: 17127; Y: 735), (X: 17128; Y: 735), (X: 17129; Y: 735),
+    (X: 17130; Y: 735), (X: 17131; Y: 735), (X: 17132; Y: 735), (X: 17133; Y: 735),
+    (X: 17133; Y: 734), (X: 17134; Y: 734), (X: 17135; Y: 734), (X: 17136; Y: 734),
+    (X: 17137; Y: 733), (X: 17138; Y: 733), (X: 17139; Y: 732), (X: 17140; Y: 732),
+    (X: 17141; Y: 732), (X: 17142; Y: 732), (X: 17143; Y: 732), (X: 17143; Y: 731),
+    (X: 17144; Y: 731)
+  );
+
+  cPacificMajuro_12: array [0..293] of TTimeZonePoint = (
+    (X: 16961; Y: 559), (X: 16960; Y: 559), (X: 16958; Y: 559), (X: 16957; Y: 559),
+    (X: 16956; Y: 559), (X: 16955; Y: 559), (X: 16954; Y: 560), (X: 16953; Y: 560),
+    (X: 16952; Y: 560), (X: 16952; Y: 561), (X: 16951; Y: 561), (X: 16950; Y: 561),
+    (X: 16950; Y: 562), (X: 16949; Y: 562), (X: 16948; Y: 562), (X: 16948; Y: 563),
+    (X: 16947; Y: 563), (X: 16946; Y: 563), (X: 16946; Y: 564), (X: 16945; Y: 564),
+    (X: 16945; Y: 565), (X: 16944; Y: 565), (X: 16944; Y: 566), (X: 16943; Y: 566),
+    (X: 16942; Y: 567), (X: 16942; Y: 568), (X: 16941; Y: 568), (X: 16940; Y: 569),
+    (X: 16939; Y: 569), (X: 16939; Y: 570), (X: 16938; Y: 571), (X: 16937; Y: 571),
+    (X: 16937; Y: 572), (X: 16936; Y: 573), (X: 16936; Y: 574), (X: 16935; Y: 575),
+    (X: 16935; Y: 576), (X: 16934; Y: 576), (X: 16934; Y: 577), (X: 16933; Y: 577),
+    (X: 16933; Y: 578), (X: 16932; Y: 578), (X: 16931; Y: 578), (X: 16931; Y: 579),
+    (X: 16930; Y: 579), (X: 16930; Y: 580), (X: 16929; Y: 580), (X: 16929; Y: 581),
+    (X: 16928; Y: 581), (X: 16928; Y: 582), (X: 16927; Y: 582), (X: 16926; Y: 583),
+    (X: 16926; Y: 584), (X: 16925; Y: 584), (X: 16925; Y: 585), (X: 16925; Y: 586),
+    (X: 16924; Y: 586), (X: 16924; Y: 587), (X: 16924; Y: 588), (X: 16923; Y: 588),
+    (X: 16923; Y: 589), (X: 16923; Y: 590), (X: 16923; Y: 591), (X: 16922; Y: 592),
+    (X: 16922; Y: 593), (X: 16922; Y: 594), (X: 16922; Y: 595), (X: 16922; Y: 596),
+    (X: 16922; Y: 597), (X: 16922; Y: 598), (X: 16922; Y: 599), (X: 16923; Y: 599),
+    (X: 16923; Y: 600), (X: 16923; Y: 601), (X: 16923; Y: 602), (X: 16924; Y: 603),
+    (X: 16924; Y: 604), (X: 16924; Y: 605), (X: 16924; Y: 606), (X: 16924; Y: 607),
+    (X: 16925; Y: 608), (X: 16925; Y: 609), (X: 16925; Y: 610), (X: 16925; Y: 611),
+    (X: 16925; Y: 612), (X: 16926; Y: 612), (X: 16925; Y: 613), (X: 16925; Y: 614),
+    (X: 16924; Y: 614), (X: 16924; Y: 615), (X: 16923; Y: 616), (X: 16923; Y: 617),
+    (X: 16922; Y: 617), (X: 16922; Y: 618), (X: 16922; Y: 619), (X: 16922; Y: 620),
+    (X: 16921; Y: 620), (X: 16921; Y: 621), (X: 16921; Y: 623), (X: 16921; Y: 624),
+    (X: 16921; Y: 625), (X: 16921; Y: 626), (X: 16920; Y: 626), (X: 16920; Y: 627),
+    (X: 16921; Y: 628), (X: 16921; Y: 629), (X: 16921; Y: 630), (X: 16921; Y: 631),
+    (X: 16921; Y: 632), (X: 16921; Y: 633), (X: 16921; Y: 634), (X: 16922; Y: 635),
+    (X: 16922; Y: 636), (X: 16922; Y: 637), (X: 16923; Y: 637), (X: 16923; Y: 638),
+    (X: 16923; Y: 639), (X: 16924; Y: 639), (X: 16924; Y: 640), (X: 16924; Y: 641),
+    (X: 16925; Y: 641), (X: 16925; Y: 642), (X: 16926; Y: 642), (X: 16926; Y: 643),
+    (X: 16927; Y: 643), (X: 16927; Y: 644), (X: 16928; Y: 644), (X: 16928; Y: 645),
+    (X: 16929; Y: 645), (X: 16929; Y: 646), (X: 16930; Y: 646), (X: 16931; Y: 646),
+    (X: 16931; Y: 647), (X: 16932; Y: 647), (X: 16933; Y: 647), (X: 16933; Y: 648),
+    (X: 16934; Y: 648), (X: 16935; Y: 648), (X: 16936; Y: 649), (X: 16937; Y: 649),
+    (X: 16938; Y: 649), (X: 16938; Y: 650), (X: 16939; Y: 650), (X: 16940; Y: 650),
+    (X: 16941; Y: 650), (X: 16942; Y: 650), (X: 16943; Y: 651), (X: 16944; Y: 651),
+    (X: 16945; Y: 651), (X: 16947; Y: 651), (X: 16947; Y: 650), (X: 16948; Y: 650),
+    (X: 16949; Y: 650), (X: 16950; Y: 650), (X: 16951; Y: 650), (X: 16952; Y: 649),
+    (X: 16953; Y: 649), (X: 16954; Y: 649), (X: 16955; Y: 648), (X: 16956; Y: 648),
+    (X: 16957; Y: 647), (X: 16958; Y: 647), (X: 16958; Y: 646), (X: 16959; Y: 646),
+    (X: 16960; Y: 645), (X: 16961; Y: 645), (X: 16961; Y: 644), (X: 16962; Y: 644),
+    (X: 16962; Y: 643), (X: 16963; Y: 643), (X: 16963; Y: 642), (X: 16964; Y: 642),
+    (X: 16964; Y: 641), (X: 16965; Y: 641), (X: 16965; Y: 640), (X: 16966; Y: 639),
+    (X: 16966; Y: 638), (X: 16967; Y: 638), (X: 16967; Y: 637), (X: 16968; Y: 636),
+    (X: 16968; Y: 635), (X: 16968; Y: 634), (X: 16969; Y: 634), (X: 16969; Y: 633),
+    (X: 16970; Y: 633), (X: 16970; Y: 632), (X: 16971; Y: 632), (X: 16971; Y: 631),
+    (X: 16972; Y: 630), (X: 16972; Y: 629), (X: 16973; Y: 629), (X: 16973; Y: 628),
+    (X: 16973; Y: 627), (X: 16974; Y: 626), (X: 16974; Y: 625), (X: 16975; Y: 625),
+    (X: 16975; Y: 624), (X: 16976; Y: 624), (X: 16977; Y: 624), (X: 16977; Y: 623),
+    (X: 16978; Y: 623), (X: 16978; Y: 622), (X: 16979; Y: 622), (X: 16980; Y: 621),
+    (X: 16981; Y: 620), (X: 16982; Y: 620), (X: 16982; Y: 619), (X: 16983; Y: 619),
+    (X: 16983; Y: 618), (X: 16984; Y: 618), (X: 16985; Y: 617), (X: 16986; Y: 617),
+    (X: 16986; Y: 616), (X: 16987; Y: 616), (X: 16987; Y: 615), (X: 16988; Y: 615),
+    (X: 16988; Y: 614), (X: 16989; Y: 613), (X: 16989; Y: 612), (X: 16990; Y: 612),
+    (X: 16990; Y: 611), (X: 16991; Y: 610), (X: 16991; Y: 609), (X: 16991; Y: 608),
+    (X: 16992; Y: 608), (X: 16992; Y: 607), (X: 16992; Y: 606), (X: 16992; Y: 605),
+    (X: 16992; Y: 604), (X: 16993; Y: 603), (X: 16993; Y: 602), (X: 16993; Y: 601),
+    (X: 16993; Y: 600), (X: 16992; Y: 599), (X: 16992; Y: 598), (X: 16992; Y: 597),
+    (X: 16992; Y: 596), (X: 16992; Y: 595), (X: 16992; Y: 594), (X: 16992; Y: 593),
+    (X: 16991; Y: 593), (X: 16991; Y: 592), (X: 16991; Y: 591), (X: 16990; Y: 590),
+    (X: 16990; Y: 589), (X: 16989; Y: 588), (X: 16989; Y: 587), (X: 16988; Y: 587),
+    (X: 16988; Y: 586), (X: 16987; Y: 585), (X: 16987; Y: 584), (X: 16986; Y: 584),
+    (X: 16986; Y: 583), (X: 16985; Y: 583), (X: 16984; Y: 582), (X: 16983; Y: 581),
+    (X: 16982; Y: 581), (X: 16982; Y: 580), (X: 16982; Y: 579), (X: 16982; Y: 578),
+    (X: 16981; Y: 578), (X: 16981; Y: 577), (X: 16981; Y: 576), (X: 16981; Y: 575),
+    (X: 16981; Y: 574), (X: 16980; Y: 574), (X: 16980; Y: 573), (X: 16980; Y: 572),
+    (X: 16979; Y: 571), (X: 16979; Y: 570), (X: 16978; Y: 569), (X: 16978; Y: 568),
+    (X: 16977; Y: 568), (X: 16977; Y: 567), (X: 16976; Y: 566), (X: 16976; Y: 565),
+    (X: 16975; Y: 565), (X: 16975; Y: 564), (X: 16974; Y: 564), (X: 16974; Y: 563),
+    (X: 16973; Y: 563), (X: 16972; Y: 562), (X: 16971; Y: 562), (X: 16971; Y: 561),
+    (X: 16970; Y: 561), (X: 16969; Y: 561), (X: 16969; Y: 560), (X: 16968; Y: 560),
+    (X: 16967; Y: 560), (X: 16966; Y: 559), (X: 16965; Y: 559), (X: 16964; Y: 559),
+    (X: 16963; Y: 559), (X: 16961; Y: 559)
+  );
+
+  cPacificMajuro_13: array [0..241] of TTimeZonePoint = (
+    (X: 16232; Y: 1114), (X: 16230; Y: 1114), (X: 16229; Y: 1114), (X: 16228; Y: 1114),
+    (X: 16227; Y: 1114), (X: 16226; Y: 1114), (X: 16225; Y: 1115), (X: 16224; Y: 1114),
+    (X: 16223; Y: 1114), (X: 16222; Y: 1114), (X: 16220; Y: 1114), (X: 16219; Y: 1115),
+    (X: 16218; Y: 1115), (X: 16217; Y: 1115), (X: 16216; Y: 1115), (X: 16215; Y: 1116),
+    (X: 16214; Y: 1116), (X: 16213; Y: 1116), (X: 16212; Y: 1116), (X: 16212; Y: 1117),
+    (X: 16211; Y: 1117), (X: 16210; Y: 1117), (X: 16209; Y: 1118), (X: 16208; Y: 1118),
+    (X: 16208; Y: 1119), (X: 16207; Y: 1119), (X: 16206; Y: 1120), (X: 16205; Y: 1120),
+    (X: 16204; Y: 1121), (X: 16203; Y: 1122), (X: 16202; Y: 1122), (X: 16202; Y: 1123),
+    (X: 16201; Y: 1123), (X: 16201; Y: 1124), (X: 16200; Y: 1124), (X: 16200; Y: 1125),
+    (X: 16199; Y: 1125), (X: 16199; Y: 1126), (X: 16199; Y: 1127), (X: 16198; Y: 1127),
+    (X: 16198; Y: 1128), (X: 16197; Y: 1129), (X: 16196; Y: 1130), (X: 16195; Y: 1130),
+    (X: 16195; Y: 1131), (X: 16194; Y: 1131), (X: 16194; Y: 1132), (X: 16193; Y: 1133),
+    (X: 16192; Y: 1134), (X: 16192; Y: 1135), (X: 16191; Y: 1136), (X: 16190; Y: 1137),
+    (X: 16190; Y: 1138), (X: 16190; Y: 1139), (X: 16189; Y: 1140), (X: 16189; Y: 1141),
+    (X: 16189; Y: 1142), (X: 16189; Y: 1143), (X: 16189; Y: 1144), (X: 16188; Y: 1145),
+    (X: 16188; Y: 1146), (X: 16188; Y: 1147), (X: 16189; Y: 1148), (X: 16189; Y: 1149),
+    (X: 16189; Y: 1150), (X: 16189; Y: 1151), (X: 16189; Y: 1152), (X: 16190; Y: 1153),
+    (X: 16190; Y: 1154), (X: 16191; Y: 1155), (X: 16191; Y: 1156), (X: 16192; Y: 1157),
+    (X: 16192; Y: 1158), (X: 16193; Y: 1158), (X: 16193; Y: 1159), (X: 16194; Y: 1159),
+    (X: 16194; Y: 1160), (X: 16194; Y: 1161), (X: 16194; Y: 1162), (X: 16194; Y: 1163),
+    (X: 16194; Y: 1164), (X: 16194; Y: 1165), (X: 16194; Y: 1166), (X: 16194; Y: 1167),
+    (X: 16194; Y: 1168), (X: 16194; Y: 1169), (X: 16195; Y: 1170), (X: 16195; Y: 1171),
+    (X: 16195; Y: 1172), (X: 16196; Y: 1172), (X: 16196; Y: 1173), (X: 16196; Y: 1174),
+    (X: 16197; Y: 1174), (X: 16197; Y: 1175), (X: 16198; Y: 1176), (X: 16198; Y: 1177),
+    (X: 16199; Y: 1177), (X: 16199; Y: 1178), (X: 16200; Y: 1178), (X: 16200; Y: 1179),
+    (X: 16201; Y: 1179), (X: 16201; Y: 1180), (X: 16202; Y: 1180), (X: 16203; Y: 1181),
+    (X: 16204; Y: 1181), (X: 16204; Y: 1182), (X: 16205; Y: 1182), (X: 16206; Y: 1183),
+    (X: 16207; Y: 1183), (X: 16207; Y: 1184), (X: 16208; Y: 1184), (X: 16209; Y: 1185),
+    (X: 16210; Y: 1185), (X: 16210; Y: 1186), (X: 16211; Y: 1186), (X: 16212; Y: 1186),
+    (X: 16213; Y: 1186), (X: 16213; Y: 1187), (X: 16214; Y: 1187), (X: 16215; Y: 1187),
+    (X: 16216; Y: 1187), (X: 16217; Y: 1187), (X: 16219; Y: 1188), (X: 16220; Y: 1188),
+    (X: 16222; Y: 1187), (X: 16223; Y: 1187), (X: 16224; Y: 1187), (X: 16225; Y: 1187),
+    (X: 16226; Y: 1187), (X: 16227; Y: 1187), (X: 16228; Y: 1187), (X: 16228; Y: 1186),
+    (X: 16229; Y: 1186), (X: 16230; Y: 1186), (X: 16231; Y: 1186), (X: 16232; Y: 1186),
+    (X: 16232; Y: 1185), (X: 16233; Y: 1185), (X: 16234; Y: 1185), (X: 16234; Y: 1184),
+    (X: 16235; Y: 1184), (X: 16236; Y: 1184), (X: 16236; Y: 1183), (X: 16237; Y: 1183),
+    (X: 16237; Y: 1182), (X: 16238; Y: 1182), (X: 16239; Y: 1181), (X: 16240; Y: 1181),
+    (X: 16241; Y: 1180), (X: 16242; Y: 1180), (X: 16243; Y: 1179), (X: 16244; Y: 1179),
+    (X: 16244; Y: 1178), (X: 16245; Y: 1178), (X: 16245; Y: 1177), (X: 16246; Y: 1177),
+    (X: 16247; Y: 1176), (X: 16248; Y: 1175), (X: 16249; Y: 1174), (X: 16249; Y: 1173),
+    (X: 16250; Y: 1173), (X: 16250; Y: 1172), (X: 16250; Y: 1171), (X: 16251; Y: 1171),
+    (X: 16251; Y: 1170), (X: 16252; Y: 1169), (X: 16252; Y: 1168), (X: 16252; Y: 1167),
+    (X: 16253; Y: 1167), (X: 16253; Y: 1166), (X: 16253; Y: 1165), (X: 16253; Y: 1164),
+    (X: 16254; Y: 1164), (X: 16254; Y: 1163), (X: 16255; Y: 1162), (X: 16255; Y: 1161),
+    (X: 16256; Y: 1160), (X: 16256; Y: 1159), (X: 16257; Y: 1158), (X: 16257; Y: 1157),
+    (X: 16258; Y: 1156), (X: 16258; Y: 1155), (X: 16259; Y: 1154), (X: 16259; Y: 1153),
+    (X: 16259; Y: 1152), (X: 16259; Y: 1151), (X: 16259; Y: 1150), (X: 16259; Y: 1149),
+    (X: 16260; Y: 1149), (X: 16260; Y: 1148), (X: 16260; Y: 1147), (X: 16259; Y: 1146),
+    (X: 16259; Y: 1145), (X: 16259; Y: 1144), (X: 16259; Y: 1143), (X: 16259; Y: 1142),
+    (X: 16259; Y: 1141), (X: 16259; Y: 1140), (X: 16259; Y: 1139), (X: 16258; Y: 1138),
+    (X: 16258; Y: 1137), (X: 16258; Y: 1136), (X: 16258; Y: 1135), (X: 16257; Y: 1135),
+    (X: 16257; Y: 1134), (X: 16257; Y: 1133), (X: 16256; Y: 1133), (X: 16256; Y: 1132),
+    (X: 16256; Y: 1131), (X: 16255; Y: 1131), (X: 16255; Y: 1130), (X: 16255; Y: 1129),
+    (X: 16254; Y: 1129), (X: 16254; Y: 1128), (X: 16253; Y: 1127), (X: 16253; Y: 1126),
+    (X: 16252; Y: 1125), (X: 16252; Y: 1124), (X: 16251; Y: 1123), (X: 16250; Y: 1123),
+    (X: 16250; Y: 1122), (X: 16249; Y: 1121), (X: 16248; Y: 1120), (X: 16247; Y: 1120),
+    (X: 16247; Y: 1119), (X: 16246; Y: 1119), (X: 16246; Y: 1118), (X: 16245; Y: 1118),
+    (X: 16244; Y: 1117), (X: 16243; Y: 1117), (X: 16243; Y: 1116), (X: 16242; Y: 1116),
+    (X: 16241; Y: 1116), (X: 16241; Y: 1115), (X: 16240; Y: 1115), (X: 16239; Y: 1115),
+    (X: 16238; Y: 1114), (X: 16237; Y: 1114), (X: 16236; Y: 1114), (X: 16235; Y: 1114),
+    (X: 16234; Y: 1114), (X: 16232; Y: 1114)
+  );
+
+  cPacificMajuro_14: array [0..173] of TTimeZonePoint = (
+    (X: 16871; Y: 437), (X: 16870; Y: 437), (X: 16868; Y: 437), (X: 16868; Y: 438),
+    (X: 16867; Y: 438), (X: 16866; Y: 438), (X: 16865; Y: 438), (X: 16863; Y: 439),
+    (X: 16862; Y: 439), (X: 16861; Y: 439), (X: 16861; Y: 440), (X: 16860; Y: 440),
+    (X: 16859; Y: 440), (X: 16859; Y: 441), (X: 16858; Y: 441), (X: 16857; Y: 442),
+    (X: 16856; Y: 442), (X: 16856; Y: 443), (X: 16855; Y: 443), (X: 16855; Y: 444),
+    (X: 16854; Y: 444), (X: 16854; Y: 445), (X: 16853; Y: 446), (X: 16852; Y: 447),
+    (X: 16851; Y: 448), (X: 16851; Y: 449), (X: 16850; Y: 449), (X: 16850; Y: 450),
+    (X: 16849; Y: 450), (X: 16849; Y: 451), (X: 16849; Y: 452), (X: 16848; Y: 452),
+    (X: 16848; Y: 453), (X: 16847; Y: 453), (X: 16847; Y: 454), (X: 16847; Y: 455),
+    (X: 16846; Y: 455), (X: 16846; Y: 456), (X: 16846; Y: 457), (X: 16845; Y: 457),
+    (X: 16845; Y: 458), (X: 16845; Y: 459), (X: 16845; Y: 460), (X: 16845; Y: 461),
+    (X: 16845; Y: 462), (X: 16844; Y: 463), (X: 16844; Y: 464), (X: 16844; Y: 465),
+    (X: 16845; Y: 465), (X: 16845; Y: 466), (X: 16845; Y: 467), (X: 16845; Y: 468),
+    (X: 16845; Y: 469), (X: 16845; Y: 470), (X: 16846; Y: 470), (X: 16846; Y: 471),
+    (X: 16846; Y: 472), (X: 16847; Y: 473), (X: 16847; Y: 474), (X: 16847; Y: 475),
+    (X: 16848; Y: 475), (X: 16848; Y: 476), (X: 16849; Y: 477), (X: 16849; Y: 478),
+    (X: 16850; Y: 478), (X: 16850; Y: 479), (X: 16851; Y: 479), (X: 16851; Y: 480),
+    (X: 16852; Y: 480), (X: 16852; Y: 481), (X: 16853; Y: 482), (X: 16854; Y: 482),
+    (X: 16854; Y: 483), (X: 16855; Y: 483), (X: 16855; Y: 484), (X: 16856; Y: 484),
+    (X: 16857; Y: 484), (X: 16857; Y: 485), (X: 16858; Y: 485), (X: 16858; Y: 486),
+    (X: 16859; Y: 486), (X: 16860; Y: 486), (X: 16861; Y: 487), (X: 16862; Y: 487),
+    (X: 16863; Y: 487), (X: 16864; Y: 487), (X: 16864; Y: 488), (X: 16865; Y: 488),
+    (X: 16866; Y: 488), (X: 16867; Y: 488), (X: 16868; Y: 488), (X: 16869; Y: 488),
+    (X: 16871; Y: 488), (X: 16872; Y: 488), (X: 16873; Y: 488), (X: 16874; Y: 488),
+    (X: 16876; Y: 488), (X: 16878; Y: 488), (X: 16879; Y: 487), (X: 16880; Y: 487),
+    (X: 16881; Y: 487), (X: 16882; Y: 487), (X: 16883; Y: 486), (X: 16884; Y: 486),
+    (X: 16885; Y: 486), (X: 16885; Y: 485), (X: 16886; Y: 485), (X: 16887; Y: 484),
+    (X: 16888; Y: 484), (X: 16888; Y: 483), (X: 16889; Y: 483), (X: 16890; Y: 482),
+    (X: 16891; Y: 481), (X: 16892; Y: 480), (X: 16892; Y: 479), (X: 16893; Y: 479),
+    (X: 16893; Y: 478), (X: 16894; Y: 477), (X: 16894; Y: 476), (X: 16895; Y: 475),
+    (X: 16895; Y: 474), (X: 16896; Y: 473), (X: 16896; Y: 472), (X: 16896; Y: 471),
+    (X: 16896; Y: 470), (X: 16897; Y: 469), (X: 16897; Y: 468), (X: 16897; Y: 467),
+    (X: 16897; Y: 466), (X: 16897; Y: 465), (X: 16897; Y: 464), (X: 16897; Y: 463),
+    (X: 16897; Y: 462), (X: 16897; Y: 461), (X: 16897; Y: 460), (X: 16897; Y: 459),
+    (X: 16897; Y: 458), (X: 16897; Y: 457), (X: 16896; Y: 456), (X: 16896; Y: 455),
+    (X: 16896; Y: 454), (X: 16896; Y: 453), (X: 16895; Y: 453), (X: 16895; Y: 452),
+    (X: 16894; Y: 451), (X: 16894; Y: 450), (X: 16893; Y: 450), (X: 16893; Y: 449),
+    (X: 16892; Y: 448), (X: 16892; Y: 447), (X: 16891; Y: 447), (X: 16891; Y: 446),
+    (X: 16890; Y: 446), (X: 16889; Y: 445), (X: 16888; Y: 444), (X: 16887; Y: 443),
+    (X: 16886; Y: 443), (X: 16886; Y: 442), (X: 16885; Y: 442), (X: 16884; Y: 441),
+    (X: 16883; Y: 441), (X: 16882; Y: 440), (X: 16881; Y: 440), (X: 16881; Y: 439),
+    (X: 16880; Y: 439), (X: 16879; Y: 439), (X: 16878; Y: 439), (X: 16878; Y: 438),
+    (X: 16877; Y: 438), (X: 16876; Y: 438), (X: 16875; Y: 438), (X: 16874; Y: 438),
+    (X: 16873; Y: 437), (X: 16871; Y: 437)
+  );
+
+  cPacificMajuro_15: array [0..295] of TTimeZonePoint = (
+    (X: 16916; Y: 766), (X: 16916; Y: 765), (X: 16917; Y: 764), (X: 16917; Y: 763),
+    (X: 16917; Y: 762), (X: 16917; Y: 761), (X: 16917; Y: 760), (X: 16917; Y: 759),
+    (X: 16917; Y: 758), (X: 16917; Y: 757), (X: 16917; Y: 756), (X: 16917; Y: 755),
+    (X: 16917; Y: 754), (X: 16917; Y: 753), (X: 16916; Y: 752), (X: 16916; Y: 751),
+    (X: 16916; Y: 750), (X: 16915; Y: 750), (X: 16915; Y: 749), (X: 16915; Y: 748),
+    (X: 16914; Y: 747), (X: 16914; Y: 746), (X: 16914; Y: 745), (X: 16914; Y: 744),
+    (X: 16914; Y: 743), (X: 16913; Y: 743), (X: 16913; Y: 742), (X: 16913; Y: 741),
+    (X: 16912; Y: 740), (X: 16912; Y: 739), (X: 16912; Y: 738), (X: 16911; Y: 738),
+    (X: 16911; Y: 737), (X: 16911; Y: 736), (X: 16910; Y: 736), (X: 16910; Y: 735),
+    (X: 16909; Y: 734), (X: 16909; Y: 733), (X: 16908; Y: 733), (X: 16908; Y: 732),
+    (X: 16908; Y: 731), (X: 16907; Y: 731), (X: 16907; Y: 730), (X: 16907; Y: 729),
+    (X: 16906; Y: 728), (X: 16906; Y: 727), (X: 16906; Y: 726), (X: 16905; Y: 726),
+    (X: 16905; Y: 725), (X: 16905; Y: 724), (X: 16904; Y: 724), (X: 16904; Y: 723),
+    (X: 16903; Y: 723), (X: 16903; Y: 722), (X: 16902; Y: 721), (X: 16901; Y: 720),
+    (X: 16901; Y: 719), (X: 16901; Y: 718), (X: 16900; Y: 718), (X: 16900; Y: 717),
+    (X: 16899; Y: 716), (X: 16898; Y: 715), (X: 16898; Y: 714), (X: 16897; Y: 714),
+    (X: 16897; Y: 713), (X: 16896; Y: 713), (X: 16896; Y: 712), (X: 16895; Y: 712),
+    (X: 16895; Y: 711), (X: 16894; Y: 711), (X: 16893; Y: 711), (X: 16893; Y: 710),
+    (X: 16892; Y: 710), (X: 16891; Y: 709), (X: 16890; Y: 709), (X: 16889; Y: 708),
+    (X: 16888; Y: 708), (X: 16887; Y: 708), (X: 16886; Y: 708), (X: 16885; Y: 708),
+    (X: 16884; Y: 707), (X: 16883; Y: 707), (X: 16881; Y: 707), (X: 16880; Y: 707),
+    (X: 16879; Y: 708), (X: 16878; Y: 708), (X: 16877; Y: 708), (X: 16876; Y: 708),
+    (X: 16874; Y: 708), (X: 16873; Y: 708), (X: 16872; Y: 708), (X: 16871; Y: 708),
+    (X: 16870; Y: 708), (X: 16870; Y: 709), (X: 16869; Y: 709), (X: 16868; Y: 709),
+    (X: 16866; Y: 710), (X: 16865; Y: 710), (X: 16864; Y: 710), (X: 16863; Y: 711),
+    (X: 16862; Y: 711), (X: 16861; Y: 711), (X: 16860; Y: 712), (X: 16859; Y: 712),
+    (X: 16859; Y: 713), (X: 16858; Y: 713), (X: 16857; Y: 713), (X: 16857; Y: 714),
+    (X: 16856; Y: 714), (X: 16855; Y: 715), (X: 16854; Y: 716), (X: 16853; Y: 716),
+    (X: 16852; Y: 716), (X: 16851; Y: 717), (X: 16850; Y: 717), (X: 16849; Y: 718),
+    (X: 16848; Y: 718), (X: 16848; Y: 719), (X: 16847; Y: 719), (X: 16847; Y: 720),
+    (X: 16846; Y: 720), (X: 16846; Y: 721), (X: 16845; Y: 721), (X: 16844; Y: 722),
+    (X: 16843; Y: 723), (X: 16842; Y: 724), (X: 16841; Y: 724), (X: 16841; Y: 725),
+    (X: 16840; Y: 726), (X: 16840; Y: 727), (X: 16839; Y: 727), (X: 16839; Y: 728),
+    (X: 16838; Y: 729), (X: 16838; Y: 730), (X: 16837; Y: 731), (X: 16837; Y: 732),
+    (X: 16837; Y: 733), (X: 16836; Y: 733), (X: 16836; Y: 734), (X: 16836; Y: 735),
+    (X: 16836; Y: 736), (X: 16836; Y: 737), (X: 16835; Y: 737), (X: 16835; Y: 738),
+    (X: 16835; Y: 739), (X: 16835; Y: 740), (X: 16835; Y: 741), (X: 16835; Y: 742),
+    (X: 16834; Y: 742), (X: 16834; Y: 743), (X: 16834; Y: 744), (X: 16834; Y: 745),
+    (X: 16834; Y: 746), (X: 16835; Y: 747), (X: 16835; Y: 748), (X: 16835; Y: 749),
+    (X: 16835; Y: 750), (X: 16835; Y: 751), (X: 16836; Y: 751), (X: 16836; Y: 752),
+    (X: 16836; Y: 753), (X: 16837; Y: 754), (X: 16837; Y: 755), (X: 16838; Y: 755),
+    (X: 16838; Y: 756), (X: 16838; Y: 757), (X: 16839; Y: 757), (X: 16839; Y: 758),
+    (X: 16840; Y: 758), (X: 16840; Y: 759), (X: 16841; Y: 760), (X: 16842; Y: 760),
+    (X: 16842; Y: 761), (X: 16843; Y: 761), (X: 16843; Y: 762), (X: 16844; Y: 762),
+    (X: 16845; Y: 763), (X: 16846; Y: 763), (X: 16846; Y: 764), (X: 16847; Y: 764),
+    (X: 16847; Y: 765), (X: 16848; Y: 765), (X: 16849; Y: 765), (X: 16849; Y: 766),
+    (X: 16850; Y: 766), (X: 16851; Y: 766), (X: 16851; Y: 767), (X: 16852; Y: 767),
+    (X: 16853; Y: 767), (X: 16854; Y: 768), (X: 16855; Y: 768), (X: 16856; Y: 768),
+    (X: 16857; Y: 768), (X: 16857; Y: 769), (X: 16858; Y: 769), (X: 16860; Y: 769),
+    (X: 16861; Y: 769), (X: 16862; Y: 769), (X: 16864; Y: 768), (X: 16865; Y: 768),
+    (X: 16866; Y: 769), (X: 16867; Y: 769), (X: 16868; Y: 770), (X: 16869; Y: 770),
+    (X: 16870; Y: 770), (X: 16871; Y: 770), (X: 16872; Y: 771), (X: 16873; Y: 771),
+    (X: 16874; Y: 771), (X: 16875; Y: 771), (X: 16876; Y: 771), (X: 16876; Y: 772),
+    (X: 16877; Y: 772), (X: 16877; Y: 773), (X: 16877; Y: 774), (X: 16877; Y: 775),
+    (X: 16877; Y: 776), (X: 16877; Y: 777), (X: 16877; Y: 778), (X: 16878; Y: 779),
+    (X: 16878; Y: 780), (X: 16878; Y: 781), (X: 16878; Y: 782), (X: 16879; Y: 783),
+    (X: 16879; Y: 784), (X: 16880; Y: 785), (X: 16880; Y: 786), (X: 16881; Y: 787),
+    (X: 16881; Y: 788), (X: 16882; Y: 788), (X: 16882; Y: 789), (X: 16883; Y: 789),
+    (X: 16883; Y: 790), (X: 16884; Y: 790), (X: 16884; Y: 791), (X: 16885; Y: 791),
+    (X: 16885; Y: 792), (X: 16886; Y: 792), (X: 16887; Y: 792), (X: 16887; Y: 793),
+    (X: 16888; Y: 793), (X: 16889; Y: 794), (X: 16890; Y: 794), (X: 16891; Y: 794),
+    (X: 16891; Y: 795), (X: 16892; Y: 795), (X: 16893; Y: 795), (X: 16894; Y: 795),
+    (X: 16895; Y: 795), (X: 16897; Y: 796), (X: 16898; Y: 796), (X: 16900; Y: 795),
+    (X: 16901; Y: 795), (X: 16902; Y: 795), (X: 16903; Y: 795), (X: 16904; Y: 795),
+    (X: 16905; Y: 795), (X: 16905; Y: 794), (X: 16906; Y: 794), (X: 16907; Y: 794),
+    (X: 16907; Y: 793), (X: 16908; Y: 793), (X: 16909; Y: 792), (X: 16910; Y: 792),
+    (X: 16910; Y: 791), (X: 16911; Y: 791), (X: 16912; Y: 790), (X: 16913; Y: 789),
+    (X: 16913; Y: 788), (X: 16914; Y: 788), (X: 16914; Y: 787), (X: 16915; Y: 787),
+    (X: 16915; Y: 786), (X: 16916; Y: 785), (X: 16916; Y: 784), (X: 16917; Y: 783),
+    (X: 16917; Y: 782), (X: 16917; Y: 781), (X: 16918; Y: 781), (X: 16918; Y: 780),
+    (X: 16918; Y: 779), (X: 16918; Y: 778), (X: 16918; Y: 777), (X: 16918; Y: 776),
+    (X: 16918; Y: 775), (X: 16918; Y: 774), (X: 16918; Y: 773), (X: 16918; Y: 772),
+    (X: 16918; Y: 771), (X: 16918; Y: 770), (X: 16917; Y: 770), (X: 16917; Y: 769),
+    (X: 16917; Y: 768), (X: 16917; Y: 767), (X: 16916; Y: 767), (X: 16916; Y: 766)
+  );
+
+  cPacificMajuro_16: array [0..169] of TTimeZonePoint = (
+    (X: 16894; Y: 1437), (X: 16892; Y: 1437), (X: 16891; Y: 1437), (X: 16890; Y: 1437),
+    (X: 16889; Y: 1437), (X: 16888; Y: 1437), (X: 16887; Y: 1438), (X: 16886; Y: 1438),
+    (X: 16885; Y: 1438), (X: 16885; Y: 1439), (X: 16884; Y: 1439), (X: 16883; Y: 1439),
+    (X: 16883; Y: 1440), (X: 16882; Y: 1440), (X: 16881; Y: 1441), (X: 16880; Y: 1441),
+    (X: 16880; Y: 1442), (X: 16879; Y: 1442), (X: 16879; Y: 1443), (X: 16878; Y: 1443),
+    (X: 16878; Y: 1444), (X: 16877; Y: 1444), (X: 16877; Y: 1445), (X: 16876; Y: 1446),
+    (X: 16876; Y: 1447), (X: 16875; Y: 1447), (X: 16875; Y: 1448), (X: 16875; Y: 1449),
+    (X: 16874; Y: 1450), (X: 16874; Y: 1451), (X: 16874; Y: 1452), (X: 16873; Y: 1453),
+    (X: 16873; Y: 1454), (X: 16873; Y: 1455), (X: 16873; Y: 1456), (X: 16873; Y: 1457),
+    (X: 16873; Y: 1458), (X: 16873; Y: 1459), (X: 16873; Y: 1460), (X: 16874; Y: 1461),
+    (X: 16874; Y: 1462), (X: 16874; Y: 1463), (X: 16874; Y: 1464), (X: 16875; Y: 1464),
+    (X: 16875; Y: 1465), (X: 16875; Y: 1466), (X: 16876; Y: 1466), (X: 16876; Y: 1467),
+    (X: 16876; Y: 1468), (X: 16877; Y: 1468), (X: 16877; Y: 1469), (X: 16878; Y: 1469),
+    (X: 16878; Y: 1470), (X: 16879; Y: 1470), (X: 16879; Y: 1471), (X: 16880; Y: 1471),
+    (X: 16880; Y: 1472), (X: 16881; Y: 1473), (X: 16881; Y: 1474), (X: 16882; Y: 1475),
+    (X: 16882; Y: 1476), (X: 16882; Y: 1477), (X: 16883; Y: 1477), (X: 16883; Y: 1478),
+    (X: 16884; Y: 1479), (X: 16884; Y: 1480), (X: 16885; Y: 1480), (X: 16885; Y: 1481),
+    (X: 16886; Y: 1481), (X: 16886; Y: 1482), (X: 16887; Y: 1482), (X: 16888; Y: 1483),
+    (X: 16889; Y: 1484), (X: 16890; Y: 1484), (X: 16891; Y: 1485), (X: 16892; Y: 1485),
+    (X: 16892; Y: 1486), (X: 16893; Y: 1486), (X: 16894; Y: 1486), (X: 16895; Y: 1486),
+    (X: 16895; Y: 1487), (X: 16896; Y: 1487), (X: 16897; Y: 1487), (X: 16898; Y: 1487),
+    (X: 16899; Y: 1487), (X: 16900; Y: 1487), (X: 16901; Y: 1487), (X: 16903; Y: 1487),
+    (X: 16904; Y: 1487), (X: 16905; Y: 1487), (X: 16906; Y: 1487), (X: 16907; Y: 1486),
+    (X: 16908; Y: 1486), (X: 16909; Y: 1486), (X: 16910; Y: 1485), (X: 16911; Y: 1485),
+    (X: 16912; Y: 1484), (X: 16913; Y: 1484), (X: 16913; Y: 1483), (X: 16914; Y: 1483),
+    (X: 16914; Y: 1482), (X: 16915; Y: 1482), (X: 16916; Y: 1481), (X: 16917; Y: 1480),
+    (X: 16917; Y: 1479), (X: 16918; Y: 1479), (X: 16918; Y: 1478), (X: 16919; Y: 1478),
+    (X: 16919; Y: 1477), (X: 16919; Y: 1476), (X: 16920; Y: 1476), (X: 16920; Y: 1475),
+    (X: 16921; Y: 1474), (X: 16921; Y: 1473), (X: 16921; Y: 1472), (X: 16922; Y: 1472),
+    (X: 16922; Y: 1471), (X: 16922; Y: 1470), (X: 16922; Y: 1469), (X: 16922; Y: 1468),
+    (X: 16922; Y: 1467), (X: 16922; Y: 1466), (X: 16922; Y: 1465), (X: 16922; Y: 1464),
+    (X: 16922; Y: 1463), (X: 16922; Y: 1462), (X: 16922; Y: 1461), (X: 16922; Y: 1460),
+    (X: 16922; Y: 1459), (X: 16922; Y: 1458), (X: 16921; Y: 1457), (X: 16921; Y: 1456),
+    (X: 16921; Y: 1455), (X: 16920; Y: 1454), (X: 16920; Y: 1453), (X: 16919; Y: 1453),
+    (X: 16919; Y: 1452), (X: 16919; Y: 1451), (X: 16918; Y: 1451), (X: 16918; Y: 1450),
+    (X: 16917; Y: 1449), (X: 16917; Y: 1448), (X: 16916; Y: 1448), (X: 16916; Y: 1447),
+    (X: 16915; Y: 1447), (X: 16915; Y: 1446), (X: 16914; Y: 1446), (X: 16913; Y: 1445),
+    (X: 16912; Y: 1445), (X: 16912; Y: 1444), (X: 16911; Y: 1444), (X: 16910; Y: 1443),
+    (X: 16909; Y: 1443), (X: 16909; Y: 1442), (X: 16908; Y: 1442), (X: 16908; Y: 1441),
+    (X: 16907; Y: 1441), (X: 16906; Y: 1441), (X: 16906; Y: 1440), (X: 16905; Y: 1440),
+    (X: 16904; Y: 1439), (X: 16903; Y: 1439), (X: 16902; Y: 1438), (X: 16901; Y: 1438),
+    (X: 16900; Y: 1437), (X: 16899; Y: 1437), (X: 16898; Y: 1437), (X: 16897; Y: 1437),
+    (X: 16896; Y: 1437), (X: 16894; Y: 1437)
+  );
+
+  cPacificMajuro_17: array [0..157] of TTimeZonePoint = (
+    (X: 17011; Y: 1198), (X: 17009; Y: 1199), (X: 17008; Y: 1199), (X: 17007; Y: 1199),
+    (X: 17006; Y: 1199), (X: 17005; Y: 1199), (X: 17004; Y: 1200), (X: 17003; Y: 1200),
+    (X: 17002; Y: 1200), (X: 17002; Y: 1201), (X: 17001; Y: 1201), (X: 17000; Y: 1201),
+    (X: 17000; Y: 1202), (X: 16999; Y: 1202), (X: 16999; Y: 1203), (X: 16998; Y: 1203),
+    (X: 16997; Y: 1203), (X: 16997; Y: 1204), (X: 16996; Y: 1204), (X: 16996; Y: 1205),
+    (X: 16995; Y: 1205), (X: 16995; Y: 1206), (X: 16994; Y: 1206), (X: 16994; Y: 1207),
+    (X: 16993; Y: 1208), (X: 16993; Y: 1209), (X: 16992; Y: 1210), (X: 16992; Y: 1211),
+    (X: 16991; Y: 1212), (X: 16991; Y: 1213), (X: 16991; Y: 1214), (X: 16991; Y: 1215),
+    (X: 16990; Y: 1215), (X: 16990; Y: 1216), (X: 16990; Y: 1217), (X: 16990; Y: 1218),
+    (X: 16990; Y: 1219), (X: 16990; Y: 1220), (X: 16990; Y: 1221), (X: 16990; Y: 1222),
+    (X: 16990; Y: 1223), (X: 16991; Y: 1224), (X: 16991; Y: 1225), (X: 16991; Y: 1226),
+    (X: 16991; Y: 1227), (X: 16992; Y: 1227), (X: 16992; Y: 1228), (X: 16993; Y: 1229),
+    (X: 16993; Y: 1230), (X: 16994; Y: 1231), (X: 16994; Y: 1232), (X: 16995; Y: 1233),
+    (X: 16995; Y: 1234), (X: 16996; Y: 1235), (X: 16996; Y: 1236), (X: 16997; Y: 1236),
+    (X: 16997; Y: 1237), (X: 16998; Y: 1238), (X: 16999; Y: 1238), (X: 16999; Y: 1239),
+    (X: 17000; Y: 1239), (X: 17000; Y: 1240), (X: 17001; Y: 1241), (X: 17002; Y: 1241),
+    (X: 17002; Y: 1242), (X: 17003; Y: 1242), (X: 17004; Y: 1242), (X: 17004; Y: 1243),
+    (X: 17005; Y: 1243), (X: 17006; Y: 1244), (X: 17007; Y: 1244), (X: 17008; Y: 1244),
+    (X: 17009; Y: 1245), (X: 17010; Y: 1245), (X: 17011; Y: 1245), (X: 17012; Y: 1245),
+    (X: 17014; Y: 1245), (X: 17015; Y: 1245), (X: 17017; Y: 1245), (X: 17018; Y: 1245),
+    (X: 17019; Y: 1245), (X: 17020; Y: 1245), (X: 17020; Y: 1244), (X: 17021; Y: 1244),
+    (X: 17022; Y: 1244), (X: 17023; Y: 1244), (X: 17023; Y: 1243), (X: 17024; Y: 1243),
+    (X: 17025; Y: 1243), (X: 17025; Y: 1242), (X: 17026; Y: 1242), (X: 17026; Y: 1241),
+    (X: 17027; Y: 1241), (X: 17028; Y: 1240), (X: 17029; Y: 1239), (X: 17030; Y: 1239),
+    (X: 17030; Y: 1238), (X: 17031; Y: 1238), (X: 17031; Y: 1237), (X: 17031; Y: 1236),
+    (X: 17032; Y: 1236), (X: 17032; Y: 1235), (X: 17033; Y: 1235), (X: 17033; Y: 1234),
+    (X: 17033; Y: 1233), (X: 17034; Y: 1232), (X: 17034; Y: 1231), (X: 17034; Y: 1230),
+    (X: 17034; Y: 1229), (X: 17035; Y: 1229), (X: 17035; Y: 1228), (X: 17035; Y: 1227),
+    (X: 17035; Y: 1226), (X: 17035; Y: 1225), (X: 17035; Y: 1224), (X: 17035; Y: 1223),
+    (X: 17035; Y: 1222), (X: 17035; Y: 1221), (X: 17034; Y: 1221), (X: 17034; Y: 1220),
+    (X: 17034; Y: 1219), (X: 17034; Y: 1218), (X: 17033; Y: 1218), (X: 17033; Y: 1217),
+    (X: 17033; Y: 1216), (X: 17032; Y: 1215), (X: 17032; Y: 1214), (X: 17031; Y: 1214),
+    (X: 17031; Y: 1213), (X: 17031; Y: 1212), (X: 17030; Y: 1212), (X: 17030; Y: 1211),
+    (X: 17030; Y: 1210), (X: 17029; Y: 1210), (X: 17029; Y: 1209), (X: 17029; Y: 1208),
+    (X: 17028; Y: 1208), (X: 17028; Y: 1207), (X: 17027; Y: 1206), (X: 17027; Y: 1205),
+    (X: 17026; Y: 1205), (X: 17025; Y: 1204), (X: 17024; Y: 1203), (X: 17023; Y: 1203),
+    (X: 17023; Y: 1202), (X: 17022; Y: 1202), (X: 17022; Y: 1201), (X: 17021; Y: 1201),
+    (X: 17020; Y: 1201), (X: 17020; Y: 1200), (X: 17019; Y: 1200), (X: 17018; Y: 1200),
+    (X: 17017; Y: 1199), (X: 17016; Y: 1199), (X: 17015; Y: 1199), (X: 17014; Y: 1199),
+    (X: 17013; Y: 1199), (X: 17011; Y: 1198)
+  );
+
+  cPacificMajuro_18: array [0..276] of TTimeZonePoint = (
+    (X: 16825; Y: 755), (X: 16824; Y: 755), (X: 16822; Y: 755), (X: 16821; Y: 755),
+    (X: 16821; Y: 756), (X: 16820; Y: 756), (X: 16819; Y: 756), (X: 16818; Y: 756),
+    (X: 16817; Y: 757), (X: 16816; Y: 757), (X: 16815; Y: 757), (X: 16815; Y: 758),
+    (X: 16814; Y: 758), (X: 16813; Y: 758), (X: 16812; Y: 759), (X: 16811; Y: 759),
+    (X: 16811; Y: 760), (X: 16810; Y: 760), (X: 16810; Y: 761), (X: 16809; Y: 761),
+    (X: 16809; Y: 762), (X: 16808; Y: 762), (X: 16808; Y: 763), (X: 16807; Y: 763),
+    (X: 16807; Y: 764), (X: 16806; Y: 764), (X: 16806; Y: 765), (X: 16805; Y: 765),
+    (X: 16805; Y: 766), (X: 16805; Y: 767), (X: 16804; Y: 767), (X: 16804; Y: 768),
+    (X: 16803; Y: 769), (X: 16803; Y: 770), (X: 16802; Y: 771), (X: 16802; Y: 772),
+    (X: 16802; Y: 773), (X: 16802; Y: 774), (X: 16801; Y: 774), (X: 16801; Y: 775),
+    (X: 16801; Y: 776), (X: 16801; Y: 777), (X: 16801; Y: 778), (X: 16801; Y: 779),
+    (X: 16801; Y: 780), (X: 16801; Y: 781), (X: 16801; Y: 782), (X: 16801; Y: 783),
+    (X: 16801; Y: 784), (X: 16801; Y: 785), (X: 16802; Y: 786), (X: 16802; Y: 787),
+    (X: 16802; Y: 788), (X: 16801; Y: 788), (X: 16801; Y: 789), (X: 16800; Y: 789),
+    (X: 16799; Y: 790), (X: 16799; Y: 791), (X: 16798; Y: 791), (X: 16797; Y: 792),
+    (X: 16796; Y: 793), (X: 16796; Y: 794), (X: 16795; Y: 794), (X: 16794; Y: 794),
+    (X: 16793; Y: 795), (X: 16792; Y: 795), (X: 16791; Y: 795), (X: 16791; Y: 796),
+    (X: 16790; Y: 796), (X: 16790; Y: 797), (X: 16789; Y: 797), (X: 16788; Y: 798),
+    (X: 16787; Y: 799), (X: 16786; Y: 800), (X: 16786; Y: 801), (X: 16785; Y: 801),
+    (X: 16785; Y: 802), (X: 16784; Y: 802), (X: 16784; Y: 803), (X: 16784; Y: 804),
+    (X: 16783; Y: 804), (X: 16783; Y: 805), (X: 16782; Y: 806), (X: 16782; Y: 807),
+    (X: 16781; Y: 807), (X: 16781; Y: 808), (X: 16780; Y: 809), (X: 16780; Y: 810),
+    (X: 16779; Y: 810), (X: 16779; Y: 811), (X: 16779; Y: 812), (X: 16778; Y: 812),
+    (X: 16778; Y: 813), (X: 16778; Y: 814), (X: 16778; Y: 815), (X: 16777; Y: 815),
+    (X: 16777; Y: 816), (X: 16777; Y: 817), (X: 16777; Y: 818), (X: 16777; Y: 819),
+    (X: 16777; Y: 820), (X: 16777; Y: 821), (X: 16777; Y: 822), (X: 16777; Y: 823),
+    (X: 16777; Y: 824), (X: 16778; Y: 825), (X: 16778; Y: 826), (X: 16778; Y: 827),
+    (X: 16778; Y: 828), (X: 16779; Y: 828), (X: 16779; Y: 829), (X: 16779; Y: 830),
+    (X: 16780; Y: 830), (X: 16780; Y: 831), (X: 16781; Y: 832), (X: 16782; Y: 833),
+    (X: 16782; Y: 834), (X: 16783; Y: 834), (X: 16784; Y: 835), (X: 16784; Y: 836),
+    (X: 16785; Y: 836), (X: 16786; Y: 837), (X: 16787; Y: 837), (X: 16788; Y: 838),
+    (X: 16789; Y: 838), (X: 16790; Y: 838), (X: 16790; Y: 839), (X: 16791; Y: 839),
+    (X: 16792; Y: 839), (X: 16793; Y: 839), (X: 16793; Y: 840), (X: 16794; Y: 840),
+    (X: 16795; Y: 840), (X: 16797; Y: 840), (X: 16798; Y: 840), (X: 16799; Y: 840),
+    (X: 16800; Y: 840), (X: 16801; Y: 840), (X: 16802; Y: 839), (X: 16803; Y: 839),
+    (X: 16804; Y: 839), (X: 16805; Y: 839), (X: 16806; Y: 838), (X: 16807; Y: 838),
+    (X: 16808; Y: 838), (X: 16809; Y: 838), (X: 16809; Y: 837), (X: 16810; Y: 837),
+    (X: 16811; Y: 837), (X: 16812; Y: 836), (X: 16813; Y: 836), (X: 16814; Y: 836),
+    (X: 16815; Y: 836), (X: 16817; Y: 836), (X: 16818; Y: 836), (X: 16820; Y: 836),
+    (X: 16821; Y: 836), (X: 16822; Y: 836), (X: 16823; Y: 836), (X: 16824; Y: 836),
+    (X: 16824; Y: 835), (X: 16825; Y: 835), (X: 16826; Y: 835), (X: 16827; Y: 834),
+    (X: 16828; Y: 834), (X: 16829; Y: 833), (X: 16830; Y: 833), (X: 16830; Y: 832),
+    (X: 16831; Y: 832), (X: 16831; Y: 831), (X: 16832; Y: 831), (X: 16832; Y: 830),
+    (X: 16833; Y: 830), (X: 16833; Y: 829), (X: 16834; Y: 829), (X: 16835; Y: 828),
+    (X: 16835; Y: 827), (X: 16836; Y: 827), (X: 16836; Y: 826), (X: 16836; Y: 825),
+    (X: 16837; Y: 825), (X: 16837; Y: 824), (X: 16837; Y: 823), (X: 16838; Y: 823),
+    (X: 16838; Y: 822), (X: 16838; Y: 821), (X: 16838; Y: 820), (X: 16839; Y: 819),
+    (X: 16839; Y: 818), (X: 16839; Y: 817), (X: 16839; Y: 816), (X: 16839; Y: 815),
+    (X: 16839; Y: 814), (X: 16839; Y: 813), (X: 16839; Y: 812), (X: 16839; Y: 811),
+    (X: 16839; Y: 810), (X: 16838; Y: 810), (X: 16838; Y: 809), (X: 16838; Y: 808),
+    (X: 16839; Y: 808), (X: 16839; Y: 807), (X: 16840; Y: 807), (X: 16840; Y: 806),
+    (X: 16841; Y: 806), (X: 16841; Y: 805), (X: 16842; Y: 804), (X: 16842; Y: 803),
+    (X: 16843; Y: 803), (X: 16843; Y: 802), (X: 16844; Y: 801), (X: 16844; Y: 800),
+    (X: 16845; Y: 799), (X: 16845; Y: 798), (X: 16846; Y: 797), (X: 16847; Y: 796),
+    (X: 16847; Y: 795), (X: 16848; Y: 795), (X: 16848; Y: 794), (X: 16848; Y: 793),
+    (X: 16849; Y: 792), (X: 16849; Y: 791), (X: 16850; Y: 790), (X: 16850; Y: 789),
+    (X: 16850; Y: 788), (X: 16850; Y: 787), (X: 16851; Y: 787), (X: 16851; Y: 786),
+    (X: 16851; Y: 785), (X: 16851; Y: 784), (X: 16851; Y: 783), (X: 16851; Y: 782),
+    (X: 16851; Y: 781), (X: 16851; Y: 780), (X: 16851; Y: 779), (X: 16850; Y: 778),
+    (X: 16850; Y: 777), (X: 16850; Y: 776), (X: 16850; Y: 775), (X: 16849; Y: 775),
+    (X: 16849; Y: 774), (X: 16848; Y: 773), (X: 16848; Y: 772), (X: 16848; Y: 771),
+    (X: 16847; Y: 770), (X: 16847; Y: 769), (X: 16846; Y: 769), (X: 16846; Y: 768),
+    (X: 16846; Y: 767), (X: 16845; Y: 767), (X: 16845; Y: 766), (X: 16844; Y: 766),
+    (X: 16844; Y: 765), (X: 16843; Y: 765), (X: 16843; Y: 764), (X: 16842; Y: 763),
+    (X: 16841; Y: 762), (X: 16840; Y: 761), (X: 16839; Y: 761), (X: 16839; Y: 760),
+    (X: 16838; Y: 760), (X: 16838; Y: 759), (X: 16837; Y: 759), (X: 16836; Y: 759),
+    (X: 16836; Y: 758), (X: 16835; Y: 758), (X: 16834; Y: 758), (X: 16834; Y: 757),
+    (X: 16833; Y: 757), (X: 16832; Y: 757), (X: 16831; Y: 756), (X: 16830; Y: 756),
+    (X: 16829; Y: 756), (X: 16828; Y: 756), (X: 16828; Y: 755), (X: 16827; Y: 755),
+    (X: 16825; Y: 755)
+  );
+
+  cPacificMajuro_19: array [0..151] of TTimeZonePoint = (
+    (X: 16812; Y: 539), (X: 16811; Y: 539), (X: 16809; Y: 539), (X: 16808; Y: 539),
+    (X: 16807; Y: 539), (X: 16807; Y: 540), (X: 16806; Y: 540), (X: 16805; Y: 540),
+    (X: 16804; Y: 540), (X: 16803; Y: 541), (X: 16802; Y: 541), (X: 16801; Y: 541),
+    (X: 16801; Y: 542), (X: 16800; Y: 542), (X: 16799; Y: 543), (X: 16798; Y: 543),
+    (X: 16797; Y: 544), (X: 16797; Y: 545), (X: 16796; Y: 545), (X: 16795; Y: 546),
+    (X: 16795; Y: 547), (X: 16794; Y: 547), (X: 16794; Y: 548), (X: 16793; Y: 548),
+    (X: 16793; Y: 549), (X: 16792; Y: 550), (X: 16792; Y: 551), (X: 16791; Y: 552),
+    (X: 16791; Y: 553), (X: 16791; Y: 554), (X: 16790; Y: 554), (X: 16790; Y: 555),
+    (X: 16790; Y: 556), (X: 16790; Y: 557), (X: 16790; Y: 558), (X: 16789; Y: 559),
+    (X: 16789; Y: 560), (X: 16789; Y: 561), (X: 16789; Y: 562), (X: 16789; Y: 563),
+    (X: 16789; Y: 564), (X: 16789; Y: 565), (X: 16789; Y: 566), (X: 16789; Y: 567),
+    (X: 16789; Y: 568), (X: 16789; Y: 569), (X: 16789; Y: 570), (X: 16790; Y: 570),
+    (X: 16790; Y: 571), (X: 16790; Y: 572), (X: 16791; Y: 572), (X: 16791; Y: 573),
+    (X: 16791; Y: 574), (X: 16792; Y: 574), (X: 16792; Y: 575), (X: 16793; Y: 576),
+    (X: 16793; Y: 577), (X: 16794; Y: 577), (X: 16794; Y: 578), (X: 16795; Y: 578),
+    (X: 16795; Y: 579), (X: 16796; Y: 579), (X: 16796; Y: 580), (X: 16797; Y: 580),
+    (X: 16798; Y: 581), (X: 16799; Y: 581), (X: 16799; Y: 582), (X: 16800; Y: 582),
+    (X: 16801; Y: 582), (X: 16801; Y: 583), (X: 16802; Y: 583), (X: 16803; Y: 583),
+    (X: 16804; Y: 583), (X: 16805; Y: 584), (X: 16806; Y: 584), (X: 16807; Y: 584),
+    (X: 16809; Y: 584), (X: 16810; Y: 584), (X: 16811; Y: 584), (X: 16812; Y: 584),
+    (X: 16813; Y: 584), (X: 16814; Y: 583), (X: 16816; Y: 583), (X: 16817; Y: 583),
+    (X: 16818; Y: 583), (X: 16819; Y: 583), (X: 16820; Y: 582), (X: 16821; Y: 582),
+    (X: 16822; Y: 582), (X: 16822; Y: 581), (X: 16823; Y: 581), (X: 16824; Y: 581),
+    (X: 16824; Y: 580), (X: 16825; Y: 580), (X: 16826; Y: 579), (X: 16827; Y: 579),
+    (X: 16827; Y: 578), (X: 16828; Y: 578), (X: 16828; Y: 577), (X: 16829; Y: 576),
+    (X: 16830; Y: 575), (X: 16830; Y: 574), (X: 16831; Y: 574), (X: 16831; Y: 573),
+    (X: 16832; Y: 572), (X: 16832; Y: 571), (X: 16832; Y: 570), (X: 16833; Y: 570),
+    (X: 16833; Y: 569), (X: 16833; Y: 568), (X: 16833; Y: 567), (X: 16833; Y: 566),
+    (X: 16834; Y: 565), (X: 16834; Y: 564), (X: 16834; Y: 563), (X: 16834; Y: 562),
+    (X: 16833; Y: 561), (X: 16833; Y: 560), (X: 16833; Y: 559), (X: 16833; Y: 558),
+    (X: 16833; Y: 557), (X: 16832; Y: 557), (X: 16832; Y: 556), (X: 16832; Y: 555),
+    (X: 16832; Y: 554), (X: 16831; Y: 553), (X: 16831; Y: 552), (X: 16831; Y: 551),
+    (X: 16830; Y: 551), (X: 16830; Y: 550), (X: 16830; Y: 549), (X: 16829; Y: 549),
+    (X: 16829; Y: 548), (X: 16828; Y: 547), (X: 16827; Y: 546), (X: 16827; Y: 545),
+    (X: 16826; Y: 545), (X: 16826; Y: 544), (X: 16825; Y: 544), (X: 16824; Y: 543),
+    (X: 16823; Y: 542), (X: 16822; Y: 542), (X: 16821; Y: 541), (X: 16820; Y: 541),
+    (X: 16819; Y: 540), (X: 16818; Y: 540), (X: 16817; Y: 540), (X: 16816; Y: 540),
+    (X: 16816; Y: 539), (X: 16815; Y: 539), (X: 16814; Y: 539), (X: 16812; Y: 539)
+  );
+
+  cPacificMajuro_20: array [0..353] of TTimeZonePoint = (
+    (X: 17136; Y: 838), (X: 17136; Y: 837), (X: 17136; Y: 836), (X: 17136; Y: 835),
+    (X: 17137; Y: 835), (X: 17137; Y: 834), (X: 17137; Y: 833), (X: 17137; Y: 832),
+    (X: 17137; Y: 831), (X: 17137; Y: 830), (X: 17137; Y: 829), (X: 17137; Y: 828),
+    (X: 17137; Y: 827), (X: 17136; Y: 827), (X: 17136; Y: 826), (X: 17136; Y: 825),
+    (X: 17136; Y: 824), (X: 17137; Y: 823), (X: 17137; Y: 822), (X: 17137; Y: 821),
+    (X: 17137; Y: 820), (X: 17137; Y: 819), (X: 17138; Y: 818), (X: 17138; Y: 817),
+    (X: 17138; Y: 816), (X: 17138; Y: 815), (X: 17138; Y: 814), (X: 17138; Y: 813),
+    (X: 17138; Y: 812), (X: 17138; Y: 811), (X: 17138; Y: 810), (X: 17138; Y: 809),
+    (X: 17137; Y: 808), (X: 17137; Y: 807), (X: 17137; Y: 806), (X: 17136; Y: 806),
+    (X: 17136; Y: 805), (X: 17136; Y: 804), (X: 17135; Y: 803), (X: 17135; Y: 802),
+    (X: 17134; Y: 802), (X: 17134; Y: 801), (X: 17133; Y: 801), (X: 17133; Y: 800),
+    (X: 17132; Y: 799), (X: 17131; Y: 799), (X: 17131; Y: 798), (X: 17130; Y: 797),
+    (X: 17129; Y: 797), (X: 17129; Y: 796), (X: 17128; Y: 796), (X: 17127; Y: 796),
+    (X: 17127; Y: 795), (X: 17126; Y: 795), (X: 17125; Y: 795), (X: 17124; Y: 794),
+    (X: 17123; Y: 794), (X: 17122; Y: 794), (X: 17121; Y: 794), (X: 17121; Y: 793),
+    (X: 17120; Y: 793), (X: 17118; Y: 793), (X: 17117; Y: 793), (X: 17116; Y: 793),
+    (X: 17115; Y: 793), (X: 17114; Y: 794), (X: 17113; Y: 794), (X: 17112; Y: 794),
+    (X: 17111; Y: 794), (X: 17111; Y: 795), (X: 17110; Y: 795), (X: 17109; Y: 795),
+    (X: 17108; Y: 796), (X: 17107; Y: 796), (X: 17106; Y: 797), (X: 17105; Y: 798),
+    (X: 17104; Y: 798), (X: 17104; Y: 799), (X: 17103; Y: 799), (X: 17103; Y: 800),
+    (X: 17102; Y: 800), (X: 17101; Y: 800), (X: 17100; Y: 800), (X: 17100; Y: 801),
+    (X: 17099; Y: 801), (X: 17098; Y: 801), (X: 17098; Y: 802), (X: 17097; Y: 802),
+    (X: 17096; Y: 802), (X: 17096; Y: 803), (X: 17095; Y: 803), (X: 17094; Y: 803),
+    (X: 17094; Y: 804), (X: 17093; Y: 804), (X: 17093; Y: 805), (X: 17092; Y: 805),
+    (X: 17091; Y: 805), (X: 17091; Y: 806), (X: 17090; Y: 806), (X: 17089; Y: 807),
+    (X: 17088; Y: 808), (X: 17087; Y: 809), (X: 17086; Y: 810), (X: 17085; Y: 811),
+    (X: 17085; Y: 812), (X: 17084; Y: 812), (X: 17084; Y: 813), (X: 17083; Y: 814),
+    (X: 17083; Y: 815), (X: 17083; Y: 816), (X: 17082; Y: 816), (X: 17082; Y: 817),
+    (X: 17082; Y: 818), (X: 17082; Y: 819), (X: 17082; Y: 820), (X: 17081; Y: 821),
+    (X: 17081; Y: 822), (X: 17081; Y: 823), (X: 17081; Y: 824), (X: 17081; Y: 825),
+    (X: 17082; Y: 825), (X: 17082; Y: 826), (X: 17082; Y: 827), (X: 17082; Y: 828),
+    (X: 17082; Y: 829), (X: 17083; Y: 830), (X: 17083; Y: 831), (X: 17084; Y: 832),
+    (X: 17084; Y: 833), (X: 17084; Y: 834), (X: 17084; Y: 835), (X: 17084; Y: 836),
+    (X: 17084; Y: 837), (X: 17084; Y: 838), (X: 17084; Y: 839), (X: 17084; Y: 840),
+    (X: 17084; Y: 841), (X: 17084; Y: 842), (X: 17085; Y: 843), (X: 17085; Y: 844),
+    (X: 17085; Y: 845), (X: 17086; Y: 845), (X: 17086; Y: 846), (X: 17086; Y: 847),
+    (X: 17087; Y: 847), (X: 17086; Y: 848), (X: 17086; Y: 849), (X: 17085; Y: 849),
+    (X: 17085; Y: 850), (X: 17084; Y: 851), (X: 17084; Y: 852), (X: 17083; Y: 852),
+    (X: 17083; Y: 853), (X: 17082; Y: 854), (X: 17082; Y: 855), (X: 17081; Y: 855),
+    (X: 17080; Y: 855), (X: 17080; Y: 856), (X: 17079; Y: 856), (X: 17078; Y: 856),
+    (X: 17078; Y: 857), (X: 17077; Y: 857), (X: 17077; Y: 858), (X: 17076; Y: 858),
+    (X: 17076; Y: 859), (X: 17075; Y: 859), (X: 17075; Y: 860), (X: 17074; Y: 860),
+    (X: 17074; Y: 861), (X: 17073; Y: 862), (X: 17072; Y: 863), (X: 17072; Y: 864),
+    (X: 17071; Y: 864), (X: 17071; Y: 865), (X: 17070; Y: 866), (X: 17070; Y: 867),
+    (X: 17069; Y: 868), (X: 17069; Y: 869), (X: 17069; Y: 870), (X: 17068; Y: 871),
+    (X: 17068; Y: 872), (X: 17068; Y: 873), (X: 17068; Y: 874), (X: 17068; Y: 875),
+    (X: 17067; Y: 876), (X: 17067; Y: 877), (X: 17067; Y: 878), (X: 17066; Y: 879),
+    (X: 17066; Y: 880), (X: 17066; Y: 881), (X: 17066; Y: 882), (X: 17065; Y: 883),
+    (X: 17065; Y: 884), (X: 17064; Y: 885), (X: 17064; Y: 886), (X: 17064; Y: 887),
+    (X: 17064; Y: 888), (X: 17064; Y: 889), (X: 17064; Y: 890), (X: 17064; Y: 891),
+    (X: 17064; Y: 892), (X: 17064; Y: 893), (X: 17064; Y: 894), (X: 17064; Y: 895),
+    (X: 17065; Y: 896), (X: 17065; Y: 897), (X: 17065; Y: 898), (X: 17066; Y: 899),
+    (X: 17066; Y: 900), (X: 17067; Y: 900), (X: 17067; Y: 901), (X: 17067; Y: 902),
+    (X: 17068; Y: 902), (X: 17068; Y: 903), (X: 17069; Y: 903), (X: 17069; Y: 904),
+    (X: 17070; Y: 904), (X: 17070; Y: 905), (X: 17071; Y: 905), (X: 17071; Y: 906),
+    (X: 17072; Y: 906), (X: 17072; Y: 907), (X: 17073; Y: 907), (X: 17074; Y: 908),
+    (X: 17075; Y: 908), (X: 17076; Y: 909), (X: 17077; Y: 909), (X: 17078; Y: 909),
+    (X: 17078; Y: 910), (X: 17079; Y: 910), (X: 17080; Y: 910), (X: 17081; Y: 910),
+    (X: 17082; Y: 910), (X: 17084; Y: 910), (X: 17085; Y: 910), (X: 17086; Y: 910),
+    (X: 17087; Y: 911), (X: 17089; Y: 911), (X: 17091; Y: 911), (X: 17092; Y: 910),
+    (X: 17093; Y: 910), (X: 17094; Y: 910), (X: 17096; Y: 910), (X: 17097; Y: 910),
+    (X: 17098; Y: 910), (X: 17099; Y: 910), (X: 17100; Y: 909), (X: 17101; Y: 909),
+    (X: 17102; Y: 909), (X: 17103; Y: 909), (X: 17103; Y: 908), (X: 17104; Y: 908),
+    (X: 17105; Y: 908), (X: 17106; Y: 907), (X: 17107; Y: 907), (X: 17108; Y: 907),
+    (X: 17109; Y: 906), (X: 17110; Y: 906), (X: 17111; Y: 906), (X: 17112; Y: 906),
+    (X: 17113; Y: 905), (X: 17114; Y: 905), (X: 17115; Y: 905), (X: 17116; Y: 904),
+    (X: 17117; Y: 904), (X: 17117; Y: 903), (X: 17118; Y: 903), (X: 17119; Y: 903),
+    (X: 17119; Y: 902), (X: 17120; Y: 902), (X: 17120; Y: 901), (X: 17121; Y: 901),
+    (X: 17121; Y: 900), (X: 17122; Y: 900), (X: 17122; Y: 899), (X: 17123; Y: 899),
+    (X: 17123; Y: 898), (X: 17124; Y: 898), (X: 17124; Y: 897), (X: 17125; Y: 897),
+    (X: 17125; Y: 896), (X: 17126; Y: 896), (X: 17126; Y: 895), (X: 17127; Y: 895),
+    (X: 17128; Y: 894), (X: 17129; Y: 894), (X: 17129; Y: 893), (X: 17130; Y: 893),
+    (X: 17131; Y: 893), (X: 17131; Y: 892), (X: 17132; Y: 891), (X: 17133; Y: 891),
+    (X: 17133; Y: 890), (X: 17134; Y: 889), (X: 17134; Y: 888), (X: 17135; Y: 888),
+    (X: 17135; Y: 887), (X: 17136; Y: 887), (X: 17137; Y: 886), (X: 17138; Y: 885),
+    (X: 17139; Y: 885), (X: 17139; Y: 884), (X: 17140; Y: 883), (X: 17140; Y: 882),
+    (X: 17141; Y: 882), (X: 17141; Y: 881), (X: 17142; Y: 880), (X: 17142; Y: 879),
+    (X: 17143; Y: 878), (X: 17143; Y: 877), (X: 17143; Y: 876), (X: 17143; Y: 875),
+    (X: 17144; Y: 875), (X: 17144; Y: 874), (X: 17144; Y: 873), (X: 17144; Y: 872),
+    (X: 17144; Y: 871), (X: 17144; Y: 870), (X: 17144; Y: 869), (X: 17144; Y: 868),
+    (X: 17144; Y: 867), (X: 17143; Y: 866), (X: 17143; Y: 865), (X: 17143; Y: 864),
+    (X: 17143; Y: 863), (X: 17142; Y: 862), (X: 17142; Y: 861), (X: 17141; Y: 861),
+    (X: 17141; Y: 860), (X: 17140; Y: 859), (X: 17140; Y: 858), (X: 17139; Y: 858),
+    (X: 17139; Y: 857), (X: 17139; Y: 856), (X: 17139; Y: 855), (X: 17139; Y: 854),
+    (X: 17139; Y: 853), (X: 17140; Y: 853), (X: 17140; Y: 852), (X: 17140; Y: 851),
+    (X: 17140; Y: 850), (X: 17140; Y: 849), (X: 17140; Y: 848), (X: 17140; Y: 847),
+    (X: 17139; Y: 846), (X: 17139; Y: 845), (X: 17139; Y: 844), (X: 17139; Y: 843),
+    (X: 17138; Y: 842), (X: 17138; Y: 841), (X: 17137; Y: 840), (X: 17137; Y: 839),
+    (X: 17136; Y: 839), (X: 17136; Y: 838)
+  );
+
+  cPacificMajuro_21: array [0..155] of TTimeZonePoint = (
+    (X: 16623; Y: 872), (X: 16622; Y: 872), (X: 16620; Y: 872), (X: 16619; Y: 872),
+    (X: 16618; Y: 872), (X: 16617; Y: 872), (X: 16617; Y: 873), (X: 16616; Y: 873),
+    (X: 16615; Y: 873), (X: 16614; Y: 873), (X: 16614; Y: 874), (X: 16613; Y: 874),
+    (X: 16612; Y: 874), (X: 16611; Y: 875), (X: 16610; Y: 875), (X: 16610; Y: 876),
+    (X: 16609; Y: 876), (X: 16609; Y: 877), (X: 16608; Y: 877), (X: 16608; Y: 878),
+    (X: 16607; Y: 878), (X: 16607; Y: 879), (X: 16606; Y: 879), (X: 16606; Y: 880),
+    (X: 16605; Y: 880), (X: 16605; Y: 881), (X: 16604; Y: 882), (X: 16604; Y: 883),
+    (X: 16603; Y: 884), (X: 16603; Y: 885), (X: 16603; Y: 886), (X: 16602; Y: 886),
+    (X: 16602; Y: 887), (X: 16602; Y: 888), (X: 16602; Y: 889), (X: 16602; Y: 890),
+    (X: 16601; Y: 891), (X: 16601; Y: 892), (X: 16601; Y: 893), (X: 16601; Y: 894),
+    (X: 16601; Y: 895), (X: 16601; Y: 896), (X: 16601; Y: 897), (X: 16601; Y: 898),
+    (X: 16602; Y: 899), (X: 16602; Y: 900), (X: 16602; Y: 901), (X: 16602; Y: 902),
+    (X: 16603; Y: 903), (X: 16603; Y: 904), (X: 16603; Y: 905), (X: 16604; Y: 905),
+    (X: 16604; Y: 906), (X: 16605; Y: 906), (X: 16605; Y: 907), (X: 16605; Y: 908),
+    (X: 16606; Y: 908), (X: 16606; Y: 909), (X: 16607; Y: 909), (X: 16607; Y: 910),
+    (X: 16608; Y: 910), (X: 16608; Y: 911), (X: 16609; Y: 911), (X: 16609; Y: 912),
+    (X: 16610; Y: 912), (X: 16611; Y: 912), (X: 16611; Y: 913), (X: 16612; Y: 913),
+    (X: 16613; Y: 914), (X: 16614; Y: 914), (X: 16615; Y: 915), (X: 16616; Y: 915),
+    (X: 16617; Y: 915), (X: 16618; Y: 916), (X: 16619; Y: 916), (X: 16620; Y: 916),
+    (X: 16621; Y: 916), (X: 16622; Y: 916), (X: 16623; Y: 916), (X: 16625; Y: 916),
+    (X: 16626; Y: 916), (X: 16627; Y: 916), (X: 16628; Y: 916), (X: 16628; Y: 915),
+    (X: 16629; Y: 915), (X: 16630; Y: 915), (X: 16631; Y: 915), (X: 16631; Y: 914),
+    (X: 16632; Y: 914), (X: 16633; Y: 914), (X: 16633; Y: 913), (X: 16634; Y: 913),
+    (X: 16635; Y: 913), (X: 16636; Y: 912), (X: 16637; Y: 911), (X: 16638; Y: 911),
+    (X: 16639; Y: 910), (X: 16640; Y: 909), (X: 16641; Y: 908), (X: 16642; Y: 907),
+    (X: 16642; Y: 906), (X: 16643; Y: 906), (X: 16643; Y: 905), (X: 16644; Y: 905),
+    (X: 16644; Y: 904), (X: 16644; Y: 903), (X: 16645; Y: 903), (X: 16645; Y: 902),
+    (X: 16646; Y: 901), (X: 16646; Y: 900), (X: 16646; Y: 899), (X: 16647; Y: 899),
+    (X: 16647; Y: 898), (X: 16647; Y: 897), (X: 16647; Y: 896), (X: 16648; Y: 895),
+    (X: 16648; Y: 894), (X: 16648; Y: 893), (X: 16648; Y: 892), (X: 16648; Y: 891),
+    (X: 16648; Y: 890), (X: 16648; Y: 889), (X: 16647; Y: 888), (X: 16647; Y: 887),
+    (X: 16647; Y: 886), (X: 16647; Y: 885), (X: 16646; Y: 885), (X: 16646; Y: 884),
+    (X: 16646; Y: 883), (X: 16645; Y: 883), (X: 16645; Y: 882), (X: 16645; Y: 881),
+    (X: 16644; Y: 881), (X: 16644; Y: 880), (X: 16643; Y: 880), (X: 16643; Y: 879),
+    (X: 16642; Y: 878), (X: 16641; Y: 878), (X: 16641; Y: 877), (X: 16640; Y: 877),
+    (X: 16640; Y: 876), (X: 16639; Y: 876), (X: 16638; Y: 875), (X: 16637; Y: 875),
+    (X: 16637; Y: 874), (X: 16636; Y: 874), (X: 16635; Y: 874), (X: 16634; Y: 873),
+    (X: 16633; Y: 873), (X: 16632; Y: 873), (X: 16630; Y: 872), (X: 16629; Y: 872),
+    (X: 16628; Y: 872), (X: 16626; Y: 872), (X: 16625; Y: 872), (X: 16623; Y: 872)
+  );
+
+  cPacificMajuro_22: array [0..228] of TTimeZonePoint = (
+    (X: 16577; Y: 873), (X: 16576; Y: 873), (X: 16574; Y: 873), (X: 16573; Y: 873),
+    (X: 16572; Y: 873), (X: 16571; Y: 873), (X: 16570; Y: 873), (X: 16570; Y: 874),
+    (X: 16569; Y: 874), (X: 16568; Y: 874), (X: 16567; Y: 874), (X: 16567; Y: 875),
+    (X: 16566; Y: 875), (X: 16565; Y: 876), (X: 16564; Y: 876), (X: 16564; Y: 877),
+    (X: 16563; Y: 877), (X: 16562; Y: 877), (X: 16562; Y: 878), (X: 16561; Y: 878),
+    (X: 16560; Y: 878), (X: 16559; Y: 879), (X: 16558; Y: 880), (X: 16557; Y: 880),
+    (X: 16556; Y: 881), (X: 16556; Y: 882), (X: 16555; Y: 882), (X: 16554; Y: 883),
+    (X: 16554; Y: 884), (X: 16553; Y: 884), (X: 16553; Y: 885), (X: 16552; Y: 885),
+    (X: 16552; Y: 886), (X: 16551; Y: 886), (X: 16550; Y: 886), (X: 16550; Y: 887),
+    (X: 16549; Y: 887), (X: 16548; Y: 887), (X: 16548; Y: 888), (X: 16547; Y: 888),
+    (X: 16547; Y: 889), (X: 16546; Y: 889), (X: 16545; Y: 890), (X: 16544; Y: 891),
+    (X: 16543; Y: 892), (X: 16543; Y: 893), (X: 16542; Y: 893), (X: 16542; Y: 894),
+    (X: 16541; Y: 894), (X: 16541; Y: 895), (X: 16541; Y: 896), (X: 16540; Y: 896),
+    (X: 16540; Y: 897), (X: 16540; Y: 898), (X: 16539; Y: 899), (X: 16539; Y: 900),
+    (X: 16539; Y: 901), (X: 16539; Y: 902), (X: 16539; Y: 903), (X: 16539; Y: 904),
+    (X: 16539; Y: 905), (X: 16539; Y: 906), (X: 16538; Y: 906), (X: 16538; Y: 907),
+    (X: 16537; Y: 908), (X: 16537; Y: 909), (X: 16536; Y: 909), (X: 16536; Y: 910),
+    (X: 16535; Y: 910), (X: 16535; Y: 911), (X: 16535; Y: 912), (X: 16534; Y: 912),
+    (X: 16534; Y: 913), (X: 16533; Y: 914), (X: 16533; Y: 915), (X: 16533; Y: 916),
+    (X: 16533; Y: 917), (X: 16532; Y: 917), (X: 16532; Y: 918), (X: 16532; Y: 919),
+    (X: 16532; Y: 920), (X: 16532; Y: 921), (X: 16532; Y: 922), (X: 16532; Y: 923),
+    (X: 16532; Y: 924), (X: 16532; Y: 925), (X: 16532; Y: 926), (X: 16533; Y: 927),
+    (X: 16533; Y: 928), (X: 16533; Y: 929), (X: 16534; Y: 930), (X: 16534; Y: 931),
+    (X: 16534; Y: 932), (X: 16535; Y: 932), (X: 16535; Y: 933), (X: 16536; Y: 933),
+    (X: 16536; Y: 934), (X: 16537; Y: 935), (X: 16537; Y: 936), (X: 16538; Y: 936),
+    (X: 16538; Y: 937), (X: 16539; Y: 937), (X: 16540; Y: 938), (X: 16541; Y: 938),
+    (X: 16541; Y: 939), (X: 16542; Y: 939), (X: 16543; Y: 940), (X: 16544; Y: 940),
+    (X: 16545; Y: 940), (X: 16545; Y: 941), (X: 16546; Y: 941), (X: 16547; Y: 941),
+    (X: 16548; Y: 941), (X: 16548; Y: 942), (X: 16549; Y: 942), (X: 16550; Y: 942),
+    (X: 16552; Y: 942), (X: 16553; Y: 942), (X: 16555; Y: 942), (X: 16556; Y: 942),
+    (X: 16557; Y: 942), (X: 16557; Y: 941), (X: 16558; Y: 941), (X: 16559; Y: 941),
+    (X: 16560; Y: 941), (X: 16560; Y: 940), (X: 16561; Y: 940), (X: 16562; Y: 940),
+    (X: 16563; Y: 939), (X: 16564; Y: 939), (X: 16564; Y: 938), (X: 16565; Y: 938),
+    (X: 16565; Y: 937), (X: 16566; Y: 937), (X: 16567; Y: 936), (X: 16568; Y: 935),
+    (X: 16569; Y: 934), (X: 16570; Y: 934), (X: 16571; Y: 933), (X: 16572; Y: 933),
+    (X: 16573; Y: 933), (X: 16573; Y: 932), (X: 16574; Y: 932), (X: 16575; Y: 932),
+    (X: 16575; Y: 931), (X: 16576; Y: 931), (X: 16577; Y: 931), (X: 16577; Y: 930),
+    (X: 16578; Y: 930), (X: 16578; Y: 929), (X: 16579; Y: 929), (X: 16579; Y: 928),
+    (X: 16580; Y: 928), (X: 16580; Y: 927), (X: 16581; Y: 927), (X: 16581; Y: 926),
+    (X: 16582; Y: 926), (X: 16582; Y: 925), (X: 16582; Y: 924), (X: 16583; Y: 924),
+    (X: 16583; Y: 923), (X: 16584; Y: 922), (X: 16584; Y: 921), (X: 16584; Y: 920),
+    (X: 16585; Y: 920), (X: 16585; Y: 919), (X: 16586; Y: 918), (X: 16586; Y: 917),
+    (X: 16587; Y: 916), (X: 16587; Y: 915), (X: 16587; Y: 914), (X: 16588; Y: 914),
+    (X: 16588; Y: 913), (X: 16589; Y: 912), (X: 16589; Y: 911), (X: 16590; Y: 911),
+    (X: 16590; Y: 910), (X: 16590; Y: 909), (X: 16591; Y: 909), (X: 16591; Y: 908),
+    (X: 16591; Y: 907), (X: 16592; Y: 907), (X: 16592; Y: 906), (X: 16593; Y: 906),
+    (X: 16593; Y: 905), (X: 16594; Y: 904), (X: 16594; Y: 903), (X: 16595; Y: 902),
+    (X: 16595; Y: 901), (X: 16596; Y: 900), (X: 16596; Y: 899), (X: 16596; Y: 898),
+    (X: 16596; Y: 897), (X: 16597; Y: 897), (X: 16597; Y: 896), (X: 16597; Y: 895),
+    (X: 16597; Y: 894), (X: 16597; Y: 893), (X: 16597; Y: 892), (X: 16597; Y: 891),
+    (X: 16597; Y: 890), (X: 16597; Y: 889), (X: 16596; Y: 888), (X: 16596; Y: 887),
+    (X: 16596; Y: 886), (X: 16595; Y: 885), (X: 16595; Y: 884), (X: 16594; Y: 883),
+    (X: 16594; Y: 882), (X: 16593; Y: 881), (X: 16592; Y: 880), (X: 16591; Y: 879),
+    (X: 16591; Y: 878), (X: 16590; Y: 878), (X: 16589; Y: 877), (X: 16588; Y: 877),
+    (X: 16588; Y: 876), (X: 16587; Y: 876), (X: 16586; Y: 875), (X: 16585; Y: 875),
+    (X: 16585; Y: 874), (X: 16584; Y: 874), (X: 16583; Y: 874), (X: 16582; Y: 873),
+    (X: 16581; Y: 873), (X: 16580; Y: 873), (X: 16579; Y: 873), (X: 16578; Y: 873),
+    (X: 16577; Y: 873)
+  );
+
+  cPacificMajuroPolygon: array[0..22] of TTimeZonePolygon = (
+    (PointsCount: 18; FirstPoint: @cPacificMajuro_0[0]), 
+    (PointsCount: 307; FirstPoint: @cPacificMajuro_1[0]), 
+    (PointsCount: 185; FirstPoint: @cPacificMajuro_2[0]), 
+    (PointsCount: 488; FirstPoint: @cPacificMajuro_3[0]), 
+    (PointsCount: 191; FirstPoint: @cPacificMajuro_4[0]), 
+    (PointsCount: 138; FirstPoint: @cPacificMajuro_5[0]), 
+    (PointsCount: 237; FirstPoint: @cPacificMajuro_6[0]), 
+    (PointsCount: 463; FirstPoint: @cPacificMajuro_7[0]), 
+    (PointsCount: 290; FirstPoint: @cPacificMajuro_8[0]), 
+    (PointsCount: 236; FirstPoint: @cPacificMajuro_9[0]), 
+    (PointsCount: 141; FirstPoint: @cPacificMajuro_10[0]), 
+    (PointsCount: 373; FirstPoint: @cPacificMajuro_11[0]), 
+    (PointsCount: 294; FirstPoint: @cPacificMajuro_12[0]), 
+    (PointsCount: 242; FirstPoint: @cPacificMajuro_13[0]), 
+    (PointsCount: 174; FirstPoint: @cPacificMajuro_14[0]), 
+    (PointsCount: 296; FirstPoint: @cPacificMajuro_15[0]), 
+    (PointsCount: 170; FirstPoint: @cPacificMajuro_16[0]), 
+    (PointsCount: 158; FirstPoint: @cPacificMajuro_17[0]), 
+    (PointsCount: 277; FirstPoint: @cPacificMajuro_18[0]), 
+    (PointsCount: 152; FirstPoint: @cPacificMajuro_19[0]), 
+    (PointsCount: 354; FirstPoint: @cPacificMajuro_20[0]), 
+    (PointsCount: 156; FirstPoint: @cPacificMajuro_21[0]), 
+    (PointsCount: 229; FirstPoint: @cPacificMajuro_22[0])
   );
 
   cPacificMajuroBound: TTimeZoneBound = (
-    Min: (X: 16095; Y: 457);
-    Max: (X: 17216; Y: 1466)
+    Min: (X: 16059; Y: 437);
+    Max: (X: 17237; Y: 1487)
   );
 
   cPacificMajuro: TTimeZoneInfo = (
     TZID: 'Pacific/Majuro';
     Bound: @cPacificMajuroBound;
-    PolygonsCount: 182;
+    PolygonsCount: 23;
     FirstPolygon: @cPacificMajuroPolygon[0]
   );
 

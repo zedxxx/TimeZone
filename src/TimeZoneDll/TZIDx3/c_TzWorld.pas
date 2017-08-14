@@ -174,6 +174,7 @@ uses
   c_AmericaPortauPrince,
   c_AmericaPorto_Velho,
   c_AmericaPuerto_Rico,
+  c_AmericaPunta_Arenas,
   c_AmericaRainy_River,
   c_AmericaRankin_Inlet,
   c_AmericaRecife,
@@ -213,6 +214,7 @@ uses
   c_AsiaAqtau,
   c_AsiaAqtobe,
   c_AsiaAshgabat,
+  c_AsiaAtyrau,
   c_AsiaBaghdad,
   c_AsiaBahrain,
   c_AsiaBaku,
@@ -230,6 +232,7 @@ uses
   c_AsiaDili,
   c_AsiaDubai,
   c_AsiaDushanbe,
+  c_AsiaFamagusta,
   c_AsiaGaza,
   c_AsiaHarbin,
   c_AsiaHebron,
@@ -353,6 +356,7 @@ uses
   c_EuropeSamara,
   c_EuropeSan_Marino,
   c_EuropeSarajevo,
+  c_EuropeSaratov,
   c_EuropeSimferopol,
   c_EuropeSkopje,
   c_EuropeSofia,
@@ -423,7 +427,7 @@ uses
   c_PacificYap;
 
 const
-  cTzWorld: array [0..416] of PTimeZoneInfo = (
+  cTzWorld: array [0..420] of PTimeZoneInfo = (
     @cAfricaAbidjan, 
     @cAfricaAccra, 
     @cAfricaAddis_Ababa, 
@@ -594,6 +598,7 @@ const
     @cAmericaPortauPrince, 
     @cAmericaPorto_Velho, 
     @cAmericaPuerto_Rico, 
+    @cAmericaPunta_Arenas, 
     @cAmericaRainy_River, 
     @cAmericaRankin_Inlet, 
     @cAmericaRecife, 
@@ -633,6 +638,7 @@ const
     @cAsiaAqtau, 
     @cAsiaAqtobe, 
     @cAsiaAshgabat, 
+    @cAsiaAtyrau, 
     @cAsiaBaghdad, 
     @cAsiaBahrain, 
     @cAsiaBaku, 
@@ -650,6 +656,7 @@ const
     @cAsiaDili, 
     @cAsiaDubai, 
     @cAsiaDushanbe, 
+    @cAsiaFamagusta, 
     @cAsiaGaza, 
     @cAsiaHarbin, 
     @cAsiaHebron, 
@@ -773,6 +780,7 @@ const
     @cEuropeSamara, 
     @cEuropeSan_Marino, 
     @cEuropeSarajevo, 
+    @cEuropeSaratov, 
     @cEuropeSimferopol, 
     @cEuropeSkopje, 
     @cEuropeSofia, 

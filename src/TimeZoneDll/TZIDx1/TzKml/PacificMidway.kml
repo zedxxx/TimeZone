@@ -24,7 +24,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      -177.400000,28.200000,0 -177.400000,28.200000,0 
+      -177.300000,28.500000,0 -177.200000,28.400000,0 -177.100000,28.300000,0 -177.100000,28.200000,0 -177.200000,28.100000,0 -177.300000,28.000000,0 -177.400000,28.000000,0 -177.500000,28.000000,0 -177.500000,28.100000,0 -177.600000,28.100000,0 -177.600000,28.200000,0 -177.600000,28.300000,0 -177.500000,28.400000,0 -177.400000,28.400000,0 -177.400000,28.500000,0 -177.300000,28.500000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>
@@ -38,35 +38,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      -177.300000,28.200000,0 -177.300000,28.200000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificMidway_2</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -178.300000,28.400000,0 -178.300000,28.400000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cPacificMidway_3</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -178.300000,28.400000,0 -178.300000,28.400000,0 
+      -178.300000,28.200000,0 -178.400000,28.200000,0 -178.500000,28.200000,0 -178.500000,28.300000,0 -178.500000,28.400000,0 -178.500000,28.500000,0 -178.400000,28.600000,0 -178.300000,28.600000,0 -178.200000,28.600000,0 -178.200000,28.500000,0 -178.100000,28.400000,0 -178.100000,28.300000,0 -178.200000,28.300000,0 -178.200000,28.200000,0 -178.300000,28.200000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>

@@ -24,49 +24,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      -2.400000,49.500000,0 -2.400000,49.400000,0 -2.400000,49.500000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cEuropeGuernsey_1</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -2.500000,49.500000,0 -2.500000,49.400000,0 -2.600000,49.400000,0 -2.700000,49.400000,0 -2.700000,49.500000,0 -2.600000,49.500000,0 -2.500000,49.500000,0 -2.600000,49.500000,0 -2.500000,49.500000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cEuropeGuernsey_2</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -2.200000,49.700000,0 -2.200000,49.700000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cEuropeGuernsey_3</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -2.500000,49.500000,0 -2.500000,49.500000,0 
+      -2.100000,49.400000,0 -2.200000,49.400000,0 -2.300000,49.300000,0 -2.400000,49.300000,0 -2.500000,49.300000,0 -2.600000,49.200000,0 -2.700000,49.300000,0 -2.800000,49.300000,0 -2.900000,49.300000,0 -3.000000,49.300000,0 -3.000000,49.400000,0 -3.000000,49.500000,0 -3.000000,49.600000,0 -2.900000,49.600000,0 -2.800000,49.600000,0 -2.800000,49.700000,0 -2.700000,49.700000,0 -2.700000,49.800000,0 -2.600000,49.800000,0 -2.600000,49.900000,0 -2.500000,49.900000,0 -2.400000,49.900000,0 -2.300000,49.900000,0 -2.200000,49.900000,0 -2.100000,49.900000,0 -2.100000,49.800000,0 -2.100000,49.700000,0 -2.100000,49.500000,0 -2.100000,49.400000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>

@@ -6,17 +6,19 @@ uses
   t_TzWorld;
 
 const
-  cEuropeVaduz_0: array [0..5] of TTimeZonePoint = (
-    (X: 95; Y: 473), (X: 96; Y: 472), (X: 96; Y: 471), (X: 95; Y: 471),
-    (X: 95; Y: 472), (X: 95; Y: 473)
+  cEuropeVaduz_0: array [0..12] of TTimeZonePoint = (
+    (X: 95; Y: 472), (X: 95; Y: 473), (X: 96; Y: 473), (X: 96; Y: 472),
+    (X: 96; Y: 471), (X: 96; Y: 472), (X: 96; Y: 471), (X: 96; Y: 470),
+    (X: 96; Y: 471), (X: 95; Y: 471), (X: 95; Y: 470), (X: 95; Y: 471),
+    (X: 95; Y: 472)
   );
 
   cEuropeVaduzPolygon: array[0..0] of TTimeZonePolygon = (
-    (PointsCount: 6; FirstPoint: @cEuropeVaduz_0[0])
+    (PointsCount: 13; FirstPoint: @cEuropeVaduz_0[0])
   );
 
   cEuropeVaduzBound: TTimeZoneBound = (
-    Min: (X: 95; Y: 471);
+    Min: (X: 95; Y: 470);
     Max: (X: 96; Y: 473)
   );
 

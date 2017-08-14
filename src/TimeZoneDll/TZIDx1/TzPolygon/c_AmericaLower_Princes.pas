@@ -6,18 +6,19 @@ uses
   t_TzWorld;
 
 const
-  cAmericaLower_Princes_0: array [0..4] of TTimeZonePoint = (
-    (X: -631; Y: 181), (X: -630; Y: 181), (X: -630; Y: 180), (X: -631; Y: 180),
-    (X: -631; Y: 181)
+  cAmericaLower_Princes_0: array [0..10] of TTimeZonePoint = (
+    (X: -633; Y: 180), (X: -631; Y: 181), (X: -631; Y: 180), (X: -631; Y: 181),
+    (X: -630; Y: 181), (X: -629; Y: 180), (X: -631; Y: 178), (X: -632; Y: 178),
+    (X: -632; Y: 179), (X: -633; Y: 179), (X: -633; Y: 180)
   );
 
   cAmericaLower_PrincesPolygon: array[0..0] of TTimeZonePolygon = (
-    (PointsCount: 5; FirstPoint: @cAmericaLower_Princes_0[0])
+    (PointsCount: 11; FirstPoint: @cAmericaLower_Princes_0[0])
   );
 
   cAmericaLower_PrincesBound: TTimeZoneBound = (
-    Min: (X: -631; Y: 180);
-    Max: (X: -630; Y: 181)
+    Min: (X: -633; Y: 178);
+    Max: (X: -629; Y: 181)
   );
 
   cAmericaLower_Princes: TTimeZoneInfo = (

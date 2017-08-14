@@ -6,115 +6,74 @@ uses
   t_TzWorld;
 
 const
-  cPacificMarquesas_0: array [0..4] of TTimeZonePoint = (
-    (X: -1386; Y: -104), (X: -1386; Y: -105), (X: -1387; Y: -105), (X: -1387; Y: -104),
-    (X: -1386; Y: -104)
+  cPacificMarquesas_0: array [0..20] of TTimeZonePoint = (
+    (X: -1385; Y: -106), (X: -1385; Y: -107), (X: -1386; Y: -107), (X: -1386; Y: -108),
+    (X: -1387; Y: -108), (X: -1387; Y: -107), (X: -1388; Y: -107), (X: -1389; Y: -106),
+    (X: -1389; Y: -105), (X: -1389; Y: -104), (X: -1389; Y: -103), (X: -1388; Y: -103),
+    (X: -1388; Y: -102), (X: -1387; Y: -102), (X: -1386; Y: -102), (X: -1385; Y: -103),
+    (X: -1384; Y: -103), (X: -1384; Y: -104), (X: -1384; Y: -105), (X: -1384; Y: -106),
+    (X: -1385; Y: -106)
   );
 
-  cPacificMarquesas_1: array [0..1] of TTimeZonePoint = (
-    (X: -1388; Y: -100), (X: -1388; Y: -100)
+  cPacificMarquesas_1: array [0..26] of TTimeZonePoint = (
+    (X: -1404; Y: -81), (X: -1405; Y: -81), (X: -1405; Y: -82), (X: -1406; Y: -82),
+    (X: -1407; Y: -82), (X: -1407; Y: -83), (X: -1407; Y: -82), (X: -1408; Y: -82),
+    (X: -1409; Y: -82), (X: -1409; Y: -81), (X: -1409; Y: -80), (X: -1409; Y: -79),
+    (X: -1409; Y: -78), (X: -1408; Y: -78), (X: -1407; Y: -78), (X: -1407; Y: -77),
+    (X: -1406; Y: -77), (X: -1405; Y: -77), (X: -1404; Y: -77), (X: -1403; Y: -77),
+    (X: -1402; Y: -77), (X: -1402; Y: -78), (X: -1402; Y: -79), (X: -1402; Y: -80),
+    (X: -1403; Y: -80), (X: -1403; Y: -81), (X: -1404; Y: -81)
   );
 
-  cPacificMarquesas_2: array [0..1] of TTimeZonePoint = (
-    (X: -1388; Y: -100), (X: -1388; Y: -100)
+  cPacificMarquesas_2: array [0..36] of TTimeZonePoint = (
+    (X: -1393; Y: -99), (X: -1394; Y: -99), (X: -1394; Y: -98), (X: -1394; Y: -97),
+    (X: -1393; Y: -97), (X: -1393; Y: -96), (X: -1392; Y: -96), (X: -1392; Y: -95),
+    (X: -1391; Y: -95), (X: -1391; Y: -94), (X: -1391; Y: -93), (X: -1390; Y: -93),
+    (X: -1390; Y: -92), (X: -1389; Y: -92), (X: -1388; Y: -92), (X: -1388; Y: -93),
+    (X: -1387; Y: -93), (X: -1387; Y: -94), (X: -1387; Y: -95), (X: -1387; Y: -96),
+    (X: -1386; Y: -96), (X: -1386; Y: -97), (X: -1386; Y: -98), (X: -1386; Y: -99),
+    (X: -1386; Y: -100), (X: -1386; Y: -101), (X: -1386; Y: -102), (X: -1387; Y: -102),
+    (X: -1388; Y: -102), (X: -1389; Y: -102), (X: -1390; Y: -102), (X: -1391; Y: -102),
+    (X: -1392; Y: -102), (X: -1393; Y: -102), (X: -1393; Y: -101), (X: -1393; Y: -100),
+    (X: -1393; Y: -99)
   );
 
-  cPacificMarquesas_3: array [0..6] of TTimeZonePoint = (
-    (X: -1391; Y: -100), (X: -1391; Y: -99), (X: -1390; Y: -99), (X: -1391; Y: -99),
-    (X: -1390; Y: -99), (X: -1390; Y: -100), (X: -1391; Y: -100)
+  cPacificMarquesas_3: array [0..65] of TTimeZonePoint = (
+    (X: -1403; Y: -92), (X: -1402; Y: -92), (X: -1403; Y: -92), (X: -1403; Y: -91),
+    (X: -1404; Y: -91), (X: -1404; Y: -90), (X: -1404; Y: -89), (X: -1405; Y: -89),
+    (X: -1405; Y: -88), (X: -1405; Y: -89), (X: -1406; Y: -89), (X: -1407; Y: -89),
+    (X: -1407; Y: -88), (X: -1408; Y: -88), (X: -1408; Y: -87), (X: -1408; Y: -86),
+    (X: -1408; Y: -85), (X: -1407; Y: -85), (X: -1406; Y: -85), (X: -1405; Y: -85),
+    (X: -1404; Y: -86), (X: -1404; Y: -87), (X: -1404; Y: -86), (X: -1403; Y: -86),
+    (X: -1402; Y: -86), (X: -1401; Y: -86), (X: -1400; Y: -86), (X: -1399; Y: -86),
+    (X: -1399; Y: -87), (X: -1398; Y: -87), (X: -1398; Y: -88), (X: -1397; Y: -87),
+    (X: -1396; Y: -87), (X: -1395; Y: -87), (X: -1394; Y: -87), (X: -1393; Y: -88),
+    (X: -1393; Y: -89), (X: -1393; Y: -90), (X: -1393; Y: -91), (X: -1394; Y: -91),
+    (X: -1395; Y: -91), (X: -1395; Y: -92), (X: -1396; Y: -92), (X: -1397; Y: -92),
+    (X: -1397; Y: -91), (X: -1398; Y: -91), (X: -1398; Y: -90), (X: -1399; Y: -90),
+    (X: -1399; Y: -91), (X: -1400; Y: -91), (X: -1400; Y: -92), (X: -1399; Y: -92),
+    (X: -1398; Y: -93), (X: -1398; Y: -94), (X: -1398; Y: -95), (X: -1399; Y: -95),
+    (X: -1399; Y: -96), (X: -1400; Y: -96), (X: -1400; Y: -97), (X: -1401; Y: -97),
+    (X: -1402; Y: -96), (X: -1403; Y: -96), (X: -1403; Y: -95), (X: -1403; Y: -94),
+    (X: -1403; Y: -93), (X: -1403; Y: -92)
   );
 
-  cPacificMarquesas_4: array [0..16] of TTimeZonePoint = (
-    (X: -1389; Y: -98), (X: -1390; Y: -98), (X: -1391; Y: -98), (X: -1390; Y: -98),
-    (X: -1390; Y: -99), (X: -1391; Y: -99), (X: -1391; Y: -98), (X: -1392; Y: -98),
-    (X: -1391; Y: -98), (X: -1391; Y: -97), (X: -1390; Y: -97), (X: -1389; Y: -97),
-    (X: -1389; Y: -98), (X: -1388; Y: -98), (X: -1388; Y: -97), (X: -1388; Y: -98),
-    (X: -1389; Y: -98)
-  );
-
-  cPacificMarquesas_5: array [0..1] of TTimeZonePoint = (
-    (X: -1400; Y: -95), (X: -1400; Y: -95)
-  );
-
-  cPacificMarquesas_6: array [0..1] of TTimeZonePoint = (
-    (X: -1389; Y: -94), (X: -1389; Y: -94)
-  );
-
-  cPacificMarquesas_7: array [0..6] of TTimeZonePoint = (
-    (X: -1400; Y: -94), (X: -1400; Y: -95), (X: -1401; Y: -95), (X: -1401; Y: -94),
-    (X: -1401; Y: -93), (X: -1401; Y: -94), (X: -1400; Y: -94)
-  );
-
-  cPacificMarquesas_8: array [0..1] of TTimeZonePoint = (
-    (X: -1400; Y: -94), (X: -1400; Y: -94)
-  );
-
-  cPacificMarquesas_9: array [0..1] of TTimeZonePoint = (
-    (X: -1401; Y: -93), (X: -1401; Y: -93)
-  );
-
-  cPacificMarquesas_10: array [0..4] of TTimeZonePoint = (
-    (X: -1396; Y: -89), (X: -1395; Y: -89), (X: -1396; Y: -89), (X: -1396; Y: -90),
-    (X: -1396; Y: -89)
-  );
-
-  cPacificMarquesas_11: array [0..14] of TTimeZonePoint = (
-    (X: -1400; Y: -88), (X: -1400; Y: -89), (X: -1401; Y: -89), (X: -1401; Y: -90),
-    (X: -1401; Y: -89), (X: -1401; Y: -90), (X: -1401; Y: -89), (X: -1401; Y: -90),
-    (X: -1402; Y: -90), (X: -1401; Y: -90), (X: -1402; Y: -90), (X: -1402; Y: -89),
-    (X: -1402; Y: -88), (X: -1401; Y: -88), (X: -1400; Y: -88)
-  );
-
-  cPacificMarquesas_12: array [0..1] of TTimeZonePoint = (
-    (X: -1406; Y: -87), (X: -1406; Y: -87)
-  );
-
-  cPacificMarquesas_13: array [0..4] of TTimeZonePoint = (
-    (X: -1407; Y: -80), (X: -1406; Y: -80), (X: -1407; Y: -80), (X: -1407; Y: -81),
-    (X: -1407; Y: -80)
-  );
-
-  cPacificMarquesas_14: array [0..1] of TTimeZonePoint = (
-    (X: -1406; Y: -79), (X: -1406; Y: -79)
-  );
-
-  cPacificMarquesas_15: array [0..1] of TTimeZonePoint = (
-    (X: -1404; Y: -79), (X: -1404; Y: -79)
-  );
-
-  cPacificMarquesas_16: array [0..1] of TTimeZonePoint = (
-    (X: -1404; Y: -78), (X: -1404; Y: -78)
-  );
-
-  cPacificMarquesasPolygon: array[0..16] of TTimeZonePolygon = (
-    (PointsCount: 5; FirstPoint: @cPacificMarquesas_0[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMarquesas_1[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMarquesas_2[0]), 
-    (PointsCount: 7; FirstPoint: @cPacificMarquesas_3[0]), 
-    (PointsCount: 17; FirstPoint: @cPacificMarquesas_4[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMarquesas_5[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMarquesas_6[0]), 
-    (PointsCount: 7; FirstPoint: @cPacificMarquesas_7[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMarquesas_8[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMarquesas_9[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMarquesas_10[0]), 
-    (PointsCount: 15; FirstPoint: @cPacificMarquesas_11[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMarquesas_12[0]), 
-    (PointsCount: 5; FirstPoint: @cPacificMarquesas_13[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMarquesas_14[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMarquesas_15[0]), 
-    (PointsCount: 2; FirstPoint: @cPacificMarquesas_16[0])
+  cPacificMarquesasPolygon: array[0..3] of TTimeZonePolygon = (
+    (PointsCount: 21; FirstPoint: @cPacificMarquesas_0[0]), 
+    (PointsCount: 27; FirstPoint: @cPacificMarquesas_1[0]), 
+    (PointsCount: 37; FirstPoint: @cPacificMarquesas_2[0]), 
+    (PointsCount: 66; FirstPoint: @cPacificMarquesas_3[0])
   );
 
   cPacificMarquesasBound: TTimeZoneBound = (
-    Min: (X: -1407; Y: -105);
-    Max: (X: -1386; Y: -78)
+    Min: (X: -1409; Y: -108);
+    Max: (X: -1384; Y: -77)
   );
 
   cPacificMarquesas: TTimeZoneInfo = (
     TZID: 'Pacific/Marquesas';
     Bound: @cPacificMarquesasBound;
-    PolygonsCount: 17;
+    PolygonsCount: 4;
     FirstPolygon: @cPacificMarquesasPolygon[0]
   );
 

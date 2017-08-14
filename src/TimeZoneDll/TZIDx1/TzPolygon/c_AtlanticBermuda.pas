@@ -6,34 +6,28 @@ uses
   t_TzWorld;
 
 const
-  cAtlanticBermuda_0: array [0..1] of TTimeZonePoint = (
-    (X: -647; Y: 324), (X: -647; Y: 324)
+  cAtlanticBermuda_0: array [0..23] of TTimeZonePoint = (
+    (X: -651; Y: 323), (X: -651; Y: 324), (X: -650; Y: 325), (X: -649; Y: 325),
+    (X: -648; Y: 325), (X: -648; Y: 326), (X: -647; Y: 326), (X: -646; Y: 326),
+    (X: -645; Y: 325), (X: -644; Y: 325), (X: -644; Y: 324), (X: -644; Y: 323),
+    (X: -645; Y: 322), (X: -646; Y: 322), (X: -646; Y: 321), (X: -647; Y: 321),
+    (X: -648; Y: 321), (X: -648; Y: 320), (X: -649; Y: 320), (X: -649; Y: 321),
+    (X: -650; Y: 321), (X: -651; Y: 321), (X: -651; Y: 322), (X: -651; Y: 323)
   );
 
-  cAtlanticBermuda_1: array [0..7] of TTimeZonePoint = (
-    (X: -647; Y: 324), (X: -647; Y: 323), (X: -648; Y: 323), (X: -649; Y: 322),
-    (X: -649; Y: 323), (X: -648; Y: 323), (X: -647; Y: 323), (X: -647; Y: 324)
-  );
-
-  cAtlanticBermuda_2: array [0..1] of TTimeZonePoint = (
-    (X: -647; Y: 324), (X: -647; Y: 324)
-  );
-
-  cAtlanticBermudaPolygon: array[0..2] of TTimeZonePolygon = (
-    (PointsCount: 2; FirstPoint: @cAtlanticBermuda_0[0]), 
-    (PointsCount: 8; FirstPoint: @cAtlanticBermuda_1[0]), 
-    (PointsCount: 2; FirstPoint: @cAtlanticBermuda_2[0])
+  cAtlanticBermudaPolygon: array[0..0] of TTimeZonePolygon = (
+    (PointsCount: 24; FirstPoint: @cAtlanticBermuda_0[0])
   );
 
   cAtlanticBermudaBound: TTimeZoneBound = (
-    Min: (X: -649; Y: 322);
-    Max: (X: -647; Y: 324)
+    Min: (X: -651; Y: 320);
+    Max: (X: -644; Y: 326)
   );
 
   cAtlanticBermuda: TTimeZoneInfo = (
     TZID: 'Atlantic/Bermuda';
     Bound: @cAtlanticBermudaBound;
-    PolygonsCount: 3;
+    PolygonsCount: 1;
     FirstPolygon: @cAtlanticBermudaPolygon[0]
   );
 

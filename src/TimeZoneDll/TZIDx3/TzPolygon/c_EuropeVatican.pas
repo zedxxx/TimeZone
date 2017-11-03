@@ -6,7 +6,8 @@ uses
   t_TzWorld;
 
 const
-  cEuropeVatican_0: array [0..39] of TTimeZonePoint = (
+  cEuropeVatican_0: array [0..43] of TTimeZonePoint = (
+    (X: 12458; Y: 41903), (X: 12457; Y: 41903), (X: 12456; Y: 41903), (X: 12457; Y: 41903),
     (X: 12458; Y: 41903), (X: 12458; Y: 41902), (X: 12458; Y: 41901), (X: 12457; Y: 41901),
     (X: 12456; Y: 41901), (X: 12456; Y: 41902), (X: 12455; Y: 41902), (X: 12455; Y: 41901),
     (X: 12454; Y: 41901), (X: 12454; Y: 41900), (X: 12455; Y: 41900), (X: 12454; Y: 41900),
@@ -20,7 +21,7 @@ const
   );
 
   cEuropeVaticanPolygon: array[0..0] of TTimeZonePolygon = (
-    (PointsCount: 40; FirstPoint: @cEuropeVatican_0[0])
+    (PointsCount: 44; FirstPoint: @cEuropeVatican_0[0])
   );
 
   cEuropeVaticanBound: TTimeZoneBound = (

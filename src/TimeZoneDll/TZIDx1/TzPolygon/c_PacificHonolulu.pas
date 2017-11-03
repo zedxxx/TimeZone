@@ -78,7 +78,15 @@ const
     (X: -1605; Y: 219)
   );
 
-  cPacificHonolulu_8: array [0..48] of TTimeZonePoint = (
+  cPacificHonolulu_8: array [0..18] of TTimeZonePoint = (
+    (X: -1696; Y: 170), (X: -1695; Y: 170), (X: -1694; Y: 170), (X: -1693; Y: 169),
+    (X: -1693; Y: 168), (X: -1693; Y: 167), (X: -1693; Y: 166), (X: -1694; Y: 165),
+    (X: -1695; Y: 165), (X: -1696; Y: 165), (X: -1697; Y: 165), (X: -1697; Y: 166),
+    (X: -1698; Y: 166), (X: -1698; Y: 167), (X: -1698; Y: 168), (X: -1697; Y: 168),
+    (X: -1697; Y: 169), (X: -1696; Y: 169), (X: -1696; Y: 170)
+  );
+
+  cPacificHonolulu_9: array [0..48] of TTimeZonePoint = (
     (X: -1556; Y: 204), (X: -1555; Y: 203), (X: -1554; Y: 203), (X: -1552; Y: 202),
     (X: -1551; Y: 201), (X: -1549; Y: 200), (X: -1548; Y: 199), (X: -1548; Y: 197),
     (X: -1547; Y: 197), (X: -1546; Y: 196), (X: -1546; Y: 195), (X: -1546; Y: 194),
@@ -94,7 +102,7 @@ const
     (X: -1556; Y: 204)
   );
 
-  cPacificHonolulu_9: array [0..80] of TTimeZonePoint = (
+  cPacificHonolulu_10: array [0..80] of TTimeZonePoint = (
     (X: -1577; Y: 211), (X: -1578; Y: 211), (X: -1579; Y: 211), (X: -1580; Y: 211),
     (X: -1581; Y: 211), (X: -1582; Y: 211), (X: -1583; Y: 212), (X: -1583; Y: 213),
     (X: -1584; Y: 213), (X: -1584; Y: 214), (X: -1585; Y: 215), (X: -1585; Y: 216),
@@ -118,7 +126,7 @@ const
     (X: -1577; Y: 211)
   );
 
-  cPacificHonoluluPolygon: array[0..9] of TTimeZonePolygon = (
+  cPacificHonoluluPolygon: array[0..10] of TTimeZonePolygon = (
     (PointsCount: 19; FirstPoint: @cPacificHonolulu_0[0]), 
     (PointsCount: 17; FirstPoint: @cPacificHonolulu_1[0]), 
     (PointsCount: 16; FirstPoint: @cPacificHonolulu_2[0]), 
@@ -127,19 +135,20 @@ const
     (PointsCount: 17; FirstPoint: @cPacificHonolulu_5[0]), 
     (PointsCount: 16; FirstPoint: @cPacificHonolulu_6[0]), 
     (PointsCount: 53; FirstPoint: @cPacificHonolulu_7[0]), 
-    (PointsCount: 49; FirstPoint: @cPacificHonolulu_8[0]), 
-    (PointsCount: 81; FirstPoint: @cPacificHonolulu_9[0])
+    (PointsCount: 19; FirstPoint: @cPacificHonolulu_8[0]), 
+    (PointsCount: 49; FirstPoint: @cPacificHonolulu_9[0]), 
+    (PointsCount: 81; FirstPoint: @cPacificHonolulu_10[0])
   );
 
   cPacificHonoluluBound: TTimeZoneBound = (
-    Min: (X: -1742; Y: 187);
+    Min: (X: -1742; Y: 165);
     Max: (X: -1546; Y: 263)
   );
 
   cPacificHonolulu: TTimeZoneInfo = (
     TZID: 'Pacific/Honolulu';
     Bound: @cPacificHonoluluBound;
-    PolygonsCount: 10;
+    PolygonsCount: 11;
     FirstPolygon: @cPacificHonoluluPolygon[0]
   );
 

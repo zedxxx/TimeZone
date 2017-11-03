@@ -17,11 +17,7 @@ const
     (X: 1526; Y: 471)
   );
 
-  cAsiaUstNera_1: array [0..1] of TTimeZonePoint = (
-    (X: 1536; Y: 480), (X: 1536; Y: 480)
-  );
-
-  cAsiaUstNera_2: array [0..142] of TTimeZonePoint = (
+  cAsiaUstNera_1: array [0..142] of TTimeZonePoint = (
     (X: 1453; Y: 439), (X: 1455; Y: 441), (X: 1456; Y: 443), (X: 1457; Y: 444),
     (X: 1458; Y: 445), (X: 1458; Y: 446), (X: 1459; Y: 446), (X: 1459; Y: 447),
     (X: 1460; Y: 447), (X: 1461; Y: 447), (X: 1462; Y: 447), (X: 1463; Y: 447),
@@ -60,7 +56,7 @@ const
     (X: 1453; Y: 437), (X: 1453; Y: 438), (X: 1453; Y: 439)
   );
 
-  cAsiaUstNera_3: array [0..309] of TTimeZonePoint = (
+  cAsiaUstNera_2: array [0..309] of TTimeZonePoint = (
     (X: 1398; Y: 627), (X: 1397; Y: 628), (X: 1396; Y: 628), (X: 1396; Y: 629),
     (X: 1397; Y: 629), (X: 1396; Y: 629), (X: 1396; Y: 630), (X: 1396; Y: 631),
     (X: 1397; Y: 631), (X: 1396; Y: 632), (X: 1397; Y: 632), (X: 1397; Y: 633),
@@ -141,22 +137,21 @@ const
     (X: 1399; Y: 627), (X: 1398; Y: 627)
   );
 
-  cAsiaUstNeraPolygon: array[0..3] of TTimeZonePolygon = (
+  cAsiaUstNeraPolygon: array[0..2] of TTimeZonePolygon = (
     (PointsCount: 29; FirstPoint: @cAsiaUstNera_0[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaUstNera_1[0]), 
-    (PointsCount: 143; FirstPoint: @cAsiaUstNera_2[0]), 
-    (PointsCount: 310; FirstPoint: @cAsiaUstNera_3[0])
+    (PointsCount: 143; FirstPoint: @cAsiaUstNera_1[0]), 
+    (PointsCount: 310; FirstPoint: @cAsiaUstNera_2[0])
   );
 
   cAsiaUstNeraBound: TTimeZoneBound = (
     Min: (X: 1394; Y: 432);
-    Max: (X: 1536; Y: 656)
+    Max: (X: 1526; Y: 656)
   );
 
   cAsiaUstNera: TTimeZoneInfo = (
     TZID: 'Asia/Ust-Nera';
     Bound: @cAsiaUstNeraBound;
-    PolygonsCount: 4;
+    PolygonsCount: 3;
     FirstPolygon: @cAsiaUstNeraPolygon[0]
   );
 

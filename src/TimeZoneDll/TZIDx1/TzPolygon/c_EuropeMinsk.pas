@@ -6,7 +6,7 @@ uses
   t_TzWorld;
 
 const
-  cEuropeMinsk_0: array [0..576] of TTimeZonePoint = (
+  cEuropeMinsk_0: array [0..584] of TTimeZonePoint = (
     (X: 309; Y: 556), (X: 310; Y: 556), (X: 309; Y: 556), (X: 310; Y: 555),
     (X: 309; Y: 555), (X: 310; Y: 555), (X: 309; Y: 555), (X: 309; Y: 554),
     (X: 309; Y: 553), (X: 308; Y: 553), (X: 309; Y: 553), (X: 309; Y: 552),
@@ -55,7 +55,9 @@ const
     (X: 298; Y: 515), (X: 298; Y: 514), (X: 298; Y: 515), (X: 298; Y: 514),
     (X: 298; Y: 515), (X: 297; Y: 515), (X: 296; Y: 515), (X: 295; Y: 515),
     (X: 295; Y: 514), (X: 294; Y: 514), (X: 293; Y: 514), (X: 293; Y: 515),
-    (X: 293; Y: 516), (X: 292; Y: 516), (X: 292; Y: 517), (X: 291; Y: 517),
+    (X: 293; Y: 516), (X: 292; Y: 516), (X: 292; Y: 517), (X: 292; Y: 516),
+    (X: 292; Y: 517), (X: 292; Y: 516), (X: 292; Y: 517), (X: 291; Y: 517),
+    (X: 291; Y: 516), (X: 291; Y: 517), (X: 291; Y: 516), (X: 291; Y: 517),
     (X: 291; Y: 516), (X: 290; Y: 516), (X: 289; Y: 516), (X: 288; Y: 516),
     (X: 288; Y: 515), (X: 288; Y: 514), (X: 287; Y: 514), (X: 287; Y: 515),
     (X: 287; Y: 514), (X: 287; Y: 515), (X: 286; Y: 516), (X: 287; Y: 516),
@@ -159,7 +161,7 @@ const
   );
 
   cEuropeMinskPolygon: array[0..1] of TTimeZonePolygon = (
-    (PointsCount: 577; FirstPoint: @cEuropeMinsk_0[0]), 
+    (PointsCount: 585; FirstPoint: @cEuropeMinsk_0[0]), 
     (PointsCount: 3; FirstPoint: @cEuropeMinsk_1[0])
   );
 

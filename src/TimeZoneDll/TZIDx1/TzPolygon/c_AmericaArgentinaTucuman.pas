@@ -6,7 +6,7 @@ uses
   t_TzWorld;
 
 const
-  cAmericaArgentinaTucuman_0: array [0..85] of TTimeZonePoint = (
+  cAmericaArgentinaTucuman_0: array [0..86] of TTimeZonePoint = (
     (X: -660; Y: -274), (X: -660; Y: -273), (X: -661; Y: -273), (X: -661; Y: -272),
     (X: -661; Y: -271), (X: -660; Y: -271), (X: -660; Y: -270), (X: -659; Y: -270),
     (X: -659; Y: -269), (X: -659; Y: -268), (X: -658; Y: -268), (X: -658; Y: -267),
@@ -27,12 +27,12 @@ const
     (X: -653; Y: -279), (X: -654; Y: -278), (X: -654; Y: -279), (X: -655; Y: -279),
     (X: -655; Y: -280), (X: -656; Y: -280), (X: -657; Y: -280), (X: -657; Y: -279),
     (X: -657; Y: -278), (X: -658; Y: -278), (X: -657; Y: -278), (X: -658; Y: -278),
-    (X: -658; Y: -277), (X: -659; Y: -277), (X: -659; Y: -276), (X: -660; Y: -276),
-    (X: -660; Y: -275), (X: -660; Y: -274)
+    (X: -658; Y: -279), (X: -658; Y: -278), (X: -659; Y: -277), (X: -659; Y: -276),
+    (X: -660; Y: -276), (X: -660; Y: -275), (X: -660; Y: -274)
   );
 
   cAmericaArgentinaTucumanPolygon: array[0..0] of TTimeZonePolygon = (
-    (PointsCount: 86; FirstPoint: @cAmericaArgentinaTucuman_0[0])
+    (PointsCount: 87; FirstPoint: @cAmericaArgentinaTucuman_0[0])
   );
 
   cAmericaArgentinaTucumanBound: TTimeZoneBound = (

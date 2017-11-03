@@ -6,26 +6,26 @@ uses
   t_TzWorld;
 
 const
-  cPacificFunafuti_0: array [0..23] of TTimeZonePoint = (
-    (X: 1800; Y: -92), (X: 1800; Y: -96), (X: 1799; Y: -96), (X: 1798; Y: -96),
-    (X: 1797; Y: -96), (X: 1793; Y: -91), (X: 1789; Y: -88), (X: 1786; Y: -85),
-    (X: 1782; Y: -82), (X: 1781; Y: -82), (X: 1781; Y: -81), (X: 1781; Y: -80),
-    (X: 1781; Y: -79), (X: 1782; Y: -79), (X: 1782; Y: -78), (X: 1783; Y: -78),
-    (X: 1783; Y: -77), (X: 1784; Y: -77), (X: 1785; Y: -77), (X: 1785; Y: -78),
-    (X: 1789; Y: -80), (X: 1793; Y: -83), (X: 1797; Y: -88), (X: 1800; Y: -92)
-  );
-
-  cPacificFunafuti_1: array [0..7] of TTimeZonePoint = (
+  cPacificFunafuti_0: array [0..7] of TTimeZonePoint = (
     (X: -1800; Y: -92), (X: -1800; Y: -93), (X: -1799; Y: -93), (X: -1799; Y: -94),
     (X: -1799; Y: -95), (X: -1800; Y: -95), (X: -1800; Y: -96), (X: -1800; Y: -92)
   );
 
-  cPacificFunafuti_2: array [0..16] of TTimeZonePoint = (
+  cPacificFunafuti_1: array [0..16] of TTimeZonePoint = (
     (X: 1795; Y: -106), (X: 1796; Y: -106), (X: 1796; Y: -107), (X: 1797; Y: -107),
     (X: 1797; Y: -108), (X: 1797; Y: -109), (X: 1796; Y: -109), (X: 1796; Y: -110),
     (X: 1795; Y: -110), (X: 1794; Y: -110), (X: 1793; Y: -110), (X: 1793; Y: -109),
     (X: 1793; Y: -108), (X: 1793; Y: -107), (X: 1793; Y: -106), (X: 1794; Y: -106),
     (X: 1795; Y: -106)
+  );
+
+  cPacificFunafuti_2: array [0..23] of TTimeZonePoint = (
+    (X: 1786; Y: -85), (X: 1782; Y: -82), (X: 1781; Y: -82), (X: 1781; Y: -81),
+    (X: 1781; Y: -80), (X: 1781; Y: -79), (X: 1782; Y: -79), (X: 1782; Y: -78),
+    (X: 1783; Y: -78), (X: 1783; Y: -77), (X: 1784; Y: -77), (X: 1785; Y: -77),
+    (X: 1785; Y: -78), (X: 1789; Y: -80), (X: 1793; Y: -83), (X: 1797; Y: -88),
+    (X: 1800; Y: -92), (X: 1800; Y: -96), (X: 1799; Y: -96), (X: 1798; Y: -96),
+    (X: 1797; Y: -96), (X: 1793; Y: -91), (X: 1789; Y: -88), (X: 1786; Y: -85)
   );
 
   cPacificFunafuti_3: array [0..18] of TTimeZonePoint = (
@@ -69,9 +69,9 @@ const
   );
 
   cPacificFunafutiPolygon: array[0..7] of TTimeZonePolygon = (
-    (PointsCount: 24; FirstPoint: @cPacificFunafuti_0[0]), 
-    (PointsCount: 8; FirstPoint: @cPacificFunafuti_1[0]), 
-    (PointsCount: 17; FirstPoint: @cPacificFunafuti_2[0]), 
+    (PointsCount: 8; FirstPoint: @cPacificFunafuti_0[0]), 
+    (PointsCount: 17; FirstPoint: @cPacificFunafuti_1[0]), 
+    (PointsCount: 24; FirstPoint: @cPacificFunafuti_2[0]), 
     (PointsCount: 19; FirstPoint: @cPacificFunafuti_3[0]), 
     (PointsCount: 17; FirstPoint: @cPacificFunafuti_4[0]), 
     (PointsCount: 19; FirstPoint: @cPacificFunafuti_5[0]), 

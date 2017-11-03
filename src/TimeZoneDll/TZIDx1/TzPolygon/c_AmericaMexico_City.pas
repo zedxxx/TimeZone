@@ -195,27 +195,12 @@ const
     (X: -904; Y: 161)
   );
 
-  cAmericaMexico_City_5: array [0..1] of TTimeZonePoint = (
-    (X: -1036; Y: 211), (X: -1036; Y: 211)
-  );
-
-  cAmericaMexico_City_6: array [0..1] of TTimeZonePoint = (
-    (X: -1032; Y: 220), (X: -1032; Y: 220)
-  );
-
-  cAmericaMexico_City_7: array [0..1] of TTimeZonePoint = (
-    (X: -1031; Y: 221), (X: -1031; Y: 221)
-  );
-
-  cAmericaMexico_CityPolygon: array[0..7] of TTimeZonePolygon = (
+  cAmericaMexico_CityPolygon: array[0..4] of TTimeZonePolygon = (
     (PointsCount: 17; FirstPoint: @cAmericaMexico_City_0[0]), 
     (PointsCount: 21; FirstPoint: @cAmericaMexico_City_1[0]), 
     (PointsCount: 17; FirstPoint: @cAmericaMexico_City_2[0]), 
     (PointsCount: 25; FirstPoint: @cAmericaMexico_City_3[0]), 
-    (PointsCount: 601; FirstPoint: @cAmericaMexico_City_4[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaMexico_City_5[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaMexico_City_6[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaMexico_City_7[0])
+    (PointsCount: 601; FirstPoint: @cAmericaMexico_City_4[0])
   );
 
   cAmericaMexico_CityBound: TTimeZoneBound = (
@@ -226,7 +211,7 @@ const
   cAmericaMexico_City: TTimeZoneInfo = (
     TZID: 'America/Mexico_City';
     Bound: @cAmericaMexico_CityBound;
-    PolygonsCount: 8;
+    PolygonsCount: 5;
     FirstPolygon: @cAmericaMexico_CityPolygon[0]
   );
 

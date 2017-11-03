@@ -112,30 +112,20 @@ const
     (X: 1244; Y: -94), (X: 1243; Y: -94), (X: 1244; Y: -94), (X: 1244; Y: -93)
   );
 
-  cAsiaMakassar_2: array [0..2] of TTimeZonePoint = (
-    (X: 1276; Y: -25), (X: 1272; Y: -26), (X: 1276; Y: -25)
-  );
-
-  cAsiaMakassar_3: array [0..1] of TTimeZonePoint = (
-    (X: 1114; Y: -12), (X: 1114; Y: -12)
-  );
-
-  cAsiaMakassarPolygon: array[0..3] of TTimeZonePolygon = (
+  cAsiaMakassarPolygon: array[0..1] of TTimeZonePolygon = (
     (PointsCount: 378; FirstPoint: @cAsiaMakassar_0[0]), 
-    (PointsCount: 20; FirstPoint: @cAsiaMakassar_1[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaMakassar_2[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaMakassar_3[0])
+    (PointsCount: 20; FirstPoint: @cAsiaMakassar_1[0])
   );
 
   cAsiaMakassarBound: TTimeZoneBound = (
-    Min: (X: 1114; Y: -112);
+    Min: (X: 1138; Y: -112);
     Max: (X: 1278; Y: 58)
   );
 
   cAsiaMakassar: TTimeZoneInfo = (
     TZID: 'Asia/Makassar';
     Bound: @cAsiaMakassarBound;
-    PolygonsCount: 4;
+    PolygonsCount: 2;
     FirstPolygon: @cAsiaMakassarPolygon[0]
   );
 

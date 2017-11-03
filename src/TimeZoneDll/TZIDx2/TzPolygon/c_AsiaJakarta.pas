@@ -61,13 +61,8 @@ const
     (X: 11321; Y: -870)
   );
 
-  cAsiaJakarta_1: array [0..1] of TTimeZonePoint = (
-    (X: 11144; Y: -124), (X: 11144; Y: -124)
-  );
-
-  cAsiaJakartaPolygon: array[0..1] of TTimeZonePolygon = (
-    (PointsCount: 205; FirstPoint: @cAsiaJakarta_0[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaJakarta_1[0])
+  cAsiaJakartaPolygon: array[0..0] of TTimeZonePolygon = (
+    (PointsCount: 205; FirstPoint: @cAsiaJakarta_0[0])
   );
 
   cAsiaJakartaBound: TTimeZoneBound = (
@@ -78,7 +73,7 @@ const
   cAsiaJakarta: TTimeZoneInfo = (
     TZID: 'Asia/Jakarta';
     Bound: @cAsiaJakartaBound;
-    PolygonsCount: 2;
+    PolygonsCount: 1;
     FirstPolygon: @cAsiaJakartaPolygon[0]
   );
 

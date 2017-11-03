@@ -182,34 +182,34 @@ const
     (X: 74; Y: 540), (X: 74; Y: 541), (X: 75; Y: 540), (X: 74; Y: 540)
   );
 
-  cEuropeBerlin_3: array [0..1] of TTimeZonePoint = (
-    (X: 62; Y: 506), (X: 62; Y: 506)
-  );
-
-  cEuropeBerlin_4: array [0..2] of TTimeZonePoint = (
-    (X: 62; Y: 506), (X: 62; Y: 507), (X: 62; Y: 506)
-  );
-
-  cEuropeBerlin_5: array [0..1] of TTimeZonePoint = (
-    (X: 62; Y: 505), (X: 62; Y: 505)
-  );
-
-  cEuropeBerlin_6: array [0..2] of TTimeZonePoint = (
+  cEuropeBerlin_3: array [0..2] of TTimeZonePoint = (
     (X: 62; Y: 506), (X: 63; Y: 506), (X: 62; Y: 506)
   );
 
-  cEuropeBerlin_7: array [0..2] of TTimeZonePoint = (
+  cEuropeBerlin_4: array [0..1] of TTimeZonePoint = (
+    (X: 62; Y: 506), (X: 62; Y: 506)
+  );
+
+  cEuropeBerlin_5: array [0..2] of TTimeZonePoint = (
     (X: 62; Y: 506), (X: 62; Y: 505), (X: 62; Y: 506)
+  );
+
+  cEuropeBerlin_6: array [0..1] of TTimeZonePoint = (
+    (X: 62; Y: 505), (X: 62; Y: 505)
+  );
+
+  cEuropeBerlin_7: array [0..2] of TTimeZonePoint = (
+    (X: 62; Y: 506), (X: 62; Y: 507), (X: 62; Y: 506)
   );
 
   cEuropeBerlinPolygon: array[0..7] of TTimeZonePolygon = (
     (PointsCount: 653; FirstPoint: @cEuropeBerlin_0[0]), 
     (PointsCount: 5; FirstPoint: @cEuropeBerlin_1[0]), 
     (PointsCount: 4; FirstPoint: @cEuropeBerlin_2[0]), 
-    (PointsCount: 2; FirstPoint: @cEuropeBerlin_3[0]), 
-    (PointsCount: 3; FirstPoint: @cEuropeBerlin_4[0]), 
-    (PointsCount: 2; FirstPoint: @cEuropeBerlin_5[0]), 
-    (PointsCount: 3; FirstPoint: @cEuropeBerlin_6[0]), 
+    (PointsCount: 3; FirstPoint: @cEuropeBerlin_3[0]), 
+    (PointsCount: 2; FirstPoint: @cEuropeBerlin_4[0]), 
+    (PointsCount: 3; FirstPoint: @cEuropeBerlin_5[0]), 
+    (PointsCount: 2; FirstPoint: @cEuropeBerlin_6[0]), 
     (PointsCount: 3; FirstPoint: @cEuropeBerlin_7[0])
   );
 

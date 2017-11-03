@@ -24,63 +24,7 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      114.100000,22.500000,0 114.200000,22.500000,0 114.100000,22.500000,0 114.100000,22.600000,0 114.200000,22.600000,0 114.200000,22.500000,0 114.200000,22.600000,0 114.300000,22.600000,0 114.400000,22.600000,0 114.500000,22.500000,0 114.500000,22.400000,0 114.500000,22.100000,0 114.300000,22.100000,0 114.200000,22.100000,0 113.900000,22.100000,0 113.800000,22.200000,0 113.800000,22.300000,0 113.900000,22.300000,0 113.900000,22.400000,0 113.900000,22.500000,0 114.000000,22.500000,0 113.900000,22.500000,0 114.000000,22.500000,0 114.100000,22.500000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAsiaHong_Kong_1</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      113.900000,22.500000,0 113.900000,22.500000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAsiaHong_Kong_2</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      113.900000,22.500000,0 113.900000,22.500000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAsiaHong_Kong_3</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      113.900000,22.500000,0 113.900000,22.500000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAsiaHong_Kong_4</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      113.900000,22.500000,0 113.900000,22.500000,0 
+      114.100000,22.500000,0 114.200000,22.500000,0 114.100000,22.500000,0 114.100000,22.600000,0 114.200000,22.600000,0 114.200000,22.500000,0 114.200000,22.600000,0 114.300000,22.600000,0 114.400000,22.600000,0 114.500000,22.500000,0 114.500000,22.400000,0 114.500000,22.100000,0 114.300000,22.100000,0 114.200000,22.100000,0 113.900000,22.100000,0 113.800000,22.200000,0 113.800000,22.300000,0 113.900000,22.300000,0 113.900000,22.400000,0 113.900000,22.500000,0 114.000000,22.500000,0 114.100000,22.500000,0 
      </coordinates>
     </LinearRing>
    </outerBoundaryIs>

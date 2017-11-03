@@ -6,15 +6,13 @@ uses
   t_TzWorld;
 
 const
-  cPacificTongatapu_0: array [0..28] of TTimeZonePoint = (
-    (X: -1789; Y: -239), (X: -1789; Y: -240), (X: -1789; Y: -241), (X: -1790; Y: -241),
-    (X: -1791; Y: -241), (X: -1791; Y: -242), (X: -1792; Y: -242), (X: -1792; Y: -241),
-    (X: -1793; Y: -241), (X: -1794; Y: -241), (X: -1794; Y: -240), (X: -1794; Y: -239),
-    (X: -1794; Y: -238), (X: -1793; Y: -238), (X: -1792; Y: -237), (X: -1792; Y: -236),
-    (X: -1791; Y: -236), (X: -1791; Y: -235), (X: -1790; Y: -234), (X: -1789; Y: -234),
-    (X: -1788; Y: -234), (X: -1788; Y: -235), (X: -1787; Y: -235), (X: -1787; Y: -236),
-    (X: -1787; Y: -237), (X: -1787; Y: -238), (X: -1788; Y: -238), (X: -1788; Y: -239),
-    (X: -1789; Y: -239)
+  cPacificTongatapu_0: array [0..22] of TTimeZonePoint = (
+    (X: -1787; Y: -239), (X: -1788; Y: -240), (X: -1789; Y: -241), (X: -1790; Y: -241),
+    (X: -1791; Y: -241), (X: -1792; Y: -241), (X: -1792; Y: -240), (X: -1793; Y: -240),
+    (X: -1793; Y: -239), (X: -1794; Y: -239), (X: -1794; Y: -238), (X: -1794; Y: -237),
+    (X: -1793; Y: -236), (X: -1793; Y: -235), (X: -1792; Y: -235), (X: -1791; Y: -235),
+    (X: -1790; Y: -235), (X: -1789; Y: -235), (X: -1788; Y: -235), (X: -1788; Y: -236),
+    (X: -1787; Y: -237), (X: -1787; Y: -238), (X: -1787; Y: -239)
   );
 
   cPacificTongatapu_1: array [0..16] of TTimeZonePoint = (
@@ -106,7 +104,7 @@ const
   );
 
   cPacificTongatapuPolygon: array[0..9] of TTimeZonePolygon = (
-    (PointsCount: 29; FirstPoint: @cPacificTongatapu_0[0]), 
+    (PointsCount: 23; FirstPoint: @cPacificTongatapu_0[0]), 
     (PointsCount: 17; FirstPoint: @cPacificTongatapu_1[0]), 
     (PointsCount: 32; FirstPoint: @cPacificTongatapu_2[0]), 
     (PointsCount: 19; FirstPoint: @cPacificTongatapu_3[0]), 
@@ -119,7 +117,7 @@ const
   );
 
   cPacificTongatapuBound: TTimeZoneBound = (
-    Min: (X: -1794; Y: -242);
+    Min: (X: -1794; Y: -241);
     Max: (X: -1735; Y: -154)
   );
 

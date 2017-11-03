@@ -25,19 +25,24 @@ const
     (X: -1376; Y: 589), (X: -1379; Y: 588), (X: -1383; Y: 587)
   );
 
-  cAmericaYakutatPolygon: array[0..0] of TTimeZonePolygon = (
-    (PointsCount: 63; FirstPoint: @cAmericaYakutat_0[0])
+  cAmericaYakutat_1: array [0..1] of TTimeZonePoint = (
+    (X: -1410; Y: 617), (X: -1410; Y: 617)
+  );
+
+  cAmericaYakutatPolygon: array[0..1] of TTimeZonePolygon = (
+    (PointsCount: 63; FirstPoint: @cAmericaYakutat_0[0]), 
+    (PointsCount: 2; FirstPoint: @cAmericaYakutat_1[0])
   );
 
   cAmericaYakutatBound: TTimeZoneBound = (
     Min: (X: -1410; Y: 587);
-    Max: (X: -1375; Y: 604)
+    Max: (X: -1375; Y: 617)
   );
 
   cAmericaYakutat: TTimeZoneInfo = (
     TZID: 'America/Yakutat';
     Bound: @cAmericaYakutatBound;
-    PolygonsCount: 1;
+    PolygonsCount: 2;
     FirstPolygon: @cAmericaYakutatPolygon[0]
   );
 

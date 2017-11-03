@@ -109,11 +109,7 @@ const
     (X: -1054; Y: 210), (X: -1055; Y: 211)
   );
 
-  cAmericaMazatlan_3: array [0..1] of TTimeZonePoint = (
-    (X: -1055; Y: 227), (X: -1055; Y: 227)
-  );
-
-  cAmericaMazatlan_4: array [0..204] of TTimeZonePoint = (
+  cAmericaMazatlan_3: array [0..204] of TTimeZonePoint = (
     (X: -1125; Y: 280), (X: -1125; Y: 279), (X: -1125; Y: 278), (X: -1124; Y: 278),
     (X: -1123; Y: 278), (X: -1123; Y: 277), (X: -1122; Y: 277), (X: -1122; Y: 276),
     (X: -1121; Y: 276), (X: -1120; Y: 276), (X: -1120; Y: 277), (X: -1119; Y: 277),
@@ -168,12 +164,11 @@ const
     (X: -1125; Y: 280)
   );
 
-  cAmericaMazatlanPolygon: array[0..4] of TTimeZonePolygon = (
+  cAmericaMazatlanPolygon: array[0..3] of TTimeZonePolygon = (
     (PointsCount: 36; FirstPoint: @cAmericaMazatlan_0[0]), 
     (PointsCount: 19; FirstPoint: @cAmericaMazatlan_1[0]), 
     (PointsCount: 318; FirstPoint: @cAmericaMazatlan_2[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaMazatlan_3[0]), 
-    (PointsCount: 205; FirstPoint: @cAmericaMazatlan_4[0])
+    (PointsCount: 205; FirstPoint: @cAmericaMazatlan_3[0])
   );
 
   cAmericaMazatlanBound: TTimeZoneBound = (
@@ -184,7 +179,7 @@ const
   cAmericaMazatlan: TTimeZoneInfo = (
     TZID: 'America/Mazatlan';
     Bound: @cAmericaMazatlanBound;
-    PolygonsCount: 5;
+    PolygonsCount: 4;
     FirstPolygon: @cAmericaMazatlanPolygon[0]
   );
 

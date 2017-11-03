@@ -89,7 +89,7 @@ const
     (X: -644; Y: 604)
   );
 
-  cAmericaPangnirtung_1: array [0..169] of TTimeZonePoint = (
+  cAmericaPangnirtung_1: array [0..152] of TTimeZonePoint = (
     (X: -665; Y: 808), (X: -671; Y: 807), (X: -680; Y: 805), (X: -680; Y: 832),
     (X: -679; Y: 832), (X: -678; Y: 832), (X: -677; Y: 832), (X: -676; Y: 832),
     (X: -675; Y: 832), (X: -674; Y: 832), (X: -673; Y: 832), (X: -672; Y: 832),
@@ -127,17 +127,13 @@ const
     (X: -632; Y: 816), (X: -633; Y: 816), (X: -633; Y: 815), (X: -634; Y: 815),
     (X: -635; Y: 815), (X: -636; Y: 815), (X: -637; Y: 815), (X: -637; Y: 814),
     (X: -638; Y: 814), (X: -639; Y: 814), (X: -640; Y: 814), (X: -640; Y: 813),
-    (X: -641; Y: 813), (X: -642; Y: 813), (X: -643; Y: 813), (X: -644; Y: 813),
-    (X: -644; Y: 812), (X: -645; Y: 812), (X: -646; Y: 812), (X: -647; Y: 812),
-    (X: -648; Y: 812), (X: -649; Y: 812), (X: -649; Y: 811), (X: -650; Y: 811),
-    (X: -651; Y: 811), (X: -652; Y: 811), (X: -653; Y: 811), (X: -654; Y: 810),
-    (X: -655; Y: 810), (X: -656; Y: 810), (X: -657; Y: 810), (X: -663; Y: 808),
-    (X: -664; Y: 808), (X: -665; Y: 808)
+    (X: -641; Y: 813), (X: -642; Y: 813), (X: -663; Y: 808), (X: -664; Y: 808),
+    (X: -665; Y: 808)
   );
 
   cAmericaPangnirtungPolygon: array[0..1] of TTimeZonePolygon = (
     (PointsCount: 317; FirstPoint: @cAmericaPangnirtung_0[0]), 
-    (PointsCount: 170; FirstPoint: @cAmericaPangnirtung_1[0])
+    (PointsCount: 153; FirstPoint: @cAmericaPangnirtung_1[0])
   );
 
   cAmericaPangnirtungBound: TTimeZoneBound = (

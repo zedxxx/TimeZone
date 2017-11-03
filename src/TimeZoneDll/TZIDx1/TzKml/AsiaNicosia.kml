@@ -38,20 +38,6 @@
     <LinearRing>
      <extrude>1</extrude>
      <coordinates>
-      33.700000,35.000000,0 33.700000,35.000000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAsiaNicosia_2</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
       33.400000,35.200000,0 33.400000,35.200000,0 
      </coordinates>
     </LinearRing>

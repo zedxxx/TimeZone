@@ -44,33 +44,5 @@
    </outerBoundaryIs>
   </Polygon>
  </Placemark>
- <Placemark>
-  <name>cAsiaMakassar_2</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      127.580000,-2.480000,0 127.250000,-2.550000,0 127.580000,-2.480000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAsiaMakassar_3</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      111.440000,-1.240000,0 111.440000,-1.240000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
 </Document>
 </kml>

@@ -6,7 +6,32 @@ uses
   t_TzWorld;
 
 const
-  cAsiaManila_0: array [0..101] of TTimeZonePoint = (
+  cAsiaManila_0: array [0..17] of TTimeZonePoint = (
+    (X: 1160; Y: 107), (X: 1160; Y: 106), (X: 1159; Y: 106), (X: 1159; Y: 105),
+    (X: 1158; Y: 105), (X: 1157; Y: 105), (X: 1157; Y: 106), (X: 1156; Y: 106),
+    (X: 1156; Y: 107), (X: 1156; Y: 108), (X: 1156; Y: 109), (X: 1157; Y: 110),
+    (X: 1158; Y: 110), (X: 1159; Y: 110), (X: 1160; Y: 110), (X: 1160; Y: 109),
+    (X: 1160; Y: 108), (X: 1160; Y: 107)
+  );
+
+  cAsiaManila_1: array [0..22] of TTimeZonePoint = (
+    (X: 1143; Y: 112), (X: 1144; Y: 112), (X: 1145; Y: 111), (X: 1145; Y: 110),
+    (X: 1144; Y: 109), (X: 1145; Y: 109), (X: 1146; Y: 108), (X: 1146; Y: 107),
+    (X: 1146; Y: 106), (X: 1146; Y: 105), (X: 1145; Y: 105), (X: 1144; Y: 105),
+    (X: 1143; Y: 105), (X: 1142; Y: 106), (X: 1142; Y: 107), (X: 1142; Y: 108),
+    (X: 1143; Y: 108), (X: 1143; Y: 109), (X: 1142; Y: 109), (X: 1141; Y: 109),
+    (X: 1141; Y: 110), (X: 1142; Y: 111), (X: 1143; Y: 112)
+  );
+
+  cAsiaManila_2: array [0..19] of TTimeZonePoint = (
+    (X: 1175; Y: 151), (X: 1175; Y: 152), (X: 1175; Y: 153), (X: 1176; Y: 153),
+    (X: 1176; Y: 154), (X: 1177; Y: 154), (X: 1178; Y: 154), (X: 1179; Y: 154),
+    (X: 1179; Y: 153), (X: 1180; Y: 153), (X: 1180; Y: 152), (X: 1180; Y: 151),
+    (X: 1180; Y: 150), (X: 1179; Y: 149), (X: 1178; Y: 149), (X: 1177; Y: 149),
+    (X: 1176; Y: 149), (X: 1176; Y: 150), (X: 1175; Y: 150), (X: 1175; Y: 151)
+  );
+
+  cAsiaManila_3: array [0..101] of TTimeZonePoint = (
     (X: 1226; Y: 180), (X: 1227; Y: 171), (X: 1227; Y: 170), (X: 1227; Y: 168),
     (X: 1226; Y: 168), (X: 1226; Y: 167), (X: 1225; Y: 163), (X: 1231; Y: 146),
     (X: 1244; Y: 143), (X: 1245; Y: 142), (X: 1252; Y: 128), (X: 1253; Y: 127),
@@ -35,19 +60,22 @@ const
     (X: 1225; Y: 183), (X: 1226; Y: 180)
   );
 
-  cAsiaManilaPolygon: array[0..0] of TTimeZonePolygon = (
-    (PointsCount: 102; FirstPoint: @cAsiaManila_0[0])
+  cAsiaManilaPolygon: array[0..3] of TTimeZonePolygon = (
+    (PointsCount: 18; FirstPoint: @cAsiaManila_0[0]), 
+    (PointsCount: 23; FirstPoint: @cAsiaManila_1[0]), 
+    (PointsCount: 20; FirstPoint: @cAsiaManila_2[0]), 
+    (PointsCount: 102; FirstPoint: @cAsiaManila_3[0])
   );
 
   cAsiaManilaBound: TTimeZoneBound = (
-    Min: (X: 1167; Y: 42);
+    Min: (X: 1141; Y: 42);
     Max: (X: 1268; Y: 213)
   );
 
   cAsiaManila: TTimeZoneInfo = (
     TZID: 'Asia/Manila';
     Bound: @cAsiaManilaBound;
-    PolygonsCount: 1;
+    PolygonsCount: 4;
     FirstPolygon: @cAsiaManilaPolygon[0]
   );
 

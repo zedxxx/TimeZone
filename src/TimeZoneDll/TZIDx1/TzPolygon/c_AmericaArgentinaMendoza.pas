@@ -6,7 +6,7 @@ uses
   t_TzWorld;
 
 const
-  cAmericaArgentinaMendoza_0: array [0..249] of TTimeZonePoint = (
+  cAmericaArgentinaMendoza_0: array [0..253] of TTimeZonePoint = (
     (X: -700; Y: -367), (X: -700; Y: -366), (X: -701; Y: -366), (X: -701; Y: -365),
     (X: -702; Y: -365), (X: -702; Y: -364), (X: -702; Y: -363), (X: -703; Y: -363),
     (X: -704; Y: -363), (X: -704; Y: -362), (X: -704; Y: -361), (X: -704; Y: -360),
@@ -23,7 +23,8 @@ const
     (X: -699; Y: -341), (X: -698; Y: -341), (X: -698; Y: -340), (X: -699; Y: -340),
     (X: -699; Y: -339), (X: -699; Y: -338), (X: -699; Y: -337), (X: -699; Y: -336),
     (X: -699; Y: -335), (X: -698; Y: -335), (X: -698; Y: -334), (X: -698; Y: -333),
-    (X: -699; Y: -333), (X: -700; Y: -333), (X: -700; Y: -332), (X: -701; Y: -332),
+    (X: -699; Y: -333), (X: -699; Y: -332), (X: -699; Y: -333), (X: -700; Y: -333),
+    (X: -700; Y: -332), (X: -701; Y: -332), (X: -701; Y: -331), (X: -700; Y: -331),
     (X: -701; Y: -331), (X: -701; Y: -330), (X: -700; Y: -330), (X: -700; Y: -329),
     (X: -701; Y: -329), (X: -701; Y: -328), (X: -701; Y: -327), (X: -701; Y: -326),
     (X: -702; Y: -326), (X: -701; Y: -326), (X: -700; Y: -326), (X: -700; Y: -325),
@@ -73,7 +74,7 @@ const
   );
 
   cAmericaArgentinaMendozaPolygon: array[0..0] of TTimeZonePolygon = (
-    (PointsCount: 250; FirstPoint: @cAmericaArgentinaMendoza_0[0])
+    (PointsCount: 254; FirstPoint: @cAmericaArgentinaMendoza_0[0])
   );
 
   cAmericaArgentinaMendozaBound: TTimeZoneBound = (

@@ -29,11 +29,11 @@ const
     (X: 11943; Y: 2499), (X: 11943; Y: 2500)
   );
 
-  cAsiaTaipei_4: array [0..12] of TTimeZonePoint = (
+  cAsiaTaipei_4: array [0..15] of TTimeZonePoint = (
     (X: 11989; Y: 2615), (X: 11989; Y: 2618), (X: 11990; Y: 2624), (X: 11995; Y: 2629),
     (X: 11999; Y: 2632), (X: 12006; Y: 2632), (X: 12012; Y: 2627), (X: 12011; Y: 2621),
-    (X: 12004; Y: 2615), (X: 11998; Y: 2612), (X: 11993; Y: 2611), (X: 11989; Y: 2612),
-    (X: 11989; Y: 2615)
+    (X: 12004; Y: 2615), (X: 12001; Y: 2613), (X: 11999; Y: 2609), (X: 11996; Y: 2606),
+    (X: 11994; Y: 2607), (X: 11993; Y: 2611), (X: 11989; Y: 2612), (X: 11989; Y: 2615)
   );
 
   cAsiaTaipei_5: array [0..8] of TTimeZonePoint = (
@@ -98,11 +98,11 @@ const
   );
 
   cAsiaTaipei_10: array [0..18] of TTimeZonePoint = (
-    (X: 11669; Y: 2085), (X: 11675; Y: 2087), (X: 11682; Y: 2087), (X: 11688; Y: 2085),
-    (X: 11694; Y: 2080), (X: 11697; Y: 2075), (X: 11698; Y: 2068), (X: 11696; Y: 2062),
-    (X: 11693; Y: 2057), (X: 11687; Y: 2053), (X: 11681; Y: 2051), (X: 11674; Y: 2051),
-    (X: 11667; Y: 2053), (X: 11662; Y: 2058), (X: 11659; Y: 2063), (X: 11658; Y: 2070),
-    (X: 11659; Y: 2076), (X: 11663; Y: 2081), (X: 11669; Y: 2085)
+    (X: 11663; Y: 2081), (X: 11669; Y: 2085), (X: 11675; Y: 2087), (X: 11682; Y: 2087),
+    (X: 11688; Y: 2085), (X: 11694; Y: 2080), (X: 11697; Y: 2075), (X: 11698; Y: 2068),
+    (X: 11696; Y: 2062), (X: 11693; Y: 2057), (X: 11687; Y: 2053), (X: 11681; Y: 2051),
+    (X: 11674; Y: 2051), (X: 11667; Y: 2053), (X: 11662; Y: 2058), (X: 11659; Y: 2063),
+    (X: 11658; Y: 2070), (X: 11659; Y: 2076), (X: 11663; Y: 2081)
   );
 
   cAsiaTaipeiPolygon: array[0..10] of TTimeZonePolygon = (
@@ -110,7 +110,7 @@ const
     (PointsCount: 5; FirstPoint: @cAsiaTaipei_1[0]), 
     (PointsCount: 13; FirstPoint: @cAsiaTaipei_2[0]), 
     (PointsCount: 14; FirstPoint: @cAsiaTaipei_3[0]), 
-    (PointsCount: 13; FirstPoint: @cAsiaTaipei_4[0]), 
+    (PointsCount: 16; FirstPoint: @cAsiaTaipei_4[0]), 
     (PointsCount: 9; FirstPoint: @cAsiaTaipei_5[0]), 
     (PointsCount: 14; FirstPoint: @cAsiaTaipei_6[0]), 
     (PointsCount: 3; FirstPoint: @cAsiaTaipei_7[0]), 

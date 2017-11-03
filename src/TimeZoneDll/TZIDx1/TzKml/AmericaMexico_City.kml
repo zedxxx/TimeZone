@@ -86,47 +86,5 @@
    </outerBoundaryIs>
   </Polygon>
  </Placemark>
- <Placemark>
-  <name>cAmericaMexico_City_5</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -103.600000,21.100000,0 -103.600000,21.100000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaMexico_City_6</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -103.200000,22.000000,0 -103.200000,22.000000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
- <Placemark>
-  <name>cAmericaMexico_City_7</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -103.100000,22.100000,0 -103.100000,22.100000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
 </Document>
 </kml>

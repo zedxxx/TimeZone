@@ -136,8 +136,13 @@ const
     (X: 502; Y: 598), (X: 503; Y: 597)
   );
 
-  cEuropeKirovPolygon: array[0..0] of TTimeZonePolygon = (
-    (PointsCount: 506; FirstPoint: @cEuropeKirov_0[0])
+  cEuropeKirov_1: array [0..1] of TTimeZonePoint = (
+    (X: 486; Y: 600), (X: 486; Y: 600)
+  );
+
+  cEuropeKirovPolygon: array[0..1] of TTimeZonePolygon = (
+    (PointsCount: 506; FirstPoint: @cEuropeKirov_0[0]), 
+    (PointsCount: 2; FirstPoint: @cEuropeKirov_1[0])
   );
 
   cEuropeKirovBound: TTimeZoneBound = (
@@ -148,7 +153,7 @@ const
   cEuropeKirov: TTimeZoneInfo = (
     TZID: 'Europe/Kirov';
     Bound: @cEuropeKirovBound;
-    PolygonsCount: 1;
+    PolygonsCount: 2;
     FirstPolygon: @cEuropeKirovPolygon[0]
   );
 

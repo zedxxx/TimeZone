@@ -127,7 +127,21 @@ const
     (X: -16061; Y: 2185), (X: -16058; Y: 2186), (X: -16054; Y: 2186), (X: -16050; Y: 2186)
   );
 
-  cPacificHonolulu_8: array [0..89] of TTimeZonePoint = (
+  cPacificHonolulu_8: array [0..43] of TTimeZonePoint = (
+    (X: -16960; Y: 1695), (X: -16957; Y: 1697), (X: -16953; Y: 1698), (X: -16949; Y: 1699),
+    (X: -16946; Y: 1699), (X: -16942; Y: 1698), (X: -16938; Y: 1697), (X: -16935; Y: 1696),
+    (X: -16932; Y: 1693), (X: -16930; Y: 1691), (X: -16928; Y: 1688), (X: -16926; Y: 1684),
+    (X: -16925; Y: 1681), (X: -16925; Y: 1677), (X: -16926; Y: 1674), (X: -16927; Y: 1670),
+    (X: -16927; Y: 1667), (X: -16929; Y: 1664), (X: -16930; Y: 1661), (X: -16932; Y: 1659),
+    (X: -16935; Y: 1656), (X: -16938; Y: 1655), (X: -16941; Y: 1653), (X: -16944; Y: 1652),
+    (X: -16948; Y: 1652), (X: -16951; Y: 1651), (X: -16955; Y: 1651), (X: -16959; Y: 1651),
+    (X: -16962; Y: 1652), (X: -16966; Y: 1653), (X: -16969; Y: 1655), (X: -16971; Y: 1657),
+    (X: -16974; Y: 1660), (X: -16975; Y: 1663), (X: -16976; Y: 1666), (X: -16977; Y: 1670),
+    (X: -16977; Y: 1673), (X: -16976; Y: 1677), (X: -16975; Y: 1680), (X: -16973; Y: 1683),
+    (X: -16971; Y: 1687), (X: -16968; Y: 1690), (X: -16964; Y: 1693), (X: -16960; Y: 1695)
+  );
+
+  cPacificHonolulu_9: array [0..89] of TTimeZonePoint = (
     (X: -15558; Y: 2036), (X: -15552; Y: 2033), (X: -15536; Y: 2029), (X: -15520; Y: 2022),
     (X: -15506; Y: 2012), (X: -15494; Y: 2001), (X: -15484; Y: 1988), (X: -15477; Y: 1973),
     (X: -15473; Y: 1972), (X: -15469; Y: 1970), (X: -15466; Y: 1967), (X: -15464; Y: 1964),
@@ -153,7 +167,7 @@ const
     (X: -15562; Y: 2040), (X: -15558; Y: 2036)
   );
 
-  cPacificHonolulu_9: array [0..163] of TTimeZonePoint = (
+  cPacificHonolulu_10: array [0..163] of TTimeZonePoint = (
     (X: -15770; Y: 2106), (X: -15774; Y: 2106), (X: -15778; Y: 2105), (X: -15781; Y: 2105),
     (X: -15785; Y: 2106), (X: -15789; Y: 2107), (X: -15793; Y: 2108), (X: -15796; Y: 2110),
     (X: -15799; Y: 2111), (X: -15803; Y: 2110), (X: -15807; Y: 2109), (X: -15811; Y: 2109),
@@ -197,7 +211,7 @@ const
     (X: -15758; Y: 2109), (X: -15762; Y: 2107), (X: -15766; Y: 2106), (X: -15770; Y: 2106)
   );
 
-  cPacificHonoluluPolygon: array[0..9] of TTimeZonePolygon = (
+  cPacificHonoluluPolygon: array[0..10] of TTimeZonePolygon = (
     (PointsCount: 38; FirstPoint: @cPacificHonolulu_0[0]), 
     (PointsCount: 37; FirstPoint: @cPacificHonolulu_1[0]), 
     (PointsCount: 38; FirstPoint: @cPacificHonolulu_2[0]), 
@@ -206,19 +220,20 @@ const
     (PointsCount: 38; FirstPoint: @cPacificHonolulu_5[0]), 
     (PointsCount: 38; FirstPoint: @cPacificHonolulu_6[0]), 
     (PointsCount: 100; FirstPoint: @cPacificHonolulu_7[0]), 
-    (PointsCount: 90; FirstPoint: @cPacificHonolulu_8[0]), 
-    (PointsCount: 164; FirstPoint: @cPacificHonolulu_9[0])
+    (PointsCount: 44; FirstPoint: @cPacificHonolulu_8[0]), 
+    (PointsCount: 90; FirstPoint: @cPacificHonolulu_9[0]), 
+    (PointsCount: 164; FirstPoint: @cPacificHonolulu_10[0])
   );
 
   cPacificHonoluluBound: TTimeZoneBound = (
-    Min: (X: -17424; Y: 1871);
+    Min: (X: -17424; Y: 1651);
     Max: (X: -15459; Y: 2627)
   );
 
   cPacificHonolulu: TTimeZoneInfo = (
     TZID: 'Pacific/Honolulu';
     Bound: @cPacificHonoluluBound;
-    PolygonsCount: 10;
+    PolygonsCount: 11;
     FirstPolygon: @cPacificHonoluluPolygon[0]
   );
 

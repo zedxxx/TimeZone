@@ -176,24 +176,19 @@ const
     (X: -460; Y: -9), (X: -460; Y: -8), (X: -459; Y: -8)
   );
 
-  cAmericaFortaleza_1: array [0..1] of TTimeZonePoint = (
-    (X: -496; Y: -88), (X: -496; Y: -88)
-  );
-
-  cAmericaFortalezaPolygon: array[0..1] of TTimeZonePolygon = (
-    (PointsCount: 667; FirstPoint: @cAmericaFortaleza_0[0]), 
-    (PointsCount: 2; FirstPoint: @cAmericaFortaleza_1[0])
+  cAmericaFortalezaPolygon: array[0..0] of TTimeZonePolygon = (
+    (PointsCount: 667; FirstPoint: @cAmericaFortaleza_0[0])
   );
 
   cAmericaFortalezaBound: TTimeZoneBound = (
-    Min: (X: -496; Y: -109);
+    Min: (X: -488; Y: -109);
     Max: (X: -346; Y: -8)
   );
 
   cAmericaFortaleza: TTimeZoneInfo = (
     TZID: 'America/Fortaleza';
     Bound: @cAmericaFortalezaBound;
-    PolygonsCount: 2;
+    PolygonsCount: 1;
     FirstPolygon: @cAmericaFortalezaPolygon[0]
   );
 

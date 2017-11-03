@@ -6,7 +6,7 @@ uses
   t_TzWorld;
 
 const
-  cEuropeKiev_0: array [0..991] of TTimeZonePoint = (
+  cEuropeKiev_0: array [0..999] of TTimeZonePoint = (
     (X: 355; Y: 461), (X: 354; Y: 461), (X: 354; Y: 460), (X: 353; Y: 460),
     (X: 352; Y: 459), (X: 352; Y: 458), (X: 350; Y: 458), (X: 349; Y: 458),
     (X: 348; Y: 458), (X: 348; Y: 459), (X: 347; Y: 459), (X: 347; Y: 460),
@@ -133,7 +133,9 @@ const
     (X: 287; Y: 516), (X: 286; Y: 516), (X: 287; Y: 516), (X: 286; Y: 516),
     (X: 287; Y: 515), (X: 287; Y: 514), (X: 287; Y: 515), (X: 287; Y: 514),
     (X: 288; Y: 514), (X: 288; Y: 515), (X: 288; Y: 516), (X: 289; Y: 516),
-    (X: 290; Y: 516), (X: 291; Y: 516), (X: 291; Y: 517), (X: 292; Y: 517),
+    (X: 290; Y: 516), (X: 291; Y: 516), (X: 291; Y: 517), (X: 291; Y: 516),
+    (X: 291; Y: 517), (X: 291; Y: 516), (X: 291; Y: 517), (X: 292; Y: 517),
+    (X: 292; Y: 516), (X: 292; Y: 517), (X: 292; Y: 516), (X: 292; Y: 517),
     (X: 292; Y: 516), (X: 293; Y: 516), (X: 293; Y: 515), (X: 293; Y: 514),
     (X: 294; Y: 514), (X: 295; Y: 514), (X: 295; Y: 515), (X: 296; Y: 515),
     (X: 297; Y: 515), (X: 298; Y: 515), (X: 298; Y: 514), (X: 298; Y: 515),
@@ -258,7 +260,7 @@ const
   );
 
   cEuropeKievPolygon: array[0..0] of TTimeZonePolygon = (
-    (PointsCount: 992; FirstPoint: @cEuropeKiev_0[0])
+    (PointsCount: 1000; FirstPoint: @cEuropeKiev_0[0])
   );
 
   cEuropeKievBound: TTimeZoneBound = (

@@ -85,13 +85,8 @@ const
     (X: 12842; Y: 290)
   );
 
-  cAsiaJayapura_1: array [0..2] of TTimeZonePoint = (
-    (X: 12725; Y: -255), (X: 12758; Y: -248), (X: 12725; Y: -255)
-  );
-
-  cAsiaJayapuraPolygon: array[0..1] of TTimeZonePolygon = (
-    (PointsCount: 301; FirstPoint: @cAsiaJayapura_0[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaJayapura_1[0])
+  cAsiaJayapuraPolygon: array[0..0] of TTimeZonePolygon = (
+    (PointsCount: 301; FirstPoint: @cAsiaJayapura_0[0])
   );
 
   cAsiaJayapuraBound: TTimeZoneBound = (
@@ -102,7 +97,7 @@ const
   cAsiaJayapura: TTimeZoneInfo = (
     TZID: 'Asia/Jayapura';
     Bound: @cAsiaJayapuraBound;
-    PolygonsCount: 2;
+    PolygonsCount: 1;
     FirstPolygon: @cAsiaJayapuraPolygon[0]
   );
 

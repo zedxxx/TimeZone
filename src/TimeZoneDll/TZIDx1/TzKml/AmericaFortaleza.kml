@@ -30,19 +30,5 @@
    </outerBoundaryIs>
   </Polygon>
  </Placemark>
- <Placemark>
-  <name>cAmericaFortaleza_1</name>
-  <styleUrl>#default0</styleUrl>
-  <Polygon>
-   <outerBoundaryIs>
-    <LinearRing>
-     <extrude>1</extrude>
-     <coordinates>
-      -49.600000,-8.800000,0 -49.600000,-8.800000,0 
-     </coordinates>
-    </LinearRing>
-   </outerBoundaryIs>
-  </Polygon>
- </Placemark>
 </Document>
 </kml>

@@ -6,7 +6,7 @@ uses
   t_TzWorld;
 
 const
-  cAmericaBlancSablon_0: array [0..447] of TTimeZonePoint = (
+  cAmericaBlancSablon_0: array [0..446] of TTimeZonePoint = (
     (X: -6125; Y: 5200), (X: -6124; Y: 5200), (X: -6123; Y: 5200), (X: -6122; Y: 5200),
     (X: -6121; Y: 5200), (X: -6120; Y: 5200), (X: -6119; Y: 5200), (X: -6118; Y: 5200),
     (X: -6117; Y: 5200), (X: -6116; Y: 5200), (X: -6115; Y: 5200), (X: -6114; Y: 5200),
@@ -117,17 +117,17 @@ const
     (X: -5711; Y: 5186), (X: -5711; Y: 5185), (X: -5711; Y: 5184), (X: -5711; Y: 5179),
     (X: -5711; Y: 5175), (X: -5711; Y: 5166), (X: -5711; Y: 5161), (X: -5711; Y: 5159),
     (X: -5711; Y: 5154), (X: -5711; Y: 5152), (X: -5711; Y: 5151), (X: -5711; Y: 5142),
-    (X: -5711; Y: 5138), (X: -5694; Y: 5131), (X: -5790; Y: 5093), (X: -6010; Y: 4930),
-    (X: -6125; Y: 4857), (X: -6125; Y: 5017), (X: -6125; Y: 5180), (X: -6125; Y: 5200)
+    (X: -5711; Y: 5138), (X: -5711; Y: 5120), (X: -5774; Y: 5100), (X: -5894; Y: 4985),
+    (X: -6048; Y: 4878), (X: -6125; Y: 4848), (X: -6125; Y: 5200)
   );
 
   cAmericaBlancSablonPolygon: array[0..0] of TTimeZonePolygon = (
-    (PointsCount: 448; FirstPoint: @cAmericaBlancSablon_0[0])
+    (PointsCount: 447; FirstPoint: @cAmericaBlancSablon_0[0])
   );
 
   cAmericaBlancSablonBound: TTimeZoneBound = (
-    Min: (X: -6125; Y: 4857);
-    Max: (X: -5694; Y: 5200)
+    Min: (X: -6125; Y: 4848);
+    Max: (X: -5711; Y: 5200)
   );
 
   cAmericaBlancSablon: TTimeZoneInfo = (

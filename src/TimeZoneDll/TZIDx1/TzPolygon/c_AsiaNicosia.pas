@@ -30,17 +30,12 @@ const
   );
 
   cAsiaNicosia_1: array [0..1] of TTimeZonePoint = (
-    (X: 337; Y: 350), (X: 337; Y: 350)
-  );
-
-  cAsiaNicosia_2: array [0..1] of TTimeZonePoint = (
     (X: 334; Y: 352), (X: 334; Y: 352)
   );
 
-  cAsiaNicosiaPolygon: array[0..2] of TTimeZonePolygon = (
+  cAsiaNicosiaPolygon: array[0..1] of TTimeZonePolygon = (
     (PointsCount: 79; FirstPoint: @cAsiaNicosia_0[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaNicosia_1[0]), 
-    (PointsCount: 2; FirstPoint: @cAsiaNicosia_2[0])
+    (PointsCount: 2; FirstPoint: @cAsiaNicosia_1[0])
   );
 
   cAsiaNicosiaBound: TTimeZoneBound = (
@@ -51,7 +46,7 @@ const
   cAsiaNicosia: TTimeZoneInfo = (
     TZID: 'Asia/Nicosia';
     Bound: @cAsiaNicosiaBound;
-    PolygonsCount: 3;
+    PolygonsCount: 2;
     FirstPolygon: @cAsiaNicosiaPolygon[0]
   );
 

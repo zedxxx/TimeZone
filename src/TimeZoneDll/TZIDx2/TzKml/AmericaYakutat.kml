@@ -30,5 +30,19 @@
    </outerBoundaryIs>
   </Polygon>
  </Placemark>
+ <Placemark>
+  <name>cAmericaYakutat_1</name>
+  <styleUrl>#default0</styleUrl>
+  <Polygon>
+   <outerBoundaryIs>
+    <LinearRing>
+     <extrude>1</extrude>
+     <coordinates>
+      -141.000000,61.740000,0 -141.000000,61.740000,0 
+     </coordinates>
+    </LinearRing>
+   </outerBoundaryIs>
+  </Polygon>
+ </Placemark>
 </Document>
 </kml>

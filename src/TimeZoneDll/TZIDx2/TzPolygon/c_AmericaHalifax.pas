@@ -27,8 +27,8 @@ const
     (X: -5990; Y: 4416), (X: -5987; Y: 4417), (X: -5981; Y: 4421)
   );
 
-  cAmericaHalifax_1: array [0..1091] of TTimeZonePoint = (
-    (X: -5955; Y: 4726), (X: -5962; Y: 4723), (X: -5970; Y: 4719), (X: -5977; Y: 4715),
+  cAmericaHalifax_1: array [0..1089] of TTimeZonePoint = (
+    (X: -5959; Y: 4724), (X: -5962; Y: 4723), (X: -5970; Y: 4719), (X: -5977; Y: 4715),
     (X: -5985; Y: 4711), (X: -5993; Y: 4708), (X: -5993; Y: 4707), (X: -5994; Y: 4707),
     (X: -5994; Y: 4706), (X: -5995; Y: 4706), (X: -6001; Y: 4701), (X: -6007; Y: 4697),
     (X: -6007; Y: 4696), (X: -6006; Y: 4696), (X: -6006; Y: 4695), (X: -6005; Y: 4695),
@@ -299,18 +299,18 @@ const
     (X: -6364; Y: 4609), (X: -6363; Y: 4609), (X: -6361; Y: 4609), (X: -6365; Y: 4613),
     (X: -6366; Y: 4614), (X: -6367; Y: 4615), (X: -6370; Y: 4618), (X: -6371; Y: 4619),
     (X: -6374; Y: 4622), (X: -6375; Y: 4623), (X: -6434; Y: 4636), (X: -6456; Y: 4660),
-    (X: -6458; Y: 4669), (X: -6446; Y: 4707), (X: -6169; Y: 4852), (X: -6125; Y: 4857),
-    (X: -6050; Y: 4840), (X: -6030; Y: 4820), (X: -6030; Y: 4780), (X: -5955; Y: 4726)
+    (X: -6458; Y: 4669), (X: -6446; Y: 4707), (X: -6337; Y: 4766), (X: -6048; Y: 4878),
+    (X: -6040; Y: 4776), (X: -5959; Y: 4724)
   );
 
   cAmericaHalifaxPolygon: array[0..1] of TTimeZonePolygon = (
     (PointsCount: 71; FirstPoint: @cAmericaHalifax_0[0]), 
-    (PointsCount: 1092; FirstPoint: @cAmericaHalifax_1[0])
+    (PointsCount: 1090; FirstPoint: @cAmericaHalifax_1[0])
   );
 
   cAmericaHalifaxBound: TTimeZoneBound = (
     Min: (X: -6668; Y: 4320);
-    Max: (X: -5936; Y: 4857)
+    Max: (X: -5936; Y: 4878)
   );
 
   cAmericaHalifax: TTimeZoneInfo = (

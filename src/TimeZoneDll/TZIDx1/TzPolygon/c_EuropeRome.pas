@@ -62,7 +62,7 @@ const
     (X: 90; Y: 460), (X: 90; Y: 460)
   );
 
-  cEuropeRome_5: array [0..606] of TTimeZonePoint = (
+  cEuropeRome_5: array [0..607] of TTimeZonePoint = (
     (X: 132; Y: 455), (X: 132; Y: 454), (X: 131; Y: 454), (X: 130; Y: 454),
     (X: 129; Y: 454), (X: 128; Y: 451), (X: 128; Y: 449), (X: 127; Y: 447),
     (X: 126; Y: 446), (X: 126; Y: 445), (X: 126; Y: 444), (X: 126; Y: 443),
@@ -214,11 +214,11 @@ const
     (X: 136; Y: 459), (X: 136; Y: 458), (X: 137; Y: 458), (X: 138; Y: 458),
     (X: 138; Y: 457), (X: 138; Y: 458), (X: 138; Y: 457), (X: 139; Y: 457),
     (X: 139; Y: 456), (X: 138; Y: 456), (X: 137; Y: 456), (X: 136; Y: 456),
-    (X: 135; Y: 456), (X: 133; Y: 455), (X: 132; Y: 455)
+    (X: 135; Y: 456), (X: 134; Y: 456), (X: 133; Y: 455), (X: 132; Y: 455)
   );
 
   cEuropeRome_6: array [0..2] of TTimeZonePoint = (
-    (X: 125; Y: 419), (X: 124; Y: 419), (X: 125; Y: 419)
+    (X: 124; Y: 419), (X: 125; Y: 419), (X: 124; Y: 419)
   );
 
   cEuropeRome_7: array [0..4] of TTimeZonePoint = (
@@ -232,7 +232,7 @@ const
     (PointsCount: 44; FirstPoint: @cEuropeRome_2[0]), 
     (PointsCount: 70; FirstPoint: @cEuropeRome_3[0]), 
     (PointsCount: 2; FirstPoint: @cEuropeRome_4[0]), 
-    (PointsCount: 607; FirstPoint: @cEuropeRome_5[0]), 
+    (PointsCount: 608; FirstPoint: @cEuropeRome_5[0]), 
     (PointsCount: 3; FirstPoint: @cEuropeRome_6[0]), 
     (PointsCount: 5; FirstPoint: @cEuropeRome_7[0])
   );

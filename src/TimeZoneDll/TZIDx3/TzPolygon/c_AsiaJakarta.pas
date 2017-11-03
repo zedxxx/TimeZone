@@ -50,7 +50,7 @@ const
     (X: 107927; Y: 4975), (X: 107976; Y: 4990), (X: 107987; Y: 4992), (X: 108112; Y: 4974),
     (X: 108200; Y: 4885), (X: 108596; Y: 4103), (X: 109088; Y: 3131), (X: 109328; Y: 2765),
     (X: 109713; Y: 2315), (X: 109285; Y: 2241), (X: 108895; Y: 2060), (X: 108578; Y: 1706),
-    (X: 108176; Y: 1036), (X: 108045; Y: 463), (X: 108070; Y: -299), (X: 108736; Y: -962),
+    (X: 108176; Y: 1036), (X: 108045; Y: 463), (X: 108070; Y: -299), (X: 108736; Y: -963),
     (X: 109340; Y: -1071), (X: 109315; Y: -1308), (X: 109580; Y: -1520), (X: 109355; Y: -2441),
     (X: 109035; Y: -4059), (X: 110153; Y: -4637), (X: 110680; Y: -4715), (X: 111869; Y: -4893),
     (X: 112382; Y: -4969), (X: 113991; Y: -5188), (X: 114570; Y: -4963), (X: 116484; Y: -5414),
@@ -61,13 +61,8 @@ const
     (X: 114493; Y: -8984), (X: 113264; Y: -8706), (X: 113215; Y: -8703)
   );
 
-  cAsiaJakarta_1: array [0..2] of TTimeZonePoint = (
-    (X: 111435; Y: -1237), (X: 111437; Y: -1236), (X: 111435; Y: -1237)
-  );
-
-  cAsiaJakartaPolygon: array[0..1] of TTimeZonePolygon = (
-    (PointsCount: 207; FirstPoint: @cAsiaJakarta_0[0]), 
-    (PointsCount: 3; FirstPoint: @cAsiaJakarta_1[0])
+  cAsiaJakartaPolygon: array[0..0] of TTimeZonePolygon = (
+    (PointsCount: 207; FirstPoint: @cAsiaJakarta_0[0])
   );
 
   cAsiaJakartaBound: TTimeZoneBound = (
@@ -78,7 +73,7 @@ const
   cAsiaJakarta: TTimeZoneInfo = (
     TZID: 'Asia/Jakarta';
     Bound: @cAsiaJakartaBound;
-    PolygonsCount: 2;
+    PolygonsCount: 1;
     FirstPolygon: @cAsiaJakartaPolygon[0]
   );
 
